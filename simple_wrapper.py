@@ -9,16 +9,10 @@ importlib.reload(translate_to_vis)
 import pandas as pd
 
 
-
+#set main paths
 CUR_DIR = os.path.dirname(os.path.abspath(__name__))
 DATA_DIR = CUR_DIR+'/data/'
 DATA_DIR_HUMAN = DATA_DIR+'/human_annotation/'
-
-
-#select scenario and action choice
-filename = 'scenarios.json'
-scenario_id = 0
-act_id = '3'
 
 
 with open(DATA_DIR+filename, 'r') as file:
@@ -43,7 +37,7 @@ print(textwrap.fill(this_scenario_text, width = 100), '\n\n')
 
 output_filename = filename.split('.json')[0]+'_'+str(scenario_id)
 
-#load some human annotation data
+#load human annotation data
 this_human_filename = DATA_DIR_HUMAN+output_filename+'_choice_'+str(act_id)+'_value_scores.csv'
 all_human_data= {}
 if os.path.exists(this_human_filename):
