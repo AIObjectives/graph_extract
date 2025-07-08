@@ -14,15 +14,11 @@ import typer
 import importlib
 
 # local imports
-
 import get_emb_distances
 import prompts
 import node
 import utils
-
-
 importlib.reload(get_emb_distances)
-
 importlib.reload(prompts)
 importlib.reload(node)
 importlib.reload(utils)
@@ -140,57 +136,6 @@ def process_values(this_scenario, this_act_I, this_act, g):
 
   return (all_values_scored,all_values_flat_list)
 
-def evaluate_values(processed_values, this_scenario, this_act_I, all_human_data):  
-   
-    #for evaluation: score values from annotation list
-    #then compare with human value score data
-    hd_value_names = list(all_human_data['value_scores'].keys())
-    hd_value_scores = all_human_data['value_scores'].values()
-
-
- 
-    if type(all_human_data['values_missing'])=='str' and not np.isnan(all_human_data['values_missing']):
-      hd_values_missing =set([x.lower() for x in all_human_data['values_missing'].split(',')])
-    else:
-      hd_values_missing = set()
-    hd_highrated_valuenames = set([x for x in hd_value_names if all_human_data['value_scores'][x] > 70])
-
-    #print the high rated values
-    print('High-rated values:')
-    print(hd_highrated_valuenames)
-    #print the missing values
-    print('Missing values:')
-    print(hd_values_missing)
-
-    #does the list of values generated overlap with those rated highly by humans? by how much?
-    model_values = set(processed_values[1])
-    common_list = model_values.intersection(hd_highrated_valuenames)
-    print('Common high-rated values:')
-    print(common_list)
-
-    #compute percent overlap - of the model generated values, how many were highly rated?
-    overlap = len(common_list)/len(model_values)
-    print('Percent overlap with high-rated values: %.2f' %overlap)
-
-
-    # re-score values from annotation data already collected to evaluate the importance scoring
-    annot_values_scored = prompts.score_values(this_scenario, this_act_I,', '.join(hd_value_names))
-
-   # compare to scores from human data
-    #assert that the two dictionaries have the same keys  
-    assert set(all_human_data['value_scores'].keys()) == set(annot_values_scored.keys()) 
-    #run correlation on their values
-    annot_values_scored_values = list(annot_values_scored.values())
-    hd_value_scores_values = list(all_human_data['value_scores'].values())
-    annot_values_scored_values = [float(x) for x in annot_values_scored_values]
-    hd_value_scores_values = [float(x) for x in hd_value_scores_values]
-    print("scored values:")
-    print(annot_values_scored)
-    print("human data:")
-    print(all_human_data['value_scores'])
-    #calculate correlation
-    corr = np.corrcoef(annot_values_scored_values,hd_value_scores_values)
-    print('Value score correlation with human data: %.2f' %corr[0,1])
 
 def process_outcomes(this_scenario, this_act):   
 
@@ -278,7 +223,8 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
     print("Scored impacts for these beings:")
     print(beings_found_list)
     scored_values = list(impacts_Ziv.values())
-    
+    print(scored_values)
+
     #add node links, converting Ziv to I again
     #convert item "Ziv" to "I" in beings_found_list
 
