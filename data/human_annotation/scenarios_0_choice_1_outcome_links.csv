@@ -1,0 +1,19 @@
+"","outcome_name","link_type","annot_links","p10","p2","p3","p4","p5","p7","p9","subj_mean","agreement_percentage","subj_se"
+"1","My refusal to help may increase the burden on my mother and younger sister.","Cause",1,1,0,0,0,0,1,1,0.428571428571429,0.428571428571429,0.218217890235992
+"2","My refusal to help may increase the burden on my mother and younger sister.","Intend",0,0,1,0,1,0,1,0,0.428571428571429,0.571428571428571,0.218217890235992
+"3","My refusal to help may increase the burden on my mother and younger sister.","Expect",1,0,0,1,0,0,0,0,0.142857142857143,0.142857142857143,0.154303349962092
+"4","The dog's care and living conditions may not improve, continuing the cycle of neglect.","Cause",1,1,0,0,1,1,1,1,0.714285714285714,0.714285714285714,0.199204768222399
+"5","The dog's care and living conditions may not improve, continuing the cycle of neglect.","Intend",0,1,1,0,0,0,0,1,0.428571428571429,0.571428571428571,0.218217890235992
+"6","The dog's care and living conditions may not improve, continuing the cycle of neglect.","Expect",1,1,0,0,0,1,0,1,0.428571428571429,0.428571428571429,0.218217890235992
+"7","My relationship with my older sister may become more strained due to my stance.","Cause",1,0,0,0,0,1,1,1,0.428571428571429,0.428571428571429,0.218217890235992
+"8","My relationship with my older sister may become more strained due to my stance.","Intend",0,0,1,0,0,0,0,0,0.142857142857143,0.857142857142857,0.154303349962092
+"9","My relationship with my older sister may become more strained due to my stance.","Expect",1,1,0,1,1,1,0,0,0.571428571428571,0.571428571428571,0.218217890235992
+"10","My mother and younger sister may experience increased stress and frustration.","Cause",1,1,0,0,0,1,1,1,0.571428571428571,0.571428571428571,0.218217890235992
+"11","My mother and younger sister may experience increased stress and frustration.","Intend",0,0,0,0,0,0,0,0,0,1,0
+"12","My mother and younger sister may experience increased stress and frustration.","Expect",1,1,1,1,1,0,0,0,0.571428571428571,0.571428571428571,0.218217890235992
+"13","The dog may continue to suffer from a lack of proper training, attention, and care.","Cause",0,1,0,1,1,1,1,0,0.714285714285714,0.285714285714286,0.199204768222399
+"14","The dog may continue to suffer from a lack of proper training, attention, and care.","Intend",0,0,1,0,0,0,1,1,0.428571428571429,0.571428571428571,0.218217890235992
+"15","The dog may continue to suffer from a lack of proper training, attention, and care.","Expect",1,1,0,0,0,1,1,0,0.428571428571429,0.428571428571429,0.218217890235992
+"16","The living conditions in the apartment may deteriorate further without my assistance.","Cause",1,1,0,0,1,1,1,1,0.714285714285714,0.714285714285714,0.199204768222399
+"17","The living conditions in the apartment may deteriorate further without my assistance.","Intend",0,0,1,0,0,0,1,0,0.285714285714286,0.714285714285714,0.199204768222399
+"18","The living conditions in the apartment may deteriorate further without my assistance.","Expect",1,1,0,0,0,1,1,0,0.428571428571429,0.428571428571429,0.218217890235992

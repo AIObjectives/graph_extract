@@ -1,0 +1,22 @@
+"","outcome_name","link_type","annot_links","p1","p3","p4","p5","p6","p7","p9","subj_mean","agreement_percentage","subj_se"
+"1","My girlfriend may feel valued and respected because I am considering her preferences in the decision-making process.","Cause",1,1,1,1,0,0,0,1,0.571428571428571,0.571428571428571,0.218217890235992
+"2","My girlfriend may feel valued and respected because I am considering her preferences in the decision-making process.","Intend",1,0,1,1,1,1,1,1,0.857142857142857,0.857142857142857,0.154303349962092
+"3","My girlfriend may feel valued and respected because I am considering her preferences in the decision-making process.","Expect",1,1,1,0,0,1,0,0,0.428571428571429,0.428571428571429,0.218217890235992
+"4","The conversation may lead to a mutual understanding of their relationship's future.","Cause",1,0,1,1,0,1,1,0,0.571428571428571,0.571428571428571,0.218217890235992
+"5","The conversation may lead to a mutual understanding of their relationship's future.","Intend",1,1,1,1,1,0,0,0,0.571428571428571,0.571428571428571,0.218217890235992
+"6","The conversation may lead to a mutual understanding of their relationship's future.","Expect",1,0,1,0,0,0,0,1,0.285714285714286,0.285714285714286,0.199204768222399
+"7","My girlfriend might experience stress or anxiety over the possibility of the relationship ending.","Cause",1,1,1,1,0,1,1,1,0.857142857142857,0.857142857142857,0.154303349962092
+"8","My girlfriend might experience stress or anxiety over the possibility of the relationship ending.","Intend",0,0,0,0,1,0,0,1,0.285714285714286,0.714285714285714,0.199204768222399
+"9","My girlfriend might experience stress or anxiety over the possibility of the relationship ending.","Expect",1,0,1,1,0,1,0,1,0.571428571428571,0.571428571428571,0.218217890235992
+"10","My girlfriend and I could decide to work on our relationship or to part ways amicably.","Cause",1,1,1,0,0,0,0,1,0.428571428571429,0.428571428571429,0.218217890235992
+"11","My girlfriend and I could decide to work on our relationship or to part ways amicably.","Intend",1,0,1,1,1,1,1,0,0.714285714285714,0.714285714285714,0.199204768222399
+"12","My girlfriend and I could decide to work on our relationship or to part ways amicably.","Expect",1,0,1,0,0,0,0,0,0.142857142857143,0.142857142857143,0.154303349962092
+"13","My girlfriend may appreciate the honesty, leading to a more open and truthful dialogue between us.","Cause",1,1,1,1,0,0,0,0,0.428571428571429,0.428571428571429,0.218217890235992
+"14","My girlfriend may appreciate the honesty, leading to a more open and truthful dialogue between us.","Intend",1,1,1,1,1,1,0,1,0.857142857142857,0.857142857142857,0.154303349962092
+"15","My girlfriend may appreciate the honesty, leading to a more open and truthful dialogue between us.","Expect",1,1,1,0,0,1,1,0,0.571428571428571,0.571428571428571,0.218217890235992
+"16","The discussion could result in my girlfriend feeling insecure about her ability to make a life for herself independently in a new country.","Cause",1,1,1,1,0,1,1,1,0.857142857142857,0.857142857142857,0.154303349962092
+"17","The discussion could result in my girlfriend feeling insecure about her ability to make a life for herself independently in a new country.","Intend",0,0,0,0,1,0,0,1,0.285714285714286,0.714285714285714,0.199204768222399
+"18","The discussion could result in my girlfriend feeling insecure about her ability to make a life for herself independently in a new country.","Expect",1,0,0,0,0,1,0,0,0.142857142857143,0.142857142857143,0.154303349962092
+"19","I may feel relieved for sharing my feelings and intentions, reducing my guilt over the situation.","Cause",1,0,1,0,0,0,0,0,0.142857142857143,0.142857142857143,0.154303349962092
+"20","I may feel relieved for sharing my feelings and intentions, reducing my guilt over the situation.","Intend",1,0,1,1,1,1,0,1,0.714285714285714,0.714285714285714,0.199204768222399
+"21","I may feel relieved for sharing my feelings and intentions, reducing my guilt over the situation.","Expect",1,1,1,1,0,1,1,0,0.714285714285714,0.714285714285714,0.199204768222399
