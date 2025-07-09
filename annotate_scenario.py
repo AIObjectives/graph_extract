@@ -29,7 +29,7 @@ global config
 config = dotenv_values(".env")
 
 CUR_DIR = os.path.dirname(os.path.abspath(__name__))
-DATA_DIR = CUR_DIR+'/data/'
+DATA_DIR = CUR_DIR+'/scenarios/'
 
 
 
