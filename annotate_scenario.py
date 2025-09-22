@@ -157,6 +157,8 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
 
   #create list of impacts on each being
   impacts_list = []
+  impacts_df = []
+
   for this_evt_Ziv, this_evt_I in zip(events_Ziv,events_I):
 
     print('\nProcessing impacts of event: '+this_evt_I)
@@ -171,10 +173,24 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
     beings_string = ', '.join(beings_fixed_Ziv)
 
     impacts_Ziv = prompts.get_impacts_Ziv_multi(this_scenario_Ziv, this_act_Ziv, this_evt_Ziv, beings_string) 
-    try:        
-      impacts_Ziv = impacts_Ziv['results']
+    # # print(impacts_Ziv.values())
+    # impacts_Ziv = {}  
+    # for this_being in beings_fixed_Ziv:
+    #   impacts_Ziv[this_being] = prompts.get_impacts_Ziv(this_scenario_Ziv, this_act_Ziv, this_evt_Ziv, this_being)['score']
+    #   # print(impacts_Ziv)
+    
+    # try:        
+    impacts_Ziv = impacts_Ziv['results']
+    # except:
+    #   print('no impacts!')
+    #   print(impacts_Ziv)
+    #   pass
+
+    try:
+       scored_values = list(impacts_Ziv.values())
     except:
-      pass
+       #list of NAs equal to length of beings
+       scored_values = [None] * len(beings_fixed_Ziv)
 
     # try to align the returned beings list with the known beings list
     # create Ziv version of beings
@@ -182,11 +198,11 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
     beings_known_set = set(beings_fixed_Ziv)
     beings_found_list = list(impacts_Ziv.keys())
 
-    # beings_found_list_I = []
-    # for x in beings_found_list:
-    #   if(x!='I'):
-    #         x=x.lower()                
-    #   beings_found_list_I.append(prompts.convert_Ziv_I_item(x))
+    beings_found_list_I = []
+    for x in beings_found_list:
+      if(x!='I'):
+            x=x.lower()                
+      beings_found_list_I.append(prompts.convert_Ziv_I_item(x))
 
     beings_not_found = []
     for this_b in beings_found_list:
@@ -216,19 +232,44 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
           # for each one of those, see if you can find its corresponding item by semantic sim. 
             for item in beings_not_found:
               matches = prompts.find_semantic_match(item,beings_fixed_Ziv)
-              beings_found_list.remove(item)
-              rep_item = list(matches['result'].values())
-              beings_found_list.append(rep_item[0])
+              # print(scored_values)
+              # print(beings_found_list)
+              #find the index of this item in the beings_found_list
+              index = beings_found_list.index(item)  
+              print(f"Found unknown being {item} at index {index}")             
+                              
+              # print('Found semantic matches for '+item+':')
+              # print(matches)
+              
+                           
+              try:                  
+                  # rep_item = list(matches[item].values())
+                  rep_item = matches[item]
+                  # print("Replacing with: "+rep_item)
+                  beings_found_list[index] = rep_item
+                  print('Fixed beings list:')
+                  print(beings_found_list)  
+
+              except:
+                  #remove this item from the beings list and the scored_values list                 
+                  scored_values.pop(index)
+                  beings_found_list.pop(index)
+                  print('Error in semantic replacement')
 
     print("Scored impacts for these beings:")
     print(beings_found_list)
-    scored_values = list(impacts_Ziv.values())
+    print("Scored values:")
     print(scored_values)
 
     #add node links, converting Ziv to I again
     #convert item "Ziv" to "I" in beings_found_list
 
-    beings_found_list_I = [prompts.convert_Ziv_I_item(x) for x in beings_found_list]  
+    try:
+        beings_found_list_I = [prompts.convert_Ziv_I_item(x) for x in beings_found_list]
+    except:
+       print('error with beings found list!')
+       print(beings_found_list)
+       beings_found_list_I=beings_found_list
 
     for being,score in zip(beings_found_list_I,scored_values):
         # print(being)
@@ -242,14 +283,21 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
         items_to_write = ",".join([this_evt_I,being,str(score)])
         impacts_list.append(items_to_write)
 
-  return(impacts_list)
+    impacts_df.append([this_evt_I,beings_found_list_I, scored_values])
+    # print(impacts_df)
+
+
+  return(impacts_list,impacts_df)
 
 def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g):
    
     # dictionaries for translating into labels
     cause = {"No": 'C-', "Yes": 'C+',"no": 'C-', "yes": 'C+'}
     know = {"No": 'K-',"Yes": 'K+',"no": 'K-',"yes": 'K+'}
-    desire = {"No": 'D-', "Yes": 'D+',"no": 'D-', "yes": 'D+'}
+    intend = {"No": 'I-', "Yes": 'I+',"no": 'I-', "yes": 'I+'}
+
+    #structure for data return
+    all_links = []
 
     for this_evt,this_evt_I in zip(events_Ziv,events_I):
 
@@ -259,18 +307,29 @@ def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g
         this_being_I = 'I'
         print('\nProcessing event: ' + this_evt_I)
 
+     
+
         #try to get the right links, ensure correct labels 
         success = 0
         count = 0
         while(success==0):        
-
-            links = prompts.get_being_links_Ziv_only(this_scenario_Ziv, this_act_Ziv, this_evt, this_being)
+            links = {}
+            links_cause = prompts.get_being_links_Ziv_only_cause(this_scenario_Ziv, this_act_Ziv, this_evt, this_being)
             count = count+1
-            
-            resp=links['results'][this_being]
+            links['cause'] = links_cause['results'][this_being]
+
+
+            links_intend = prompts.get_being_links_Ziv_only_intend(this_scenario_Ziv, this_act_Ziv, this_evt, this_being)
+            links['intend'] = links_intend['results'][this_being]
+
+
+            links_know = prompts.get_being_links_Ziv_only_know(this_scenario_Ziv, this_act_Ziv, this_evt, this_being)
+            links['know'] = links_know['results'][this_being]
+
+            print(links)
                 
-            #check that resp consists of exactly three yes or no's
-            x = [y for y in resp if y in ['Yes','yes','No','no']]
+        #     # check that resp consists of yes or no's
+            x = [y for y in links.values() if y in ['Yes','yes','No','no']]
             #if this works, good, otherwise set success back to 0
             if(len(x) == 3):
                 success = 1
@@ -280,13 +339,14 @@ def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g
             if(count >5):
                 print('\n\n***Failed to get all correct links, check your scenario.**\n\n')
             
-        # for now, just do being I
-        # for each being, add the link to the graph with the right label
-        # for being,resp in links['results'].items():                
+        # # for now, just do being I
+        # # for each being, add the link to the graph with the right label
+        # # for being in links_cause['results'].items():                
 
-        this_label = cause[resp[0]] + know[resp[1]] + desire[resp[2]]   
-        print('CDK links for I')
-        print(this_label)            
+        this_label = cause[links['cause']] + intend[links['intend']] + know[links['know']]
+        print('CKI links for I')
+        print(this_label)           
+        output_links = {'outcome': this_evt_I, 'cause': cause[links['cause']], 'know': know[links['know']], 'intend': intend[links['intend']]}
 
         #create a new link
         # Link(kind,value):
@@ -294,6 +354,9 @@ def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g
         this_b_node = g.return_node(this_being_I)[0]
         this_event_node = g.return_node(this_evt_I)[0]
         this_b_node.link_link(this_link,this_event_node)
+        all_links.append(output_links)
+
+    return all_links
 
 # scenario json must be a single line with scenario json with entries 'id', 'text', and 'options' {1:, 2: , etc}
 def main(scenario_json,output_filename,act_id,all_human_data):
@@ -355,7 +418,7 @@ def main(scenario_json,output_filename,act_id,all_human_data):
     scenario_dict["outcomes"]= events_I
 
     # #UTILITIES
-    impacts_list = process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, events_I,beings_fixed_Ziv,g) 
+    [impacts_list,impacts_df] = process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, events_I,beings_fixed_Ziv,g) 
 
     # #CAUSAL AND INTENTIONAL LINKS
     process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g)    
