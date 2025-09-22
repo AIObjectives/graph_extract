@@ -28,6 +28,7 @@ def promptGPT(prompt_message_list, gpt_temperature=0, debug=False):
     response = requests.post(gpt_url, headers=gpt_headers, json=gpt_data)    
     if(debug==True):
         output = response.json()
+        print(response)
     else:
         output = response.json()['choices'][0]['message']['content']
 
@@ -45,8 +46,12 @@ def get_response_dict(system_prompt_content, user_prompt_content):
         "content": user_prompt_content,
     }
     # print([system_prompt,user_prompt])
-
-    response_dict = json.loads(promptGPT([system_prompt,user_prompt],0,False))
+    try:
+        response_dict = json.loads(promptGPT([system_prompt,user_prompt],0,False))
+    except:
+        debug_resp = promptGPT([system_prompt,user_prompt],0,True)
+        print(debug_resp)
+        response_dict = {}
     return response_dict
 
 
@@ -63,3 +68,6 @@ def write_json(fname,dictionary):
     json_file =  open(fname, 'w')     
     json_file.write(json.dumps(dictionary))
     json_file.close()
+
+
+    
