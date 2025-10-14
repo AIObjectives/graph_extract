@@ -2,22 +2,24 @@ import json
 import os
 import textwrap 
 import typer
-import annotate_scenario
-import translate_to_vis
+import src.annotate_scenario as annotate_scenario
+import src.translate_to_vis as translate_to_vis
 import importlib
+import pandas as pd
 importlib.reload(annotate_scenario)
 importlib.reload(translate_to_vis)
 
 
 CUR_DIR = os.path.dirname(os.path.abspath(__name__))
-DATA_DIR = CUR_DIR+'/data/'
+# DATA_DIR = CUR_DIR+'/data/'
+DATA_DIR = CUR_DIR+'/formatted_franken/data/conditions_mild_harm_mild_good/'
 DATA_DIR_HUMAN = DATA_DIR+'/human_annotation/'
 
 
 # filename = 'scenarios.json'
 # scenario_id = 1
 
-def main(filename: str = 'scenarios.json', scenario_id: int = 0):
+def main(filename: str = 'cc_evitable_action_yes_stories.json', scenario_id: int = 0):
 
     with open(DATA_DIR+filename, 'r') as file:
         scenarios=json.load(file)

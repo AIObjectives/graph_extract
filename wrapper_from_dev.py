@@ -2,8 +2,8 @@ import json
 import os
 import textwrap 
 import typer
-import annotate_scenario
-import translate_to_vis
+import src.annotate_scenario as annotate_scenario
+import src.translate_to_vis as translate_to_vis
 import importlib
 importlib.reload(annotate_scenario)
 importlib.reload(translate_to_vis)
@@ -11,7 +11,7 @@ importlib.reload(translate_to_vis)
 
 
 CUR_DIR = os.path.dirname(os.path.abspath(__name__))
-DATA_DIR = CUR_DIR+'formatted_franken/data/conditions_mild_harm_mild_good/'
+DATA_DIR = CUR_DIR+'/formatted_franken/data/conditions_mild_harm_mild_good/'
 
 
 # filename = 'scenarios.json'
