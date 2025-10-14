@@ -1,0 +1,402 @@
+[
+    {
+        "id": 0,
+        "text": "I, an Architect, face a moral dilemma. I have the opportunity to renovate a park in the city. As a means to improve some of the park's facilities, the renovation requires temporarily depriving the community of a beloved recreational space, causing inconvenience and disappointment among residents. If I do not renovate the park, the temporary deprivation of the recreational space and the resulting inconvenience and disappointment would still happen because of a city mandate for construction.",
+        "options": {
+            "1": "I renovate the park.",
+            "2": "I do not renovate the park."
+        }
+    },
+    {
+        "id": 1,
+        "text": "I, an Engineer, face a moral dilemma. I have the opportunity to upgrade the company's server system. As a means to slightly improve data processing speed, the upgrade process requires the company's server system to be offline for a few hours, causing a temporary halt in the company's operations. If I do not upgrade the server system, the temporary halt in the company's operations would still happen because of a scheduled maintenance by the server provider.",
+        "options": {
+            "1": "I upgrade the server system.",
+            "2": "I do not upgrade the server system."
+        }
+    },
+    {
+        "id": 2,
+        "text": "I, a Teacher, face a moral dilemma. I have the opportunity to implement a new teaching method in his classroom. As a means to help a small number of students get better at solving math puzzles, the new teaching method requires students to attend class one hour earlier. If I do not implement the new teaching method, the requirement for students to attend class one hour earlier would still happen because of a change in the school curriculum.",
+        "options": {
+            "1": "I implement the new teaching method.",
+            "2": "I do not implement the new teaching method."
+        }
+    },
+    {
+        "id": 3,
+        "text": "I, a Nurse, face a moral dilemma. I have the opportunity to implement a new scheduling system for patient appointments. As a means to achieve a nicer looking user interface, the implementation of the new scheduling system requires a temporary disruption in booking appointments, causing a delay for patients needing to schedule their visits. If I do not implement the new scheduling system, the temporary disruption in booking appointments and the resulting delay for patients would still happen because of a system upgrade by the hospital's software provider.",
+        "options": {
+            "1": "I implement the new scheduling system.",
+            "2": "I do not implement the new scheduling system."
+        }
+    },
+    {
+        "id": 4,
+        "text": "I, a Chef, face a moral dilemma. I have the opportunity to change the menu of her restaurant. As a means to introduce two new food options and attract a few new customers, the change in menu requires removing some of the customer's favorite dishes, causing disappointment among regular customers. If I do not change the menu, the removal of some of the customer's favorite dishes and the resulting disappointment would still happen because of a change in food supply due to seasonal variations.",
+        "options": {
+            "1": "I change the menu.",
+            "2": "I do not change the menu."
+        }
+    },
+    {
+        "id": 5,
+        "text": "I, an Artist, face a moral dilemma. I have the opportunity to organize an interactive outdoor art exhibit. As a means to increase local interest in art, the exhibit requires the temporary use of a public space, limiting its availability for regular community activities. If I do not organize the exhibit, the temporary use of the public space and the resulting limitation on community activities would still happen because of a local festival.",
+        "options": {
+            "1": "I organize the exhibit.",
+            "2": "I do not organize the exhibit."
+        }
+    },
+    {
+        "id": 6,
+        "text": "I, a Lawyer, face a moral dilemma. I have the opportunity to conduct a series of intensive mock trials for her law firm's junior associates. As a means to slightly improve the litigation skills of the junior associates, conducting a series of intensive mock trials requires extra work hours for the junior associates. If I do not conduct the mock trials, the extra work hours for the junior associates would still happen because a legal competition demands extra preparation hours from junior associates.",
+        "options": {
+            "1": "I conduct the mock trials.",
+            "2": "I do not conduct the mock trials."
+        }
+    },
+    {
+        "id": 7,
+        "text": "I, a Mechanic, face a moral dilemma. I have the opportunity to reorganize a workshop for better workflow. As a means to slightly enhance efficiency in the workshop, the reorganization requires temporarily closing the workshop, delaying service to regular customers. If I do not reorganize the workshop, the temporary closure of the workshop and the resulting delay in service to regular customers would still happen because of a mandatory safety inspection.",
+        "options": {
+            "1": "I reorganize the workshop.",
+            "2": "I do not reorganize the workshop."
+        }
+    },
+    {
+        "id": 8,
+        "text": "I, a Soldier, face a moral dilemma. I have the opportunity to test a new, lightweight but less protective combat gear in training exercises. As a means to test the benefits of lighter gear, it is required to remove some of the gear's heavier protection against bruises. If I do not test the new combat gear, the marginally less protection against bruises would still happen because military regulations shift towards prioritizing mobility, introducing gear that is less protective but increases agility.",
+        "options": {
+            "1": "I test the new, lightweight combat gear.",
+            "2": "I do not test the new, lightweight combat gear."
+        }
+    },
+    {
+        "id": 9,
+        "text": "I, a Policeman, face a moral dilemma. I have the opportunity to initiate a graffiti removal project in local neighborhoods. As a means to remove unpleasant graffiti, the graffiti removal project requires covering up street murals that have artistic value. If I do not initiate the graffiti removal project, the covering up of street murals that have artistic value would still happen because of a city beautification campaign.",
+        "options": {
+            "1": "I initiate the graffiti removal project.",
+            "2": "I do not initiate the graffiti removal project."
+        }
+    },
+    {
+        "id": 10,
+        "text": "I, a Musician, face a moral dilemma. I have the opportunity to record a new album. As a means to focus solely on her music, resulting in an album that her fans will enjoy, the recording process requires I to isolate herself from her family and friends for a few weeks, causing them to miss her and feel lonely. If I do not record the new album, the isolation from her family and friends and the resulting loneliness would still happen because a music competition requires her to isolate herself for a few weeks to prepare.",
+        "options": {
+            "1": "I record the new album.",
+            "2": "I do not record the new album."
+        }
+    },
+    {
+        "id": 11,
+        "text": "I, a Carpenter, face a moral dilemma. I have the opportunity to replace the old wooden flooring in a historical building. As a means to ensure the building\u00e2\u20ac\u2122s safety and preserve the building for future occupants, the replacement of the old wooden flooring requires the removal of the original wooden flooring, causing some loss of historical authenticity. If I do not replace the old wooden flooring, the removal of the original wooden flooring and the resulting loss of historical authenticity would still happen because a building safety inspection mandates the replacement of the old wooden flooring.",
+        "options": {
+            "1": "I replace the old wooden flooring.",
+            "2": "I do not replace the old wooden flooring."
+        }
+    },
+    {
+        "id": 12,
+        "text": "I, a Mayor, face a moral dilemma. I have the opportunity to implement a new traffic regulation in the city. As a means to reduce the number of road accidents, the implementation of the new traffic regulation requires the temporary closure of a major road, causing traffic congestion and inconvenience to commuters. If I do not implement the new traffic regulation, the temporary closure of the major road and the resulting traffic congestion and inconvenience would still happen because of a major road construction project.",
+        "options": {
+            "1": "I implement the new traffic regulation.",
+            "2": "I do not implement the new traffic regulation."
+        }
+    },
+    {
+        "id": 13,
+        "text": "I, an Accountant, face a moral dilemma. I have the opportunity to implement a new accounting software in his company. As a means to streamline the company's financial operations, improving efficiency and accuracy, the implementation of the new accounting software requires I to temporarily halt the company's financial operations, causing a brief period of financial inactivity and revenue loss. If I do not implement the new accounting software, the temporary halt in the company's financial operations and the resulting brief period of financial inactivity and revenue loss would still happen because of a mandatory software update from the current accounting software provider.",
+        "options": {
+            "1": "I implement the new accounting software.",
+            "2": "I do not implement the new accounting software."
+        }
+    },
+    {
+        "id": 14,
+        "text": "I, a Writer, face a moral dilemma. I have the opportunity to write a controversial book. As a means to spark important conversations and debates about the topic, writing this controversial book requires disclosing potentially sensitive content that upsets some readers. If I do not write the controversial book, the disclosure of potentially sensitive content that upsets some readers would still happen because of a trending topic in the news.",
+        "options": {
+            "1": "I write the controversial book.",
+            "2": "I do not write the controversial book."
+        }
+    },
+    {
+        "id": 15,
+        "text": "I, a Pilot, face a moral dilemma. I have the opportunity to perform a test flight of a new aircraft model. As a means to provide data that leads to improvements in flight safety and efficiency, the test flight requires I to cancel a scheduled commercial flight, causing inconvenience to passengers who have to reschedule their travel. If I do not perform the test flight, the cancellation of the scheduled commercial flight and the resulting inconvenience to passengers would still happen because of a mandatory safety inspection of the aircraft.",
+        "options": {
+            "1": "I perform the test flight.",
+            "2": "I do not perform the test flight."
+        }
+    },
+    {
+        "id": 16,
+        "text": "I, a Pharmacist, face a moral dilemma. I have the opportunity to introduce a new, more effective flu vaccine in her pharmacy. As a means to provide better protection against the flu, reducing the number of flu cases among her customers, the introduction of the new vaccine requires I to discontinue the old vaccine, which may cause some discomfort and confusion among customers who are used to the old vaccine. If I do not introduce the new vaccine, the discontinuation of the old vaccine and the resulting discomfort and confusion would still happen because the pharmaceutical company discontinues the old vaccine.",
+        "options": {
+            "1": "I introduce the new vaccine.",
+            "2": "I do not introduce the new vaccine."
+        }
+    },
+    {
+        "id": 17,
+        "text": "I, an Actor, face a moral dilemma. I have the opportunity to take on a challenging role in a new film. As a means to boost his career and earn critical acclaim, My challenging role requires him to train intensely away from his family, causing them inconvenience and discomfort. If I do not take on the challenging role, the inconvenience and discomfort to his family would still happen because of the family's vacation that requires them to spend time away.",
+        "options": {
+            "1": "I take on the challenging role in the new film.",
+            "2": "I do not take on the challenging role in the new film."
+        }
+    },
+    {
+        "id": 18,
+        "text": "I, an Electrician, face a moral dilemma. I have the opportunity to upgrade the electrical system in an old apartment building. As a means to improve the efficiency of the building's power supply, the upgrade requires a temporary power outage in the building, causing inconvenience for the residents. If I do not upgrade the electrical system, the temporary power outage and the resulting inconvenience for the residents would still happen because of a city-wide electrical maintenance.",
+        "options": {
+            "1": "I upgrade the electrical system.",
+            "2": "I do not upgrade the electrical system."
+        }
+    },
+    {
+        "id": 19,
+        "text": "I, a Plumber, face a moral dilemma. I have the opportunity to replace the old pipes in a residential building. This action requires I to temporarily cut off the water supply to the house, causing a brief period of inconvenience for the residents. My colleague have the opportunity to replace an old, inefficient water heater in a client's home.",
+        "options": {
+            "1": "If I replace the old pipes, the temporary water cut-off and the resulting inconvenience to the residents would not happen.",
+            "2": "If I do not replace the old pipes, the temporary water cut-off and the resulting inconvenience to the residents would not happen."
+        }
+    },
+    {
+        "id": 20,
+        "text": "Ii Ling, a Librarian, face a moral dilemma. Ii Ling have the opportunity to reorganize the library's book collection. As a means to improve the overall user experience for library patrons by creating a more intuitive and efficient system for locating books, the reorganization requires temporarily removing books from the shelves, causing a brief period where library patrons cannot access certain books. If Ii Ling does not reorganize the library's book collection, the brief period where library patrons cannot access certain books would still happen because of a mandatory library audit.",
+        "options": {
+            "1": "Ii Ling reorganizes the library's book collection.",
+            "2": "Ii do not Ling reorganizes the library's book collection."
+        }
+    },
+    {
+        "id": 21,
+        "text": "I, a Scientist, face a moral dilemma. I have the opportunity to conduct an experiment that could potentially lead to a breakthrough in cancer research. As a means to provide valuable data that contributes to the development of a new cancer treatment method, the experiment requires the temporary shutdown of the laboratory's main computer system, causing a delay in other ongoing research projects. If I do not conduct the experiment, the delay in other ongoing research projects would still happen because of a mandatory system upgrade.",
+        "options": {
+            "1": "I conduct the experiment.",
+            "2": "I do not conduct the experiment."
+        }
+    },
+    {
+        "id": 22,
+        "text": "I, a Bartender, face a moral dilemma. I have the opportunity to introduce a new cocktail to the bar's menu. As a means to attract more customers and increase the bar's revenue, the introduction of this new cocktail requires the removal of a less popular but still beloved drink from the menu, causing mild disappointment among a few regular customers. If I do not introduce the new cocktail, the mild disappointment among a few regular customers would still happen because of a supplier shortage leading to the removal of the less popular drink from the menu.",
+        "options": {
+            "1": "I introduce the new cocktail.",
+            "2": "I do not introduce the new cocktail."
+        }
+    },
+    {
+        "id": 23,
+        "text": "I, a Hairdresser, face a moral dilemma. I have the opportunity to introduce a new hair treatment service in her salon. As a means to attract a new clientele who are willing to pay for premium services, increasing the salon's overall revenue, the introduction of the new hair treatment service requires increasing the prices of the existing services, causing mild financial discomfort to her regular clients. If I do not introduce the new hair treatment service, the mild financial discomfort to her regular clients would still happen because of an increase in the cost of hair care products.",
+        "options": {
+            "1": "I introduce the new hair treatment service.",
+            "2": "I do not introduce the new hair treatment service."
+        }
+    },
+    {
+        "id": 24,
+        "text": "I, a Designer, face a moral dilemma. I have the opportunity to redesign the company's website. As a means to improve user experience and functionality, leading to increased customer satisfaction, the redesign requires temporarily shutting down the company's website, causing a brief interruption in online services for customers. If I do not redesign the company's website, the brief interruption in online services for customers would still happen because of a necessary server maintenance.",
+        "options": {
+            "1": "I redesign the company's website.",
+            "2": "I do not redesign the company's website."
+        }
+    },
+    {
+        "id": 25,
+        "text": "I, a Photographer, face a moral dilemma. I have the opportunity to switch to a digital format for her photography. As a means to take more photos, edit them more easily, and deliver them to clients faster, the switch to a digital format requires I to stop using film, which may disappoint her clients who prefer the aesthetic of film photography. If I do not switch to a digital format, the disappointment of her clients who prefer the aesthetic of film photography would still happen because the manufacturer discontinues the film that I uses.",
+        "options": {
+            "1": "I switche to a digital format.",
+            "2": "I do not switche to a digital format."
+        }
+    },
+    {
+        "id": 26,
+        "text": "I, a Waitstaff, face a moral dilemma. I have the opportunity to enforce a strict no-tipping policy at the restaurant he works at. As a means to achieve a fairer wage system for all staff, reducing wage disparity, enforcing the no-tipping policy requires upsetting some customers who believe in the culture of tipping. If I do not enforce the no-tipping policy, upsetting some customers who believe in the culture of tipping would still happen because a new law banning tipping in restaurants will definitely upset the same customers.",
+        "options": {
+            "1": "I enforce the no-tipping policy.",
+            "2": "I do not enforce the no-tipping policy."
+        }
+    },
+    {
+        "id": 27,
+        "text": "I, a Firefighter, face a moral dilemma. I have the opportunity to conduct a controlled burn in a residential area. As a means to make space for a new beautiful plant species, the controlled burn requires the temporary evacuation of residents from their homes, causing mild inconvenience and distress. If I do not conduct the controlled burn, the temporary evacuation of residents from their homes, causing mild inconvenience and distress, would still happen because a small, naturally occurring fire starts in the residential area.",
+        "options": {
+            "1": "I conduct the controlled burn.",
+            "2": "I do not conduct the controlled burn."
+        }
+    },
+    {
+        "id": 28,
+        "text": "I, a Janitor, face a moral dilemma. I have the opportunity to replace the old, worn-out carpet in the office building. As a means to improve the overall aesthetics of the office and provide a more comfortable environment for the workers, the replacement of the carpet requires the temporary closure of some areas in the office, causing inconvenience to the office workers. If I do not replace the old, worn-out carpet, the temporary closure of some areas in the office and the resulting inconvenience to the office workers would still happen because a water leak will occur, damaging the old carpet and necessitating its replacement.",
+        "options": {
+            "1": "I replace the old, worn-out carpet.",
+            "2": "I do not replace the old, worn-out carpet."
+        }
+    },
+    {
+        "id": 29,
+        "text": "I, a Banker, face a moral dilemma. I have the opportunity to introduce a new banking policy that limits the number of free monthly transactions. As a means to increase the bank's revenue, which is then used to improve customer services and banking facilities, the new policy requires customers to pay a small fee for transactions beyond the free limit, causing mild financial inconvenience. If I do not introduce the new banking policy, the financial inconvenience for customers would still happen because a new government regulation will definitely occur, leading to the same limitation on the number of free monthly transactions.",
+        "options": {
+            "1": "I introduce the new banking policy.",
+            "2": "I do not introduce the new banking policy."
+        }
+    },
+    {
+        "id": 30,
+        "text": "I, a Cashier, face a moral dilemma. I have the opportunity to implement a new digital payment system at his store. As a means to speed up the checkout process and reduce waiting time for customers, the implementation of the new digital payment system requires I to temporarily shut down the store's payment system, causing inconvenience to customers. If I do not implement the new digital payment system, the temporary shutdown of the store's payment system and the inconvenience to customers would still happen because of a mandatory software update from the payment system provider.",
+        "options": {
+            "1": "I implement the new digital payment system.",
+            "2": "I do not implement the new digital payment system."
+        }
+    },
+    {
+        "id": 31,
+        "text": "I, a Salesperson, face a moral dilemma. I have the opportunity to sell a more expensive product to a customer. As a means to provide the customer with a better long-term investment, selling the more expensive product requires the customer to spend more money than they initially intended, causing a mild financial strain. If I do not sell the more expensive product, the customer spending more money than they initially intended and causing a mild financial strain would still happen because of a sudden price increase in the market.",
+        "options": {
+            "1": "I sell the more expensive product.",
+            "2": "I do not sell the more expensive product."
+        }
+    },
+    {
+        "id": 32,
+        "text": "I, a Therapist, face a moral dilemma. I have the opportunity to implement a new therapy technique in her practice. As a means to accelerate the healing process of her clients with the new therapy technique, the implementation requires I to temporarily stop therapy sessions with her clients, which may cause some distress and interruption in their healing process. If I do not implement the new therapy technique, the temporary stop in therapy sessions and the resulting distress and interruption in the healing process of her clients would still happen because of a mandatory training for therapists.",
+        "options": {
+            "1": "I implement the new therapy technique.",
+            "2": "I do not implement the new therapy technique."
+        }
+    },
+    {
+        "id": 33,
+        "text": "I, a Tailor, face a moral dilemma. I have the opportunity to introduce a new, more efficient sewing machine into his tailoring process. As a means to increase the speed and quality of My tailoring, leading to faster service and better-finished products in the future, the introduction of the new sewing machine requires temporarily halting his tailoring services, causing a delay for customers waiting for their clothes to be tailored. If I do not introduce the new sewing machine, the temporary halt of his tailoring services and the resulting delay for customers would still happen because of a mandatory safety inspection of all sewing machines in the area.",
+        "options": {
+            "1": "I introduce the new sewing machine.",
+            "2": "I do not introduce the new sewing machine."
+        }
+    },
+    {
+        "id": 34,
+        "text": "I, a Gardener, face a moral dilemma. I have the opportunity to prune her prize-winning rose bush drastically. As a means to stimulate the growth of new, healthier branches and blooms in the long run, the drastic pruning required will cause the rose bush to lose its lush appearance temporarily. If I do not prune her prize-winning rose bush drastically, the rose bush would still lose its lush appearance temporarily because of a sudden, unexpected frost.",
+        "options": {
+            "1": "I prune her prize-winning rose bush drastically.",
+            "2": "I do not prune her prize-winning rose bush drastically."
+        }
+    },
+    {
+        "id": 35,
+        "text": "I, an Economist, face a moral dilemma. I have the opportunity to propose an increase in taxes on luxury goods. As a means to generate additional government revenue which can be used for public services and infrastructure, the proposal requires the wealthy to pay more for luxury goods, causing a mild financial burden. If I do not propose an increase in taxes on luxury goods, the mild financial burden on the wealthy would still happen because of a global economic downturn.",
+        "options": {
+            "1": "I propose an increase in taxes on luxury goods.",
+            "2": "I do not propose an increase in taxes on luxury goods."
+        }
+    },
+    {
+        "id": 36,
+        "text": "I, a Florist, face a moral dilemma. I have the opportunity to rearrange her flower shop. As a means to potentially attract more customers due to its aesthetic appeal and improved layout, the rearrangement requires I to temporarily close her shop for a day, causing a small loss in daily revenue. If I do not rearrange her flower shop, the small loss in daily revenue would still happen because of a minor renovation in the building.",
+        "options": {
+            "1": "I rearrange her flower shop.",
+            "2": "I do not rearrange her flower shop."
+        }
+    },
+    {
+        "id": 37,
+        "text": "I, an Analyst, face a moral dilemma. I have the opportunity to implement a new data management system in her company. As a means to improve data organization and retrieval, the implementation requires the temporary disruption of data access for all employees. If I do not implement the new data management system, the temporary disruption of data access for all employees would still happen because of a mandatory software upgrade from the current data management system provider.",
+        "options": {
+            "1": "I implement the new data management system.",
+            "2": "I do not implement the new data management system."
+        }
+    },
+    {
+        "id": 38,
+        "text": "I, a Butcher, face a moral dilemma. I have the opportunity to switch to a new supplier for his meat products. As a means to improve the taste of My products and increase customer satisfaction in the long run, the switch to a new supplier requires I to temporarily stop selling meat products, causing a brief period of revenue loss and customer dissatisfaction. If I do not switch to the new supplier, the brief period of revenue loss and customer dissatisfaction would still happen because of a mandatory inspection from the current supplier.",
+        "options": {
+            "1": "I switche to the new supplier.",
+            "2": "I do not switche to the new supplier."
+        }
+    },
+    {
+        "id": 39,
+        "text": "I, a Baker, face a moral dilemma. I have the opportunity to switch to using organic ingredients in her bakery. As a means to improve the quality of her baked goods and attract a new customer base who prefer organic products, the switch to organic ingredients requires increasing the prices of her baked goods, which may upset some of her regular customers. If I do not switch to using organic ingredients, the increase in the prices of her baked goods would still happen because of a new law mandating the use of organic ingredients in all bakeries.",
+        "options": {
+            "1": "I switche to using organic ingredients.",
+            "2": "I do not switche to using organic ingredients."
+        }
+    },
+    {
+        "id": 40,
+        "text": "I, a Driver, face a moral dilemma. I have the opportunity to install a new GPS system in his car. As a means to improve his navigation, reducing his travel time and fuel consumption, My installation of a new GPS system requires him to take his car off the road for a day, causing a slight loss in his daily income. If I do not install the new GPS system, taking his car off the road for a day and the resulting loss in his daily income would still happen because a mandatory vehicle inspection leads to My car being off the road for a day.",
+        "options": {
+            "1": "I install the new GPS system.",
+            "2": "I do not install the new GPS system."
+        }
+    },
+    {
+        "id": 41,
+        "text": "I, a Surgeon, face a moral dilemma. I have the opportunity to perform a minor, non-life-threatening surgery on a patient. As a means to improve the patient's quality of life by eliminating a persistent health issue, performing a minor, non-life-threatening surgery requires causing temporary discomfort and recovery time for the patient. If I do not perform the minor, non-life-threatening surgery, the temporary discomfort and recovery time for the patient would still happen because the patient accidentally injures themselves in a way that necessitates the same surgery.",
+        "options": {
+            "1": "I perform the minor, non-life-threatening surgery.",
+            "2": "I do not perform the minor, non-life-threatening surgery."
+        }
+    },
+    {
+        "id": 42,
+        "text": "I, a Chemist, face a moral dilemma. I have the opportunity to develop a new, more efficient fuel. As a means to produce a more efficient and environmentally friendly fuel, the development process requires I to use a significant amount of resources and energy, contributing to a mild increase in her lab's carbon footprint. If I do not develop the new fuel, the use of significant resources and energy, contributing to a mild increase in her lab's carbon footprint, would still happen because a government mandate for cleaner fuels will definitely occur.",
+        "options": {
+            "1": "I develop the new, more efficient fuel.",
+            "2": "I do not develop the new, more efficient fuel."
+        }
+    },
+    {
+        "id": 43,
+        "text": "I, a Historian, face a moral dilemma. I have the opportunity to write a controversial book about a misunderstood period in history. As a means to lead to a better understanding of that historical period and spark important conversations about history and its interpretation, writing the controversial book requires I to present some uncomfortable truths that could upset certain readers and cause a minor public backlash. If I do not write the controversial book, the presentation of uncomfortable truths and the minor public backlash would still happen because a popular documentary series decides to cover the same misunderstood period in history.",
+        "options": {
+            "1": "I write the controversial book.",
+            "2": "I do not write the controversial book."
+        }
+    },
+    {
+        "id": 44,
+        "text": "I, a Welder, face a moral dilemma. I have the opportunity to work on a high-profile project that requires advanced welding techniques. As a means to enhance her reputation in the welding industry and open up more lucrative opportunities, My involvement in the high-profile project requires her to work overtime, which could lead to fatigue and less time spent with her family. If I do not work on the high-profile project, working overtime and the resulting fatigue and less time spent with her family would still happen because an unexpected surge in project deadlines at her workplace will definitely occur.",
+        "options": {
+            "1": "I work on the high-profile project.",
+            "2": "I do not work on the high-profile project."
+        }
+    },
+    {
+        "id": 45,
+        "text": "I, a Coach, face a moral dilemma. I have the opportunity to implement a new, rigorous training regimen for her team. As a means to achieve the improvement in the team's overall performance and resilience, leading to better results in their games, the opportunity to implement a new, rigorous training regimen requires the team to endure more physical strain and fatigue than they are accustomed to, which could lead to temporary discomfort and potential minor injuries. If I do not implement the new, rigorous training regimen, the team would still have to endure more physical strain and fatigue, leading to temporary discomfort and potential minor injuries because a new league policy mandates more intensive training for all teams.",
+        "options": {
+            "1": "I implement the new, rigorous training regimen.",
+            "2": "I do not implement the new, rigorous training regimen."
+        }
+    },
+    {
+        "id": 46,
+        "text": "I, a Geologist, face a moral dilemma. I have the opportunity to conduct a geological survey in a small, peaceful town. As a means to achieve the discovery of a valuable mineral deposit beneath the town, which could boost the local economy, the opportunity to conduct a geological survey requires drilling into the ground, causing mild disturbance and noise pollution to the town's residents. If I do not conduct the geological survey, the drilling and the resulting mild disturbance and noise pollution to the town's residents would still happen because an external mining company will definitely conduct a similar survey.",
+        "options": {
+            "1": "I conduct the geological survey.",
+            "2": "I do not conduct the geological survey."
+        }
+    },
+    {
+        "id": 47,
+        "text": "I, a Miner, face a moral dilemma. I have the opportunity to implement a new mining technique in the mine. As a means to achieve the increase in efficiency of the mining operations, leading to higher yields and potentially higher income for the miners in the long run, the opportunity to implement a new mining technique requires I to temporarily halt the mining operations, causing a short-term loss of income for the miners. If I do not implement the new mining technique, the miners would still suffer a short-term loss of income because a necessary maintenance of the mining equipment will definitely occur.",
+        "options": {
+            "1": "I implement the new mining technique.",
+            "2": "I do not implement the new mining technique."
+        }
+    },
+    {
+        "id": 48,
+        "text": "I, a Secretary, face a moral dilemma. I have the opportunity to digitize all the office files and documents. As a means to achieve the improvement in office operations efficiency and reduce the use of paper, contributing to environmental conservation, the opportunity to digitize all the office files and documents requires the temporary unavailability of all files and documents, causing a brief halt in office operations. If I do not digitize all the office files and documents, the temporary unavailability of all files and documents, causing a brief halt in office operations, would still happen because a mandatory office renovation will definitely occur.",
+        "options": {
+            "1": "I digitize all the office files and documents.",
+            "2": "I do not digitize all the office files and documents."
+        }
+    },
+    {
+        "id": 49,
+        "text": "I, a Barista, face a moral dilemma. I have the opportunity to introduce a new coffee blend in the caf\u00c3\u00a9. As a means to achieve the diversification of the caf\u00c3\u00a9's suppliers and support for small businesses, the opportunity to introduce a new coffee blend requires temporarily discontinuing a popular coffee blend, causing dissatisfaction among regular customers. If I do not introduce the new coffee blend, the popular coffee blend would still be temporarily discontinued, causing dissatisfaction among regular customers, because a supply shortage will definitely occur.",
+        "options": {
+            "1": "I introduce the new coffee blend.",
+            "2": "I do not introduce the new coffee blend."
+        }
+    }
+]
