@@ -381,7 +381,7 @@ def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g
     return all_links
 
 # scenario json must be a single line with scenario json with entries 'id', 'text', and 'options' {1:, 2: , etc}
-def main(scenario_json,output_filename,act_id,all_human_data):
+def main(scenario_json,output_filename,act_id):
    
    # validate the scenario json
     assert isinstance(scenario_json['id'],int)
@@ -429,8 +429,6 @@ def main(scenario_json,output_filename,act_id,all_human_data):
     scenario_dict["values"]= processed_values[1]
     print(processed_values[1])
     
-    #compare to human data
-    evaluate_values(processed_values,this_scenario, this_act_I, all_human_data)
     
     # #OUTCOMES
     processed_events = process_outcomes(this_scenario, this_act)
@@ -447,7 +445,7 @@ def main(scenario_json,output_filename,act_id,all_human_data):
 
     # #write scenario dict as json for qualtrics output
     # this_output_filename_qual = 'qualtrics_'+output_filename+'_choice_'+str(act_id)+'.json'
-    # write_json(this_output_filename_qual,[scenario_dict])     
+    # utils.write_json(this_output_filename_qual,[scenario_dict])     
             
     this_output_filename = output_filename+'_choice_'+str(act_id)+'.json'
     print('\n\nWriting to file: '+this_output_filename)
