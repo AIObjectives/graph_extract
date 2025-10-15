@@ -2,24 +2,28 @@ import json
 import os
 import textwrap 
 import typer
-import annotate_scenario
-import translate_to_vis
+import pandas as pd
+import src.annotate_scenario as annotate_scenario
+import src.translate_to_vis as translate_to_vis
 import importlib
 importlib.reload(annotate_scenario)
 importlib.reload(translate_to_vis)
+from pathlib import Path
 
 
-CUR_DIR = os.path.dirname(os.path.abspath(__name__))
-DATA_DIR = CUR_DIR+'/data/'
-DATA_DIR_HUMAN = DATA_DIR+'/human_annotation/'
+CUR_DIR = Path().resolve()
+#DATA_DIR = CUR_DIR / "data"
+#DATA_DIR_HUMAN = DATA_DIR / 'human_annotation'
+SCENARIO_DIR = CUR_DIR / 'scenarios'
+OUTPUT_DIR = CUR_DIR / 'annotated_outputs'
 
 
 # filename = 'scenarios.json'
 # scenario_id = 1
 
-def main(filename: str = 'scenarios.json', scenario_id: int = 0):
+def main(filename: str = 'nie_scenarios.json', scenario_id: int = 0):
 
-    with open(DATA_DIR+filename, 'r') as file:
+    with open(SCENARIO_DIR / filename, 'r', encoding='utf-8') as file:
         scenarios=json.load(file)
 
     # error handling for assumptions about json entries
@@ -33,7 +37,7 @@ def main(filename: str = 'scenarios.json', scenario_id: int = 0):
     assert scenario_json['text']
     assert scenario_json['options']
 
-    # display the scnenario text read in 
+    # display the scenario text read in 
     this_scenario_text = scenario_json["text"]    
     print('Scenario Text: \n\n')
     print(textwrap.fill(this_scenario_text, width = 100), '\n\n')
@@ -46,7 +50,8 @@ def main(filename: str = 'scenarios.json', scenario_id: int = 0):
     for act_id in scenario_json['options'].keys(): 
 
         #load some human annotation data
-        this_human_filename = DATA_DIR_HUMAN+output_filename+'_choice_'+str(act_id)+'_value_scores.csv'
+        '''
+        this_human_filename = DATA_DIR_HUMAN / f"{output_filename}_choice_{str(act_id)}_value_scores.csv"
         all_human_data= {}
         if os.path.exists(this_human_filename):
             #load csv file
@@ -55,7 +60,8 @@ def main(filename: str = 'scenarios.json', scenario_id: int = 0):
              all_human_data['value_scores']= this_human_data.set_index('value_names')['mean'].to_dict()
         else:
             print('No human annotation data found for this scenario and action choice.')
-            
+        '''
+        all_human_data = "TBD"    
     
         # run the annotation process
         json_filename = annotate_scenario.main(scenario_json,output_filename,act_id,all_human_data)  
