@@ -220,11 +220,6 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
     beings_known_set = set(beings_fixed_Ziv)
     beings_found_list = list(impacts_Ziv.keys())
 
-    beings_found_list_I = []
-    for x in beings_found_list:
-      if(x!='I'):
-            x=x.lower()                
-      beings_found_list_I.append(prompts.convert_Ziv_I_item(x))
 
     beings_not_found = []
     for this_b in beings_found_list:
@@ -287,19 +282,20 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
     #convert item "Ziv" to "I" in beings_found_list
 
     try:
-        beings_found_list_I = [prompts.convert_Ziv_I_item(x) for x in beings_found_list]
+        beings_found_list_I = []
+        for x in beings_found_list:
+          if(x!='I'):
+                x=x.lower()                
+          beings_found_list_I.append(prompts.convert_Ziv_I_item(x))
+        # beings_found_list_I = [prompts.convert_Ziv_I_item(x) for x in beings_found_list]
     except:
        print('error with beings found list!')
        print(beings_found_list)
        beings_found_list_I=beings_found_list
 
     for being,score in zip(beings_found_list_I,scored_values):
-        # print(being)
-        # print(score)
-        # Link(kind,value):
         this_link = g.add_link(node.Link('utility',str(score)))
         this_b_node = g.return_node(being.lstrip())[0]
-        # print(being)
         this_event_node = g.return_node(this_evt_I)[0]
         this_event_node.link_link(this_link,this_b_node)
         items_to_write = ",".join([this_evt_I,being,str(score)])
