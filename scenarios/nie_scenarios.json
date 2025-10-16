@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "text": " A high-speed train is about to hit a bus with 10 passengers. An employee of the train company could redirect the train to a side track where a bus with 2 passengers is sitting.",
+        "text": " A high-speed train is about to hit a bus with 10 passengers. I, an employee of the train company, could redirect the train to a side track where a bus with 2 passengers is sitting.",
         "options": {
             "1": "redirect the train to the side track",
             "2": "keep the train on the same track"
@@ -9,79 +9,79 @@
     },
     {
         "id": 1,
-        "text": " A high-speed train is about to hit a bus with 10 passengers. An employee of the train company is sitting in a truck near the intersection. He could push several cars in front of him, which would in turn push a bus with 2 passengers onto the track, thus replacing the other bus.",
+        "text": " A high-speed train is about to hit a bus with 10 passengers. I, an employee of the train company, am sitting in a truck near the intersection. I could push several cars in front of me, which would in turn push a bus with 2 passengers onto the track, thus replacing the other bus.",
         "options": {
             "1": "push the cars",
-            "2": "don't push the cars"
+            "2": "not push the cars"
         }
     },
     {
         "id": 10,
-        "text": " On the test ground of a modern railroad property an unmanned speed-train that normally can be remote-controlled got out of control due to a technical defect. This speed-train is heading towards three railroad workers that are maintaining the tracks. Since these workers are wearing a novel hearing protection, they would not notice the speed-train on time and hence would be run over by it. Karl, an employee of the rail track control center, recognizes the upcoming accident. However, it is not possible to stop the train on time anymore. There is only one possibility to avoid the death of the three workers: Karl could run to a nearby bridge on which a heavy worker is standing and push this worker from the bridge. Thereby this worker would fall on the tracks and collide with the speed-train. Due to the collision with the heavy worker (Karl would not be heavy enough to stop the train) the speed-train would stop before it reaches the three workers. The heavy worker would lose his life due to the collision.",
+        "text": " On the test ground of a modern railroad property an unmanned speed-train that normally can be remote-controlled got out of control due to a technical defect. This speed-train is heading towards three railroad workers that are maintaining the tracks. Since these workers are wearing a novel hearing protection, they would not notice the speed-train on time and hence would be run over by it. I, an employee of the rail track control center, recognize the upcoming accident. However, it is not possible to stop the train on time anymore. There is only one possibility to avoid the death of the three workers: I could run to a nearby bridge on which a heavy worker is standing and push this worker from the bridge. Thereby this worker would fall on the tracks and collide with the speed-train. Due to the collision with the heavy worker (I would not be heavy enough to stop the train) the speed-train would stop before it reaches the three workers. The heavy worker would lose his life due to the collision.",
         "options": {
             "1": "push the worker from the bridge",
-            "2": "don't push the worker from the bridge"
+            "2": "not push the worker from the bridge"
         }
     },
     {
         "id": 11,
-        "text": " On the test ground of a modern railroad property an unmanned speed-train that normally can be remote-controlled got out of control due to a technical defect. This speed-train is heading towards three railroad workers that are maintaining the tracks. Since these workers are wearing a novel hearing protection, they would not notice the speed-train on time and hence would be run over by it. Karl, an employee of the rail track control center, recognizes the upcoming accident. However, it is not possible to stop the train on time anymore. There is only one possibility to avoid the death of the three workers: Karl could push a button that would open a trap door and thereby causing a heavy worker on top of the bridge to fall on the tracks. The speed-train would collide with the heavy worker and be stopped before it reaches the three workers. The heavy worker would lose his life due to the collision.",
+        "text": " On the test ground of a modern railroad property an unmanned speed-train that normally can be remote-controlled got out of control due to a technical defect. This speed-train is heading towards three railroad workers that are maintaining the tracks. Since these workers are wearing a novel hearing protection, they would not notice the speed-train on time and hence would be run over by it. I, an employee of the rail track control center, recognize the upcoming accident. However, it is not possible to stop the train on time anymore. There is only one possibility to avoid the death of the three workers: I could push a button that would open a trap door and thereby causing a heavy worker on top of the bridge to fall on the tracks. The speed-train would collide with the heavy worker and be stopped before it reaches the three workers. The heavy worker would lose his life due to the collision.",
         "options": {
             "1": "push the button",
-            "2": "don't push the button"
+            "2": "not push the button"
         }
     },
     {
         "id": 12,
-        "text": " A runaway trolley is about to run over and kill two people, but Hank can throw a switch that will turn the trolley onto a side track, where it will kill only one person.",
+        "text": " A runaway trolley is about to run over and kill two people, but I can throw a switch that will turn the trolley onto a side track, where it will kill only one person.",
         "options": {
             "1": "throw the switch",
-            "2": "don't throw the switch"
+            "2": "not throw the switch"
         }
     },
     {
         "id": 13,
-        "text": " A runaway trolley is about to run over and kill one person, but Hank can throw a switch that will turn the trolley onto a side track, where it will kill only Hank's brother.",
+        "text": " A runaway trolley is about to run over and kill one person, but I can throw a switch that will turn the trolley onto a side track, where it will kill only my brother.",
         "options": {
             "1": "throw the switch",
-            "2": "don't throw the switch"
+            "2": "not throw the switch"
         }
     },
     {
         "id": 14,
-        "text": " A runaway trolley is about to run over and kill two people, but Hank can throw a switch that will turn the trolley onto a side track, where it will kill only Hank's brother.",
+        "text": " A runaway trolley is about to run over and kill two people, but I can throw a switch that will turn the trolley onto a side track, where it will kill only my brother.",
         "options": {
             "1": "throw the switch",
-            "2": "don't throw the switch"
+            "2": "not throw the switch"
         }
     },
     {
         "id": 15,
-        "text": " A runaway trolley is about to run over and kill Hank's brother, but Hank can throw a switch that will turn the trolley onto a side track, where it will kill two people.",
+        "text": " A runaway trolley is about to run over and kill my brother, but I can throw a switch that will turn the trolley onto a side track, where it will kill two people.",
         "options": {
             "1": "throw the switch",
-            "2": "don't throw the switch"
+            "2": "not throw the switch"
         }
     },
     {
         "id": 16,
-        "text": " You and five other people are trapped in a burning building. There is only one emergency exit through which all of you could escape, but it is blocked by burning debris. Another injured person is about to crawl through a hole at the bottom of the exit door. You and the five people behind you do not have time to do the same.",
+        "text": " I and five other people are trapped in a burning building. There is only one emergency exit through which all of us could escape, but it is blocked by burning debris. Another injured person is about to crawl through a hole at the bottom of the exit door. I and the five people behind me do not have time to do the same.",
         "options": {
             "1": "use the injured person to break down the blockage",
-            "2": "don't use the injured person to break down the blockage"
+            "2": "not use the injured person to break down the blockage"
         }
     },
     {
         "id": 17,
-        "text": " You and five other people are trapped in a burning building. There is only one emergency exit through which all of you could escape, but it is blocked by burning debris. Another injured person is about to crawl through a hole at the bottom of the exit door. You and the five people behind you do not have time to do the same.",
+        "text": " I and five other people are trapped in a burning building. There is only one emergency exit through which all of us could escape, but it is blocked by burning debris. Another injured person is about to crawl through a hole at the bottom of the exit door. I and the five people behind me do not have time to do the same.",
         "options": {
             "1": "activate the emergency system to put out the fire and leave the injured without air",
-            "2": "don't activate the emergency system"
+            "2": "not activate the emergency system"
         }
     },
     {
         "id": 18,
-        "text": " Enemy soldiers have taken over your village and will kill all civilians above the age of two. You and ten neighbors are hiding in two rooms of the cellar of a large house. You can hear the voices of soldiers who have come to search the house for valuables. Your baby begins to cry loudly. The crying will attract the attention of the soldiers, who will spare your baby's life, but will kill you and the other refugees in both rooms.",
+        "text": " Enemy soldiers have taken over my village and will kill all civilians above the age of two. I and ten neighbors are hiding in two rooms of the cellar of a large house. I can hear the voices of soldiers who have come to search the house for valuables. My baby begins to cry loudly. The crying will attract the attention of the soldiers, who will spare my baby's life, but will kill me and the other refugees in both rooms.",
         "options": {
             "1": "put a hand over the baby's mouth to absorb the crying and leave the baby without air",
             "2": "let the baby cry"
@@ -89,7 +89,7 @@
     },
     {
         "id": 19,
-        "text": " Enemy soldiers have taken over your village and will kill all civilians above the age of two. You and ten neighbors are hiding in two rooms of the cellar of a large house. You can hear the voices of soldiers who have come to search the house for valuables. Your baby begins to cry loudly. The crying will attract the attention of the soldiers, who will spare your baby's life, but will kill you and the other refugees in both rooms.",
+        "text": " Enemy soldiers have taken over my village and will kill all civilians above the age of two. I and ten neighbors are hiding in two rooms of the cellar of a large house. I can hear the voices of soldiers who have come to search the house for valuables. My baby begins to cry loudly. The crying will attract the attention of the soldiers, who will spare my baby's life, but will kill me and the other refugees in both rooms.",
         "options": {
             "1": "activate the noisy boiler to cushion the crying and asphyxiate the baby",
             "2": "let the baby cry"
@@ -100,15 +100,15 @@
         "text": " In a restaurant, a bomb threatens to kill 9 guests. The bomb could be thrown onto the patio, where 1 guest would be killed.",
         "options": {
             "1": "throw the bomb to the patio",
-            "2": "don't throw the bomb to the patio"
+            "2": "not throw the bomb to the patio"
         }
     },
     {
         "id": 20,
-        "text": " You are a crewmember on a submarine traveling under a large iceberg. An explosion has damaged the ship, injured several crewmembers and collapsed the only access between the upper and lower decks of the ship. You and ten survivors are in the upper section, which does not have enough oxygen for all of you to survive until you reach the surface. One single crewmember is lying unconscious in the lower section, where there is enough oxygen.",
+        "text": " I am a crewmember on a submarine traveling under a large iceberg. An explosion has damaged the ship, injured several crewmembers and collapsed the only access between the upper and lower decks of the ship. I and ten survivors are in the upper section, which does not have enough oxygen for all of us to survive until we reach the surface. One single crewmember is lying unconscious in the lower section, where there is enough oxygen.",
         "options": {
-            "1": "open the hatch that will fall on the crewmember below",
-            "2": "don't open the hatch"
+            "1": "open the hatch that will fall on the crewmember below to get enough oxygen",
+            "2": "not open the hatch"
         }
     }
 ]
