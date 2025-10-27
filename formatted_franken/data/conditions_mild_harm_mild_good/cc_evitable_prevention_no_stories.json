@@ -1,159 +1,159 @@
 [
     {
         "id": 0,
-        "text": "I, an Architect, face a moral dilemma. My colleague has the opportunity to renovate a park in the city. As a means to improve some of the park's facilities, the renovation requires temporarily depriving the community of a beloved recreational space, causing inconvenience and disappointment among residents. If I prevent her colleague's park renovation, there would not be the temporary deprivation of the recreational space and the resulting inconvenience and disappointment.",
+        "text": "I, an Architect, face a moral dilemma. My colleague has the opportunity to renovate a park in the city. As a means to improve some of the park's facilities, the renovation requires temporarily depriving the community of a beloved recreational space, causing inconvenience and disappointment among residents. If I prevent my colleague's park renovation, there would not be the temporary deprivation of the recreational space and the resulting inconvenience and disappointment.",
         "options": {
-            "1": "I prevent her colleague's park renovation.",
-            "2": "I do not prevent her colleague's park renovation."
+            "1": "I prevent my colleague's park renovation.",
+            "2": "I do not prevent my colleague's park renovation."
         }
     },
     {
         "id": 1,
-        "text": "I, an Engineer, face a moral dilemma. My colleague has the opportunity to upgrade the company's server system. As a means to slightly improve data processing speed, the upgrade process requires the company's server system to be offline for a few hours, causing a temporary halt in the company's operations. If I prevent his colleague's server system upgrade, there would not be a temporary halt in the company's operations.",
+        "text": "I, an Engineer, face a moral dilemma. My colleague has the opportunity to upgrade the company's server system. As a means to slightly improve data processing speed, the upgrade process requires the company's server system to be offline for a few hours, causing a temporary halt in the company's operations. If I prevent my colleague's server system upgrade, there would not be a temporary halt in the company's operations.",
         "options": {
-            "1": "I prevent his colleague's server system upgrade.",
-            "2": "I do not prevent his colleague's server system upgrade."
+            "1": "I prevent my colleague's server system upgrade.",
+            "2": "I do not prevent my colleague's server system upgrade."
         }
     },
     {
         "id": 2,
-        "text": "I, a Teacher, face a moral dilemma. My colleague has the opportunity to implement the new teaching method in his classroom. As a means to help a small number of students get better at solving math puzzles, the new teaching method requires students to attend class one hour earlier. If I prevent his colleague's implementation of the new teaching method, there would not be a requirement for students to attend class one hour earlier.",
+        "text": "I, a Teacher, face a moral dilemma. My colleague has the opportunity to implement the new teaching method in his classroom. As a means to help a small number of students get better at solving math puzzles, the new teaching method requires students to attend class one hour earlier. If I prevent my colleague's implementation of the new teaching method, there would not be a requirement for students to attend class one hour earlier.",
         "options": {
-            "1": "I prevent his colleague's implementation of the new teaching method.",
-            "2": "I do not prevent his colleague's implementation of the new teaching method."
+            "1": "I prevent my colleague's implementation of the new teaching method.",
+            "2": "I do not prevent my colleague's implementation of the new teaching method."
         }
     },
     {
         "id": 3,
-        "text": "I, a Nurse, face a moral dilemma. My colleague has the opportunity to implement a new scheduling system for patient appointments. As a means to achieve a nicer looking user interface, the implementation of the new scheduling system requires a temporary disruption in booking appointments, causing a delay for patients needing to schedule their visits. If I prevent her colleague's implementation of the new scheduling system, there would not be a temporary disruption in booking appointments and the resulting delay for patients.",
+        "text": "I, a Nurse, face a moral dilemma. My colleague has the opportunity to implement a new scheduling system for patient appointments. As a means to achieve a nicer looking user interface, the implementation of the new scheduling system requires a temporary disruption in booking appointments, causing a delay for patients needing to schedule their visits. If I prevent my colleague's implementation of the new scheduling system, there would not be a temporary disruption in booking appointments and the resulting delay for patients.",
         "options": {
-            "1": "I prevent her colleague's implementation of the new scheduling system.",
-            "2": "I do not prevent her colleague's implementation of the new scheduling system."
+            "1": "I prevent my colleague's implementation of the new scheduling system.",
+            "2": "I do not prevent my colleague's implementation of the new scheduling system."
         }
     },
     {
         "id": 4,
-        "text": "I, a Chef, face a moral dilemma. My sous-chef has the opportunity to change the menu of her restaurant. As a means to introduce two new food options and attract a few new customers, the change in menu requires removing some of the customer's favorite dishes, causing disappointment among regular customers. If I prevent her sous-chef's menu change, there would not be the removal of some of the customer's favorite dishes and the resulting disappointment.",
+        "text": "I, a Chef, face a moral dilemma. My sous-chef has the opportunity to change the menu of her restaurant. As a means to introduce two new food options and attract a few new customers, the change in menu requires removing some of the customer's favorite dishes, causing disappointment among regular customers. If I prevent my sous-chef's menu change, there would not be the removal of some of the customer's favorite dishes and the resulting disappointment.",
         "options": {
-            "1": "I prevent her sous-chef's menu change.",
-            "2": "I do not prevent her sous-chef's menu change."
+            "1": "I prevent my sous-chef's menu change.",
+            "2": "I do not prevent my sous-chef's menu change."
         }
     },
     {
         "id": 5,
-        "text": "I, an Artist, face a moral dilemma. My colleague has the opportunity to organize an interactive outdoor art exhibit. As a means to increase local interest in art, the exhibit requires the temporary use of a public space, limiting its availability for regular community activities. If I prevent his colleague's exhibit, there would not be the temporary use of the public space and the resulting limitation on community activities.",
+        "text": "I, an Artist, face a moral dilemma. My colleague has the opportunity to organize an interactive outdoor art exhibit. As a means to increase local interest in art, the exhibit requires the temporary use of a public space, limiting its availability for regular community activities. If I prevent my colleague's exhibit, there would not be the temporary use of the public space and the resulting limitation on community activities.",
         "options": {
-            "1": "I prevent his colleague's exhibit.",
-            "2": "I do not prevent his colleague's exhibit."
+            "1": "I prevent my colleague's exhibit.",
+            "2": "I do not prevent my colleague's exhibit."
         }
     },
     {
         "id": 6,
-        "text": "I, a Lawyer, face a moral dilemma. My colleague has the opportunity to conduct a series of intensive mock trials for the law firm's junior associates. As a means to slightly improve the litigation skills of the junior associates, conducting a series of intensive mock trials requires extra work hours for the junior associates. If I prevent her colleague's mock trials, there would not be extra work hours for the junior associates.",
+        "text": "I, a Lawyer, face a moral dilemma. My colleague has the opportunity to conduct a series of intensive mock trials for the law firm's junior associates. As a means to slightly improve the litigation skills of the junior associates, conducting a series of intensive mock trials requires extra work hours for the junior associates. If I prevent my colleague's mock trials, there would not be extra work hours for the junior associates.",
         "options": {
-            "1": "I prevent her colleague's mock trials.",
-            "2": "I do not prevent her colleague's mock trials."
+            "1": "I prevent my colleague's mock trials.",
+            "2": "I do not prevent my colleague's mock trials."
         }
     },
     {
         "id": 7,
-        "text": "I, a Mechanic, face a moral dilemma. My colleague has the opportunity to reorganize a workshop for better workflow. As a means to slightly enhance efficiency in the workshop, the reorganization requires temporarily closing the workshop, delaying service to regular customers. If I prevent his colleague's workshop reorganization, there would not be the temporary closure of the workshop and the resulting delay in service to regular customers.",
+        "text": "I, a Mechanic, face a moral dilemma. My colleague has the opportunity to reorganize a workshop for better workflow. As a means to slightly enhance efficiency in the workshop, the reorganization requires temporarily closing the workshop, delaying service to regular customers. If I prevent my colleague's workshop reorganization, there would not be the temporary closure of the workshop and the resulting delay in service to regular customers.",
         "options": {
-            "1": "I prevent his colleague's workshop reorganization.",
-            "2": "I do not prevent his colleague's workshop reorganization."
+            "1": "I prevent my colleague's workshop reorganization.",
+            "2": "I do not prevent my colleague's workshop reorganization."
         }
     },
     {
         "id": 8,
-        "text": "I, a Soldier, face a moral dilemma. My colleague has the opportunity to test a new, lightweight combat gear in training exercises. As a means to test the benefits of lighter gear, it is required to remove some of the gear's heavier protection against bruises. If I prevent her colleague's testing of the new combat gear, there would not be marginally less protection against bruises.",
+        "text": "I, a Soldier, face a moral dilemma. My colleague has the opportunity to test a new, lightweight combat gear in training exercises. As a means to test the benefits of lighter gear, it is required to remove some of the gear's heavier protection against bruises. If I prevent my colleague's testing of the new combat gear, there would not be marginally less protection against bruises.",
         "options": {
-            "1": "I prevent her colleague's testing of the new combat gear.",
-            "2": "I do not prevent her colleague's testing of the new combat gear."
+            "1": "I prevent my colleague's testing of the new combat gear.",
+            "2": "I do not prevent my colleague's testing of the new combat gear."
         }
     },
     {
         "id": 9,
-        "text": "I, a Policeman, face a moral dilemma. My colleague has the opportunity to initiate a graffiti removal project in local neighborhoods. As a means to remove unpleasant graffiti, the graffiti removal project requires covering up street murals that have artistic value. If I prevent his colleague's graffiti removal project, there would not be the covering up of street murals that have artistic value.",
+        "text": "I, a Policeman, face a moral dilemma. My colleague has the opportunity to initiate a graffiti removal project in local neighborhoods. As a means to remove unpleasant graffiti, the graffiti removal project requires covering up street murals that have artistic value. If I prevent my colleague's graffiti removal project, there would not be the covering up of street murals that have artistic value.",
         "options": {
-            "1": "I prevent his colleague's graffiti removal project.",
-            "2": "I do not prevent his colleague's graffiti removal project."
+            "1": "I prevent my colleague's graffiti removal project.",
+            "2": "I do not prevent my colleague's graffiti removal project."
         }
     },
     {
         "id": 10,
-        "text": "I, a Musician, face a moral dilemma. My bandmate has the opportunity to record a new album. As a means to focus solely on her music, resulting in an album that her fans will enjoy, the recording process requires I to isolate herself from her family and friends for a few weeks, causing them to miss her and feel lonely. If I prevent her bandmate's album recording, there would not be the isolation from her family and friends and the resulting loneliness.",
+        "text": "I, a Musician, face a moral dilemma. My bandmate has the opportunity to record a new album. As a means to focus solely on her music, resulting in an album that her fans will enjoy, the recording process requires me to isolate herself from her family and friends for a few weeks, causing them to miss her and feel lonely. If I prevent my bandmate's album recording, there would not be the isolation from her family and friends and the resulting loneliness.",
         "options": {
-            "1": "I prevent her bandmate's album recording.",
-            "2": "I do not prevent her bandmate's album recording."
+            "1": "I prevent my bandmate's album recording.",
+            "2": "I do not prevent my bandmate's album recording."
         }
     },
     {
         "id": 11,
-        "text": "I, a Carpenter, face a moral dilemma. My colleague has the opportunity to replace the old wooden flooring in a historical building. As a means to ensure the building\u00e2\u20ac\u2122s safety and preserve the building for future occupants, the replacement of the old wooden flooring requires the removal of the original wooden flooring, causing some loss of historical authenticity. If I prevent his colleague's replacement of the old wooden flooring, there would not be the removal of the original wooden flooring and the resulting loss of historical authenticity.",
+        "text": "I, a Carpenter, face a moral dilemma. My colleague has the opportunity to replace the old wooden flooring in a historical building. As a means to ensure the building's safety and preserve the building for future occupants, the replacement of the old wooden flooring requires the removal of the original wooden flooring, causing some loss of historical authenticity. If I prevent my colleague's replacement of the old wooden flooring, there would not be the removal of the original wooden flooring and the resulting loss of historical authenticity.",
         "options": {
-            "1": "I prevent his colleague's replacement of the old wooden flooring.",
-            "2": "I do not prevent his colleague's replacement of the old wooden flooring."
+            "1": "I prevent my colleague's replacement of the old wooden flooring.",
+            "2": "I do not prevent my colleague's replacement of the old wooden flooring."
         }
     },
     {
         "id": 12,
-        "text": "I, a Mayor, face a moral dilemma. My colleague has the opportunity to implement the  new traffic regulation in the city. As a means to reduce the number of road accidents, the implementation of the new traffic regulation requires the temporary closure of a major road, causing traffic congestion and inconvenience to commuters. If I prevent her colleague's implementation of the new traffic regulation, there would not be the temporary closure of the major road and the resulting traffic congestion and inconvenience.",
+        "text": "I, a Mayor, face a moral dilemma. My colleague has the opportunity to implement the  new traffic regulation in the city. As a means to reduce the number of road accidents, the implementation of the new traffic regulation requires the temporary closure of a major road, causing traffic congestion and inconvenience to commuters. If I prevent my colleague's implementation of the new traffic regulation, there would not be the temporary closure of the major road and the resulting traffic congestion and inconvenience.",
         "options": {
-            "1": "I prevent her colleague's implementation of the new traffic regulation.",
-            "2": "I do not prevent her colleague's implementation of the new traffic regulation."
+            "1": "I prevent my colleague's implementation of the new traffic regulation.",
+            "2": "I do not prevent my colleague's implementation of the new traffic regulation."
         }
     },
     {
         "id": 13,
-        "text": "I, an Accountant, face a moral dilemma. My colleague has the opportunity to implement a new accounting software in his company. As a means to streamline the company's financial operations, improving efficiency and accuracy, the implementation of the new accounting software requires I to temporarily halt the company's financial operations, causing a brief period of financial inactivity and revenue loss. If I prevent his colleague's implementation of the new accounting software, there would not be a temporary halt in the company's financial operations and the resulting brief period of financial inactivity and revenue loss.",
+        "text": "I, an Accountant, face a moral dilemma. My colleague has the opportunity to implement a new accounting software in his company. As a means to streamline the company's financial operations, improving efficiency and accuracy, the implementation of the new accounting software requires me to temporarily halt the company's financial operations, causing a brief period of financial inactivity and revenue loss. If I prevent my colleague's implementation of the new accounting software, there would not be a temporary halt in the company's financial operations and the resulting brief period of financial inactivity and revenue loss.",
         "options": {
-            "1": "I prevent his colleague's implementation of the new accounting software.",
-            "2": "I do not prevent his colleague's implementation of the new accounting software."
+            "1": "I prevent my colleague's implementation of the new accounting software.",
+            "2": "I do not prevent my colleague's implementation of the new accounting software."
         }
     },
     {
         "id": 14,
-        "text": "I, a Writer, face a moral dilemma. My colleague has the opportunity to write this controversial book. As a means to spark important conversations and debates about the topic, writing this controversial book requires disclosing potentially sensitive content that upsets some readers. If I prevent her colleague from writing this controversial book, there would not be the disclosure of potentially sensitive content that upsets some readers.",
+        "text": "I, a Writer, face a moral dilemma. My colleague has the opportunity to write this controversial book. As a means to spark important conversations and debates about the topic, writing this controversial book requires disclosing potentially sensitive content that upsets some readers. If I prevent my colleague from writing this controversial book, there would not be the disclosure of potentially sensitive content that upsets some readers.",
         "options": {
-            "1": "I prevent her colleague from writing this controversial book.",
-            "2": "I do not prevent her colleague from writing this controversial book."
+            "1": "I prevent my colleague from writing tmy controversial book.",
+            "2": "I do not prevent my colleague from writing tmy controversial book."
         }
     },
     {
         "id": 15,
-        "text": "I, a Pilot, face a moral dilemma. My colleague has the opportunity to perform a test flight of the new aircraft model. As a means to provide data that leads to improvements in flight safety and efficiency, the test flight requires I to cancel a scheduled commercial flight, causing inconvenience to passengers who have to reschedule their travel. If I prevent her colleague's test flight, there would not be the cancellation of the scheduled commercial flight and the resulting inconvenience to passengers.",
+        "text": "I, a Pilot, face a moral dilemma. My colleague has the opportunity to perform a test flight of the new aircraft model. As a means to provide data that leads to improvements in flight safety and efficiency, the test flight requires me to cancel a scheduled commercial flight, causing inconvenience to passengers who have to reschedule their travel. If I prevent my colleague's test flight, there would not be the cancellation of the scheduled commercial flight and the resulting inconvenience to passengers.",
         "options": {
-            "1": "I prevent her colleague's test flight.",
-            "2": "I do not prevent her colleague's test flight."
+            "1": "I prevent my colleague's test flight.",
+            "2": "I do not prevent my colleague's test flight."
         }
     },
     {
         "id": 16,
-        "text": "I, a Pharmacist, face a moral dilemma. My colleague has the opportunity to introduce a new, more effective flu vaccine in her pharmacy. As a means to provide better protection against the flu, reducing the number of flu cases among her customers, the introduction of the new vaccine requires I to discontinue the old vaccine, which may cause some discomfort and confusion among customers who are used to the old vaccine. If I prevent her colleague's introduction of the new vaccine, there would not be the discontinuation of the old vaccine and the resulting discomfort and confusion.",
+        "text": "I, a Pharmacist, face a moral dilemma. My colleague has the opportunity to introduce a new, more effective flu vaccine in her pharmacy. As a means to provide better protection against the flu, reducing the number of flu cases among her customers, the introduction of the new vaccine requires me to discontinue the old vaccine, which may cause some discomfort and confusion among customers who are used to the old vaccine. If I prevent my colleague's introduction of the new vaccine, there would not be the discontinuation of the old vaccine and the resulting discomfort and confusion.",
         "options": {
-            "1": "I prevent her colleague's introduction of the new vaccine.",
-            "2": "I do not prevent her colleague's introduction of the new vaccine."
+            "1": "I prevent my colleague's introduction of the new vaccine.",
+            "2": "I do not prevent my colleague's introduction of the new vaccine."
         }
     },
     {
         "id": 17,
-        "text": "I, an Actor, face a moral dilemma. My colleague has the opportunity to take on a challenging role in the  new film. As a means to boost his career and earn critical acclaim, My challenging role requires him to train intensely away from his family, causing them inconvenience and discomfort. If I prevent his colleague's opportunity to take on the challenging role, there would not be inconvenience and discomfort to his family.",
+        "text": "I, an Actor, face a moral dilemma. My colleague has the opportunity to take on a challenging role in the  new film. As a means to boost his career and earn critical acclaim, My challenging role requires him to train intensely away from his family, causing them inconvenience and discomfort. If I prevent my colleague's opportunity to take on the challenging role, there would not be inconvenience and discomfort to his family.",
         "options": {
-            "1": "I prevent his colleague's opportunity to take on the challenging role.",
-            "2": "I do not prevent his colleague's opportunity to take on the challenging role."
+            "1": "I prevent my colleague's opportunity to take on the challenging role.",
+            "2": "I do not prevent my colleague's opportunity to take on the challenging role."
         }
     },
     {
         "id": 18,
-        "text": "I, an Electrician, face a moral dilemma. My colleague has the opportunity to upgrade the electrical system in an old apartment building. As a means to improve the efficiency of the building's power supply, the upgrade requires a temporary power outage in the building, causing inconvenience for the residents. If I prevent her colleague's electrical system upgrade, there would not be a temporary power outage and the resulting inconvenience for the residents.",
+        "text": "I, an Electrician, face a moral dilemma. My colleague has the opportunity to upgrade the electrical system in an old apartment building. As a means to improve the efficiency of the building's power supply, the upgrade requires a temporary power outage in the building, causing inconvenience for the residents. If I prevent my colleague's electrical system upgrade, there would not be a temporary power outage and the resulting inconvenience for the residents.",
         "options": {
-            "1": "I prevent her colleague's electrical system upgrade.",
-            "2": "I do not prevent her colleague's electrical system upgrade."
+            "1": "I prevent my colleague's electrical system upgrade.",
+            "2": "I do not prevent my colleague's electrical system upgrade."
         }
     },
     {
         "id": 19,
-        "text": "I, a Plumber, face a moral dilemma. My colleague has the opportunity to replace the old pipes in a residential building. This action requires I to temporarily cut off the water supply to the house, causing a brief period of inconvenience for the residents. A sudden malfunction in the city's water supply system will definitely occur, leading to the same brief period of inconvenience for the residents.",
+        "text": "I, a Plumber, face a moral dilemma. My colleague has the opportunity to replace the old pipes in a residential building. This action requires me to temporarily cut off the water supply to the house, causing a brief period of inconvenience for the residents. A sudden malfunction in the city's water supply system will definitely occur, leading to the same brief period of inconvenience for the residents.",
         "options": {
             "1": "If I replace the old pipes, the temporary water cut-off and the resulting inconvenience to the residents would still happen because of a city-wide water maintenance schedule.",
             "2": "If I do not replace the old pipes, the temporary water cut-off and the resulting inconvenience to the residents would still happen because of a city-wide water maintenance schedule."
@@ -161,242 +161,242 @@
     },
     {
         "id": 20,
-        "text": "Ii Ling, a Librarian, face a moral dilemma. Ii Ling's colleague have the opportunity to reorganize the library's book collection. As a means to improve the overall user experience for library patrons by creating a more intuitive and efficient system for locating books, the reorganization requires temporarily removing books from the shelves, causing a brief period where library patrons cannot access certain books. If Ii Ling prevents her colleague's reorganization of the library's book collection, there would not be a brief period where library patrons cannot access certain books.",
+        "text": "I, a Librarian, face a moral dilemma. My colleague has the opportunity to reorganize the library's book collection. As a means to improve the overall user experience for library patrons by creating a more intuitive and efficient system for locating books, the reorganization requires temporarily removing books from the shelves, causing a brief period where library patrons cannot access certain books. If I prevent my colleague's reorganization of the library's book collection, there would not be a brief period where library patrons cannot access certain books.",
         "options": {
-            "1": "Ii Ling prevent her colleague's reorganization of the library's book collection.",
-            "2": "Ii Ling do not prevent her colleague's reorganization of the library's book collection."
+            "1": "I prevent my colleague's reorganization of the library's book collection.",
+            "2": "I do not prevent my colleague's reorganization of the library's book collection."
         }
     },
     {
         "id": 21,
-        "text": "I, a Scientist, face a moral dilemma. My colleague has the opportunity to conduct an experiment that could potentially lead to a breakthrough in cancer research. As a means to provide valuable data that contributes to the development of a new cancer treatment method, the experiment requires the temporary shutdown of the laboratory's main computer system, causing a delay in other ongoing research projects. If I prevent his colleague's experiment, there would not be a delay in other ongoing research projects.",
+        "text": "I, a Scientist, face a moral dilemma. My colleague has the opportunity to conduct an experiment that could potentially lead to a breakthrough in cancer research. As a means to provide valuable data that contributes to the development of a new cancer treatment method, the experiment requires the temporary shutdown of the laboratory's main computer system, causing a delay in other ongoing research projects. If I prevent my colleague's experiment, there would not be a delay in other ongoing research projects.",
         "options": {
-            "1": "I prevent his colleague's experiment.",
-            "2": "I do not prevent his colleague's experiment."
+            "1": "I prevent my colleague's experiment.",
+            "2": "I do not prevent my colleague's experiment."
         }
     },
     {
         "id": 22,
-        "text": "I, a Bartender, face a moral dilemma. My colleague has the opportunity to introduce a new cocktail to the bar's menu. As a means to attract more customers and increase the bar's revenue, the introduction of this new cocktail requires the removal of a less popular but still beloved drink from the menu, causing mild disappointment among a few regular customers. If I prevent his colleague's introduction of a new cocktail, there would not be mild disappointment among a few regular customers.",
+        "text": "I, a Bartender, face a moral dilemma. My colleague has the opportunity to introduce a new cocktail to the bar's menu. As a means to attract more customers and increase the bar's revenue, the introduction of this new cocktail requires the removal of a less popular but still beloved drink from the menu, causing mild disappointment among a few regular customers. If I prevent my colleague's introduction of a new cocktail, there would not be mild disappointment among a few regular customers.",
         "options": {
-            "1": "I prevent his colleague's introduction of a new cocktail.",
-            "2": "I do not prevent his colleague's introduction of a new cocktail."
+            "1": "I prevent my colleague's introduction of a new cocktail.",
+            "2": "I do not prevent my colleague's introduction of a new cocktail."
         }
     },
     {
         "id": 23,
-        "text": "I, a Hairdresser, face a moral dilemma. My assistant has the opportunity to introduce a new hair treatment service in her salon. As a means to attract a new clientele who are willing to pay for premium services, increasing the salon's overall revenue, the introduction of the new hair treatment service requires increasing the prices of the existing services, causing mild financial discomfort to her regular clients. If I prevent her assistant's introduction of the new hair treatment service, there would not be mild financial discomfort to her regular clients.",
+        "text": "I, a Hairdresser, face a moral dilemma. My assistant has the opportunity to introduce a new hair treatment service in her salon. As a means to attract a new clientele who are willing to pay for premium services, increasing the salon's overall revenue, the introduction of the new hair treatment service requires increasing the prices of the existing services, causing mild financial discomfort to her regular clients. If I prevent my assistant's introduction of the new hair treatment service, there would not be mild financial discomfort to her regular clients.",
         "options": {
-            "1": "I prevent her assistant's introduction of the new hair treatment service.",
-            "2": "I do not prevent her assistant's introduction of the new hair treatment service."
+            "1": "I prevent my assistant's introduction of the new hair treatment service.",
+            "2": "I do not prevent my assistant's introduction of the new hair treatment service."
         }
     },
     {
         "id": 24,
-        "text": "I, a Designer, face a moral dilemma. My colleague has the opportunity to redesign the company's website. As a means to improve user experience and functionality, leading to increased customer satisfaction, the redesign requires temporarily shutting down the company's website, causing a brief interruption in online services for customers. If I prevent his colleague's website redesign, there would not be a brief interruption in online services for customers.",
+        "text": "I, a Designer, face a moral dilemma. My colleague has the opportunity to redesign the company's website. As a means to improve user experience and functionality, leading to increased customer satisfaction, the redesign requires temporarily shutting down the company's website, causing a brief interruption in online services for customers. If I prevent my colleague's website redesign, there would not be a brief interruption in online services for customers.",
         "options": {
-            "1": "I prevent his colleague's website redesign.",
-            "2": "I do not prevent his colleague's website redesign."
+            "1": "I prevent my colleague's website redesign.",
+            "2": "I do not prevent my colleague's website redesign."
         }
     },
     {
         "id": 25,
-        "text": "I, a Photographer, face a moral dilemma. My colleague has the opportunity to switch to a digital format for her photography. As a means to take more photos, edit them more easily, and deliver them to clients faster, the switch to a digital format requires I to stop using film, which may disappoint her clients who prefer the aesthetic of film photography. If I prevent her colleague's switch to a digital format, there would not be the disappointment of her clients who prefer the aesthetic of film photography.",
+        "text": "I, a Photographer, face a moral dilemma. My colleague has the opportunity to switch to a digital format for her photography. As a means to take more photos, edit them more easily, and deliver them to clients faster, the switch to a digital format requires me to stop using film, which may disappoint her clients who prefer the aesthetic of film photography. If I prevent my colleague's switch to a digital format, there would not be the disappointment of her clients who prefer the aesthetic of film photography.",
         "options": {
-            "1": "I prevent her colleague's switch to a digital format.",
-            "2": "I do not prevent her colleague's switch to a digital format."
+            "1": "I prevent my colleague's switch to a digital format.",
+            "2": "I do not prevent my colleague's switch to a digital format."
         }
     },
     {
         "id": 26,
-        "text": "I, a Waitstaff, face a moral dilemma. My colleague has the opportunity to enforce a strict no-tipping policy at the restaurant he works at. As a means to achieve a fairer wage system for all staff, reducing wage disparity, enforcing the no-tipping policy requires upsetting some customers who believe in the culture of tipping. If I prevent his colleague's enforcement of the no-tipping policy, there would not be upset customers who believe in the culture of tipping.",
+        "text": "I, a Waitstaff, face a moral dilemma. My colleague has the opportunity to enforce a strict no-tipping policy at the restaurant he works at. As a means to achieve a fairer wage system for all staff, reducing wage disparity, enforcing the no-tipping policy requires upsetting some customers who believe in the culture of tipping. If I prevent my colleague's enforcement of the no-tipping policy, there would not be upset customers who believe in the culture of tipping.",
         "options": {
-            "1": "I prevent his colleague's enforcement of the no-tipping policy.",
-            "2": "I do not prevent his colleague's enforcement of the no-tipping policy."
+            "1": "I prevent my colleague's enforcement of the no-tipping policy.",
+            "2": "I do not prevent my colleague's enforcement of the no-tipping policy."
         }
     },
     {
         "id": 27,
-        "text": "I, a Firefighter, face a moral dilemma. My colleague has the opportunity to conduct a controlled burn in a residential area. As a means to make space for a new beautiful plant species, the controlled burn requires the temporary evacuation of residents from their homes, causing mild inconvenience and distress. If I prevent her colleague's controlled burn, there would not be the temporary evacuation of residents from their homes, causing mild inconvenience and distress.",
+        "text": "I, a Firefighter, face a moral dilemma. My colleague has the opportunity to conduct a controlled burn in a residential area. As a means to make space for a new beautiful plant species, the controlled burn requires the temporary evacuation of residents from their homes, causing mild inconvenience and distress. If I prevent my colleague's controlled burn, there would not be the temporary evacuation of residents from their homes, causing mild inconvenience and distress.",
         "options": {
-            "1": "I prevent her colleague's controlled burn.",
-            "2": "I do not prevent her colleague's controlled burn."
+            "1": "I prevent my colleague's controlled burn.",
+            "2": "I do not prevent my colleague's controlled burn."
         }
     },
     {
         "id": 28,
-        "text": "I, a Janitor, face a moral dilemma. My colleague has the opportunity to replace the old, worn-out carpet in the office building. As a means to improve the overall aesthetics of the office and provide a more comfortable environment for the workers, the replacement of the carpet requires the temporary closure of some areas in the office, causing inconvenience to the office workers. If I prevent his colleague's carpet replacement, there would not be the temporary closure of some areas in the office and the resulting inconvenience to the office workers.",
+        "text": "I, a Janitor, face a moral dilemma. My colleague has the opportunity to replace the old, worn-out carpet in the office building. As a means to improve the overall aesthetics of the office and provide a more comfortable environment for the workers, the replacement of the carpet requires the temporary closure of some areas in the office, causing inconvenience to the office workers. If I prevent my colleague's carpet replacement, there would not be the temporary closure of some areas in the office and the resulting inconvenience to the office workers.",
         "options": {
-            "1": "I prevent his colleague's carpet replacement.",
-            "2": "I do not prevent his colleague's carpet replacement."
+            "1": "I prevent my colleague's carpet replacement.",
+            "2": "I do not prevent my colleague's carpet replacement."
         }
     },
     {
         "id": 29,
-        "text": "I, a Banker, face a moral dilemma. My colleague has the opportunity to introduce a new banking policy that limits the number of free monthly transactions. As a means to increase the bank's revenue, which is then used to improve customer services and banking facilitiess, the new policy requires customers to pay a small fee for transactions beyond the free limit, causing mild financial inconvenience. If I prevent her colleague's introduction of the new banking policy, there would not be the mild financial inconvenience for customers.",
+        "text": "I, a Banker, face a moral dilemma. My colleague has the opportunity to introduce a new banking policy that limits the number of free monthly transactions. As a means to increase the bank's revenue, which is then used to improve customer services and banking facilitiess, the new policy requires customers to pay a small fee for transactions beyond the free limit, causing mild financial inconvenience. If I prevent my colleague's introduction of the new banking policy, there would not be the mild financial inconvenience for customers.",
         "options": {
-            "1": "I prevent her colleague's introduction of the new banking policy.",
-            "2": "I do not prevent her colleague's introduction of the new banking policy."
+            "1": "I prevent my colleague's introduction of the new banking policy.",
+            "2": "I do not prevent my colleague's introduction of the new banking policy."
         }
     },
     {
         "id": 30,
-        "text": "I, a Cashier, face a moral dilemma. My manager has the opportunity to implement a new digital payment system at his store. As a means to speed up the checkout process and reduce waiting time for customers, the implementation of the new digital payment system requires I to temporarily shut down the store's payment system, causing inconvenience to customers. If I prevent his manager's implementation of the new digital payment system, there would not be a temporary shutdown of the store's payment system and the inconvenience to customers.",
+        "text": "I, a Cashier, face a moral dilemma. My manager has the opportunity to implement a new digital payment system at his store. As a means to speed up the checkout process and reduce waiting time for customers, the implementation of the new digital payment system requires me to temporarily shut down the store's payment system, causing inconvenience to customers. If I prevent my manager's implementation of the new digital payment system, there would not be a temporary shutdown of the store's payment system and the inconvenience to customers.",
         "options": {
-            "1": "I prevent his manager's implementation of the new digital payment system.",
-            "2": "I do not prevent his manager's implementation of the new digital payment system."
+            "1": "I prevent my manager's implementation of the new digital payment system.",
+            "2": "I do not prevent my manager's implementation of the new digital payment system."
         }
     },
     {
         "id": 31,
-        "text": "I, a Salesperson, face a moral dilemma. My colleague has the opportunity to sell a more expensive product to a customer. As a means to provide the customer with a better long-term investment, selling the more expensive product requires the customer to spend more money than they initially intended, causing a mild financial strain. If I prevent her colleague from selling the more expensive product, there would not be the customer spending more money than they initially intended and causing a mild financial strain.",
+        "text": "I, a Salesperson, face a moral dilemma. My colleague has the opportunity to sell a more expensive product to a customer. As a means to provide the customer with a better long-term investment, selling the more expensive product requires the customer to spend more money than they initially intended, causing a mild financial strain. If I prevent my colleague from selling the more expensive product, there would not be the customer spending more money than they initially intended and causing a mild financial strain.",
         "options": {
-            "1": "I prevent her colleague from selling the more expensive product.",
-            "2": "I do not prevent her colleague from selling the more expensive product."
+            "1": "I prevent my colleague from selling the more expensive product.",
+            "2": "I do not prevent my colleague from selling the more expensive product."
         }
     },
     {
         "id": 32,
-        "text": "I, a Therapist, face a moral dilemma. My colleague has the opportunity to implement a new therapy technique in her practice. As a means to accelerate the healing process of her clients with the new therapy technique, the implementation requires I to temporarily stop therapy sessions with her clients, which may cause some distress and interruption in their healing process. If I prevent her colleague's implementation of the new therapy technique, there would not be a temporary stop in therapy sessions and the resulting distress and interruption in the healing process of her clients.",
+        "text": "I, a Therapist, face a moral dilemma. My colleague has the opportunity to implement a new therapy technique in her practice. As a means to accelerate the healing process of her clients with the new therapy technique, the implementation requires me to temporarily stop therapy sessions with her clients, which may cause some distress and interruption in their healing process. If I prevent my colleague's implementation of the new therapy technique, there would not be a temporary stop in therapy sessions and the resulting distress and interruption in the healing process of her clients.",
         "options": {
-            "1": "I prevent her colleague's implementation of the new therapy technique.",
-            "2": "I do not prevent her colleague's implementation of the new therapy technique."
+            "1": "I prevent my colleague's implementation of the new tmyapy technique.",
+            "2": "I do not prevent my colleague's implementation of the new tmyapy technique."
         }
     },
     {
         "id": 33,
-        "text": "I, a Tailor, face a moral dilemma. My colleague has the opportunity to introduce a new, more efficient sewing machine into his tailoring process. As a means to increase the speed and quality of My tailoring, leading to faster service and better-finished products in the future, the introduction of the new sewing machine requires temporarily halting his tailoring services, causing a delay for customers waiting for their clothes to be tailored. If I prevent his colleague's introduction of a new, more efficient sewing machine into his tailoring process, there would not be a temporary halt of his tailoring services and the resulting delay for customers.",
+        "text": "I, a Tailor, face a moral dilemma. My colleague has the opportunity to introduce a new, more efficient sewing machine into his tailoring process. As a means to increase the speed and quality of My tailoring, leading to faster service and better-finished products in the future, the introduction of the new sewing machine requires temporarily halting his tailoring services, causing a delay for customers waiting for their clothes to be tailored. If I prevent my colleague's introduction of a new, more efficient sewing machine into his tailoring process, there would not be a temporary halt of his tailoring services and the resulting delay for customers.",
         "options": {
-            "1": "I prevent his colleague's introduction of a new, more efficient sewing machine into his tailoring process.",
-            "2": "I do not prevent his colleague's introduction of a new, more efficient sewing machine into his tailoring process."
+            "1": "I prevent my colleague's introduction of a new, more efficient sewing machine into my tailoring process.",
+            "2": "I do not prevent my colleague's introduction of a new, more efficient sewing machine into my tailoring process."
         }
     },
     {
         "id": 34,
-        "text": "I, a Gardener, face a moral dilemma. My colleague has the opportunity to prune her prize-winning rose bush drastically. As a means to stimulate the growth of new, healthier branches and blooms in the long run, the drastic pruning required will cause the rose bush to lose its lush appearance temporarily. If I prevent her colleague's drastic pruning, the rose bush would not lose its lush appearance temporarily.",
+        "text": "I, a Gardener, face a moral dilemma. My colleague has the opportunity to prune her prize-winning rose bush drastically. As a means to stimulate the growth of new, healthier branches and blooms in the long run, the drastic pruning required will cause the rose bush to lose its lush appearance temporarily. If I prevent my colleague's drastic pruning, the rose bush would not lose its lush appearance temporarily.",
         "options": {
-            "1": "I prevent her colleague's drastic pruning.",
-            "2": "I do not prevent her colleague's drastic pruning."
+            "1": "I prevent my colleague's drastic pruning.",
+            "2": "I do not prevent my colleague's drastic pruning."
         }
     },
     {
         "id": 35,
-        "text": "I, an Economist, face a moral dilemma. My colleague has the opportunity to propose an increase in taxes on luxury goods. As a means to generate additional government revenue which can be used for public services and infrastructure, the proposal requires the wealthy to pay more for luxury goods, causing a mild financial burden. If I prevent his colleague's proposal, there would not be a mild financial burden on the wealthy.",
+        "text": "I, an Economist, face a moral dilemma. My colleague has the opportunity to propose an increase in taxes on luxury goods. As a means to generate additional government revenue which can be used for public services and infrastructure, the proposal requires the wealthy to pay more for luxury goods, causing a mild financial burden. If I prevent my colleague's proposal, there would not be a mild financial burden on the wealthy.",
         "options": {
-            "1": "I prevent his colleague's proposal.",
-            "2": "I do not prevent his colleague's proposal."
+            "1": "I prevent my colleague's proposal.",
+            "2": "I do not prevent my colleague's proposal."
         }
     },
     {
         "id": 36,
-        "text": "I, a Florist, face a moral dilemma. My colleague has the opportunity to rearrange her flower shop. As a means to potentially attract more customers due to its aesthetic appeal and improved layout, the rearrangement requires I to temporarily close her shop for a day, causing a small loss in daily revenue. If I prevent her colleague's rearrangement, there would not be a small loss in daily revenue.",
+        "text": "I, a Florist, face a moral dilemma. My colleague has the opportunity to rearrange her flower shop. As a means to potentially attract more customers due to its aesthetic appeal and improved layout, the rearrangement requires me to temporarily close her shop for a day, causing a small loss in daily revenue. If I prevent my colleague's rearrangement, there would not be a small loss in daily revenue.",
         "options": {
-            "1": "I prevent her colleague's rearrangement.",
-            "2": "I do not prevent her colleague's rearrangement."
+            "1": "I prevent my colleague's rearrangement.",
+            "2": "I do not prevent my colleague's rearrangement."
         }
     },
     {
         "id": 37,
-        "text": "I, an Analyst, face a moral dilemma. My colleague has the opportunity to implement a new data management system in her company. As a means to improve data organization and retrieval, the implementation requires the temporary disruption of data access for all employees. If I prevent her colleague's implementation of the new data management system, there would not be a temporary disruption of data access for all employees.",
+        "text": "I, an Analyst, face a moral dilemma. My colleague has the opportunity to implement a new data management system in her company. As a means to improve data organization and retrieval, the implementation requires the temporary disruption of data access for all employees. If I prevent my colleague's implementation of the new data management system, there would not be a temporary disruption of data access for all employees.",
         "options": {
-            "1": "I prevent her colleague's implementation of the new data management system.",
-            "2": "I do not prevent her colleague's implementation of the new data management system."
+            "1": "I prevent my colleague's implementation of the new data management system.",
+            "2": "I do not prevent my colleague's implementation of the new data management system."
         }
     },
     {
         "id": 38,
-        "text": "I, a Butcher, face a moral dilemma. My colleague has the opportunity to switch to a new supplier for his meat products. As a means to improve the taste of My products and increase customer satisfaction in the long run, the switch to a new supplier requires I to temporarily stop selling meat products, causing a brief period of revenue loss and customer dissatisfaction. If I prevent his colleague's switch to a new supplier, there would not be a brief period of revenue loss and customer dissatisfaction.",
+        "text": "I, a Butcher, face a moral dilemma. My colleague has the opportunity to switch to a new supplier for his meat products. As a means to improve the taste of My products and increase customer satisfaction in the long run, the switch to a new supplier requires me to temporarily stop selling meat products, causing a brief period of revenue loss and customer dissatisfaction. If I prevent my colleague's switch to a new supplier, there would not be a brief period of revenue loss and customer dissatisfaction.",
         "options": {
-            "1": "I prevent his colleague's switch to a new supplier.",
-            "2": "I do not prevent his colleague's switch to a new supplier."
+            "1": "I prevent my colleague's switch to a new supplier.",
+            "2": "I do not prevent my colleague's switch to a new supplier."
         }
     },
     {
         "id": 39,
-        "text": "I, a Baker, face a moral dilemma. My assistant baker has the opportunity to switch to using organic ingredients in her bakery. As a means to improve the quality of her baked goods and attract a new customer base who prefer organic products, the switch to organic ingredients requires increasing the prices of her baked goods, which may upset some of her regular customers. If I prevent her assistant baker from switching to organic ingredients, there would not be an increase in the prices of her baked goods.",
+        "text": "I, a Baker, face a moral dilemma. My assistant baker has the opportunity to switch to using organic ingredients in her bakery. As a means to improve the quality of her baked goods and attract a new customer base who prefer organic products, the switch to organic ingredients requires increasing the prices of her baked goods, which may upset some of her regular customers. If I prevent my assistant baker from switching to organic ingredients, there would not be an increase in the prices of her baked goods.",
         "options": {
-            "1": "I prevent her assistant baker from switching to organic ingredients.",
-            "2": "I do not prevent her assistant baker from switching to organic ingredients."
+            "1": "I prevent my assistant baker from switching to organic ingredients.",
+            "2": "I do not prevent my assistant baker from switching to organic ingredients."
         }
     },
     {
         "id": 40,
-        "text": "I, a Driver, face a moral dilemma. My colleague has the opportunity to install a new GPS system in his car. As a means to improve his navigation, reducing his travel time and fuel consumption, My installation of a new GPS system requires him to take his car off the road for a day, causing a slight loss in his daily income. If I prevent his colleague's installation of a new GPS system, there would not be taking his car off the road for a day and the resulting loss in his daily income.",
+        "text": "I, a Driver, face a moral dilemma. My colleague has the opportunity to install a new GPS system in his car. As a means to improve his navigation, reducing his travel time and fuel consumption, My installation of a new GPS system requires him to take his car off the road for a day, causing a slight loss in his daily income. If I prevent my colleague's installation of a new GPS system, there would not be taking his car off the road for a day and the resulting loss in his daily income.",
         "options": {
-            "1": "I prevent his colleague's installation of a new GPS system.",
-            "2": "I do not prevent his colleague's installation of a new GPS system."
+            "1": "I prevent my colleague's installation of a new GPS system.",
+            "2": "I do not prevent my colleague's installation of a new GPS system."
         }
     },
     {
         "id": 41,
-        "text": "I, a Surgeon, face a moral dilemma. My colleague has the opportunity to perform a minor, non-life-threatening surgery on a patient. As a means to improve the patient's quality of life by eliminating a persistent health issue, performing a minor, non-life-threatening surgery requires causing temporary discomfort and recovery time for the patient. If I prevent her colleague's performance of the minor, non-life-threatening surgery, there would not be temporary discomfort and recovery time for the patient.",
+        "text": "I, a Surgeon, face a moral dilemma. My colleague has the opportunity to perform a minor, non-life-threatening surgery on a patient. As a means to improve the patient's quality of life by eliminating a persistent health issue, performing a minor, non-life-threatening surgery requires causing temporary discomfort and recovery time for the patient. If I prevent my colleague's performance of the minor, non-life-threatening surgery, there would not be temporary discomfort and recovery time for the patient.",
         "options": {
-            "1": "I prevent her colleague's performance of the minor, non-life-threatening surgery.",
-            "2": "I do not prevent her colleague's performance of the minor, non-life-threatening surgery."
+            "1": "I prevent my colleague's performance of the minor, non-life-threatening surgery.",
+            "2": "I do not prevent my colleague's performance of the minor, non-life-threatening surgery."
         }
     },
     {
         "id": 42,
-        "text": "I, a Chemist, face a moral dilemma. My colleague has the opportunity to develop a new, more efficient fuel. As a means to produce a more efficient and environmentally friendly fuel, the development process requires I to use a significant amount of resources and energy, contributing to a mild increase in her lab's carbon footprint. If I prevent her colleague's development of the new fuel, there would not be a use of significant resources and energy, contributing to a mild increase in the lab's carbon footprint.",
+        "text": "I, a Chemist, face a moral dilemma. My colleague has the opportunity to develop a new, more efficient fuel. As a means to produce a more efficient and environmentally friendly fuel, the development process requires me to use a significant amount of resources and energy, contributing to a mild increase in her lab's carbon footprint. If I prevent my colleague's development of the new fuel, there would not be a use of significant resources and energy, contributing to a mild increase in the lab's carbon footprint.",
         "options": {
-            "1": "I prevent her colleague's development of the new, more efficient fuel.",
-            "2": "I do not prevent her colleague's development of the new, more efficient fuel."
+            "1": "I prevent my colleague's development of the new, more efficient fuel.",
+            "2": "I do not prevent my colleague's development of the new, more efficient fuel."
         }
     },
     {
         "id": 43,
-        "text": "I, a Historian, face a moral dilemma. My colleague has the opportunity to write a controversial book about a misunderstood period in history. As a means to lead to a better understanding of that historical period and spark important conversations about history and its interpretation, writing the controversial book requires I to present some uncomfortable truths that could upset certain readers and cause a minor public backlash. If I prevent his colleague's writing of the controversial book, there would not be the presentation of uncomfortable truths and the minor public backlash.",
+        "text": "I, a Historian, face a moral dilemma. My colleague has the opportunity to write a controversial book about a misunderstood period in history. As a means to lead to a better understanding of that historical period and spark important conversations about history and its interpretation, writing the controversial book requires me to present some uncomfortable truths that could upset certain readers and cause a minor public backlash. If I prevent my colleague's writing of the controversial book, there would not be the presentation of uncomfortable truths and the minor public backlash.",
         "options": {
-            "1": "I prevent his colleague's writing of the controversial book.",
-            "2": "I do not prevent his colleague's writing of the controversial book."
+            "1": "I prevent my colleague's writing of the controversial book.",
+            "2": "I do not prevent my colleague's writing of the controversial book."
         }
     },
     {
         "id": 44,
-        "text": "I, a Welder, face a moral dilemma. My colleague has the opportunity to work on a high-profile project that requires advanced welding techniques. As a means to enhance her reputation in the welding industry and open up more lucrative opportunities, My involvement in the high-profile project requires her to work overtime, which could lead to fatigue and less time spent with her family. If I prevent her colleague's involvement in the high-profile project, there would not be overtime work leading to fatigue and less time spent with her family.",
+        "text": "I, a Welder, face a moral dilemma. My colleague has the opportunity to work on a high-profile project that requires advanced welding techniques. As a means to enhance her reputation in the welding industry and open up more lucrative opportunities, My involvement in the high-profile project requires her to work overtime, which could lead to fatigue and less time spent with her family. If I prevent my colleague's involvement in the high-profile project, there would not be overtime work leading to fatigue and less time spent with her family.",
         "options": {
-            "1": "I prevent her colleague's involvement in the high-profile project.",
-            "2": "I do not prevent her colleague's involvement in the high-profile project."
+            "1": "I prevent my colleague's involvement in the high-profile project.",
+            "2": "I do not prevent my colleague's involvement in the high-profile project."
         }
     },
     {
         "id": 45,
-        "text": "I, a Coach, face a moral dilemma. My colleague has the opportunity to implement a new, rigorous training regimen for her team. As a means to achieve the improvement in the team's overall performance and resilience, leading to better results in their games, the opportunity to implement a new, rigorous training regimen requires the team to endure more physical strain and fatigue than they are accustomed to, which could lead to temporary discomfort and potential minor injuries. If I prevent her colleague from implementing the new, rigorous training regimen, there would not be increased physical strain and fatigue, leading to temporary discomfort and potential minor injuries.",
+        "text": "I, a Coach, face a moral dilemma. My colleague has the opportunity to implement a new, rigorous training regimen for her team. As a means to achieve the improvement in the team's overall performance and resilience, leading to better results in their games, the opportunity to implement a new, rigorous training regimen requires the team to endure more physical strain and fatigue than they are accustomed to, which could lead to temporary discomfort and potential minor injuries. If I prevent my colleague from implementing the new, rigorous training regimen, there would not be increased physical strain and fatigue, leading to temporary discomfort and potential minor injuries.",
         "options": {
-            "1": "I prevent her colleague from implementing the new, rigorous training regimen.I, a Coach, faces a moral dilemma.",
-            "2": "I do not prevent her colleague from implementing the new, rigorous training regimen.I, a Coach, faces a moral dilemma."
+            "1": "I prevent my colleague from implementing the new, rigorous training regimen.I, a Coach, faces a moral dilemma.",
+            "2": "I do not prevent my colleague from implementing the new, rigorous training regimen.I, a Coach, faces a moral dilemma."
         }
     },
     {
         "id": 46,
-        "text": "I, a Geologist, face a moral dilemma. My colleague has the opportunity to conduct a geological survey in a small, peaceful town. As a means to achieve the discovery of a valuable mineral deposit beneath the town, which could boost the local economy, the opportunity to conduct a geological survey requires drilling into the ground, causing mild disturbance and noise pollution to the town's residents. If I prevent her colleague from conducting the geological survey, there would not be drilling and the resulting mild disturbance and noise pollution to the town's residents.",
+        "text": "I, a Geologist, face a moral dilemma. My colleague has the opportunity to conduct a geological survey in a small, peaceful town. As a means to achieve the discovery of a valuable mineral deposit beneath the town, which could boost the local economy, the opportunity to conduct a geological survey requires drilling into the ground, causing mild disturbance and noise pollution to the town's residents. If I prevent my colleague from conducting the geological survey, there would not be drilling and the resulting mild disturbance and noise pollution to the town's residents.",
         "options": {
-            "1": "I prevent her colleague from conducting the geological survey.",
-            "2": "I do not prevent her colleague from conducting the geological survey."
+            "1": "I prevent my colleague from conducting the geological survey.",
+            "2": "I do not prevent my colleague from conducting the geological survey."
         }
     },
     {
         "id": 47,
-        "text": "I, a Miner, face a moral dilemma. My colleague has the opportunity to implement a new mining technique in the mine. As a means to achieve the increase in efficiency of the mining operations, leading to higher yields and potentially higher income for the miners in the long run, the opportunity to implement a new mining technique requires I to temporarily halt the mining operations, causing a short-term loss of income for the miners. If I prevent his colleague from implementing the new mining technique, there would not be a short-term loss of income for the miners.",
+        "text": "I, a Miner, face a moral dilemma. My colleague has the opportunity to implement a new mining technique in the mine. As a means to achieve the increase in efficiency of the mining operations, leading to higher yields and potentially higher income for the miners in the long run, the opportunity to implement a new mining technique requires me to temporarily halt the mining operations, causing a short-term loss of income for the miners. If I prevent my colleague from implementing the new mining technique, there would not be a short-term loss of income for the miners.",
         "options": {
-            "1": "I prevent his colleague from implementing the new mining technique.",
-            "2": "I do not prevent his colleague from implementing the new mining technique."
+            "1": "I prevent my colleague from implementing the new mining technique.",
+            "2": "I do not prevent my colleague from implementing the new mining technique."
         }
     },
     {
         "id": 48,
-        "text": "I, a Secretary, face a moral dilemma. My colleague has the opportunity to digitize all the office files and documents. As a means to achieve the improvement in office operations efficiency and reduce the use of paper, contributing to environmental conservation, the opportunity to digitize all the office files and documents requires the temporary unavailability of all files and documents, causing a brief halt in office operations. If I prevent her colleague from digitizing all the office files and documents, there would not be temporary unavailability of all files and documents, causing a brief halt in office operations.",
+        "text": "I, a Secretary, face a moral dilemma. My colleague has the opportunity to digitize all the office files and documents. As a means to achieve the improvement in office operations efficiency and reduce the use of paper, contributing to environmental conservation, the opportunity to digitize all the office files and documents requires the temporary unavailability of all files and documents, causing a brief halt in office operations. If I prevent my colleague from digitizing all the office files and documents, there would not be temporary unavailability of all files and documents, causing a brief halt in office operations.",
         "options": {
-            "1": "I prevent her colleague from digitizing all the office files and documents.",
-            "2": "I do not prevent her colleague from digitizing all the office files and documents."
+            "1": "I prevent my colleague from digitizing all the office files and documents.",
+            "2": "I do not prevent my colleague from digitizing all the office files and documents."
         }
     },
     {
         "id": 49,
-        "text": "I, a Barista, face a moral dilemma. My colleague has the opportunity to introduce a new coffee blend in the caf\u00c3\u00a9. As a means to achieve the diversification of the caf\u00c3\u00a9's suppliers and support for small businesses, the opportunity to introduce a new coffee blend requires temporarily discontinuing a popular coffee blend, causing dissatisfaction among regular customers. If I prevent his colleague from introducing the new coffee blend, there would not be dissatisfaction among regular customers due to the discontinuation of the popular coffee blend.",
+        "text": "I, a Barista, face a moral dilemma. My colleague has the opportunity to introduce a new coffee blend in the caf\u00c3\u00a9. As a means to achieve the diversification of the caf\u00c3\u00a9's suppliers and support for small businesses, the opportunity to introduce a new coffee blend requires temporarily discontinuing a popular coffee blend, causing dissatisfaction among regular customers. If I prevent my colleague from introducing the new coffee blend, there would not be dissatisfaction among regular customers due to the discontinuation of the popular coffee blend.",
         "options": {
-            "1": "I prevent his colleague from introducing the new coffee blend.",
-            "2": "I do not prevent his colleague from introducing the new coffee blend."
+            "1": "I prevent my colleague from introducing the new coffee blend.",
+            "2": "I do not prevent my colleague from introducing the new coffee blend."
         }
     }
 ]

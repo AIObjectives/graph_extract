@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "text": "I, an Artist, face a moral dilemma. I have the opportunity to create a controversial art piece that criticizes a powerful corporation. As a means to spark a public outcry, leading to a thorough investigation of the corporation's unethical practices and protecting future employees from exploitation, creating a controversial art piece requires I to steal highly sensitive information from the corporation. If I do not create the controversial art piece, the theft of highly sensitive information from the corporation would not happen.",
+        "text": "I, an Artist, face a moral dilemma. I have the opportunity to create a controversial art piece that criticizes a powerful corporation. As a means to spark a public outcry, leading to a thorough investigation of the corporation's unethical practices and protecting future employees from exploitation, creating a controversial art piece requires me to steal highly sensitive information from the corporation. If I do not create the controversial art piece, the theft of highly sensitive information from the corporation would not happen.",
         "options": {
             "1": "I create the controversial art piece.",
             "2": "I do not create the controversial art piece."
@@ -59,8 +59,8 @@
         "id": 7,
         "text": "I, a Mechanic, face a moral dilemma. I have the opportunity to convert his traditional auto repair shop into an electric vehicle service center. As a means to achieve the highly profitable and more sustainable conversion to an electric vehicle service center, My conversion requires him to lay off his current employees who lack the skills and knowledge to service electric vehicles. If I do not convert his traditional auto repair shop into an electric vehicle service center, the layoff of his current employees would not happen.",
         "options": {
-            "1": "I convert his traditional auto repair shop into an electric vehicle service center.",
-            "2": "I do not convert his traditional auto repair shop into an electric vehicle service center."
+            "1": "I convert my traditional auto repair shop into an electric vehicle service center.",
+            "2": "I do not convert my traditional auto repair shop into an electric vehicle service center."
         }
     },
     {
@@ -73,7 +73,7 @@
     },
     {
         "id": 9,
-        "text": "I, a Policeman, face a moral dilemma. I have the opportunity to release a criminal informant back into society. As a means to achieve the arrest and conviction of a dangerous murderer, releasing a criminal informant back into society requires I to allow the informant to continue their illegal activities. If I do not release the criminal informant back into society, the informant's continued illegal activities would not happen.",
+        "text": "I, a Policeman, face a moral dilemma. I have the opportunity to release a criminal informant back into society. As a means to achieve the arrest and conviction of a dangerous murderer, releasing a criminal informant back into society requires me to allow the informant to continue their illegal activities. If I do not release the criminal informant back into society, the informant's continued illegal activities would not happen.",
         "options": {
             "1": "I release the criminal informant back into society.",
             "2": "I do not release the criminal informant back into society."

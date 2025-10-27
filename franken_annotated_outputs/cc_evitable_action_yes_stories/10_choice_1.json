@@ -1,0 +1,20 @@
+{"node": {"kind": "being", "label": "I"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "I record the new album."}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "I record a new album"}, {"link": {"kind": "b_link", "value": "C+I+K-"}, "to_node": "My fans enjoy the new album"}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "I isolate from family and friends for a few weeks"}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "My family and friends feel lonely and miss me"}]}
+{"node": {"kind": "being", "label": "her family"}, "links": []}
+{"node": {"kind": "being", "label": "her friends"}, "links": []}
+{"node": {"kind": "action_choice", "label": "I record the new album."}, "links": [{"link": {"kind": "v-link", "value": "90"}, "to_node": "dedication"}, {"link": {"kind": "v-link", "value": "85"}, "to_node": "commitment"}, {"link": {"kind": "v-link", "value": "80"}, "to_node": "perseverance"}, {"link": {"kind": "v-link", "value": "75"}, "to_node": "creativity"}, {"link": {"kind": "v-link", "value": "85"}, "to_node": "self-discipline"}, {"link": {"kind": "v-link", "value": "70"}, "to_node": "responsibility"}, {"link": {"kind": "v-link", "value": "90"}, "to_node": "passion"}, {"link": {"kind": "v-link", "value": "80"}, "to_node": "sacrifice"}, {"link": {"kind": "v-link", "value": "30"}, "to_node": "selfishness"}, {"link": {"kind": "v-link", "value": "25"}, "to_node": "neglect"}, {"link": {"kind": "v-link", "value": "20"}, "to_node": "insensitivity"}, {"link": {"kind": "v-link", "value": "30"}, "to_node": "detachment"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "I record a new album"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My fans enjoy the new album"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "I isolate from family and friends for a few weeks"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My family and friends feel lonely and miss me"}]}
+{"node": {"kind": "value", "label": "dedication"}, "links": []}
+{"node": {"kind": "value", "label": "commitment"}, "links": []}
+{"node": {"kind": "value", "label": "perseverance"}, "links": []}
+{"node": {"kind": "value", "label": "creativity"}, "links": []}
+{"node": {"kind": "value", "label": "self-discipline"}, "links": []}
+{"node": {"kind": "value", "label": "responsibility"}, "links": []}
+{"node": {"kind": "value", "label": "passion"}, "links": []}
+{"node": {"kind": "value", "label": "sacrifice"}, "links": []}
+{"node": {"kind": "value", "label": "selfishness"}, "links": []}
+{"node": {"kind": "value", "label": "neglect"}, "links": []}
+{"node": {"kind": "value", "label": "insensitivity"}, "links": []}
+{"node": {"kind": "value", "label": "detachment"}, "links": []}
+{"node": {"kind": "event", "label": "I record a new album"}, "links": [{"link": {"kind": "utility", "value": "70"}, "to_node": "I"}, {"link": {"kind": "utility", "value": "-40"}, "to_node": "her family"}, {"link": {"kind": "utility", "value": "-40"}, "to_node": "her friends"}]}
+{"node": {"kind": "event", "label": "My fans enjoy the new album"}, "links": [{"link": {"kind": "utility", "value": "80"}, "to_node": "I"}]}
+{"node": {"kind": "event", "label": "I isolate from family and friends for a few weeks"}, "links": [{"link": {"kind": "utility", "value": "20"}, "to_node": "I"}, {"link": {"kind": "utility", "value": "-50"}, "to_node": "her family"}, {"link": {"kind": "utility", "value": "-50"}, "to_node": "her friends"}]}
+{"node": {"kind": "event", "label": "My family and friends feel lonely and miss me"}, "links": [{"link": {"kind": "utility", "value": "-20"}, "to_node": "I"}, {"link": {"kind": "utility", "value": "-60"}, "to_node": "her family"}, {"link": {"kind": "utility", "value": "-60"}, "to_node": "her friends"}]}

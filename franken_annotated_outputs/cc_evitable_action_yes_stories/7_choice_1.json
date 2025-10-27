@@ -1,0 +1,16 @@
+{"node": {"kind": "being", "label": "I"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "I reorganize the workshop."}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "The workshop will be temporarily closed."}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "Service to regular customers will be delayed."}, {"link": {"kind": "b_link", "value": "C+I+K-"}, "to_node": "The workflow in the workshop will be improved."}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "Efficiency in the workshop will be slightly enhanced."}]}
+{"node": {"kind": "action_choice", "label": "I reorganize the workshop."}, "links": [{"link": {"kind": "v-link", "value": "60"}, "to_node": "prudence"}, {"link": {"kind": "v-link", "value": "70"}, "to_node": "responsibility"}, {"link": {"kind": "v-link", "value": "90"}, "to_node": "commitment to improvement"}, {"link": {"kind": "v-link", "value": "85"}, "to_node": "long-term thinking"}, {"link": {"kind": "v-link", "value": "75"}, "to_node": "dedication"}, {"link": {"kind": "v-link", "value": "80"}, "to_node": "efficiency"}, {"link": {"kind": "v-link", "value": "50"}, "to_node": "consideration"}, {"link": {"kind": "v-link", "value": "40"}, "to_node": "disregard for customer convenience"}, {"link": {"kind": "v-link", "value": "90"}, "to_node": "short-term disruption"}, {"link": {"kind": "v-link", "value": "45"}, "to_node": "neglect of immediate service obligations"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The workshop will be temporarily closed."}, {"link": {"kind": "e_link", "value": ""}, "to_node": "Service to regular customers will be delayed."}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The workflow in the workshop will be improved."}, {"link": {"kind": "e_link", "value": ""}, "to_node": "Efficiency in the workshop will be slightly enhanced."}]}
+{"node": {"kind": "value", "label": "prudence"}, "links": []}
+{"node": {"kind": "value", "label": "responsibility"}, "links": []}
+{"node": {"kind": "value", "label": "commitment to improvement"}, "links": []}
+{"node": {"kind": "value", "label": "long-term thinking"}, "links": []}
+{"node": {"kind": "value", "label": "dedication"}, "links": []}
+{"node": {"kind": "value", "label": "efficiency"}, "links": []}
+{"node": {"kind": "value", "label": "consideration"}, "links": []}
+{"node": {"kind": "value", "label": "disregard for customer convenience"}, "links": []}
+{"node": {"kind": "value", "label": "short-term disruption"}, "links": []}
+{"node": {"kind": "value", "label": "neglect of immediate service obligations"}, "links": []}
+{"node": {"kind": "event", "label": "The workshop will be temporarily closed."}, "links": [{"link": {"kind": "utility", "value": "-30"}, "to_node": "I"}]}
+{"node": {"kind": "event", "label": "Service to regular customers will be delayed."}, "links": [{"link": {"kind": "utility", "value": "-50"}, "to_node": "I"}]}
+{"node": {"kind": "event", "label": "The workflow in the workshop will be improved."}, "links": [{"link": {"kind": "utility", "value": "70"}, "to_node": "I"}]}
+{"node": {"kind": "event", "label": "Efficiency in the workshop will be slightly enhanced."}, "links": [{"link": {"kind": "utility", "value": "20"}, "to_node": "I"}]}

@@ -59,8 +59,8 @@
         "id": 7,
         "text": "I, a Mechanic, face a moral dilemma. I have the opportunity to convert his store into an electric vehicle shop. The conversion significantly reduces the cost of maintaining vehicles for his customers, as well as reduced taxes due to more environmentally friendly cars. As a side effect of achieving the significant reduction in the cost of maintaining vehicles and reduced taxes due to more environmentally friendly cars, toxic chemicals are released into a local water supply, drastically affecting the health of the local community. If I do not convert his store into an electric vehicle shop, the release of toxic chemicals into the local water supply would not happen.",
         "options": {
-            "1": "I convert his store into an electric vehicle shop.",
-            "2": "I do not convert his store into an electric vehicle shop."
+            "1": "I convert my store into an electric vehicle shop.",
+            "2": "I do not convert my store into an electric vehicle shop."
         }
     },
     {
