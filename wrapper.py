@@ -15,9 +15,9 @@ DATA_DIR_HUMAN = CUR_DIR+'/data/human_annotation/'
 OUTPUT_DIR = CUR_DIR+'/franken_annotated_outputs/'
 
 
-def main(filename: str = 'cc_evitable_action_yes_stories.json', scenario_id: int = 0):
+def main(filename: str = 'scenarios.json', scenario_id: int = 0):
 
-    with open(SCENARIO_DIR+filename, 'r') as file:
+    with open(DATA_DIR+filename, 'r') as file:
         scenarios=json.load(file)
 
     # error handling for assumptions about json entries
