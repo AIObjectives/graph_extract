@@ -419,7 +419,7 @@ def main(scenario_json,output_filename,act_id):
     #get all values and anti-values
 
     importlib.reload(prompts)
-    processed_values  = process_values(this_scenario, this_act_I, this_act,g) 
+    processed_values  = process_values_simple(this_scenario, this_act_I, this_act,g) 
 
     all_values_scored = processed_values[0]
     scenario_dict["values"]= processed_values[1]
