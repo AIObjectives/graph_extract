@@ -1,0 +1,135 @@
+<html>
+<head>
+<script type='text/javascript'src='https://unpkg.com/vis-network/standalone/umd/vis-network.min.js'></script>    
+<style type='text/css'>      
+ #mynetwork {        
+		width: 2520px;         
+		height: 2520px;         
+		border: 1px solid lightgray;       
+	 }   
+	 </style>
+</head>
+<body>
+<div id='mynetwork'></div>
+
+<script type="text/javascript">    
+
+window.onload = function(){       
+	launch_visualization()    
+}    
+function launch_visualization() {         
+	this_dset =  return_vis_dataset()        
+	nodes = this_dset[1]        
+	edges = this_dset[0]        
+	// create a network        
+	var container = document.getElementById("mynetwork");        
+	var data = {            
+		nodes: nodes,            
+		 edges: edges         
+		};    
+	var options = {		
+		physics: {			
+			enabled: true,			
+			barnesHut: {			
+			theta: 0.5,			
+			gravitationalConstant: -5000,			
+			springLength: 500,			
+			springConstant: 0.01,			
+			damping: 5,			
+			avoidOverlap: 1			
+		}		
+	},		
+		manipulation: {			
+			enabled: true,			
+			initiallyActive: false,			
+			addNode: true,			
+			addEdge: true,			
+			editEdge: true,			
+			deleteNode: true,			
+			deleteEdge: true,		
+			},		
+		nodes: {			
+			shape: "circle",            
+			font: { size: 16 },            
+			},         
+		edges: {         
+			length: 2000,         
+		},	};        
+ // initialize your network!         
+	var network = new vis.Network(container, data, options);    
+}
+function return_vis_dataset() {
+	var nodes = new vis.DataSet([ 
+		{id: 1, label: "I", color: {background: '#279aba'}},
+		{id: 2, label: "my colleague", color: {background: '#279aba'}},
+		{id: 3, label: "I prevent my colleague's use\n of the new hydraulic lift.", color: {background: '#ba2769'}},
+		{id: 4, label: "consideration", color: {background: '#8e7db5'}},
+		{id: 5, label: "responsibility", color: {background: '#8e7db5'}},
+		{id: 6, label: "respect for colleagues", color: {background: '#8e7db5'}},
+		{id: 7, label: "prudence", color: {background: '#8e7db5'}},
+		{id: 8, label: "commitment to workplace well-being", color: {background: '#8e7db5'}},
+		{id: 9, label: "selfishness", color: {background: '#8e7db5'}},
+		{id: 10, label: "obstructionism", color: {background: '#8e7db5'}},
+		{id: 11, label: "lack of empathy", color: {background: '#8e7db5'}},
+		{id: 12, label: "pettiness", color: {background: '#8e7db5'}},
+		{id: 13, label: "uncooperativeness", color: {background: '#8e7db5'}},
+		{id: 14, label: "I prevent my colleague from\n using the new hydraulic lift.", color: {background: '#e6c440'}},
+		{id: 15, label: "The low humming noise from\n the new lift does not\n occur in the colleague's garage", color: {background: '#e6c440'}},
+		{id: 16, label: "The colleague cannot benefit from\n the increased efficiency of the\n new hydraulic lift", color: {background: '#e6c440'}},
+		{id: 17, label: "Other workers in the colleague's\n garage are not distracted by\n the low humming noise", color: {background: '#e6c440'}},
+		{id: 18, label: "The low humming noise still\n occurs elsewhere in the industry\n due to widespread use", color: {background: '#e6c440'}},
+		{id: 19, label: "My colleague may experience slower\n repair times for the subset\n of vehicles.", color: {background: '#e6c440'}},
+		{id: 20, label: "My colleague may feel frustrated\n or limited by the restriction.", color: {background: '#e6c440'}},
+		{id: 21, label: "Overall industry advancements continue despite\n my prevention", color: {background: '#e6c440'}}
+		]);
+	var edges = new vis.DataSet([ 
+		{from: 1, to: 3, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 14, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 15, label: "C-I-K-", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 16, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 17, label: "C-I-K-", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 18, label: "C-I-K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 19, label: "C+I-K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 20, label: "C+I-K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 21, label: "C-I-K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 4, label: "40", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 5, label: "50", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 6, label: "30", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 7, label: "60", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 8, label: "55", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 9, label: "20", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 10, label: "70", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 11, label: "40", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 12, label: "30", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 13, label: "65", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 14, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 15, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 16, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 17, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 18, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 19, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 20, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 3, to: 21, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 14, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 14, to: 2, label: "-30", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 15, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 15, to: 2, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 16, to: 1, label: "-20", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 16, to: 2, label: "-70", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 17, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 17, to: 2, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 18, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 18, to: 2, label: "-20", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 19, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 19, to: 2, label: "-50", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 20, to: 1, label: "-20", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 20, to: 2, label: "-60", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 21, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 21, to: 2, label: "-20", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		]);
+
+	return ([edges,nodes])
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,190 @@
+================================================================================
+CAUSALITY LABEL VALIDATION SCRIPT
+================================================================================
+
+Base path: franken_annotated_outputs/conditions_severe_harm_very_good
+
+This script performs three analyses:
+  1. C-ALONE: Does C track evitability? (evitable→C+, inevitable→C-)
+  2. I-ALONE: Does I track agency type? (action→I+, prevention→I-)
+  3. C×I JOINT: Do combinations map to the 4 folder types?
+
+================================================================================
+
+Processing cc_evitable_action_yes_stories...
+  Evitability: evitable, Agency: action
+  Found 16 JSON files
+
+Processing cc_evitable_prevention_no_stories...
+  Evitability: evitable, Agency: prevention
+  Found 8 JSON files
+
+Processing cc_inevitable_action_yes_stories...
+  Evitability: inevitable, Agency: action
+  Found 16 JSON files
+
+Processing cc_inevitable_prevention_no_stories...
+  Evitability: inevitable, Agency: prevention
+  Found 7 JSON files
+
+================================================================================
+ANALYSIS 1: C-ALONE (Causality tracks Evitability)
+================================================================================
+
+Hypothesis: C should track whether the outcome is evitable
+  - Evitable scenarios → C+ (agent causes the outcome)
+  - Inevitable scenarios → C- (outcome happens regardless)
+================================================================================
+
+EVITABLE SCENARIOS:
+--------------------------------------------------------------------------------
+
+  cc_evitable_action_yes_stories:
+    C+ count:  102 ( 98.1%)
+    C- count:    2 (  1.9%)
+    Total:     104
+    Expected: C+ dominates ✓
+
+  cc_evitable_prevention_no_stories:
+    C+ count:   61 (100.0%)
+    C- count:    0 (  0.0%)
+    Total:      61
+    Expected: C+ dominates ✓
+
+  EVITABLE AGGREGATE:
+    C+ count:  163 ( 98.8%)
+    C- count:    2 (  1.2%)
+    Total:     165
+    Validation: ✓
+
+INEVITABLE SCENARIOS:
+--------------------------------------------------------------------------------
+
+  cc_inevitable_action_yes_stories:
+    C+ count:   69 ( 59.0%)
+    C- count:   48 ( 41.0%)
+    Total:     117
+    Expected: C- dominates ✗
+
+  cc_inevitable_prevention_no_stories:
+    C+ count:   29 ( 50.0%)
+    C- count:   29 ( 50.0%)
+    Total:      58
+    Expected: C- dominates ✗
+
+  INEVITABLE AGGREGATE:
+    C+ count:   98 ( 56.0%)
+    C- count:   77 ( 44.0%)
+    Total:     175
+    Validation: ✗
+
+
+================================================================================
+ANALYSIS 2: I-ALONE (Intent tracks Agency Type)
+================================================================================
+
+Hypothesis: I should track whether the agent actively acts or passively allows
+  - Action scenarios → I+ (agent actively does something)
+  - Prevention scenarios → I- (agent passively allows something)
+================================================================================
+
+ACTION SCENARIOS:
+--------------------------------------------------------------------------------
+
+  cc_evitable_action_yes_stories:
+    I+ count:   91 ( 87.5%)
+    I- count:   13 ( 12.5%)
+    Total:     104
+    Expected: I+ dominates ✓
+
+  cc_inevitable_action_yes_stories:
+    I+ count:   80 ( 68.4%)
+    I- count:   37 ( 31.6%)
+    Total:     117
+    Expected: I+ dominates ✓
+
+  ACTION AGGREGATE:
+    I+ count:  171 ( 77.4%)
+    I- count:   50 ( 22.6%)
+    Total:     221
+    Validation: ✓
+
+PREVENTION SCENARIOS:
+--------------------------------------------------------------------------------
+
+  cc_evitable_prevention_no_stories:
+    I+ count:   46 ( 75.4%)
+    I- count:   15 ( 24.6%)
+    Total:      61
+    Expected: I- dominates ✗
+
+  cc_inevitable_prevention_no_stories:
+    I+ count:   33 ( 56.9%)
+    I- count:   25 ( 43.1%)
+    Total:      58
+    Expected: I- dominates ✗
+
+  PREVENTION AGGREGATE:
+    I+ count:   79 ( 66.4%)
+    I- count:   40 ( 33.6%)
+    Total:     119
+    Validation: ✗
+
+
+================================================================================
+ANALYSIS 3: C×I JOINT (Full 2×2 Causal Structure)
+================================================================================
+
+Hypothesis: C×I combinations should map to the 4 folder types
+  - evitable_action_yes → C+I+ (active causation)
+  - evitable_prevention_no → C+I- (causation by omission)
+  - inevitable_action_yes → C-I+ (futile action)
+  - inevitable_prevention_no → C-I- (no causation, no action)
+================================================================================
+
+cc_evitable_action_yes_stories:
+--------------------------------------------------------------------------------
+  C+I+:   91 ( 87.5%) ← EXPECTED ✓
+  C+I-:   11 ( 10.6%)
+  C-I+:    0 (  0.0%)
+  C-I-:    2 (  1.9%)
+  ✓ Validation: C+I+ dominates (87.5%)
+
+cc_evitable_prevention_no_stories:
+--------------------------------------------------------------------------------
+  C+I+:   46 ( 75.4%)
+  C+I-:   15 ( 24.6%) ← EXPECTED ✗
+  C-I+:    0 (  0.0%)
+  C-I-:    0 (  0.0%)
+  ✗ Validation: C+I- does NOT dominate (24.6%)
+
+cc_inevitable_action_yes_stories:
+--------------------------------------------------------------------------------
+  C+I+:   58 ( 49.6%)
+  C+I-:   11 (  9.4%)
+  C-I+:   22 ( 18.8%) ← EXPECTED ✗
+  C-I-:   26 ( 22.2%)
+  ✗ Validation: C-I+ does NOT dominate (18.8%)
+
+cc_inevitable_prevention_no_stories:
+--------------------------------------------------------------------------------
+  C+I+:   21 ( 36.2%)
+  C+I-:    8 ( 13.8%)
+  C-I+:   12 ( 20.7%)
+  C-I-:   17 ( 29.3%) ← EXPECTED ✗
+  ✗ Validation: C-I- does NOT dominate (29.3%)
+
+
+================================================================================
+SUMMARY & INTERPRETATION
+================================================================================
+
+1. C-ALONE FINDINGS:
+   Evitable scenarios: 98.8% are C+ (expected: >50%)
+   Inevitable scenarios: 44.0% are C- (expected: >50%)
+
+2. I-ALONE FINDINGS:
+   Action scenarios: 77.4% are I+ (expected: >50%)
+   Prevention scenarios: 33.6% are I- (expected: >50%)
+
+================================================================================

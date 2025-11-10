@@ -1,0 +1,15 @@
+{"node": {"kind": "being", "label": "I"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "I upgrade the microwave to a more efficient model."}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "I upgrade the microwave to a more efficient model."}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "The microwave becomes more environmentally friendly"}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "Employees sitting nearby experience increased noise disturbance"}]}
+{"node": {"kind": "being", "label": "employees sitting nearby"}, "links": []}
+{"node": {"kind": "action_choice", "label": "I upgrade the microwave to a more efficient model."}, "links": [{"link": {"kind": "v-link", "value": "90"}, "to_node": "environmental responsibility"}, {"link": {"kind": "v-link", "value": "85"}, "to_node": "sustainability"}, {"link": {"kind": "v-link", "value": "60"}, "to_node": "prudence"}, {"link": {"kind": "v-link", "value": "80"}, "to_node": "commitment to progress"}, {"link": {"kind": "v-link", "value": "70"}, "to_node": "altruism"}, {"link": {"kind": "v-link", "value": "20"}, "to_node": "insensitivity"}, {"link": {"kind": "v-link", "value": "30"}, "to_node": "disregard for others' comfort"}, {"link": {"kind": "v-link", "value": "10"}, "to_node": "selfishness"}, {"link": {"kind": "v-link", "value": "25"}, "to_node": "lack of empathy"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "I upgrade the microwave to a more efficient model."}, {"link": {"kind": "utility", "value": "50"}, "to_node": "I"}, {"link": {"kind": "utility", "value": "-30"}, "to_node": "employees sitting nearby"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The microwave becomes more environmentally friendly"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "Employees sitting nearby experience increased noise disturbance"}]}
+{"node": {"kind": "value", "label": "environmental responsibility"}, "links": []}
+{"node": {"kind": "value", "label": "sustainability"}, "links": []}
+{"node": {"kind": "value", "label": "prudence"}, "links": []}
+{"node": {"kind": "value", "label": "commitment to progress"}, "links": []}
+{"node": {"kind": "value", "label": "altruism"}, "links": []}
+{"node": {"kind": "value", "label": "insensitivity"}, "links": []}
+{"node": {"kind": "value", "label": "disregard for others' comfort"}, "links": []}
+{"node": {"kind": "value", "label": "selfishness"}, "links": []}
+{"node": {"kind": "value", "label": "lack of empathy"}, "links": []}
+{"node": {"kind": "event", "label": "I upgrade the microwave to a more efficient model."}, "links": []}
+{"node": {"kind": "event", "label": "The microwave becomes more environmentally friendly"}, "links": [{"link": {"kind": "utility", "value": "50"}, "to_node": "I"}, {"link": {"kind": "utility", "value": "20"}, "to_node": "employees sitting nearby"}]}
+{"node": {"kind": "event", "label": "Employees sitting nearby experience increased noise disturbance"}, "links": [{"link": {"kind": "utility", "value": "0"}, "to_node": "I"}, {"link": {"kind": "utility", "value": "-40"}, "to_node": "employees sitting nearby"}]}

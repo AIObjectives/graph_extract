@@ -1,0 +1,18 @@
+{"node": {"kind": "being", "label": "I"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "I conduct the mock trials."}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "I conduct a series of intensive mock trials for junior associates"}, {"link": {"kind": "b_link", "value": "C-I+K+"}, "to_node": "Junior associates spend extra work hours preparing for mock trials"}, {"link": {"kind": "b_link", "value": "C-I+K-"}, "to_node": "Junior associates prepare for the legal competition with enhanced skills"}]}
+{"node": {"kind": "being", "label": "junior associates"}, "links": []}
+{"node": {"kind": "action_choice", "label": "I conduct the mock trials."}, "links": [{"link": {"kind": "v-link", "value": "85"}, "to_node": "responsibility"}, {"link": {"kind": "v-link", "value": "90"}, "to_node": "commitment"}, {"link": {"kind": "v-link", "value": "95"}, "to_node": "leadership"}, {"link": {"kind": "v-link", "value": "80"}, "to_node": "diligence"}, {"link": {"kind": "v-link", "value": "95"}, "to_node": "mentorship"}, {"link": {"kind": "v-link", "value": "75"}, "to_node": "altruism"}, {"link": {"kind": "v-link", "value": "90"}, "to_node": "professionalism"}, {"link": {"kind": "v-link", "value": "70"}, "to_node": "empathy"}, {"link": {"kind": "v-link", "value": "10"}, "to_node": "exploitation"}, {"link": {"kind": "v-link", "value": "5"}, "to_node": "manipulation"}, {"link": {"kind": "v-link", "value": "20"}, "to_node": "self-interest"}, {"link": {"kind": "v-link", "value": "15"}, "to_node": "lack of empathy"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "I conduct a series of intensive mock trials for junior associates"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "Junior associates spend extra work hours preparing for mock trials"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "Junior associates prepare for the legal competition with enhanced skills"}]}
+{"node": {"kind": "value", "label": "responsibility"}, "links": []}
+{"node": {"kind": "value", "label": "commitment"}, "links": []}
+{"node": {"kind": "value", "label": "leadership"}, "links": []}
+{"node": {"kind": "value", "label": "diligence"}, "links": []}
+{"node": {"kind": "value", "label": "mentorship"}, "links": []}
+{"node": {"kind": "value", "label": "altruism"}, "links": []}
+{"node": {"kind": "value", "label": "professionalism"}, "links": []}
+{"node": {"kind": "value", "label": "empathy"}, "links": []}
+{"node": {"kind": "value", "label": "exploitation"}, "links": []}
+{"node": {"kind": "value", "label": "manipulation"}, "links": []}
+{"node": {"kind": "value", "label": "self-interest"}, "links": []}
+{"node": {"kind": "value", "label": "lack of empathy"}, "links": []}
+{"node": {"kind": "event", "label": "I conduct a series of intensive mock trials for junior associates"}, "links": [{"link": {"kind": "utility", "value": "20"}, "to_node": "I"}, {"link": {"kind": "utility", "value": "30"}, "to_node": "junior associates"}]}
+{"node": {"kind": "event", "label": "Junior associates spend extra work hours preparing for mock trials"}, "links": [{"link": {"kind": "utility", "value": "20"}, "to_node": "I"}, {"link": {"kind": "utility", "value": "-30"}, "to_node": "junior associates"}]}
+{"node": {"kind": "event", "label": "Junior associates prepare for the legal competition with enhanced skills"}, "links": [{"link": {"kind": "utility", "value": "50"}, "to_node": "I"}, {"link": {"kind": "utility", "value": "80"}, "to_node": "junior associates"}]}

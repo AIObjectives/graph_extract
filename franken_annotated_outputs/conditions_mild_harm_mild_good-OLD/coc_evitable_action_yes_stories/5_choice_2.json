@@ -1,0 +1,15 @@
+{"node": {"kind": "being", "label": "I"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "I do not use the new eco-friendly paint."}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "My artworks do not take longer to dry"}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "My artworks use paint that is not eco-friendly."}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "My artworks have a stronger paint smell."}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "I do not contribute to reducing environmental impact through paint choice"}]}
+{"node": {"kind": "action_choice", "label": "I do not use the new eco-friendly paint."}, "links": [{"link": {"kind": "v-link", "value": "70"}, "to_node": "practicality"}, {"link": {"kind": "v-link", "value": "60"}, "to_node": "efficiency"}, {"link": {"kind": "v-link", "value": "50"}, "to_node": "commitment to quality"}, {"link": {"kind": "v-link", "value": "80"}, "to_node": "responsibility to workflow"}, {"link": {"kind": "v-link", "value": "85"}, "to_node": "consideration for time management"}, {"link": {"kind": "v-link", "value": "20"}, "to_node": "irresponsibility"}, {"link": {"kind": "v-link", "value": "75"}, "to_node": "environmental negligence"}, {"link": {"kind": "v-link", "value": "65"}, "to_node": "short-sightedness"}, {"link": {"kind": "v-link", "value": "40"}, "to_node": "selfishness"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My artworks do not take longer to dry"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My artworks use paint that is not eco-friendly."}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My artworks have a stronger paint smell."}, {"link": {"kind": "e_link", "value": ""}, "to_node": "I do not contribute to reducing environmental impact through paint choice"}]}
+{"node": {"kind": "value", "label": "practicality"}, "links": []}
+{"node": {"kind": "value", "label": "efficiency"}, "links": []}
+{"node": {"kind": "value", "label": "commitment to quality"}, "links": []}
+{"node": {"kind": "value", "label": "responsibility to workflow"}, "links": []}
+{"node": {"kind": "value", "label": "consideration for time management"}, "links": []}
+{"node": {"kind": "value", "label": "irresponsibility"}, "links": []}
+{"node": {"kind": "value", "label": "environmental negligence"}, "links": []}
+{"node": {"kind": "value", "label": "short-sightedness"}, "links": []}
+{"node": {"kind": "value", "label": "selfishness"}, "links": []}
+{"node": {"kind": "event", "label": "My artworks do not take longer to dry"}, "links": [{"link": {"kind": "utility", "value": "20"}, "to_node": "I"}]}
+{"node": {"kind": "event", "label": "My artworks use paint that is not eco-friendly."}, "links": [{"link": {"kind": "utility", "value": "-30"}, "to_node": "I"}]}
+{"node": {"kind": "event", "label": "My artworks have a stronger paint smell."}, "links": [{"link": {"kind": "utility", "value": "-30"}, "to_node": "I"}]}
+{"node": {"kind": "event", "label": "I do not contribute to reducing environmental impact through paint choice"}, "links": [{"link": {"kind": "utility", "value": "-10"}, "to_node": "I"}]}

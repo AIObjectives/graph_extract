@@ -1,0 +1,17 @@
+{"node": {"kind": "being", "label": "I"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "I do not participate in the advanced VR combat training."}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "My team does not experience short dizziness from VR training."}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "My team misses out on the more interesting VR combat training experience"}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "My team continues with standard combat training methods."}]}
+{"node": {"kind": "being", "label": "her team"}, "links": []}
+{"node": {"kind": "being", "label": "some soldiers"}, "links": []}
+{"node": {"kind": "action_choice", "label": "I do not participate in the advanced VR combat training."}, "links": [{"link": {"kind": "v-link", "value": "85"}, "to_node": "responsibility"}, {"link": {"kind": "v-link", "value": "90"}, "to_node": "prudence"}, {"link": {"kind": "v-link", "value": "75"}, "to_node": "self-discipline"}, {"link": {"kind": "v-link", "value": "80"}, "to_node": "consideration"}, {"link": {"kind": "v-link", "value": "40"}, "to_node": "courage"}, {"link": {"kind": "v-link", "value": "70"}, "to_node": "integrity"}, {"link": {"kind": "v-link", "value": "30"}, "to_node": "fear of change"}, {"link": {"kind": "v-link", "value": "25"}, "to_node": "lack of courage"}, {"link": {"kind": "v-link", "value": "35"}, "to_node": "resistance to innovation"}, {"link": {"kind": "v-link", "value": "60"}, "to_node": "overcautiousness"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My team does not experience short dizziness from VR training."}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My team misses out on the more interesting VR combat training experience"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My team continues with standard combat training methods."}]}
+{"node": {"kind": "value", "label": "responsibility"}, "links": []}
+{"node": {"kind": "value", "label": "prudence"}, "links": []}
+{"node": {"kind": "value", "label": "self-discipline"}, "links": []}
+{"node": {"kind": "value", "label": "consideration"}, "links": []}
+{"node": {"kind": "value", "label": "courage"}, "links": []}
+{"node": {"kind": "value", "label": "integrity"}, "links": []}
+{"node": {"kind": "value", "label": "fear of change"}, "links": []}
+{"node": {"kind": "value", "label": "lack of courage"}, "links": []}
+{"node": {"kind": "value", "label": "resistance to innovation"}, "links": []}
+{"node": {"kind": "value", "label": "overcautiousness"}, "links": []}
+{"node": {"kind": "event", "label": "My team does not experience short dizziness from VR training."}, "links": [{"link": {"kind": "utility", "value": "0"}, "to_node": "I"}, {"link": {"kind": "utility", "value": "0"}, "to_node": "her team"}, {"link": {"kind": "utility", "value": "0"}, "to_node": "some soldiers"}]}
+{"node": {"kind": "event", "label": "My team misses out on the more interesting VR combat training experience"}, "links": [{"link": {"kind": "utility", "value": "-10"}, "to_node": "I"}, {"link": {"kind": "utility", "value": "-30"}, "to_node": "her team"}, {"link": {"kind": "utility", "value": "-20"}, "to_node": "some soldiers"}]}
+{"node": {"kind": "event", "label": "My team continues with standard combat training methods."}, "links": [{"link": {"kind": "utility", "value": "0"}, "to_node": "I"}, {"link": {"kind": "utility", "value": "0"}, "to_node": "her team"}, {"link": {"kind": "utility", "value": "0"}, "to_node": "some soldiers"}]}

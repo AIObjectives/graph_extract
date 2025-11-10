@@ -1,0 +1,11 @@
+{"node": {"kind": "being", "label": "I"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "I use the new eco-friendly paint."}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "My artworks take longer to dry"}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "I use eco-friendly paint"}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "My artworks have less paint smell"}]}
+{"node": {"kind": "action_choice", "label": "I use the new eco-friendly paint."}, "links": [{"link": {"kind": "v-link", "value": "90"}, "to_node": "environmental responsibility"}, {"link": {"kind": "v-link", "value": "85"}, "to_node": "sustainability"}, {"link": {"kind": "v-link", "value": "75"}, "to_node": "patience"}, {"link": {"kind": "v-link", "value": "70"}, "to_node": "innovation"}, {"link": {"kind": "v-link", "value": "80"}, "to_node": "commitment to health"}, {"link": {"kind": "v-link", "value": "85"}, "to_node": "conscientiousness"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My artworks take longer to dry"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "I use eco-friendly paint"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My artworks have less paint smell"}]}
+{"node": {"kind": "value", "label": "environmental responsibility"}, "links": []}
+{"node": {"kind": "value", "label": "sustainability"}, "links": []}
+{"node": {"kind": "value", "label": "patience"}, "links": []}
+{"node": {"kind": "value", "label": "innovation"}, "links": []}
+{"node": {"kind": "value", "label": "commitment to health"}, "links": []}
+{"node": {"kind": "value", "label": "conscientiousness"}, "links": []}
+{"node": {"kind": "event", "label": "My artworks take longer to dry"}, "links": [{"link": {"kind": "utility", "value": "-20"}, "to_node": "I"}]}
+{"node": {"kind": "event", "label": "I use eco-friendly paint"}, "links": [{"link": {"kind": "utility", "value": "40"}, "to_node": "I"}]}
+{"node": {"kind": "event", "label": "My artworks have less paint smell"}, "links": [{"link": {"kind": "utility", "value": "70"}, "to_node": "I"}]}
