@@ -29,7 +29,7 @@ global config
 config = dotenv_values(".env")
 
 CUR_DIR = os.path.dirname(os.path.abspath(__name__))
-DATA_DIR = CUR_DIR+'/formatted_franken/data/conditions_mild_harm_mild_good/'
+DATA_DIR = CUR_DIR+'/formatted_franken_scenarios/data/conditions_mild_harm_mild_good/'
 
 
 def fix_braces(this_list):
@@ -99,7 +99,7 @@ def process_beings(this_scenario,this_act,g):
 
   return [beings_fixed,beings_fixed_Ziv,beings_list]
 
-def process_value_simple(this_act,this_act_I, g):
+def process_values_simple(this_scenario, this_act_I, this_act, g):
    
 
   action_rating = prompts.score_action_simple(this_act_I)
@@ -418,11 +418,12 @@ def main(scenario_json,output_filename,act_id):
     #get all values and anti-values
 
     importlib.reload(prompts)
-    processed_values  = process_values(this_scenario, this_act_I, this_act,g) 
+    processed_values  = process_values_simple(this_scenario, this_act_I, this_act,g) 
+    print("\n processed values:" + str(processed_values))
 
-    all_values_scored = processed_values[0]
-    scenario_dict["values"]= processed_values[1]
-    print(processed_values[1])
+    # all_values_scored = processed_values[0]
+    # scenario_dict["values"]= processed_values[0]
+    # print(processed_values[1])
     
     
     # #OUTCOMES

@@ -2,28 +2,23 @@ import json
 import os
 import textwrap 
 import typer
-import pandas as pd
+# import annotate_scenario
 import src.annotate_scenario as annotate_scenario
+# import translate_to_vis
 import src.translate_to_vis as translate_to_vis
 import importlib
 importlib.reload(annotate_scenario)
 importlib.reload(translate_to_vis)
-from pathlib import Path
 
 
-CUR_DIR = Path().resolve()
-#DATA_DIR = CUR_DIR / "data"
-#DATA_DIR_HUMAN = DATA_DIR / 'human_annotation'
-SCENARIO_DIR = CUR_DIR / 'scenarios'
-OUTPUT_DIR = CUR_DIR / 'annotated_outputs'
+CUR_DIR = os.path.dirname(os.path.abspath(__name__))
+SEVERITY = 'conditions_mild_harm_mild_good/'  # adjust as needed
+SCENARIO_DIR = CUR_DIR+'/formatted_franken_scenarios/data/'+SEVERITY
+OUTPUT_DIR = CUR_DIR+'/franken_annotated_outputs/'+SEVERITY
 
+def main(filename: str = 'scenarios.json', scenario_id: int = 0):
 
-# filename = 'scenarios.json'
-# scenario_id = 1
-
-def main(filename: str = 'nie_scenarios.json', scenario_id: int = 0):
-
-    with open(SCENARIO_DIR / filename, 'r', encoding='utf-8') as file:
+    with open(SCENARIO_DIR+filename, 'r') as file:
         scenarios=json.load(file)
 
     # error handling for assumptions about json entries
@@ -37,34 +32,19 @@ def main(filename: str = 'nie_scenarios.json', scenario_id: int = 0):
     assert scenario_json['text']
     assert scenario_json['options']
 
-    # display the scenario text read in 
+    # display the scnenario text read in 
     this_scenario_text = scenario_json["text"]    
     print('Scenario Text: \n\n')
     print(textwrap.fill(this_scenario_text, width = 100), '\n\n')
 
     # generate output file name based on input filename
-    # output_filename = filename.split('.json')[0]+'_'+str(scenario_id)
-    output_filepath = OUTPUT_DIR+filename.split('.json')[0]
-    os.makedirs(output_filepath, exist_ok=True)
-    output_filename = output_filepath+'/'+str(scenario_id)
+    output_filepath = OUTPUT_DIR+filename.split('.json')[0]+'/'
+    # create output directory if it doesn't exist
+    if not os.path.exists(output_filepath):
+        os.makedirs(output_filepath)
+    output_filename = output_filepath+str(scenario_id)
 
-    # loop through action choices to generate basic json, value json, and visualization
-    # act_id = '2'
-    for act_id in scenario_json['options'].keys(): 
-
-        #load some human annotation data
-        '''
-        this_human_filename = DATA_DIR_HUMAN / f"{output_filename}_choice_{str(act_id)}_value_scores.csv"
-        all_human_data= {}
-        if os.path.exists(this_human_filename):
-            #load csv file
-             this_human_data = pd.read_csv(this_human_filename)
-             #use value_names as keys and mean as values and make a dictionary
-             all_human_data['value_scores']= this_human_data.set_index('value_names')['mean'].to_dict()
-        else:
-            print('No human annotation data found for this scenario and action choice.')
-        '''
-        all_human_data = "TBD"    
+    for act_id in scenario_json['options'].keys():         
     
         # run the annotation process
         json_filename = annotate_scenario.main(scenario_json,output_filename,act_id)  
