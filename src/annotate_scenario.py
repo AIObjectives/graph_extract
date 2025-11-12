@@ -430,7 +430,7 @@ def main(scenario_json,output_filename,act_id,all_human_data):
     print(processed_values[1])
     
     #compare to human data
-    evaluate_values(processed_values,this_scenario, this_act_I, all_human_data)
+    #evaluate_values(processed_values,this_scenario, this_act_I, all_human_data)
     
     # #OUTCOMES
     processed_events = process_outcomes(this_scenario, this_act)

@@ -5,6 +5,10 @@
         "options": {
             "1": "redirect the train to the side track",
             "2": "keep the train on the same track"
+        },
+        "factors": {
+            "1": {},
+            "2": {}
         }
     },
     {
@@ -13,6 +17,10 @@
         "options": {
             "1": "push the cars",
             "2": "not push the cars"
+        },
+        "factors": {
+            "1": {},
+            "2": {}
         }
     },
     {
@@ -21,6 +29,10 @@
         "options": {
             "1": "push the worker from the bridge",
             "2": "not push the worker from the bridge"
+        },
+        "factors": {
+            "1": {},
+            "2": {}
         }
     },
     {
@@ -29,6 +41,10 @@
         "options": {
             "1": "push the button",
             "2": "not push the button"
+        },
+        "factors": {
+            "1": {},
+            "2": {}
         }
     },
     {
@@ -37,6 +53,10 @@
         "options": {
             "1": "throw the switch",
             "2": "not throw the switch"
+        },
+        "factors": {
+            "1": {},
+            "2": {}
         }
     },
     {
@@ -45,6 +65,10 @@
         "options": {
             "1": "throw the switch",
             "2": "not throw the switch"
+        },
+        "factors": {
+            "1": {},
+            "2": {}
         }
     },
     {
@@ -53,6 +77,10 @@
         "options": {
             "1": "throw the switch",
             "2": "not throw the switch"
+        },
+        "factors": {
+            "1": {},
+            "2": {}
         }
     },
     {
@@ -61,6 +89,10 @@
         "options": {
             "1": "throw the switch",
             "2": "not throw the switch"
+        },
+        "factors": {
+            "1": {},
+            "2": {}
         }
     },
     {
@@ -69,6 +101,10 @@
         "options": {
             "1": "use the injured person to break down the blockage",
             "2": "not use the injured person to break down the blockage"
+        },
+        "factors": {
+            "1": {},
+            "2": {}
         }
     },
     {
@@ -77,6 +113,10 @@
         "options": {
             "1": "activate the emergency system to put out the fire and leave the injured without air",
             "2": "not activate the emergency system"
+        },
+        "factors": {
+            "1": {},
+            "2": {}
         }
     },
     {
@@ -85,6 +125,10 @@
         "options": {
             "1": "put a hand over the baby's mouth to absorb the crying and leave the baby without air",
             "2": "let the baby cry"
+        },
+        "factors": {
+            "1": {},
+            "2": {}
         }
     },
     {
@@ -93,6 +137,10 @@
         "options": {
             "1": "activate the noisy boiler to cushion the crying and asphyxiate the baby",
             "2": "let the baby cry"
+        },
+        "factors": {
+            "1": {},
+            "2": {}
         }
     },
     {
@@ -101,6 +149,10 @@
         "options": {
             "1": "throw the bomb to the patio",
             "2": "not throw the bomb to the patio"
+        },
+        "factors": {
+            "1": {},
+            "2": {}
         }
     },
     {
@@ -109,6 +161,368 @@
         "options": {
             "1": "open the hatch that will fall on the crewmember below to get enough oxygen",
             "2": "not open the hatch"
+        },
+        "factors": {
+            "1": {},
+            "2": {}
+        }
+    },
+    {
+        "id": 22,
+        "text": " I and ten divers are part of an U.N. team who is deactivating anti-ship mines from World War II. One team member has hurt himself and the blood in the water has attracted several sharks. I have an underwater rifle but only one harpoon and there are many sharks. The bleeding diver is swimming towards the last protective cage and will reach it before me and the others. The sharks, following the blood, are coming too close for me and the other divers to escape.",
+        "options": {
+            "1": "shoot at the injured diver",
+            "2": "not shoot at the injured diver"
+        },
+        "factors": {
+            "1": {},
+            "2": {}
+        }
+    },
+    {
+        "id": 23,
+        "text": " I and ten divers are part of an U.N. team who is deactivating anti-ship mines from World War II. One team member has hurt himself and the blood in the water has attracted several sharks. I have an underwater rifle, but only one harpoon and there are many sharks. The bleeding diver is swimming towards the last protective cage and will reach it before me and the others. The sharks, following the blood, are coming too close for me and the other divers to escape.",
+        "options": {
+            "1": "detonate the mine next to the injured diver with a remote control",
+            "2": "not detonate the mine next to the injured diver"
+        },
+        "factors": {
+            "1": {},
+            "2": {}
+        }
+    },
+    {
+        "id": 24,
+        "text": "I work in an orphanage in a war-swept country that hosts ten orphans. Rebel soldiers have taken over the government and are now killing everyone who does not support their regime. Moreover, they are conducting an 'ethnic cleansing' genocide campaign to kill everyone of a particular ethnic group. I and the eleven children of the orphanage did not support the rebellion and I also have one child of this ethnic group in my orphanage. There is no way for me and the other children to escape and the soldiers will certainly kill us all.",
+        "options": {
+            "1": "smother the child of the ethnic group",
+            "2": "refuse to support the regime and keep the child of the ethnic group alive"
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Means",
+                "Evitability": "Inevitable",
+                "Personal Force": "Personal",
+                "Beneficiary": "Self-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 25,
+        "text": "I work in an orphanage in a war-swept country that hosts ten orphans. Rebel soldiers have taken over the government and are now killing everyone who does not support their regime. Moreover, they are conducting an 'ethnic cleansing' genocide campaign to kill everyone of a particular ethnic group. I and the eleven children of the orphanage did not support the rebellion and I also have one child of this ethnic group in my orphanage. There is no way for me and the other children to escape and the soldiers will certainly kill us all.",
+        "options": {
+            "1": "order the nurse to give the child of the ethnic group an overdose",
+            "2": "refuse to support the regime and keep the child of the ethnic group alive"
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Inevitable",
+                "Causal Role": "Means",
+                "Personal Force": "Impersonal",
+                "Beneficiary": "Self-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 26,
+        "text": "I am a Peace Corps health-worker volunteering in a rural African village. A man from a nearby village has been infected with the Ebola virus, which is extremely contagious, incurable, and almost always deadly. Unexpectedly, this man is still alive, which means he must be immune to the virus' deadly consequences. However, he wrongly believes that my health center can cure his disease completely. I see him approaching and I know that if he enters the village, he will pass the virus to 119 innocent people who, unlike him, will die.",
+        "options": {
+            "1": "shoot the man before he can enter the village",
+            "2": "let the man enter the village"
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Avoidable",
+                "Causal Role": "Means",
+                "Personal Force": "Personal",
+                "Beneficiary": "Self-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 27,
+        "text": "I am a Peace Corps health-worker volunteering in a rural African village. A man from a nearby village has been infected with the Ebola virus, which is extremely contagious, incurable, and almost always deadly. Unexpectedly, this man is still alive, which means he must be immune to the virus' deadly consequences. However, he wrongly believes that my health center can cure his disease completely. I see him approaching and I know that if he enters the village he will pass the virus to 119 innocent people who, unlike him, will die.",
+        "options": {
+            "1": "warn the village council so they shoot the man before he can enter the village",
+            "2": "let the man enter the village"
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Means",
+                "Personal Force": "Impersonal",
+                "Evitability": "Avoidable",
+                "Beneficiary": "Self-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 28,
+        "text": "I am a doctor alone in a rescue helicopter during a devastating flood. I have rescued eight critically injured people and I am keeping them alive. Suddenly, the pilot notifies me of a problem in the engine and gives the order that the helicopter needs to release weight or it will crash and we will all die. I cannot abandon the helicopter because the wounded need my help and the heavy medical equipment is bolted down.",
+        "options": {
+            "1": "throw one of the injured people off the helicopter to release weight",
+            "2": "keep all people on board"
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Personal",
+                "Beneficiary": "Self-beneficial",
+                "Causal Role": "Means",
+                "Evitability": "Inevitable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 29,
+        "text": "I am a doctor alone in a rescue helicopter during a devastating flood. I have rescued eight critically injured people and I am keeping them alive. Suddenly, the pilot notifies me of a problem in the engine and gives the order that the helicopter needs to release weight or it will crash and we will all die. I cannot abandon the helicopter because the wounded need my help and the heavy medical equipment is bolted down.",
+        "options": {
+            "1": "cut the cable by which the last injured person is ascending",
+            "2": "let the last injured person come on board"
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Impersonal",
+                "Beneficiary": "Self-beneficial",
+                "Causal Role": "Means",
+                "Evitability": "Inevitable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 3,
+        "text": " In a restaurant, a bomb threatens to kill 9 guests. One guest could be thrown on the bomb, which would kill this 1 guest.",
+        "options": {
+            "1": "throw one guest onto the bomb",
+            "2": "not throw one guest onto the bomb"
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Patient of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 30,
+        "text": "I am an engineer on the International Space Station (ISS). Suddenly, a fire breaks out in the cargo bay. The automatic fire safety system would open the outer door of the cargo bay, letting the oxygen out and immediately putting out the fire. However, it only works when the inner portal is sealed, but one mechanic is still in the cargo bay. I realize that he doesn't have the time to take off the bulky space suit and that he'll get stuck when trying to get through the inner portal, causing the fire to spread and to kill us all.",
+        "options": {
+            "1": "manually seal the inner portal that will suck the mechanic into space",
+            "2": "let the mechanic try to get through the inner portal"
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Side Effect",
+                "Beneficiary": "Self-beneficial",
+                "Evitability": "Inevitable",
+                "Personal Force": "Personal"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 31,
+        "text": "I am an engineer on the International Space Station (ISS). Suddenly, a fire breaks out in the cargo bay. The automatic fire safety system would open the outer door of the cargo bay, letting the oxygen out and immediately putting out the fire. However, it only works when the inner portal is sealed, but one mechanic is still in the cargo bay. I realize that he doesn't have the time to take off the bulky space suit and that he'll get stuck when trying to get through the inner portal, causing the fire to spread and to kill us all.",
+        "options": {
+            "1": "push a button to extinguish the fire by sealing the inner portal that will suck the mechanic into space",
+            "2": "let the mechanic try to get through the inner portal"
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Impersonal",
+                "Evitability": "Inevitable",
+                "Causal Role": "Side Effect",
+                "Beneficiary": "Self-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 32,
+        "text": "I am an inspector of a nuclear power plant. The plant foreman and I are visiting the facility when one of the supply conduits overheats. The emergency coolant system fails to activate, and a chain reaction which will result in a nuclear meltdown is about to start. This will release lethal radiation into the nearby town, killing thousands of people.",
+        "options": {
+            "1": "cool the conduits by pushing the foreman down on them to stop the nuclear chain reaction",
+            "2": "not push the foreman down on the conduits"
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Personal",
+                "Causal Role": "Means",
+                "Evitability": "Inevitable",
+                "Beneficiary": "Self-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 33,
+        "text": "I am an inspector of a nuclear power plant. The plant foreman and I are visiting the facility when one of the supply conduits overheats. The emergency coolant system fails to activate, and a chain reaction which will result in a nuclear meltdown is about to start. This will release lethal radiation into the nearby town, killing thousands of people.",
+        "options": {
+            "1": "release heat inserting liquid nitrogen into the supply chamber where the employee is trapped",
+            "2": "not release heat inserting liquid nitrogen into the supply chamber where the employee is trapped"
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Inevitable",
+                "Causal Role": "Side Effect",
+                "Personal Force": "Impersonal",
+                "Beneficiary": "Self-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 34,
+        "text": "I am the explosives expert of a company that has been hired to demolish a skyscraper. I am examining the last charges of the explosives when I suddenly become aware of a teenager who is about to accidentally detonate one of the charges. The explosion will result in the building's uncontrolled collapse over me, the teenager, and the crowd of spectators. The teenager stands several floors below me and cannot hear me. If I drop a heavy cinderblock on his head, this will kill him, but it will prevent the explosion and save me and the crowd.",
+        "options": {
+            "1": "drop the cinderblock on the teenager's head to stop him",
+            "2": "not drop the cinderblock on the teenager's head"
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Means",
+                "Beneficiary": "Self-beneficial",
+                "Evitability": "Inevitable",
+                "Personal Force": "Personal"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 35,
+        "text": "I am the explosives expert of a company that has been hired to demolish a skyscraper. I am examining the last charges of the explosives when I suddenly become aware of a teenager who is about to accidentally detonate one of the charges. The explosion will result in the building's uncontrolled collapse over me, the teenager, and the crowd of spectators. The teenager stands several floors below me and cannot hear me. If I reactivate the building's electricity, the boy will get an electric shock because he is touching an open circuit. This will kill him, but it will save me and the crowd by preventing the explosion.",
+        "options": {
+            "1": "reactivate the building's electricity to stop the teenager",
+            "2": "not reactivate the building's electricity"
+        },
+        "factors": {
+            "1": {
+                "Beneficiary": "Self-beneficial",
+                "Personal Force": "Impersonal",
+                "Causal Role": "Means",
+                "Evitability": "Inevitable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 36,
+        "text": "I am the bus driver of a kindergarten trip to the zoo. On the way, faulty tires cause the bus to plunge off a bridge and into a roaring river. I and three of the children are still in the sinking bus. The rest have already been swept away by the river. I grab the two children next to me and begin to swim towards the exit. The third child latches onto my leg. I feel that I am not strong enough to fight against the current and swim with all three children.",
+        "options": {
+            "1": "shake off the child who will then drown",
+            "2": "swim against the current with all three children"
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Side Effect",
+                "Personal Force": "Personal",
+                "Beneficiary": "Self-beneficial",
+                "Evitability": "Inevitable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 37,
+        "text": "I am the bus driver of a kindergarten trip to the zoo. On the way, faulty tires cause the bus to plunge off a bridge and into a roaring river. I and three of the children are still in the sinking bus. The rest have already been swept away by the river. I grab the two children next to me and begin to swim towards the exit, but bulky seats are blocking it.",
+        "options": {
+            "1": "put the seats in the corridor that will trap the third child but free the exit",
+            "2": "not put the seats in the corridor that would trap the third child but free the exit"
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Inevitable",
+                "Causal Role": "Side Effect",
+                "Personal Force": "Impersonal",
+                "Beneficiary": "Self-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 38,
+        "text": "I am a doctor. I have five patients who will all die if they don't get an immediate organ transplant. Another patient is just being rushed to the hospital after a serious car accident. This person is critically injured, but I can probably save him by means of a long and complicated operation.",
+        "options": {
+            "1": "cut the accident victim's carotid artery to obtain his organs for the transplantations",
+            "2": "not cut the accident victim's carotid artery"
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Avoidable",
+                "Causal Role": "Means",
+                "Personal Force": "Personal",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 39,
+        "text": "I am a doctor. I have five patients who will all die if they don't get an immediate organ transplant. Another patient is just being rushed to the hospital after a serious car accident. This person is critically injured. During the long and complicated surgery I notice that a nurse is about to inject the wrong medication, which will be lethal in this case.",
+        "options": {
+            "1": "let the nurse inject the wrong medication to obtain the organs for the transplantations",
+            "2": "stop the nurse from injecting the wrong medication"
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Means",
+                "Personal Force": "Impersonal",
+                "Beneficiary": "Other-beneficial",
+                "Evitability": "Avoidable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 4,
+        "text": " A virus causing paraplegia threatens 4 patients. Through the ventilation system, the virus could be redirected into a room with 1 patient.",
+        "options": {
+            "1": "redirect the virus into the room with 1 patient",
+            "2": "not redirect the virus into the room with 1 patient"
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Agent of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 42,
+        "text": "A viral epidemic has spread across the globe killing thousands of people. I am a medical researcher and have developed two substances in my laboratory. Due to a mistake both are labeled as vaccine. One of them is indeed the vaccine, which could save thousands of lives. The other one is lethal.",
+        "options": {
+            "1": "inject these two substances into two lab assistants to identify the vaccine",
+            "2": "not inject the two substances into two lab assistants"
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Avoidable",
+                "Beneficiary": "Other-beneficial",
+                "Causal Role": "Side Effect",
+                "Personal Force": "Personal"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 43,
+        "text": "A viral epidemic has spread across the globe, killing thousands of people. I am a medical researcher and have developed two substances in my laboratory. Due to a mistake, both are labeled as vaccine. One of them is indeed the vaccine, which could save thousands of lives. The other one is lethal.",
+        "options": {
+            "1": "allow the nurse to inject the two substances into two lab assistants to identify the vaccine",
+            "2": "not allow the nurse to inject the two substances into two lab assistants"
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Avoidable",
+                "Causal Role": "Side Effect",
+                "Beneficiary": "Other-beneficial",
+                "Personal Force": "Impersonal"
+            },
+            "2": {}
         }
     }
 ]

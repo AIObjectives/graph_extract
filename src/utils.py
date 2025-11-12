@@ -20,11 +20,15 @@ def open_scenario(SCENARIO_DIR, FILENAME, SCENARIO_ID, ACT_ID):
         
     # error handling for assumptions about json entries
     try:
-        scenario_json = all_scenarios[SCENARIO_ID]
+        scenario_json = {}
+        for scenario in all_scenarios:
+            if scenario["id"] == SCENARIO_ID:
+                scenario_json = scenario
+                break
     except:
         # print("Check scenario filename or scenario id")
-        raise IndexError('Check scenario id exists in json file!')
         scenario_json = {}
+        raise IndexError('Check scenario id exists in json file!')
     
     #make sure action id is in the scenario
     if ACT_ID not in scenario_json['options']:
