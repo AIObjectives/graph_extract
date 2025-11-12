@@ -1,0 +1,1287 @@
+================================================================================
+MORAL SCENARIO ANNOTATION ANALYSIS REPORT
+================================================================================
+Analysis of causal variable polarities (C, I, K)
+grouped by utility scores and experimental conditions
+
+
+################################################################################
+ANALYSIS FOR: CONDITIONS_MILD_HARM_MILD_GOOD
+################################################################################
+
+================================================================================
+INDIVIDUAL SUBFOLDER ANALYSIS
+================================================================================
+
+================================================================================
+Subfolder: cc_evitable_action_yes_stories
+================================================================================
+
+Total causal variable assignments: 633
+
+
+POSITIVE UTILITY:
+  Events in category: 82
+  Total assignments: 246
+    C+:   81 (local:  98.8%, global:  15.5%)
+    C-:    1 (local:   1.2%, global:   0.2%)
+    I+:   79 (local:  96.3%, global:  15.1%)
+    I-:    3 (local:   3.7%, global:   0.6%)
+    K+:   65 (local:  79.3%, global:  12.5%)
+    K-:   17 (local:  20.7%, global:   3.3%)
+
+NEGATIVE UTILITY:
+  Events in category: 93
+  Total assignments: 279
+    C+:   93 (local: 100.0%, global:  11.6%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:   74 (local:  79.6%, global:   9.3%)
+    I-:   19 (local:  20.4%, global:   2.4%)
+    K+:   86 (local:  92.5%, global:  10.8%)
+    K-:    7 (local:   7.5%, global:   0.9%)
+
+ZERO UTILITY:
+  Events in category: 36
+  Total assignments: 108
+    C+:   35 (local:  97.2%, global:  21.5%)
+    C-:    1 (local:   2.8%, global:   0.6%)
+    I+:   31 (local:  86.1%, global:  19.0%)
+    I-:    5 (local:  13.9%, global:   3.1%)
+    K+:   32 (local:  88.9%, global:  19.6%)
+    K-:    4 (local:  11.1%, global:   2.5%)
+
+OVERALL (all utility categories):
+  Total assignments: 633
+    C+:  209 (local:  99.1%, global:  14.1%)
+    C-:    2 (local:   0.9%, global:   0.1%)
+    I+:  184 (local:  87.2%, global:  12.4%)
+    I-:   27 (local:  12.8%, global:   1.8%)
+    K+:  183 (local:  86.7%, global:  12.3%)
+    K-:   28 (local:  13.3%, global:   1.9%)
+================================================================================
+Subfolder: cc_evitable_prevention_no_stories
+================================================================================
+
+Total causal variable assignments: 876
+
+
+POSITIVE UTILITY:
+  Events in category: 114
+  Total assignments: 342
+    C+:  113 (local:  99.1%, global:  21.6%)
+    C-:    1 (local:   0.9%, global:   0.2%)
+    I+:  110 (local:  96.5%, global:  21.1%)
+    I-:    4 (local:   3.5%, global:   0.8%)
+    K+:   97 (local:  85.1%, global:  18.6%)
+    K-:   17 (local:  14.9%, global:   3.3%)
+
+NEGATIVE UTILITY:
+  Events in category: 151
+  Total assignments: 453
+    C+:  148 (local:  98.0%, global:  18.5%)
+    C-:    3 (local:   2.0%, global:   0.4%)
+    I+:  128 (local:  84.8%, global:  16.0%)
+    I-:   23 (local:  15.2%, global:   2.9%)
+    K+:  143 (local:  94.7%, global:  17.9%)
+    K-:    8 (local:   5.3%, global:   1.0%)
+
+ZERO UTILITY:
+  Events in category: 27
+  Total assignments: 81
+    C+:   26 (local:  96.3%, global:  16.0%)
+    C-:    1 (local:   3.7%, global:   0.6%)
+    I+:   23 (local:  85.2%, global:  14.1%)
+    I-:    4 (local:  14.8%, global:   2.5%)
+    K+:   23 (local:  85.2%, global:  14.1%)
+    K-:    4 (local:  14.8%, global:   2.5%)
+
+OVERALL (all utility categories):
+  Total assignments: 876
+    C+:  287 (local:  98.3%, global:  19.3%)
+    C-:    5 (local:   1.7%, global:   0.3%)
+    I+:  261 (local:  89.4%, global:  17.6%)
+    I-:   31 (local:  10.6%, global:   2.1%)
+    K+:  263 (local:  90.1%, global:  17.7%)
+    K-:   29 (local:   9.9%, global:   2.0%)
+================================================================================
+Subfolder: cc_inevitable_action_yes_stories
+================================================================================
+
+Total causal variable assignments: 666
+
+
+POSITIVE UTILITY:
+  Events in category: 64
+  Total assignments: 192
+    C+:   52 (local:  81.2%, global:  10.0%)
+    C-:   12 (local:  18.8%, global:   2.3%)
+    I+:   58 (local:  90.6%, global:  11.1%)
+    I-:    6 (local:   9.4%, global:   1.1%)
+    K+:   46 (local:  71.9%, global:   8.8%)
+    K-:   18 (local:  28.1%, global:   3.4%)
+
+NEGATIVE UTILITY:
+  Events in category: 139
+  Total assignments: 417
+    C+:   51 (local:  36.7%, global:   6.4%)
+    C-:   88 (local:  63.3%, global:  11.0%)
+    I+:   81 (local:  58.3%, global:  10.1%)
+    I-:   58 (local:  41.7%, global:   7.3%)
+    K+:  135 (local:  97.1%, global:  16.9%)
+    K-:    4 (local:   2.9%, global:   0.5%)
+
+ZERO UTILITY:
+  Events in category: 19
+  Total assignments: 57
+    C+:   18 (local:  94.7%, global:  11.0%)
+    C-:    1 (local:   5.3%, global:   0.6%)
+    I+:   19 (local: 100.0%, global:  11.7%)
+    I-:    0 (local:   0.0%, global:   0.0%)
+    K+:   18 (local:  94.7%, global:  11.0%)
+    K-:    1 (local:   5.3%, global:   0.6%)
+
+OVERALL (all utility categories):
+  Total assignments: 666
+    C+:  121 (local:  54.5%, global:   8.2%)
+    C-:  101 (local:  45.5%, global:   6.8%)
+    I+:  158 (local:  71.2%, global:  10.6%)
+    I-:   64 (local:  28.8%, global:   4.3%)
+    K+:  199 (local:  89.6%, global:  13.4%)
+    K-:   23 (local:  10.4%, global:   1.5%)
+================================================================================
+Subfolder: cc_inevitable_prevention_no_stories
+================================================================================
+
+Total causal variable assignments: 960
+
+
+POSITIVE UTILITY:
+  Events in category: 76
+  Total assignments: 228
+    C+:   47 (local:  61.8%, global:   9.0%)
+    C-:   29 (local:  38.2%, global:   5.6%)
+    I+:   68 (local:  89.5%, global:  13.0%)
+    I-:    8 (local:  10.5%, global:   1.5%)
+    K+:   54 (local:  71.1%, global:  10.3%)
+    K-:   22 (local:  28.9%, global:   4.2%)
+
+NEGATIVE UTILITY:
+  Events in category: 212
+  Total assignments: 636
+    C+:   82 (local:  38.7%, global:  10.3%)
+    C-:  130 (local:  61.3%, global:  16.3%)
+    I+:   97 (local:  45.8%, global:  12.1%)
+    I-:  115 (local:  54.2%, global:  14.4%)
+    K+:  196 (local:  92.5%, global:  24.5%)
+    K-:   16 (local:   7.5%, global:   2.0%)
+
+ZERO UTILITY:
+  Events in category: 32
+  Total assignments: 96
+    C+:   27 (local:  84.4%, global:  16.6%)
+    C-:    5 (local:  15.6%, global:   3.1%)
+    I+:   22 (local:  68.8%, global:  13.5%)
+    I-:   10 (local:  31.2%, global:   6.1%)
+    K+:   29 (local:  90.6%, global:  17.8%)
+    K-:    3 (local:   9.4%, global:   1.8%)
+
+OVERALL (all utility categories):
+  Total assignments: 960
+    C+:  156 (local:  48.8%, global:  10.5%)
+    C-:  164 (local:  51.2%, global:  11.1%)
+    I+:  187 (local:  58.4%, global:  12.6%)
+    I-:  133 (local:  41.6%, global:   9.0%)
+    K+:  279 (local:  87.2%, global:  18.8%)
+    K-:   41 (local:  12.8%, global:   2.8%)
+================================================================================
+Subfolder: coc_evitable_action_yes_stories
+================================================================================
+
+Total causal variable assignments: 669
+
+
+POSITIVE UTILITY:
+  Events in category: 102
+  Total assignments: 306
+    C+:  102 (local: 100.0%, global:  19.5%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:   99 (local:  97.1%, global:  19.0%)
+    I-:    3 (local:   2.9%, global:   0.6%)
+    K+:   89 (local:  87.3%, global:  17.0%)
+    K-:   13 (local:  12.7%, global:   2.5%)
+
+NEGATIVE UTILITY:
+  Events in category: 89
+  Total assignments: 267
+    C+:   88 (local:  98.9%, global:  11.0%)
+    C-:    1 (local:   1.1%, global:   0.1%)
+    I+:   42 (local:  47.2%, global:   5.3%)
+    I-:   47 (local:  52.8%, global:   5.9%)
+    K+:   87 (local:  97.8%, global:  10.9%)
+    K-:    2 (local:   2.2%, global:   0.3%)
+
+ZERO UTILITY:
+  Events in category: 32
+  Total assignments: 96
+    C+:   32 (local: 100.0%, global:  19.6%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:   28 (local:  87.5%, global:  17.2%)
+    I-:    4 (local:  12.5%, global:   2.5%)
+    K+:   31 (local:  96.9%, global:  19.0%)
+    K-:    1 (local:   3.1%, global:   0.6%)
+
+OVERALL (all utility categories):
+  Total assignments: 669
+    C+:  222 (local:  99.6%, global:  15.0%)
+    C-:    1 (local:   0.4%, global:   0.1%)
+    I+:  169 (local:  75.8%, global:  11.4%)
+    I-:   54 (local:  24.2%, global:   3.6%)
+    K+:  207 (local:  92.8%, global:  13.9%)
+    K-:   16 (local:   7.2%, global:   1.1%)
+================================================================================
+Subfolder: coc_evitable_prevention_no_stories
+================================================================================
+
+Total causal variable assignments: 648
+
+
+POSITIVE UTILITY:
+  Events in category: 84
+  Total assignments: 252
+    C+:   84 (local: 100.0%, global:  16.1%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:   83 (local:  98.8%, global:  15.9%)
+    I-:    1 (local:   1.2%, global:   0.2%)
+    K+:   78 (local:  92.9%, global:  14.9%)
+    K-:    6 (local:   7.1%, global:   1.1%)
+
+NEGATIVE UTILITY:
+  Events in category: 115
+  Total assignments: 345
+    C+:  113 (local:  98.3%, global:  14.1%)
+    C-:    2 (local:   1.7%, global:   0.3%)
+    I+:   82 (local:  71.3%, global:  10.3%)
+    I-:   33 (local:  28.7%, global:   4.1%)
+    K+:  108 (local:  93.9%, global:  13.5%)
+    K-:    7 (local:   6.1%, global:   0.9%)
+
+ZERO UTILITY:
+  Events in category: 17
+  Total assignments: 51
+    C+:   17 (local: 100.0%, global:  10.4%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:   15 (local:  88.2%, global:   9.2%)
+    I-:    2 (local:  11.8%, global:   1.2%)
+    K+:   16 (local:  94.1%, global:   9.8%)
+    K-:    1 (local:   5.9%, global:   0.6%)
+
+OVERALL (all utility categories):
+  Total assignments: 648
+    C+:  214 (local:  99.1%, global:  14.4%)
+    C-:    2 (local:   0.9%, global:   0.1%)
+    I+:  180 (local:  83.3%, global:  12.1%)
+    I-:   36 (local:  16.7%, global:   2.4%)
+    K+:  202 (local:  93.5%, global:  13.6%)
+    K-:   14 (local:   6.5%, global:   0.9%)
+================================================================================
+Subfolder: coc_inevitable_action_yes_stories
+================================================================================
+
+Total causal variable assignments: 0
+
+
+POSITIVE UTILITY:
+  Events in category: 0
+  Total assignments: 0
+    C+:    0 (local:   0.0%, global:   0.0%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:    0 (local:   0.0%, global:   0.0%)
+    I-:    0 (local:   0.0%, global:   0.0%)
+    K+:    0 (local:   0.0%, global:   0.0%)
+    K-:    0 (local:   0.0%, global:   0.0%)
+
+NEGATIVE UTILITY:
+  Events in category: 0
+  Total assignments: 0
+    C+:    0 (local:   0.0%, global:   0.0%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:    0 (local:   0.0%, global:   0.0%)
+    I-:    0 (local:   0.0%, global:   0.0%)
+    K+:    0 (local:   0.0%, global:   0.0%)
+    K-:    0 (local:   0.0%, global:   0.0%)
+
+ZERO UTILITY:
+  Events in category: 0
+  Total assignments: 0
+    C+:    0 (local:   0.0%, global:   0.0%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:    0 (local:   0.0%, global:   0.0%)
+    I-:    0 (local:   0.0%, global:   0.0%)
+    K+:    0 (local:   0.0%, global:   0.0%)
+    K-:    0 (local:   0.0%, global:   0.0%)
+
+OVERALL (all utility categories):
+  Total assignments: 0
+    C+:    0 (local:   0.0%, global:   0.0%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:    0 (local:   0.0%, global:   0.0%)
+    I-:    0 (local:   0.0%, global:   0.0%)
+    K+:    0 (local:   0.0%, global:   0.0%)
+    K-:    0 (local:   0.0%, global:   0.0%)
+================================================================================
+Subfolder: coc_inevitable_prevention_no_stories
+================================================================================
+
+Total causal variable assignments: 0
+
+
+POSITIVE UTILITY:
+  Events in category: 0
+  Total assignments: 0
+    C+:    0 (local:   0.0%, global:   0.0%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:    0 (local:   0.0%, global:   0.0%)
+    I-:    0 (local:   0.0%, global:   0.0%)
+    K+:    0 (local:   0.0%, global:   0.0%)
+    K-:    0 (local:   0.0%, global:   0.0%)
+
+NEGATIVE UTILITY:
+  Events in category: 0
+  Total assignments: 0
+    C+:    0 (local:   0.0%, global:   0.0%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:    0 (local:   0.0%, global:   0.0%)
+    I-:    0 (local:   0.0%, global:   0.0%)
+    K+:    0 (local:   0.0%, global:   0.0%)
+    K-:    0 (local:   0.0%, global:   0.0%)
+
+ZERO UTILITY:
+  Events in category: 0
+  Total assignments: 0
+    C+:    0 (local:   0.0%, global:   0.0%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:    0 (local:   0.0%, global:   0.0%)
+    I-:    0 (local:   0.0%, global:   0.0%)
+    K+:    0 (local:   0.0%, global:   0.0%)
+    K-:    0 (local:   0.0%, global:   0.0%)
+
+OVERALL (all utility categories):
+  Total assignments: 0
+    C+:    0 (local:   0.0%, global:   0.0%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:    0 (local:   0.0%, global:   0.0%)
+    I-:    0 (local:   0.0%, global:   0.0%)
+    K+:    0 (local:   0.0%, global:   0.0%)
+    K-:    0 (local:   0.0%, global:   0.0%)
+
+================================================================================
+GROUPED BY CAUSAL STRUCTURE
+================================================================================
+
+================================================================================
+CC (Causal Chain)
+================================================================================
+
+Total causal variable assignments: 3135
+
+
+POSITIVE UTILITY:
+  Events in category: 336
+  Total assignments: 1008
+    C+:  293 (local:  87.2%, global:  56.1%)
+    C-:   43 (local:  12.8%, global:   8.2%)
+    I+:  315 (local:  93.8%, global:  60.3%)
+    I-:   21 (local:   6.2%, global:   4.0%)
+    K+:  262 (local:  78.0%, global:  50.2%)
+    K-:   74 (local:  22.0%, global:  14.2%)
+
+NEGATIVE UTILITY:
+  Events in category: 595
+  Total assignments: 1785
+    C+:  374 (local:  62.9%, global:  46.8%)
+    C-:  221 (local:  37.1%, global:  27.7%)
+    I+:  380 (local:  63.9%, global:  47.6%)
+    I-:  215 (local:  36.1%, global:  26.9%)
+    K+:  560 (local:  94.1%, global:  70.1%)
+    K-:   35 (local:   5.9%, global:   4.4%)
+
+ZERO UTILITY:
+  Events in category: 114
+  Total assignments: 342
+    C+:  106 (local:  93.0%, global:  65.0%)
+    C-:    8 (local:   7.0%, global:   4.9%)
+    I+:   95 (local:  83.3%, global:  58.3%)
+    I-:   19 (local:  16.7%, global:  11.7%)
+    K+:  102 (local:  89.5%, global:  62.6%)
+    K-:   12 (local:  10.5%, global:   7.4%)
+
+OVERALL (all utility categories):
+  Total assignments: 3135
+    C+:  773 (local:  74.0%, global:  52.1%)
+    C-:  272 (local:  26.0%, global:  18.3%)
+    I+:  790 (local:  75.6%, global:  53.2%)
+    I-:  255 (local:  24.4%, global:  17.2%)
+    K+:  924 (local:  88.4%, global:  62.3%)
+    K-:  121 (local:  11.6%, global:   8.2%)
+================================================================================
+COC (Causal Over-determination)
+================================================================================
+
+Total causal variable assignments: 1317
+
+
+POSITIVE UTILITY:
+  Events in category: 186
+  Total assignments: 558
+    C+:  186 (local: 100.0%, global:  35.6%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:  182 (local:  97.8%, global:  34.9%)
+    I-:    4 (local:   2.2%, global:   0.8%)
+    K+:  167 (local:  89.8%, global:  32.0%)
+    K-:   19 (local:  10.2%, global:   3.6%)
+
+NEGATIVE UTILITY:
+  Events in category: 204
+  Total assignments: 612
+    C+:  201 (local:  98.5%, global:  25.2%)
+    C-:    3 (local:   1.5%, global:   0.4%)
+    I+:  124 (local:  60.8%, global:  15.5%)
+    I-:   80 (local:  39.2%, global:  10.0%)
+    K+:  195 (local:  95.6%, global:  24.4%)
+    K-:    9 (local:   4.4%, global:   1.1%)
+
+ZERO UTILITY:
+  Events in category: 49
+  Total assignments: 147
+    C+:   49 (local: 100.0%, global:  30.1%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:   43 (local:  87.8%, global:  26.4%)
+    I-:    6 (local:  12.2%, global:   3.7%)
+    K+:   47 (local:  95.9%, global:  28.8%)
+    K-:    2 (local:   4.1%, global:   1.2%)
+
+OVERALL (all utility categories):
+  Total assignments: 1317
+    C+:  436 (local:  99.3%, global:  29.4%)
+    C-:    3 (local:   0.7%, global:   0.2%)
+    I+:  349 (local:  79.5%, global:  23.5%)
+    I-:   90 (local:  20.5%, global:   6.1%)
+    K+:  409 (local:  93.2%, global:  27.6%)
+    K-:   30 (local:   6.8%, global:   2.0%)
+
+================================================================================
+GROUPED BY EVITABILITY
+================================================================================
+
+================================================================================
+EVITABLE
+================================================================================
+
+Total causal variable assignments: 4452
+
+
+POSITIVE UTILITY:
+  Events in category: 522
+  Total assignments: 1566
+    C+:  479 (local:  91.8%, global:  91.8%)
+    C-:   43 (local:   8.2%, global:   8.2%)
+    I+:  497 (local:  95.2%, global:  95.2%)
+    I-:   25 (local:   4.8%, global:   4.8%)
+    K+:  429 (local:  82.2%, global:  82.2%)
+    K-:   93 (local:  17.8%, global:  17.8%)
+
+NEGATIVE UTILITY:
+  Events in category: 799
+  Total assignments: 2397
+    C+:  575 (local:  72.0%, global:  72.0%)
+    C-:  224 (local:  28.0%, global:  28.0%)
+    I+:  504 (local:  63.1%, global:  63.1%)
+    I-:  295 (local:  36.9%, global:  36.9%)
+    K+:  755 (local:  94.5%, global:  94.5%)
+    K-:   44 (local:   5.5%, global:   5.5%)
+
+ZERO UTILITY:
+  Events in category: 163
+  Total assignments: 489
+    C+:  155 (local:  95.1%, global:  95.1%)
+    C-:    8 (local:   4.9%, global:   4.9%)
+    I+:  138 (local:  84.7%, global:  84.7%)
+    I-:   25 (local:  15.3%, global:  15.3%)
+    K+:  149 (local:  91.4%, global:  91.4%)
+    K-:   14 (local:   8.6%, global:   8.6%)
+
+OVERALL (all utility categories):
+  Total assignments: 4452
+    C+: 1209 (local:  81.5%, global:  81.5%)
+    C-:  275 (local:  18.5%, global:  18.5%)
+    I+: 1139 (local:  76.8%, global:  76.8%)
+    I-:  345 (local:  23.2%, global:  23.2%)
+    K+: 1333 (local:  89.8%, global:  89.8%)
+    K-:  151 (local:  10.2%, global:  10.2%)
+================================================================================
+INEVITABLE
+================================================================================
+
+Total causal variable assignments: 1626
+
+
+POSITIVE UTILITY:
+  Events in category: 140
+  Total assignments: 420
+    C+:   99 (local:  70.7%, global:  19.0%)
+    C-:   41 (local:  29.3%, global:   7.9%)
+    I+:  126 (local:  90.0%, global:  24.1%)
+    I-:   14 (local:  10.0%, global:   2.7%)
+    K+:  100 (local:  71.4%, global:  19.2%)
+    K-:   40 (local:  28.6%, global:   7.7%)
+
+NEGATIVE UTILITY:
+  Events in category: 351
+  Total assignments: 1053
+    C+:  133 (local:  37.9%, global:  16.6%)
+    C-:  218 (local:  62.1%, global:  27.3%)
+    I+:  178 (local:  50.7%, global:  22.3%)
+    I-:  173 (local:  49.3%, global:  21.7%)
+    K+:  331 (local:  94.3%, global:  41.4%)
+    K-:   20 (local:   5.7%, global:   2.5%)
+
+ZERO UTILITY:
+  Events in category: 51
+  Total assignments: 153
+    C+:   45 (local:  88.2%, global:  27.6%)
+    C-:    6 (local:  11.8%, global:   3.7%)
+    I+:   41 (local:  80.4%, global:  25.2%)
+    I-:   10 (local:  19.6%, global:   6.1%)
+    K+:   47 (local:  92.2%, global:  28.8%)
+    K-:    4 (local:   7.8%, global:   2.5%)
+
+OVERALL (all utility categories):
+  Total assignments: 1626
+    C+:  277 (local:  51.1%, global:  18.7%)
+    C-:  265 (local:  48.9%, global:  17.9%)
+    I+:  345 (local:  63.7%, global:  23.2%)
+    I-:  197 (local:  36.3%, global:  13.3%)
+    K+:  478 (local:  88.2%, global:  32.2%)
+    K-:   64 (local:  11.8%, global:   4.3%)
+
+================================================================================
+GROUPED BY ACTION TYPE
+================================================================================
+
+================================================================================
+ACTION_YES
+================================================================================
+
+Total causal variable assignments: 1968
+
+
+POSITIVE UTILITY:
+  Events in category: 248
+  Total assignments: 744
+    C+:  235 (local:  94.8%, global:  45.0%)
+    C-:   13 (local:   5.2%, global:   2.5%)
+    I+:  236 (local:  95.2%, global:  45.2%)
+    I-:   12 (local:   4.8%, global:   2.3%)
+    K+:  200 (local:  80.6%, global:  38.3%)
+    K-:   48 (local:  19.4%, global:   9.2%)
+
+NEGATIVE UTILITY:
+  Events in category: 321
+  Total assignments: 963
+    C+:  232 (local:  72.3%, global:  29.0%)
+    C-:   89 (local:  27.7%, global:  11.1%)
+    I+:  197 (local:  61.4%, global:  24.7%)
+    I-:  124 (local:  38.6%, global:  15.5%)
+    K+:  308 (local:  96.0%, global:  38.5%)
+    K-:   13 (local:   4.0%, global:   1.6%)
+
+ZERO UTILITY:
+  Events in category: 87
+  Total assignments: 261
+    C+:   85 (local:  97.7%, global:  52.1%)
+    C-:    2 (local:   2.3%, global:   1.2%)
+    I+:   78 (local:  89.7%, global:  47.9%)
+    I-:    9 (local:  10.3%, global:   5.5%)
+    K+:   81 (local:  93.1%, global:  49.7%)
+    K-:    6 (local:   6.9%, global:   3.7%)
+
+OVERALL (all utility categories):
+  Total assignments: 1968
+    C+:  552 (local:  84.1%, global:  37.2%)
+    C-:  104 (local:  15.9%, global:   7.0%)
+    I+:  511 (local:  77.9%, global:  34.4%)
+    I-:  145 (local:  22.1%, global:   9.8%)
+    K+:  589 (local:  89.8%, global:  39.7%)
+    K-:   67 (local:  10.2%, global:   4.5%)
+================================================================================
+PREVENTION_NO
+================================================================================
+
+Total causal variable assignments: 2484
+
+
+POSITIVE UTILITY:
+  Events in category: 274
+  Total assignments: 822
+    C+:  244 (local:  89.1%, global:  46.7%)
+    C-:   30 (local:  10.9%, global:   5.7%)
+    I+:  261 (local:  95.3%, global:  50.0%)
+    I-:   13 (local:   4.7%, global:   2.5%)
+    K+:  229 (local:  83.6%, global:  43.9%)
+    K-:   45 (local:  16.4%, global:   8.6%)
+
+NEGATIVE UTILITY:
+  Events in category: 478
+  Total assignments: 1434
+    C+:  343 (local:  71.8%, global:  42.9%)
+    C-:  135 (local:  28.2%, global:  16.9%)
+    I+:  307 (local:  64.2%, global:  38.4%)
+    I-:  171 (local:  35.8%, global:  21.4%)
+    K+:  447 (local:  93.5%, global:  55.9%)
+    K-:   31 (local:   6.5%, global:   3.9%)
+
+ZERO UTILITY:
+  Events in category: 76
+  Total assignments: 228
+    C+:   70 (local:  92.1%, global:  42.9%)
+    C-:    6 (local:   7.9%, global:   3.7%)
+    I+:   60 (local:  78.9%, global:  36.8%)
+    I-:   16 (local:  21.1%, global:   9.8%)
+    K+:   68 (local:  89.5%, global:  41.7%)
+    K-:    8 (local:  10.5%, global:   4.9%)
+
+OVERALL (all utility categories):
+  Total assignments: 2484
+    C+:  657 (local:  79.3%, global:  44.3%)
+    C-:  171 (local:  20.7%, global:  11.5%)
+    I+:  628 (local:  75.8%, global:  42.3%)
+    I-:  200 (local:  24.2%, global:  13.5%)
+    K+:  744 (local:  89.9%, global:  50.1%)
+    K-:   84 (local:  10.1%, global:   5.7%)
+
+================================================================================
+COMPARATIVE ANALYSES
+================================================================================
+
+--------------------------------------------------------------------------------
+1. I POLARITY COMPARISON: CC vs COC
+--------------------------------------------------------------------------------
+
+CC Scenarios:
+  I+:  790 ( 75.6%)
+  I-:  255 ( 24.4%)
+  Total I assignments: 1045
+
+COC Scenarios:
+  I+:  349 ( 79.5%)
+  I-:   90 ( 20.5%)
+  Total I assignments: 439
+
+Interpretation:
+  COC scenarios show 3.9% more I- assignments
+  The difference is SMALL, suggesting no strong systematic dominance
+
+--------------------------------------------------------------------------------
+2. C POLARITY COMPARISON: Evitable vs Inevitable
+--------------------------------------------------------------------------------
+
+Evitable Scenarios:
+  C+: 1209 ( 81.5%)
+  C-:  275 ( 18.5%)
+  Total C assignments: 1484
+
+Inevitable Scenarios:
+  C+:  277 ( 51.1%)
+  C-:  265 ( 48.9%)
+  Total C assignments: 542
+
+Interpretation:
+  Evitable scenarios show 30.4% more C+ assignments
+  This suggests a STRONG systematic dominance of C+ in Evitable scenarios
+
+--------------------------------------------------------------------------------
+3. POLARITY PATTERNS BY ACTION TYPE
+--------------------------------------------------------------------------------
+
+Action_Yes Scenarios:
+  C+:  552 ( 84.1%)  |  C-:  104 ( 15.9%)
+  I+:  511 ( 77.9%)  |  I-:  145 ( 22.1%)
+  K+:  589 ( 89.8%)  |  K-:   67 ( 10.2%)
+
+Prevention_No Scenarios:
+  C+:  657 ( 79.3%)  |  C-:  171 ( 20.7%)
+  I+:  628 ( 75.8%)  |  I-:  200 ( 24.2%)
+  K+:  744 ( 89.9%)  |  K-:   84 ( 10.1%)
+
+Differences (Action_Yes % - Prevention_No %):
+  C+:   +4.8%  |  C-:   -4.8%
+  I+:   +2.1%  |  I-:   -2.1%
+  K+:   -0.1%  |  K-:   +0.1%
+
+Interpretation:
+  No strong distinguishing features found (all differences < 10%)
+
+################################################################################
+ANALYSIS FOR: CONDITIONS_SEVERE_HARM_VERY_GOOD
+################################################################################
+
+================================================================================
+INDIVIDUAL SUBFOLDER ANALYSIS
+================================================================================
+
+================================================================================
+Subfolder: cc_evitable_action_yes_stories
+================================================================================
+
+Total causal variable assignments: 291
+
+
+POSITIVE UTILITY:
+  Events in category: 40
+  Total assignments: 120
+    C+:   40 (local: 100.0%, global:  24.4%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:   38 (local:  95.0%, global:  23.2%)
+    I-:    2 (local:   5.0%, global:   1.2%)
+    K+:   31 (local:  77.5%, global:  18.9%)
+    K-:    9 (local:  22.5%, global:   5.5%)
+
+NEGATIVE UTILITY:
+  Events in category: 45
+  Total assignments: 135
+    C+:   45 (local: 100.0%, global:  20.2%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:   35 (local:  77.8%, global:  15.7%)
+    I-:   10 (local:  22.2%, global:   4.5%)
+    K+:   35 (local:  77.8%, global:  15.7%)
+    K-:   10 (local:  22.2%, global:   4.5%)
+
+ZERO UTILITY:
+  Events in category: 12
+  Total assignments: 36
+    C+:   12 (local: 100.0%, global:  21.4%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:   10 (local:  83.3%, global:  17.9%)
+    I-:    2 (local:  16.7%, global:   3.6%)
+    K+:    9 (local:  75.0%, global:  16.1%)
+    K-:    3 (local:  25.0%, global:   5.4%)
+
+OVERALL (all utility categories):
+  Total assignments: 291
+    C+:   97 (local: 100.0%, global:  21.9%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:   83 (local:  85.6%, global:  18.7%)
+    I-:   14 (local:  14.4%, global:   3.2%)
+    K+:   75 (local:  77.3%, global:  16.9%)
+    K-:   22 (local:  22.7%, global:   5.0%)
+================================================================================
+Subfolder: cc_evitable_prevention_no_stories
+================================================================================
+
+Total causal variable assignments: 276
+
+
+POSITIVE UTILITY:
+  Events in category: 41
+  Total assignments: 123
+    C+:   41 (local: 100.0%, global:  25.0%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:   39 (local:  95.1%, global:  23.8%)
+    I-:    2 (local:   4.9%, global:   1.2%)
+    K+:   28 (local:  68.3%, global:  17.1%)
+    K-:   13 (local:  31.7%, global:   7.9%)
+
+NEGATIVE UTILITY:
+  Events in category: 43
+  Total assignments: 129
+    C+:   43 (local: 100.0%, global:  19.3%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:   29 (local:  67.4%, global:  13.0%)
+    I-:   14 (local:  32.6%, global:   6.3%)
+    K+:   40 (local:  93.0%, global:  17.9%)
+    K-:    3 (local:   7.0%, global:   1.3%)
+
+ZERO UTILITY:
+  Events in category: 8
+  Total assignments: 24
+    C+:    8 (local: 100.0%, global:  14.3%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:    4 (local:  50.0%, global:   7.1%)
+    I-:    4 (local:  50.0%, global:   7.1%)
+    K+:    5 (local:  62.5%, global:   8.9%)
+    K-:    3 (local:  37.5%, global:   5.4%)
+
+OVERALL (all utility categories):
+  Total assignments: 276
+    C+:   92 (local: 100.0%, global:  20.8%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:   72 (local:  78.3%, global:  16.3%)
+    I-:   20 (local:  21.7%, global:   4.5%)
+    K+:   73 (local:  79.3%, global:  16.5%)
+    K-:   19 (local:  20.7%, global:   4.3%)
+================================================================================
+Subfolder: cc_inevitable_action_yes_stories
+================================================================================
+
+Total causal variable assignments: 366
+
+
+POSITIVE UTILITY:
+  Events in category: 45
+  Total assignments: 135
+    C+:   27 (local:  60.0%, global:  16.5%)
+    C-:   18 (local:  40.0%, global:  11.0%)
+    I+:   37 (local:  82.2%, global:  22.6%)
+    I-:    8 (local:  17.8%, global:   4.9%)
+    K+:   24 (local:  53.3%, global:  14.6%)
+    K-:   21 (local:  46.7%, global:  12.8%)
+
+NEGATIVE UTILITY:
+  Events in category: 62
+  Total assignments: 186
+    C+:   24 (local:  38.7%, global:  10.8%)
+    C-:   38 (local:  61.3%, global:  17.0%)
+    I+:   32 (local:  51.6%, global:  14.3%)
+    I-:   30 (local:  48.4%, global:  13.5%)
+    K+:   57 (local:  91.9%, global:  25.6%)
+    K-:    5 (local:   8.1%, global:   2.2%)
+
+ZERO UTILITY:
+  Events in category: 15
+  Total assignments: 45
+    C+:   11 (local:  73.3%, global:  19.6%)
+    C-:    4 (local:  26.7%, global:   7.1%)
+    I+:   10 (local:  66.7%, global:  17.9%)
+    I-:    5 (local:  33.3%, global:   8.9%)
+    K+:   13 (local:  86.7%, global:  23.2%)
+    K-:    2 (local:  13.3%, global:   3.6%)
+
+OVERALL (all utility categories):
+  Total assignments: 366
+    C+:   62 (local:  50.8%, global:  14.0%)
+    C-:   60 (local:  49.2%, global:  13.5%)
+    I+:   79 (local:  64.8%, global:  17.8%)
+    I-:   43 (local:  35.2%, global:   9.7%)
+    K+:   94 (local:  77.0%, global:  21.2%)
+    K-:   28 (local:  23.0%, global:   6.3%)
+================================================================================
+Subfolder: cc_inevitable_prevention_no_stories
+================================================================================
+
+Total causal variable assignments: 396
+
+
+POSITIVE UTILITY:
+  Events in category: 38
+  Total assignments: 114
+    C+:   15 (local:  39.5%, global:   9.1%)
+    C-:   23 (local:  60.5%, global:  14.0%)
+    I+:   32 (local:  84.2%, global:  19.5%)
+    I-:    6 (local:  15.8%, global:   3.7%)
+    K+:   18 (local:  47.4%, global:  11.0%)
+    K-:   20 (local:  52.6%, global:  12.2%)
+
+NEGATIVE UTILITY:
+  Events in category: 73
+  Total assignments: 219
+    C+:   24 (local:  32.9%, global:  10.8%)
+    C-:   49 (local:  67.1%, global:  22.0%)
+    I+:   43 (local:  58.9%, global:  19.3%)
+    I-:   30 (local:  41.1%, global:  13.5%)
+    K+:   64 (local:  87.7%, global:  28.7%)
+    K-:    9 (local:  12.3%, global:   4.0%)
+
+ZERO UTILITY:
+  Events in category: 21
+  Total assignments: 63
+    C+:   20 (local:  95.2%, global:  35.7%)
+    C-:    1 (local:   4.8%, global:   1.8%)
+    I+:   11 (local:  52.4%, global:  19.6%)
+    I-:   10 (local:  47.6%, global:  17.9%)
+    K+:   17 (local:  81.0%, global:  30.4%)
+    K-:    4 (local:  19.0%, global:   7.1%)
+
+OVERALL (all utility categories):
+  Total assignments: 396
+    C+:   59 (local:  44.7%, global:  13.3%)
+    C-:   73 (local:  55.3%, global:  16.5%)
+    I+:   86 (local:  65.2%, global:  19.4%)
+    I-:   46 (local:  34.8%, global:  10.4%)
+    K+:   99 (local:  75.0%, global:  22.3%)
+    K-:   33 (local:  25.0%, global:   7.4%)
+
+================================================================================
+GROUPED BY CAUSAL STRUCTURE
+================================================================================
+
+================================================================================
+CC (Causal Chain)
+================================================================================
+
+Total causal variable assignments: 1329
+
+
+POSITIVE UTILITY:
+  Events in category: 164
+  Total assignments: 492
+    C+:  123 (local:  75.0%, global:  75.0%)
+    C-:   41 (local:  25.0%, global:  25.0%)
+    I+:  146 (local:  89.0%, global:  89.0%)
+    I-:   18 (local:  11.0%, global:  11.0%)
+    K+:  101 (local:  61.6%, global:  61.6%)
+    K-:   63 (local:  38.4%, global:  38.4%)
+
+NEGATIVE UTILITY:
+  Events in category: 223
+  Total assignments: 669
+    C+:  136 (local:  61.0%, global:  61.0%)
+    C-:   87 (local:  39.0%, global:  39.0%)
+    I+:  139 (local:  62.3%, global:  62.3%)
+    I-:   84 (local:  37.7%, global:  37.7%)
+    K+:  196 (local:  87.9%, global:  87.9%)
+    K-:   27 (local:  12.1%, global:  12.1%)
+
+ZERO UTILITY:
+  Events in category: 56
+  Total assignments: 168
+    C+:   51 (local:  91.1%, global:  91.1%)
+    C-:    5 (local:   8.9%, global:   8.9%)
+    I+:   35 (local:  62.5%, global:  62.5%)
+    I-:   21 (local:  37.5%, global:  37.5%)
+    K+:   44 (local:  78.6%, global:  78.6%)
+    K-:   12 (local:  21.4%, global:  21.4%)
+
+OVERALL (all utility categories):
+  Total assignments: 1329
+    C+:  310 (local:  70.0%, global:  70.0%)
+    C-:  133 (local:  30.0%, global:  30.0%)
+    I+:  320 (local:  72.2%, global:  72.2%)
+    I-:  123 (local:  27.8%, global:  27.8%)
+    K+:  341 (local:  77.0%, global:  77.0%)
+    K-:  102 (local:  23.0%, global:  23.0%)
+================================================================================
+COC (Causal Over-determination)
+================================================================================
+
+Total causal variable assignments: 0
+
+
+POSITIVE UTILITY:
+  Events in category: 0
+  Total assignments: 0
+    C+:    0 (local:   0.0%, global:   0.0%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:    0 (local:   0.0%, global:   0.0%)
+    I-:    0 (local:   0.0%, global:   0.0%)
+    K+:    0 (local:   0.0%, global:   0.0%)
+    K-:    0 (local:   0.0%, global:   0.0%)
+
+NEGATIVE UTILITY:
+  Events in category: 0
+  Total assignments: 0
+    C+:    0 (local:   0.0%, global:   0.0%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:    0 (local:   0.0%, global:   0.0%)
+    I-:    0 (local:   0.0%, global:   0.0%)
+    K+:    0 (local:   0.0%, global:   0.0%)
+    K-:    0 (local:   0.0%, global:   0.0%)
+
+ZERO UTILITY:
+  Events in category: 0
+  Total assignments: 0
+    C+:    0 (local:   0.0%, global:   0.0%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:    0 (local:   0.0%, global:   0.0%)
+    I-:    0 (local:   0.0%, global:   0.0%)
+    K+:    0 (local:   0.0%, global:   0.0%)
+    K-:    0 (local:   0.0%, global:   0.0%)
+
+OVERALL (all utility categories):
+  Total assignments: 0
+    C+:    0 (local:   0.0%, global:   0.0%)
+    C-:    0 (local:   0.0%, global:   0.0%)
+    I+:    0 (local:   0.0%, global:   0.0%)
+    I-:    0 (local:   0.0%, global:   0.0%)
+    K+:    0 (local:   0.0%, global:   0.0%)
+    K-:    0 (local:   0.0%, global:   0.0%)
+
+================================================================================
+GROUPED BY EVITABILITY
+================================================================================
+
+================================================================================
+EVITABLE
+================================================================================
+
+Total causal variable assignments: 1329
+
+
+POSITIVE UTILITY:
+  Events in category: 164
+  Total assignments: 492
+    C+:  123 (local:  75.0%, global:  75.0%)
+    C-:   41 (local:  25.0%, global:  25.0%)
+    I+:  146 (local:  89.0%, global:  89.0%)
+    I-:   18 (local:  11.0%, global:  11.0%)
+    K+:  101 (local:  61.6%, global:  61.6%)
+    K-:   63 (local:  38.4%, global:  38.4%)
+
+NEGATIVE UTILITY:
+  Events in category: 223
+  Total assignments: 669
+    C+:  136 (local:  61.0%, global:  61.0%)
+    C-:   87 (local:  39.0%, global:  39.0%)
+    I+:  139 (local:  62.3%, global:  62.3%)
+    I-:   84 (local:  37.7%, global:  37.7%)
+    K+:  196 (local:  87.9%, global:  87.9%)
+    K-:   27 (local:  12.1%, global:  12.1%)
+
+ZERO UTILITY:
+  Events in category: 56
+  Total assignments: 168
+    C+:   51 (local:  91.1%, global:  91.1%)
+    C-:    5 (local:   8.9%, global:   8.9%)
+    I+:   35 (local:  62.5%, global:  62.5%)
+    I-:   21 (local:  37.5%, global:  37.5%)
+    K+:   44 (local:  78.6%, global:  78.6%)
+    K-:   12 (local:  21.4%, global:  21.4%)
+
+OVERALL (all utility categories):
+  Total assignments: 1329
+    C+:  310 (local:  70.0%, global:  70.0%)
+    C-:  133 (local:  30.0%, global:  30.0%)
+    I+:  320 (local:  72.2%, global:  72.2%)
+    I-:  123 (local:  27.8%, global:  27.8%)
+    K+:  341 (local:  77.0%, global:  77.0%)
+    K-:  102 (local:  23.0%, global:  23.0%)
+================================================================================
+INEVITABLE
+================================================================================
+
+Total causal variable assignments: 762
+
+
+POSITIVE UTILITY:
+  Events in category: 83
+  Total assignments: 249
+    C+:   42 (local:  50.6%, global:  25.6%)
+    C-:   41 (local:  49.4%, global:  25.0%)
+    I+:   69 (local:  83.1%, global:  42.1%)
+    I-:   14 (local:  16.9%, global:   8.5%)
+    K+:   42 (local:  50.6%, global:  25.6%)
+    K-:   41 (local:  49.4%, global:  25.0%)
+
+NEGATIVE UTILITY:
+  Events in category: 135
+  Total assignments: 405
+    C+:   48 (local:  35.6%, global:  21.5%)
+    C-:   87 (local:  64.4%, global:  39.0%)
+    I+:   75 (local:  55.6%, global:  33.6%)
+    I-:   60 (local:  44.4%, global:  26.9%)
+    K+:  121 (local:  89.6%, global:  54.3%)
+    K-:   14 (local:  10.4%, global:   6.3%)
+
+ZERO UTILITY:
+  Events in category: 36
+  Total assignments: 108
+    C+:   31 (local:  86.1%, global:  55.4%)
+    C-:    5 (local:  13.9%, global:   8.9%)
+    I+:   21 (local:  58.3%, global:  37.5%)
+    I-:   15 (local:  41.7%, global:  26.8%)
+    K+:   30 (local:  83.3%, global:  53.6%)
+    K-:    6 (local:  16.7%, global:  10.7%)
+
+OVERALL (all utility categories):
+  Total assignments: 762
+    C+:  121 (local:  47.6%, global:  27.3%)
+    C-:  133 (local:  52.4%, global:  30.0%)
+    I+:  165 (local:  65.0%, global:  37.2%)
+    I-:   89 (local:  35.0%, global:  20.1%)
+    K+:  193 (local:  76.0%, global:  43.6%)
+    K-:   61 (local:  24.0%, global:  13.8%)
+
+================================================================================
+GROUPED BY ACTION TYPE
+================================================================================
+
+================================================================================
+ACTION_YES
+================================================================================
+
+Total causal variable assignments: 657
+
+
+POSITIVE UTILITY:
+  Events in category: 85
+  Total assignments: 255
+    C+:   67 (local:  78.8%, global:  40.9%)
+    C-:   18 (local:  21.2%, global:  11.0%)
+    I+:   75 (local:  88.2%, global:  45.7%)
+    I-:   10 (local:  11.8%, global:   6.1%)
+    K+:   55 (local:  64.7%, global:  33.5%)
+    K-:   30 (local:  35.3%, global:  18.3%)
+
+NEGATIVE UTILITY:
+  Events in category: 107
+  Total assignments: 321
+    C+:   69 (local:  64.5%, global:  30.9%)
+    C-:   38 (local:  35.5%, global:  17.0%)
+    I+:   67 (local:  62.6%, global:  30.0%)
+    I-:   40 (local:  37.4%, global:  17.9%)
+    K+:   92 (local:  86.0%, global:  41.3%)
+    K-:   15 (local:  14.0%, global:   6.7%)
+
+ZERO UTILITY:
+  Events in category: 27
+  Total assignments: 81
+    C+:   23 (local:  85.2%, global:  41.1%)
+    C-:    4 (local:  14.8%, global:   7.1%)
+    I+:   20 (local:  74.1%, global:  35.7%)
+    I-:    7 (local:  25.9%, global:  12.5%)
+    K+:   22 (local:  81.5%, global:  39.3%)
+    K-:    5 (local:  18.5%, global:   8.9%)
+
+OVERALL (all utility categories):
+  Total assignments: 657
+    C+:  159 (local:  72.6%, global:  35.9%)
+    C-:   60 (local:  27.4%, global:  13.5%)
+    I+:  162 (local:  74.0%, global:  36.6%)
+    I-:   57 (local:  26.0%, global:  12.9%)
+    K+:  169 (local:  77.2%, global:  38.1%)
+    K-:   50 (local:  22.8%, global:  11.3%)
+================================================================================
+PREVENTION_NO
+================================================================================
+
+Total causal variable assignments: 672
+
+
+POSITIVE UTILITY:
+  Events in category: 79
+  Total assignments: 237
+    C+:   56 (local:  70.9%, global:  34.1%)
+    C-:   23 (local:  29.1%, global:  14.0%)
+    I+:   71 (local:  89.9%, global:  43.3%)
+    I-:    8 (local:  10.1%, global:   4.9%)
+    K+:   46 (local:  58.2%, global:  28.0%)
+    K-:   33 (local:  41.8%, global:  20.1%)
+
+NEGATIVE UTILITY:
+  Events in category: 116
+  Total assignments: 348
+    C+:   67 (local:  57.8%, global:  30.0%)
+    C-:   49 (local:  42.2%, global:  22.0%)
+    I+:   72 (local:  62.1%, global:  32.3%)
+    I-:   44 (local:  37.9%, global:  19.7%)
+    K+:  104 (local:  89.7%, global:  46.6%)
+    K-:   12 (local:  10.3%, global:   5.4%)
+
+ZERO UTILITY:
+  Events in category: 29
+  Total assignments: 87
+    C+:   28 (local:  96.6%, global:  50.0%)
+    C-:    1 (local:   3.4%, global:   1.8%)
+    I+:   15 (local:  51.7%, global:  26.8%)
+    I-:   14 (local:  48.3%, global:  25.0%)
+    K+:   22 (local:  75.9%, global:  39.3%)
+    K-:    7 (local:  24.1%, global:  12.5%)
+
+OVERALL (all utility categories):
+  Total assignments: 672
+    C+:  151 (local:  67.4%, global:  34.1%)
+    C-:   73 (local:  32.6%, global:  16.5%)
+    I+:  158 (local:  70.5%, global:  35.7%)
+    I-:   66 (local:  29.5%, global:  14.9%)
+    K+:  172 (local:  76.8%, global:  38.8%)
+    K-:   52 (local:  23.2%, global:  11.7%)
+
+================================================================================
+COMPARATIVE ANALYSES
+================================================================================
+
+--------------------------------------------------------------------------------
+1. I POLARITY COMPARISON: CC vs COC
+--------------------------------------------------------------------------------
+
+CC Scenarios:
+  I+:  320 ( 72.2%)
+  I-:  123 ( 27.8%)
+  Total I assignments: 443
+
+COC Scenarios:
+  I+:    0 (  0.0%)
+  I-:    0 (  0.0%)
+  Total I assignments: 0
+
+--------------------------------------------------------------------------------
+2. C POLARITY COMPARISON: Evitable vs Inevitable
+--------------------------------------------------------------------------------
+
+Evitable Scenarios:
+  C+:  310 ( 70.0%)
+  C-:  133 ( 30.0%)
+  Total C assignments: 443
+
+Inevitable Scenarios:
+  C+:  121 ( 47.6%)
+  C-:  133 ( 52.4%)
+  Total C assignments: 254
+
+--------------------------------------------------------------------------------
+3. POLARITY PATTERNS BY ACTION TYPE
+--------------------------------------------------------------------------------
+
+Action_Yes Scenarios:
+  C+:  159 ( 72.6%)  |  C-:   60 ( 27.4%)
+  I+:  162 ( 74.0%)  |  I-:   57 ( 26.0%)
+  K+:  169 ( 77.2%)  |  K-:   50 ( 22.8%)
+
+Prevention_No Scenarios:
+  C+:  151 ( 67.4%)  |  C-:   73 ( 32.6%)
+  I+:  158 ( 70.5%)  |  I-:   66 ( 29.5%)
+  K+:  172 ( 76.8%)  |  K-:   52 ( 23.2%)
+
+################################################################################
+CROSS-SEVERITY ANALYSIS: UTILITY SCORE DISTRIBUTIONS
+################################################################################
+
+
+CONDITIONS MILD HARM MILD GOOD:
+--------------------------------------------------------------------------------
+
+All Utilities:
+  Count: 1484
+  Range: [-80, 100]
+  Mean: -5.15
+
+Positive Utilities:
+  Count: 522
+  Range: [10, 100]
+  Mean: 48.37
+
+Negative Utilities:
+  Count: 799
+  Range: [-80, -5]
+  Mean: -41.18
+
+CONDITIONS SEVERE HARM VERY GOOD:
+--------------------------------------------------------------------------------
+
+All Utilities:
+  Count: 443
+  Range: [-100, 100]
+  Mean: -11.29
+
+Positive Utilities:
+  Count: 164
+  Range: [10, 100]
+  Mean: 52.84
+
+Negative Utilities:
+  Count: 223
+  Range: [-100, -10]
+  Mean: -61.28
+
+--------------------------------------------------------------------------------
+COMPARISON: Mild vs Severe
+--------------------------------------------------------------------------------
