@@ -62,19 +62,19 @@ function return_vis_dataset() {
 	var nodes = new vis.DataSet([ 
 		{id: 1, label: "I", color: {background: '#279aba'}},
 		{id: 2, label: "critically ill patient", color: {background: '#279aba'}},
-		{id: 3, label: "I do not administer the\n new experimental drug.", color: {background: '#ba2769'}},
+		{id: 3, label: "not administer the new experimental\n drug.", color: {background: '#ba2769'}},
 		{id: 4, label: "value", color: {background: '#8e7db5'}},
-		{id: 5, label: "The patient continues the current\n treatment", color: {background: '#e6c440'}},
-		{id: 6, label: "The patient's health deteriorates significantly", color: {background: '#e6c440'}},
-		{id: 7, label: "The patient does not experience\n potential benefits of the experimental\n drug", color: {background: '#e6c440'}},
-		{id: 8, label: "I avoid the risks associated\n with the experimental drug.", color: {background: '#e6c440'}},
-		{id: 9, label: "The patient's illness progresses without\n improvement", color: {background: '#e6c440'}}
+		{id: 5, label: "The patient continues the current\n treatment.", color: {background: '#e6c440'}},
+		{id: 6, label: "The patient's health deteriorates significantly.", color: {background: '#e6c440'}},
+		{id: 7, label: "The patient does not experience\n potential benefits of the experimental\n drug.", color: {background: '#e6c440'}},
+		{id: 8, label: "I avoid the risks associated\n with administering the experimental drug.", color: {background: '#e6c440'}},
+		{id: 9, label: "The patient's illness progresses without\n the possibility of a complete\n cure from the experimental drug.", color: {background: '#e6c440'}}
 		]);
 	var edges = new vis.DataSet([ 
 		{from: 1, to: 3, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 1, to: 5, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 1, to: 6, label: "C-I-K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
-		{from: 1, to: 7, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 7, label: "C-I-K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 1, to: 8, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 1, to: 9, label: "C-I-K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 3, to: 4, label: "0", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},

@@ -294,7 +294,12 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
 
     for being,score in zip(beings_found_list_I,scored_values):
         this_link = g.add_link(node.Link('utility',str(score)))
-        this_b_node = g.return_node(being.lstrip())[0]
+        # this_b_node = g.return_node(being.lstrip())[0]
+        # this_b_node = find_node_case_insensitive(g, being)
+        if g.return_node(being.lstrip()):
+            this_b_node = g.return_node(being.lstrip())[0]
+        else:
+            this_b_node = g.return_node(being.lstrip()[0].upper() + being.lstrip()[1:])[0]
         this_event_node = g.return_node(this_evt_I)[0]
         this_event_node.link_link(this_link,this_b_node)
         items_to_write = ",".join([this_evt_I,being,str(score)])
@@ -305,6 +310,7 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
 
 
   return(impacts_list,impacts_df)
+
 
 def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g):
    
@@ -432,6 +438,10 @@ def main(scenario_json,output_filename,act_id):
     events_Ziv= processed_events[0]
     # print("\n".join(events_I))         
     scenario_dict["outcomes"]= events_I
+
+    # # save graph to a file before calling impacts
+    # g_print = g.print_graph()
+    # utils.write_jsonlines('pre_impacts_g1', g_print)
 
     # #UTILITIES
     [impacts_list,impacts_df] = process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, events_I,beings_fixed_Ziv,g) 
