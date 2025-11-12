@@ -62,13 +62,13 @@ function return_vis_dataset() {
 	var nodes = new vis.DataSet([ 
 		{id: 1, label: "I", color: {background: '#279aba'}},
 		{id: 2, label: "community residents", color: {background: '#279aba'}},
-		{id: 3, label: "I do not renovate the\n park.", color: {background: '#ba2769'}},
+		{id: 3, label: "not renovate the park.", color: {background: '#ba2769'}},
 		{id: 4, label: "value", color: {background: '#8e7db5'}},
-		{id: 5, label: "The community experiences temporary deprivation\n of the recreational space due\n to city-mandated construction.", color: {background: '#e6c440'}},
-		{id: 6, label: "Residents feel inconvenience from the\n lack of access to the\n park during construction.", color: {background: '#e6c440'}},
-		{id: 7, label: "Residents experience disappointment over the\n temporary loss of the beloved\n recreational space.", color: {background: '#e6c440'}},
-		{id: 8, label: "The park remains in its\n current state without improvements from\n renovation.", color: {background: '#e6c440'}},
-		{id: 9, label: "I avoid responsibility for the\n renovation process and its associated\n impacts.", color: {background: '#e6c440'}}
+		{id: 5, label: "The community experiences temporary deprivation\n of the recreational space.", color: {background: '#e6c440'}},
+		{id: 6, label: "Residents feel inconvenience due to\n the park's unavailability.", color: {background: '#e6c440'}},
+		{id: 7, label: "Residents feel disappointment over the\n loss of access to the\n park.", color: {background: '#e6c440'}},
+		{id: 8, label: "The park remains in its\n current state without improvements.", color: {background: '#e6c440'}},
+		{id: 9, label: "The city proceeds with mandated\n construction causing disruption.", color: {background: '#e6c440'}}
 		]);
 	var edges = new vis.DataSet([ 
 		{from: 1, to: 3, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
@@ -76,7 +76,7 @@ function return_vis_dataset() {
 		{from: 1, to: 6, label: "C-I-K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 1, to: 7, label: "C-I-K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 1, to: 8, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
-		{from: 1, to: 9, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 9, label: "C-I-K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 3, to: 4, label: "0", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 3, to: 5, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 3, to: 6, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
@@ -91,8 +91,8 @@ function return_vis_dataset() {
 		{from: 7, to: 2, label: "-70", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 8, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 8, to: 2, label: "-20", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
-		{from: 9, to: 1, label: "-50", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
-		{from: 9, to: 2, label: "-30", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 9, to: 1, label: "-20", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 9, to: 2, label: "-70", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		]);
 
 	return ([edges,nodes])

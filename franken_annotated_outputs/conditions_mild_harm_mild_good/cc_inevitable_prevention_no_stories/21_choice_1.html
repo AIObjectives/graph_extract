@@ -62,13 +62,13 @@ function return_vis_dataset() {
 	var nodes = new vis.DataSet([ 
 		{id: 1, label: "I", color: {background: '#279aba'}},
 		{id: 2, label: "my colleague", color: {background: '#279aba'}},
-		{id: 3, label: "I prevent my colleague's experiment.", color: {background: '#ba2769'}},
+		{id: 3, label: "prevent my colleague's experiment.", color: {background: '#ba2769'}},
 		{id: 4, label: "value", color: {background: '#8e7db5'}},
 		{id: 5, label: "I prevent the colleague's experiment\n from being conducted.", color: {background: '#e6c440'}},
 		{id: 6, label: "The laboratory's main computer system\n undergoes a mandatory system upgrade.", color: {background: '#e6c440'}},
-		{id: 7, label: "Other ongoing research projects experience\n a delay due to the\n system upgrade.", color: {background: '#e6c440'}},
+		{id: 7, label: "Other ongoing research projects experience\n delays due to the system\n upgrade.", color: {background: '#e6c440'}},
 		{id: 8, label: "The potential breakthrough in cancer\n research from the colleague's experiment\n does not occur at this\n time.", color: {background: '#e6c440'}},
-		{id: 9, label: "Data that could contribute to\n the development of a new\n cancer treatment method is not\n obtained from the prevented experiment.", color: {background: '#e6c440'}}
+		{id: 9, label: "Data that could have contributed\n to new cancer treatment development\n is not obtained from the\n prevented experiment.", color: {background: '#e6c440'}}
 		]);
 	var edges = new vis.DataSet([ 
 		{from: 1, to: 3, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},

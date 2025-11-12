@@ -62,12 +62,12 @@ function return_vis_dataset() {
 	var nodes = new vis.DataSet([ 
 		{id: 1, label: "I", color: {background: '#279aba'}},
 		{id: 2, label: "my family", color: {background: '#279aba'}},
-		{id: 3, label: "I do not take on\n the challenging role in the\n new film.", color: {background: '#ba2769'}},
+		{id: 3, label: "not take on the challenging\n role in the new film.", color: {background: '#ba2769'}},
 		{id: 4, label: "value", color: {background: '#8e7db5'}},
 		{id: 5, label: "My family does not experience\n inconvenience and discomfort from my\n intense training.", color: {background: '#e6c440'}},
 		{id: 6, label: "I do not undergo intense\n training away from my family.", color: {background: '#e6c440'}},
 		{id: 7, label: "I do not gain the\n potential career boost and critical\n acclaim from the challenging role.", color: {background: '#e6c440'}},
-		{id: 8, label: "I maintain closer proximity and\n time with my family.", color: {background: '#e6c440'}}
+		{id: 8, label: "I maintain closer proximity and\n availability to my family.", color: {background: '#e6c440'}}
 		]);
 	var edges = new vis.DataSet([ 
 		{from: 1, to: 3, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
@@ -86,7 +86,7 @@ function return_vis_dataset() {
 		{from: 6, to: 2, label: "50", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 7, to: 1, label: "-50", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 7, to: 2, label: "20", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
-		{from: 8, to: 1, label: "50", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 1, label: "20", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 8, to: 2, label: "80", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		]);
 
