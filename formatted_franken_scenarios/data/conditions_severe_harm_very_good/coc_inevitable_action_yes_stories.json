@@ -3,80 +3,80 @@
         "id": 0,
         "text": "I, an Architect, face a moral dilemma. I have the opportunity to implement a cutting-edge, energy-efficient lighting system throughout the city. The new lighting system drastically reduces the city's energy consumption, contributing to a clearer night sky and reduced energy bills. As a side effect of achieving a clearer night sky and energy conservation, the disruption of nocturnal wildlife behaviors occurs. If I do not implement the lighting system, the disruption of nocturnal wildlife would still happen because of a city's mandate for new security measures that include installing high-intensity lights in several parks.",
         "options": {
-            "1": "I implement the energy-efficient lighting system.",
-            "2": "I do not implement the energy-efficient lighting system."
+            "1": "implement the energy-efficient lighting system.",
+            "2": "not implement the energy-efficient lighting system."
         }
     },
     {
         "id": 1,
         "text": "I, an Engineer, face a moral dilemma. I have the opportunity to design a new dam to provide hydroelectric power to a large region. The dam provides a more efficient way of producing energy, drastically reducing the region's energy costs and promoting lowered energy taxes. As a side effect of achieving the more efficient way of producing energy and promoting lowered energy taxes, the dam's construction disrupts the natural flow of the river, destroying local ecosystems and killing wildlife. If I do not design the new dam, the destruction of local ecosystems and killing wildlife would still happen because a major energy company is planning to build a coal-fired power plant in the same region.",
         "options": {
-            "1": "I design the new dam.",
-            "2": "I do not design the new dam."
+            "1": "design the new dam.",
+            "2": "not design the new dam."
         }
     },
     {
         "id": 2,
         "text": "I, a Teacher, face a moral dilemma. I have the opportunity to implement a new, rigorous curriculum in his classroom. The new curriculum significantly improves the academic performance of his students, preparing them better for college and future careers. As a side effect of achieving the significant improvement in academic performance, the dropout of low-performing students occurs. If I do not implement the new, rigorous curriculum, the dropout of low-performing students would still happen because the school district is planning to increase the academic standards.",
         "options": {
-            "1": "I implement the new, rigorous curriculum.",
-            "2": "I do not implement the new, rigorous curriculum."
+            "1": "implement the new, rigorous curriculum.",
+            "2": "not implement the new, rigorous curriculum."
         }
     },
     {
         "id": 3,
         "text": "I, a Nurse, face a moral dilemma. I have the opportunity to administer an experimental drug to a critically ill patient. The experimental drug have the potential to save the patient's life, who is otherwise not responding to any available treatments. As a side effect of achieving the potential to save the patient's life, the drug will cause severe health complications. If I do not administer the experimental drug, the severe health complications would still happen because the patient's condition is deteriorating rapidly.",
         "options": {
-            "1": "I administer the experimental drug.",
-            "2": "I do not administer the experimental drug."
+            "1": "administer the experimental drug.",
+            "2": "not administer the experimental drug."
         }
     },
     {
         "id": 4,
         "text": "I, a Chef, face a moral dilemma. I have the opportunity to open a high-end restaurant in a low-income neighborhood. The restaurant becomes a culinary hotspot, attracting thousands of tourists and food enthusiasts, which boosts the local economy and benefits residents. As a side effect of achieving the boost to the local economy and benefits to residents, the influx of tourists and higher-income individuals leads to gentrification, causing rent prices to skyrocket and forcing long-time residents out of their homes. If I do not open the high-end restaurant, the gentrification and displacement of long-time residents would still happen because a large corporation is planning to build a shopping mall in the same neighborhood.",
         "options": {
-            "1": "I open the high-end restaurant.",
-            "2": "I do not open the high-end restaurant."
+            "1": "open the high-end restaurant.",
+            "2": "not open the high-end restaurant."
         }
     },
     {
         "id": 5,
         "text": "I, an Artist, face a moral dilemma. I have the opportunity to create a controversial piece of art that criticizes a powerful corporation. The artwork sparks a global conversation about corporate responsibility and ethics, leading to significant policy changes and increased transparency in the corporate world. As a side effect of achieving the global conversation about corporate responsibility and ethics, the corporation retaliates by suing My employer for defamation, leading to a lengthy and costly legal battle that bankrupts his employer and causes several job losses. If I do not create the controversial piece of art, the lengthy and costly legal battle that bankrupts his employer and causes several job losses would still happen because a major news outlet is planning to publish an investigative report about My employer.",
         "options": {
-            "1": "I create the controversial piece of art.",
-            "2": "I do not create the controversial piece of art."
+            "1": "create the controversial piece of art.",
+            "2": "not create the controversial piece of art."
         }
     },
     {
         "id": 6,
         "text": "I, a Lawyer, face a moral dilemma. I have the opportunity to expose a major pharmaceutical company's illegal activities. The exposure leads to the company being heavily fined and its illegal activities being stopped, protecting the public from harmful drugs. As a side effect of achieving the protection of the public from harmful drugs, the company have to lay off thousands of employees, leading to a significant increase in unemployment in the area. If I do not expose the pharmaceutical company's illegal activities, the significant increase in unemployment in the area would still happen because a major economic recession is predicted to hit the country.",
         "options": {
-            "1": "I expose the pharmaceutical company's illegal activities.",
-            "2": "I do not expose the pharmaceutical company's illegal activities."
+            "1": "expose the pharmaceutical company's illegal activities.",
+            "2": "not expose the pharmaceutical company's illegal activities."
         }
     },
     {
         "id": 7,
         "text": "I, a Mechanic, face a moral dilemma. I have the opportunity to convert his store into an electric vehicle shop. The conversion significantly reduces the cost of maintaining vehicles for his customers, as well as reduced taxes due to more environmentally friendly cars. As a side effect of achieving the significant reduction in the cost of maintaining vehicles and reduced taxes due to more environmentally friendly cars, toxic chemicals are released into a local water supply, drastically affecting the health of the local community. If I do not convert his store into an electric vehicle shop, the release of toxic chemicals into the local water supply would still happen because of an industrial accident in My town.",
         "options": {
-            "1": "I convert my store into an electric vehicle shop.",
-            "2": "I do not convert my store into an electric vehicle shop."
+            "1": "convert my store into an electric vehicle shop.",
+            "2": "not convert my store into an electric vehicle shop."
         }
     },
     {
         "id": 8,
         "text": "I, a Soldier, face a moral dilemma. I have the opportunity to leak classified military information to the public. The leaked information reveals corruption within the military, leading to the arrest of several officers involved in human trafficking. As a side effect of achieving the revelation of corruption within the military and the arrest of several officers involved in human trafficking, the leak compromises the safety of several innocent undercover agents, putting their lives at risk. If I do not leak the classified military information, the compromise of agent safety would still happen because a cyber attack from an enemy state successfully breaches the military's database.",
         "options": {
-            "1": "I leak the classified military information.",
-            "2": "I do not leak the classified military information."
+            "1": "leak the classified military information.",
+            "2": "not leak the classified military information."
         }
     },
     {
         "id": 9,
         "text": "I, a Policeman, face a moral dilemma. I have the opportunity to implement a new predictive policing software in his precinct. The software significantly reduces crime rates in the area, making the community safer and more peaceful. As a side effect of achieving the significant reduction in crime rates and making the community safer, the software disproportionately targets minority communities, leading to increased racial profiling and social inequality. If I do not implement the new predictive policing software, the increased racial profiling and social inequality would still happen because of the rise in organized crime in the area.",
         "options": {
-            "1": "I implement the new predictive policing software.",
-            "2": "I do not implement the new predictive policing software."
+            "1": "implement the new predictive policing software.",
+            "2": "not implement the new predictive policing software."
         }
     }
 ]

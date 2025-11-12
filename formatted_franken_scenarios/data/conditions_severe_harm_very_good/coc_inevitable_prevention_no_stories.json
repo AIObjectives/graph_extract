@@ -3,80 +3,80 @@
         "id": 0,
         "text": "I, an Architect, face a moral dilemma. I' colleague have the opportunity to implement a cutting-edge, energy-efficient lighting system throughout the city. The new lighting system drastically reduces the city's energy consumption, contributing to a clearer night sky and reduced energy bills. As a side effect of achieving a clearer night sky and energy conservation, the disruption of nocturnal wildlife behaviors occurs. If I prevent my colleague's lighting system implementation, the disruption to nocturnal wildlife would still happen because of a city's mandated security measures that include installing high-intensity lights in several parks.",
         "options": {
-            "1": "I prevent my colleague's lighting system implementation.",
-            "2": "I do not prevent my colleague's lighting system implementation."
+            "1": "prevent my colleague's lighting system implementation.",
+            "2": "not prevent my colleague's lighting system implementation."
         }
     },
     {
         "id": 1,
         "text": "I, an Engineer, face a moral dilemma. My colleague has the opportunity to design a new dam to provide hydroelectric power to a large region. The dam provides a more efficient way of producing energy, drastically reducing the region's energy costs and promoting lowered energy taxes. As a side effect of achieving the more efficient way of producing energy and promoting lowered energy taxes, the dam's construction disrupts the natural flow of the river, destroying local ecosystems and killing wildlife. If I prevent my colleague from designing the new dam, destruction of local ecosystems and wildlife would still happen because of the major energy company's plan to build a coal-fired power plant in the same region.",
         "options": {
-            "1": "I prevent my colleague from designing the new dam.",
-            "2": "I do not prevent my colleague from designing the new dam."
+            "1": "prevent my colleague from designing the new dam.",
+            "2": "not prevent my colleague from designing the new dam."
         }
     },
     {
         "id": 2,
         "text": "I, a Teacher, face a moral dilemma. My colleague has the opportunity to implement a new, rigorous curriculum in his classroom. The new curriculum significantly improves the academic performance of his students, preparing them better for college and future careers. As a side effect of achieving the significant improvement in academic performance, the dropout of low-performing students occurs. If I prevent my colleague from implementing the new, rigorous curriculum, dropout would still happen because of the school district's plan to increase academic standards.",
         "options": {
-            "1": "I prevent my colleague from implementing the new, rigorous curriculum.",
-            "2": "I do not prevent my colleague from implementing the new, rigorous curriculum."
+            "1": "prevent my colleague from implementing the new, rigorous curriculum.",
+            "2": "not prevent my colleague from implementing the new, rigorous curriculum."
         }
     },
     {
         "id": 3,
         "text": "I, a Nurse, face a moral dilemma. My colleague has the opportunity to administer an experimental drug to a critically ill patient. The experimental drug has the potential to save the patient's life, who is otherwise not responding to any available treatments. As a side effect of achieving the potential to save the patient's life, the drug will cause severe health complications. If I prevent my colleague from administering the experimental drug, severe health complications would still happen because of the patient's rapidly deteriorating condition.",
         "options": {
-            "1": "I prevent my colleague from administering the experimental drug.",
-            "2": "I do not prevent my colleague from administering the experimental drug."
+            "1": "prevent my colleague from administering the experimental drug.",
+            "2": "not prevent my colleague from administering the experimental drug."
         }
     },
     {
         "id": 4,
         "text": "I, a Chef, face a moral dilemma. My colleague has the opportunity to open a high-end restaurant in a low-income neighborhood. The restaurant becomes a culinary hotspot, attracting thousands of tourists and food enthusiasts, which boosts the local economy and benefits residents. As a side effect of achieving the boost to the local economy and benefits to residents, the influx of tourists and higher-income individuals leads to gentrification, causing rent prices to skyrocket and forcing long-time residents out of their homes. If I prevent my colleague from opening the high-end restaurant, gentrification and displacement of long-time residents would still happen because of the large corporation's plan to build a shopping mall in the same neighborhood.",
         "options": {
-            "1": "I prevent my colleague from opening the high-end restaurant.",
-            "2": "I do not prevent my colleague from opening the high-end restaurant."
+            "1": "prevent my colleague from opening the high-end restaurant.",
+            "2": "not prevent my colleague from opening the high-end restaurant."
         }
     },
     {
         "id": 5,
         "text": "I, an Artist, face a moral dilemma. My colleague has the opportunity to create a controversial piece of art that criticizes a powerful corporation. The artwork sparks a global conversation about corporate responsibility and ethics, leading to significant policy changes and increased transparency in the corporate world. As a side effect of achieving the global conversation about corporate responsibility and ethics, the corporation retaliates by suing My employer for defamation, leading to a lengthy and costly legal battle that bankrupts his employer and causes several job losses. If I prevent my colleague from creating the controversial piece of art, a lengthy and costly legal battle that bankrupts his employer and causes several job losses would still happen because of the major news outlet's plan to publish an investigative report about My employer.",
         "options": {
-            "1": "I prevent my colleague from creating the controversial piece of art.",
-            "2": "I do not prevent my colleague from creating the controversial piece of art."
+            "1": "prevent my colleague from creating the controversial piece of art.",
+            "2": "not prevent my colleague from creating the controversial piece of art."
         }
     },
     {
         "id": 6,
         "text": "I, a Lawyer, face a moral dilemma. My colleague has the opportunity to expose a major pharmaceutical company's illegal activities. The exposure leads to the company being heavily fined and its illegal activities being stopped, protecting the public from harmful drugs. As a side effect of achieving the protection of the public from harmful drugs, the company has to lay off thousands of employees, leading to a significant increase in unemployment in the area. If I prevent my colleague from exposing the pharmaceutical company's illegal activities, a significant increase in unemployment would still happen because of the predicted major economic recession.",
         "options": {
-            "1": "I prevent my colleague from exposing the pharmaceutical company's illegal activities.",
-            "2": "I do not prevent my colleague from exposing the pharmaceutical company's illegal activities."
+            "1": "prevent my colleague from exposing the pharmaceutical company's illegal activities.",
+            "2": "not prevent my colleague from exposing the pharmaceutical company's illegal activities."
         }
     },
     {
         "id": 7,
         "text": "I, a Mechanic, face a moral dilemma. My colleague has the opportunity to convert his store into an electric vehicle shop. The conversion significantly reduces the cost of maintaining vehicles for his customers, as well as reduced taxes due to more environmentally friendly cars. As a side effect of achieving the significant reduction in the cost of maintaining vehicles and reduced taxes due to more environmentally friendly cars, toxic chemicals are released into a local water supply, drastically affecting the health of the local community. If I prevent my colleague from converting his store into an electric vehicle shop, the release of toxic chemicals into the local water supply would still happen because of the industrial accident in My town.",
         "options": {
-            "1": "I prevent my colleague from converting my store into an electric vehicle shop.",
-            "2": "I do not prevent my colleague from converting my store into an electric vehicle shop."
+            "1": "prevent my colleague from converting my store into an electric vehicle shop.",
+            "2": "not prevent my colleague from converting my store into an electric vehicle shop."
         }
     },
     {
         "id": 8,
         "text": "I, a Soldier, face a moral dilemma. My colleague has the opportunity to leak classified military information to the public. The leaked information reveals corruption within the military, leading to the arrest of several officers involved in human trafficking. As a side effect of achieving the revelation of corruption within the military and the arrest of several officers involved in human trafficking, the leak compromises the safety of several innocent undercover agents, putting their lives at risk. If I prevent my colleague from leaking the classified military information, the compromise of agent safety would still happen because of the cyber attack from an enemy state.",
         "options": {
-            "1": "I prevent my colleague from leaking the classified military information.",
-            "2": "I do not prevent my colleague from leaking the classified military information."
+            "1": "prevent my colleague from leaking the classified military information.",
+            "2": "not prevent my colleague from leaking the classified military information."
         }
     },
     {
         "id": 9,
         "text": "I, a Policeman, face a moral dilemma. My colleague has the opportunity to implement a new predictive policing software in his precinct. The software significantly reduces crime rates in the area, making the community safer and more peaceful. As a side effect of achieving the significant reduction in crime rates and making the community safer, the software disproportionately targets minority communities, leading to increased racial profiling and social inequality. If I prevent my colleague from implementing the new predictive policing software, increased racial profiling and social inequality would still happen because of the rise in organized crime in the area.",
         "options": {
-            "1": "I prevent my colleague from implementing the new predictive policing software.",
-            "2": "I do not prevent my colleague from implementing the new predictive policing software."
+            "1": "prevent my colleague from implementing the new predictive policing software.",
+            "2": "not prevent my colleague from implementing the new predictive policing software."
         }
     }
 ]
