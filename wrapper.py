@@ -12,10 +12,10 @@ importlib.reload(translate_to_vis)
 
 
 CUR_DIR = os.path.dirname(os.path.abspath(__name__))
-SEVERITY = 'conditions_mild_harm_mild_good/'  # adjust as needed
-# SEVERITY = 'conditions_severe_harm_very_good/'  # adjust as needed
+# SEVERITY = 'conditions_mild_harm_mild_good/'  # adjust as needed
+SEVERITY = 'conditions_severe_harm_very_good/'  # adjust as needed
 SCENARIO_DIR = CUR_DIR+'/formatted_franken_scenarios/data/'+SEVERITY
-OUTPUT_DIR = CUR_DIR+'/franken_annotated_outputs/'+SEVERITY
+OUTPUT_DIR = CUR_DIR+'/franken_annotated_outputs_newnewprompts/'+SEVERITY
 
 def main(filename: str = 'scenarios.json', scenario_id: int = 0):
 

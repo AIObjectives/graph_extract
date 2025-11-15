@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Analysis script for moral scenario annotations.
-Generates statistical reports on causal variable polarities (C, I, K)
-grouped by utility scores and various experimental conditions.
+Analysis script for moral scenario annotations with scenario-level weighting.
+Each scenario (combining both choices) is weighted equally regardless of event count.
+Outputs are organized into multiple files for clarity.
 """
 
 import json
@@ -11,17 +11,9 @@ from pathlib import Path
 from collections import defaultdict, Counter
 from typing import Dict, List, Tuple, Set
 
-# ============================================================================
-# CONFIGURATION FLAGS
-# ============================================================================
-INCLUDE_COC = False  # Set to True when COC data is ready
-# ============================================================================
-
 
 def parse_causal_string(causal_str: str) -> Dict[str, str]:
-    """
-    Parse causal string like 'C+I-K+' into {'C': '+', 'I': '-', 'K': '+'}
-    """
+    """Parse causal string like 'C+I-K+' into {'C': '+', 'I': '-', 'K': '+'}"""
     result = {}
     i = 0
     while i < len(causal_str):
@@ -76,7 +68,6 @@ def extract_event_data(json_file: Path) -> List[Tuple[Dict[str, str], int]]:
         if node['node']['kind'] == 'event':
             event_label = node['node']['label']
             
-            # Skip if this event doesn't have causal info from I-being
             if event_label not in event_causals:
                 continue
             
@@ -91,539 +82,650 @@ def extract_event_data(json_file: Path) -> List[Tuple[Dict[str, str], int]]:
     return results
 
 
-def count_polarities(data: List[Tuple[Dict[str, str], int]]) -> Dict:
-    """
-    Count C, I, K polarities by utility category.
-    Returns dict with 'positive', 'negative', 'zero', and 'total' counts.
-    """
-    counts = {
-        'positive': Counter(),
-        'negative': Counter(),
-        'zero': Counter(),
-        'total': Counter()
-    }
+class ScenarioStats:
+    """Statistics for a single scenario (combining both choices)."""
     
-    for causal_dict, utility in data:
-        # Determine utility category
-        if utility > 0:
-            category = 'positive'
-        elif utility < 0:
-            category = 'negative'
-        else:
-            category = 'zero'
+    def __init__(self, scenario_id: int):
+        self.scenario_id = scenario_id
+        self.events_by_utility = {'positive': [], 'negative': [], 'zero': []}
+        self.all_events = []
+    
+    def add_events(self, events: List[Tuple[Dict[str, str], int]]):
+        """Add events from a choice file."""
+        for causal_dict, utility in events:
+            self.all_events.append((causal_dict, utility))
+            
+            if utility > 0:
+                category = 'positive'
+            elif utility < 0:
+                category = 'negative'
+            else:
+                category = 'zero'
+            
+            self.events_by_utility[category].append(causal_dict)
+    
+    def get_proportions(self) -> Dict:
+        """Calculate proportions for this scenario."""
+        proportions = {
+            'positive': {},
+            'negative': {},
+            'zero': {},
+            'total': {}
+        }
         
-        # Count polarities
+        # Calculate for each utility category
+        for category in ['positive', 'negative', 'zero']:
+            events = self.events_by_utility[category]
+            
+            for var in ['C', 'I', 'K']:
+                plus_count = sum(1 for e in events if e.get(var) == '+')
+                minus_count = sum(1 for e in events if e.get(var) == '-')
+                total = plus_count + minus_count
+                
+                if total > 0:
+                    proportions[category][f'{var}+'] = plus_count / total
+                    proportions[category][f'{var}-'] = minus_count / total
+                else:
+                    proportions[category][f'{var}+'] = 0
+                    proportions[category][f'{var}-'] = 0
+        
+        # Calculate overall
         for var in ['C', 'I', 'K']:
-            if var in causal_dict:
-                key = f"{var}{causal_dict[var]}"
-                counts[category][key] += 1
-                counts['total'][key] += 1
+            plus_count = sum(1 for e, _ in self.all_events if e.get(var) == '+')
+            minus_count = sum(1 for e, _ in self.all_events if e.get(var) == '-')
+            total = plus_count + minus_count
+            
+            if total > 0:
+                proportions['total'][f'{var}+'] = plus_count / total
+                proportions['total'][f'{var}-'] = minus_count / total
+            else:
+                proportions['total'][f'{var}+'] = 0
+                proportions['total'][f'{var}-'] = 0
+        
+        return proportions
     
-    return counts
+    def get_counts(self) -> Dict:
+        """Get raw counts for this scenario."""
+        counts = {
+            'positive': Counter(),
+            'negative': Counter(),
+            'zero': Counter(),
+            'total': Counter()
+        }
+        
+        for category in ['positive', 'negative', 'zero']:
+            for causal_dict in self.events_by_utility[category]:
+                for var in ['C', 'I', 'K']:
+                    if var in causal_dict:
+                        key = f"{var}{causal_dict[var]}"
+                        counts[category][key] += 1
+                        counts['total'][key] += 1
+        
+        return counts
 
 
-def format_counts_report(counts: Dict, title: str, global_counts: Dict = None) -> str:
-    """
-    Format counts into a readable report section with local and global proportions.
-    """
+class ConditionStats:
+    """Statistics for a condition (subfolder), using scenario-level weighting."""
+    
+    def __init__(self, name: str):
+        self.name = name
+        self.scenarios = {}  # scenario_id -> ScenarioStats
+    
+    def add_scenario_events(self, scenario_id: int, events: List[Tuple[Dict[str, str], int]]):
+        """Add events for a scenario."""
+        if scenario_id not in self.scenarios:
+            self.scenarios[scenario_id] = ScenarioStats(scenario_id)
+        self.scenarios[scenario_id].add_events(events)
+    
+    def get_weighted_stats(self) -> Dict:
+        """Calculate scenario-weighted statistics."""
+        if not self.scenarios:
+            return None
+        
+        # Average proportions across scenarios
+        avg_proportions = {
+            'positive': defaultdict(float),
+            'negative': defaultdict(float),
+            'zero': defaultdict(float),
+            'total': defaultdict(float)
+        }
+        
+        n_scenarios = len(self.scenarios)
+        
+        for scenario in self.scenarios.values():
+            proportions = scenario.get_proportions()
+            
+            for category in ['positive', 'negative', 'zero', 'total']:
+                for key, value in proportions[category].items():
+                    avg_proportions[category][key] += value / n_scenarios
+        
+        # Also get total counts (for reference)
+        total_counts = {
+            'positive': Counter(),
+            'negative': Counter(),
+            'zero': Counter(),
+            'total': Counter()
+        }
+        
+        for scenario in self.scenarios.values():
+            counts = scenario.get_counts()
+            for category in ['positive', 'negative', 'zero', 'total']:
+                total_counts[category].update(counts[category])
+        
+        return {
+            'proportions': avg_proportions,
+            'counts': total_counts,
+            'n_scenarios': n_scenarios
+        }
+    
+    def get_all_utilities(self) -> List[int]:
+        """Get all utility scores across all scenarios."""
+        utilities = []
+        for scenario in self.scenarios.values():
+            for _, utility in scenario.all_events:
+                utilities.append(utility)
+        return utilities
+
+
+def format_stats_report(stats: Dict, title: str, global_stats: Dict = None) -> str:
+    """Format statistics into a readable report."""
+    if not stats:
+        return f"\n{title}\nNo data available.\n"
+    
     lines = [f"\n{'=' * 80}", title, '=' * 80, ""]
     
-    # Total causal assignments
-    total_assignments = sum(counts['total'].values())
-    lines.append(f"Total causal variable assignments: {total_assignments}")
+    proportions = stats['proportions']
+    counts = stats['counts']
+    n_scenarios = stats['n_scenarios']
+    
+    lines.append(f"Number of scenarios: {n_scenarios}")
+    lines.append(f"Total events analyzed: {sum(counts['total'].values())}")
     lines.append("")
     
-    # Helper function to format counts with proportions
-    def format_category(cat_name, cat_counts):
-        cat_total = sum(cat_counts.values())
+    # Helper function to format a category
+    def format_category(cat_name):
+        cat_props = proportions[cat_name]
+        cat_counts = counts[cat_name]
+        
         lines.append(f"\n{cat_name.upper()} UTILITY:")
-        lines.append(f"  Events in category: {cat_total // 3 if cat_total > 0 else 0}")
-        lines.append(f"  Total assignments: {cat_total}")
+        lines.append(f"  Total assignments: {sum(cat_counts.values())}")
         
         for var in ['C', 'I', 'K']:
-            pos_key = f"{var}+"
-            neg_key = f"{var}-"
-            pos_count = cat_counts.get(pos_key, 0)
-            neg_count = cat_counts.get(neg_key, 0)
-            var_total = pos_count + neg_count
+            plus_key = f'{var}+'
+            minus_key = f'{var}-'
             
-            if var_total > 0:
-                local_pos_pct = (pos_count / var_total) * 100
-                local_neg_pct = (neg_count / var_total) * 100
-            else:
-                local_pos_pct = local_neg_pct = 0
+            # Get this condition's values
+            plus_prop = cat_props.get(plus_key, 0)
+            minus_prop = cat_props.get(minus_key, 0)
+            plus_count = cat_counts.get(plus_key, 0)
+            minus_count = cat_counts.get(minus_key, 0)
             
-            pos_line = f"    {var}+: {pos_count:4d} (local: {local_pos_pct:5.1f}%"
+            plus_line = f"    {var}+: {plus_count:4d} (scenario-avg: {100*plus_prop:5.1f}%"
+            minus_line = f"    {var}-: {minus_count:4d} (scenario-avg: {100*minus_prop:5.1f}%"
             
-            # Add global proportion if provided
-            if global_counts:
-                global_cat_counts = global_counts[cat_name.lower()]
-                global_var_total = global_cat_counts.get(pos_key, 0) + global_cat_counts.get(neg_key, 0)
-                if global_var_total > 0:
-                    global_pos_pct = (pos_count / global_var_total) * 100
-                    pos_line += f", global: {global_pos_pct:5.1f}%"
+            # Add global comparison if provided
+            if global_stats:
+                global_props = global_stats['proportions'][cat_name]
+                global_plus = global_props.get(plus_key, 0)
+                global_minus = global_props.get(minus_key, 0)
+                
+                plus_line += f", global-avg: {100*global_plus:5.1f}%"
+                minus_line += f", global-avg: {100*global_minus:5.1f}%"
             
-            pos_line += ")"
-            lines.append(pos_line)
+            plus_line += ")"
+            minus_line += ")"
             
-            neg_line = f"    {var}-: {neg_count:4d} (local: {local_neg_pct:5.1f}%"
-            
-            if global_counts:
-                global_cat_counts = global_counts[cat_name.lower()]
-                global_var_total = global_cat_counts.get(pos_key, 0) + global_cat_counts.get(neg_key, 0)
-                if global_var_total > 0:
-                    global_neg_pct = (neg_count / global_var_total) * 100
-                    neg_line += f", global: {global_neg_pct:5.1f}%"
-            
-            neg_line += ")"
-            lines.append(neg_line)
+            lines.append(plus_line)
+            lines.append(minus_line)
     
-    # Report for each utility category
-    format_category("Positive", counts['positive'])
-    format_category("Negative", counts['negative'])
-    format_category("Zero", counts['zero'])
-    
-    # Overall totals
-    lines.append(f"\nOVERALL (all utility categories):")
-    lines.append(f"  Total assignments: {total_assignments}")
-    
-    for var in ['C', 'I', 'K']:
-        pos_key = f"{var}+"
-        neg_key = f"{var}-"
-        pos_count = counts['total'].get(pos_key, 0)
-        neg_count = counts['total'].get(neg_key, 0)
-        var_total = pos_count + neg_count
-        
-        if var_total > 0:
-            local_pos_pct = (pos_count / var_total) * 100
-            local_neg_pct = (neg_count / var_total) * 100
-        else:
-            local_pos_pct = local_neg_pct = 0
-        
-        pos_line = f"    {var}+: {pos_count:4d} (local: {local_pos_pct:5.1f}%"
-        
-        if global_counts:
-            global_var_total = global_counts['total'].get(pos_key, 0) + global_counts['total'].get(neg_key, 0)
-            if global_var_total > 0:
-                global_pos_pct = (pos_count / global_var_total) * 100
-                pos_line += f", global: {global_pos_pct:5.1f}%"
-        
-        pos_line += ")"
-        lines.append(pos_line)
-        
-        neg_line = f"    {var}-: {neg_count:4d} (local: {local_neg_pct:5.1f}%"
-        
-        if global_counts:
-            global_var_total = global_counts['total'].get(pos_key, 0) + global_counts['total'].get(neg_key, 0)
-            if global_var_total > 0:
-                global_neg_pct = (neg_count / global_var_total) * 100
-                neg_line += f", global: {global_neg_pct:5.1f}%"
-        
-        neg_line += ")"
-        lines.append(neg_line)
+    # Report each category
+    format_category('positive')
+    format_category('negative')
+    format_category('zero')
+    format_category('total')
     
     return '\n'.join(lines)
 
 
-def merge_counts(counts_list: List[Dict]) -> Dict:
-    """Merge multiple count dictionaries."""
-    merged = {
+def merge_condition_stats(conditions: List[ConditionStats]) -> Dict:
+    """Merge multiple conditions, maintaining scenario-level weighting."""
+    all_scenarios = []
+    
+    for condition in conditions:
+        all_scenarios.extend(condition.scenarios.values())
+    
+    if not all_scenarios:
+        return None
+    
+    # Average proportions across all scenarios
+    avg_proportions = {
+        'positive': defaultdict(float),
+        'negative': defaultdict(float),
+        'zero': defaultdict(float),
+        'total': defaultdict(float)
+    }
+    
+    n_scenarios = len(all_scenarios)
+    
+    for scenario in all_scenarios:
+        proportions = scenario.get_proportions()
+        
+        for category in ['positive', 'negative', 'zero', 'total']:
+            for key, value in proportions[category].items():
+                avg_proportions[category][key] += value / n_scenarios
+    
+    # Get total counts
+    total_counts = {
         'positive': Counter(),
         'negative': Counter(),
         'zero': Counter(),
         'total': Counter()
     }
     
-    for counts in counts_list:
+    for scenario in all_scenarios:
+        counts = scenario.get_counts()
         for category in ['positive', 'negative', 'zero', 'total']:
-            merged[category].update(counts[category])
+            total_counts[category].update(counts[category])
     
-    return merged
+    return {
+        'proportions': avg_proportions,
+        'counts': total_counts,
+        'n_scenarios': n_scenarios
+    }
 
 
-def analyze_directory(base_path: Path, severity: str, output_file):
-    """Analyze all subfolders for a given severity level."""
+def analyze_severity_level(base_path: Path, severity: str, output_dir: Path):
+    """Analyze one severity level and output to file."""
     
     severity_path = base_path / severity
+    output_file = output_dir / f"{severity}_individual_subfolders.txt"
     
-    # Header
-    header = f"\n\n{'#' * 80}\n"
-    header += f"ANALYSIS FOR: {severity.upper()}\n"
-    header += f"{'#' * 80}\n"
-    output_file.write(header)
-    
-    # Storage for all subfolder data and raw events
-    subfolder_data = {}
-    subfolder_events = {}  # Store raw events for utility analysis
-    all_counts = []
-    
-    # Get all subfolders
-    subfolders = sorted([d for d in severity_path.iterdir() if d.is_dir()])
-    
-    # Filter out COC folders if not included
-    if not INCLUDE_COC:
-        subfolders = [d for d in subfolders if not d.name.startswith('coc_')]
-        if not subfolders:
-            output_file.write("\nNote: All COC data excluded. No CC data found.\n")
-            return {}
+    # Storage
+    conditions = {}  # condition_name -> ConditionStats
     
     # Process each subfolder
+    subfolders = sorted([d for d in severity_path.iterdir() if d.is_dir()])
+    
     for subfolder in subfolders:
-        subfolder_name = subfolder.name
+        condition_name = subfolder.name
+        condition = ConditionStats(condition_name)
         
-        # Extract all event data from JSON files
-        all_events = []
-        json_files = sorted(subfolder.glob("*.json"))
+        # Group files by scenario ID
+        scenario_files = defaultdict(list)
+        for json_file in subfolder.glob("*.json"):
+            # Parse filename: scenarioID_choice_N.json
+            parts = json_file.stem.split('_choice_')
+            if len(parts) == 2:
+                scenario_id = int(parts[0])
+                scenario_files[scenario_id].append(json_file)
         
-        for json_file in json_files:
-            events = extract_event_data(json_file)
-            all_events.extend(events)
+        # Process each scenario (both choices)
+        for scenario_id, files in scenario_files.items():
+            for json_file in files:
+                events = extract_event_data(json_file)
+                condition.add_scenario_events(scenario_id, events)
         
-        # Count polarities
-        counts = count_polarities(all_events)
-        subfolder_data[subfolder_name] = counts
-        subfolder_events[subfolder_name] = all_events
-        all_counts.append(counts)
+        conditions[condition_name] = condition
     
-    # Calculate global counts for this severity
-    global_counts = merge_counts(all_counts)
+    # Calculate global stats for this severity
+    global_stats = merge_condition_stats(list(conditions.values()))
     
-    # Report individual subfolders
-    output_file.write("\n" + "=" * 80)
-    output_file.write("\nINDIVIDUAL SUBFOLDER ANALYSIS")
-    output_file.write("\n" + "=" * 80 + "\n")
+    # Write individual subfolder report
+    with open(output_file, 'w') as f:
+        f.write("=" * 80 + "\n")
+        f.write(f"INDIVIDUAL SUBFOLDER ANALYSIS: {severity.upper().replace('_', ' ')}\n")
+        f.write("=" * 80 + "\n")
+        f.write("Note: Proportions are scenario-weighted (each scenario contributes equally)\n")
+        f.write("=" * 80 + "\n")
+        
+        for condition_name in sorted(conditions.keys()):
+            stats = conditions[condition_name].get_weighted_stats()
+            report = format_stats_report(stats, f"Subfolder: {condition_name}", global_stats)
+            f.write(report)
     
-    for subfolder_name in sorted(subfolder_data.keys()):
-        counts = subfolder_data[subfolder_name]
-        report = format_counts_report(counts, f"Subfolder: {subfolder_name}", global_counts)
-        output_file.write(report)
+    print(f"✓ Written: {output_file}")
+    
+    return conditions, global_stats
+
+
+def write_grouped_analysis(conditions_by_severity: Dict, output_dir: Path):
+    """Write grouped analyses across both severity levels."""
     
     # Group by causal structure (CC vs COC)
-    output_file.write("\n\n" + "=" * 80)
-    output_file.write("\nGROUPED BY CAUSAL STRUCTURE")
-    output_file.write("\n" + "=" * 80 + "\n")
+    output_file = output_dir / "grouped_by_causal_structure.txt"
+    with open(output_file, 'w') as f:
+        f.write("=" * 80 + "\n")
+        f.write("GROUPED ANALYSIS: CAUSAL STRUCTURE (CC vs COC)\n")
+        f.write("=" * 80 + "\n\n")
+        
+        for severity in ['conditions_mild_harm_mild_good', 'conditions_severe_harm_very_good']:
+            conditions, global_stats = conditions_by_severity[severity]
+            
+            f.write("\n" + "#" * 80 + "\n")
+            f.write(f"SEVERITY: {severity.upper().replace('_', ' ')}\n")
+            f.write("#" * 80 + "\n")
+            
+            cc_conditions = [c for name, c in conditions.items() if name.startswith('cc_')]
+            coc_conditions = [c for name, c in conditions.items() if name.startswith('coc_')]
+            
+            cc_stats = merge_condition_stats(cc_conditions)
+            coc_stats = merge_condition_stats(coc_conditions)
+            
+            f.write(format_stats_report(cc_stats, "CC (Causal Chain)", global_stats))
+            f.write(format_stats_report(coc_stats, "COC (Common Cause)", global_stats))
+            
+            # Comparative analysis
+            f.write("\n\n" + "-" * 80 + "\n")
+            f.write("COMPARATIVE ANALYSIS: I POLARITY\n")
+            f.write("-" * 80 + "\n")
+            
+            cc_i_plus = cc_stats['proportions']['total']['I+']
+            cc_i_minus = cc_stats['proportions']['total']['I-']
+            coc_i_plus = coc_stats['proportions']['total']['I+']
+            coc_i_minus = coc_stats['proportions']['total']['I-']
+            
+            f.write(f"\nCC Scenarios (scenario-weighted average):")
+            f.write(f"\n  I+: {100*cc_i_plus:5.1f}%")
+            f.write(f"\n  I-: {100*cc_i_minus:5.1f}%")
+            
+            f.write(f"\n\nCOC Scenarios (scenario-weighted average):")
+            f.write(f"\n  I+: {100*coc_i_plus:5.1f}%")
+            f.write(f"\n  I-: {100*coc_i_minus:5.1f}%")
+            
+            diff = abs(100*cc_i_plus - 100*coc_i_plus)
+            dominant = "CC" if cc_i_plus > coc_i_plus else "COC"
+            dominant_pol = "I+" if cc_i_plus > coc_i_plus else "I-"
+            
+            f.write(f"\n\nInterpretation:")
+            f.write(f"\n  {dominant} scenarios show {diff:.1f}% more {dominant_pol}")
+            if diff > 10:
+                f.write(f"\n  → STRONG systematic dominance")
+            elif diff > 5:
+                f.write(f"\n  → MODERATE systematic dominance")
+            else:
+                f.write(f"\n  → WEAK/no systematic dominance")
     
-    cc_counts = merge_counts([counts for name, counts in subfolder_data.items() if name.startswith('cc_')])
-    
-    if INCLUDE_COC:
-        coc_counts = merge_counts([counts for name, counts in subfolder_data.items() if name.startswith('coc_')])
-        output_file.write(format_counts_report(cc_counts, "CC (Causal Chain)", global_counts))
-        output_file.write(format_counts_report(coc_counts, "COC (Common Cause)", global_counts))
-    else:
-        output_file.write("\nNote: COC data excluded from analysis (INCLUDE_COC = False)\n")
-        output_file.write(format_counts_report(cc_counts, "CC (Causal Chain) - ONLY", global_counts))
+    print(f"✓ Written: {output_file}")
     
     # Group by evitability
-    output_file.write("\n\n" + "=" * 80)
-    output_file.write("\nGROUPED BY EVITABILITY")
-    output_file.write("\n" + "=" * 80 + "\n")
+    output_file = output_dir / "grouped_by_evitability.txt"
+    with open(output_file, 'w') as f:
+        f.write("=" * 80 + "\n")
+        f.write("GROUPED ANALYSIS: EVITABILITY (Evitable vs Inevitable)\n")
+        f.write("=" * 80 + "\n\n")
+        
+        for severity in ['conditions_mild_harm_mild_good', 'conditions_severe_harm_very_good']:
+            conditions, global_stats = conditions_by_severity[severity]
+            
+            f.write("\n" + "#" * 80 + "\n")
+            f.write(f"SEVERITY: {severity.upper().replace('_', ' ')}\n")
+            f.write("#" * 80 + "\n")
+            
+            evit_conditions = [c for name, c in conditions.items() if 'evitable_' in name]
+            inev_conditions = [c for name, c in conditions.items() if 'inevitable_' in name]
+            
+            evit_stats = merge_condition_stats(evit_conditions)
+            inev_stats = merge_condition_stats(inev_conditions)
+            
+            f.write(format_stats_report(evit_stats, "EVITABLE", global_stats))
+            f.write(format_stats_report(inev_stats, "INEVITABLE", global_stats))
+            
+            # Comparative analysis
+            f.write("\n\n" + "-" * 80 + "\n")
+            f.write("COMPARATIVE ANALYSIS: C POLARITY\n")
+            f.write("-" * 80 + "\n")
+            
+            evit_c_plus = evit_stats['proportions']['total']['C+']
+            evit_c_minus = evit_stats['proportions']['total']['C-']
+            inev_c_plus = inev_stats['proportions']['total']['C+']
+            inev_c_minus = inev_stats['proportions']['total']['C-']
+            
+            f.write(f"\nEvitable Scenarios (scenario-weighted average):")
+            f.write(f"\n  C+: {100*evit_c_plus:5.1f}%")
+            f.write(f"\n  C-: {100*evit_c_minus:5.1f}%")
+            
+            f.write(f"\n\nInevitable Scenarios (scenario-weighted average):")
+            f.write(f"\n  C+: {100*inev_c_plus:5.1f}%")
+            f.write(f"\n  C-: {100*inev_c_minus:5.1f}%")
+            
+            diff = abs(100*evit_c_plus - 100*inev_c_plus)
+            dominant = "Evitable" if evit_c_plus > inev_c_plus else "Inevitable"
+            dominant_pol = "C+" if evit_c_plus > inev_c_plus else "C-"
+            
+            f.write(f"\n\nInterpretation:")
+            f.write(f"\n  {dominant} scenarios show {diff:.1f}% more {dominant_pol}")
+            if diff > 10:
+                f.write(f"\n  → STRONG systematic dominance")
+            elif diff > 5:
+                f.write(f"\n  → MODERATE systematic dominance")
+            else:
+                f.write(f"\n  → WEAK/no systematic dominance")
     
-    evitable_counts = merge_counts([counts for name, counts in subfolder_data.items() if 'evitable_' in name])
-    inevitable_counts = merge_counts([counts for name, counts in subfolder_data.items() if 'inevitable_' in name])
-    
-    output_file.write(format_counts_report(evitable_counts, "EVITABLE", global_counts))
-    output_file.write(format_counts_report(inevitable_counts, "INEVITABLE", global_counts))
+    print(f"✓ Written: {output_file}")
     
     # Group by action type
-    output_file.write("\n\n" + "=" * 80)
-    output_file.write("\nGROUPED BY ACTION TYPE")
-    output_file.write("\n" + "=" * 80 + "\n")
-    
-    action_yes_counts = merge_counts([counts for name, counts in subfolder_data.items() if 'action_yes_' in name])
-    prevention_no_counts = merge_counts([counts for name, counts in subfolder_data.items() if 'prevention_no_' in name])
-    
-    output_file.write(format_counts_report(action_yes_counts, "ACTION_YES", global_counts))
-    output_file.write(format_counts_report(prevention_no_counts, "PREVENTION_NO", global_counts))
-    
-    # Additional comparative analyses
-    output_file.write("\n\n" + "=" * 80)
-    output_file.write("\nCOMPARATIVE ANALYSES")
-    output_file.write("\n" + "=" * 80 + "\n")
-    
-    # Question 1: I polarity dominance between CC and COC (only if COC included)
-    if INCLUDE_COC:
-        output_file.write("\n" + "-" * 80)
-        output_file.write("\n1. I POLARITY COMPARISON: CC vs COC")
-        output_file.write("\n" + "-" * 80 + "\n")
+    output_file = output_dir / "grouped_by_action_type.txt"
+    with open(output_file, 'w') as f:
+        f.write("=" * 80 + "\n")
+        f.write("GROUPED ANALYSIS: ACTION TYPE (Action_Yes vs Prevention_No)\n")
+        f.write("=" * 80 + "\n\n")
         
-        coc_counts = merge_counts([counts for name, counts in subfolder_data.items() if name.startswith('coc_')])
-        
-        cc_i_plus = cc_counts['total'].get('I+', 0)
-        cc_i_minus = cc_counts['total'].get('I-', 0)
-        cc_i_total = cc_i_plus + cc_i_minus
-        
-        coc_i_plus = coc_counts['total'].get('I+', 0)
-        coc_i_minus = coc_counts['total'].get('I-', 0)
-        coc_i_total = coc_i_plus + coc_i_minus
-        
-        output_file.write(f"\nCC Scenarios:")
-        output_file.write(f"\n  I+: {cc_i_plus:4d} ({100*cc_i_plus/cc_i_total if cc_i_total > 0 else 0:5.1f}%)")
-        output_file.write(f"\n  I-: {cc_i_minus:4d} ({100*cc_i_minus/cc_i_total if cc_i_total > 0 else 0:5.1f}%)")
-        output_file.write(f"\n  Total I assignments: {cc_i_total}")
-        
-        output_file.write(f"\n\nCOC Scenarios:")
-        output_file.write(f"\n  I+: {coc_i_plus:4d} ({100*coc_i_plus/coc_i_total if coc_i_total > 0 else 0:5.1f}%)")
-        output_file.write(f"\n  I-: {coc_i_minus:4d} ({100*coc_i_minus/coc_i_total if coc_i_total > 0 else 0:5.1f}%)")
-        output_file.write(f"\n  Total I assignments: {coc_i_total}")
-        
-        if cc_i_total > 0 and coc_i_total > 0:
-            cc_i_plus_pct = 100 * cc_i_plus / cc_i_total
-            coc_i_plus_pct = 100 * coc_i_plus / coc_i_total
-            diff = abs(cc_i_plus_pct - coc_i_plus_pct)
-            dominant_structure = "CC" if cc_i_plus_pct > coc_i_plus_pct else "COC"
-            dominant_polarity = "I+" if cc_i_plus_pct > coc_i_plus_pct else "I-"
+        for severity in ['conditions_mild_harm_mild_good', 'conditions_severe_harm_very_good']:
+            conditions, global_stats = conditions_by_severity[severity]
             
-            output_file.write(f"\n\nInterpretation:")
-            output_file.write(f"\n  {dominant_structure} scenarios show {diff:.1f}% more {dominant_polarity} assignments")
-            if diff > 10:
-                output_file.write(f"\n  This suggests a STRONG systematic dominance of {dominant_polarity} in {dominant_structure} scenarios")
-            elif diff > 5:
-                output_file.write(f"\n  This suggests a MODERATE systematic dominance of {dominant_polarity} in {dominant_structure} scenarios")
+            f.write("\n" + "#" * 80 + "\n")
+            f.write(f"SEVERITY: {severity.upper().replace('_', ' ')}\n")
+            f.write("#" * 80 + "\n")
+            
+            action_conditions = [c for name, c in conditions.items() if 'action_yes_' in name]
+            prevention_conditions = [c for name, c in conditions.items() if 'prevention_no_' in name]
+            
+            action_stats = merge_condition_stats(action_conditions)
+            prevention_stats = merge_condition_stats(prevention_conditions)
+            
+            f.write(format_stats_report(action_stats, "ACTION_YES", global_stats))
+            f.write(format_stats_report(prevention_stats, "PREVENTION_NO", global_stats))
+            
+            # Comparative analysis
+            f.write("\n\n" + "-" * 80 + "\n")
+            f.write("COMPARATIVE ANALYSIS: POLARITY PATTERNS\n")
+            f.write("-" * 80 + "\n")
+            
+            f.write("\nAction_Yes (scenario-weighted average):")
+            for var in ['C', 'I', 'K']:
+                plus = action_stats['proportions']['total'][f'{var}+']
+                minus = action_stats['proportions']['total'][f'{var}-']
+                f.write(f"\n  {var}+: {100*plus:5.1f}%  |  {var}-: {100*minus:5.1f}%")
+            
+            f.write("\n\nPrevention_No (scenario-weighted average):")
+            for var in ['C', 'I', 'K']:
+                plus = prevention_stats['proportions']['total'][f'{var}+']
+                minus = prevention_stats['proportions']['total'][f'{var}-']
+                f.write(f"\n  {var}+: {100*plus:5.1f}%  |  {var}-: {100*minus:5.1f}%")
+            
+            f.write("\n\nDifferences (Action_Yes % - Prevention_No %):")
+            distinguishing = []
+            for var in ['C', 'I', 'K']:
+                action_plus = action_stats['proportions']['total'][f'{var}+']
+                prevention_plus = prevention_stats['proportions']['total'][f'{var}+']
+                diff = 100 * (action_plus - prevention_plus)
+                
+                f.write(f"\n  {var}+: {diff:+6.1f}%  |  {var}-: {-diff:+6.1f}%")
+                
+                if abs(diff) > 10:
+                    distinguishing.append((var, diff))
+            
+            f.write("\n\nInterpretation:")
+            if distinguishing:
+                f.write("\n  DISTINGUISHING FEATURES found:")
+                for var, diff in distinguishing:
+                    pol = '+' if diff > 0 else '-'
+                    f.write(f"\n    - {var}{pol} is {abs(diff):.1f}% more common in Action_Yes")
             else:
-                output_file.write(f"\n  The difference is SMALL, suggesting no strong systematic dominance")
-    else:
-        output_file.write("\n" + "-" * 80)
-        output_file.write("\n1. I POLARITY COMPARISON: CC vs COC")
-        output_file.write("\n" + "-" * 80)
-        output_file.write("\n\n[SKIPPED - COC data not included (INCLUDE_COC = False)]")
+                f.write("\n  No strong distinguishing features (all differences < 10%)")
     
-    # Question 2: C polarity dominance between evitable and inevitable
-    output_file.write("\n\n" + "-" * 80)
-    output_file.write("\n2. C POLARITY COMPARISON: Evitable vs Inevitable")
-    output_file.write("\n" + "-" * 80 + "\n")
+    print(f"✓ Written: {output_file}")
+
+
+def write_utility_analysis(conditions_by_severity: Dict, output_dir: Path):
+    """Write utility distribution analysis."""
     
-    evit_c_plus = evitable_counts['total'].get('C+', 0)
-    evit_c_minus = evitable_counts['total'].get('C-', 0)
-    evit_c_total = evit_c_plus + evit_c_minus
+    output_file = output_dir / "utility_distributions.txt"
     
-    inev_c_plus = inevitable_counts['total'].get('C+', 0)
-    inev_c_minus = inevitable_counts['total'].get('C-', 0)
-    inev_c_total = inev_c_plus + inev_c_minus
-    
-    output_file.write(f"\nEvitable Scenarios:")
-    output_file.write(f"\n  C+: {evit_c_plus:4d} ({100*evit_c_plus/evit_c_total if evit_c_total > 0 else 0:5.1f}%)")
-    output_file.write(f"\n  C-: {evit_c_minus:4d} ({100*evit_c_minus/evit_c_total if evit_c_total > 0 else 0:5.1f}%)")
-    output_file.write(f"\n  Total C assignments: {evit_c_total}")
-    
-    output_file.write(f"\n\nInevitable Scenarios:")
-    output_file.write(f"\n  C+: {inev_c_plus:4d} ({100*inev_c_plus/inev_c_total if inev_c_total > 0 else 0:5.1f}%)")
-    output_file.write(f"\n  C-: {inev_c_minus:4d} ({100*inev_c_minus/inev_c_total if inev_c_total > 0 else 0:5.1f}%)")
-    output_file.write(f"\n  Total C assignments: {inev_c_total}")
-    
-    if evit_c_total > 0 and inev_c_total > 0:
-        evit_c_plus_pct = 100 * evit_c_plus / evit_c_total
-        inev_c_plus_pct = 100 * inev_c_plus / inev_c_total
-        diff = abs(evit_c_plus_pct - inev_c_plus_pct)
-        dominant_evitability = "Evitable" if evit_c_plus_pct > inev_c_plus_pct else "Inevitable"
-        dominant_polarity = "C+" if evit_c_plus_pct > inev_c_plus_pct else "C-"
+    with open(output_file, 'w') as f:
+        f.write("=" * 80 + "\n")
+        f.write("UTILITY SCORE DISTRIBUTIONS\n")
+        f.write("=" * 80 + "\n\n")
         
-        output_file.write(f"\n\nInterpretation:")
-        output_file.write(f"\n  {dominant_evitability} scenarios show {diff:.1f}% more {dominant_polarity} assignments")
-        if diff > 10:
-            output_file.write(f"\n  This suggests a STRONG systematic dominance of {dominant_polarity} in {dominant_evitability} scenarios")
-        elif diff > 5:
-            output_file.write(f"\n  This suggests a MODERATE systematic dominance of {dominant_polarity} in {dominant_evitability} scenarios")
-        else:
-            output_file.write(f"\n  The difference is SMALL, suggesting no strong systematic dominance")
-    
-    # Question 4: Polarity patterns by action type
-    output_file.write("\n\n" + "-" * 80)
-    output_file.write("\n3. POLARITY PATTERNS BY ACTION TYPE")
-    output_file.write("\n" + "-" * 80 + "\n")
-    
-    output_file.write("\nAction_Yes Scenarios:")
-    for var in ['C', 'I', 'K']:
-        plus = action_yes_counts['total'].get(f'{var}+', 0)
-        minus = action_yes_counts['total'].get(f'{var}-', 0)
-        total = plus + minus
-        if total > 0:
-            output_file.write(f"\n  {var}+: {plus:4d} ({100*plus/total:5.1f}%)  |  {var}-: {minus:4d} ({100*minus/total:5.1f}%)")
-    
-    output_file.write("\n\nPrevention_No Scenarios:")
-    for var in ['C', 'I', 'K']:
-        plus = prevention_no_counts['total'].get(f'{var}+', 0)
-        minus = prevention_no_counts['total'].get(f'{var}-', 0)
-        total = plus + minus
-        if total > 0:
-            output_file.write(f"\n  {var}+: {plus:4d} ({100*plus/total:5.1f}%)  |  {var}-: {minus:4d} ({100*minus/total:5.1f}%)")
-    
-    output_file.write("\n\nDifferences (Action_Yes % - Prevention_No %):")
-    distinguishing_features = []
-    for var in ['C', 'I', 'K']:
-        ay_plus = action_yes_counts['total'].get(f'{var}+', 0)
-        ay_minus = action_yes_counts['total'].get(f'{var}-', 0)
-        ay_total = ay_plus + ay_minus
+        severity_utils = {}
         
-        pn_plus = prevention_no_counts['total'].get(f'{var}+', 0)
-        pn_minus = prevention_no_counts['total'].get(f'{var}-', 0)
-        pn_total = pn_plus + pn_minus
-        
-        if ay_total > 0 and pn_total > 0:
-            ay_plus_pct = 100 * ay_plus / ay_total
-            pn_plus_pct = 100 * pn_plus / pn_total
-            diff_plus = ay_plus_pct - pn_plus_pct
-            diff_minus = -diff_plus  # Inverse for minus
+        for severity in ['conditions_mild_harm_mild_good', 'conditions_severe_harm_very_good']:
+            conditions, _ = conditions_by_severity[severity]
             
-            output_file.write(f"\n  {var}+: {diff_plus:+6.1f}%  |  {var}-: {diff_minus:+6.1f}%")
+            f.write("\n" + "#" * 80 + "\n")
+            f.write(f"SEVERITY: {severity.upper().replace('_', ' ')}\n")
+            f.write("#" * 80 + "\n")
             
-            if abs(diff_plus) > 10:
-                distinguishing_features.append((var, diff_plus))
+            all_utils = []
+            for condition in conditions.values():
+                all_utils.extend(condition.get_all_utilities())
+            
+            severity_utils[severity] = all_utils
+            
+            pos_utils = [u for u in all_utils if u > 0]
+            neg_utils = [u for u in all_utils if u < 0]
+            zero_utils = [u for u in all_utils if u == 0]
+            
+            f.write(f"\nAll Utilities:")
+            f.write(f"\n  Count: {len(all_utils)}")
+            if all_utils:
+                f.write(f"\n  Range: [{min(all_utils)}, {max(all_utils)}]")
+                f.write(f"\n  Mean: {sum(all_utils)/len(all_utils):.2f}")
+            
+            if pos_utils:
+                extreme_pos = sum(1 for u in pos_utils if u >= 80)
+                f.write(f"\n\nPositive Utilities:")
+                f.write(f"\n  Count: {len(pos_utils)}")
+                f.write(f"\n  Range: [{min(pos_utils)}, {max(pos_utils)}]")
+                f.write(f"\n  Mean: {sum(pos_utils)/len(pos_utils):.2f}")
+                f.write(f"\n  Extreme (≥80): {extreme_pos} ({100*extreme_pos/len(pos_utils):.1f}%)")
+            
+            if neg_utils:
+                extreme_neg = sum(1 for u in neg_utils if u <= -80)
+                f.write(f"\n\nNegative Utilities:")
+                f.write(f"\n  Count: {len(neg_utils)}")
+                f.write(f"\n  Range: [{min(neg_utils)}, {max(neg_utils)}]")
+                f.write(f"\n  Mean: {sum(neg_utils)/len(neg_utils):.2f}")
+                f.write(f"\n  Extreme (≤-80): {extreme_neg} ({100*extreme_neg/len(neg_utils):.1f}%)")
+            
+            if zero_utils:
+                f.write(f"\n\nZero Utilities: {len(zero_utils)}")
+        
+        # Cross-severity comparison
+        f.write("\n\n" + "=" * 80 + "\n")
+        f.write("COMPARISON: Mild vs Severe\n")
+        f.write("=" * 80 + "\n")
+        
+        mild_utils = severity_utils.get('conditions_mild_harm_mild_good', [])
+        severe_utils = severity_utils.get('conditions_severe_harm_very_good', [])
+        
+        if mild_utils and severe_utils:
+            mild_pos = [u for u in mild_utils if u > 0]
+            severe_pos = [u for u in severe_utils if u > 0]
+            mild_neg = [u for u in mild_utils if u < 0]
+            severe_neg = [u for u in severe_utils if u < 0]
+            
+            f.write("\nPositive Utilities:")
+            if mild_pos:
+                mild_ext_pct = 100 * sum(1 for u in mild_pos if u >= 80) / len(mild_pos)
+                f.write(f"\n  Mild - Mean: {sum(mild_pos)/len(mild_pos):.2f}, Extreme (≥80): {mild_ext_pct:.1f}%")
+            if severe_pos:
+                severe_ext_pct = 100 * sum(1 for u in severe_pos if u >= 80) / len(severe_pos)
+                f.write(f"\n  Severe - Mean: {sum(severe_pos)/len(severe_pos):.2f}, Extreme (≥80): {severe_ext_pct:.1f}%")
+            
+            f.write("\n\nNegative Utilities:")
+            if mild_neg:
+                mild_ext_pct = 100 * sum(1 for u in mild_neg if u <= -80) / len(mild_neg)
+                f.write(f"\n  Mild - Mean: {sum(mild_neg)/len(mild_neg):.2f}, Extreme (≤-80): {mild_ext_pct:.1f}%")
+            if severe_neg:
+                severe_ext_pct = 100 * sum(1 for u in severe_neg if u <= -80) / len(severe_neg)
+                f.write(f"\n  Severe - Mean: {sum(severe_neg)/len(severe_neg):.2f}, Extreme (≤-80): {severe_ext_pct:.1f}%")
+            
+            f.write("\n\nInterpretation:")
+            if severe_pos and mild_pos:
+                severe_mean = sum(severe_pos)/len(severe_pos)
+                mild_mean = sum(mild_pos)/len(mild_pos)
+                if severe_mean > mild_mean + 10:
+                    f.write(f"\n  Severe scenarios show MORE EXTREME positive utilities (+{severe_mean - mild_mean:.1f})")
+                elif mild_mean > severe_mean + 10:
+                    f.write(f"\n  Mild scenarios show MORE EXTREME positive utilities (+{mild_mean - severe_mean:.1f})")
+                else:
+                    f.write(f"\n  Similar positive utility distributions")
+            
+            if severe_neg and mild_neg:
+                severe_mean = sum(severe_neg)/len(severe_neg)
+                mild_mean = sum(mild_neg)/len(mild_neg)
+                if severe_mean < mild_mean - 10:
+                    f.write(f"\n  Severe scenarios show MORE EXTREME negative utilities ({abs(severe_mean - mild_mean):.1f} more negative)")
+                elif mild_mean < severe_mean - 10:
+                    f.write(f"\n  Mild scenarios show MORE EXTREME negative utilities ({abs(mild_mean - severe_mean):.1f} more negative)")
+                else:
+                    f.write(f"\n  Similar negative utility distributions")
     
-    output_file.write("\n\nInterpretation:")
-    if distinguishing_features:
-        output_file.write("\n  DISTINGUISHING FEATURES found:")
-        for var, diff in distinguishing_features:
-            if diff > 0:
-                output_file.write(f"\n    - {var}+ is {abs(diff):.1f}% more common in Action_Yes scenarios")
-            else:
-                output_file.write(f"\n    - {var}- is {abs(diff):.1f}% more common in Action_Yes scenarios")
-    else:
-        output_file.write("\n  No strong distinguishing features found (all differences < 10%)")
-    
-    return subfolder_events  # Return for cross-severity analysis
+    print(f"✓ Written: {output_file}")
 
 
 def main():
     """Main analysis function."""
     
     base_path = Path("franken_annotated_outputs")
-    output_filename = "moral_scenario_analysis_report.txt"
+    output_dir = Path("analysis_reports")
+    
+    # Create output directory
+    output_dir.mkdir(exist_ok=True)
     
     if not base_path.exists():
         print(f"Error: Directory '{base_path}' not found!")
         return
     
-    # Store events from both severity levels for cross-severity comparison
-    severity_events = {}
+    print("\n" + "=" * 80)
+    print("MORAL SCENARIO ANALYSIS - Scenario-Weighted Statistics")
+    print("=" * 80)
+    print("\nProcessing data with equal scenario weighting...")
+    print("Each scenario (both choices combined) contributes equally to statistics.\n")
     
-    with open(output_filename, 'w') as output_file:
-        # Write header
-        output_file.write("=" * 80 + "\n")
-        output_file.write("MORAL SCENARIO ANNOTATION ANALYSIS REPORT\n")
-        output_file.write("=" * 80 + "\n")
-        output_file.write(f"Analysis of causal variable polarities (C, I, K)\n")
-        output_file.write(f"grouped by utility scores and experimental conditions\n")
-        
-        # Analyze each severity level
-        for severity in ['conditions_mild_harm_mild_good', 'conditions_severe_harm_very_good']:
-            severity_path = base_path / severity
-            if severity_path.exists():
-                events = analyze_directory(base_path, severity, output_file)
-                severity_events[severity] = events
-            else:
-                output_file.write(f"\nWarning: {severity} directory not found!\n")
-        
-        # Cross-severity analysis: utility score ranges
-        output_file.write("\n\n" + "#" * 80)
-        output_file.write("\nCROSS-SEVERITY ANALYSIS: UTILITY SCORE DISTRIBUTIONS")
-        output_file.write("\n" + "#" * 80 + "\n")
-        
-        for severity in ['conditions_mild_harm_mild_good', 'conditions_severe_harm_very_good']:
-            if severity not in severity_events:
-                continue
-            
-            output_file.write(f"\n\n{severity.upper().replace('_', ' ')}:")
-            output_file.write("\n" + "-" * 80 + "\n")
-            
-            # Collect all utility scores
-            all_utilities = []
-            positive_utilities = []
-            negative_utilities = []
-            
-            for subfolder_name, events in severity_events[severity].items():
-                for causal_dict, utility in events:
-                    all_utilities.append(utility)
-                    if utility > 0:
-                        positive_utilities.append(utility)
-                    elif utility < 0:
-                        negative_utilities.append(utility)
-            
-            if all_utilities:
-                output_file.write(f"\nAll Utilities:")
-                output_file.write(f"\n  Count: {len(all_utilities)}")
-                output_file.write(f"\n  Range: [{min(all_utilities)}, {max(all_utilities)}]")
-                output_file.write(f"\n  Mean: {sum(all_utilities)/len(all_utilities):.2f}")
-                
-                if positive_utilities:
-                    output_file.write(f"\n\nPositive Utilities:")
-                    output_file.write(f"\n  Count: {len(positive_utilities)}")
-                    output_file.write(f"\n  Range: [{min(positive_utilities)}, {max(positive_utilities)}]")
-                    output_file.write(f"\n  Mean: {sum(positive_utilities)/len(positive_utilities):.2f}")
-                    
-                    # Check extremity (how many are >= 80)
-                    extreme_positive = sum(1 for u in positive_utilities if u >= 80)
-                    output_file.write(f"\n  Extreme values (≥80): {extreme_positive} ({100*extreme_positive/len(positive_utilities):.1f}%)")
-                
-                if negative_utilities:
-                    output_file.write(f"\n\nNegative Utilities:")
-                    output_file.write(f"\n  Count: {len(negative_utilities)}")
-                    output_file.write(f"\n  Range: [{min(negative_utilities)}, {max(negative_utilities)}]")
-                    output_file.write(f"\n  Mean: {sum(negative_utilities)/len(negative_utilities):.2f}")
-                    
-                    # Check extremity (how many are <= -80)
-                    extreme_negative = sum(1 for u in negative_utilities if u <= -80)
-                    output_file.write(f"\n  Extreme values (≤-80): {extreme_negative} ({100*extreme_negative/len(negative_utilities):.1f}%)")
-        
-        # Comparison between severity levels
-        if len(severity_events) == 2:
-            output_file.write("\n\n" + "-" * 80)
-            output_file.write("\nCOMPARISON: Mild vs Severe")
-            output_file.write("\n" + "-" * 80 + "\n")
-            
-            mild_utils = []
-            severe_utils = []
-            
-            for events in severity_events.get('conditions_mild_harm_mild_good', {}).values():
-                mild_utils.extend([u for _, u in events])
-            
-            for events in severity_events.get('conditions_severe_harm_very_good', {}).values():
-                severe_utils.extend([u for _, u in events])
-            
-            if mild_utils and severe_utils:
-                mild_pos = [u for u in mild_utils if u > 0]
-                severe_pos = [u for u in severe_utils if u > 0]
-                mild_neg = [u for u in mild_utils if u < 0]
-                severe_neg = [u for u in severe_utils if u < 0]
-                
-                output_file.write(f"\nPositive Utilities:")
-                if mild_pos:
-                    mild_extreme_pct = 100 * sum(1 for u in mild_pos if u >= 80) / len(mild_pos)
-                    output_file.write(f"\n  Mild - Mean: {sum(mild_pos)/len(mild_pos):.2f}, Extreme (≥80): {mild_extreme_pct:.1f}%")
-                if severe_pos:
-                    severe_extreme_pct = 100 * sum(1 for u in severe_pos if u >= 80) / len(severe_pos)
-                    output_file.write(f"\n  Severe - Mean: {sum(severe_pos)/len(severe_pos):.2f}, Extreme (≥80): {severe_extreme_pct:.1f}%")
-                
-                output_file.write(f"\n\nNegative Utilities:")
-                if mild_neg:
-                    mild_extreme_pct = 100 * sum(1 for u in mild_neg if u <= -80) / len(mild_neg)
-                    output_file.write(f"\n  Mild - Mean: {sum(mild_neg)/len(mild_neg):.2f}, Extreme (≤-80): {mild_extreme_pct:.1f}%")
-                if severe_neg:
-                    severe_extreme_pct = 100 * sum(1 for u in severe_neg if u <= -80) / len(severe_neg)
-                    output_file.write(f"\n  Severe - Mean: {sum(severe_neg)/len(severe_neg):.2f}, Extreme (≤-80): {severe_extreme_pct:.1f}%")
-                
-                # Interpretation
-                output_file.write(f"\n\nInterpretation:")
-                if severe_pos and mild_pos:
-                    severe_mean = sum(severe_pos)/len(severe_pos)
-                    mild_mean = sum(mild_pos)/len(mild_pos)
-                    if severe_mean > mild_mean + 10:
-                        output_file.write(f"\n  Severe scenarios show MORE EXTREME positive utilities (mean difference: {severe_mean - mild_mean:.1f})")
-                    elif mild_mean > severe_mean + 10:
-                        output_file.write(f"\n  Mild scenarios show MORE EXTREME positive utilities (mean difference: {mild_mean - severe_mean:.1f})")
-                    else:
-                        output_file.write(f"\n  Similar positive utility distributions between mild and severe")
-                
-                if severe_neg and mild_neg:
-                    severe_mean = sum(severe_neg)/len(severe_neg)
-                    mild_mean = sum(mild_neg)/len(mild_neg)
-                    if severe_mean < mild_mean - 10:
-                        output_file.write(f"\n  Severe scenarios show MORE EXTREME negative utilities (mean difference: {abs(severe_mean - mild_mean):.1f})")
-                    elif mild_mean < severe_mean - 10:
-                        output_file.write(f"\n  Mild scenarios show MORE EXTREME negative utilities (mean difference: {abs(mild_mean - severe_mean):.1f})")
-                    else:
-                        output_file.write(f"\n  Similar negative utility distributions between mild and severe")
+    # Analyze both severity levels
+    conditions_by_severity = {}
     
-    print(f"Analysis complete! Report saved to: {output_filename}")
+    for severity in ['conditions_mild_harm_mild_good', 'conditions_severe_harm_very_good']:
+        severity_path = base_path / severity
+        if severity_path.exists():
+            print(f"\nAnalyzing {severity}...")
+            conditions, global_stats = analyze_severity_level(base_path, severity, output_dir)
+            conditions_by_severity[severity] = (conditions, global_stats)
+        else:
+            print(f"Warning: {severity} directory not found!")
+    
+    # Write grouped analyses
+    if conditions_by_severity:
+        print("\nGenerating grouped analyses...")
+        write_grouped_analysis(conditions_by_severity, output_dir)
+        
+        print("\nGenerating utility distribution analysis...")
+        write_utility_analysis(conditions_by_severity, output_dir)
+    
+    print("\n" + "=" * 80)
+    print("ANALYSIS COMPLETE!")
+    print("=" * 80)
+    print(f"\nReports saved to: {output_dir}/")
+    print("\nGenerated files:")
+    print("  - mild_harm_mild_good_individual_subfolders.txt")
+    print("  - severe_harm_very_good_individual_subfolders.txt")
+    print("  - grouped_by_causal_structure.txt")
+    print("  - grouped_by_evitability.txt")
+    print("  - grouped_by_action_type.txt")
+    print("  - utility_distributions.txt")
+    print()
 
 
 if __name__ == "__main__":

@@ -1,0 +1,217 @@
+================================================================================
+GROUPED ANALYSIS: CAUSAL STRUCTURE (CC vs COC)
+================================================================================
+
+
+################################################################################
+SEVERITY: CONDITIONS MILD HARM MILD GOOD
+################################################################################
+
+================================================================================
+CC (Causal Chain)
+================================================================================
+
+Number of scenarios: 120
+Total events analyzed: 3135
+
+
+POSITIVE UTILITY:
+  Total assignments: 1008
+    C+:  293 (scenario-avg:  75.8%, global-avg:  76.1%)
+    C-:   43 (scenario-avg:  11.7%, global-avg:  11.7%)
+    I+:  315 (scenario-avg:  82.3%, global-avg:  83.8%)
+    I-:   21 (scenario-avg:   5.2%, global-avg:   4.1%)
+    K+:  262 (scenario-avg:  65.8%, global-avg:  69.6%)
+    K-:   74 (scenario-avg:  21.7%, global-avg:  18.2%)
+
+NEGATIVE UTILITY:
+  Total assignments: 1785
+    C+:  374 (scenario-avg:  60.1%, global-avg:  61.4%)
+    C-:  221 (scenario-avg:  29.0%, global-avg:  29.0%)
+    I+:  380 (scenario-avg:  58.9%, global-avg:  51.4%)
+    I-:  215 (scenario-avg:  30.3%, global-avg:  39.0%)
+    K+:  560 (scenario-avg:  84.3%, global-avg:  85.2%)
+    K-:   35 (scenario-avg:   4.9%, global-avg:   5.2%)
+
+ZERO UTILITY:
+  Total assignments: 342
+    C+:  106 (scenario-avg:  50.2%, global-avg:  48.6%)
+    C-:    8 (scenario-avg:   3.9%, global-avg:   5.0%)
+    I+:   95 (scenario-avg:  44.8%, global-avg:  42.5%)
+    I-:   19 (scenario-avg:   9.4%, global-avg:  11.0%)
+    K+:  102 (scenario-avg:  48.4%, global-avg:  50.1%)
+    K-:   12 (scenario-avg:   5.8%, global-avg:   3.5%)
+
+TOTAL UTILITY:
+  Total assignments: 3135
+    C+:  773 (scenario-avg:  66.4%, global-avg:  68.7%)
+    C-:  272 (scenario-avg:  22.7%, global-avg:  21.7%)
+    I+:  790 (scenario-avg:  67.7%, global-avg:  65.1%)
+    I-:  255 (scenario-avg:  21.5%, global-avg:  25.3%)
+    K+:  924 (scenario-avg:  78.9%, global-avg:  81.2%)
+    K-:  121 (scenario-avg:  10.2%, global-avg:   9.2%)
+================================================================================
+COC (Common Cause)
+================================================================================
+
+Number of scenarios: 119
+Total events analyzed: 3171
+
+
+POSITIVE UTILITY:
+  Total assignments: 1062
+    C+:  319 (scenario-avg:  76.5%, global-avg:  76.1%)
+    C-:   35 (scenario-avg:  11.7%, global-avg:  11.7%)
+    I+:  341 (scenario-avg:  85.2%, global-avg:  83.8%)
+    I-:   13 (scenario-avg:   3.0%, global-avg:   4.1%)
+    K+:  300 (scenario-avg:  73.5%, global-avg:  69.6%)
+    K-:   54 (scenario-avg:  14.7%, global-avg:  18.2%)
+
+NEGATIVE UTILITY:
+  Total assignments: 1695
+    C+:  378 (scenario-avg:  62.6%, global-avg:  61.4%)
+    C-:  187 (scenario-avg:  29.0%, global-avg:  29.0%)
+    I+:  277 (scenario-avg:  43.8%, global-avg:  51.4%)
+    I-:  288 (scenario-avg:  47.8%, global-avg:  39.0%)
+    K+:  525 (scenario-avg:  86.1%, global-avg:  85.2%)
+    K-:   40 (scenario-avg:   5.5%, global-avg:   5.2%)
+
+ZERO UTILITY:
+  Total assignments: 414
+    C+:  124 (scenario-avg:  46.9%, global-avg:  48.6%)
+    C-:   14 (scenario-avg:   6.1%, global-avg:   5.0%)
+    I+:  101 (scenario-avg:  40.3%, global-avg:  42.5%)
+    I-:   37 (scenario-avg:  12.7%, global-avg:  11.0%)
+    K+:  133 (scenario-avg:  51.7%, global-avg:  50.1%)
+    K-:    5 (scenario-avg:   1.2%, global-avg:   3.5%)
+
+TOTAL UTILITY:
+  Total assignments: 3171
+    C+:  821 (scenario-avg:  70.9%, global-avg:  68.7%)
+    C-:  236 (scenario-avg:  20.7%, global-avg:  21.7%)
+    I+:  719 (scenario-avg:  62.4%, global-avg:  65.1%)
+    I-:  338 (scenario-avg:  29.2%, global-avg:  25.3%)
+    K+:  958 (scenario-avg:  83.5%, global-avg:  81.2%)
+    K-:   99 (scenario-avg:   8.1%, global-avg:   9.2%)
+
+--------------------------------------------------------------------------------
+COMPARATIVE ANALYSIS: I POLARITY
+--------------------------------------------------------------------------------
+
+CC Scenarios (scenario-weighted average):
+  I+:  67.7%
+  I-:  21.5%
+
+COC Scenarios (scenario-weighted average):
+  I+:  62.4%
+  I-:  29.2%
+
+Interpretation:
+  CC scenarios show 5.3% more I+
+  → MODERATE systematic dominance
+################################################################################
+SEVERITY: CONDITIONS SEVERE HARM VERY GOOD
+################################################################################
+
+================================================================================
+CC (Causal Chain)
+================================================================================
+
+Number of scenarios: 40
+Total events analyzed: 1329
+
+
+POSITIVE UTILITY:
+  Total assignments: 492
+    C+:  123 (scenario-avg:  72.9%, global-avg:  80.7%)
+    C-:   41 (scenario-avg:  22.1%, global-avg:  15.0%)
+    I+:  146 (scenario-avg:  83.6%, global-avg:  86.7%)
+    I-:   18 (scenario-avg:  11.4%, global-avg:   9.0%)
+    K+:  101 (scenario-avg:  59.1%, global-avg:  69.9%)
+    K-:   63 (scenario-avg:  35.9%, global-avg:  25.8%)
+
+NEGATIVE UTILITY:
+  Total assignments: 669
+    C+:  136 (scenario-avg:  59.1%, global-avg:  67.5%)
+    C-:   87 (scenario-avg:  33.4%, global-avg:  28.2%)
+    I+:  139 (scenario-avg:  59.3%, global-avg:  51.2%)
+    I-:   84 (scenario-avg:  33.2%, global-avg:  44.5%)
+    K+:  196 (scenario-avg:  82.2%, global-avg:  81.6%)
+    K-:   27 (scenario-avg:  10.3%, global-avg:  14.2%)
+
+ZERO UTILITY:
+  Total assignments: 168
+    C+:   51 (scenario-avg:  57.6%, global-avg:  65.6%)
+    C-:    5 (scenario-avg:   7.4%, global-avg:   5.8%)
+    I+:   35 (scenario-avg:  40.5%, global-avg:  50.9%)
+    I-:   21 (scenario-avg:  24.5%, global-avg:  20.5%)
+    K+:   44 (scenario-avg:  52.2%, global-avg:  60.5%)
+    K-:   12 (scenario-avg:  12.8%, global-avg:  10.9%)
+
+TOTAL UTILITY:
+  Total assignments: 1329
+    C+:  310 (scenario-avg:  71.5%, global-avg:  78.3%)
+    C-:  133 (scenario-avg:  26.0%, global-avg:  20.3%)
+    I+:  320 (scenario-avg:  70.1%, global-avg:  69.9%)
+    I-:  123 (scenario-avg:  27.4%, global-avg:  28.7%)
+    K+:  341 (scenario-avg:  75.6%, global-avg:  79.8%)
+    K-:  102 (scenario-avg:  21.9%, global-avg:  18.7%)
+================================================================================
+COC (Common Cause)
+================================================================================
+
+Number of scenarios: 30
+Total events analyzed: 972
+
+
+POSITIVE UTILITY:
+  Total assignments: 330
+    C+:  105 (scenario-avg:  91.1%, global-avg:  80.7%)
+    C-:    5 (scenario-avg:   5.6%, global-avg:  15.0%)
+    I+:  104 (scenario-avg:  90.8%, global-avg:  86.7%)
+    I-:    6 (scenario-avg:   5.8%, global-avg:   9.0%)
+    K+:   93 (scenario-avg:  84.4%, global-avg:  69.9%)
+    K-:   17 (scenario-avg:  12.3%, global-avg:  25.8%)
+
+NEGATIVE UTILITY:
+  Total assignments: 408
+    C+:  105 (scenario-avg:  78.8%, global-avg:  67.5%)
+    C-:   31 (scenario-avg:  21.2%, global-avg:  28.2%)
+    I+:   58 (scenario-avg:  40.4%, global-avg:  51.2%)
+    I-:   78 (scenario-avg:  59.6%, global-avg:  44.5%)
+    K+:  111 (scenario-avg:  80.7%, global-avg:  81.6%)
+    K-:   25 (scenario-avg:  19.3%, global-avg:  14.2%)
+
+ZERO UTILITY:
+  Total assignments: 234
+    C+:   73 (scenario-avg:  76.3%, global-avg:  65.6%)
+    C-:    5 (scenario-avg:   3.7%, global-avg:   5.8%)
+    I+:   63 (scenario-avg:  64.7%, global-avg:  50.9%)
+    I-:   15 (scenario-avg:  15.3%, global-avg:  20.5%)
+    K+:   68 (scenario-avg:  71.5%, global-avg:  60.5%)
+    K-:   10 (scenario-avg:   8.5%, global-avg:  10.9%)
+
+TOTAL UTILITY:
+  Total assignments: 972
+    C+:  283 (scenario-avg:  87.4%, global-avg:  78.3%)
+    C-:   41 (scenario-avg:  12.6%, global-avg:  20.3%)
+    I+:  225 (scenario-avg:  69.6%, global-avg:  69.9%)
+    I-:   99 (scenario-avg:  30.4%, global-avg:  28.7%)
+    K+:  272 (scenario-avg:  85.4%, global-avg:  79.8%)
+    K-:   52 (scenario-avg:  14.6%, global-avg:  18.7%)
+
+--------------------------------------------------------------------------------
+COMPARATIVE ANALYSIS: I POLARITY
+--------------------------------------------------------------------------------
+
+CC Scenarios (scenario-weighted average):
+  I+:  70.1%
+  I-:  27.4%
+
+COC Scenarios (scenario-weighted average):
+  I+:  69.6%
+  I-:  30.4%
+
+Interpretation:
+  CC scenarios show 0.5% more I+
+  → WEAK/no systematic dominance
