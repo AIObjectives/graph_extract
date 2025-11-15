@@ -7,7 +7,9 @@
             "2": "keep the train on the same track"
         },
         "factors": {
-            "1": {},
+            "1": {
+                "Locus Of Intervention": "Agent of harm"
+            },
             "2": {}
         }
     },
@@ -19,7 +21,9 @@
             "2": "not push the cars"
         },
         "factors": {
-            "1": {},
+            "1": {
+                "Locus Of Intervention": "Patient of harm"
+            },
             "2": {}
         }
     },
@@ -31,7 +35,12 @@
             "2": "not push the worker from the bridge"
         },
         "factors": {
-            "1": {},
+            "1": {
+                "Causal Role": "Means",
+                "Beneficiary": "Other-beneficial",
+                "Evitability": "Avoidable",
+                "Personal Force": "Personal"
+            },
             "2": {}
         }
     },
@@ -43,7 +52,12 @@
             "2": "not push the button"
         },
         "factors": {
-            "1": {},
+            "1": {
+                "Causal Role": "Means",
+                "Beneficiary": "Other-beneficial",
+                "Evitability": "Avoidable",
+                "Personal Force": "Impersonal"
+            },
             "2": {}
         }
     },
@@ -103,7 +117,12 @@
             "2": "not use the injured person to break down the blockage"
         },
         "factors": {
-            "1": {},
+            "1": {
+                "Beneficiary": "Self-beneficial",
+                "Evitability": "Avoidable",
+                "Personal Force": "Personal",
+                "Causal Role": "Means"
+            },
             "2": {}
         }
     },
@@ -115,7 +134,12 @@
             "2": "not activate the emergency system"
         },
         "factors": {
-            "1": {},
+            "1": {
+                "Personal Force": "Impersonal",
+                "Causal Role": "Side Effect",
+                "Beneficiary": "Self-beneficial",
+                "Evitability": "Avoidable"
+            },
             "2": {}
         }
     },
@@ -127,7 +151,12 @@
             "2": "let the baby cry"
         },
         "factors": {
-            "1": {},
+            "1": {
+                "Personal Force": "Personal",
+                "Causal Role": "Side Effect",
+                "Beneficiary": "Self-beneficial",
+                "Evitability": "Avoidable"
+            },
             "2": {}
         }
     },
@@ -139,7 +168,12 @@
             "2": "let the baby cry"
         },
         "factors": {
-            "1": {},
+            "1": {
+                "Causal Role": "Side Effect",
+                "Beneficiary": "Self-beneficial",
+                "Evitability": "Avoidable",
+                "Personal Force": "Impersonal"
+            },
             "2": {}
         }
     },
@@ -151,7 +185,9 @@
             "2": "not throw the bomb to the patio"
         },
         "factors": {
-            "1": {},
+            "1": {
+                "Locus Of Intervention": "Agent of harm"
+            },
             "2": {}
         }
     },
@@ -163,7 +199,12 @@
             "2": "not open the hatch"
         },
         "factors": {
-            "1": {},
+            "1": {
+                "Causal Role": "Side Effect",
+                "Beneficiary": "Self-beneficial",
+                "Personal Force": "Personal",
+                "Evitability": "Avoidable"
+            },
             "2": {}
         }
     },
@@ -175,7 +216,12 @@
             "2": "not shoot at the injured diver"
         },
         "factors": {
-            "1": {},
+            "1": {
+                "Causal Role": "Means",
+                "Personal Force": "Personal",
+                "Beneficiary": "Self-beneficial",
+                "Evitability": "Avoidable"
+            },
             "2": {}
         }
     },
@@ -187,7 +233,12 @@
             "2": "not detonate the mine next to the injured diver"
         },
         "factors": {
-            "1": {},
+            "1": {
+                "Beneficiary": "Self-beneficial",
+                "Causal Role": "Means",
+                "Personal Force": "Impersonal",
+                "Evitability": "Avoidable"
+            },
             "2": {}
         }
     },
@@ -521,6 +572,241 @@
                 "Causal Role": "Side Effect",
                 "Beneficiary": "Other-beneficial",
                 "Personal Force": "Impersonal"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 21,
+        "text": "I am a crewmember on a submarine traveling under a large iceberg. An explosion has damaged the ship, injured several crewmembers, and collapsed the only access between the upper and lower parts of the ship. I and ten other survivors are in the upper section, which does not have enough oxygen for all of us to survive until we reach the surface. One single crewmember is lying unconscious in the lower section, where there is enough oxygen.",
+        "options": {
+            "1": "push the button to open the hatch that will fall on the crewmember below to get enough oxygen",
+            "2": "not push the button to open the hatch that will fall on the crewmember below"
+        },
+        "factors": {
+            "1": {
+                "Beneficiary": "Self-beneficial",
+                "Personal Force": "Impersonal",
+                "Causal Role": "Side Effect",
+                "Evitability": "Avoidable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 40,
+        "text": "I am part of a shipyard dock team that attaches crane cables to containers to unload the cargo ships. My team and I have just attached cables to a container and are now climbing on top of it to make sure it is unloaded properly. Suddenly the red warning light flashes, indicating that the crane cable is about to fail. I see that the reason for this is a fight between two crewmembers. The container is swinging dangerously over five other crewmembers on the deck.",
+        "options": {
+            "1": "push team members including one without a safety harness that will fall down to stop the swinging of the container",
+            "2": "not push team members which leaves the container swinging dangerously"
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Side Effect",
+                "Personal Force": "Personal",
+                "Evitability": "Avoidable",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 41,
+        "text": "I am part of a shipyard dock team that attaches crane cables to containers to unload the cargo ships. My team and I have just attached cables to a container and are now climbing on top of it to make sure it is unloaded properly. Suddenly the red warning light flashes, indicating that a cable is about to fail. If it fails over the deck, the container will collapse onto five crewmembers.",
+        "options": {
+            "1": "push the emergency button that will move the container back to drop on a crewmember in the cargo bay",
+            "2": "not push the emergency button that would move the container back to drop on a crewmember in the cargo bay"
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Impersonal",
+                "Causal Role": "Side Effect",
+                "Evitability": "Avoidable",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 44,
+        "text": "A runaway trolley is speeding down the tracks towards five workmen who will be killed if the trolley continues on its present course. I am standing next to the tracks, but I am too far away to warn them. Next to me is a very large stranger. If I push the large stranger onto the tracks, the trolley will slide off the tracks and won\u2019t continue its course towards the workmen. This will kill the stranger, but I will save the five workmen.",
+        "options": {
+            "1": "push the stranger onto the tracks to derail the trolley",
+            "2": "not push the stranger onto the tracks"
+        },
+        "factors": {
+            "1": {
+                "Beneficiary": "Other-beneficial",
+                "Personal Force": "Personal",
+                "Causal Role": "Means",
+                "Evitability": "Avoidable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 45,
+        "text": "A runaway trolley is speeding down the tracks towards five workmen who will be killed if the trolley continues on its present course. I am standing next to the tracks, but I am too far away to warn them. Next to me is a control switch that can redirect the trolley onto a different track, where only one workman is working. If I flip the control switch, it will divert the trolley onto the track with one workman and will not continue its course towards the five workmen. This will kill this workman, but it will save the other five.",
+        "options": {
+            "1": "flip the control switch to divert the trolley onto the track with only one workman",
+            "2": "not flip the control switch"
+        },
+        "factors": {
+            "1": {
+                "Beneficiary": "Other-beneficial",
+                "Causal Role": "Side Effect",
+                "Personal Force": "Impersonal",
+                "Evitability": "Avoidable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 46,
+        "text": "A fellow researcher and I have discovered a powerful new energy source that is cheap, safe, and clean. It has the potential to put an end to pollution and poverty in the world. However, my colleague wants to sell the discovery, and I know that he is planning to contact the potential buyers today. I also know for sure that the latter will use the invention as a deadly weapon, but my colleague doesn't believe me.",
+        "options": {
+            "1": "poison the fellow researcher to prevent the sale",
+            "2": "let the sale happen"
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Avoidable",
+                "Beneficiary": "Other-beneficial",
+                "Causal Role": "Means",
+                "Personal Force": "Personal"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 47,
+        "text": "A fellow researcher and I have discovered a powerful new energy source that is cheap, safe, and clean. It has the potential to put an end to pollution and poverty in the world. However, my colleague wants to sell the discovery, and I know that he is planning to contact the potential buyers by email today. I also know for sure that the latter will use the invention as a deadly weapon, but my colleague doesn't believe me.",
+        "options": {
+            "1": "release flammable gas to cause the fellow researcher's computer to explode",
+            "2": "not release flammable gas that would have caused the fellow researcher's computer to explode"
+        },
+        "factors": {
+            "1": {
+                "Beneficiary": "Other-beneficial",
+                "Personal Force": "Impersonal",
+                "Evitability": "Avoidable",
+                "Causal Role": "Means"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 48,
+        "text": "I am an expert motorcyclist participating in a Bike Week. As I am driving down the road in front of a large group of ten bikers, I suddenly notice that a biker up front is losing control over his machine. As I speed up to pull alongside him, I realize that he is going to crash any moment. This would result in a large pile-up and the group of ten bikers behind me will die.",
+        "options": {
+            "1": "force the biker up front off the road to prevent the large pile-up",
+            "2": "leave the biker up front alone"
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Inevitable",
+                "Personal Force": "Personal",
+                "Causal Role": "Means",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 49,
+        "text": "I am an expert motorcyclist participating in a Bike Week. As I am driving down the road in front of a large group of ten bikers, I suddenly notice that a biker up front is losing control over his machine and is falling. I can easily evade him myself but the bikers behind me will crash into each other and die in the resulting pile-up.",
+        "options": {
+            "1": "drive into the falling biker's machine to alert the others about the imminent accident",
+            "2": "leave the falling biker alone"
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Means",
+                "Personal Force": "Impersonal",
+                "Evitability": "Inevitable",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 5,
+        "text": " A virus causing paraplegia threatens 4 patients. The bone marrow of 1 patient could save them. However, the required procedure would lead to paraplegia in this patient.",
+        "options": {
+            "1": "have the patient undergo the required procedure",
+            "2": "not have the patient undergo the required procedure"
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Patient of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 50,
+        "text": "I am the leader of a small group of soldiers. I am on my way back from a mission in enemy territory when one of my men steps in a trap that catches his leg, injuring him badly. I cannot free him without killing him, but if I leave him behind, enemy troops will torture him until he reveals the position of an important allied base camp. After that the soldiers will attack this camp and kill the 10 soldiers of the platoon there. The soldier begs me not to leave him behind, but the enemy troops are approaching and it is dangerous for me and my men to stay because we don't have any more ammunition.",
+        "options": {
+            "1": "stab the trapped soldier to death",
+            "2": "let the trapped soldier live"
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Inevitable",
+                "Beneficiary": "Other-beneficial",
+                "Personal Force": "Personal",
+                "Causal Role": "Means"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 51,
+        "text": "I am the leader of a small group of soldiers. I am on my way back from a mission in enemy territory when one of my men steps in a trap that catches his leg, injuring him badly. I cannot free him without killing him, but if I leave him behind, enemy troops will torture him until he reveals the position of an important allied base camp. After that, the soldiers will attack this camp and kill the 10 soldiers of the platoon there. The soldier begs me not to leave him behind, but the enemy troops are approaching and it is dangerous for me and my men to stay because we don't have more ammunition.",
+        "options": {
+            "1": "order that region to be bombed to prevent the soldier from revealing the allied base camp's location",
+            "2": "not order that region to be bombed which would have prevented the soldier from revealing the allied base camp's location"
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Means",
+                "Evitability": "Inevitable",
+                "Personal Force": "Impersonal",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 52,
+        "text": "I am on the night watch in a hospital. A chemical product has been spilled in a room with six patients. This chemical is highly toxic because once exposed to oxygen it evaporates and transforms into a poisonous gas which will kill all the patients in the room. I cannot wipe it away with conventional towels or wiping clothes. However, my skin absorbs it swiftly.",
+        "options": {
+            "1": "place one of the patients on the chemical to prevent the toxic evaporation",
+            "2": "not place one of the patients on the chemical"
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Personal",
+                "Causal Role": "Means",
+                "Evitability": "Inevitable",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 53,
+        "text": "I am on the night watch in a hospital. A chemical product has been spilled in a room with five patients. This chemical is highly toxic because once exposed to oxygen it evaporates and transforms into a poisonous gas which will kill all the patients in the room. I cannot wipe it away with conventional towels or wiping clothes.",
+        "options": {
+            "1": "activate the ventilation system to divert the gas to a room with one patient",
+            "2": "not activate the ventilation system that would have diverted the gas to a room with one patient"
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Inevitable",
+                "Personal Force": "Impersonal",
+                "Causal Role": "Side Effect",
+                "Beneficiary": "Other-beneficial"
             },
             "2": {}
         }
