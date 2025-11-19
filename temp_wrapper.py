@@ -24,16 +24,8 @@ OUTPUT_DIR = CUR_DIR / "annotated_outputs"
 #set scenario file filename
 FILENAME = 'nie_scenarios.json'
 
-# Missing 1st
-#sids = [2, 4, 31, 32, 34, 41]
-
-# Missing 2nd
-#sids = [5, 30, 36, 40, 52]
-
-# Need Both
-#sids = [21, 33, 35, 37, 39, 42, 43, 44, 45, 46, 47, 49, 50]
-
-sids = [2, 4, 31, 32, 34, 41]
+sids = list(range(53, 61))
+sids.extend([6, 7, 8, 9])
 for sid in sids:
     SCENARIO_ID = sid
     for aid in ['1']:
