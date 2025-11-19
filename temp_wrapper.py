@@ -24,10 +24,19 @@ OUTPUT_DIR = CUR_DIR / "annotated_outputs"
 #set scenario file filename
 FILENAME = 'nie_scenarios.json'
 
-sids = list(range(46,54))
+# Missing 1st
+#sids = [2, 4, 31, 32, 34, 41]
+
+# Missing 2nd
+#sids = [5, 30, 36, 40, 52]
+
+# Need Both
+#sids = [21, 33, 35, 37, 39, 42, 43, 44, 45, 46, 47, 49, 50]
+
+sids = [2, 4, 31, 32, 34, 41]
 for sid in sids:
     SCENARIO_ID = sid
-    for aid in ['1', '2']:
+    for aid in ['1']:
         ACT_ID = aid
 
         #read in the scenario
@@ -86,7 +95,7 @@ for sid in sids:
         output_links = annotate_scenario.process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g)    
 
         #optional -- write out the results 
-        this_output_filename = f"nie_scenarios_{scenario_json["id"]}_choice_{ACT_ID}.json"
+        this_output_filename = f"nie_scenarios_{scenario_json['id']}_choice_{ACT_ID}.json"
         print('\n\nWriting to file: '+this_output_filename)
         g_print = g.print_graph()
         utils.write_jsonlines(this_output_filename, g_print)
@@ -97,7 +106,7 @@ for sid in sids:
         source = CUR_DIR / this_output_filename
         destination = OUTPUT_DIR / this_output_filename
         source.rename(destination)
-        other_output_filename = f"nie_scenarios_{scenario_json["id"]}_choice_{ACT_ID}.html"
+        other_output_filename = f"nie_scenarios_{scenario_json['id']}_choice_{ACT_ID}.html"
         source2 = CUR_DIR / other_output_filename
         destination2 = OUTPUT_DIR / other_output_filename
         source2.rename(destination2)
