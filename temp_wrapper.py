@@ -24,11 +24,10 @@ OUTPUT_DIR = CUR_DIR / "annotated_outputs"
 #set scenario file filename
 FILENAME = 'nie_scenarios.json'
 
-sids = list(range(53, 61))
-sids.extend([6, 7, 8, 9])
+sids = [61]
 for sid in sids:
     SCENARIO_ID = sid
-    for aid in ['1']:
+    for aid in ['1', '2']:
         ACT_ID = aid
 
         #read in the scenario
