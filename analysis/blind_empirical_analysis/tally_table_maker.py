@@ -9,9 +9,19 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 # ============================================================================
-# CONFIGURATION: Filter out events with non-negative utility to non-I being
+# CONFIGURATION FLAGS
 # ============================================================================
-EXCLUDE_NON_NEGATIVE_UTILITY = False  # Set to False to include all events
+
+# Filter out events with non-negative utility to non-I being
+EXCLUDE_NON_NEGATIVE_UTILITY = True  # Set to True to only include negative utility events
+
+# Skip files with missing beings
+SKIP_MISSING_AGENT = False           # Set to False to process files without I-being
+SKIP_MISSING_PATIENT = False       # Set to False to process files without non-I being
+
+# Choice processing
+PROCESS_ONLY_CHOICE_1 = False         # Set to True to only process choice 1 scenarios
+
 # ============================================================================
 
 
@@ -32,7 +42,9 @@ def parse_causal_string(causal_str: str) -> Dict[str, str]:
     return result
 
 
-def extract_event_data(json_file: Path) -> tuple[List[Tuple[Dict[str, str], int]], bool]:
+def extract_event_data(json_file: Path, 
+                      skip_missing_i: bool, 
+                      skip_missing_non_i: bool) -> tuple[List[Tuple[Dict[str, str], int]], bool]:
     """
     Extract causal polarities and utility scores for each event.
     Returns (events_list, has_valid_data) where has_valid_data indicates if file should be included.
@@ -56,13 +68,23 @@ def extract_event_data(json_file: Path) -> tuple[List[Tuple[Dict[str, str], int]
             else:
                 non_i_being = node['node']['label']
     
+    # Check I-being presence based on flag
     if not i_being_node:
-        print(f"  WARNING: No I-being found in {json_file.name} - SKIPPING")
-        return [], False
+        if skip_missing_i:
+            print(f"  WARNING: No I-being found in {json_file.name} - SKIPPING")
+            return [], False
+        else:
+            print(f"  WARNING: No I-being found in {json_file.name} - CONTINUING (skip disabled)")
+            return [], True  # Continue with empty data
     
+    # Check non-I being presence based on flag
     if not non_i_being:
-        print(f"  WARNING: No non-I being found in {json_file.name} - SKIPPING")
-        return [], False
+        if skip_missing_non_i:
+            print(f"  WARNING: No non-I being found in {json_file.name} - SKIPPING")
+            return [], False
+        else:
+            print(f"  WARNING: No non-I being found in {json_file.name} - CONTINUING (skip disabled)")
+            return [], True  # Continue with empty data
     
     event_causals = {}
     for link_obj in i_being_node['links']:
@@ -149,6 +171,7 @@ def collect_scenario_data(base_path: Path) -> List[Dict]:
     all_rows = []
     table_row_id = 1
     skipped_count = 0
+    choice2_filtered_count = 0
     
     # Process both severity levels
     for severity_folder in ['conditions_mild_harm_mild_good', 'conditions_severe_harm_very_good']:
@@ -190,12 +213,27 @@ def collect_scenario_data(base_path: Path) -> List[Dict]:
             for scenario_id in sorted(scenario_files.keys()):
                 choices = scenario_files[scenario_id]
                 
-                # Process both choices (should be 1 and 2)
-                for choice_num in sorted(choices.keys()):
+                # Filter choices based on configuration
+                choices_to_process = []
+                if PROCESS_ONLY_CHOICE_1:
+                    if 1 in choices:
+                        choices_to_process = [1]
+                    # Count filtered choice 2s
+                    if 2 in choices:
+                        choice2_filtered_count += 1
+                else:
+                    choices_to_process = sorted(choices.keys())
+                
+                # Process selected choices
+                for choice_num in choices_to_process:
                     json_file = choices[choice_num]
-                    events, is_valid = extract_event_data(json_file)
+                    events, is_valid = extract_event_data(
+                        json_file, 
+                        SKIP_MISSING_AGENT, 
+                        SKIP_MISSING_PATIENT
+                    )
                     
-                    # Skip if file doesn't have valid structure (Option C)
+                    # Skip if file doesn't have valid structure
                     if not is_valid:
                         skipped_count += 1
                         continue
@@ -218,7 +256,10 @@ def collect_scenario_data(base_path: Path) -> List[Dict]:
                     table_row_id += 1
     
     if skipped_count > 0:
-        print(f"\nSkipped {skipped_count} files due to missing non-I being or no valid events\n")
+        print(f"\nSkipped {skipped_count} files due to validation failures\n")
+    
+    if choice2_filtered_count > 0:
+        print(f"Filtered out {choice2_filtered_count} choice 2 scenarios (PROCESS_ONLY_CHOICE_1 = True)\n")
     
     return all_rows
 
@@ -231,7 +272,11 @@ def write_table(rows: List[Dict], output_file: Path):
         f.write("=" * 120 + "\n")
         f.write("SCENARIO DATA TABLE\n")
         f.write("=" * 120 + "\n")
-        f.write(f"Filter non-negative utility events: {EXCLUDE_NON_NEGATIVE_UTILITY}\n")
+        f.write("CONFIGURATION:\n")
+        f.write(f"  Filter non-negative utility events: {EXCLUDE_NON_NEGATIVE_UTILITY}\n")
+        f.write(f"  Skip missing I-being: {SKIP_MISSING_AGENT}\n")
+        f.write(f"  Skip missing non-I being: {SKIP_MISSING_PATIENT}\n")
+        f.write(f"  Process only choice 1: {PROCESS_ONLY_CHOICE_1}\n")
         f.write(f"Total rows: {len(rows)}\n")
         f.write("=" * 120 + "\n\n")
         
@@ -333,9 +378,30 @@ def write_csv(rows: List[Dict], output_file: Path):
 def main():
     """Main function."""
     
-    base_path = Path("franken_annotated_outputs")
-    output_dir = Path("table_outputs_v2_onlynegative_utility" if EXCLUDE_NON_NEGATIVE_UTILITY else "table_outputs_v2_all_events")
+    base_path = Path("annotated_outputs/franken_annotated_outputs")
     
+    # Build output directory name based on configuration
+    dir_parts = ["tally_outputs/table"]
+    if EXCLUDE_NON_NEGATIVE_UTILITY:
+        dir_parts.append("negutilonly")
+    else:
+        dir_parts.append("negposutil")
+    
+    if PROCESS_ONLY_CHOICE_1:
+        dir_parts.append("choice1only")
+    else:
+        dir_parts.append("bothchoices")
+    
+    if SKIP_MISSING_AGENT:
+        dir_parts.append("skipmissingagent")
+    
+    if SKIP_MISSING_PATIENT:
+        dir_parts.append("skipmissingpatient")
+
+    if not SKIP_MISSING_AGENT and not SKIP_MISSING_PATIENT:
+        dir_parts.append("noskipinvalids")
+
+    output_dir = Path("_".join(dir_parts))
     output_dir.mkdir(exist_ok=True)
     
     if not base_path.exists():
@@ -343,9 +409,13 @@ def main():
         return
     
     print("\n" + "=" * 80)
-    print("SCENARIO DATA TABLE GENERATOR")
+    print("SCENARIO DATA TABLE GENERATOR (Enhanced)")
     print("=" * 80)
-    print(f"\nFilter non-negative utility: {EXCLUDE_NON_NEGATIVE_UTILITY}")
+    print(f"\nCONFIGURATION:")
+    print(f"  Filter non-negative utility: {EXCLUDE_NON_NEGATIVE_UTILITY}")
+    print(f"  Skip missing I-being: {SKIP_MISSING_AGENT}")
+    print(f"  Skip missing non-I being: {SKIP_MISSING_PATIENT}")
+    print(f"  Process only choice 1: {PROCESS_ONLY_CHOICE_1}")
     print("\nCollecting scenario data...\n")
     
     # Collect all data
@@ -353,7 +423,6 @@ def main():
     
     print(f"Collected {len(rows)} rows of data")
     print(f"  - {len(set(r['original_scenario_id'] for r in rows))} unique scenarios")
-    print(f"  - Each scenario has 2 choices (rows)")
     
     # Write outputs
     txt_file = output_dir / "scenario_data_table.txt"
