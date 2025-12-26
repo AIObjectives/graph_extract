@@ -1,0 +1,69 @@
+================================================================================
+STATISTICAL ANALYSIS RESULTS
+================================================================================
+
+Filter applied: choice = 1
+Total rows analyzed: 256
+
+--------------------------------------------------------------------------------
+ANALYSIS 1: Evitability vs c_plus_pct
+--------------------------------------------------------------------------------
+
+
+MILD SEVERITY:
+----------------------------------------
+
+Descriptive Statistics:
+  Evitable: M = 99.44, SD = 5.27, N = 90
+  Inevitable: M = 38.79, SD = 32.94, N = 105
+
+Inferential Statistics:
+  Independent t-test: t(193) = 17.271, p = 0.0000
+  Cohen's d = 2.481 (large effect size)
+  Significance: ***
+
+SEVERE SEVERITY:
+----------------------------------------
+
+Descriptive Statistics:
+  Evitable: M = 100.00, SD = 0.00, N = 32
+  Inevitable: M = 35.34, SD = 28.35, N = 29
+
+Inferential Statistics:
+  Independent t-test: t(59) = 12.911, p = 0.0000
+  Cohen's d = 3.310 (large effect size)
+  Significance: ***
+
+
+--------------------------------------------------------------------------------
+ANALYSIS 2: Causal vs i_plus_pct
+--------------------------------------------------------------------------------
+
+
+MILD SEVERITY:
+----------------------------------------
+
+Descriptive Statistics:
+  CC: M = 62.47, SD = 34.94, N = 96
+  COC: M = 44.82, SD = 31.52, N = 99
+
+Inferential Statistics:
+  Independent t-test: t(193) = 3.706, p = 0.0003
+  Cohen's d = 0.531 (medium effect size)
+  Significance: ***
+
+SEVERE SEVERITY:
+----------------------------------------
+
+Descriptive Statistics:
+  CC: M = 64.65, SD = 30.24, N = 35
+  COC: M = 42.81, SD = 40.18, N = 26
+
+Inferential Statistics:
+  Independent t-test: t(59) = 2.424, p = 0.0184
+  Cohen's d = 0.628 (medium effect size)
+  Significance: *
+
+================================================================================
+Legend: *** p<0.001, ** p<0.01, * p<0.05, ns = not significant
+================================================================================
