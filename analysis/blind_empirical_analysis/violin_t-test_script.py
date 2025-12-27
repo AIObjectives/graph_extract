@@ -5,10 +5,12 @@ from scipy import stats
 import sys
 
 # Configuration
-CSV_FILE = '../table_outputs_v2_onlynegative_utility/scenario_data_table.csv'  # Change this to your CSV filename
-CHOICE_FILTER = 1  # Set to 1 to filter only choice=1, or None for all rows
-OUTPUT_PLOT = 'analysis_plots-bothchoices-onlyneg.png' if CHOICE_FILTER is None else 'analysis_plots-choice1-onlyneg.png'
-OUTPUT_STATS = 'statistical_results-bothchoices-onlyneg.txt' if CHOICE_FILTER is None else 'statistical_results-choice1-onlyneg.txt'
+CSV_FILE = 'tally_outputs/table_negutilonly_choice1only_skipmissingagent_skipmissingpatient/scenario_data_table.csv' # Path to the CSV file
+UITLITY_FILTER = 1 if "negutilonly" in CSV_FILE else None # Set to 1 to filter only negative utility rows, or None for all rows
+CHOICE_FILTER = 1 if "choice1only" in CSV_FILE else None # Set to 1 to filter only choice=1, or None for all rows
+OUTPUT_PLOT = 'frankenviolin_' + ('negutilonly_' if UITLITY_FILTER is not None else '') + ('choice1only' if CHOICE_FILTER is not None else 'bothchoices') + '.png'
+OUTPUT_STATS = 'Ttestanalysis-' + ('negutilonly_' if UITLITY_FILTER is not None else '') + ('choice1only' if CHOICE_FILTER is not None else 'bothchoices') + '.txt'
+
 
 def calculate_cohens_d(group1, group2):
     """Calculate Cohen's d effect size"""
@@ -73,8 +75,8 @@ def create_plots(df):
         
         ax.set_xticks([1, 2])
         ax.set_xticklabels(['Evitable', 'Inevitable'])
-        ax.set_ylabel('c_plus_pct', fontsize=11)
-        ax.set_title(f'{severity} - Evitability vs c_plus_pct', fontsize=12, fontweight='bold')
+        ax.set_ylabel('C+ Percentage', fontsize=11)
+        ax.set_title(f'{severity} - Evitability Franken Label vs Annotator C+ Label Proportion', fontsize=12, fontweight='bold')
         ax.grid(axis='y', alpha=0.3)
     
     # Plot 2: Causal vs i_plus_pct
@@ -97,9 +99,9 @@ def create_plots(df):
             pc.set_alpha(0.7)
         
         ax.set_xticks([1, 2])
-        ax.set_xticklabels(['CC', 'COC'])
-        ax.set_ylabel('i_plus_pct', fontsize=11)
-        ax.set_title(f'{severity} - Causal vs i_plus_pct', fontsize=12, fontweight='bold')
+        ax.set_xticklabels(['Causal Chain CC', 'Common Cause COC'])
+        ax.set_ylabel('I+ Percentage', fontsize=11)
+        ax.set_title(f'{severity} - Causality Franken Label vs Annotator I+ Label Proportion', fontsize=12, fontweight='bold')
         ax.grid(axis='y', alpha=0.3)
     
     plt.tight_layout()
@@ -121,7 +123,7 @@ def write_statistics(df, output_file):
         
         # Analysis 1: Evitability vs c_plus_pct
         f.write("-" * 80 + "\n")
-        f.write("ANALYSIS 1: Evitability vs c_plus_pct\n")
+        f.write("ANALYSIS 1: Evitability Franken Label vs Annotator C+ Label Percentage\n")
         f.write("-" * 80 + "\n\n")
         
         for severity in ['Mild', 'Severe']:
@@ -164,7 +166,7 @@ def write_statistics(df, output_file):
         
         # Analysis 2: Causal vs i_plus_pct
         f.write("\n\n" + "-" * 80 + "\n")
-        f.write("ANALYSIS 2: Causal vs i_plus_pct\n")
+        f.write("ANALYSIS 2: Causality Franken Label vs Annotator I+ Label Percentage\n")
         f.write("-" * 80 + "\n\n")
         
         for severity in ['Mild', 'Severe']:
