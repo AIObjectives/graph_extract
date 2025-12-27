@@ -16,11 +16,11 @@ from typing import Dict, List, Tuple
 EXCLUDE_NON_NEGATIVE_UTILITY = True  # Set to True to only include negative utility events
 
 # Skip files with missing beings
-SKIP_MISSING_AGENT = True           # Set to False to process files without I-being
-SKIP_MISSING_PATIENT = True       # Set to False to process files without non-I being
+SKIP_MISSING_AGENT = False           # Set to False to process files without I-being
+SKIP_MISSING_PATIENT = False       # Set to False to process files without non-I being
 
 # Choice processing
-PROCESS_ONLY_CHOICE_1 = False         # Set to True to only process choice 1 scenarios
+PROCESS_ONLY_CHOICE_1 = True         # Set to True to only process choice 1 scenarios
 
 # ============================================================================
 
@@ -282,7 +282,7 @@ def write_table(rows: List[Dict], output_file: Path):
         
         # Column headers
         header = (
-            f"{'ID':>4} | "
+            # f"{'ID':>4} | "
             f"{'Orig ID':>7} | "
             f"{'Severity':>8} | "
             f"{'Evitability':>11} | "
@@ -299,7 +299,7 @@ def write_table(rows: List[Dict], output_file: Path):
         # Data rows
         for row in rows:
             line = (
-                f"{row['table_id']:>4} | "
+                # f"{row['table_id']:>4} | "
                 f"{row['original_scenario_id']:>7} | "
                 f"{row['severity']:>8} | "
                 f"{row['evitability']:>11} | "
@@ -362,7 +362,7 @@ def write_csv(rows: List[Dict], output_file: Path):
         # Data
         for row in rows:
             f.write(
-                f"{row['table_id']},"
+                # f"{row['table_id']},"
                 f"{row['original_scenario_id']},"
                 f"{row['severity']},"
                 f"{row['evitability']},"

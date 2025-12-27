@@ -9,288 +9,288 @@ CONFIGURATION:
 Total rows: 280
 ========================================================================================================================
 
-  ID | Orig ID | Severity | Evitability | Causal | Choice |    C+ % |    I+ % | N Events | Condition
+Orig ID | Severity | Evitability | Causal | Choice |    C+ % |    I+ % | N Events | Condition
 ------------------------------------------------------------------------------------------------------------------------
-   1 |       0 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        4 | cc_evitable_action_yes_stories
-   2 |       1 |     Mild |    Evitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_evitable_action_yes_stories
-   3 |       2 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        2 | cc_evitable_action_yes_stories
-   4 |       3 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_action_yes_stories
-   5 |       4 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        2 | cc_evitable_action_yes_stories
-   6 |       5 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_action_yes_stories
-   7 |       6 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_action_yes_stories
-   8 |       7 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        2 | cc_evitable_action_yes_stories
-   9 |       8 |     Mild |    Evitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_evitable_action_yes_stories
-  10 |       9 |     Mild |    Evitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_evitable_action_yes_stories
-  11 |      10 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        2 | cc_evitable_action_yes_stories
-  12 |      11 |     Mild |    Evitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_evitable_action_yes_stories
-  13 |      12 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        4 | cc_evitable_action_yes_stories
-  14 |      13 |     Mild |    Evitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_evitable_action_yes_stories
-  15 |      14 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        4 | cc_evitable_action_yes_stories
-  16 |      15 |     Mild |    Evitable |     CC |      1 |  100.00 |   66.67 |        3 | cc_evitable_action_yes_stories
-  17 |      16 |     Mild |    Evitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_evitable_action_yes_stories
-  18 |      17 |     Mild |    Evitable |     CC |      1 |  100.00 |   66.67 |        3 | cc_evitable_action_yes_stories
-  19 |      18 |     Mild |    Evitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_evitable_action_yes_stories
-  20 |      19 |     Mild |    Evitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_evitable_action_yes_stories
-  21 |      20 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        2 | cc_evitable_action_yes_stories
-  22 |      21 |     Mild |    Evitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_evitable_action_yes_stories
-  23 |      22 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        4 | cc_evitable_action_yes_stories
-  24 |      23 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        5 | cc_evitable_action_yes_stories
-  25 |      24 |     Mild |    Evitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_evitable_action_yes_stories
-  26 |      25 |     Mild |    Evitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_evitable_action_yes_stories
-  27 |      26 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        8 | cc_evitable_action_yes_stories
-  28 |      27 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_action_yes_stories
-  29 |      28 |     Mild |    Evitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_evitable_action_yes_stories
-  30 |      29 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        4 | cc_evitable_action_yes_stories
-  31 |       0 |     Mild |    Evitable |     CC |      1 |  100.00 |   66.67 |        3 | cc_evitable_prevention_no_stories
-  32 |       1 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        5 | cc_evitable_prevention_no_stories
-  33 |       2 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_prevention_no_stories
-  34 |       5 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        7 | cc_evitable_prevention_no_stories
-  35 |       6 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        4 | cc_evitable_prevention_no_stories
-  36 |       8 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        2 | cc_evitable_prevention_no_stories
-  37 |       9 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        4 | cc_evitable_prevention_no_stories
-  38 |      11 |     Mild |    Evitable |     CC |      1 |  100.00 |   75.00 |        4 | cc_evitable_prevention_no_stories
-  39 |      12 |     Mild |    Evitable |     CC |      1 |  100.00 |   80.00 |        5 | cc_evitable_prevention_no_stories
-  40 |      13 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        5 | cc_evitable_prevention_no_stories
-  41 |      14 |     Mild |    Evitable |     CC |      1 |  100.00 |   66.67 |        6 | cc_evitable_prevention_no_stories
-  42 |      16 |     Mild |    Evitable |     CC |      1 |  100.00 |   50.00 |        4 | cc_evitable_prevention_no_stories
-  43 |      18 |     Mild |    Evitable |     CC |      1 |  100.00 |    0.00 |        1 | cc_evitable_prevention_no_stories
-  44 |      19 |     Mild |    Evitable |     CC |      1 |   50.00 |    0.00 |        2 | cc_evitable_prevention_no_stories
-  45 |      20 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_prevention_no_stories
-  46 |      21 |     Mild |    Evitable |     CC |      1 |  100.00 |   80.00 |        5 | cc_evitable_prevention_no_stories
-  47 |      24 |     Mild |    Evitable |     CC |      1 |  100.00 |    0.00 |        1 | cc_evitable_prevention_no_stories
-  48 |      28 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_prevention_no_stories
-  49 |      29 |     Mild |    Evitable |     CC |      1 |  100.00 |    0.00 |        1 | cc_evitable_prevention_no_stories
-  50 |       0 |     Mild |  Inevitable |     CC |      1 |   25.00 |   50.00 |        4 | cc_inevitable_action_yes_stories
-  51 |       1 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_inevitable_action_yes_stories
-  52 |       2 |     Mild |  Inevitable |     CC |      1 |    0.00 |   50.00 |        2 | cc_inevitable_action_yes_stories
-  53 |       3 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        2 | cc_inevitable_action_yes_stories
-  54 |       4 |     Mild |  Inevitable |     CC |      1 |   33.33 |  100.00 |        3 | cc_inevitable_action_yes_stories
-  55 |       5 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_inevitable_action_yes_stories
-  56 |       6 |     Mild |  Inevitable |     CC |      1 |  100.00 |    0.00 |        1 | cc_inevitable_action_yes_stories
-  57 |       7 |     Mild |  Inevitable |     CC |      1 |    0.00 |   50.00 |        2 | cc_inevitable_action_yes_stories
-  58 |       8 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_inevitable_action_yes_stories
-  59 |       9 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_inevitable_action_yes_stories
-  60 |      10 |     Mild |  Inevitable |     CC |      1 |    0.00 |   50.00 |        2 | cc_inevitable_action_yes_stories
-  61 |      11 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_inevitable_action_yes_stories
-  62 |      12 |     Mild |  Inevitable |     CC |      1 |   25.00 |   50.00 |        4 | cc_inevitable_action_yes_stories
-  63 |      13 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_inevitable_action_yes_stories
-  64 |      14 |     Mild |  Inevitable |     CC |      1 |   75.00 |  100.00 |        4 | cc_inevitable_action_yes_stories
-  65 |      15 |     Mild |  Inevitable |     CC |      1 |   25.00 |   25.00 |        4 | cc_inevitable_action_yes_stories
-  66 |      16 |     Mild |  Inevitable |     CC |      1 |    0.00 |   50.00 |        2 | cc_inevitable_action_yes_stories
-  67 |      17 |     Mild |  Inevitable |     CC |      1 |   33.33 |   66.67 |        3 | cc_inevitable_action_yes_stories
-  68 |      18 |     Mild |  Inevitable |     CC |      1 |    0.00 |  100.00 |        2 | cc_inevitable_action_yes_stories
-  69 |      19 |     Mild |  Inevitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_inevitable_action_yes_stories
-  70 |      20 |     Mild |  Inevitable |     CC |      1 |    0.00 |  100.00 |        3 | cc_inevitable_action_yes_stories
-  71 |      21 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_inevitable_action_yes_stories
-  72 |      22 |     Mild |  Inevitable |     CC |      1 |   33.33 |   66.67 |        3 | cc_inevitable_action_yes_stories
-  73 |      23 |     Mild |  Inevitable |     CC |      1 |   75.00 |   75.00 |        4 | cc_inevitable_action_yes_stories
-  74 |      24 |     Mild |  Inevitable |     CC |      1 |    0.00 |   50.00 |        2 | cc_inevitable_action_yes_stories
-  75 |      25 |     Mild |  Inevitable |     CC |      1 |   66.67 |   66.67 |        3 | cc_inevitable_action_yes_stories
-  76 |      26 |     Mild |  Inevitable |     CC |      1 |   50.00 |  100.00 |        6 | cc_inevitable_action_yes_stories
-  77 |      27 |     Mild |  Inevitable |     CC |      1 |   33.33 |  100.00 |        3 | cc_inevitable_action_yes_stories
-  78 |      28 |     Mild |  Inevitable |     CC |      1 |   33.33 |  100.00 |        3 | cc_inevitable_action_yes_stories
-  79 |      29 |     Mild |  Inevitable |     CC |      1 |   60.00 |  100.00 |        5 | cc_inevitable_action_yes_stories
-  80 |       0 |     Mild |  Inevitable |     CC |      1 |   50.00 |   50.00 |        6 | cc_inevitable_prevention_no_stories
-  81 |       1 |     Mild |  Inevitable |     CC |      1 |   75.00 |  100.00 |        4 | cc_inevitable_prevention_no_stories
-  82 |       2 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        1 | cc_inevitable_prevention_no_stories
-  83 |       3 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        1 | cc_inevitable_prevention_no_stories
-  84 |       4 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        1 | cc_inevitable_prevention_no_stories
-  85 |       5 |     Mild |  Inevitable |     CC |      1 |   60.00 |   80.00 |        5 | cc_inevitable_prevention_no_stories
-  86 |       6 |     Mild |  Inevitable |     CC |      1 |   60.00 |   60.00 |        5 | cc_inevitable_prevention_no_stories
-  87 |       7 |     Mild |  Inevitable |     CC |      1 |   33.33 |   33.33 |        3 | cc_inevitable_prevention_no_stories
-  88 |       8 |     Mild |  Inevitable |     CC |      1 |   57.14 |   57.14 |        7 | cc_inevitable_prevention_no_stories
-  89 |       9 |     Mild |  Inevitable |     CC |      1 |   40.00 |   20.00 |        5 | cc_inevitable_prevention_no_stories
-  90 |      10 |     Mild |  Inevitable |     CC |      1 |    0.00 |   33.33 |        3 | cc_inevitable_prevention_no_stories
-  91 |      11 |     Mild |  Inevitable |     CC |      1 |   57.14 |   42.86 |        7 | cc_inevitable_prevention_no_stories
-  92 |      12 |     Mild |  Inevitable |     CC |      1 |   50.00 |   33.33 |        6 | cc_inevitable_prevention_no_stories
-  93 |      13 |     Mild |  Inevitable |     CC |      1 |   40.00 |   40.00 |        5 | cc_inevitable_prevention_no_stories
-  94 |      14 |     Mild |  Inevitable |     CC |      1 |   62.50 |   50.00 |        8 | cc_inevitable_prevention_no_stories
-  95 |      15 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        3 | cc_inevitable_prevention_no_stories
-  96 |      16 |     Mild |  Inevitable |     CC |      1 |   66.67 |   66.67 |        6 | cc_inevitable_prevention_no_stories
-  97 |      17 |     Mild |  Inevitable |     CC |      1 |   80.00 |   40.00 |        5 | cc_inevitable_prevention_no_stories
-  98 |      18 |     Mild |  Inevitable |     CC |      1 |   33.33 |   33.33 |        3 | cc_inevitable_prevention_no_stories
-  99 |      19 |     Mild |  Inevitable |     CC |      1 |    0.00 |  100.00 |        2 | cc_inevitable_prevention_no_stories
- 100 |      20 |     Mild |  Inevitable |     CC |      1 |   60.00 |   40.00 |        5 | cc_inevitable_prevention_no_stories
- 101 |      21 |     Mild |  Inevitable |     CC |      1 |   75.00 |   75.00 |        4 | cc_inevitable_prevention_no_stories
- 102 |      22 |     Mild |  Inevitable |     CC |      1 |   33.33 |   33.33 |        3 | cc_inevitable_prevention_no_stories
- 103 |      23 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        1 | cc_inevitable_prevention_no_stories
- 104 |      24 |     Mild |  Inevitable |     CC |      1 |   66.67 |   33.33 |        3 | cc_inevitable_prevention_no_stories
- 105 |      25 |     Mild |  Inevitable |     CC |      1 |   83.33 |   50.00 |        6 | cc_inevitable_prevention_no_stories
- 106 |      26 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        1 | cc_inevitable_prevention_no_stories
- 107 |      27 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        2 | cc_inevitable_prevention_no_stories
- 108 |      28 |     Mild |  Inevitable |     CC |      1 |    0.00 |   40.00 |        5 | cc_inevitable_prevention_no_stories
- 109 |      29 |     Mild |  Inevitable |     CC |      1 |   66.67 |   33.33 |        3 | cc_inevitable_prevention_no_stories
- 110 |       0 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
- 111 |       1 |     Mild |    Evitable |    COC |      1 |  100.00 |   33.33 |        3 | coc_evitable_action_yes_stories
- 112 |       2 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
- 113 |       3 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        2 | coc_evitable_action_yes_stories
- 114 |       4 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        2 | coc_evitable_action_yes_stories
- 115 |       5 |     Mild |    Evitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_evitable_action_yes_stories
- 116 |       6 |     Mild |    Evitable |    COC |      1 |  100.00 |   66.67 |        3 | coc_evitable_action_yes_stories
- 117 |       7 |     Mild |    Evitable |    COC |      1 |  100.00 |   33.33 |        3 | coc_evitable_action_yes_stories
- 118 |       8 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
- 119 |       9 |     Mild |    Evitable |    COC |      1 |  100.00 |   33.33 |        3 | coc_evitable_action_yes_stories
- 120 |      11 |     Mild |    Evitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_evitable_action_yes_stories
- 121 |      12 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        1 | coc_evitable_action_yes_stories
- 122 |      13 |     Mild |    Evitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_evitable_action_yes_stories
- 123 |      14 |     Mild |    Evitable |    COC |      1 |  100.00 |   75.00 |        4 | coc_evitable_action_yes_stories
- 124 |      15 |     Mild |    Evitable |    COC |      1 |  100.00 |   33.33 |        3 | coc_evitable_action_yes_stories
- 125 |      16 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
- 126 |      17 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
- 127 |      18 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
- 128 |      19 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        2 | coc_evitable_action_yes_stories
- 129 |      20 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        1 | coc_evitable_action_yes_stories
- 130 |      21 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        4 | coc_evitable_action_yes_stories
- 131 |      22 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        2 | coc_evitable_action_yes_stories
- 132 |      23 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
- 133 |      24 |     Mild |    Evitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_evitable_action_yes_stories
- 134 |      25 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        2 | coc_evitable_action_yes_stories
- 135 |      26 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        4 | coc_evitable_action_yes_stories
- 136 |      27 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        3 | coc_evitable_action_yes_stories
- 137 |      28 |     Mild |    Evitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_evitable_action_yes_stories
- 138 |      29 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
- 139 |       0 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        6 | coc_evitable_prevention_no_stories
- 140 |       3 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        1 | coc_evitable_prevention_no_stories
- 141 |       4 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        3 | coc_evitable_prevention_no_stories
- 142 |       5 |     Mild |    Evitable |    COC |      1 |  100.00 |   75.00 |        4 | coc_evitable_prevention_no_stories
- 143 |       6 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        1 | coc_evitable_prevention_no_stories
- 144 |       7 |     Mild |    Evitable |    COC |      1 |  100.00 |   75.00 |        4 | coc_evitable_prevention_no_stories
- 145 |       8 |     Mild |    Evitable |    COC |      1 |  100.00 |   80.00 |        5 | coc_evitable_prevention_no_stories
- 146 |      10 |     Mild |    Evitable |    COC |      1 |  100.00 |   66.67 |        6 | coc_evitable_prevention_no_stories
- 147 |      11 |     Mild |    Evitable |    COC |      1 |  100.00 |   66.67 |        6 | coc_evitable_prevention_no_stories
- 148 |      12 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        1 | coc_evitable_prevention_no_stories
- 149 |      13 |     Mild |    Evitable |    COC |      1 |  100.00 |   83.33 |        6 | coc_evitable_prevention_no_stories
- 150 |      17 |     Mild |    Evitable |    COC |      1 |  100.00 |   83.33 |        6 | coc_evitable_prevention_no_stories
- 151 |      18 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        4 | coc_evitable_prevention_no_stories
- 152 |      19 |     Mild |    Evitable |    COC |      1 |  100.00 |   75.00 |        4 | coc_evitable_prevention_no_stories
- 153 |      20 |     Mild |    Evitable |    COC |      1 |  100.00 |   85.71 |        7 | coc_evitable_prevention_no_stories
- 154 |      22 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        5 | coc_evitable_prevention_no_stories
- 155 |      23 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        1 | coc_evitable_prevention_no_stories
- 156 |      24 |     Mild |    Evitable |    COC |      1 |  100.00 |   66.67 |        6 | coc_evitable_prevention_no_stories
- 157 |      25 |     Mild |    Evitable |    COC |      1 |  100.00 |   71.43 |        7 | coc_evitable_prevention_no_stories
- 158 |      26 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        2 | coc_evitable_prevention_no_stories
- 159 |      27 |     Mild |    Evitable |    COC |      1 |  100.00 |   75.00 |        4 | coc_evitable_prevention_no_stories
- 160 |      28 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        3 | coc_evitable_prevention_no_stories
- 161 |      29 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        3 | coc_evitable_prevention_no_stories
- 162 |       0 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        3 | coc_inevitable_action_yes_stories
- 163 |       1 |     Mild |  Inevitable |    COC |      1 |   25.00 |   50.00 |        4 | coc_inevitable_action_yes_stories
- 164 |       2 |     Mild |  Inevitable |    COC |      1 |    0.00 |   50.00 |        2 | coc_inevitable_action_yes_stories
- 165 |       3 |     Mild |  Inevitable |    COC |      1 |    0.00 |   33.33 |        3 | coc_inevitable_action_yes_stories
- 166 |       4 |     Mild |  Inevitable |    COC |      1 |    0.00 |   33.33 |        3 | coc_inevitable_action_yes_stories
- 167 |       5 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_inevitable_action_yes_stories
- 168 |       6 |     Mild |  Inevitable |    COC |      1 |  100.00 |   33.33 |        3 | coc_inevitable_action_yes_stories
- 169 |       7 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        2 | coc_inevitable_action_yes_stories
- 170 |       8 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        1 | coc_inevitable_action_yes_stories
- 171 |       9 |     Mild |  Inevitable |    COC |      1 |   33.33 |   66.67 |        3 | coc_inevitable_action_yes_stories
- 172 |      11 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_inevitable_action_yes_stories
- 173 |      12 |     Mild |  Inevitable |    COC |      1 |   50.00 |   50.00 |        2 | coc_inevitable_action_yes_stories
- 174 |      13 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_inevitable_action_yes_stories
- 175 |      14 |     Mild |  Inevitable |    COC |      1 |   75.00 |   75.00 |        4 | coc_inevitable_action_yes_stories
- 176 |      15 |     Mild |  Inevitable |    COC |      1 |   33.33 |   33.33 |        3 | coc_inevitable_action_yes_stories
- 177 |      16 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        3 | coc_inevitable_action_yes_stories
- 178 |      17 |     Mild |  Inevitable |    COC |      1 |   50.00 |   50.00 |        4 | coc_inevitable_action_yes_stories
- 179 |      18 |     Mild |  Inevitable |    COC |      1 |   33.33 |   33.33 |        3 | coc_inevitable_action_yes_stories
- 180 |      19 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        1 | coc_inevitable_action_yes_stories
- 181 |      20 |     Mild |  Inevitable |    COC |      1 |   50.00 |    0.00 |        2 | coc_inevitable_action_yes_stories
- 182 |      21 |     Mild |  Inevitable |    COC |      1 |   50.00 |   50.00 |        2 | coc_inevitable_action_yes_stories
- 183 |      22 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        2 | coc_inevitable_action_yes_stories
- 184 |      23 |     Mild |  Inevitable |    COC |      1 |    0.00 |   33.33 |        3 | coc_inevitable_action_yes_stories
- 185 |      24 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_inevitable_action_yes_stories
- 186 |      25 |     Mild |  Inevitable |    COC |      1 |   33.33 |    0.00 |        3 | coc_inevitable_action_yes_stories
- 187 |      26 |     Mild |  Inevitable |    COC |      1 |  100.00 |   66.67 |        3 | coc_inevitable_action_yes_stories
- 188 |      27 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        1 | coc_inevitable_action_yes_stories
- 189 |      28 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_inevitable_action_yes_stories
- 190 |      29 |     Mild |  Inevitable |    COC |      1 |    0.00 |   50.00 |        2 | coc_inevitable_action_yes_stories
- 191 |       0 |     Mild |  Inevitable |    COC |      1 |   83.33 |   33.33 |        6 | coc_inevitable_prevention_no_stories
- 192 |       1 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        1 | coc_inevitable_prevention_no_stories
- 193 |       2 |     Mild |  Inevitable |    COC |      1 |   33.33 |   33.33 |        3 | coc_inevitable_prevention_no_stories
- 194 |       3 |     Mild |  Inevitable |    COC |      1 |   33.33 |   33.33 |        3 | coc_inevitable_prevention_no_stories
- 195 |       4 |     Mild |  Inevitable |    COC |      1 |   50.00 |   50.00 |        4 | coc_inevitable_prevention_no_stories
- 196 |       5 |     Mild |  Inevitable |    COC |      1 |   66.67 |   50.00 |        6 | coc_inevitable_prevention_no_stories
- 197 |       6 |     Mild |  Inevitable |    COC |      1 |   50.00 |   25.00 |        4 | coc_inevitable_prevention_no_stories
- 198 |       7 |     Mild |  Inevitable |    COC |      1 |  100.00 |   60.00 |        5 | coc_inevitable_prevention_no_stories
- 199 |       8 |     Mild |  Inevitable |    COC |      1 |   75.00 |   50.00 |        4 | coc_inevitable_prevention_no_stories
- 200 |       9 |     Mild |  Inevitable |    COC |      1 |    0.00 |   33.33 |        3 | coc_inevitable_prevention_no_stories
- 201 |      10 |     Mild |  Inevitable |    COC |      1 |   80.00 |   40.00 |        5 | coc_inevitable_prevention_no_stories
- 202 |      11 |     Mild |  Inevitable |    COC |      1 |   83.33 |   66.67 |        6 | coc_inevitable_prevention_no_stories
- 203 |      12 |     Mild |  Inevitable |    COC |      1 |   83.33 |   66.67 |        6 | coc_inevitable_prevention_no_stories
- 204 |      13 |     Mild |  Inevitable |    COC |      1 |   75.00 |   75.00 |        4 | coc_inevitable_prevention_no_stories
- 205 |      14 |     Mild |  Inevitable |    COC |      1 |   33.33 |   33.33 |        3 | coc_inevitable_prevention_no_stories
- 206 |      15 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        2 | coc_inevitable_prevention_no_stories
- 207 |      16 |     Mild |  Inevitable |    COC |      1 |   50.00 |    0.00 |        2 | coc_inevitable_prevention_no_stories
- 208 |      17 |     Mild |  Inevitable |    COC |      1 |   83.33 |   33.33 |        6 | coc_inevitable_prevention_no_stories
- 209 |      18 |     Mild |  Inevitable |    COC |      1 |   50.00 |    0.00 |        2 | coc_inevitable_prevention_no_stories
- 210 |      19 |     Mild |  Inevitable |    COC |      1 |   80.00 |   60.00 |        5 | coc_inevitable_prevention_no_stories
- 211 |      21 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        2 | coc_inevitable_prevention_no_stories
- 212 |      22 |     Mild |  Inevitable |    COC |      1 |   66.67 |   66.67 |        6 | coc_inevitable_prevention_no_stories
- 213 |      23 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        4 | coc_inevitable_prevention_no_stories
- 214 |      24 |     Mild |  Inevitable |    COC |      1 |   80.00 |   60.00 |        5 | coc_inevitable_prevention_no_stories
- 215 |      26 |     Mild |  Inevitable |    COC |      1 |   80.00 |   60.00 |        5 | coc_inevitable_prevention_no_stories
- 216 |      27 |     Mild |  Inevitable |    COC |      1 |   80.00 |   60.00 |        5 | coc_inevitable_prevention_no_stories
- 217 |      28 |     Mild |  Inevitable |    COC |      1 |   25.00 |   50.00 |        4 | coc_inevitable_prevention_no_stories
- 218 |      29 |     Mild |  Inevitable |    COC |      1 |   80.00 |   60.00 |        5 | coc_inevitable_prevention_no_stories
- 219 |       0 |   Severe |    Evitable |     CC |      1 |  100.00 |  100.00 |        4 | cc_evitable_action_yes_stories
- 220 |       1 |   Severe |    Evitable |     CC |      1 |  100.00 |   50.00 |        4 | cc_evitable_action_yes_stories
- 221 |       2 |   Severe |    Evitable |     CC |      1 |  100.00 |   75.00 |        4 | cc_evitable_action_yes_stories
- 222 |       3 |   Severe |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_action_yes_stories
- 223 |       4 |   Severe |    Evitable |     CC |      1 |  100.00 |  100.00 |        2 | cc_evitable_action_yes_stories
- 224 |       5 |   Severe |    Evitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_evitable_action_yes_stories
- 225 |       6 |   Severe |    Evitable |     CC |      1 |  100.00 |   80.00 |        5 | cc_evitable_action_yes_stories
- 226 |       7 |   Severe |    Evitable |     CC |      1 |  100.00 |  100.00 |        6 | cc_evitable_action_yes_stories
- 227 |       8 |   Severe |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_action_yes_stories
- 228 |       9 |   Severe |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_action_yes_stories
- 229 |       1 |   Severe |    Evitable |     CC |      1 |  100.00 |   60.00 |        5 | cc_evitable_prevention_no_stories
- 230 |       2 |   Severe |    Evitable |     CC |      1 |  100.00 |    0.00 |        2 | cc_evitable_prevention_no_stories
- 231 |       3 |   Severe |    Evitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_evitable_prevention_no_stories
- 232 |       5 |   Severe |    Evitable |     CC |      1 |  100.00 |   42.86 |        7 | cc_evitable_prevention_no_stories
- 233 |       6 |   Severe |    Evitable |     CC |      1 |  100.00 |    0.00 |        2 | cc_evitable_prevention_no_stories
- 234 |       8 |   Severe |    Evitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_evitable_prevention_no_stories
- 235 |       9 |   Severe |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_prevention_no_stories
- 236 |       0 |   Severe |  Inevitable |     CC |      1 |   25.00 |  100.00 |        4 | cc_inevitable_action_yes_stories
- 237 |       1 |   Severe |  Inevitable |     CC |      1 |   50.00 |  100.00 |        2 | cc_inevitable_action_yes_stories
- 238 |       2 |   Severe |  Inevitable |     CC |      1 |   25.00 |   50.00 |        4 | cc_inevitable_action_yes_stories
- 239 |       3 |   Severe |  Inevitable |     CC |      1 |   75.00 |   50.00 |        4 | cc_inevitable_action_yes_stories
- 240 |       4 |   Severe |  Inevitable |     CC |      1 |   50.00 |   50.00 |        2 | cc_inevitable_action_yes_stories
- 241 |       5 |   Severe |  Inevitable |     CC |      1 |   33.33 |   66.67 |        3 | cc_inevitable_action_yes_stories
- 242 |       6 |   Severe |  Inevitable |     CC |      1 |    0.00 |   50.00 |        2 | cc_inevitable_action_yes_stories
- 243 |       7 |   Severe |  Inevitable |     CC |      1 |   80.00 |  100.00 |        5 | cc_inevitable_action_yes_stories
- 244 |       8 |   Severe |  Inevitable |     CC |      1 |   25.00 |  100.00 |        4 | cc_inevitable_action_yes_stories
- 245 |       9 |   Severe |  Inevitable |     CC |      1 |    0.00 |  100.00 |        1 | cc_inevitable_action_yes_stories
- 246 |       0 |   Severe |  Inevitable |     CC |      1 |   25.00 |   25.00 |        4 | cc_inevitable_prevention_no_stories
- 247 |       1 |   Severe |  Inevitable |     CC |      1 |   60.00 |   40.00 |        5 | cc_inevitable_prevention_no_stories
- 248 |       2 |   Severe |  Inevitable |     CC |      1 |   25.00 |   50.00 |        4 | cc_inevitable_prevention_no_stories
- 249 |       3 |   Severe |  Inevitable |     CC |      1 |   20.00 |   40.00 |        5 | cc_inevitable_prevention_no_stories
- 250 |       4 |   Severe |  Inevitable |     CC |      1 |   50.00 |   50.00 |        2 | cc_inevitable_prevention_no_stories
- 251 |       6 |   Severe |  Inevitable |     CC |      1 |   33.33 |   33.33 |        6 | cc_inevitable_prevention_no_stories
- 252 |       7 |   Severe |  Inevitable |     CC |      1 |   66.67 |   66.67 |        3 | cc_inevitable_prevention_no_stories
- 253 |       8 |   Severe |  Inevitable |     CC |      1 |    0.00 |   33.33 |        3 | cc_inevitable_prevention_no_stories
- 254 |       9 |   Severe |  Inevitable |     CC |      1 |   75.00 |   50.00 |        4 | cc_inevitable_prevention_no_stories
- 255 |       0 |   Severe |    Evitable |    COC |      1 |  100.00 |   66.67 |        3 | coc_evitable_action_yes_stories
- 256 |       1 |   Severe |    Evitable |    COC |      1 |  100.00 |   71.43 |        7 | coc_evitable_action_yes_stories
- 257 |       2 |   Severe |    Evitable |    COC |      1 |  100.00 |    0.00 |        1 | coc_evitable_action_yes_stories
- 258 |       3 |   Severe |    Evitable |    COC |      1 |  100.00 |    0.00 |        2 | coc_evitable_action_yes_stories
- 259 |       4 |   Severe |    Evitable |    COC |      1 |  100.00 |    0.00 |        3 | coc_evitable_action_yes_stories
- 260 |       5 |   Severe |    Evitable |    COC |      1 |  100.00 |    0.00 |        4 | coc_evitable_action_yes_stories
- 261 |       6 |   Severe |    Evitable |    COC |      1 |  100.00 |   60.00 |        5 | coc_evitable_action_yes_stories
- 262 |       7 |   Severe |    Evitable |    COC |      1 |  100.00 |    0.00 |        2 | coc_evitable_action_yes_stories
- 263 |       8 |   Severe |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
- 264 |       9 |   Severe |    Evitable |    COC |      1 |  100.00 |    0.00 |        2 | coc_evitable_action_yes_stories
- 265 |       0 |   Severe |    Evitable |    COC |      1 |  100.00 |  100.00 |        1 | coc_evitable_prevention_no_stories
- 266 |       2 |   Severe |    Evitable |    COC |      1 |  100.00 |  100.00 |        4 | coc_evitable_prevention_no_stories
- 267 |       3 |   Severe |    Evitable |    COC |      1 |  100.00 |  100.00 |        3 | coc_evitable_prevention_no_stories
- 268 |       6 |   Severe |    Evitable |    COC |      1 |  100.00 |   83.33 |        6 | coc_evitable_prevention_no_stories
- 269 |       7 |   Severe |    Evitable |    COC |      1 |  100.00 |  100.00 |        1 | coc_evitable_prevention_no_stories
- 270 |       9 |   Severe |    Evitable |    COC |      1 |  100.00 |   75.00 |        4 | coc_evitable_prevention_no_stories
- 271 |       0 |   Severe |  Inevitable |    COC |      1 |   75.00 |   75.00 |        4 | coc_inevitable_action_yes_stories
- 272 |       1 |   Severe |  Inevitable |    COC |      1 |   40.00 |   40.00 |        5 | coc_inevitable_action_yes_stories
- 273 |       2 |   Severe |  Inevitable |    COC |      1 |   50.00 |   50.00 |        2 | coc_inevitable_action_yes_stories
- 274 |       3 |   Severe |  Inevitable |    COC |      1 |    0.00 |    0.00 |        1 | coc_inevitable_action_yes_stories
- 275 |       4 |   Severe |  Inevitable |    COC |      1 |   66.67 |   66.67 |        3 | coc_inevitable_action_yes_stories
- 276 |       5 |   Severe |  Inevitable |    COC |      1 |    0.00 |    0.00 |        4 | coc_inevitable_action_yes_stories
- 277 |       6 |   Severe |  Inevitable |    COC |      1 |    0.00 |    0.00 |        2 | coc_inevitable_action_yes_stories
- 278 |       7 |   Severe |  Inevitable |    COC |      1 |    0.00 |    0.00 |        1 | coc_inevitable_action_yes_stories
- 279 |       8 |   Severe |  Inevitable |    COC |      1 |   75.00 |   75.00 |        4 | coc_inevitable_action_yes_stories
- 280 |       9 |   Severe |  Inevitable |    COC |      1 |    0.00 |    0.00 |        3 | coc_inevitable_action_yes_stories
+      0 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        4 | cc_evitable_action_yes_stories
+      1 |     Mild |    Evitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_evitable_action_yes_stories
+      2 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        2 | cc_evitable_action_yes_stories
+      3 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_action_yes_stories
+      4 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        2 | cc_evitable_action_yes_stories
+      5 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_action_yes_stories
+      6 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_action_yes_stories
+      7 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        2 | cc_evitable_action_yes_stories
+      8 |     Mild |    Evitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_evitable_action_yes_stories
+      9 |     Mild |    Evitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_evitable_action_yes_stories
+     10 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        2 | cc_evitable_action_yes_stories
+     11 |     Mild |    Evitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_evitable_action_yes_stories
+     12 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        4 | cc_evitable_action_yes_stories
+     13 |     Mild |    Evitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_evitable_action_yes_stories
+     14 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        4 | cc_evitable_action_yes_stories
+     15 |     Mild |    Evitable |     CC |      1 |  100.00 |   66.67 |        3 | cc_evitable_action_yes_stories
+     16 |     Mild |    Evitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_evitable_action_yes_stories
+     17 |     Mild |    Evitable |     CC |      1 |  100.00 |   66.67 |        3 | cc_evitable_action_yes_stories
+     18 |     Mild |    Evitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_evitable_action_yes_stories
+     19 |     Mild |    Evitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_evitable_action_yes_stories
+     20 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        2 | cc_evitable_action_yes_stories
+     21 |     Mild |    Evitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_evitable_action_yes_stories
+     22 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        4 | cc_evitable_action_yes_stories
+     23 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        5 | cc_evitable_action_yes_stories
+     24 |     Mild |    Evitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_evitable_action_yes_stories
+     25 |     Mild |    Evitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_evitable_action_yes_stories
+     26 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        8 | cc_evitable_action_yes_stories
+     27 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_action_yes_stories
+     28 |     Mild |    Evitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_evitable_action_yes_stories
+     29 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        4 | cc_evitable_action_yes_stories
+      0 |     Mild |    Evitable |     CC |      1 |  100.00 |   66.67 |        3 | cc_evitable_prevention_no_stories
+      1 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        5 | cc_evitable_prevention_no_stories
+      2 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_prevention_no_stories
+      5 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        7 | cc_evitable_prevention_no_stories
+      6 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        4 | cc_evitable_prevention_no_stories
+      8 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        2 | cc_evitable_prevention_no_stories
+      9 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        4 | cc_evitable_prevention_no_stories
+     11 |     Mild |    Evitable |     CC |      1 |  100.00 |   75.00 |        4 | cc_evitable_prevention_no_stories
+     12 |     Mild |    Evitable |     CC |      1 |  100.00 |   80.00 |        5 | cc_evitable_prevention_no_stories
+     13 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        5 | cc_evitable_prevention_no_stories
+     14 |     Mild |    Evitable |     CC |      1 |  100.00 |   66.67 |        6 | cc_evitable_prevention_no_stories
+     16 |     Mild |    Evitable |     CC |      1 |  100.00 |   50.00 |        4 | cc_evitable_prevention_no_stories
+     18 |     Mild |    Evitable |     CC |      1 |  100.00 |    0.00 |        1 | cc_evitable_prevention_no_stories
+     19 |     Mild |    Evitable |     CC |      1 |   50.00 |    0.00 |        2 | cc_evitable_prevention_no_stories
+     20 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_prevention_no_stories
+     21 |     Mild |    Evitable |     CC |      1 |  100.00 |   80.00 |        5 | cc_evitable_prevention_no_stories
+     24 |     Mild |    Evitable |     CC |      1 |  100.00 |    0.00 |        1 | cc_evitable_prevention_no_stories
+     28 |     Mild |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_prevention_no_stories
+     29 |     Mild |    Evitable |     CC |      1 |  100.00 |    0.00 |        1 | cc_evitable_prevention_no_stories
+      0 |     Mild |  Inevitable |     CC |      1 |   25.00 |   50.00 |        4 | cc_inevitable_action_yes_stories
+      1 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_inevitable_action_yes_stories
+      2 |     Mild |  Inevitable |     CC |      1 |    0.00 |   50.00 |        2 | cc_inevitable_action_yes_stories
+      3 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        2 | cc_inevitable_action_yes_stories
+      4 |     Mild |  Inevitable |     CC |      1 |   33.33 |  100.00 |        3 | cc_inevitable_action_yes_stories
+      5 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_inevitable_action_yes_stories
+      6 |     Mild |  Inevitable |     CC |      1 |  100.00 |    0.00 |        1 | cc_inevitable_action_yes_stories
+      7 |     Mild |  Inevitable |     CC |      1 |    0.00 |   50.00 |        2 | cc_inevitable_action_yes_stories
+      8 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_inevitable_action_yes_stories
+      9 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_inevitable_action_yes_stories
+     10 |     Mild |  Inevitable |     CC |      1 |    0.00 |   50.00 |        2 | cc_inevitable_action_yes_stories
+     11 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_inevitable_action_yes_stories
+     12 |     Mild |  Inevitable |     CC |      1 |   25.00 |   50.00 |        4 | cc_inevitable_action_yes_stories
+     13 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_inevitable_action_yes_stories
+     14 |     Mild |  Inevitable |     CC |      1 |   75.00 |  100.00 |        4 | cc_inevitable_action_yes_stories
+     15 |     Mild |  Inevitable |     CC |      1 |   25.00 |   25.00 |        4 | cc_inevitable_action_yes_stories
+     16 |     Mild |  Inevitable |     CC |      1 |    0.00 |   50.00 |        2 | cc_inevitable_action_yes_stories
+     17 |     Mild |  Inevitable |     CC |      1 |   33.33 |   66.67 |        3 | cc_inevitable_action_yes_stories
+     18 |     Mild |  Inevitable |     CC |      1 |    0.00 |  100.00 |        2 | cc_inevitable_action_yes_stories
+     19 |     Mild |  Inevitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_inevitable_action_yes_stories
+     20 |     Mild |  Inevitable |     CC |      1 |    0.00 |  100.00 |        3 | cc_inevitable_action_yes_stories
+     21 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_inevitable_action_yes_stories
+     22 |     Mild |  Inevitable |     CC |      1 |   33.33 |   66.67 |        3 | cc_inevitable_action_yes_stories
+     23 |     Mild |  Inevitable |     CC |      1 |   75.00 |   75.00 |        4 | cc_inevitable_action_yes_stories
+     24 |     Mild |  Inevitable |     CC |      1 |    0.00 |   50.00 |        2 | cc_inevitable_action_yes_stories
+     25 |     Mild |  Inevitable |     CC |      1 |   66.67 |   66.67 |        3 | cc_inevitable_action_yes_stories
+     26 |     Mild |  Inevitable |     CC |      1 |   50.00 |  100.00 |        6 | cc_inevitable_action_yes_stories
+     27 |     Mild |  Inevitable |     CC |      1 |   33.33 |  100.00 |        3 | cc_inevitable_action_yes_stories
+     28 |     Mild |  Inevitable |     CC |      1 |   33.33 |  100.00 |        3 | cc_inevitable_action_yes_stories
+     29 |     Mild |  Inevitable |     CC |      1 |   60.00 |  100.00 |        5 | cc_inevitable_action_yes_stories
+      0 |     Mild |  Inevitable |     CC |      1 |   50.00 |   50.00 |        6 | cc_inevitable_prevention_no_stories
+      1 |     Mild |  Inevitable |     CC |      1 |   75.00 |  100.00 |        4 | cc_inevitable_prevention_no_stories
+      2 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        1 | cc_inevitable_prevention_no_stories
+      3 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        1 | cc_inevitable_prevention_no_stories
+      4 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        1 | cc_inevitable_prevention_no_stories
+      5 |     Mild |  Inevitable |     CC |      1 |   60.00 |   80.00 |        5 | cc_inevitable_prevention_no_stories
+      6 |     Mild |  Inevitable |     CC |      1 |   60.00 |   60.00 |        5 | cc_inevitable_prevention_no_stories
+      7 |     Mild |  Inevitable |     CC |      1 |   33.33 |   33.33 |        3 | cc_inevitable_prevention_no_stories
+      8 |     Mild |  Inevitable |     CC |      1 |   57.14 |   57.14 |        7 | cc_inevitable_prevention_no_stories
+      9 |     Mild |  Inevitable |     CC |      1 |   40.00 |   20.00 |        5 | cc_inevitable_prevention_no_stories
+     10 |     Mild |  Inevitable |     CC |      1 |    0.00 |   33.33 |        3 | cc_inevitable_prevention_no_stories
+     11 |     Mild |  Inevitable |     CC |      1 |   57.14 |   42.86 |        7 | cc_inevitable_prevention_no_stories
+     12 |     Mild |  Inevitable |     CC |      1 |   50.00 |   33.33 |        6 | cc_inevitable_prevention_no_stories
+     13 |     Mild |  Inevitable |     CC |      1 |   40.00 |   40.00 |        5 | cc_inevitable_prevention_no_stories
+     14 |     Mild |  Inevitable |     CC |      1 |   62.50 |   50.00 |        8 | cc_inevitable_prevention_no_stories
+     15 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        3 | cc_inevitable_prevention_no_stories
+     16 |     Mild |  Inevitable |     CC |      1 |   66.67 |   66.67 |        6 | cc_inevitable_prevention_no_stories
+     17 |     Mild |  Inevitable |     CC |      1 |   80.00 |   40.00 |        5 | cc_inevitable_prevention_no_stories
+     18 |     Mild |  Inevitable |     CC |      1 |   33.33 |   33.33 |        3 | cc_inevitable_prevention_no_stories
+     19 |     Mild |  Inevitable |     CC |      1 |    0.00 |  100.00 |        2 | cc_inevitable_prevention_no_stories
+     20 |     Mild |  Inevitable |     CC |      1 |   60.00 |   40.00 |        5 | cc_inevitable_prevention_no_stories
+     21 |     Mild |  Inevitable |     CC |      1 |   75.00 |   75.00 |        4 | cc_inevitable_prevention_no_stories
+     22 |     Mild |  Inevitable |     CC |      1 |   33.33 |   33.33 |        3 | cc_inevitable_prevention_no_stories
+     23 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        1 | cc_inevitable_prevention_no_stories
+     24 |     Mild |  Inevitable |     CC |      1 |   66.67 |   33.33 |        3 | cc_inevitable_prevention_no_stories
+     25 |     Mild |  Inevitable |     CC |      1 |   83.33 |   50.00 |        6 | cc_inevitable_prevention_no_stories
+     26 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        1 | cc_inevitable_prevention_no_stories
+     27 |     Mild |  Inevitable |     CC |      1 |    0.00 |    0.00 |        2 | cc_inevitable_prevention_no_stories
+     28 |     Mild |  Inevitable |     CC |      1 |    0.00 |   40.00 |        5 | cc_inevitable_prevention_no_stories
+     29 |     Mild |  Inevitable |     CC |      1 |   66.67 |   33.33 |        3 | cc_inevitable_prevention_no_stories
+      0 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
+      1 |     Mild |    Evitable |    COC |      1 |  100.00 |   33.33 |        3 | coc_evitable_action_yes_stories
+      2 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
+      3 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        2 | coc_evitable_action_yes_stories
+      4 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        2 | coc_evitable_action_yes_stories
+      5 |     Mild |    Evitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_evitable_action_yes_stories
+      6 |     Mild |    Evitable |    COC |      1 |  100.00 |   66.67 |        3 | coc_evitable_action_yes_stories
+      7 |     Mild |    Evitable |    COC |      1 |  100.00 |   33.33 |        3 | coc_evitable_action_yes_stories
+      8 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
+      9 |     Mild |    Evitable |    COC |      1 |  100.00 |   33.33 |        3 | coc_evitable_action_yes_stories
+     11 |     Mild |    Evitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_evitable_action_yes_stories
+     12 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        1 | coc_evitable_action_yes_stories
+     13 |     Mild |    Evitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_evitable_action_yes_stories
+     14 |     Mild |    Evitable |    COC |      1 |  100.00 |   75.00 |        4 | coc_evitable_action_yes_stories
+     15 |     Mild |    Evitable |    COC |      1 |  100.00 |   33.33 |        3 | coc_evitable_action_yes_stories
+     16 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
+     17 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
+     18 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
+     19 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        2 | coc_evitable_action_yes_stories
+     20 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        1 | coc_evitable_action_yes_stories
+     21 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        4 | coc_evitable_action_yes_stories
+     22 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        2 | coc_evitable_action_yes_stories
+     23 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
+     24 |     Mild |    Evitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_evitable_action_yes_stories
+     25 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        2 | coc_evitable_action_yes_stories
+     26 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        4 | coc_evitable_action_yes_stories
+     27 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        3 | coc_evitable_action_yes_stories
+     28 |     Mild |    Evitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_evitable_action_yes_stories
+     29 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
+      0 |     Mild |    Evitable |    COC |      1 |  100.00 |   50.00 |        6 | coc_evitable_prevention_no_stories
+      3 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        1 | coc_evitable_prevention_no_stories
+      4 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        3 | coc_evitable_prevention_no_stories
+      5 |     Mild |    Evitable |    COC |      1 |  100.00 |   75.00 |        4 | coc_evitable_prevention_no_stories
+      6 |     Mild |    Evitable |    COC |      1 |  100.00 |    0.00 |        1 | coc_evitable_prevention_no_stories
+      7 |     Mild |    Evitable |    COC |      1 |  100.00 |   75.00 |        4 | coc_evitable_prevention_no_stories
+      8 |     Mild |    Evitable |    COC |      1 |  100.00 |   80.00 |        5 | coc_evitable_prevention_no_stories
+     10 |     Mild |    Evitable |    COC |      1 |  100.00 |   66.67 |        6 | coc_evitable_prevention_no_stories
+     11 |     Mild |    Evitable |    COC |      1 |  100.00 |   66.67 |        6 | coc_evitable_prevention_no_stories
+     12 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        1 | coc_evitable_prevention_no_stories
+     13 |     Mild |    Evitable |    COC |      1 |  100.00 |   83.33 |        6 | coc_evitable_prevention_no_stories
+     17 |     Mild |    Evitable |    COC |      1 |  100.00 |   83.33 |        6 | coc_evitable_prevention_no_stories
+     18 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        4 | coc_evitable_prevention_no_stories
+     19 |     Mild |    Evitable |    COC |      1 |  100.00 |   75.00 |        4 | coc_evitable_prevention_no_stories
+     20 |     Mild |    Evitable |    COC |      1 |  100.00 |   85.71 |        7 | coc_evitable_prevention_no_stories
+     22 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        5 | coc_evitable_prevention_no_stories
+     23 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        1 | coc_evitable_prevention_no_stories
+     24 |     Mild |    Evitable |    COC |      1 |  100.00 |   66.67 |        6 | coc_evitable_prevention_no_stories
+     25 |     Mild |    Evitable |    COC |      1 |  100.00 |   71.43 |        7 | coc_evitable_prevention_no_stories
+     26 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        2 | coc_evitable_prevention_no_stories
+     27 |     Mild |    Evitable |    COC |      1 |  100.00 |   75.00 |        4 | coc_evitable_prevention_no_stories
+     28 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        3 | coc_evitable_prevention_no_stories
+     29 |     Mild |    Evitable |    COC |      1 |  100.00 |  100.00 |        3 | coc_evitable_prevention_no_stories
+      0 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        3 | coc_inevitable_action_yes_stories
+      1 |     Mild |  Inevitable |    COC |      1 |   25.00 |   50.00 |        4 | coc_inevitable_action_yes_stories
+      2 |     Mild |  Inevitable |    COC |      1 |    0.00 |   50.00 |        2 | coc_inevitable_action_yes_stories
+      3 |     Mild |  Inevitable |    COC |      1 |    0.00 |   33.33 |        3 | coc_inevitable_action_yes_stories
+      4 |     Mild |  Inevitable |    COC |      1 |    0.00 |   33.33 |        3 | coc_inevitable_action_yes_stories
+      5 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_inevitable_action_yes_stories
+      6 |     Mild |  Inevitable |    COC |      1 |  100.00 |   33.33 |        3 | coc_inevitable_action_yes_stories
+      7 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        2 | coc_inevitable_action_yes_stories
+      8 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        1 | coc_inevitable_action_yes_stories
+      9 |     Mild |  Inevitable |    COC |      1 |   33.33 |   66.67 |        3 | coc_inevitable_action_yes_stories
+     11 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_inevitable_action_yes_stories
+     12 |     Mild |  Inevitable |    COC |      1 |   50.00 |   50.00 |        2 | coc_inevitable_action_yes_stories
+     13 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_inevitable_action_yes_stories
+     14 |     Mild |  Inevitable |    COC |      1 |   75.00 |   75.00 |        4 | coc_inevitable_action_yes_stories
+     15 |     Mild |  Inevitable |    COC |      1 |   33.33 |   33.33 |        3 | coc_inevitable_action_yes_stories
+     16 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        3 | coc_inevitable_action_yes_stories
+     17 |     Mild |  Inevitable |    COC |      1 |   50.00 |   50.00 |        4 | coc_inevitable_action_yes_stories
+     18 |     Mild |  Inevitable |    COC |      1 |   33.33 |   33.33 |        3 | coc_inevitable_action_yes_stories
+     19 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        1 | coc_inevitable_action_yes_stories
+     20 |     Mild |  Inevitable |    COC |      1 |   50.00 |    0.00 |        2 | coc_inevitable_action_yes_stories
+     21 |     Mild |  Inevitable |    COC |      1 |   50.00 |   50.00 |        2 | coc_inevitable_action_yes_stories
+     22 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        2 | coc_inevitable_action_yes_stories
+     23 |     Mild |  Inevitable |    COC |      1 |    0.00 |   33.33 |        3 | coc_inevitable_action_yes_stories
+     24 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_inevitable_action_yes_stories
+     25 |     Mild |  Inevitable |    COC |      1 |   33.33 |    0.00 |        3 | coc_inevitable_action_yes_stories
+     26 |     Mild |  Inevitable |    COC |      1 |  100.00 |   66.67 |        3 | coc_inevitable_action_yes_stories
+     27 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        1 | coc_inevitable_action_yes_stories
+     28 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        0 | coc_inevitable_action_yes_stories
+     29 |     Mild |  Inevitable |    COC |      1 |    0.00 |   50.00 |        2 | coc_inevitable_action_yes_stories
+      0 |     Mild |  Inevitable |    COC |      1 |   83.33 |   33.33 |        6 | coc_inevitable_prevention_no_stories
+      1 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        1 | coc_inevitable_prevention_no_stories
+      2 |     Mild |  Inevitable |    COC |      1 |   33.33 |   33.33 |        3 | coc_inevitable_prevention_no_stories
+      3 |     Mild |  Inevitable |    COC |      1 |   33.33 |   33.33 |        3 | coc_inevitable_prevention_no_stories
+      4 |     Mild |  Inevitable |    COC |      1 |   50.00 |   50.00 |        4 | coc_inevitable_prevention_no_stories
+      5 |     Mild |  Inevitable |    COC |      1 |   66.67 |   50.00 |        6 | coc_inevitable_prevention_no_stories
+      6 |     Mild |  Inevitable |    COC |      1 |   50.00 |   25.00 |        4 | coc_inevitable_prevention_no_stories
+      7 |     Mild |  Inevitable |    COC |      1 |  100.00 |   60.00 |        5 | coc_inevitable_prevention_no_stories
+      8 |     Mild |  Inevitable |    COC |      1 |   75.00 |   50.00 |        4 | coc_inevitable_prevention_no_stories
+      9 |     Mild |  Inevitable |    COC |      1 |    0.00 |   33.33 |        3 | coc_inevitable_prevention_no_stories
+     10 |     Mild |  Inevitable |    COC |      1 |   80.00 |   40.00 |        5 | coc_inevitable_prevention_no_stories
+     11 |     Mild |  Inevitable |    COC |      1 |   83.33 |   66.67 |        6 | coc_inevitable_prevention_no_stories
+     12 |     Mild |  Inevitable |    COC |      1 |   83.33 |   66.67 |        6 | coc_inevitable_prevention_no_stories
+     13 |     Mild |  Inevitable |    COC |      1 |   75.00 |   75.00 |        4 | coc_inevitable_prevention_no_stories
+     14 |     Mild |  Inevitable |    COC |      1 |   33.33 |   33.33 |        3 | coc_inevitable_prevention_no_stories
+     15 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        2 | coc_inevitable_prevention_no_stories
+     16 |     Mild |  Inevitable |    COC |      1 |   50.00 |    0.00 |        2 | coc_inevitable_prevention_no_stories
+     17 |     Mild |  Inevitable |    COC |      1 |   83.33 |   33.33 |        6 | coc_inevitable_prevention_no_stories
+     18 |     Mild |  Inevitable |    COC |      1 |   50.00 |    0.00 |        2 | coc_inevitable_prevention_no_stories
+     19 |     Mild |  Inevitable |    COC |      1 |   80.00 |   60.00 |        5 | coc_inevitable_prevention_no_stories
+     21 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        2 | coc_inevitable_prevention_no_stories
+     22 |     Mild |  Inevitable |    COC |      1 |   66.67 |   66.67 |        6 | coc_inevitable_prevention_no_stories
+     23 |     Mild |  Inevitable |    COC |      1 |    0.00 |    0.00 |        4 | coc_inevitable_prevention_no_stories
+     24 |     Mild |  Inevitable |    COC |      1 |   80.00 |   60.00 |        5 | coc_inevitable_prevention_no_stories
+     26 |     Mild |  Inevitable |    COC |      1 |   80.00 |   60.00 |        5 | coc_inevitable_prevention_no_stories
+     27 |     Mild |  Inevitable |    COC |      1 |   80.00 |   60.00 |        5 | coc_inevitable_prevention_no_stories
+     28 |     Mild |  Inevitable |    COC |      1 |   25.00 |   50.00 |        4 | coc_inevitable_prevention_no_stories
+     29 |     Mild |  Inevitable |    COC |      1 |   80.00 |   60.00 |        5 | coc_inevitable_prevention_no_stories
+      0 |   Severe |    Evitable |     CC |      1 |  100.00 |  100.00 |        4 | cc_evitable_action_yes_stories
+      1 |   Severe |    Evitable |     CC |      1 |  100.00 |   50.00 |        4 | cc_evitable_action_yes_stories
+      2 |   Severe |    Evitable |     CC |      1 |  100.00 |   75.00 |        4 | cc_evitable_action_yes_stories
+      3 |   Severe |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_action_yes_stories
+      4 |   Severe |    Evitable |     CC |      1 |  100.00 |  100.00 |        2 | cc_evitable_action_yes_stories
+      5 |   Severe |    Evitable |     CC |      1 |    0.00 |    0.00 |        0 | cc_evitable_action_yes_stories
+      6 |   Severe |    Evitable |     CC |      1 |  100.00 |   80.00 |        5 | cc_evitable_action_yes_stories
+      7 |   Severe |    Evitable |     CC |      1 |  100.00 |  100.00 |        6 | cc_evitable_action_yes_stories
+      8 |   Severe |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_action_yes_stories
+      9 |   Severe |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_action_yes_stories
+      1 |   Severe |    Evitable |     CC |      1 |  100.00 |   60.00 |        5 | cc_evitable_prevention_no_stories
+      2 |   Severe |    Evitable |     CC |      1 |  100.00 |    0.00 |        2 | cc_evitable_prevention_no_stories
+      3 |   Severe |    Evitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_evitable_prevention_no_stories
+      5 |   Severe |    Evitable |     CC |      1 |  100.00 |   42.86 |        7 | cc_evitable_prevention_no_stories
+      6 |   Severe |    Evitable |     CC |      1 |  100.00 |    0.00 |        2 | cc_evitable_prevention_no_stories
+      8 |   Severe |    Evitable |     CC |      1 |  100.00 |   50.00 |        2 | cc_evitable_prevention_no_stories
+      9 |   Severe |    Evitable |     CC |      1 |  100.00 |  100.00 |        3 | cc_evitable_prevention_no_stories
+      0 |   Severe |  Inevitable |     CC |      1 |   25.00 |  100.00 |        4 | cc_inevitable_action_yes_stories
+      1 |   Severe |  Inevitable |     CC |      1 |   50.00 |  100.00 |        2 | cc_inevitable_action_yes_stories
+      2 |   Severe |  Inevitable |     CC |      1 |   25.00 |   50.00 |        4 | cc_inevitable_action_yes_stories
+      3 |   Severe |  Inevitable |     CC |      1 |   75.00 |   50.00 |        4 | cc_inevitable_action_yes_stories
+      4 |   Severe |  Inevitable |     CC |      1 |   50.00 |   50.00 |        2 | cc_inevitable_action_yes_stories
+      5 |   Severe |  Inevitable |     CC |      1 |   33.33 |   66.67 |        3 | cc_inevitable_action_yes_stories
+      6 |   Severe |  Inevitable |     CC |      1 |    0.00 |   50.00 |        2 | cc_inevitable_action_yes_stories
+      7 |   Severe |  Inevitable |     CC |      1 |   80.00 |  100.00 |        5 | cc_inevitable_action_yes_stories
+      8 |   Severe |  Inevitable |     CC |      1 |   25.00 |  100.00 |        4 | cc_inevitable_action_yes_stories
+      9 |   Severe |  Inevitable |     CC |      1 |    0.00 |  100.00 |        1 | cc_inevitable_action_yes_stories
+      0 |   Severe |  Inevitable |     CC |      1 |   25.00 |   25.00 |        4 | cc_inevitable_prevention_no_stories
+      1 |   Severe |  Inevitable |     CC |      1 |   60.00 |   40.00 |        5 | cc_inevitable_prevention_no_stories
+      2 |   Severe |  Inevitable |     CC |      1 |   25.00 |   50.00 |        4 | cc_inevitable_prevention_no_stories
+      3 |   Severe |  Inevitable |     CC |      1 |   20.00 |   40.00 |        5 | cc_inevitable_prevention_no_stories
+      4 |   Severe |  Inevitable |     CC |      1 |   50.00 |   50.00 |        2 | cc_inevitable_prevention_no_stories
+      6 |   Severe |  Inevitable |     CC |      1 |   33.33 |   33.33 |        6 | cc_inevitable_prevention_no_stories
+      7 |   Severe |  Inevitable |     CC |      1 |   66.67 |   66.67 |        3 | cc_inevitable_prevention_no_stories
+      8 |   Severe |  Inevitable |     CC |      1 |    0.00 |   33.33 |        3 | cc_inevitable_prevention_no_stories
+      9 |   Severe |  Inevitable |     CC |      1 |   75.00 |   50.00 |        4 | cc_inevitable_prevention_no_stories
+      0 |   Severe |    Evitable |    COC |      1 |  100.00 |   66.67 |        3 | coc_evitable_action_yes_stories
+      1 |   Severe |    Evitable |    COC |      1 |  100.00 |   71.43 |        7 | coc_evitable_action_yes_stories
+      2 |   Severe |    Evitable |    COC |      1 |  100.00 |    0.00 |        1 | coc_evitable_action_yes_stories
+      3 |   Severe |    Evitable |    COC |      1 |  100.00 |    0.00 |        2 | coc_evitable_action_yes_stories
+      4 |   Severe |    Evitable |    COC |      1 |  100.00 |    0.00 |        3 | coc_evitable_action_yes_stories
+      5 |   Severe |    Evitable |    COC |      1 |  100.00 |    0.00 |        4 | coc_evitable_action_yes_stories
+      6 |   Severe |    Evitable |    COC |      1 |  100.00 |   60.00 |        5 | coc_evitable_action_yes_stories
+      7 |   Severe |    Evitable |    COC |      1 |  100.00 |    0.00 |        2 | coc_evitable_action_yes_stories
+      8 |   Severe |    Evitable |    COC |      1 |  100.00 |   50.00 |        2 | coc_evitable_action_yes_stories
+      9 |   Severe |    Evitable |    COC |      1 |  100.00 |    0.00 |        2 | coc_evitable_action_yes_stories
+      0 |   Severe |    Evitable |    COC |      1 |  100.00 |  100.00 |        1 | coc_evitable_prevention_no_stories
+      2 |   Severe |    Evitable |    COC |      1 |  100.00 |  100.00 |        4 | coc_evitable_prevention_no_stories
+      3 |   Severe |    Evitable |    COC |      1 |  100.00 |  100.00 |        3 | coc_evitable_prevention_no_stories
+      6 |   Severe |    Evitable |    COC |      1 |  100.00 |   83.33 |        6 | coc_evitable_prevention_no_stories
+      7 |   Severe |    Evitable |    COC |      1 |  100.00 |  100.00 |        1 | coc_evitable_prevention_no_stories
+      9 |   Severe |    Evitable |    COC |      1 |  100.00 |   75.00 |        4 | coc_evitable_prevention_no_stories
+      0 |   Severe |  Inevitable |    COC |      1 |   75.00 |   75.00 |        4 | coc_inevitable_action_yes_stories
+      1 |   Severe |  Inevitable |    COC |      1 |   40.00 |   40.00 |        5 | coc_inevitable_action_yes_stories
+      2 |   Severe |  Inevitable |    COC |      1 |   50.00 |   50.00 |        2 | coc_inevitable_action_yes_stories
+      3 |   Severe |  Inevitable |    COC |      1 |    0.00 |    0.00 |        1 | coc_inevitable_action_yes_stories
+      4 |   Severe |  Inevitable |    COC |      1 |   66.67 |   66.67 |        3 | coc_inevitable_action_yes_stories
+      5 |   Severe |  Inevitable |    COC |      1 |    0.00 |    0.00 |        4 | coc_inevitable_action_yes_stories
+      6 |   Severe |  Inevitable |    COC |      1 |    0.00 |    0.00 |        2 | coc_inevitable_action_yes_stories
+      7 |   Severe |  Inevitable |    COC |      1 |    0.00 |    0.00 |        1 | coc_inevitable_action_yes_stories
+      8 |   Severe |  Inevitable |    COC |      1 |   75.00 |   75.00 |        4 | coc_inevitable_action_yes_stories
+      9 |   Severe |  Inevitable |    COC |      1 |    0.00 |    0.00 |        3 | coc_inevitable_action_yes_stories
 
 ========================================================================================================================
 SUMMARY STATISTICS
