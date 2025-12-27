@@ -5,11 +5,17 @@ from scipy import stats
 import sys
 
 # Configuration
-CSV_FILE = 'tally_outputs/table_negutilonly_choice1only_skipmissingagent_skipmissingpatient/scenario_data_table.csv' # Path to the CSV file
+CSV_FILE = 'tally_outputs/table_negutilonly_choice1only_skipinvalids/scenario_data_table.csv' # Path to the CSV file
+# CSV_FILE = 'tally_outputs/table_negutilonly_bothchoices_skipinvalids/scenario_data_table.csv'
+# CSV_FILE = 'tally_outputs/table_negutilonly_choice1only_noskipinvalids/scenario_data_table.csv'
+# CSV_FILE = 'tally_outputs/table_negutilonly_bothchoices_noskipinvalids/scenario_data_table.csv'
+
+
 UITLITY_FILTER = 1 if "negutilonly" in CSV_FILE else None # Set to 1 to filter only negative utility rows, or None for all rows
 CHOICE_FILTER = 1 if "choice1only" in CSV_FILE else None # Set to 1 to filter only choice=1, or None for all rows
-OUTPUT_PLOT = 'frankenviolin_' + ('negutilonly_' if UITLITY_FILTER is not None else '') + ('choice1only' if CHOICE_FILTER is not None else 'bothchoices') + '.png'
-OUTPUT_STATS = 'Ttestanalysis-' + ('negutilonly_' if UITLITY_FILTER is not None else '') + ('choice1only' if CHOICE_FILTER is not None else 'bothchoices') + '.txt'
+INVALIDS_FILTER = ' noskipinvalids' in CSV_FILE  # True to skip invalids, False to include all
+OUTPUT_PLOT = 'violin_t-test_outputs/' + ('frankenviolin_' + ('negutilonly_' if UITLITY_FILTER is not None else '') + ('choice1only_' if CHOICE_FILTER is not None else 'bothchoices_') + ('noskipinvalids' if INVALIDS_FILTER else 'skipinvalids') + '.png')
+OUTPUT_STATS = 'violin_t-test_outputs/' + ('Ttestanalysis_' + ('negutilonly_' if UITLITY_FILTER is not None else '') + ('choice1only_' if CHOICE_FILTER is not None else 'bothchoices_') + ('noskipinvalids' if INVALIDS_FILTER else 'skipinvalids') + '.txt')
 
 
 def calculate_cohens_d(group1, group2):

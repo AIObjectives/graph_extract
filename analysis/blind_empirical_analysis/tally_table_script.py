@@ -16,8 +16,8 @@ from typing import Dict, List, Tuple
 EXCLUDE_NON_NEGATIVE_UTILITY = True  # Set to True to only include negative utility events
 
 # Skip files with missing beings
-SKIP_MISSING_AGENT = False           # Set to False to process files without I-being
-SKIP_MISSING_PATIENT = False       # Set to False to process files without non-I being
+SKIP_MISSING_AGENT = True           # Set to False to process files without I-being
+SKIP_MISSING_PATIENT = True       # Set to False to process files without non-I being
 
 # Choice processing
 PROCESS_ONLY_CHOICE_1 = False         # Set to True to only process choice 1 scenarios
@@ -378,7 +378,7 @@ def write_csv(rows: List[Dict], output_file: Path):
 def main():
     """Main function."""
     
-    base_path = Path("annotated_outputs/franken_annotated_outputs")
+    base_path = Path("../../annotated_outputs/franken_annotated_outputs")
     
     # Build output directory name based on configuration
     dir_parts = ["tally_outputs/table"]
@@ -392,11 +392,8 @@ def main():
     else:
         dir_parts.append("bothchoices")
     
-    if SKIP_MISSING_AGENT:
-        dir_parts.append("skipmissingagent")
-    
-    if SKIP_MISSING_PATIENT:
-        dir_parts.append("skipmissingpatient")
+    if SKIP_MISSING_AGENT and SKIP_MISSING_PATIENT:
+        dir_parts.append("skipinvalids")
 
     if not SKIP_MISSING_AGENT and not SKIP_MISSING_PATIENT:
         dir_parts.append("noskipinvalids")
