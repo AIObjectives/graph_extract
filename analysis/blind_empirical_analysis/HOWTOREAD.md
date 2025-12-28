@@ -17,4 +17,4 @@ With these filters, you will see output subfolders that indicate whether or not 
 
 3. `"...{skipinvalids/ noskipinvalids}..."` -- whether or not we discard all the graph outputs where there was no I-being or no non-I (patient) being.
 
-Therefore, the analysis done with the most exclusive set of annotator output data would have `"...negutilonly_choice1only_skipinvalids..."` in its subfolder name.
+**Therefore, the analysis done with the most exclusive set of annotator output data would have `"...negutilonly_choice1only_skipinvalids..."` in its subfolder name.**
