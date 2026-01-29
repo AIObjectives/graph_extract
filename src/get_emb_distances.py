@@ -109,7 +109,16 @@ def threshold_by_sim(item_list,threshold):
     # create a new Embeddings object
     E = Embedding(item_list)
 
-    emb_list = [E.get_embedding(x)['data'] for x in item_list]
+    # emb_list = [E.get_embedding(x)['data'] for x in item_list]
+    try:
+        emb_list = [E.get_embedding(x)['data'] for x in item_list]
+    except KeyError as e:
+        print(f"KeyError: {e}")
+        # Print what was actually returned
+        for x in item_list:
+            result = E.get_embedding(x)
+            print(f"Result for '{x}': {result}")
+        raise
     emb_vectors = [np.array(x[0]['embedding']) for x in emb_list]
     emb_array=np.array(emb_vectors)
     

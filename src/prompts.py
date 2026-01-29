@@ -189,6 +189,12 @@ def get_impacts_Ziv_noscenario(this_scenario, this_act, this_event, these_beings
 def get_being_links_Ziv_only_cause(this_scenario, this_act, this_event, this_being):
     
   system_prompt_content = f"""You are a helpful assistant who is an expert at understanding human situations. You will recieve a scenario about a person named Ziv, an action they decided to take, and an outcome that happened as a result. You will be asked to judge if Ziv caused the outcome. This means that the action they decided to take increased the probability of the outcome happening, and it would have been much less likely if they had not taken this action. Think step by step.  Return a json object with an entry named "results" containing a key with the name of the character, Ziv, and a value with either "yes" or "no" as to whether they caused the outcome."""
+  
+  ## making inevitability = non-causality explicit
+  # system_prompt_content = f"""You are a helpful assistant who is an expert at understanding human situations. You will recieve a scenario about a person named Ziv, an action they decided to take, and an outcome that happened as a result. You will be asked to judge if Ziv caused the outcome. This means that the action they decided to take increased the probability of the outcome happening. It would have been much less likely if they had not taken this action. If the outcome would have happened regardless of their action, then they did not cause it. Think step by step.  Return a json object with an entry named "results" containing a key with the name of the character, Ziv, and a value with either "yes" or "no" as to whether they caused the outcome."""
+
+  # system_prompt_content = f"""You are a helpful assistant who is an expert at understanding human situations. You will recieve a scenario about a person named Ziv, an action they decided to take, and an outcome that happened as a result. You will be asked to judge if Ziv caused the outcome. This means that the occurrence of the outcome is highly dependent on Ziv's action, and the outcome would not have happened without that action. If Ziv's decision to act or not to act has no effect on the probability of the outcome occurring, then Ziv did not cause the outcome. Think step by step.  Return a json object with an entry named "results" containing a key with the name of the character, Ziv, and a value with either "yes" or "no" as to whether they caused the outcome."""
+
 
   user_prompt_content = f"""Here is the scenario: {this_scenario} {this_act} Consider this outcome: {this_event} Supposing this outcome took place, is it likely that {this_being}'s action caused it?"""
 
@@ -202,6 +208,12 @@ def get_being_links_Ziv_only_intend(this_scenario, this_act, this_event, this_be
     
   system_prompt_content = f"""You are a helpful assistant who is an expert at understanding human situations. You will recieve a scenario about a person named Ziv, an action they decided to take, and an outcome that happened as a result. You will be asked to judge if Ziv intended the outcome when they took the action. This means Ziv took the action in order to bring about the outcome. Think step by step. Return a json object with an entry named "results" containing a key with the name of the character, Ziv, and a value with either "yes" or "no" as to whether they intended the outcome. """
 
+  ## making side-effect = non-intentional explicit
+  # system_prompt_content = f"""You are a helpful assistant who is an expert at understanding human situations. You will recieve a scenario about a person named Ziv, an action they decided to take, and an outcome that happened as a result. You will be asked to judge if Ziv intended the outcome when they took the action. This means that Ziv either took the action specifically to bring about the outcome (it was their goal), or knowing that the outcome was a necessary step to achieve their goal. If the outcome was merely incidental or a side-effect, then they did not intend it, even if they foresaw it. Think step by step. Return a json object with an entry named "results" containing a key with the name of the character, Ziv, and a value with either "yes" or "no" as to whether they intended the outcome. """
+
+  # system_prompt_content = f"""You are a helpful assistant who is an expert at understanding human situations. You will recieve a scenario about a person named Ziv, an action they decided to take, and an outcome that happened as a result. You will be asked to judge if Ziv intended the outcome when they took the action. This means that Ziv took the action specifically to bring about that outcome, i.e., it was their goal. If the outcome was merely incidental or a side-effect of Ziv's action, then they did not intend it, even if they foresaw it. Think step by step. Return a json object with an entry named "results" containing a key with the name of the character, Ziv, and a value with either "yes" or "no" as to whether they intended the outcome. """
+
+
   user_prompt_content = f"""Here is the scenario: {this_scenario} {this_act} Consider this possible outcome: {this_event} Did {this_being} intend this outcome to occur in taking their action?"""
 
   # print(user_prompt_content)       
@@ -214,6 +226,10 @@ def get_being_links_Ziv_only_intend(this_scenario, this_act, this_event, this_be
 def get_being_links_Ziv_only_know(this_scenario, this_act, this_event, this_being):
     
   system_prompt_content = f"""You are a helpful assistant who is an expert at understanding human situations. You will recieve a scenario about a person named Ziv, an action they decided to take, and an outcome that happened as a result. You will be asked to judge if Ziv expected this outcome to happen. This means that when Ziv took the action, they knew that the outcome would occur. Think step by step. Return a json object with an entry named "results" containing a key with the name of the character, Ziv, and a value with either "yes" or "no" as to whether they expected the outcome to happen."""
+
+  ## making reasonable CERTAINTY = knowledge explicit
+  # system_prompt_content = f"""You are a helpful assistant who is an expert at understanding human situations. You will recieve a scenario about a person named Ziv, an action they decided to take, and an outcome that happened as a result. You will be asked to judge if Ziv expected this outcome to happen. This means that when Ziv took the action, they knew with reasonable certainty that the outcome would occur, not just that it might possibly happen. Think step by step. Return a json object with an entry named "results" containing a key with the name of the character, Ziv, and a value with either "yes" or "no" as to whether they expected the outcome to happen."""
+
 
   user_prompt_content = f"""Here is the scenario: {this_scenario} {this_act} Consider this possible outcome: {this_event} Suppose the outcome did happen. Did {this_being} definitely know this outcome would occur when they took the action?"""
 

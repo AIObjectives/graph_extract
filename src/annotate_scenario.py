@@ -29,8 +29,7 @@ global config
 config = dotenv_values(".env")
 
 CUR_DIR = os.path.dirname(os.path.abspath(__name__))
-DATA_DIR = CUR_DIR+'/scenarios/'
-
+DATA_DIR = CUR_DIR+'/formatted_franken_scenarios/data/conditions_mild_harm_mild_good/'
 
 
 def fix_braces(this_list):
@@ -95,12 +94,12 @@ def process_beings(this_scenario,this_act,g):
   this_being_node = g.return_node("I")[0]
   act_node = g.add_node(node.Node(this_act,'action_choice'))
   # Link(kind,value):
-  this_link = g.add_link(node.Link('b-link','C+D+K+'))
+  this_link = g.add_link(node.Link('b-link','C+I+K+'))
   this_being_node.link_link(this_link,act_node)
 
   return [beings_fixed,beings_fixed_Ziv,beings_list]
 
-def process_value_simple(this_act,this_act_I, g):
+def process_values_simple(this_scenario, this_act_I, this_act, g):
    
 
   action_rating = prompts.score_action_simple(this_act_I)
@@ -220,11 +219,6 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
     beings_known_set = set(beings_fixed_Ziv)
     beings_found_list = list(impacts_Ziv.keys())
 
-    beings_found_list_I = []
-    for x in beings_found_list:
-      if(x!='I'):
-            x=x.lower()                
-      beings_found_list_I.append(prompts.convert_Ziv_I_item(x))
 
     beings_not_found = []
     for this_b in beings_found_list:
@@ -287,19 +281,25 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
     #convert item "Ziv" to "I" in beings_found_list
 
     try:
-        beings_found_list_I = [prompts.convert_Ziv_I_item(x) for x in beings_found_list]
+        beings_found_list_I = []
+        for x in beings_found_list:
+          if(x!='I'):
+                x=x.lower()                
+          beings_found_list_I.append(prompts.convert_Ziv_I_item(x))
+        # beings_found_list_I = [prompts.convert_Ziv_I_item(x) for x in beings_found_list]
     except:
        print('error with beings found list!')
        print(beings_found_list)
        beings_found_list_I=beings_found_list
 
     for being,score in zip(beings_found_list_I,scored_values):
-        # print(being)
-        # print(score)
-        # Link(kind,value):
         this_link = g.add_link(node.Link('utility',str(score)))
-        this_b_node = g.return_node(being.lstrip())[0]
-        # print(being)
+        # this_b_node = g.return_node(being.lstrip())[0]
+        # this_b_node = find_node_case_insensitive(g, being)
+        if g.return_node(being.lstrip()):
+            this_b_node = g.return_node(being.lstrip())[0]
+        else:
+            this_b_node = g.return_node(being.lstrip()[0].upper() + being.lstrip()[1:])[0]
         this_event_node = g.return_node(this_evt_I)[0]
         this_event_node.link_link(this_link,this_b_node)
         items_to_write = ",".join([this_evt_I,being,str(score)])
@@ -310,6 +310,7 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
 
 
   return(impacts_list,impacts_df)
+
 
 def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g):
    
@@ -381,7 +382,7 @@ def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g
     return all_links
 
 # scenario json must be a single line with scenario json with entries 'id', 'text', and 'options' {1:, 2: , etc}
-def main(scenario_json,output_filename,act_id,all_human_data):
+def main(scenario_json,output_filename,act_id):
    
    # validate the scenario json
     assert isinstance(scenario_json['id'],int)
@@ -423,11 +424,12 @@ def main(scenario_json,output_filename,act_id,all_human_data):
     #get all values and anti-values
 
     importlib.reload(prompts)
-    processed_values  = process_values(this_scenario, this_act_I, this_act,g) 
+    processed_values  = process_values_simple(this_scenario, this_act_I, this_act,g) 
+    print("\n processed values:" + str(processed_values))
 
-    all_values_scored = processed_values[0]
-    scenario_dict["values"]= processed_values[1]
-    print(processed_values[1])
+    # all_values_scored = processed_values[0]
+    # scenario_dict["values"]= processed_values[0]
+    # print(processed_values[1])
     
     #compare to human data
     #evaluate_values(processed_values,this_scenario, this_act_I, all_human_data)
@@ -439,6 +441,10 @@ def main(scenario_json,output_filename,act_id,all_human_data):
     # print("\n".join(events_I))         
     scenario_dict["outcomes"]= events_I
 
+    # # save graph to a file before calling impacts
+    # g_print = g.print_graph()
+    # utils.write_jsonlines('pre_impacts_g1', g_print)
+
     # #UTILITIES
     [impacts_list,impacts_df] = process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, events_I,beings_fixed_Ziv,g) 
 
@@ -447,7 +453,7 @@ def main(scenario_json,output_filename,act_id,all_human_data):
 
     # #write scenario dict as json for qualtrics output
     # this_output_filename_qual = 'qualtrics_'+output_filename+'_choice_'+str(act_id)+'.json'
-    # write_json(this_output_filename_qual,[scenario_dict])     
+    # utils.write_json(this_output_filename_qual,[scenario_dict])     
             
     this_output_filename = output_filename+'_choice_'+str(act_id)+'.json'
     print('\n\nWriting to file: '+this_output_filename)
@@ -459,7 +465,6 @@ def main(scenario_json,output_filename,act_id,all_human_data):
     print('\n\n')
 
     return (this_output_filename)
-
 
 
 
