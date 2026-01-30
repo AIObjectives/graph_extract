@@ -1,0 +1,16 @@
+"","outcome_name","link_type","annot_links","p1","p2","p3","p4","p6","p7","p8","p9","subj_mean","agreement_percentage","subj_se"
+"1","My financial strain may increase.","Cause",1,1,0,0,0,1,1,0,1,0.5,0.5,0.202030508910442
+"2","My financial strain may increase.","Intend",1,0,0,0,0,0,0,1,1,0.25,0.25,0.174963553055941
+"3","My financial strain may increase.","Expect",1,1,0,1,1,1,1,0,1,0.75,0.75,0.174963553055941
+"4","My relationship with my ex-partner may improve.","Cause",1,1,1,1,1,1,0,0,1,0.75,0.75,0.174963553055941
+"5","My relationship with my ex-partner may improve.","Intend",1,0,0,0,1,0,1,1,1,0.5,0.5,0.202030508910442
+"6","My relationship with my ex-partner may improve.","Expect",1,0,0,0,0,1,1,0,0,0.25,0.25,0.174963553055941
+"7","My son may be able to attend the summer camp for kids with epilepsy.","Cause",1,1,1,1,0,1,1,1,1,0.875,0.875,0.133630620956212
+"8","My son may be able to attend the summer camp for kids with epilepsy.","Intend",1,1,0,0,1,1,0,0,1,0.5,0.5,0.202030508910442
+"9","My son may be able to attend the summer camp for kids with epilepsy.","Expect",1,1,0,0,0,0,0,0,1,0.25,0.25,0.174963553055941
+"10","My ex-partner may experience reduced financial stress.","Cause",1,1,1,1,1,1,1,1,1,1,1,0
+"11","My ex-partner may experience reduced financial stress.","Intend",1,1,0,0,0,1,0,0,1,0.375,0.375,0.195615199108988
+"12","My ex-partner may experience reduced financial stress.","Expect",1,1,0,0,1,1,0,0,1,0.5,0.5,0.202030508910442
+"13","My involvement in my son's medical decisions may increase.","Cause",1,1,1,1,0,1,1,0,1,0.75,0.75,0.174963553055941
+"14","My involvement in my son's medical decisions may increase.","Intend",1,0,0,0,1,0,0,0,1,0.25,0.25,0.174963553055941
+"15","My involvement in my son's medical decisions may increase.","Expect",1,0,1,0,1,0,1,1,1,0.625,0.625,0.195615199108988

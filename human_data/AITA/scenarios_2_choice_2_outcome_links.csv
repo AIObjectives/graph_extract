@@ -1,0 +1,16 @@
+"","outcome_name","link_type","annot_links","p1","p10","p2","p3","p4","p5","p6","p7","p8","subj_mean","agreement_percentage","subj_se"
+"1","I arrive on time for my first day of work.","Cause",0,1,0,0,1,1,1,1,0,0,0.555555555555556,0.444444444444444,0.186338998124982
+"2","I arrive on time for my first day of work.","Intend",1,1,0,0,0,1,1,0,0,1,0.444444444444444,0.444444444444444,0.186338998124982
+"3","I arrive on time for my first day of work.","Expect",1,0,0,0,1,1,1,0,1,1,0.555555555555556,0.555555555555556,0.186338998124982
+"4","I avoid potentially upsetting my boss by being late.","Cause",1,1,1,0,0,1,1,0,1,1,0.666666666666667,0.666666666666667,0.176776695296637
+"5","I avoid potentially upsetting my boss by being late.","Intend",1,0,1,0,0,1,1,1,1,1,0.666666666666667,0.666666666666667,0.176776695296637
+"6","I avoid potentially upsetting my boss by being late.","Expect",1,0,0,0,1,0,1,0,0,1,0.333333333333333,0.333333333333333,0.176776695296637
+"7","The person who crashed may not receive immediate assistance from me.","Cause",0,1,1,1,1,1,1,0,1,0,0.777777777777778,0.222222222222222,0.155902391115581
+"8","The person who crashed may not receive immediate assistance from me.","Intend",0,0,1,1,1,1,1,0,0,1,0.666666666666667,0.333333333333333,0.176776695296637
+"9","The person who crashed may not receive immediate assistance from me.","Expect",1,0,1,1,0,0,1,1,1,0,0.555555555555556,0.555555555555556,0.186338998124982
+"10","I may experience feelings of guilt or regret for not stopping to help.","Cause",0,1,1,0,0,1,1,0,1,0,0.555555555555556,0.444444444444444,0.186338998124982
+"11","I may experience feelings of guilt or regret for not stopping to help.","Intend",0,0,0,0,0,1,0,0,0,1,0.222222222222222,0.777777777777778,0.155902391115581
+"12","I may experience feelings of guilt or regret for not stopping to help.","Expect",0,0,0,1,1,0,1,1,1,0,0.555555555555556,0.444444444444444,0.186338998124982
+"13","My relationship with my boss starts without the strain of being late on the first day.","Cause",1,1,1,1,0,1,1,1,1,0,0.777777777777778,0.777777777777778,0.155902391115581
+"14","My relationship with my boss starts without the strain of being late on the first day.","Intend",1,1,1,1,0,1,1,0,0,1,0.666666666666667,0.666666666666667,0.176776695296637
+"15","My relationship with my boss starts without the strain of being late on the first day.","Expect",0,1,1,1,1,1,1,0,1,1,0.888888888888889,0.111111111111111,0.117851130197758

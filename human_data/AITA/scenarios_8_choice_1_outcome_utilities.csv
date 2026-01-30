@@ -1,0 +1,16 @@
+"","annot_scores","p1","p2","p3","p4","p5","p6","p7","p8","p9","entity","outcome","subj_means","subj_se"
+"1",-30,0,1,72,0,0,0,0,2,70,"I","My son may not be able to attend the specialized summer camp for kids with epilepsy.",16.1111111111111,11.0063113207327
+"2",-50,-87,-100,-82,-81,-43,-70,-95,-100,-60,"our son","My son may not be able to attend the specialized summer camp for kids with epilepsy.",-79.7777777777778,6.78642435716744
+"3",0,-39,-83,-65,-72,-20,-40,-80,-100,-40,"she","My son may not be able to attend the specialized summer camp for kids with epilepsy.",-59.8888888888889,9.30296398406921
+"4",0,-1,25,15,0,0,0,-14,3,0,"I","My ex-partner may experience increased financial stress due to covering all medical and care expenses alone.",3.11111111111111,3.89087250997625
+"5",-20,-91,-100,100,-100,-78,-80,-100,-100,-30,"our son","My ex-partner may experience increased financial stress due to covering all medical and care expenses alone.",-64.3333333333333,23.1894372506105
+"6",-80,-100,-100,-96,-100,-78,-80,-100,-92,-80,"she","My ex-partner may experience increased financial stress due to covering all medical and care expenses alone.",-91.7777777777778,3.43592135468138
+"7",-50,-24,-50,23,-70,-50,-40,-30,-100,-30,"I","My relationship with my ex-partner may become more strained.",-41.2222222222222,11.9318085618047
+"8",-30,-100,-51,-95,-100,-85,-40,-100,-100,-100,"our son","My relationship with my ex-partner may become more strained.",-85.6666666666667,8.29344620769919
+"9",-50,-100,-100,-21,-100,-50,-40,-80,-100,-30,"she","My relationship with my ex-partner may become more strained.",-69,11.8532695911297
+"10",-80,-10,0,38,-100,0,0,0,-33,-10,"I","My son may not receive the most beneficial care and support for his condition due to financial constraints.",-12.7777777777778,13.2662374302421
+"11",-100,-100,-100,-98,0,-68,-80,-100,-100,-65,"our son","My son may not receive the most beneficial care and support for his condition due to financial constraints.",-79,11.6484977572217
+"12",0,-80,-100,-49,-100,-68,-40,-90,-36,-30,"she","My son may not receive the most beneficial care and support for his condition due to financial constraints.",-65.8888888888889,9.88123923852109
+"13",-40,0,0,23,-51,-21,0,-30,-91,-5,"I","My refusal to adjust my schedule may prevent me from being involved in important decisions or treatments for my son's health condition.",-19.4444444444444,12.1025708930881
+"14",-60,0,0,-100,-62,0,-60,-100,-99,-100,"our son","My refusal to adjust my schedule may prevent me from being involved in important decisions or treatments for my son's health condition.",-57.8888888888889,16.3386470948145
+"15",-20,0,-26,-29,-62,0,-40,-85,-50,-40,"she","My refusal to adjust my schedule may prevent me from being involved in important decisions or treatments for my son's health condition.",-36.8888888888889,9.71378602239564
