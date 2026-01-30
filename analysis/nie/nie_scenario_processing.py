@@ -5,9 +5,9 @@ import json
 import src.utils as utils
 
 # Establishing paths
-NIE_SCENARIO_DIR = Path().resolve() / "scenarios" / "nie_moral_stories"
+NIE_SCENARIO_DIR = Path().resolve() / "scenarios_inputs" / "nie" / "source"
 print(NIE_SCENARIO_DIR)
-scenarios_output_path = Path().resolve() / "scenarios"
+scenarios_output_path = Path().resolve() / "scenarios_inputs" / "nie" "
 print(scenarios_output_path)
 
 file_name = input("Enter output file name here: ").strip()

@@ -4,7 +4,7 @@ import json
 import src.utils as utils
 
 # Establishing paths
-scenarios_output_path = Path().resolve() / "scenarios"
+scenarios_output_path = Path().resolve() / "scenarios_inputs" / "nie"
 print(scenarios_output_path)
 
 with open(scenarios_output_path / "nie_scenarios.json", "r") as f:

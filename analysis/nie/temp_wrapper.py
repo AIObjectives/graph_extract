@@ -17,7 +17,7 @@ importlib.reload(translate_to_vis)
 #set main paths
 CUR_DIR = Path().resolve()
 print(f"current_path: {CUR_DIR}")
-SCENARIO_DIR = CUR_DIR / "scenarios"
+SCENARIO_DIR = CUR_DIR / "scenarios_inputs" / "nie" 
 DATA_DIR_HUMAN = CUR_DIR / "data" / "human_annotation"
 OUTPUT_DIR = CUR_DIR / "annotated_outputs"
 
