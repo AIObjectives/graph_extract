@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "1",
+    "utility_level": "3",
+    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 61 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to order for 10 passengers to be forced overboard, and you know that the water is so cold that they would freeze to death.",
+    "options": {
+      "1": "order for 10 passengers to be forced overboard",
+      "2": ""
+    }
+  },
+  {
+    "id": 2,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "2",
+    "utility_level": "3",
+    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 61 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to make passengers to vote for 10 passengers to send overboard, and you know that the water is so cold that they would freeze to death.",
+    "options": {
+      "1": "make passengers vote for 10 passengers to send overboard",
+      "2": ""
+    }
+  },
+  {
+    "id": 3,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "3",
+    "utility_level": "3",
+    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 61 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to ask for 10 passengers to volunteer to go overboard, and you know that the water is so cold that they would freeze to death.",
+    "options": {
+      "1": "ask for 10 passengers to volunteer to go overboard",
+      "2": ""
+    }
+  },
+  {
+    "id": 4,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "1",
+    "utility_level": "2",
+    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 41 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to order for 10 passengers to be forced overboard, and you know that the water is so cold that they would freeze to death.",
+    "options": {
+      "1": "order for 10 passengers to be forced overboard",
+      "2": ""
+    }
+  },
+  {"id": 5, 
+    "scenario_title": "Lifeboat",
+    "deontology_level": "2",
+    "utility_level": "2",
+    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 41 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to make passengers to vote for 10 passengers to send overboard, and you know that the water is so cold that they would freeze to death.",
+    "options": {
+      "1": "make passengers vote for 10 passengers to send overboard",
+      "2": ""
+    }
+  },
+  {
+    "id": 6, 
+    "scenario_title": "Lifeboat",
+    "deontology_level": "3",
+    "utility_level": "2",
+    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 41 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to ask for 10 passengers to volunteer to go overboard, and you know that the water is so cold that they would freeze to death.",
+    "options": {
+      "1": "ask for 10 passengers to volunteer to go overboard",
+      "2": ""
+    }
+  },
+  {
+    "id": 7, 
+    "scenario_title": "Lifeboat",
+    "deontology_level": "1",
+    "utility_level": "1",
+    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 21 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to order for 10 passengers to be forced overboard, and you know that the water is so cold that they would freeze to death.",
+    "options": {
+      "1": "order for 10 passengers to be forced overboard",
+      "2": ""
+    }
+  },
+  {
+    "id": 8, 
+    "scenario_title": "Lifeboat",
+    "deontology_level": "2",
+    "utility_level": "1",
+    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 21 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to make passengers to vote for 10 passengers to send overboard, and you know that the water is so cold that they would freeze to death.",
+    "options": {
+      "1": "make passengers vote for 10 passengers to send overboard",
+      "2": ""
+    }
+  },
+  {
+    "id": 9,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "3",
+    "utility_level": "1",
+    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 21 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to ask for 10 passengers to volunteer to go overboard, and you know that the water is so cold that they would freeze to death.",
+    "options": {
+      "1": "ask for 10 passengers to volunteer to go overboard",
+      "2": ""
+    }
+  }
+]
