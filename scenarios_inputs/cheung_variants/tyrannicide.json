@@ -6,7 +6,7 @@
     "utility_level": "3",
     "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who has had thousands of people killed because of their ethnicity or their political views. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to kill the dictator in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to ambush and kill the dictator. If you kill the dictator, the people in your country will have a chance for a new start. If you do not kill him, the regime will continue its killings.",
     "options": {
-      "1": "ambush and kill the dictator",
+      "1": "kill the dictator",
       "2": ""
     }
   },
@@ -18,7 +18,7 @@
     "utility_level": "3",
     "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who has had thousands of people killed because of their ethnicity or their political views. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to kidnap the dictator in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to kidnap and torture the dictator to make him end his regime. If you torture the dictator, the people in your country will have a chance for a new start. If you do not torture him, the regime will continue its killings.",
     "options": {
-      "1": "kidnap and torture the dictator",
+      "1": "torture the dictator",
       "2": ""
     }
   },
