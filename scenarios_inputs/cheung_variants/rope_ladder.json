@@ -1,92 +1,167 @@
 [
   {
+    "id": 1,
     "scenario_title": "Rope Ladder",
     "deontology_level": "1",
     "utility_level": "3",
-    "scenario_text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and many other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck, looking at the 20 other passengers making their way up behind you. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. You try to speak and reach to him, but he does not react. People behind you are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. You have a gun in your possession. From the crowd below, someone shouts that you should shoot the man to make him fall off. If you shoot the man, he will probably die, but the 20 other people will be able to climb on deck. If you do not shoot the man, he will probably continue blocking the way so that many of the people behind you will not be able to get on deck and therefore will drown."
+    "text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and many other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck, looking at the 20 other passengers making their way up behind you. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. You try to speak and reach to him, but he does not react. People behind you are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. You have a gun in your possession. From the crowd below, someone shouts that you should shoot the man to make him fall off. If you shoot the man, he will probably die, but the 20 other people will be able to climb on deck. If you do not shoot the man, he will probably continue blocking the way so that many of the people behind you will not be able to get on deck and therefore will drown.",
+    "options": {
+      "1": "shoot the man",
+      "2": ""
+    }
   },
   {
+    "id": 2, 
     "scenario_title": "Rope Ladder",
     "deontology_level": "2",
     "utility_level": "3",
-    "scenario_text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and many other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck, looking at the 20 other passengers making their way up behind you. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. You try to speak and reach to him, but he does not react. People behind you are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. From the crowd below, someone shouts that you should push the man off. If you push the man off the ladder, he will probably die, but the 20 other people will be able to climb on deck. If you do not push the man off the ladder, he will probably continue blocking the way so that many of the people behind you will not be able to get on deck and therefore will drown."
+    "text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and many other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck, looking at the 20 other passengers making their way up behind you. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. You try to speak and reach to him, but he does not react. People behind you are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. From the crowd below, someone shouts that you should push the man off. If you push the man off the ladder, he will probably die, but the 20 other people will be able to climb on deck. If you do not push the man off the ladder, he will probably continue blocking the way so that many of the people behind you will not be able to get on deck and therefore will drown.",
+    "options": {
+      "1": "push the man off the ladder",
+      "2": ""
+    }
   },
   {
+    "id": 3,
     "scenario_title": "Rope Ladder",
     "deontology_level": "3",
     "utility_level": "3",
-    "scenario_text": ""
+    "text": "",
+    "options": {
+      "1": "do nothing",
+      "2": ""
+    }
   },
   {
+    "id": 4,
     "scenario_title": "Rope Ladder",
     "deontology_level": "4",
     "utility_level": "3",
-    "scenario_text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and many other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck, looking at the 20 other passengers making their way up behind you. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. You try to speak and reach to him, but he does not react. People behind you are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. From the crowd below, someone shouts that you should climb back down to help the man up. If you climb back down and physically help the man up the ladder, the 20 other people will be able to climb on deck. If you do not climb back down and physically help the man up the ladder, he will probably continue blocking the way so that many of the people behind you will not be able to get on deck and therefore will drown."
+    "text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and many other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck, looking at the 20 other passengers making their way up behind you. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. You try to speak and reach to him, but he does not react. People behind you are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. From the crowd below, someone shouts that you should climb back down to help the man up. If you climb back down and physically help the man up the ladder, the 20 other people will be able to climb on deck. If you do not climb back down and physically help the man up the ladder, he will probably continue blocking the way so that many of the people behind you will not be able to get on deck and therefore will drown.",
+    "options": {
+      "1": "climb back down and physically help the man up the ladder",
+      "2": ""
+    }
   },
   {
+    "id": 5,
     "scenario_title": "Rope Ladder",
     "deontology_level": "5",
     "utility_level": "3",
-    "scenario_text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and many other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck, looking at the 20 other passengers making their way up behind you. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. You try to speak and reach to him, but he does not react. People behind you are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. From the crowd below, someone shouts that people should come together to help the man. If you rally others on the deck to help you pull the man up the ladder, the 20 other people will be able to climb on deck. If you do not rally others on the deck to help you pull the man up the ladder, he will probably continue blocking the way so that many of the people behind you will not be able to get on deck and therefore will drown."
+    "text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and many other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck, looking at the 20 other passengers making their way up behind you. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. You try to speak and reach to him, but he does not react. People behind you are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. From the crowd below, someone shouts that people should come together to help the man. If you rally others on the deck to help you pull the man up the ladder, the 20 other people will be able to climb on deck. If you do not rally others on the deck to help you pull the man up the ladder, he will probably continue blocking the way so that many of the people behind you will not be able to get on deck and therefore will drown.",
+    "options": {
+      "1": "rally others on the deck to help pull the man up the ladder",
+      "2": ""
+    }
   },
   {
+    "id": 6,
     "scenario_title": "Rope Ladder",
     "deontology_level": "1",
     "utility_level": "2",
-    "scenario_text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and some other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck, looking at the 5 other passengers making their way up behind you. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. You try to speak and reach to him, but he does not react. People behind you are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. You have a gun in your possession. From the crowd below, someone shouts that you should shoot the man to make him fall off. If you shoot the man, he will probably die, but the 5 other people will be able to climb on deck. If you do not shoot the man, he will probably continue blocking the way so that many of the people behind you will not be able to get on deck and therefore will drown."
+    "text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and some other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck, looking at the 5 other passengers making their way up behind you. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. You try to speak and reach to him, but he does not react. People behind you are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. You have a gun in your possession. From the crowd below, someone shouts that you should shoot the man to make him fall off. If you shoot the man, he will probably die, but the 5 other people will be able to climb on deck. If you do not shoot the man, he will probably continue blocking the way so that many of the people behind you will not be able to get on deck and therefore will drown.",
+    "options": {
+      "1": "shoot the man",
+      "2": ""
+    }
   },
   {
+    "id": 7,
     "scenario_title": "Rope Ladder",
     "deontology_level": "2",
     "utility_level": "2",
-    "scenario_text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and some other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck, looking at the 5 other passengers making their way up behind you. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. You try to speak and reach to him, but he does not react. People behind you are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. From the crowd below, someone shouts that you should push the man off. If you push the man off the ladder, he will probably die, but the 5 other people will be able to climb on deck. If you do not push the man off the ladder, he will probably continue blocking the way so that many of the people behind you will not be able to get on deck and therefore will drown."
+    "text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and some other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck, looking at the 5 other passengers making their way up behind you. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. You try to speak and reach to him, but he does not react. People behind you are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. From the crowd below, someone shouts that you should push the man off. If you push the man off the ladder, he will probably die, but the 5 other people will be able to climb on deck. If you do not push the man off the ladder, he will probably continue blocking the way so that many of the people behind you will not be able to get on deck and therefore will drown.",
+    "options": {
+      "1": "push the man off the ladder",
+      "2": ""
+    }
   },
   {
+    "id": 8,
     "scenario_title": "Rope Ladder",
     "deontology_level": "3",
     "utility_level": "2",
-    "scenario_text": ""
+    "text": "",
+    "options": {
+      "1": "do nothing",
+      "2": ""
+    }
   },
   {
+    "id": 9,
     "scenario_title": "Rope Ladder",
     "deontology_level": "4",
     "utility_level": "2",
-    "scenario_text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and some other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck, looking at the 5 other passengers making their way up behind you. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. You try to speak and reach to him, but he does not react. People behind you are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. From the crowd below, someone shouts that you should climb back down to help the man up. If you climb back down and physically help the man up the ladder, the 5 other people will be able to climb on deck. If you do not climb back down and physically help the man up the ladder, he will probably continue blocking the way so that many of the people behind you will not be able to get on deck and therefore will drown."
+    "text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and some other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck, looking at the 5 other passengers making their way up behind you. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. You try to speak and reach to him, but he does not react. People behind you are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. From the crowd below, someone shouts that you should climb back down to help the man up. If you climb back down and physically help the man up the ladder, the 5 other people will be able to climb on deck. If you do not climb back down and physically help the man up the ladder, he will probably continue blocking the way so that many of the people behind you will not be able to get on deck and therefore will drown.",
+    "options": {
+      "1": "climb back down and physically help the man up the ladder",
+      "2": ""
+    }
   },
   {
+    "id": 10,
     "scenario_title": "Rope Ladder",
     "deontology_level": "5",
     "utility_level": "2",
-    "scenario_text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and some other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck, looking at the 5 other passengers making their way up behind you. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. You try to speak and reach to him, but he does not react. People behind you are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. From the crowd below, someone shouts that people should come together to help the man. If you rally others on the deck to help you pull the man up the ladder, the 5 other people will be able to climb on deck. If you do not rally others on the deck to help you pull the man up the ladder, he will probably continue blocking the way so that many of the people behind you will not be able to get on deck and therefore will drown."
+    "text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and some other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck, looking at the 5 other passengers making their way up behind you. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. You try to speak and reach to him, but he does not react. People behind you are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. From the crowd below, someone shouts that people should come together to help the man. If you rally others on the deck to help you pull the man up the ladder, the 5 other people will be able to climb on deck. If you do not rally others on the deck to help you pull the man up the ladder, he will probably continue blocking the way so that many of the people behind you will not be able to get on deck and therefore will drown.",
+    "options": {
+      "1": "rally others on the deck to help pull the man up the ladder",
+      "2": ""
+    }
   },
   {
+    "id": 11,
     "scenario_title": "Rope Ladder",
     "deontology_level": "1",
     "utility_level": "1",
-    "scenario_text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and some other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is stuck there. You try to speak and reach to him, but he does not react. The ship seems to be sinking fast and the man is still stuck at the ladder. From the crowd on the deck, someone shouts that you should shoot the man to make him fall off. If you shoot the man, he will probably die. If you do not shoot the man, he will probably continue being stuck there."
+    "text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and some other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is stuck there. You try to speak and reach to him, but he does not react. The ship seems to be sinking fast and the man is still stuck at the ladder. From the crowd on the deck, someone shouts that you should shoot the man to make him fall off. If you shoot the man, he will probably die. If you do not shoot the man, he will probably continue being stuck there.",
+    "options": {
+      "1": "shoot the man",
+      "2": ""
+    }
   },
   {
+    "id": 12,
     "scenario_title": "Rope Ladder",
     "deontology_level": "2",
     "utility_level": "1",
-    "scenario_text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and some other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is stuck there. You try to speak and reach to him, but he does not react. The ship seems to be sinking fast and the man is still stuck at the ladder. From the crowd on the deck, someone shouts that you should push the man off. If you push the man off the ladder, he will probably die. If you do not push the man off the ladder, he will probably continue being stuck there."
+    "text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and some other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is stuck there. You try to speak and reach to him, but he does not react. The ship seems to be sinking fast and the man is still stuck at the ladder. From the crowd on the deck, someone shouts that you should push the man off. If you push the man off the ladder, he will probably die. If you do not push the man off the ladder, he will probably continue being stuck there.",
+    "options": {
+      "1": "push the man off the ladder",
+      "2": ""
+    }
   },
   {
+    "id": 13,
     "scenario_title": "Rope Ladder",
     "deontology_level": "3",
     "utility_level": "1",
-    "scenario_text": ""
+    "text": "",
+    "options": {
+      "1": "do nothing",
+      "2": ""
+    }
   },
   {
+    "id": 14,
     "scenario_title": "Rope Ladder",
     "deontology_level": "4",
     "utility_level": "1",
-    "scenario_text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and some other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is stuck there. You try to speak and reach to him, but he does not react. The ship seems to be sinking fast and the man is still stuck at the ladder. From the crowd on the deck, someone shouts that you should climb back down to help the man up. If you climb back down and physically help the man up the ladder, the man will make it to the deck. If you do not climb back down and physically help the man up the ladder, he will probably continue being stuck there."
+    "text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and some other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is stuck there. You try to speak and reach to him, but he does not react. The ship seems to be sinking fast and the man is still stuck at the ladder. From the crowd on the deck, someone shouts that you should climb back down to help the man up. If you climb back down and physically help the man up the ladder, the man will make it to the deck. If you do not climb back down and physically help the man up the ladder, he will probably continue being stuck there.",
+    "options": {
+      "1": "climb back down and physically help the man up the ladder",
+      "2": ""
+    }
   },
   {
+    "id": 15,
     "scenario_title": "Rope Ladder",
     "deontology_level": "5",
     "utility_level": "1",
-    "scenario_text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and some other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is stuck there. You try to speak and reach to him, but he does not react. The ship seems to be sinking fast and the man is still stuck at the ladder. From the crowd on the deck, someone shouts that people should come together to help the man. If you rally others on the deck to help you pull the man up the ladder, the man will make it to the deck. If you do not rally others on the deck to help you pull the man up the ladder, he will probably continue being stuck there."
+    "text": "It is 1987 and you are on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. You and some other passengers are trying to get to the deck by a rope ladder. You climb up the ladder and stand on the deck. Directly below you, a man who is midway up the ladder seems frozen into immobility by fear or cold and is stuck there. You try to speak and reach to him, but he does not react. The ship seems to be sinking fast and the man is still stuck at the ladder. From the crowd on the deck, someone shouts that people should come together to help the man. If you rally others on the deck to help you pull the man up the ladder, the man will make it to the deck. If you do not rally others on the deck to help you pull the man up the ladder, he will probably continue being stuck there.",
+    "options": {
+      "1": "rally others on the deck to help pull the man up the ladder",
+      "2": ""
+    }
   }
 ]
