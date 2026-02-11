@@ -34,8 +34,74 @@
     }
   },
   {
-    
     "id": 4,
+    "scenario_title": "Tyrannicide",
+    "deontology_level": "1",
+    "utility_level": "2",
+    "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who enforces an oppressive regime but has no intention of killing dissenters. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to kill the dictator in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to ambush and kill the dictator. If you kill the dictator, the people in your country will have a chance for a new start. If you do not kill him, the regime will continue.",
+    "options": {
+      "1": "ambush and kill the dictator",
+      "2": ""
+    }
+  },
+  {
+    "id": 5,
+    "scenario_title": "Tyrannicide",
+    "deontology_level": "2",
+    "utility_level": "2",
+    "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who enforces an oppressive regime but has no intention of killing dissenters. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to kidnap the dictator in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to kidnap and torture the dictator to make him end his regime. If you torture the dictator, the people in your country will have a chance for a new start. If you do not torture him, the regime will continue.",
+    "options": {
+      "1": "kidnap and torture the dictator",
+      "2": ""
+    }
+  },
+  {
+    "id": 6,
+    "scenario_title": "Tyrannicide",
+    "deontology_level": "3",
+    "utility_level": "2",
+    "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who enforces an oppressive regime but has no intention of killing dissenters. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to take the dictator into custody in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to take the dictator into custody. If you take the dictator into custody, the people in your country will have a chance for a new start. If you do not take him into custody, the regime will continue.",
+    "options": {
+      "1": "take the dictator into custody",
+      "2": ""
+    }
+  },
+  {
+    "id": 7,
+    "scenario_title": "Tyrannicide",
+    "deontology_level": "1",
+    "utility_level": "1",
+    "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who enforces a controversial but nonlethal regime that has about half of the country's support. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to kill the dictator in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to ambush and kill the dictator. If you kill the dictator, the people in your country will have a chance for a new start. If you do not kill him, the regime will continue.",
+    "options": {
+      "1": "ambush and kill the dictator",
+      "2": ""
+    }
+  },
+  {
+    "id": 8,
+    "scenario_title": "Tyrannicide",
+    "deontology_level": "2",
+    "utility_level": "1",
+    "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who enforces a controversial but nonlethal regime that has about half of the country's support. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to kidnap the dictator in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to kidnap and torture the dictator to make him end his regime. If you torture the dictator, the people in your country will have a chance for a new start. If you do not torture him, the regime will continue.",
+    "options": {
+      "1": "kidnap and torture the dictator",
+      "2": ""
+    }
+  },
+  {
+    "id": 9,
+    "scenario_title": "Tyrannicide",
+    "deontology_level": "3",
+    "utility_level": "1",
+    "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who enforces a controversial but nonlethal regime that has about half of the country's support. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to take the dictator into custody in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to take the dictator into custody. If you take the dictator into custody, the people in your country will have a chance for a new start. If you do not take him into custody, the regime will continue.",
+    "options": {
+      "1": "take the dictator into custody",
+      "2": ""
+    }
+  },
+  {
+    
+    "id": 10,
     "scenario_title": "Tyrannicide",
     "deontology_level": "4",
     "utility_level": "3",
@@ -47,7 +113,7 @@
   },
   {
     
-    "id": 5,
+    "id": 11,
     "scenario_title": "Tyrannicide",
     "deontology_level": "5",
     "utility_level": "3",
@@ -58,40 +124,7 @@
     }
   },
   {
-    "id": 6,
-    "scenario_title": "Tyrannicide",
-    "deontology_level": "1",
-    "utility_level": "2",
-    "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who enforces an oppressive regime but has no intention of killing dissenters. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to kill the dictator in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to ambush and kill the dictator. If you kill the dictator, the people in your country will have a chance for a new start. If you do not kill him, the regime will continue.",
-    "options": {
-      "1": "ambush and kill the dictator",
-      "2": ""
-    }
-  },
-  {
-    "id": 7,
-    "scenario_title": "Tyrannicide",
-    "deontology_level": "2",
-    "utility_level": "2",
-    "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who enforces an oppressive regime but has no intention of killing dissenters. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to kidnap the dictator in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to kidnap and torture the dictator to make him end his regime. If you torture the dictator, the people in your country will have a chance for a new start. If you do not torture him, the regime will continue.",
-    "options": {
-      "1": "kidnap and torture the dictator",
-      "2": ""
-    }
-  },
-  {
-    "id": 8,
-    "scenario_title": "Tyrannicide",
-    "deontology_level": "3",
-    "utility_level": "2",
-    "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who enforces an oppressive regime but has no intention of killing dissenters. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to take the dictator into custody in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to take the dictator into custody. If you take the dictator into custody, the people in your country will have a chance for a new start. If you do not take him into custody, the regime will continue.",
-    "options": {
-      "1": "take the dictator into custody",
-      "2": ""
-    }
-  },
-  {
-    "id": 9,
+    "id": 12,
     "scenario_title": "Tyrannicide",
     "deontology_level": "4",
     "utility_level": "2",
@@ -102,7 +135,7 @@
     }
   },
   {
-    "id": 10,
+    "id": 13,
     "scenario_title": "Tyrannicide",
     "deontology_level": "5",
     "utility_level": "2",
@@ -113,44 +146,11 @@
     }
   },
   {
-    "id": 11,
-    "scenario_title": "Tyrannicide",
-    "deontology_level": "1",
-    "utility_level": "1",
-    "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who enforces a controversial regime that some believe will help the country and others believe will harm the country. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to kill the dictator in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to ambush and kill the dictator. If you kill the dictator, the people in your country will have a chance for a new start. If you do not kill him, the regime will continue.",
-    "options": {
-      "1": "ambush and kill the dictator",
-      "2": ""
-    }
-  },
-  {
-    "id": 12,
-    "scenario_title": "Tyrannicide",
-    "deontology_level": "2",
-    "utility_level": "1",
-    "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who enforces a controversial regime that some believe will help the country and others believe will harm the country. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to kidnap the dictator in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to kidnap and torture the dictator to make him end his regime. If you torture the dictator, the people in your country will have a chance for a new start. If you do not torture him, the regime will continue.",
-    "options": {
-      "1": "kidnap and torture the dictator",
-      "2": ""
-    }
-  },
-  {
-    "id": 13,
-    "scenario_title": "Tyrannicide",
-    "deontology_level": "3",
-    "utility_level": "1",
-    "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who enforces a controversial regime that some believe will help the country and others believe will harm the country. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to take the dictator into custody in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to take the dictator into custody. If you take the dictator into custody, the people in your country will have a chance for a new start. If you do not take him into custody, the regime will continue.",
-    "options": {
-      "1": "take the dictator into custody",
-      "2": ""
-    }
-  },
-  {
     "id": 14,
     "scenario_title": "Tyrannicide",
     "deontology_level": "4",
     "utility_level": "1",
-    "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who enforces a controversial regime that some believe will help the country and others believe will harm the country. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to confront the dictator in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to confront the dictator and convince him to end his regime. If you convince the dictator, the people in your country will have a chance for a new start. If you do not convince him, the regime will continue.",
+    "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who enforces a controversial but nonlethal regime that has about half of the country's support. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to confront the dictator in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to confront the dictator and convince him to end his regime. If you convince the dictator, the people in your country will have a chance for a new start. If you do not convince him, the regime will continue.",
     "options": {
       "1": "confront the dictator and convince him to end his regime",
       "2": ""
@@ -161,7 +161,7 @@
     "scenario_title": "Tyrannicide",
     "deontology_level": "5",
     "utility_level": "1",
-    "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who enforces a controversial regime that some believe will help the country and others believe will harm the country. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to meet with the dictator in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to arrange a meeting with the dictator and make a deal to end his regime. If you make a deal with the dictator, the people in your country will have a chance for a new start. If you do not make a deal with him, the regime will continue.",
+    "text": "You are an army officer in the Dominican Republic in 1961. For decades now, your country has been governed by a dictator who enforces a controversial but nonlethal regime that has about half of the country's support. You are a member of a group that wants a new start for your country without a civil war. To achieve this goal, you consider it unavoidable to meet with the dictator in order to disempower him, his family, and his followers. For this, you and six co-conspirators are asked to arrange a meeting with the dictator and make a deal to end his regime. If you make a deal with the dictator, the people in your country will have a chance for a new start. If you do not make a deal with him, the regime will continue.",
     "options": {
       "1": "arrange a meeting with the dictator and make a deal to end his regime",
       "2": ""
