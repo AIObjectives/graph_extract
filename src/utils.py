@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import requests
 import textwrap
@@ -6,9 +7,21 @@ from dotenv import dotenv_values
 from dotenv import load_dotenv
 
 # set some environment and global variables
-load_dotenv() 
+
+CUR_DIR = os.path.dirname(os.path.abspath(__name__))
+
+#AL: I do not like making an assumption about the paths and hardcoding this way--is there a better way?
+#should I wrap this set up still in utils?
+ROOT_DIR = CUR_DIR + '/../'
+sys.path.append(ROOT_DIR)
+
+
+# set some environment and global variables
+load_dotenv(ROOT_DIR + ".env") 
 global config
-config = dotenv_values(".env")
+config = dotenv_values(ROOT_DIR + ".env")
+# print(config)
+
 
 def open_scenario(SCENARIO_DIR, FILENAME, SCENARIO_ID, ACT_ID):
     """

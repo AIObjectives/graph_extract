@@ -23,20 +23,6 @@ importlib.reload(prompts)
 importlib.reload(node)
 importlib.reload(utils)
 
-
-CUR_DIR = os.path.dirname(os.path.abspath(__name__))
-
-#AL: I do not like making an assumption about the paths and hardcoding this way--is there a better way?
-ROOT_DIR = CUR_DIR + '/../'
-sys.path.append(ROOT_DIR)
-
-
-# set some environment and global variables
-load_dotenv(ROOT_DIR + ".env") 
-global config
-config = dotenv_values(ROOT_DIR + ".env")
-print(config)
-
 def fix_braces(this_list):
 
   # Define the regular expression pattern to match numerical text within brackets or parentheses
