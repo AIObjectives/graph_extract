@@ -30,6 +30,9 @@ config = dotenv_values(".env")
 
 CUR_DIR = os.path.dirname(os.path.abspath(__name__))
 
+#AL: I do not like making an assumption about the paths and hardcoding this way--is there a better way?
+ROOT_DIR = CUR_DIR + '/../'
+sys.path.append(ROOT_DIR)
 
 def fix_braces(this_list):
 
