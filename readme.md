@@ -14,7 +14,7 @@ Human annotation data is under data/human_annotation and exists for a subset of 
 
 ## <i>Installation & Use</i>
 
-Clone this repo and install the packages listed in requirements.txt. 
+Clone this repo and install the packages listed in requirements.txt or environment.yml
 
 Ensure you have an openAI API key in a .env file in the root directory:
 OPENAI_API_KEY='Bearer sk-...'
