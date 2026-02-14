@@ -890,7 +890,7 @@
             "1": {
                 "Beneficiary": "Other-beneficial",
                 "Evitability": "Inevitable",
-                "Causal Role": "Side Effect",
+                "Causal Role": "Means",
                 "Personal Force": "Personal"
             },
             "2": {}
