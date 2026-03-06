@@ -22,7 +22,7 @@ class Node():
     for l in self.links:
       link_list.append({'link': l[0].print(), 'to_node': l[1].print()['label']})
 
-    node_dict = {'node': self.print(), 'links': link_list}
+    node_dict = {'node': self.print(), 'links': link_list, 'version': self.get_version()}
 
     return node_dict
 
@@ -31,7 +31,6 @@ class Link():
     def __init__(self,kind,value):
       self.kind = kind
       self.value = value
-      # self.label = label
 
     def print(self):
       return ({"kind": self.kind, "value": self.value})
@@ -45,6 +44,9 @@ class Graph():
 
   def set_version(self,version):
     self.version = version
+
+  def get_version(self):
+    return self.version
 
   def add_node(self,node):
     self.nodes.append(node)
