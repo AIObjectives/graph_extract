@@ -373,7 +373,7 @@ def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g
     return all_links
 
 # scenario json must be a single line with scenario json with entries 'id', 'text', and 'options' {1:, 2: , etc}
-def main(scenario_json,output_filename,act_id):
+def main(scenario_json,output_filename,act_id,commit_hash,write_qualtrics=False):
    
    # validate the scenario json
     assert isinstance(scenario_json['id'],int)
@@ -398,7 +398,8 @@ def main(scenario_json,output_filename,act_id):
     
     #initialize Graph object    
     g = node.Graph()
-    g.reset()        
+    g.reset()       
+    g.set_version(commit_hash) 
 
     #BEINGS
     # identify all sentient beings
@@ -406,14 +407,11 @@ def main(scenario_json,output_filename,act_id):
     beings_fixed = returned_beings[0]
     beings_fixed_Ziv = returned_beings[1]
     beings_list = returned_beings[2]
-
-    #g.print_graph()
     #update the scenario dict with the beings
     scenario_dict["entities"]= beings_list
 
     #VALUE SCORES
     #get all values and anti-values
-
     importlib.reload(prompts)
     processed_values  = process_values_simple(this_scenario, this_act_I, this_act,g) 
     print("\n processed values:" + str(processed_values))
@@ -422,29 +420,23 @@ def main(scenario_json,output_filename,act_id):
     # scenario_dict["values"]= processed_values[0]
     # print(processed_values[1])
     
-    #compare to human data
-    #evaluate_values(processed_values,this_scenario, this_act_I, all_human_data)
-    
-    # #OUTCOMES
+    ##OUTCOMES
     processed_events = process_outcomes(this_scenario, this_act)
     events_I= processed_events[1]
     events_Ziv= processed_events[0]
     # print("\n".join(events_I))         
     scenario_dict["outcomes"]= events_I
 
-    # # save graph to a file before calling impacts
-    # g_print = g.print_graph()
-    # utils.write_jsonlines('pre_impacts_g1', g_print)
-
-    # #UTILITIES
+    ##UTILITIES
     [impacts_list,impacts_df] = process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, events_I,beings_fixed_Ziv,g) 
 
-    # #CAUSAL AND INTENTIONAL LINKS
+    ##CAUSAL AND INTENTIONAL LINKS
     process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g)    
 
-    # #write scenario dict as json for qualtrics output
-    # this_output_filename_qual = 'qualtrics_'+output_filename+'_choice_'+str(act_id)+'.json'
-    # utils.write_json(this_output_filename_qual,[scenario_dict])     
+    if(write_qualtrics):
+      # #write scenario dict as json for qualtrics output
+      this_output_filename_qual = 'qualtrics_'+output_filename+'_choice_'+str(act_id)+'.json'
+      utils.write_json(this_output_filename_qual,[scenario_dict])     
             
     this_output_filename = output_filename+'_choice_'+str(act_id)+'.json'
     print('\n\nWriting to file: '+this_output_filename)
