@@ -41,7 +41,10 @@ class Graph():
   def __init__(self):        
     self.nodes = [];
     self.links = [];
+    self.version = '';
 
+  def set_version(self,version):
+    self.version = version
 
   def add_node(self,node):
     self.nodes.append(node)
@@ -68,4 +71,5 @@ class Graph():
   def reset(self):
     self.nodes = [];
     self.links = [];
+    self.version = '';
 
