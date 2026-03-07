@@ -16,7 +16,7 @@ import typer
 CUR_DIR = os.path.dirname(os.path.abspath(__name__))
 
 class Embedding():
-    def __init__ (self,items,attr_list_1 = [], attr_list_2 = [], api_key, model_name = "text-embedding-ada-002"):
+    def __init__ (self,items,api_key,attr_list_1 = [], attr_list_2 = [],  model_name = "text-embedding-ada-002"):
        self.model_name = model_name
        self.items = items
        self.attr_list_1 = attr_list_1
@@ -99,11 +99,11 @@ class Embedding():
         self.item_attr_projections = item_projections
     
 
-def threshold_by_sim(item_list,threshold):
+def threshold_by_sim(item_list,threshold,api_key):
 
 
     # create a new Embeddings object
-    E = Embedding(item_list)
+    E = Embedding(item_list,api_key)
 
     # emb_list = [E.get_embedding(x)['data'] for x in item_list]
     try:
