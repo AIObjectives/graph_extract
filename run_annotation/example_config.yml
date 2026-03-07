@@ -1,6 +1,6 @@
-input_path: "scenarios_inputs/franken/"
+input_path: "scenarios_inputs/AITA/"
 input_file: "scenarios.json"
-commit_hash: "abc123def4567890abc123def4567890abc123de"
-output_path: "annotated_outputs/franken/"
+commit_hash: "d635bb0c0b087388183c792f22a64a0dce5d1fb3"
+output_path: "annotated_outputs/AITA/"
 scenario_ids: [1, 2, 3]
-write_qualtrics: true
+write_qualtrics: false
