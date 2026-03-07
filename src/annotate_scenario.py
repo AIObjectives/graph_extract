@@ -95,7 +95,7 @@ def process_beings(this_scenario,this_act,g):
 def process_values_simple(this_scenario, this_act_I, this_act, g):
    
 
-  action_rating = prompts.score_action_simple(this_act_I)
+  action_rating = prompts.score_action_deontology(this_act_I)
 
 
   this_score = action_rating['score']
