@@ -71,6 +71,8 @@ def score_action_deontology(this_act):
    user_prompt_content = f"Please rate this action: {this_act}"     
    print(system_prompt_content, user_prompt_content)
    
+   return utils.get_response_dict(system_prompt_content, user_prompt_content)
+
 # pass list of values and score their importance
 def score_action_simple(this_act):
    
