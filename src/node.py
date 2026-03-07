@@ -22,7 +22,7 @@ class Node():
     for l in self.links:
       link_list.append({'link': l[0].print(), 'to_node': l[1].print()['label']})
 
-    node_dict = {'node': self.print(), 'links': link_list, 'version': self.get_version()}
+    node_dict = {'node': self.print(), 'links': link_list}
 
     return node_dict
 
@@ -57,7 +57,7 @@ class Graph():
     return(link)
 
   def print_graph(self):
-   return ([n.print_all() for n in self.nodes])
+   return ([n.print_all() for n in self.nodes] + [{'version': self.get_version()}])
 
 
   def return_node(self,label):
