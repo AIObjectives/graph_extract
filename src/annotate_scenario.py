@@ -117,10 +117,10 @@ def process_values(this_scenario, this_act_I, this_act, g):
   # elicit action virtues and vicces
   values_positive = prompts.get_value_positive(this_scenario, this_act_I)
   print('\nvalues:')
-  values_positive=get_emb_distances.threshold_by_sim(values_positive,.06)
+  values_positive=get_emb_distances.threshold_by_sim(values_positive,.06,config['OPENAI_API_KEY'])
   print(values_positive)
   values_negative = prompts.get_value_negative(this_scenario, this_act_I)
-  values_negative=get_emb_distances.threshold_by_sim(values_negative,.06)
+  values_negative=get_emb_distances.threshold_by_sim(values_negative,.06,config['OPENAI_API_KEY'])
   print(values_negative)
   #combine positive and negative values into a single list
   all_values = {}

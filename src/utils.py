@@ -22,6 +22,8 @@ global config
 config = dotenv_values(ROOT_DIR + ".env")
 # print(config)
 
+def return_config():
+    return config
 
 def open_scenario(SCENARIO_DIR, FILENAME, SCENARIO_ID, ACT_ID):
     """
