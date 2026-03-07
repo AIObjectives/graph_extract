@@ -380,7 +380,7 @@ def main(scenario_json,output_filename,act_id,commit_hash,write_qualtrics=False)
     assert scenario_json['text']
     assert scenario_json['options']
 
-    print(output_filename)
+    print('writing to ' +  output_filename)
     
     # get the action choice and convert to various pronoun options
     this_act = scenario_json['options'][act_id]
