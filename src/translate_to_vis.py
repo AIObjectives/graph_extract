@@ -108,6 +108,8 @@ def main(json_file: str = typer.Option(None, help="name of json file to use")):
     # get every node from the input file and store in list
     node_list = list(reader)
 
+    nodes_only = [n for n in node_list if 'node' in n.keys()]
+
     #graph size
     n_nodes = len(node_list)
 
@@ -132,27 +134,29 @@ def main(json_file: str = typer.Option(None, help="name of json file to use")):
 
     for ind,item in enumerate(node_list):                
         
-        this_lab = item['node']['label']
-        this_node_kind = item['node']['kind']
-
         try:
-            this_color = NODE_COLORS[this_node_kind]
+            this_lab = item['node']['label']
+            this_node_kind = item['node']['kind']
+    
+            try:
+                this_color = NODE_COLORS[this_node_kind]
+            except:
+                this_color = '#62a3a2'
+
+            this_lab_wrapped = wrap_text(this_lab)
+            this_line = VIS_JS_FORMAT_NODE % (ind+1, this_lab_wrapped,this_color)
+        
+            node_labs_list[this_lab] = ind
+
+            if(ind<(len(node_list)-1)):
+                this_line=this_line+',\n\t\t'
+            else:
+                this_line=this_line+'\n\t\t]);'
+        
+            output_file.write(this_line)
+    
         except:
-            this_color = '#62a3a2'
-
-        this_lab_wrapped = wrap_text(this_lab)
-        this_line = VIS_JS_FORMAT_NODE % (ind+1, this_lab_wrapped,this_color)
-       
-        node_labs_list[this_lab] = ind
-
-        if(ind<(len(node_list)-1)):
-            this_line=this_line+',\n\t\t'
-        else:
-            this_line=this_line+'\n\t\t]);'
-       
-        output_file.write(this_line)
-    
-    
+            print(item)
     output_file.write('\n\tvar edges = new vis.DataSet([ \n\t\t')
 
     
@@ -160,7 +164,7 @@ def main(json_file: str = typer.Option(None, help="name of json file to use")):
     # loop through each node and write out each of its links!
     for node_ind,item in enumerate(node_list):        
 
-        
+   
         this_node_lab = item['node']['label']
         these_links = item['links']    
         this_node_kind = item['node']['kind']
