@@ -59,11 +59,6 @@ def main(config_file: str):
                 raise IndexError('Check scenario id exists in json file!')
             
 
-            # # display the scnenario text read in 
-            # this_scenario_text = scenario_json["text"]    
-            # print('Scenario Text: \n\n')
-            # print(textwrap.fill(this_scenario_text, width = 100), '\n\n')
-
             # # generate output file name based on input filename
             output_filename = ROOT_DIR + OUTPUT_PATH + INPUT_FILE.split('.json')[0] + '_' + str(scenario_id)
 
@@ -78,12 +73,7 @@ def main(config_file: str):
                  # run the translation to vis process
                 translate_to_vis.main(json_filename)
 
-            
-                # print('\n\nWriting to file: '+this_output_filename)
-                # g_print = g.print_graph()
-                # utils.write_jsonlines(this_output_filename, g_print)
-                # print('\n\n')
-
+        
     
 
 if __name__ == "__main__":
