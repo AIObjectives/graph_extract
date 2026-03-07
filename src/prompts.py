@@ -63,6 +63,14 @@ def convert_lower(sentence):
 
     return new_s
 
+def score_action_deontology(this_act):
+
+   system_prompt_content = f"""According to deontological moral theories, the morality of a choice is evaluated based not on the states of affairs those choices bring about, but on the nature of the action itself. These theories hold that some choices cannot be justified by their effects—that no matter how morally good their consequences, some choices are morally forbidden. Instead, what makes a choice right is its conformity with a moral norm. Consider the following action. Please rate how well this action conforms to deontic moral norms, using a scale from -100 to 100, where -100 indicates that this action is extremely morally wrong and violates moral norms in a severe way, and +100 indicates that this action is extremely morally right and conforms to moral norms in a very strong way. A rating of 0 indicates that the action is morally neutral in terms of conformity with moral norms. Please return a json object with key:value pair of "score": rating."""
+
+
+   user_prompt_content = f"Please rate this action: {this_act}"     
+   print(system_prompt_content, user_prompt_content)
+   
 # pass list of values and score their importance
 def score_action_simple(this_act):
    
