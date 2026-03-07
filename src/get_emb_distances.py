@@ -12,16 +12,11 @@ import random
 import typer
 
 
-# set some global variables
-load_dotenv() 
-global config
-config = dotenv_values(".env")
-
 # set current path
 CUR_DIR = os.path.dirname(os.path.abspath(__name__))
 
 class Embedding():
-    def __init__ (self,items,attr_list_1 = [], attr_list_2 = [], model_name = "text-embedding-ada-002"):
+    def __init__ (self,items,attr_list_1 = [], attr_list_2 = [], api_key, model_name = "text-embedding-ada-002"):
        self.model_name = model_name
        self.items = items
        self.attr_list_1 = attr_list_1
@@ -29,12 +24,13 @@ class Embedding():
        self.attr_vector_emb = []
        self.item_attr_projections = []
        self.item_embs = []
+       self.api_key = api_key
        
     def get_embedding(self,text):
         url = 'https://api.openai.com/v1/embeddings'
         headers = {
         "Content-Type": "application/json",
-        "Authorization": config['OPENAI_API_KEY']
+        "Authorization": self.api_key
         }
         data = { 
             "input": text,
