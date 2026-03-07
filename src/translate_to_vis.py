@@ -106,9 +106,9 @@ def main(json_file: str = typer.Option(None, help="name of json file to use")):
     reader = jsonlines.open(json_file, 'r')
 
     # get every node from the input file and store in list
-    node_list = list(reader)
+    content_list = list(reader)
 
-    nodes_only = [n for n in node_list if 'node' in n.keys()]
+    node_list = [n for n in content_list if 'node' in n.keys()]
 
     #graph size
     n_nodes = len(node_list)
