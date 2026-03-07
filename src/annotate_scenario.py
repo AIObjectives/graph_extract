@@ -23,6 +23,8 @@ importlib.reload(prompts)
 importlib.reload(node)
 importlib.reload(utils)
 
+CONFIG = utils.return_config()
+
 def fix_braces(this_list):
 
   # Define the regular expression pattern to match numerical text within brackets or parentheses
@@ -68,7 +70,7 @@ def fix_I(this_list):
 
 def process_beings(this_scenario,this_act,g):
 
-  beings = prompts.get_beings(this_scenario)
+  beings = prompts.get_beings(this_scenario,this_act)
   beings_fixed = fix_I(fix_braces(beings['results']))        
   beings_fixed_Ziv = [prompts.convert_I_Ziv_item(x) for x in beings_fixed]
 
@@ -117,10 +119,10 @@ def process_values(this_scenario, this_act_I, this_act, g):
   # elicit action virtues and vicces
   values_positive = prompts.get_value_positive(this_scenario, this_act_I)
   print('\nvalues:')
-  values_positive=get_emb_distances.threshold_by_sim(values_positive,.06,config['OPENAI_API_KEY'])
+  values_positive=get_emb_distances.threshold_by_sim(values_positive,.06,CONFIG['OPENAI_API_KEY'])
   print(values_positive)
   values_negative = prompts.get_value_negative(this_scenario, this_act_I)
-  values_negative=get_emb_distances.threshold_by_sim(values_negative,.06,config['OPENAI_API_KEY'])
+  values_negative=get_emb_distances.threshold_by_sim(values_negative,.06,CONFIG['OPENAI_API_KEY'])
   print(values_negative)
   #combine positive and negative values into a single list
   all_values = {}
@@ -155,7 +157,7 @@ def process_outcomes(this_scenario, this_act):
   events = prompts.get_events(this_scenario, this_act)
   events_Ziv= events['results']
   # remove overly similar outcomes
-  events_Ziv=get_emb_distances.threshold_by_sim(events_Ziv,.06)
+  events_Ziv=get_emb_distances.threshold_by_sim(events_Ziv,.06, CONFIG['OPENAI_API_KEY'])
   
   #replace Ziv with first person pronoun.        
   events_I = [prompts.convert_Ziv_I(x) if x.find("Ziv")>-1 else x for x in events_Ziv]   
