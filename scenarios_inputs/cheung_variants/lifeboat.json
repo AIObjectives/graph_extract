@@ -4,7 +4,7 @@
     "scenario_title": "Lifeboat",
     "deontology_level": "1",
     "utility_level": "3",
-    "text": "It is 1841, and you are the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. Your lifeboat (Lifeboat A) contains you and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 61 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. You are the highest-ranking officer, so the people in Lifeboat B call out to you for instructions. After assessing the situation, you conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone forced into the water would almost certainly freeze to death. Your own lifeboat cannot take any additional passengers",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 61 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone forced into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
       "1": "order for 10 passengers from lifeboat B to be forced overboard",
       "2": ""
@@ -15,9 +15,9 @@
     "scenario_title": "Lifeboat",
     "deontology_level": "2",
     "utility_level": "3",
-    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 61 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to make passengers to vote for 10 passengers to send overboard, and you know that the water is so cold that they would freeze to death.",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. We survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 61 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone sent overboard into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
-      "1": "make passengers vote for 10 passengers to send overboard",
+      "1": "make passengers from lifeboat B vote for 10 passengers from lifeboat B to send overboard",
       "2": ""
     }
   },
@@ -26,7 +26,7 @@
     "scenario_title": "Lifeboat",
     "deontology_level": "3",
     "utility_level": "3",
-    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 61 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to ask for 10 passengers to volunteer to go overboard, and you know that the water is so cold that they would freeze to death.",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. We survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 61 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone going overboard into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
       "1": "ask for 10 passengers to volunteer to go overboard",
       "2": ""
@@ -37,50 +37,51 @@
     "scenario_title": "Lifeboat",
     "deontology_level": "1",
     "utility_level": "2",
-    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 41 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to order for 10 passengers to be forced overboard, and you know that the water is so cold that they would freeze to death.",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 41 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone forced into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
       "1": "order for 10 passengers to be forced overboard",
       "2": ""
     }
   },
-  {"id": 5, 
+  {
+    "id": 5,
     "scenario_title": "Lifeboat",
     "deontology_level": "2",
     "utility_level": "2",
-    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 41 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to make passengers to vote for 10 passengers to send overboard, and you know that the water is so cold that they would freeze to death.",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 41 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone sent overboard into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
       "1": "make passengers vote for 10 passengers to send overboard",
       "2": ""
     }
   },
   {
-    "id": 6, 
+    "id": 6,
     "scenario_title": "Lifeboat",
     "deontology_level": "3",
     "utility_level": "2",
-    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 41 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to ask for 10 passengers to volunteer to go overboard, and you know that the water is so cold that they would freeze to death.",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 41 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone going overboard into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
       "1": "ask for 10 passengers to volunteer to go overboard",
       "2": ""
     }
   },
   {
-    "id": 7, 
+    "id": 7,
     "scenario_title": "Lifeboat",
     "deontology_level": "1",
     "utility_level": "1",
-    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 21 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to order for 10 passengers to be forced overboard, and you know that the water is so cold that they would freeze to death.",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 21 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone forced into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
       "1": "order for 10 passengers to be forced overboard",
       "2": ""
     }
   },
   {
-    "id": 8, 
+    "id": 8,
     "scenario_title": "Lifeboat",
     "deontology_level": "2",
     "utility_level": "1",
-    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 21 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to make passengers to vote for 10 passengers to send overboard, and you know that the water is so cold that they would freeze to death.",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 21 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone sent overboard into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
       "1": "make passengers vote for 10 passengers to send overboard",
       "2": ""
@@ -91,7 +92,7 @@
     "scenario_title": "Lifeboat",
     "deontology_level": "3",
     "utility_level": "1",
-    "text": "It is 1841, and you are the captain of a ship. After colliding with an iceberg, the ship sank. You, some other crew members, and passengers were able to save yourselves onto two lifeboats. The next day, it starts to rain. You navigate while the others scoop out the water and oar. Someone from the other lifeboat calls to you, and you say that they are overcrowded with 21 people. The large waves could make their lifeboat sink at any time and the passengers ask you what to do as you are the highest ranking officer. You think that approximately 10 adults would have to leave the boat to substantially increase the chance that the other passengers will survive. However, your lifeboat is already at full capacity and you cannot accept any more passengers. You would have to ask for 10 passengers to volunteer to go overboard, and you know that the water is so cold that they would freeze to death.",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 21 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone going overboard into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
       "1": "ask for 10 passengers to volunteer to go overboard",
       "2": ""
