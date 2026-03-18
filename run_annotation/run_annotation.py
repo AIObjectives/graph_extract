@@ -23,6 +23,7 @@ def main(config_file: str):
 
     config_path = Path(ROOT_DIR+"/run_annotation/"+config_file)
 
+
     with config_path.open("r", encoding="utf-8") as f:
         config = yaml.safe_load(f) or {}
 
@@ -41,7 +42,7 @@ def main(config_file: str):
     with open(ROOT_DIR + SCENARIO_DIR + INPUT_FILE, 'r') as file:
         scenarios=json.load(file)
 
-
+    # print(scenarios[0]['id'])
     # # create output directory if it doesn't exist
     if not os.path.exists(OUTPUT_PATH):
         os.makedirs(OUTPUT_PATH)
@@ -51,9 +52,9 @@ def main(config_file: str):
 
         #TO DO: identify scenarios by actual ID, not index. 
 
-            # error handling for assumptions about json entries
+            # error handling for assumptions about json entries 
             try:
-                scenario_json = scenarios[scenario_id]
+                scenario_json = next(s for s in scenarios if s['id'] == scenario_id)
             except:
                 # print("Check scenario filename or scenario id")
                 raise IndexError('Check scenario id exists in json file!')
