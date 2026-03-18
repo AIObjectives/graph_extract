@@ -129,5 +129,3 @@ def write_json(fname,dictionary):
     json_file.write(json.dumps(dictionary))
     json_file.close()
 
-
-    
