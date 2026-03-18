@@ -314,7 +314,7 @@ def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g
         #create a new link
         # Link(kind,value):
         this_link = g.add_link(node.Link('b_link',this_label))
-        this_b_node = g.return_node(this_being_I)[0]
+        this_b_node = g.return_node(this_being_I.lower())[0]
         this_event_node = g.return_node(this_evt_I)[0]
         this_b_node.link_link(this_link,this_event_node)
         all_links.append(output_links)
