@@ -5,25 +5,13 @@ import requests
 import textwrap
 from dotenv import dotenv_values
 from dotenv import load_dotenv
+from pathlib import Path  # For Windows
 
-# set some environment and global variables
-
-CUR_DIR = os.path.dirname(os.path.abspath(__name__))
-
-#AL: I do not like making an assumption about the paths and hardcoding this way--is there a better way?
-#should I wrap this set up still in utils?
-ROOT_DIR = CUR_DIR + '/../'
-sys.path.append(ROOT_DIR)
-
-
-# set some environment and global variables
-load_dotenv(ROOT_DIR + ".env") 
-global config
-config = dotenv_values(ROOT_DIR + ".env")
-# print(config)
-
-def return_config():
-    return config
+# Set some environment and global variables
+NOTEBOOK_DIR = Path().resolve()
+ROOT_DIR = NOTEBOOK_DIR.parent
+load_dotenv(ROOT_DIR / ".env")
+api_key = os.getenv("OPENAI_API_KEY")
 
 def open_scenario(SCENARIO_DIR, FILENAME, SCENARIO_ID, ACT_ID):
     """
@@ -75,7 +63,7 @@ def promptGPT(prompt_message_list, gpt_temperature=0, debug=False):
     gpt_url = "https://api.openai.com/v1/chat/completions"
     gpt_headers = {
         "Content-Type": "application/json",
-        "Authorization": config['OPENAI_API_KEY']
+        "Authorization": f"Bearer {api_key}"  # Previously: config['OPENAI_API_KEY']
     }
     gpt_data = {
             # "model": "gpt-3.5-turbo-1106", 
