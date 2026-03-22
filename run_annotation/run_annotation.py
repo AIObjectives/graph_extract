@@ -42,36 +42,33 @@ def main(config_file: str):
     with open(ROOT_DIR + SCENARIO_DIR + INPUT_FILE, 'r') as file:
         scenarios=json.load(file)
 
-    # print(scenarios[0]['id'])
-    # # create output directory if it doesn't exist
+    # create output directory if it doesn't exist
     if not os.path.exists(OUTPUT_PATH):
         os.makedirs(OUTPUT_PATH)
 
 
     for scenario_id in SCENARIO_IDS:
 
-        #TO DO: identify scenarios by actual ID, not index. 
+        # error handling for assumptions about json entries 
+        scenario_json = None
 
-            # error handling for assumptions about json entries 
-            try:
-                scenario_json = next(s for s in scenarios if s['id'] == scenario_id)
-            except:
-                # print("Check scenario filename or scenario id")
-                raise IndexError('Check scenario id exists in json file!')
-            
-
-            # # generate output file name based on input filename
+        try:
+            scenario_json = next(s for s in scenarios if s['id'] == scenario_id)
+        except:
+            # print("Check scenario filename or scenario id")
+            raise IndexError('Check scenario id exists in json file!')
+    
+        if scenario_json:  
+            # generate output file name based on input filename
             output_filename = ROOT_DIR + OUTPUT_PATH + INPUT_FILE.split('.json')[0] + '_' + str(scenario_id)
-
 
             #run annotation
             for act_id in scenario_json['options'].keys():         
-            
-                 # run the annotation process
+                # run the annotation process
                 json_filename = annotate_scenario.main(scenario_json,output_filename,act_id,COMMIT_HASH,WRITE_QUALTRICS)  
                 print(f'Annotation saved to {json_filename}\n\n')
 
-                 # run the translation to vis process
+                # run the translation to vis process
                 translate_to_vis.main(json_filename)
 
         
