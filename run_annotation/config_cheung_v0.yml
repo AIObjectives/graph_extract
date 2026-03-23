@@ -1,6 +1,6 @@
 input_path: "scenarios_inputs/cheung_variants/"
 input_file: "lifeboat2.json"
-commit_hash: "e1cda3ea2bb0ca422d3775d7fbc911ba3e1efd3e"
+commit_hash: "9956d4500b675c59fbea35b82c4760e8b1c6cb3e"
 output_path: "annotated_outputs/cheung_variants/"
-scenario_ids: [9]
+scenario_ids: [8]
 write_qualtrics: false
