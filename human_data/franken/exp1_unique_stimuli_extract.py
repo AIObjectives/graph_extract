@@ -76,6 +76,9 @@ def extract_unique_stimuli(input_path: str, output_path: str) -> None:
         r = ratings[key]
         stimulus["avg_likert_rating"] = round(sum(r) / len(r), 4) if r else None
         stimulus["n_likert_ratings"] = len(r)
+        # skip the "scenario_id" field if it exists, since it's not meaningful for uniqueness
+        if "scenario_id" in stimulus:
+            del stimulus["scenario_id"]
         stimuli_list.append(stimulus)
 
 
