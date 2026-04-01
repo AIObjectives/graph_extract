@@ -8,10 +8,14 @@ from dotenv import load_dotenv
 from pathlib import Path  # For Windows
 
 # Set some environment and global variables
-NOTEBOOK_DIR = Path().resolve()
-ROOT_DIR = NOTEBOOK_DIR.parent
+SCRIPT_DIR = Path(__file__).parent
+ROOT_DIR = SCRIPT_DIR.parent
 load_dotenv(ROOT_DIR / ".env")
-api_key = os.getenv("OPENAI_API_KEY")
+config = dotenv_values(ROOT_DIR / ".env")
+
+def return_config():
+    """Returns all environment variables from .env file."""
+    return config
 
 def open_scenario(SCENARIO_DIR, FILENAME, SCENARIO_ID, ACT_ID):
     """
@@ -63,7 +67,7 @@ def promptGPT(prompt_message_list, gpt_temperature=0, debug=False):
     gpt_url = "https://api.openai.com/v1/chat/completions"
     gpt_headers = {
         "Content-Type": "application/json",
-        "Authorization": f"Bearer {api_key}"  # Previously: config['OPENAI_API_KEY']
+        "Authorization": config['OPENAI_API_KEY']
     }
     gpt_data = {
             # "model": "gpt-3.5-turbo-1106", 
@@ -117,5 +121,3 @@ def write_json(fname,dictionary):
     json_file.write(json.dumps(dictionary))
     json_file.close()
 
-
-    

@@ -1,0 +1,128 @@
+<html>
+<head>
+<script type='text/javascript'src='https://unpkg.com/vis-network/standalone/umd/vis-network.min.js'></script>    
+<style type='text/css'>      
+ #mynetwork {        
+		width: 1560px;         
+		height: 1560px;         
+		border: 1px solid lightgray;       
+	 }   
+	 </style>
+</head>
+<body>
+<div id='mynetwork'></div>
+
+<script type="text/javascript">    
+
+window.onload = function(){       
+	launch_visualization()    
+}    
+function launch_visualization() {         
+	this_dset =  return_vis_dataset()        
+	nodes = this_dset[1]        
+	edges = this_dset[0]        
+	// create a network        
+	var container = document.getElementById("mynetwork");        
+	var data = {            
+		nodes: nodes,            
+		 edges: edges         
+		};    
+	var options = {		
+		physics: {			
+			enabled: true,			
+			barnesHut: {			
+			theta: 0.5,			
+			gravitationalConstant: -5000,			
+			springLength: 500,			
+			springConstant: 0.01,			
+			damping: 5,			
+			avoidOverlap: 1			
+		}		
+	},		
+		manipulation: {			
+			enabled: true,			
+			initiallyActive: false,			
+			addNode: true,			
+			addEdge: true,			
+			editEdge: true,			
+			deleteNode: true,			
+			deleteEdge: true,		
+			},		
+		nodes: {			
+			shape: "circle",            
+			font: { size: 16 },            
+			},         
+		edges: {         
+			length: 2000,         
+		},	};        
+ // initialize your network!         
+	var network = new vis.Network(container, data, options);    
+}
+function return_vis_dataset() {
+	var nodes = new vis.DataSet([ 
+		{id: 1, label: "i", color: {background: '#279aba'}},
+		{id: 2, label: "other crew members and passengers\n in lifeboat a", color: {background: '#279aba'}},
+		{id: 3, label: "10 passengers and crew members\n in lifeboat b who would\n be removed and fall into\n the water", color: {background: '#279aba'}},
+		{id: 4, label: "11 remaining passengers and crew\n members in lifeboat b who\n stay in the overcrowded lifeboat", color: {background: '#279aba'}},
+		{id: 5, label: "quietly remove a stabilizing barrier\n below 10 of the passengers\n in lifeboat B, causing them\n to fall into the water", color: {background: '#ba2769'}},
+		{id: 6, label: "value", color: {background: '#8e7db5'}},
+		{id: 7, label: "10 passengers fall into the\n cold ocean water", color: {background: '#e6c440'}},
+		{id: 8, label: "The overcrowded lifeboat B becomes\n more stable", color: {background: '#e6c440'}},
+		{id: 9, label: "The 10 passengers in the\n water become chilly", color: {background: '#e6c440'}},
+		{id: 10, label: "The remaining passengers and crew\n in lifeboat B have a\n reduced risk of sinking", color: {background: '#e6c440'}},
+		{id: 11, label: "I and others in lifeboat\n A remain at full capacity\n and safe", color: {background: '#e6c440'}},
+		{id: 12, label: "The 10 passengers in the\n water survive until rescue", color: {background: '#e6c440'}},
+		{id: 13, label: "Tension or distress among survivors\n due to the forced removal\n of passengers", color: {background: '#e6c440'}}
+		]);
+	var edges = new vis.DataSet([ 
+		{from: 1, to: 5, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 7, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 8, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 9, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 10, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 11, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 12, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 13, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 5, to: 6, label: "-74.0", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 5, to: 7, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 5, to: 8, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 5, to: 9, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 5, to: 10, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 5, to: 11, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 5, to: 12, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 5, to: 13, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 7, to: 1, label: "-20", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 7, to: 2, label: "-10", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 7, to: 3, label: "-80", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 7, to: 4, label: "30", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 2, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 3, label: "-50", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 4, label: "50", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 9, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 9, to: 2, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 9, to: 3, label: "-50", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 9, to: 4, label: "10", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 10, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 10, to: 2, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 10, to: 3, label: "-80", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 10, to: 4, label: "70", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 11, to: 1, label: "50", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 11, to: 2, label: "50", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 11, to: 3, label: "-80", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 11, to: 4, label: "30", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 12, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 12, to: 2, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 12, to: 3, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 12, to: 4, label: "50", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 13, to: 1, label: "-40", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 13, to: 2, label: "-30", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 13, to: 3, label: "-90", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 13, to: 4, label: "-50", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		]);
+
+	return ([edges,nodes])
+}
+</script>
+</body>
+</html>
