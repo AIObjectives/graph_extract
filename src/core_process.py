@@ -19,6 +19,7 @@ import src.get_emb_distances as get_emb_distances
 import src.prompts as prompts
 import src.node as node
 import src.utils as utils
+import src.moral_projection as moral_projection
 importlib.reload(get_emb_distances)
 importlib.reload(prompts)
 importlib.reload(node)
@@ -98,10 +99,13 @@ def process_beings(this_scenario,this_act,g):
 def process_values_simple(this_scenario, this_act_I, this_act, g):
    
 
-  action_rating = prompts.score_action_deontology(this_act_I)
+  # action_rating = prompts.score_action_deontology(this_act_I)
+  # this_score = action_rating['score']
 
-
-  this_score = action_rating['score']
+  resp = moral_projection.main([this_act_I])
+  this_score = round(resp['projection'].iloc[0]*1000, 0)
+  # action_rating['score'] = this_score
+  
   # create node and add it to graph
   this_v_node = g.add_node(node.Node('value','value'))
   # create link with score
@@ -111,7 +115,7 @@ def process_values_simple(this_scenario, this_act_I, this_act, g):
   act_node.link_link(this_link,this_v_node)
  
 
-  return action_rating, g
+  return this_score, g
 
 
 
