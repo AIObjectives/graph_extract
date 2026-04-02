@@ -70,10 +70,10 @@ def promptGPT(prompt_message_list, gpt_temperature=0, debug=False):
         "Authorization": config['OPENAI_API_KEY']
     }
     gpt_data = {
-            # "model": "gpt-3.5-turbo-1106", 
-            "model": "gpt-4.1-mini",
+            "model": "gpt-5.4", 
+            # "model": "gpt-4.1-mini",
             #  "model": "o3-2025-04-16",
-            "response_format": {"type": "json_object"}, # only works on 3.5-turbo-1106, 4 and above
+            # "response_format": {"type": "json_object"}, # only works on 3.5-turbo-1106, 4 and above
             "temperature": gpt_temperature,
             "messages": prompt_message_list,
     }
