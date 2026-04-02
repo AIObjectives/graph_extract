@@ -70,7 +70,7 @@ def main(scenario_json,output_filename,act_id,commit_hash,write_qualtrics=False)
 
     #VALUE SCORES
     processed_value,g  = core_process.process_values_simple(this_scenario, this_act_I, this_act,g) 
-    print("\n deontic value:" + str(processed_value))
+    print("\n deontic value: " + str(processed_value))
     
     ##OUTCOMES
     processed_events = core_process.process_outcomes(this_scenario, this_act)
