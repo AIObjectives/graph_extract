@@ -12,7 +12,8 @@ def run_wrapper_range(filename, start_id, end_id):
         end_id: Ending scenario_id (inclusive)
     """
     # set to python venv called 'AOIgraphextractMAC' in current directory
-    python_cmd = r'AOIgraphextractMAC/bin/python3'
+    # python_cmd = r'AOIgraphextractMAC/bin/python3'
+    python_cmd = r'python3'  # Assuming 'python3' points to the correct Python executable in your environment
 
     for scenario_id in range(start_id, end_id + 1):
         print(f"Running wrapper.py with filename='{filename}' and scenario_id={scenario_id}")
