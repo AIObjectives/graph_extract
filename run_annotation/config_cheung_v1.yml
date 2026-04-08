@@ -1,0 +1,6 @@
+input_path: "scenarios_inputs/cheung_variants/"
+input_file: "bird.json"
+commit_hash: "bfc528f045905d4e77fdf00667f1be18ca0ca6d0"
+output_path: "annotated_outputs/cheung_variants/"
+scenario_ids: [1,2,3,4,5,6]
+write_qualtrics: false
