@@ -255,7 +255,7 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
     # print(impacts_df)
 
 
-  return(impacts_list,impacts_df)
+  return(impacts_list,impacts_df, g)
 
 def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g):
    
