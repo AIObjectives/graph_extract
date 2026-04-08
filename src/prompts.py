@@ -121,31 +121,24 @@ def get_value_negative(this_scenario, this_act):
 
 
 
+def get_impacts_Ziv_single(this_scenario, this_act, this_event, this_being):
 
-# # def get_impacts(this_scenario, this_act, this_event, beings):
+        system_prompt_content = f'You are a helpful assistant who is an expert at understanding human situations. You will be given a scenario and asked to evaluate how an event will impact the character "{this_being}". Rate the impact on this character using a scale from -100 to +100, where a rating of -100 indicates that the outcome will cause the character substantial harm, while a rating of +100 indicates that it will cause the character substantial benefit. If the outcome is not likely to affect the character very much, return a rating closer to 0. Return a json object called "score" with your rating.'
 
-#         system_prompt_content = f'You are a helpful assistant who is an expert at understanding human situations. \
-#         The user will describe a scenario from a first-person perspective. \
-#         Given this scenario, evaluate how the resulting event indicated impacts each sentient being.\
-#         Please score this impact on a scale from -10, indicating very harmful and negative utility for that being, \
-#         to +10, indicating very beneficial and high utility for that being. If there is no obvious impact on a being, score the impact as 0. \
-#         Return a json object with key:value pair of "results": list containing, for each being, a key:value pair of being: impact score.'
-
-#         user_prompt_content = f'Here is my scenario: {this_scenario}. It involves these beings: {beings}. \
-#         I decide to {this_act}, which results in this event: {this_event}. What is the impact of that event on each being?'
-
-#         return get_response_dict(system_prompt_content, user_prompt_content)
-
-
-def get_impacts_Ziv(this_scenario, this_act, this_event, this_being):
-
-        system_prompt_content = f'You are a helpful assistant who is an expert at understanding human situations. You will be given a scenario and asked to evaluate how an event will impact the character "{this_being}". Rate the impact on this character using a scale from -10 to +10, where a rating of -10 indicates that the outcome will cause the character substantial harm, while a rating of +10 indicates that it will cause the character substantial benefit. If the outcome is not likely to affect the character very much, return a rating closer to 0. Return a json object called "score" with your rating.'
-
-        user_prompt_content = f'Here is the scenario: {this_scenario} {this_act} Consider the event that {convert_lower(this_event)}. How does this event impact the character {this_being}?'
+        user_prompt_content = f'Here is the scenario: {this_scenario} {this_act} Consider the possibile outcome that {convert_lower(this_event)}. How does this outcome impact the character {this_being}?'
 
         # print(system_prompt_content, user_prompt_content)
         return utils.get_response_dict(system_prompt_content, user_prompt_content)
 
+
+def get_impacts_Ziv_single_noscene(this_event, this_being):
+
+        system_prompt_content = f'You are a helpful assistant who is an expert at understanding human situations. You will be given an event and be asked to evaluate it will impact a specifi character. Rate the impact on this character using a scale from -100 to +100, where a rating of -100 indicates that the outcome will cause the character substantial harm, while a rating of +100 indicates that it will cause the character substantial benefit. If the outcome is not likely to affect the character very much, return a rating closer to 0. Return a json object called "score" with your rating.'
+
+        user_prompt_content = f'Consider the event that {convert_lower(this_event)}. How does this event impact the character {this_being}?'
+
+        # print(system_prompt_content, user_prompt_content)
+        return utils.get_response_dict(system_prompt_content, user_prompt_content)
 
 # def get_impacts_Ziv_multi(this_scenario, this_act, this_event, these_beings):
 
@@ -157,7 +150,6 @@ def get_impacts_Ziv(this_scenario, this_act, this_event, this_being):
 #         return utils.get_response_dict(system_prompt_content, user_prompt_content)
 
 
-# If the outcome is unlikely to affect the character, return a rating of 0 or close to 0. 
 def get_impacts_Ziv_multi(this_scenario, this_act, this_event, these_beings):
 
         system_prompt_content = f"You are a helpful assistant who is an expert at understanding human situations. The following scenario is context for the user's question. {this_scenario} {this_act}  End of scenario. Consider the possible outcome that {convert_lower(this_event)} Please rate how this outcome would impact each character listed by the user. Use a scale from -100 to +100, where -100 indicates that the outcome will cause the character substantial harm or cost, and +100 indicates that it will cause the character substantial benefit. Return a json object called 'results' with a key:value pair for being: rating."
