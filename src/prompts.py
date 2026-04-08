@@ -133,7 +133,7 @@ def get_impacts_Ziv_single(this_scenario, this_act, this_event, this_being):
 
 def get_impacts_Ziv_single_noscene(this_event, this_being):
 
-        system_prompt_content = f'You are a helpful assistant who is an expert at understanding human situations. You will be given an event and be asked to evaluate it will impact a specifi character. Rate the impact on this character using a scale from -100 to +100, where a rating of -100 indicates that the outcome will cause the character substantial harm, while a rating of +100 indicates that it will cause the character substantial benefit. If the outcome is not likely to affect the character very much, return a rating closer to 0. Return a json object called "score" with your rating.'
+        system_prompt_content = f'You are a helpful assistant who is an expert at understanding human situations. You will be given an event and be asked to evaluate how it will impact a specific character.  Rate the impact on this character using a scale from -100 to +100, where a rating of -100 indicates that the outcome will cause the character substantial harm, while a rating of +100 indicates that it will cause the character substantial benefit.Consider only the specific event and character indicated in your rating. If the outcome is not likely to affect the character very much, return a rating closer to 0. Return a json object called "score" with your rating.'
 
         user_prompt_content = f'Consider the event that {convert_lower(this_event)}. How does this event impact the character {this_being}?'
 
