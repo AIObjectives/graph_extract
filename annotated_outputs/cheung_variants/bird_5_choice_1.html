@@ -3,8 +3,8 @@
 <script type='text/javascript'src='https://unpkg.com/vis-network/standalone/umd/vis-network.min.js'></script>    
 <style type='text/css'>      
  #mynetwork {        
-		width: 1080px;         
-		height: 1080px;         
+		width: 960px;         
+		height: 960px;         
 		border: 1px solid lightgray;       
 	 }   
 	 </style>
@@ -66,9 +66,8 @@ function return_vis_dataset() {
 		{id: 4, label: "value", color: {background: '#8e7db5'}},
 		{id: 5, label: "The bird dies", color: {background: '#e6c440'}},
 		{id: 6, label: "The bird's pain ends", color: {background: '#e6c440'}},
-		{id: 7, label: "I administer poison to the\n bird", color: {background: '#e6c440'}},
-		{id: 8, label: "I experience emotional distress", color: {background: '#e6c440'}},
-		{id: 9, label: "I avoid leaving the bird\n alive with a severe wing\n injury", color: {background: '#e6c440'}}
+		{id: 7, label: "I administer painless poison to\n the bird", color: {background: '#e6c440'}},
+		{id: 8, label: "I experience emotional distress", color: {background: '#e6c440'}}
 		]);
 	var edges = new vis.DataSet([ 
 		{from: 1, to: 3, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
@@ -76,23 +75,19 @@ function return_vis_dataset() {
 		{from: 1, to: 6, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 1, to: 7, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 1, to: 8, label: "C+I-K-", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
-		{from: 1, to: 9, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 3, to: 4, label: "-32.0", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 3, to: 5, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 3, to: 6, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 3, to: 7, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 3, to: 8, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
-		{from: 3, to: 9, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
-		{from: 5, to: 1, label: "-6", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 5, to: 1, label: "-72", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 5, to: 2, label: "-100", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 6, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
-		{from: 6, to: 2, label: "100", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
-		{from: 7, to: 1, label: "-85", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 6, to: 2, label: "95", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 7, to: 1, label: "-12", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 7, to: 2, label: "-100", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
-		{from: 8, to: 1, label: "-85", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 1, label: "-78", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		{from: 8, to: 2, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
-		{from: 9, to: 1, label: "72", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
-		{from: 9, to: 2, label: "85", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		]);
 
 	return ([edges,nodes])
