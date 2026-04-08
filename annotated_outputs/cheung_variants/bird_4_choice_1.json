@@ -2,9 +2,9 @@
 {"node": {"kind": "being", "label": "1 bird"}, "links": []}
 {"node": {"kind": "action_choice", "label": "kill the bird with the shovel"}, "links": [{"link": {"kind": "v-link", "value": "-53.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The bird dies"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The bird's pain ends"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "I strike the bird with the shovel"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "I experience emotional distress"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "I avoid leaving the bird alive and suffering"}]}
 {"node": {"kind": "value", "label": "value"}, "links": []}
-{"node": {"kind": "event", "label": "The bird dies"}, "links": [{"link": {"kind": "utility", "value": "-85"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-100"}, "to_node": "1 bird"}]}
-{"node": {"kind": "event", "label": "The bird's pain ends"}, "links": [{"link": {"kind": "utility", "value": "0"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "85"}, "to_node": "1 bird"}]}
-{"node": {"kind": "event", "label": "I strike the bird with the shovel"}, "links": [{"link": {"kind": "utility", "value": "-70"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-100"}, "to_node": "1 bird"}]}
+{"node": {"kind": "event", "label": "The bird dies"}, "links": [{"link": {"kind": "utility", "value": "-72"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-100"}, "to_node": "1 bird"}]}
+{"node": {"kind": "event", "label": "The bird's pain ends"}, "links": [{"link": {"kind": "utility", "value": "0"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "95"}, "to_node": "1 bird"}]}
+{"node": {"kind": "event", "label": "I strike the bird with the shovel"}, "links": [{"link": {"kind": "utility", "value": "-65"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-95"}, "to_node": "1 bird"}]}
 {"node": {"kind": "event", "label": "I experience emotional distress"}, "links": [{"link": {"kind": "utility", "value": "-85"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "0"}, "to_node": "1 bird"}]}
-{"node": {"kind": "event", "label": "I avoid leaving the bird alive and suffering"}, "links": [{"link": {"kind": "utility", "value": "-70"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-85"}, "to_node": "1 bird"}]}
-{"version": "bfc528f045905d4e77fdf00667f1be18ca0ca6d0"}
+{"node": {"kind": "event", "label": "I avoid leaving the bird alive and suffering"}, "links": [{"link": {"kind": "utility", "value": "72"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "85"}, "to_node": "1 bird"}]}
+{"version": "c6cec12266e5a631b3d1b587c5095ac04750373a"}
