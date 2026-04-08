@@ -5,7 +5,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Maya has the opportunity to implement a new bike lane system throughout the city.",
-    "scenario_id": 0,
     "avg_likert_rating": 6.05,
     "n_likert_ratings": 20
   },
@@ -15,7 +14,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Alejandro has the opportunity to implement a new power grid system in the city.",
-    "scenario_id": 1,
     "avg_likert_rating": 2.1,
     "n_likert_ratings": 20
   },
@@ -25,7 +23,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Mei has the opportunity to implement a new scheduling system for patient appointments.",
-    "scenario_id": 3,
     "avg_likert_rating": 3.25,
     "n_likert_ratings": 20
   },
@@ -35,7 +32,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Amina has the opportunity to change the menu of her restaurant.",
-    "scenario_id": 4,
     "avg_likert_rating": 3.05,
     "n_likert_ratings": 20
   },
@@ -45,7 +41,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Mei has the opportunity to implement a new digital system for patient record-keeping in her clinic.",
-    "scenario_id": 3,
     "avg_likert_rating": 3.6,
     "n_likert_ratings": 20
   },
@@ -55,7 +50,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Mei has the opportunity to administer a new experimental drug to a critically ill patient.",
-    "scenario_id": 3,
     "avg_likert_rating": 6.4,
     "n_likert_ratings": 20
   },
@@ -65,7 +59,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Maya has the opportunity to renovate a park in the city.",
-    "scenario_id": 0,
     "avg_likert_rating": 3.45,
     "n_likert_ratings": 20
   },
@@ -75,7 +68,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Amir has the opportunity to introduce an online homework submission system in his class.",
-    "scenario_id": 2,
     "avg_likert_rating": 3.3,
     "n_likert_ratings": 20
   },
@@ -85,7 +77,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Mei has the opportunity to administer an experimental drug to a critically ill patient.",
-    "scenario_id": 3,
     "avg_likert_rating": 6.0,
     "n_likert_ratings": 20
   },
@@ -95,7 +86,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Alejandro has the opportunity to upgrade the company's server system.",
-    "scenario_id": 1,
     "avg_likert_rating": 5.35,
     "n_likert_ratings": 20
   },
@@ -105,7 +95,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Alejandro has the opportunity to upgrade a microwave to a more efficient model.",
-    "scenario_id": 1,
     "avg_likert_rating": 3.15,
     "n_likert_ratings": 20
   },
@@ -115,7 +104,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Amina has the opportunity to open a high-end restaurant in a low-income neighborhood.",
-    "scenario_id": 4,
     "avg_likert_rating": 6.05,
     "n_likert_ratings": 20
   },
@@ -125,7 +113,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Amir has the opportunity to introduce an online homework submission system in his class.",
-    "scenario_id": 2,
     "avg_likert_rating": 5.45,
     "n_likert_ratings": 20
   },
@@ -135,7 +122,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Maya has the opportunity to implement a new bike lane system throughout the city.",
-    "scenario_id": 0,
     "avg_likert_rating": 3.85,
     "n_likert_ratings": 20
   },
@@ -145,7 +131,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Mei has the opportunity to implement a new digital system for patient record-keeping in her clinic.",
-    "scenario_id": 3,
     "avg_likert_rating": 6.1,
     "n_likert_ratings": 20
   },
@@ -155,7 +140,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Alejandro has the opportunity to upgrade the company's server system.",
-    "scenario_id": 1,
     "avg_likert_rating": 3.7,
     "n_likert_ratings": 20
   },
@@ -165,7 +149,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Alejandro has the opportunity to implement a new power grid system in the city.",
-    "scenario_id": 1,
     "avg_likert_rating": 6.6,
     "n_likert_ratings": 20
   },
@@ -175,7 +158,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Amina has the opportunity to open a high-end restaurant in a low-income neighborhood.",
-    "scenario_id": 4,
     "avg_likert_rating": 2.25,
     "n_likert_ratings": 20
   },
@@ -185,7 +167,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Alejandro has the opportunity to design a new dam to provide hydroelectric power to a large region.",
-    "scenario_id": 1,
     "avg_likert_rating": 6.3,
     "n_likert_ratings": 20
   },
@@ -195,7 +176,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Amir has the opportunity to introduce a new, rigorous curriculum in his class.",
-    "scenario_id": 2,
     "avg_likert_rating": 6.35,
     "n_likert_ratings": 20
   },
@@ -205,7 +185,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Amina has the opportunity to switch to biodegradable packaging for her restaurant’s takeaway orders.",
-    "scenario_id": 4,
     "avg_likert_rating": 6.25,
     "n_likert_ratings": 20
   },
@@ -215,7 +194,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Maya has the opportunity to renovate a park in the city.",
-    "scenario_id": 0,
     "avg_likert_rating": 5.7,
     "n_likert_ratings": 20
   },
@@ -225,7 +203,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Mei has the opportunity to implement a new scheduling system for patient appointments.",
-    "scenario_id": 3,
     "avg_likert_rating": 5.3,
     "n_likert_ratings": 20
   },
@@ -235,7 +212,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Amir has the opportunity to introduce a new, rigorous curriculum in his class.",
-    "scenario_id": 2,
     "avg_likert_rating": 2.9,
     "n_likert_ratings": 20
   },
@@ -245,7 +221,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Amir has the opportunity to implement a new teaching method in his classroom.",
-    "scenario_id": 2,
     "avg_likert_rating": 5.45,
     "n_likert_ratings": 20
   },
@@ -255,7 +230,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Amina has the opportunity to change the menu of her restaurant to entirely plant-based dishes.",
-    "scenario_id": 4,
     "avg_likert_rating": 2.85,
     "n_likert_ratings": 20
   },
@@ -265,7 +239,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Mei has the opportunity to administer an experimental drug to a critically ill patient.",
-    "scenario_id": 3,
     "avg_likert_rating": 1.6,
     "n_likert_ratings": 20
   },
@@ -275,7 +248,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Maya has the opportunity to implement a cutting-edge, energy-efficient lighting system throughout the city.",
-    "scenario_id": 0,
     "avg_likert_rating": 6.55,
     "n_likert_ratings": 20
   },
@@ -285,7 +257,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Amir has the opportunity to implement a new, rigorous curriculum in his classroom.",
-    "scenario_id": 2,
     "avg_likert_rating": 2.25,
     "n_likert_ratings": 20
   },
@@ -295,7 +266,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Amina has the opportunity to switch to biodegradable packaging for her restaurant’s takeaway orders.",
-    "scenario_id": 4,
     "avg_likert_rating": 3.95,
     "n_likert_ratings": 20
   },
@@ -305,7 +275,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Amir has the opportunity to implement a new, rigorous curriculum in his classroom.",
-    "scenario_id": 2,
     "avg_likert_rating": 6.35,
     "n_likert_ratings": 20
   },
@@ -315,7 +284,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Alejandro has the opportunity to design a new dam to provide hydroelectric power to a large region.",
-    "scenario_id": 1,
     "avg_likert_rating": 2.0,
     "n_likert_ratings": 20
   },
@@ -325,7 +293,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Alejandro has the opportunity to upgrade a microwave to a more efficient model.",
-    "scenario_id": 1,
     "avg_likert_rating": 6.1,
     "n_likert_ratings": 20
   },
@@ -335,7 +302,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Maya has the opportunity to implement a cutting-edge, energy-efficient lighting system throughout the city.",
-    "scenario_id": 0,
     "avg_likert_rating": 1.8,
     "n_likert_ratings": 20
   },
@@ -345,7 +311,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Amina has the opportunity to change the menu of her restaurant to entirely plant-based dishes.",
-    "scenario_id": 4,
     "avg_likert_rating": 6.2,
     "n_likert_ratings": 20
   },
@@ -355,7 +320,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Mei has the opportunity to administer a new experimental drug to a critically ill patient.",
-    "scenario_id": 3,
     "avg_likert_rating": 2.8,
     "n_likert_ratings": 20
   },
@@ -365,7 +329,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Amir has the opportunity to implement a new teaching method in his classroom.",
-    "scenario_id": 2,
     "avg_likert_rating": 3.85,
     "n_likert_ratings": 20
   },
@@ -375,7 +338,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Maya has the opportunity to initiate a major urban renewal project in the city.",
-    "scenario_id": 0,
     "avg_likert_rating": 6.05,
     "n_likert_ratings": 20
   },
@@ -385,7 +347,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Amina has the opportunity to change the menu of her restaurant.",
-    "scenario_id": 4,
     "avg_likert_rating": 5.8,
     "n_likert_ratings": 20
   },
@@ -395,7 +356,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Maya has the opportunity to initiate a major urban renewal project in the city.",
-    "scenario_id": 0,
     "avg_likert_rating": 1.95,
     "n_likert_ratings": 20
   },
@@ -405,7 +365,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Sanaa has the opportunity to expose a major pharmaceutical company's illegal drug trials.",
-    "scenario_id": 6,
     "avg_likert_rating": 2.55,
     "n_likert_ratings": 20
   },
@@ -415,7 +374,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Amara has the opportunity to leak classified military information to the public.",
-    "scenario_id": 8,
     "avg_likert_rating": 6.15,
     "n_likert_ratings": 20
   },
@@ -425,7 +383,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Isamu has the opportunity to create a controversial piece of art that criticizes a powerful corporation.",
-    "scenario_id": 5,
     "avg_likert_rating": 6.45,
     "n_likert_ratings": 20
   },
@@ -435,7 +392,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Sanaa has the opportunity to introduce a new software for document automation in her law firm.",
-    "scenario_id": 6,
     "avg_likert_rating": 4.5,
     "n_likert_ratings": 20
   },
@@ -445,7 +401,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Thanh has the opportunity to implement a new predictive policing software in his precinct.",
-    "scenario_id": 9,
     "avg_likert_rating": 6.45,
     "n_likert_ratings": 20
   },
@@ -455,7 +410,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Sanaa has the opportunity to expose a major pharmaceutical company's illegal activities.",
-    "scenario_id": 6,
     "avg_likert_rating": 6.4,
     "n_likert_ratings": 20
   },
@@ -465,7 +419,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Thanh has the opportunity to implement a new digital reporting system for incidents.",
-    "scenario_id": 9,
     "avg_likert_rating": 4.0,
     "n_likert_ratings": 20
   },
@@ -475,7 +428,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Sanaa has the opportunity to expose a major pharmaceutical company's illegal drug trials.",
-    "scenario_id": 6,
     "avg_likert_rating": 4.8,
     "n_likert_ratings": 20
   },
@@ -485,7 +437,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Thanh has the opportunity to implement a new predictive policing software in his precinct.",
-    "scenario_id": 9,
     "avg_likert_rating": 1.65,
     "n_likert_ratings": 20
   },
@@ -495,7 +446,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Thanh has the opportunity to implement a new digital reporting system for incidents.",
-    "scenario_id": 9,
     "avg_likert_rating": 5.65,
     "n_likert_ratings": 20
   },
@@ -505,7 +455,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Thanh has the opportunity to initiate a graffiti removal project in local neighborhoods.",
-    "scenario_id": 9,
     "avg_likert_rating": 2.8,
     "n_likert_ratings": 20
   },
@@ -515,7 +464,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Isamu has the opportunity to create a controversial art piece that criticizes a powerful corporation.",
-    "scenario_id": 5,
     "avg_likert_rating": 2.7,
     "n_likert_ratings": 20
   },
@@ -525,7 +473,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Thanh has the opportunity to release a criminal informant back into society.",
-    "scenario_id": 9,
     "avg_likert_rating": 2.15,
     "n_likert_ratings": 20
   },
@@ -535,7 +482,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Amara has the opportunity to destroy a bridge that is the only connection between two towns.",
-    "scenario_id": 8,
     "avg_likert_rating": 6.2,
     "n_likert_ratings": 20
   },
@@ -545,7 +491,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Amara has the opportunity to participate in advanced virtual reality (VR) combat training.",
-    "scenario_id": 8,
     "avg_likert_rating": 5.35,
     "n_likert_ratings": 20
   },
@@ -555,7 +500,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Diego has the opportunity to convert his traditional auto repair shop into an electric vehicle service center.",
-    "scenario_id": 7,
     "avg_likert_rating": 6.35,
     "n_likert_ratings": 20
   },
@@ -565,7 +509,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Isamu has the opportunity to create a controversial piece of art that criticizes a powerful corporation.",
-    "scenario_id": 5,
     "avg_likert_rating": 1.9,
     "n_likert_ratings": 20
   },
@@ -575,7 +518,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Isamu has the opportunity to organize an interactive outdoor art exhibit.",
-    "scenario_id": 5,
     "avg_likert_rating": 5.85,
     "n_likert_ratings": 20
   },
@@ -585,7 +527,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Sanaa has the opportunity to conduct a series of intensive mock trials for her law firm's junior associates.",
-    "scenario_id": 6,
     "avg_likert_rating": 5.6,
     "n_likert_ratings": 20
   },
@@ -595,7 +536,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Isamu has the opportunity to use a new type of eco-friendly paint for his artworks.",
-    "scenario_id": 5,
     "avg_likert_rating": 4.15,
     "n_likert_ratings": 20
   },
@@ -605,7 +545,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Diego has the opportunity to reorganize a workshop for better workflow.",
-    "scenario_id": 7,
     "avg_likert_rating": 5.65,
     "n_likert_ratings": 20
   },
@@ -615,7 +554,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Isamu has the opportunity to organize an interactive outdoor art exhibit.",
-    "scenario_id": 5,
     "avg_likert_rating": 3.7,
     "n_likert_ratings": 20
   },
@@ -625,7 +563,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Diego has the opportunity to convert his store into an electric vehicle shop.",
-    "scenario_id": 7,
     "avg_likert_rating": 1.55,
     "n_likert_ratings": 20
   },
@@ -635,7 +572,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Diego has the opportunity to convert his store into an electric vehicle shop.",
-    "scenario_id": 7,
     "avg_likert_rating": 6.4,
     "n_likert_ratings": 20
   },
@@ -645,7 +581,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Diego has the opportunity to use a new, more efficient hydraulic lift in his garage.",
-    "scenario_id": 7,
     "avg_likert_rating": 3.7,
     "n_likert_ratings": 20
   },
@@ -655,7 +590,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Isamu has the opportunity to use a new type of eco-friendly paint for his artworks.",
-    "scenario_id": 5,
     "avg_likert_rating": 5.8,
     "n_likert_ratings": 20
   },
@@ -665,7 +599,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Thanh has the opportunity to initiate a graffiti removal project in local neighborhoods.",
-    "scenario_id": 9,
     "avg_likert_rating": 5.75,
     "n_likert_ratings": 20
   },
@@ -675,7 +608,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Diego has the opportunity to convert his traditional auto repair shop into an electric vehicle service center.",
-    "scenario_id": 7,
     "avg_likert_rating": 2.45,
     "n_likert_ratings": 20
   },
@@ -685,7 +617,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Sanaa has the opportunity to conduct a series of intensive mock trials for her law firm's junior associates.",
-    "scenario_id": 6,
     "avg_likert_rating": 4.05,
     "n_likert_ratings": 20
   },
@@ -695,7 +626,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Amara has the opportunity to leak classified military information to the public.",
-    "scenario_id": 8,
     "avg_likert_rating": 2.2,
     "n_likert_ratings": 20
   },
@@ -705,7 +635,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Amara has the opportunity to participate in advanced virtual reality (VR) combat training.",
-    "scenario_id": 8,
     "avg_likert_rating": 3.4,
     "n_likert_ratings": 20
   },
@@ -715,7 +644,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Amara has the opportunity to destroy a bridge that is the only connection between two towns.",
-    "scenario_id": 8,
     "avg_likert_rating": 1.7,
     "n_likert_ratings": 20
   },
@@ -725,7 +653,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Thanh has the opportunity to release a criminal informant back into society.",
-    "scenario_id": 9,
     "avg_likert_rating": 6.3,
     "n_likert_ratings": 20
   },
@@ -735,7 +662,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Diego has the opportunity to use a new, more efficient hydraulic lift in his garage.",
-    "scenario_id": 7,
     "avg_likert_rating": 5.7,
     "n_likert_ratings": 20
   },
@@ -745,7 +671,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Diego has the opportunity to reorganize a workshop for better workflow.",
-    "scenario_id": 7,
     "avg_likert_rating": 3.45,
     "n_likert_ratings": 20
   },
@@ -755,7 +680,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Amara has the opportunity to test a new, lightweight but less protective combat gear in training exercises.",
-    "scenario_id": 8,
     "avg_likert_rating": 4.75,
     "n_likert_ratings": 20
   },
@@ -765,7 +689,6 @@
     "strength": "severe",
     "structure": "coc",
     "background": "Sanaa has the opportunity to expose a major pharmaceutical company's illegal activities.",
-    "scenario_id": 6,
     "avg_likert_rating": 2.75,
     "n_likert_ratings": 20
   },
@@ -775,7 +698,6 @@
     "strength": "mild",
     "structure": "cc",
     "background": "Amara has the opportunity to test a new, lightweight but less protective combat gear in training exercises.",
-    "scenario_id": 8,
     "avg_likert_rating": 3.6,
     "n_likert_ratings": 20
   },
@@ -785,7 +707,6 @@
     "strength": "mild",
     "structure": "coc",
     "background": "Sanaa has the opportunity to introduce a new software for document automation in her law firm.",
-    "scenario_id": 6,
     "avg_likert_rating": 3.35,
     "n_likert_ratings": 20
   },
@@ -795,7 +716,6 @@
     "strength": "severe",
     "structure": "cc",
     "background": "Isamu has the opportunity to create a controversial art piece that criticizes a powerful corporation.",
-    "scenario_id": 5,
     "avg_likert_rating": 6.35,
     "n_likert_ratings": 20
   }
