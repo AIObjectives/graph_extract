@@ -19,8 +19,8 @@ importlib.reload(translate_to_vis)
 
 
 CUR_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SEVERITY = 'conditions_mild_harm_mild_good/'  # adjust as needed
-# SEVERITY = 'conditions_severe_harm_very_good/'  # adjust as needed
+# SEVERITY = 'conditions_mild_harm_mild_good/'  # adjust as needed
+SEVERITY = 'conditions_severe_harm_very_good/'  # adjust as needed
 SCENARIO_DIR = CUR_DIR+'/scenarios_inputs/franken/'+SEVERITY
 OUTPUT_DIR = CUR_DIR+'/annotated_outputs/franken_new/'+SEVERITY
 
@@ -36,7 +36,7 @@ def main():
         with open(SCENARIO_DIR+filename, 'r') as file:
             scenarios=json.load(file)
 
-        for scenario_id in range(30): # go from 0 to 29
+        for scenario_id in range(10): # go from 0 to 29
 
             # error handling for assumptions about json entries
             try:
@@ -64,7 +64,7 @@ def main():
             # for act_id in scenario_json['options'].keys():         
             
             # run the annotation process
-            json_filename = annotate_scenario.main(scenario_json,output_filename,"1","bfc528f045905d4e77fdf00667f1be18ca0ca6d0",False)  
+            json_filename = annotate_scenario.main(scenario_json,output_filename,"1","a5ead7e720f9efa062e4157ef6512e791d6f5692",False)  
             print(f'Annotation saved to {json_filename}\n\n')
 
             # run the translation to vis process
