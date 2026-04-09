@@ -1,0 +1,80 @@
+[
+
+ {
+    "id": 1,
+    "scenario_title": "Bird",
+    "deontology_level": "1",
+    "utility_level": "3",
+    "text": "When I was 9 or 10, I had a BB gun I would shoot in our backyard on weekends. One morning, I was shooting at a target. When I was about to shoot, a bird started flying by. I didn’t notice the bird and pulled the trigger as it entered my vision. What happened next seemed like slow motion. The bird fell from flight and I started hearing it frantically wriggling in pain on the ground. I froze for a minute as it slowly started to sink in that I had shot the bird. I frantically ran over. I felt traumatized because I loved animals, especially birds, and I didn’t want to hurt them. I started to cry because I didn’t know what to do next. I knew the bird was in pain and that it would not live. I saw it dying a slow, painful death unless I acted. I had a shovel that I could use to hasten the bird’s death.",
+    "options": {
+      "1": "kill the bird with the shovel",
+      "2": "go inside and do nothing"
+    }
+  },
+
+ {
+    "id": 2,
+    "scenario_title": "Bird",
+    "deontology_level": "2",
+    "utility_level": "3",
+    "text": "When I was 9 or 10, I had a BB gun I would shoot in our backyard on weekends. One morning, I was shooting at a target. When I was about to shoot, a bird started flying by. I didn’t notice the bird and pulled the trigger as it entered my vision. What happened next seemed like slow motion. The bird fell from flight and I started hearing it frantically wriggling in pain on the ground. I froze for a minute as it slowly started to sink in that I had shot the bird. I frantically ran over. I felt traumatized because I loved animals, especially birds, and I didn’t want to hurt them. I started to cry because I didn’t know what to do next. I knew the bird was in pain and that it would not live. I saw it dying a slow, painful death unless I acted. I had a painless poison that I could use to hasten the birds’ death.",
+    "options": {
+      "1": "kill the bird with the painless poison",
+      "2": "go inside and do nothing"
+    }
+  },
+
+
+ {
+    "id": 3,
+    "scenario_title": "Bird",
+    "deontology_level": "3",
+    "utility_level": "3",
+    "text": "When I was 9 or 10, I had a BB gun I would shoot in our backyard on weekends. One morning, I was shooting at a target. When I was about to shoot, a bird started flying by. I didn’t notice the bird and pulled the trigger as it entered my vision. What happened next seemed like slow motion. The bird fell from flight and I started hearing it frantically wriggling in pain on the ground. I froze for a minute as it slowly started to sink in that I had shot the bird. I frantically ran over. I felt traumatized because I loved animals, especially birds, and I didn’t want to hurt them. I started to cry because I didn’t know what to do next. I knew the bird was in pain and that it would not live. I saw it dying a slow, painful death unless I acted. I knew that there was an animal care facility nearby who could come and euthanize the bird.",
+    "options": {
+      "1": "call the animal care facility to euthanize the bird",
+      "2": "go inside and do nothing"
+    }
+  },
+
+
+ {
+    "id": 4,
+    "scenario_title": "Bird",
+    "deontology_level": "1",
+    "utility_level": "2",
+    "text": "When I was 9 or 10, I had a BB gun I would shoot in our backyard on weekends. One morning, I was shooting at a target. When I was about to shoot, a bird started flying by. I didn’t notice the bird and pulled the trigger as it entered my vision. What happened next seemed like slow motion. The bird fell from flight and I started hearing it frantically wriggling in pain on the ground. I froze for a minute as it slowly started to sink in that I had shot the bird in one of its wings. I frantically ran over. I felt traumatized because I loved animals, especially birds, and I didn’t want to hurt them. I started to cry because I didn’t know what to do next. I knew the bird was in pain and that it would likely lose the shot wing. I saw it living in pain and suffering for a long time unless I acted. I had a shovel that I could use to end the bird's life.",
+    "options": {
+      "1": "kill the bird with the shovel",
+      "2": "go inside and do nothing"
+    }
+  },
+
+
+
+ {
+    "id": 5,
+    "scenario_title": "Bird",
+    "deontology_level": "2",
+    "utility_level": "2",
+    "text": "When I was 9 or 10, I had a BB gun I would shoot in our backyard on weekends. One morning, I was shooting at a target. When I was about to shoot, a bird started flying by. I didn’t notice the bird and pulled the trigger as it entered my vision. What happened next seemed like slow motion. The bird fell from flight and I started hearing it frantically wriggling in pain on the ground. I froze for a minute as it slowly started to sink in that I had shot the bird in one of its wings. I frantically ran over. I felt traumatized because I loved animals, especially birds, and I didn’t want to hurt them. I started to cry because I didn’t know what to do next. I knew the bird was in pain and that it would likely lose the shot wing. I saw it living in pain and suffering for a long time unless I acted.  I had a painless poison that I could use to hasten the birds’ death.",
+    "options": {
+      "1": "kill the bird with the painless poison",
+      "2": "go inside and do nothing"
+    }
+  },
+
+
+ {
+    "id": 6,
+    "scenario_title": "Bird",
+    "deontology_level": "3",
+    "utility_level": "2",
+    "text": "When I was 9 or 10, I had a BB gun I would shoot in our backyard on weekends. One morning, I was shooting at a target. When I was about to shoot, a bird started flying by. I didn’t notice the bird and pulled the trigger as it entered my vision. What happened next seemed like slow motion. The bird fell from flight and I started hearing it frantically wriggling in pain on the ground. I froze for a minute as it slowly started to sink in that I had shot the bird in one of its wings. I frantically ran over. I felt traumatized because I loved animals, especially birds, and I didn’t want to hurt them. I started to cry because I didn’t know what to do next. I knew the bird was in pain and that it would likely lose the shot wing. I saw it living in pain and suffering for a long time unless I acted.  I knew that there was an animal care facility nearby who could come and euthanize the bird.",
+    "options": {
+      "1": "call the animal care facility to euthanize the bird",
+      "2": "go inside and do nothing"
+    }
+  }
+
+]
