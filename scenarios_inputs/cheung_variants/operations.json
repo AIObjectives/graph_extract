@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "scenario_title": "Operations",
+    "deontology_level": "1",
+    "utility_level": "3",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The clinic has already been in debt the previous year and will have to file for bankruptcy if there will be another debt when the lung surgeries are not refunded. Without this hospital, the region will not have access to fast intensive emergency care. Sooner or later, having no fast access to intensive emergency care will lead to avoidable deaths in the region. The only way of sustaining the clinic would be by performing two lung surgeries that are medically not indicated. If I order a surgical resident to perform two unnecessary surgeries, I can save the hospital from bankruptcy and the region will continue to have fast emergency care, but the surgical resident will perform surgery on two patients for whom other treatments would be more appropriate. If I do not order a surgical resident to perform two unnecessary surgeries, the clinic will be closed, leading to deaths sooner or later.",
+    "options": {
+      "1": "order a surgical resident to perform two unnecessary surgeries",
+      "2": "do not order a surgical resident to perform two unnecessary surgeries"
+    }
+  },
+  {
+    "id": 2,
+    "scenario_title": "Operations",
+    "deontology_level": "2",
+    "utility_level": "3",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The clinic has already been in debt the previous year and will have to file for bankruptcy if there will be another debt when the lung surgeries are not refunded. Without this hospital, the region will not have access to fast intensive emergency care. Sooner or later, having no fast access to intensive emergency care will lead to avoidable deaths in the region. The only way of sustaining the clinic would be by performing two lung surgeries that are medically not indicated. If I perform two unnecessary surgeries, I can save the hospital from bankruptcy and the region will continue to have fast emergency care, but I will perform surgery on two patients for whom other treatments would be more appropriate. If I do not perform the surgeries, the clinic will be closed, leading to deaths sooner or later.",
+    "options": {
+      "1": "perform two unnecessary surgeries",
+      "2": "do not perform two unnecessary surgeries"
+    }
+  },
+  {
+    "id": 3,
+    "scenario_title": "Operations",
+    "deontology_level": "3",
+    "utility_level": "3",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The clinic has already been in debt the previous year and will have to file for bankruptcy if there will be another debt when the lung surgeries are not refunded. Without this hospital, the region will not have access to fast intensive emergency care. Sooner or later, having no fast access to intensive emergency care will lead to avoidable deaths in the region. The only way of sustaining the clinic would be by performing two lung surgeries that are medically not indicated. If I perform two unnecessary surgeries, I can save the hospital from bankruptcy and the region will continue to have fast emergency care, but I will perform surgery on two patients for whom other treatments would be more appropriate. If I do not perform the surgeries, the clinic will be closed, leading to deaths sooner or later.",
+    "options": {
+      "1": "ask another physician to perform two unnecessary surgeries",
+      "2": "do not ask another physician to perform two unnecessary surgeries"
+    }
+  },
+  {
+    "id": 4,
+    "scenario_title": "Operations",
+    "deontology_level": "",
+    "utility_level": "",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The clinic has already been in debt the previous year and will have to file for bankruptcy if there will be another debt when the lung surgeries are not refunded. Without this hospital, the region will not have access to fast intensive emergency care. Sooner or later, having no fast access to intensive emergency care will lead to avoidable deaths in the region. The only way of sustaining the clinic would be by performing two lung surgeries that are medically not indicated. If I perform two unnecessary surgeries, I can save the hospital from bankruptcy and the region will continue to have fast emergency care, but I will perform surgery on two patients for whom other treatments would be more appropriate. If I do not perform the surgeries, the clinic will be closed, leading to deaths sooner or later.",
+    "options": {
+      "1": "",
+      "2": ""
+    }
+  },
+  {
+    "id": 5,
+    "scenario_title": "Operations",
+    "deontology_level": "",
+    "utility_level": "",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The clinic has already been in debt the previous year and will have to file for bankruptcy if there will be another debt when the lung surgeries are not refunded. Without this hospital, the region will not have access to fast intensive emergency care. Sooner or later, having no fast access to intensive emergency care will lead to avoidable deaths in the region. The only way of sustaining the clinic would be by performing two lung surgeries that are medically not indicated. If I perform two unnecessary surgeries, I can save the hospital from bankruptcy and the region will continue to have fast emergency care, but I will perform surgery on two patients for whom other treatments would be more appropriate. If I do not perform the surgeries, the clinic will be closed, leading to deaths sooner or later.",
+    "options": {
+      "1": "",
+      "2": ""
+    }
+  },
+  {
+    "id": 6,
+    "scenario_title": "Operations",
+    "deontology_level": "",
+    "utility_level": "",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The clinic has already been in debt the previous year and will have to file for bankruptcy if there will be another debt when the lung surgeries are not refunded. Without this hospital, the region will not have access to fast intensive emergency care. Sooner or later, having no fast access to intensive emergency care will lead to avoidable deaths in the region. The only way of sustaining the clinic would be by performing two lung surgeries that are medically not indicated. If I perform two unnecessary surgeries, I can save the hospital from bankruptcy and the region will continue to have fast emergency care, but I will perform surgery on two patients for whom other treatments would be more appropriate. If I do not perform the surgeries, the clinic will be closed, leading to deaths sooner or later.",
+    "options": {
+      "1": "",
+      "2": ""
+    }
+  },
+  {
+    "id": 7,
+    "scenario_title": "Operations",
+    "deontology_level": "",
+    "utility_level": "",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The clinic has already been in debt the previous year and will have to file for bankruptcy if there will be another debt when the lung surgeries are not refunded. Without this hospital, the region will not have access to fast intensive emergency care. Sooner or later, having no fast access to intensive emergency care will lead to avoidable deaths in the region. The only way of sustaining the clinic would be by performing two lung surgeries that are medically not indicated. If I perform two unnecessary surgeries, I can save the hospital from bankruptcy and the region will continue to have fast emergency care, but I will perform surgery on two patients for whom other treatments would be more appropriate. If I do not perform the surgeries, the clinic will be closed, leading to deaths sooner or later.",
+    "options": {
+      "1": "",
+      "2": ""
+    }
+  },
+  {
+    "id": 8,
+    "scenario_title": "Operations",
+    "deontology_level": "",
+    "utility_level": "",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The clinic has already been in debt the previous year and will have to file for bankruptcy if there will be another debt when the lung surgeries are not refunded. Without this hospital, the region will not have access to fast intensive emergency care. Sooner or later, having no fast access to intensive emergency care will lead to avoidable deaths in the region. The only way of sustaining the clinic would be by performing two lung surgeries that are medically not indicated. If I perform two unnecessary surgeries, I can save the hospital from bankruptcy and the region will continue to have fast emergency care, but I will perform surgery on two patients for whom other treatments would be more appropriate. If I do not perform the surgeries, the clinic will be closed, leading to deaths sooner or later.",
+    "options": {
+      "1": "",
+      "2": ""
+    }
+  },
+  {
+    "id": 9,
+    "scenario_title": "Operations",
+    "deontology_level": "",
+    "utility_level": "",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The clinic has already been in debt the previous year and will have to file for bankruptcy if there will be another debt when the lung surgeries are not refunded. Without this hospital, the region will not have access to fast intensive emergency care. Sooner or later, having no fast access to intensive emergency care will lead to avoidable deaths in the region. The only way of sustaining the clinic would be by performing two lung surgeries that are medically not indicated. If I perform two unnecessary surgeries, I can save the hospital from bankruptcy and the region will continue to have fast emergency care, but I will perform surgery on two patients for whom other treatments would be more appropriate. If I do not perform the surgeries, the clinic will be closed, leading to deaths sooner or later.",
+    "options": {
+      "1": "",
+      "2": ""
+    }
+  }
+]

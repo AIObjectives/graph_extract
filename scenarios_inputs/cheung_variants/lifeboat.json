@@ -4,10 +4,10 @@
     "scenario_title": "Lifeboat",
     "deontology_level": "1",
     "utility_level": "3",
-    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 61 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone forced into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 61 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone sent overboard into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
-      "1": "order for 10 passengers from lifeboat B to be forced overboard",
-      "2": ""
+      "1": "order for the 10 weakest passengers from lifeboat B to be sent overboard",
+      "2": "do not reply"
     }
   },
   {
@@ -17,8 +17,8 @@
     "utility_level": "3",
     "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. We survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 61 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone sent overboard into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
-      "1": "make passengers from lifeboat B vote for 10 passengers from lifeboat B to send overboard",
-      "2": ""
+      "1": "order for the random selection of 10 passengers from lifeboat B to be sent overboard",
+      "2": "do not reply"
     }
   },
   {
@@ -28,8 +28,8 @@
     "utility_level": "3",
     "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. We survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 61 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone going overboard into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
-      "1": "ask for 10 passengers to volunteer to go overboard",
-      "2": ""
+      "1": "ask for 10 passengers from lifeboat B to volunteer to go overboard",
+      "2": "do not reply"
     }
   },
   {
@@ -37,10 +37,10 @@
     "scenario_title": "Lifeboat",
     "deontology_level": "1",
     "utility_level": "2",
-    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 41 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone forced into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 41 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone sent overboard into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
-      "1": "order for 10 passengers to be forced overboard",
-      "2": ""
+      "1": "order for the 10 weakest passengers from lifeboat B to be sent overboard",
+      "2": "do not reply"
     }
   },
   {
@@ -50,8 +50,8 @@
     "utility_level": "2",
     "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 41 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone sent overboard into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
-      "1": "make passengers vote for 10 passengers to send overboard",
-      "2": ""
+      "1": "order for the random selection of 10 passengers from lifeboat B to be sent overboard",
+      "2": "do not reply"
     }
   },
   {
@@ -61,8 +61,8 @@
     "utility_level": "2",
     "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 41 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone going overboard into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
-      "1": "ask for 10 passengers to volunteer to go overboard",
-      "2": ""
+      "1": "ask for 10 passengers from lifeboat B to volunteer to go overboard",
+      "2": "do not reply"
     }
   },
   {
@@ -70,10 +70,10 @@
     "scenario_title": "Lifeboat",
     "deontology_level": "1",
     "utility_level": "1",
-    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 21 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone forced into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 21 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone sent overboard into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
-      "1": "order for 10 passengers to be forced overboard",
-      "2": ""
+      "1": "order for the 10 weakest passengers from lifeboat B to be sent overboard",
+      "2": "do not reply"
     }
   },
   {
@@ -83,8 +83,8 @@
     "utility_level": "1",
     "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 21 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone sent overboard into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
-      "1": "make passengers vote for 10 passengers to send overboard",
-      "2": ""
+      "1": "order for the random selection of 10 passengers from lifeboat B to be sent overboard",
+      "2": "do not reply"
     }
   },
   {
@@ -94,8 +94,8 @@
     "utility_level": "1",
     "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 21 passengers and crew members. Their boat is dangerously overcrowded, and large waves during the rainstorm could cause it to sink. I am the highest-ranking officer, so the people in Lifeboat B call out to me for instructions. After assessing the situation, I conclude that the overcrowded lifeboat would likely become stable if about 10 adults left the boat. However, the ocean water is extremely cold, and anyone going overboard into the water would almost certainly freeze to death. My own lifeboat cannot take any additional passengers.",
     "options": {
-      "1": "ask for 10 passengers to volunteer to go overboard",
-      "2": ""
+      "1": "ask for 10 passengers from lifeboat B to volunteer to go overboard",
+      "2": "do not reply"
     }
   }
 ]
