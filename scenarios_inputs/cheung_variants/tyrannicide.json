@@ -17,7 +17,7 @@
     "utility_level": "3",
     "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who has had thousands of people killed because of their ethnicity or their political views. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kidnap the dictator in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to kidnap and torture the dictator to make him end his regime. If I torture the dictator, the people in my country will have a chance for a new start. If I do not torture him, the regime will continue its killings.",
     "options": {
-      "1": "torture the dictator",
+      "1": "kidnap the dictator",
       "2": ""
     }
   },
@@ -39,7 +39,7 @@
     "utility_level": "2",
     "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who enforces an oppressive regime but has no intention of killing dissenters. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kill the dictator in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to ambush and kill the dictator. If I kill the dictator, the people in my country will have a chance for a new start. If I do not kill him, the regime will continue.",
     "options": {
-      "1": "ambush and kill the dictator",
+      "1": "kill the dictator",
       "2": ""
     }
   },
@@ -50,7 +50,7 @@
     "utility_level": "2",
     "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who enforces an oppressive regime but has no intention of killing dissenters. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kidnap the dictator in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to kidnap and torture the dictator to make him end his regime. If I torture the dictator, the people in my country will have a chance for a new start. If I do not torture him, the regime will continue.",
     "options": {
-      "1": "kidnap and torture the dictator",
+      "1": "kidnap the dictator",
       "2": ""
     }
   },
@@ -72,7 +72,7 @@
     "utility_level": "1",
     "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who enforces a controversial but nonlethal regime that has about half of the country's support. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kill the dictator in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to ambush and kill the dictator. If I kill the dictator, the people in my country will have a chance for a new start. If I do not kill him, the regime will continue.",
     "options": {
-      "1": "ambush and kill the dictator",
+      "1": "kill the dictator",
       "2": ""
     }
   },
@@ -83,7 +83,7 @@
     "utility_level": "1",
     "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who enforces a controversial but nonlethal regime that has about half of the country's support. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kidnap the dictator in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to kidnap and torture the dictator to make him end his regime. If I torture the dictator, the people in my country will have a chance for a new start. If I do not torture him, the regime will continue.",
     "options": {
-      "1": "kidnap and torture the dictator",
+      "1": "kidnap the dictator",
       "2": ""
     }
   },
