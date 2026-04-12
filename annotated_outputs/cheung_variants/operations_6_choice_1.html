@@ -1,0 +1,172 @@
+<html>
+<head>
+<script type='text/javascript'src='https://unpkg.com/vis-network/standalone/umd/vis-network.min.js'></script>    
+<style type='text/css'>      
+ #mynetwork {        
+		width: 2160px;         
+		height: 2160px;         
+		border: 1px solid lightgray;       
+	 }   
+	 </style>
+</head>
+<body>
+<div id='mynetwork'></div>
+
+<script type="text/javascript">    
+
+window.onload = function(){       
+	launch_visualization()    
+}    
+function launch_visualization() {         
+	this_dset =  return_vis_dataset()        
+	nodes = this_dset[1]        
+	edges = this_dset[0]        
+	// create a network        
+	var container = document.getElementById("mynetwork");        
+	var data = {            
+		nodes: nodes,            
+		 edges: edges         
+		};    
+	var options = {		
+		physics: {			
+			enabled: true,			
+			barnesHut: {			
+			theta: 0.5,			
+			gravitationalConstant: -5000,			
+			springLength: 500,			
+			springConstant: 0.01,			
+			damping: 5,			
+			avoidOverlap: 1			
+		}		
+	},		
+		manipulation: {			
+			enabled: true,			
+			initiallyActive: false,			
+			addNode: true,			
+			addEdge: true,			
+			editEdge: true,			
+			deleteNode: true,			
+			deleteEdge: true,		
+			},		
+		nodes: {			
+			shape: "circle",            
+			font: { size: 16 },            
+			},         
+		edges: {         
+			length: 2000,         
+		},	};        
+ // initialize your network!         
+	var network = new vis.Network(container, data, options);    
+}
+function return_vis_dataset() {
+	var nodes = new vis.DataSet([ 
+		{id: 1, label: "i", color: {background: '#279aba'}},
+		{id: 2, label: "another physician", color: {background: '#279aba'}},
+		{id: 3, label: "2 patients who would receive\n unnecessary lung surgeries", color: {background: '#279aba'}},
+		{id: 4, label: "hospital employees who would be\n laid off", color: {background: '#279aba'}},
+		{id: 5, label: "hospital employees who would not\n be laid off", color: {background: '#279aba'}},
+		{id: 6, label: "future regional patients who survive\n because fast intensive emergency care\n remains available", color: {background: '#279aba'}},
+		{id: 7, label: "future regional patients who die\n avoidably because fast intensive emergency\n care is limited", color: {background: '#279aba'}},
+		{id: 8, label: "ask another physician to perform\n two unnecessary surgeries", color: {background: '#ba2769'}},
+		{id: 9, label: "value", color: {background: '#8e7db5'}},
+		{id: 10, label: "Another physician performs two medically\n unnecessary lung surgeries", color: {background: '#e6c440'}},
+		{id: 11, label: "Two patients are denied more\n appropriate treatment", color: {background: '#e6c440'}},
+		{id: 12, label: "The hospital reaches 50 lung\n surgeries for the year", color: {background: '#e6c440'}},
+		{id: 13, label: "The hospital receives health insurance\n reimbursement for the lung surgeries", color: {background: '#e6c440'}},
+		{id: 14, label: "The hospital avoids another debt\n from unreimbursed lung surgeries", color: {background: '#e6c440'}},
+		{id: 15, label: "The hospital avoids a mass\n layoff of employees", color: {background: '#e6c440'}},
+		{id: 16, label: "Hospital employees keep their jobs", color: {background: '#e6c440'}},
+		{id: 17, label: "People in the region continue\n to receive timely emergency care", color: {background: '#e6c440'}},
+		{id: 18, label: "Avoidable deaths in the region\n are prevented", color: {background: '#e6c440'}}
+		]);
+	var edges = new vis.DataSet([ 
+		{from: 1, to: 8, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 10, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 11, label: "C+I-K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 12, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 13, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 14, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 15, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 16, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 17, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 18, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 9, label: "-53.0", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 10, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 11, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 12, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 13, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 14, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 15, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 16, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 17, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 18, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 10, to: 1, label: "-2", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 10, to: 2, label: "-85", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 10, to: 3, label: "-95", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 10, to: 4, label: "-72", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 10, to: 5, label: "-8", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 10, to: 6, label: "65", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 10, to: 7, label: "-92", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 11, to: 1, label: "-75", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 11, to: 2, label: "-35", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 11, to: 3, label: "-95", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 11, to: 4, label: "-70", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 11, to: 5, label: "-15", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 11, to: 6, label: "75", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 11, to: 7, label: "-95", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 12, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 12, to: 2, label: "8", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 12, to: 3, label: "-85", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 12, to: 4, label: "-85", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 12, to: 5, label: "55", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 12, to: 6, label: "88", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 12, to: 7, label: "-70", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 13, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 13, to: 2, label: "8", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 13, to: 3, label: "-88", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 13, to: 4, label: "55", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 13, to: 5, label: "55", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 13, to: 6, label: "88", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 13, to: 7, label: "-78", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 14, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 14, to: 2, label: "8", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 14, to: 3, label: "85", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 14, to: 4, label: "75", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 14, to: 5, label: "72", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 14, to: 6, label: "88", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 14, to: 7, label: "-88", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 15, to: 1, label: "12", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 15, to: 2, label: "35", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 15, to: 3, label: "-85", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 15, to: 4, label: "92", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 15, to: 5, label: "88", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 15, to: 6, label: "95", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 15, to: 7, label: "-85", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 16, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 16, to: 2, label: "12", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 16, to: 3, label: "-85", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 16, to: 4, label: "95", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 16, to: 5, label: "92", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 16, to: 6, label: "92", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 16, to: 7, label: "-95", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 17, to: 1, label: "72", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 17, to: 2, label: "72", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 17, to: 3, label: "-85", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 17, to: 4, label: "-75", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 17, to: 5, label: "72", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 17, to: 6, label: "95", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 17, to: 7, label: "-95", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 18, to: 1, label: "85", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 18, to: 2, label: "82", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 18, to: 3, label: "95", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 18, to: 4, label: "-65", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 18, to: 5, label: "85", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 18, to: 6, label: "95", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 18, to: 7, label: "100", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		]);
+
+	return ([edges,nodes])
+}
+</script>
+</body>
+</html>
