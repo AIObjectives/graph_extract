@@ -4,10 +4,10 @@
     "scenario_title": "Rope Ladder",
     "deontology_level": "1",
     "utility_level": "3",
-    "text": "It is 1987 and I am on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. I and many other passengers are trying to get to the deck by a rope ladder. I climb up the ladder and stand on the deck, looking at the 20 other passengers making their way up behind me. Directly below me, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. I try to speak and reach to him, but he does not react. People behind me are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. I have a gun in my possession. From the crowd below, someone shouts that I should shoot the man to make him fall off. If I shoot the man, he will probably die from the shot, but the 19 other people will be able to climb on deck. If I do not shoot the man, he will probably continue blocking the way so that many of the people behind me will not be able to get on deck and therefore will drown.",
+    "text": "It is 1987 and I am on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. I and many other passengers are trying to get to the deck by a rope ladder. I climb up the ladder and stand on the deck, looking at the 20 other passengers making their way up behind me. Directly below me, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. I try to speak and reach to him, but he does not react. People behind me are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. I have a crowbar in my possession. From the crowd below, someone shouts that I should break the man's fingers to make him fall off. If I break the man's fingers, he will probably die from the fall, but the 19 other people will be able to climb on deck. If I do not break the man's fingers, he will probably continue blocking the way so that many of the people behind me will not be able to get on deck and therefore will drown.",
     "options": {
-      "1": "shoot the man",
-      "2": ""
+      "1": "break the man's fingers",
+      "2": "stand there and do nothing"
     }
   },
   {
@@ -15,10 +15,10 @@
     "scenario_title": "Rope Ladder",
     "deontology_level": "2",
     "utility_level": "3",
-    "text": "It is 1987 and I am on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. I and many other passengers are trying to get to the deck by a rope ladder. I climb up the ladder and stand on the deck, looking at the 20 other passengers making their way up behind me. Directly below me, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. I try to speak and reach to him, but he does not react. People behind me are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. I have a crowbar in my possession. From the crowd below, someone shouts that I should break the man's fingers to make him fall off. If I break the man's fingers, he will probably die from the fall, but the 19 other people will be able to climb on deck. If I do not break the man's fingers, he will probably continue blocking the way so that many of the people behind me will not be able to get on deck and therefore will drown.",
+    "text": "It is 1987 and I am on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. I and many other passengers are trying to get to the deck by a rope ladder. I climb up the ladder and stand on the deck, looking at the 20 other passengers making their way up behind me. Directly below me, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. I try to speak and reach to him, but he does not react. People behind me are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. I have a pocket knife in my possession. From the crowd below, someone shouts that I should stab the man to make him fall off. If I stab the man, he will probably die from the fall, but the 19 other people will be able to climb on deck. If I do not stab the man, he will probably continue blocking the way so that many of the people behind me will not be able to get on deck and therefore will drown.",
     "options": {
-      "1": "break the man's fingers",
-      "2": ""
+      "1": "stab the man",
+      "2": "stand there and do nothing"
     }
   },
   {
@@ -29,7 +29,7 @@
     "text": "It is 1987 and I am on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. I and many other passengers are trying to get to the deck by a rope ladder. I climb up the ladder and stand on the deck, looking at the 20 other passengers making their way up behind me. Directly below me, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. I try to speak and reach to him, but he does not react. People behind me are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. From the crowd below, someone shouts that I should push the man off. If I push the man off the ladder, he will probably die from the fall, but the 19 other people will be able to climb on deck. If I do not push the man off the ladder, he will probably continue blocking the way so that many of the people behind me will not be able to get on deck and therefore will drown.",
     "options": {
       "1": "push the man",
-      "2": ""
+      "2": "stand there and do nothing"
     }
   },
   {
@@ -37,10 +37,10 @@
     "scenario_title": "Rope Ladder",
     "deontology_level": "1",
     "utility_level": "2",
-    "text": "It is 1987 and I am on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. I and some other passengers are trying to get to the deck by a rope ladder. I climb up the ladder and stand on the deck, looking at the 6 other passengers making their way up behind me. Directly below me, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. I try to speak and reach to him, but he does not react. People behind me are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. I have a gun in my possession. From the crowd below, someone shouts that I should shoot the man to make him fall off. If I shoot the man, he will probably die from the shot, but the 5 other people will be able to climb on deck. If I do not shoot the man, he will probably continue blocking the way so that many of the people behind me will not be able to get on deck and therefore will drown.",
+    "text": "It is 1987 and I am on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. I and some other passengers are trying to get to the deck by a rope ladder. I climb up the ladder and stand on the deck, looking at the 6 other passengers making their way up behind me. Directly below me, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. I try to speak and reach to him, but he does not react. People behind me are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. I have a crowbar in my possession. From the crowd below, someone shouts that I should break the man's fingers to make him fall off. If I break the man's fingers, he will probably die from the fall, but the 5 other people will be able to climb on deck. If I do not break the man's fingers, he will probably continue blocking the way so that many of the people behind me will not be able to get on deck and therefore will drown.",
     "options": {
-      "1": "shoot the man",
-      "2": ""
+      "1": "break the man's fingers",
+      "2": "stand there and do nothing"
     }
   },
   {
@@ -48,10 +48,10 @@
     "scenario_title": "Rope Ladder",
     "deontology_level": "2",
     "utility_level": "2",
-    "text": "It is 1987 and I am on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. I and some other passengers are trying to get to the deck by a rope ladder. I climb up the ladder and stand on the deck, looking at the 6 other passengers making their way up behind me. Directly below me, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. I try to speak and reach to him, but he does not react. People behind me are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. I have a crowbar in my possession. From the crowd below, someone shouts that I should break the man's fingers to make him fall off. If I break the man's fingers, he will probably die from the fall, but the 5 other people will be able to climb on deck. If I do not break the man's fingers, he will probably continue blocking the way so that many of the people behind me will not be able to get on deck and therefore will drown.",
+    "text": "It is 1987 and I am on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. I and some other passengers are trying to get to the deck by a rope ladder. I climb up the ladder and stand on the deck, looking at the 6 other passengers making their way up behind me. Directly below me, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. I try to speak and reach to him, but he does not react. People behind me are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. I have a pocket knife in my possession. From the crowd below, someone shouts that I should stab the man to make him fall off. If I stab the man, he will probably die from the fall, but the 5 other people will be able to climb on deck. If I do not stab the man, he will probably continue blocking the way so that many of the people behind me will not be able to get on deck and therefore will drown.",
     "options": {
-      "1": "break the man's fingers",
-      "2": ""
+      "1": "stab the man",
+      "2": "stand there and do nothing"
     }
   },
   {
@@ -62,7 +62,7 @@
     "text": "It is 1987 and I am on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. I and some other passengers are trying to get to the deck by a rope ladder. I climb up the ladder and stand on the deck, looking at the 6 other passengers making their way up behind me. Directly below me, a man who is midway up the ladder seems frozen into immobility by fear or cold and is blocking the way. I try to speak and reach to him, but he does not react. People behind me are jostling. The ship seems to be sinking fast and the man is still blocking the ladder. From the crowd below, someone shouts that I should push the man off. If I push the man off the ladder, he will probably die from the fall, but the 5 other people will be able to climb on deck. If I do not push the man off the ladder, he will probably continue blocking the way so that many of the people behind me will not be able to get on deck and therefore will drown.",
     "options": {
       "1": "push the man",
-      "2": ""
+      "2": "stand there and do nothing"
     }
   },
   {
@@ -70,10 +70,10 @@
     "scenario_title": "Rope Ladder",
     "deontology_level": "1",
     "utility_level": "1",
-    "text": "It is 1987 and I am on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. I and some other passengers are trying to get to the deck by a rope ladder. I climb up the ladder and stand on the deck, looking at the 2 other passengers making their way up behind me. Directly below me, a man who is midway up the ladder seems frozen into immobility by fear or cold and is stuck there. I try to speak and reach to the man, but he does not react. The ship seems to be sinking fast and the man is still stuck at the ladder. I have a gun in my possession. From the crowd on the deck, someone shouts that I should shoot the man to make him fall off. If I shoot the man, he will probably die from the shot, but the person behind him will be able to climb on deck. If I do not shoot the man, he will probably continue blocking the way so that the person behind him will not be able to get on deck and therefore will drown.",
+    "text": "It is 1987 and I am on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. I and some other passengers are trying to get to the deck by a rope ladder. I climb up the ladder and stand on the deck, looking at the 2 other passengers making their way up behind me. Directly below me, a man who is midway up the ladder seems frozen into immobility by fear or cold and is stuck there. I try to speak and reach to the man, but he does not react. The ship seems to be sinking fast and the man is still stuck at the ladder. I have a crowbar in my possession. From the crowd on the deck, someone shouts that I should break the man's fingers to make him fall off. If I break the man's fingers, he will probably die from the fall, but the person behind him will be able to climb on deck. If I do not break the man's fingers, he will probably continue blocking the way so that the person behind him will not be able to get on deck and therefore will drown.",
     "options": {
-      "1": "shoot the man",
-      "2": ""
+      "1": "break the man's fingers",
+      "2": "stand there and do nothing"
     }
   },
   {
@@ -81,10 +81,10 @@
     "scenario_title": "Rope Ladder",
     "deontology_level": "2",
     "utility_level": "1",
-    "text": "It is 1987 and I am on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. I and some other passengers are trying to get to the deck by a rope ladder. I climb up the ladder and stand on the deck, looking at the 2 other passengers making their way up behind me. Directly below me, a man who is midway up the ladder seems frozen into immobility by fear or cold and is stuck there. I try to speak and reach to him, but he does not react. The ship seems to be sinking fast and the man is still stuck at the ladder. I have a crowbar in my possession. From the crowd below, someone shouts that I should break the man's fingers to make him fall off. If I break the man's fingers, he will probably die from the fall, but the person behind him will be able to climb on deck. If I do not break the man's fingers he will probably continue blocking the way so that the person behind him will not be able to get on deck and therefore will drown.",
+    "text": "It is 1987 and I am on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. I and some other passengers are trying to get to the deck by a rope ladder. I climb up the ladder and stand on the deck, looking at the 2 other passengers making their way up behind me. Directly below me, a man who is midway up the ladder seems frozen into immobility by fear or cold and is stuck there. I try to speak and reach to him, but he does not react. The ship seems to be sinking fast and the man is still stuck at the ladder. I have a pocket knife in my possession. From the crowd below, someone shouts that I should stab the man to make him fall off. If I stab the man, he will probably die from the fall, but the person behind him will be able to climb on deck. If I do not stab the man he will probably continue blocking the way so that the person behind him will not be able to get on deck and therefore will drown.",
     "options": {
-      "1": "break the man's fingers",
-      "2": ""
+      "1": "stab the man",
+      "2": "stand there and do nothing"
     }
   },
   {
@@ -95,7 +95,7 @@
     "text": "It is 1987 and I am on a ferry from Belgium to England. Suddenly, the ferry starts tilting and water begins to pour in. I and some other passengers are trying to get to the deck by a rope ladder. I climb up the ladder and stand on the deck, looking at the 2 other passengers making their way up behind me. Directly below me, a man who is midway up the ladder seems frozen into immobility by fear or cold and is stuck there. I try to speak and reach to him, but he does not react. The ship seems to be sinking fast and the man is still stuck at the ladder. From the crowd on the deck, someone shouts that I should push the man off. If I push the man off the ladder, he will probably die from the fall, but the person behind him will be able to climb on deck. If I do not push the man off the ladder, he will probably continue blocking the way so that the person behind him will not be able to get on deck and therefore will drown.",
     "options": {
       "1": "push the man",
-      "2": ""
+      "2": "stand there and do nothing"
     }
   }
 ]
