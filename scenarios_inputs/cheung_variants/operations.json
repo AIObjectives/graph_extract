@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "scenario_title": "Operations",
+    "deontology_level": "1",
+    "utility_level": "3",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The hospital has already been in debt the previous year and will have to file for bankruptcy if there will be another debt when the lung surgeries are not refunded. Without this hospital, the region will not have access to fast intensive emergency care. Sooner or later, having no fast access to intensive emergency care will lead to avoidable deaths in the region. The only way of sustaining the hospital would be by performing two lung surgeries that are medically not indicated. If I order a surgical resident to perform two unnecessary surgeries, I can save the hospital from bankruptcy and the region will continue to have fast emergency care, but the surgical resident will perform surgery on two patients for whom other treatments would be more appropriate. If I do not order a surgical resident to perform two unnecessary surgeries, the hospital will be closed, leading to deaths sooner or later.",
+    "options": {
+      "1": "order a surgical resident to perform two unnecessary surgeries",
+      "2": "do not order a surgical resident to perform two unnecessary surgeries"
+    }
+  },
+  {
+    "id": 2,
+    "scenario_title": "Operations",
+    "deontology_level": "2",
+    "utility_level": "3",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The hospital has already been in debt the previous year and will have to file for bankruptcy if there will be another debt when the lung surgeries are not refunded. Without this hospital, the region will not have access to fast intensive emergency care. Sooner or later, having no fast access to intensive emergency care will lead to avoidable deaths in the region. The only way of sustaining the hospital would be by performing two lung surgeries that are medically not indicated. If I perform two unnecessary surgeries, I can save the hospital from bankruptcy and the region will continue to have fast emergency care, but I will perform surgery on two patients for whom other treatments would be more appropriate. If I do not perform the surgeries, the hospital will be closed, leading to deaths sooner or later.",
+    "options": {
+      "1": "perform two unnecessary surgeries",
+      "2": "do not perform two unnecessary surgeries"
+    }
+  },
+  {
+    "id": 3,
+    "scenario_title": "Operations",
+    "deontology_level": "3",
+    "utility_level": "3",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The hospital has already been in debt the previous year and will have to file for bankruptcy if there will be another debt when the lung surgeries are not refunded. Without this hospital, the region will not have access to fast intensive emergency care. Sooner or later, having no fast access to intensive emergency care will lead to avoidable deaths in the region. The only way of sustaining the hospital would be by performing two lung surgeries that are medically not indicated. If I ask another physician to perform two unnecessary surgeries, I can save the hospital from bankruptcy and the region will continue to have fast emergency care, but the other physician will perform surgery on two patients for whom other treatments would be more appropriate. If I do not ask another physician to perform two unnecessary surgeries, the hospital will be closed, leading to deaths sooner or later.",
+    "options": {
+      "1": "ask another physician to perform two unnecessary surgeries",
+      "2": "do not ask another physician to perform two unnecessary surgeries"
+    }
+  },
+  {
+    "id": 4,
+    "scenario_title": "Operations",
+    "deontology_level": "1",
+    "utility_level": "2",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The hospital has already been in debt the previous year and will have to announce a mass layoff for hospital employees if there will be another debt when the lung surgeries are not refunded. With the mass layoff, the region will have limited access to fast intensive emergency care. Sooner or later, having limited fast access to intensive emergency care will lead to avoidable deaths in the region. The only way of preventing the mass layoff would be by performing two lung surgeries that are medically not indicated. If I order a surgical resident to perform two unnecessary surgeries, I can prevent the mass layoff and the region will continue to have fast emergency care, but the surgical resident will perform surgery on two patients for whom other treatments would be more appropriate. If I do not order a surgical resident to perform two unnecessary surgeries, the mass layoff will occur, leading to deaths sooner or later.",
+    "options": {
+      "1": "order a surgical resident to perform two unnecessary surgeries",
+      "2": "do not order a surgical resident to perform two unnecessary surgeries"
+    }
+  },
+  {
+    "id": 5,
+    "scenario_title": "Operations",
+    "deontology_level": "2",
+    "utility_level": "2",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The hospital has already been in debt the previous year and will have to announce a mass layoff for hospital employees if there will be another debt when the lung surgeries are not refunded. With the mass layoff, the region will have limited access to fast intensive emergency care. Sooner or later, having limited fast access to intensive emergency care will lead to avoidable deaths in the region. The only way of preventing the mass layoff would be by performing two lung surgeries that are medically not indicated. If I perform two unnecessary surgeries, I can prevent the mass layoff and the region will continue to have fast emergency care, but I will perform surgery on two patients for whom other treatments would be more appropriate. If I do not perform the surgeries, the mass layoff will occur, leading to deaths sooner or later.",
+    "options": {
+      "1": "perform two unnecessary surgeries",
+      "2": "do not perform two unnecessary surgeries"
+    }
+  },
+  {
+    "id": 6,
+    "scenario_title": "Operations",
+    "deontology_level": "3",
+    "utility_level": "2",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The hospital has already been in debt the previous year and will have to announce a mass layoff for hospital employees if there will be another debt when the lung surgeries are not refunded. With the mass layoff, the region will have limited access to fast intensive emergency care. Sooner or later, having limited fast access to intensive emergency care will lead to avoidable deaths in the region. The only way of preventing the mass layoff would be by performing two lung surgeries that are medically not indicated. If I ask another physician to perform two unnecessary surgeries, I can prevent the mass layoff and the region will continue to have fast emergency care, but the other physician will perform surgery on two patients for whom other treatments would be more appropriate. If I do not ask another physician to perform two unnecessary surgeries, the mass layoff will occur, leading to deaths sooner or later.",
+    "options": {
+      "1": "ask another physician to perform two unnecessary surgeries",
+      "2": "do not ask another physician to perform two unnecessary surgeries"
+    }
+  },
+  {
+    "id": 7,
+    "scenario_title": "Operations",
+    "deontology_level": "1",
+    "utility_level": "1",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The hospital will have to go into debt if the lung surgeries are not refunded. Under such debt, the hospital will not be able to hire any more employees. Sooner or later, the hospital will face a labor shortage. The only way of keeping the hospital out of debt would be by performing two lung surgeries that are medically not indicated. If I order a surgical resident to perform two unnecessary surgeries, I can save the hospital from debt, but the surgical resident will perform surgery on two patients for whom other treatments would be more appropriate. If I do not order a surgical resident to perform two unnecessary surgeries, the hospital will be in debt, leading to a shortage of labor sooner or later.",
+    "options": {
+      "1": "order a surgical resident to perform two unnecessary surgeries",
+      "2": "do not order a surgical resident to perform two unnecessary surgeries"
+    }
+  },
+  {
+    "id": 8,
+    "scenario_title": "Operations",
+    "deontology_level": "2",
+    "utility_level": "1",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The hospital will have to go into debt if the lung surgeries are not refunded. Under such debt, the hospital will not be able to hire any more employees. Sooner or later, the hospital will face a labor shortage. The only way of keeping the hospital out of debt would be by performing two lung surgeries that are medically not indicated. If I perform two unnecessary surgeries, I can save the hospital from debt, but I will perform surgery on two patients for whom other treatments would be more appropriate. If I do not perform the surgeries, the hospital will be in debt, leading to a shortage of labor sooner or later.",
+    "options": {
+      "1": "perform two unnecessary surgeries",
+      "2": "do not perform two unnecessary surgeries"
+    }
+  },
+  {
+    "id": 9,
+    "scenario_title": "Operations",
+    "deontology_level": "3",
+    "utility_level": "1",
+    "text": "I am a physician in a hospital in a town in a rural area. My hospital needs to perform at least 50 lung surgeries per year in order to have them refunded by health insurance. Until this December, my hospital has only conducted 48 surgeries; thus, maybe none of the surgeries will be covered by insurance. The hospital will have to go into debt if the lung surgeries are not refunded. Under such debt, the hospital will not be able to hire any more employees. Sooner or later, the hospital will face a labor shortage. The only way of keeping the hospital out of debt would be by performing two lung surgeries that are medically not indicated. If I ask another physician to perform two unnecessary surgeries, I can save the hospital from debt, but the other physician will perform surgery on two patients for whom other treatments would be more appropriate. If I do not ask another physician to perform two unnecessary surgeries, the hospital will be in debt, leading to a shortage of labor sooner or later.",
+    "options": {
+      "1": "ask another physician to perform two unnecessary surgeries",
+      "2": "do not ask another physician to perform two unnecessary surgeries"
+    }
+  }
+]
