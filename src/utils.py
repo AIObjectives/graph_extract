@@ -1,6 +1,8 @@
 import os
+from pyexpat import model
 import sys
 import json
+from openai import OpenAI
 import requests
 import textwrap
 from dotenv import dotenv_values
@@ -9,9 +11,11 @@ from pathlib import Path  # For Windows
 
 # Set some environment and global variables
 SCRIPT_DIR = Path(__file__).parent
+# SCRIPT_DIR = Path(__name__).parent #if running in terminal
 ROOT_DIR = SCRIPT_DIR.parent
 load_dotenv(ROOT_DIR / ".env")
 config = dotenv_values(ROOT_DIR / ".env")
+OPENAI_API_KEY= config['OPENAI_API_KEY']
 
 def return_config():
     """Returns all environment variables from .env file."""
@@ -62,32 +66,63 @@ def reformat_impacts(impacts_df, util_data):
     return util_data
 
 
-# function to query GPT via openai API
-def promptGPT(prompt_message_list, gpt_temperature=0, debug=False):
-    gpt_url = "https://api.openai.com/v1/chat/completions"
-    gpt_headers = {
-        "Content-Type": "application/json",
-        "Authorization": config['OPENAI_API_KEY']
-    }
-    gpt_data = {
-            "model": "gpt-5.4", 
-            # "model": "gpt-4.1-mini",
-            #  "model": "o3-2025-04-16",
-            # "response_format": {"type": "json_object"}, # only works on 3.5-turbo-1106, 4 and above
-            "temperature": gpt_temperature,
-            "messages": prompt_message_list,
-    }
-    response = requests.post(gpt_url, headers=gpt_headers, json=gpt_data)    
-    if(debug==True):
-        output = response.json()
-        print(response)
-    else:
-        output = response.json()['choices'][0]['message']['content']
 
-    return output
+def promptGPT(prompt_message_list, gpt_temperature=0, debug=False):
+
+
+    client = OpenAI()   
+
+    response = client.responses.create(
+        model="gpt-5.4",
+        input=prompt_message_list,
+        reasoning={"effort": "medium"},
+        text = { "format": {
+            "type": "json_object" }
+          },
+        store= False,
+    )
+    
+    llm_resp = response.output_text
+
+
+    try:
+        llm_resp_json = json.loads(llm_resp)
+        return llm_resp_json
+    except:
+        print("error parsing LLM response")
+        print("Raw LLM response:", llm_resp)
+        return None
+
+
+
+
+# # function to query GPT via openai API
+# def promptGPT(prompt_message_list, gpt_temperature=0, debug=False):
+#     gpt_url = "https://api.openai.com/v1/chat/completions"
+#     gpt_headers = {
+#         "Content-Type": "application/json",
+#         "Authorization": config['OPENAI_API_KEY']
+#     }
+#     gpt_data = {
+#             "model": "gpt-5.4", 
+#             "reasoning": { "effort": "high" },
+#             "text.format": "json_object",
+#             # "temperature": gpt_temperature,
+#             "messages": prompt_message_list,
+#     }
+
+#     response = requests.post(gpt_url, headers=gpt_headers, json=gpt_data)    
+#     if(debug==True):
+#         output = response.json()
+#         print(response)
+#     else:
+#         output = response.json()['choices'][0]['message']['content']
+
+#     return output
 
 
 def get_response_dict(system_prompt_content, user_prompt_content):
+
     system_prompt= {
             "role": "system",
             "content": system_prompt_content
@@ -97,13 +132,14 @@ def get_response_dict(system_prompt_content, user_prompt_content):
         "role": "user",
         "content": user_prompt_content,
     }
-    # print([system_prompt,user_prompt])
+
     try:
-        response_dict = json.loads(promptGPT([system_prompt,user_prompt],0,False))
-    except:
-        debug_resp = promptGPT([system_prompt,user_prompt],0,True)
-        print(debug_resp)
+        response_dict = (promptGPT([system_prompt,user_prompt],0,False))
+
+    except Exception as e:
+        print(f"Error occurred: {e}")  
         response_dict = {}
+        
     return response_dict
 
 
