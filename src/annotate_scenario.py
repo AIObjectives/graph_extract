@@ -68,7 +68,7 @@ def main(scenario_json,output_filename,act_id,commit_hash,write_qualtrics=False)
     #update the scenario dict with the beings
     scenario_dict["entities"]= beings_str_list
 
-    #VALUE SCORES
+    #ACTION VALUE
     processed_value,g  = core_process.process_values_simple(this_act,g) 
     print("\n\n Deontic value: " + str(processed_value))
     
