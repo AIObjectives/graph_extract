@@ -97,9 +97,9 @@ def process_beings(this_scenario,this_act,g):
   return [beings_fixed,beings_fixed_Ziv,beings_list,g]
 
 
-def process_values_simple(this_scenario, this_act_I, this_act, g):
+def process_values_simple(this_act, g):
    
-  resp = moral_projection.main([this_act_I])
+  resp = moral_projection.main([this_act])
   this_score = round(resp['projection'].iloc[0]*1000, 0)
   
   # create node and add it to graph
