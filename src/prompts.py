@@ -54,7 +54,7 @@ def get_impacts_Ziv_single(this_scenario, this_act, this_event, this_being):
 
         system_prompt_content = f'You are a helpful assistant who is an expert at understanding human situations. You will be given a scenario and asked to evaluate how an event will impact the character "{this_being}". Rate the impact on this character using a scale from -100 to +100, where a rating of -100 indicates that the outcome will cause the character substantial harm, while a rating of +100 indicates that it will cause the character substantial benefit. If the outcome is not likely to affect the character very much, return a rating closer to 0. Return a json object called "score" with your rating.'
 
-        user_prompt_content = f'Here is the scenario: {this_scenario} {this_act} Consider the possibile outcome that {convert_lower(this_event)}. How does this outcome impact the character {this_being}?'
+        user_prompt_content = f'Here is the scenario: {this_scenario} {this_act} Consider the possibile outcome that {convert_lower(this_event)}. How does this outcome impact the character(s) {this_being}?'
 
         # print(system_prompt_content, user_prompt_content)
         return utils.get_response_dict(system_prompt_content, user_prompt_content)
@@ -64,7 +64,7 @@ def get_impacts_Ziv_single_noscene(this_event, this_being):
 
         system_prompt_content = f'You are an expert at understanding real-world situations. You will be given an event and be asked to evaluate how it will impact a specific character in terms of overall harm or benefit. Be careful to rate only the specific impact on that character and not others.  Rate the impact on using a scale from -100 to +100, where a rating of -100 indicates that the outcome will cause the character substantial harm (the worst thing that could happen to them), while a rating of +100 indicates that it will cause the character substantial benefit (the best thing that could happen to them). If the outcome is not likely to affect the character one way or the other, or if the harm and benefit are equal,return a rating of 0. Return a json object called "score" with your rating.'
 
-        user_prompt_content = f'Consider the event that {convert_lower(this_event)}. How does this event impact the character {this_being}?'
+        user_prompt_content = f'Consider the event that {convert_lower(this_event)}. How does this event impact the character(s) {this_being}?'
         print(user_prompt_content)
 
         # print(system_prompt_content, user_prompt_content)
@@ -80,14 +80,14 @@ def get_impacts_Ziv_single_noscene(this_event, this_being):
 #         return utils.get_response_dict(system_prompt_content, user_prompt_content)
 
 
-def get_impacts_Ziv_multi(this_scenario, this_act, this_event, these_beings):
+# def get_impacts_Ziv_multi(this_scenario, this_act, this_event, these_beings):
 
-        system_prompt_content = f"You are a helpful assistant who is an expert at understanding human situations. The following scenario is context for the user's question. {this_scenario} {this_act}  End of scenario. Consider the possible outcome that {convert_lower(this_event)} Please rate how this outcome would impact each character listed by the user. Use a scale from -100 to +100, where -100 indicates that the outcome will cause the character substantial harm or cost, and +100 indicates that it will cause the character substantial benefit. Return a json object called 'results' with a key:value pair for being: rating."
+#         system_prompt_content = f"You are a helpful assistant who is an expert at understanding human situations. The following scenario is context for the user's question. {this_scenario} {this_act}  End of scenario. Consider the possible outcome that {convert_lower(this_event)} Please rate how this outcome would impact each character listed by the user. Use a scale from -100 to +100, where -100 indicates that the outcome will cause the character substantial harm or cost, and +100 indicates that it will cause the character substantial benefit. Return a json object called 'results' with a key:value pair for being: rating."
 
-        user_prompt_content = f'Consider the possibility that {convert_lower(this_event)} Without considering any further consequences of this event, how would this event directly impact each of these characters: {these_beings}?'
+#         user_prompt_content = f'Consider the possibility that {convert_lower(this_event)} Without considering any further consequences of this event, how would this event directly impact each of these characters: {these_beings}?'
 
-        # print(system_prompt_content, user_prompt_content)
-        return utils.get_response_dict(system_prompt_content, user_prompt_content)
+#         # print(system_prompt_content, user_prompt_content)
+#         return utils.get_response_dict(system_prompt_content, user_prompt_content)
 
 
 
@@ -101,7 +101,7 @@ def get_being_links_Ziv_only_cause(this_scenario, this_act, this_event, this_bei
   # system_prompt_content = f"""You are a helpful assistant who is an expert at understanding human situations. You will recieve a scenario about a person named Ziv, an action they decided to take, and an outcome that happened as a result. You will be asked to judge if Ziv caused the outcome. This means that the occurrence of the outcome is highly dependent on Ziv's action, and the outcome would not have happened without that action. If Ziv's decision to act or not to act has no effect on the probability of the outcome occurring, then Ziv did not cause the outcome. Think step by step.  Return a json object with an entry named "results" containing a key with the name of the character, Ziv, and a value with either "yes" or "no" as to whether they caused the outcome."""
 
 
-  user_prompt_content = f"""Here is the scenario: {this_scenario} {this_act} Consider this outcome: {this_event} Supposing this outcome took place, is it likely that {this_being}'s action caused it?"""
+  user_prompt_content = f"""Here is the scenario: {this_scenario} Ziv decides to {this_act} Consider this outcome: {this_event} Supposing this outcome took place, is it likely that {this_being}'s action caused it?"""
 
   # print(user_prompt_content)       
 
@@ -119,7 +119,7 @@ def get_being_links_Ziv_only_intend(this_scenario, this_act, this_event, this_be
   # system_prompt_content = f"""You are a helpful assistant who is an expert at understanding human situations. You will recieve a scenario about a person named Ziv, an action they decided to take, and an outcome that happened as a result. You will be asked to judge if Ziv intended the outcome when they took the action. This means that Ziv took the action specifically to bring about that outcome, i.e., it was their goal. If the outcome was merely incidental or a side-effect of Ziv's action, then they did not intend it, even if they foresaw it. Think step by step. Return a json object with an entry named "results" containing a key with the name of the character, Ziv, and a value with either "yes" or "no" as to whether they intended the outcome. """
 
 
-  user_prompt_content = f"""Here is the scenario: {this_scenario} {this_act} Consider this possible outcome: {this_event} Did {this_being} intend this outcome to occur in taking their action?"""
+  user_prompt_content = f"""Here is the scenario: {this_scenario} Ziv decides to {this_act} Consider this possible outcome: {this_event}  Did {this_being} intend this outcome to occur in taking their action?"""
 
   # print(user_prompt_content)       
 
@@ -133,7 +133,7 @@ def get_being_links_Ziv_only_know(this_scenario, this_act, this_event, this_bein
   system_prompt_content = f"""You are a helpful assistant who is an expert at understanding human situations. You will receive a scenario about a person named Ziv, an action they decided to take, and an outcome that happened as a result. You will be asked to judge if Ziv expected this outcome to happen. This means that when Ziv took the action, they knew that the outcome would occur. Think step by step. Return a json object with an entry named "results" containing a key with the name of the character, Ziv, and a value with either "yes" or "no" as to whether they expected the outcome to happen."""
 
 
-  user_prompt_content = f"""Here is the scenario: {this_scenario} {this_act} Consider this possible outcome: {this_event} Suppose the outcome did happen. Did {this_being} definitely know this outcome would occur when they took the action?"""
+  user_prompt_content = f"""Here is the scenario: {this_scenario} Ziv decides to {this_act} Consider this possible outcome: {this_event} Suppose the outcome did happen. Did {this_being} definitely know this outcome would occur when they took the action?"""
 
   # print(user_prompt_content)       
 
