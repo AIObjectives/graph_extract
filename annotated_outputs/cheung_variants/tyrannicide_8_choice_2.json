@@ -1,0 +1,9 @@
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": ""}]}
+{"node": {"kind": "being", "label": "6 co-conspirators"}, "links": []}
+{"node": {"kind": "being", "label": "the dictator"}, "links": []}
+{"node": {"kind": "being", "label": "an unspecified number of the dictator's family members other than the dictator"}, "links": []}
+{"node": {"kind": "being", "label": "an unspecified number of the dictator's followers/supporters who are not his family and are not part of the kidnapping team"}, "links": []}
+{"node": {"kind": "being", "label": "an unspecified number of other people in the dominican republic who are neither the dictator's family nor his followers nor part of the kidnapping team"}, "links": []}
+{"node": {"kind": "action_choice", "label": ""}, "links": [{"link": {"kind": "v-link", "value": "-7.0"}, "to_node": "value"}]}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"version": "6fb5583358d5de2ec98c2997165a8f02bebb18f4"}
