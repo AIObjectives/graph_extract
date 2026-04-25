@@ -226,8 +226,7 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
         for x in beings_found_list:
           if(x!='I'):
                 x=x.lower()                
-          beings_found_list_I.append(prompts.convert_Ziv_I_item(x))
-        # beings_found_list_I = [prompts.convert_Ziv_I_item(x) for x in beings_found_list]
+          beings_found_list_I.append(prompts.convert_Ziv_I(x))
     except:
        print('error with beings found list!')
        print(beings_found_list)
@@ -334,7 +333,7 @@ def process_outcomes(this_scenario, this_act):
   events = prompts.get_events(this_scenario, this_act)
   events_Ziv= events['results']
   # remove overly similar outcomes
-  events_Ziv=get_emb_distances.threshold_by_sim(events_Ziv,.06, CONFIG['OPENAI_API_KEY'])
+  events_Ziv=get_emb_distances.threshold_by_sim(events_Ziv,.06, CONFIG['OAI'])
   
   #replace Ziv with first person pronoun.        
   events_I = [prompts.convert_Ziv_I(x) if x.find("Ziv")>-1 else x for x in events_Ziv]   
