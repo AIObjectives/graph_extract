@@ -61,28 +61,30 @@ def main(scenario_json,output_filename,act_id,commit_hash,write_qualtrics=False)
     #BEINGS
     # identify all sentient beings
     returned_beings = core_process.process_beings(this_scenario,this_act,g)
-    beings_fixed = returned_beings[0]
+    # beings_fixed = returned_beings[0]
     beings_fixed_Ziv = returned_beings[1]
-    beings_list = returned_beings[2]
+    beings_str_list = returned_beings[2]
     g = returned_beings[3]
     #update the scenario dict with the beings
-    scenario_dict["entities"]= beings_list
+    scenario_dict["entities"]= beings_str_list
 
     #VALUE SCORES
-    processed_value,g  = core_process.process_values_simple(this_scenario, this_act_I, this_act,g) 
-    print("\n deontic value: " + str(processed_value))
+    processed_value,g  = core_process.process_values_simple(this_act,g) 
+    print("\n\n Deontic value: " + str(processed_value))
     
     ##OUTCOMES
     processed_events = core_process.process_outcomes(this_scenario, this_act)
-    events_I= processed_events[1]
-    events_Ziv= processed_events[0]      
+    events_I = processed_events[1]
+    events_Ziv = processed_events[0]      
     scenario_dict["outcomes"]= events_I
 
     ##UTILITIES
-    [impacts_list,impacts_df,g] = core_process.process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, events_I,beings_fixed_Ziv,g) 
+    [impacts_list,impacts_df,g] = core_process.process_impacts(this_scenario_Ziv, 
+                                                               this_act, events_Ziv, 
+                                                               events_I,beings_fixed_Ziv,g) 
 
     ##CAUSAL AND INTENTIONAL LINKS
-    core_process.process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g)    
+    core_process.process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act, g)    
 
     if(write_qualtrics):
       # #write scenario dict as json for qualtrics output
