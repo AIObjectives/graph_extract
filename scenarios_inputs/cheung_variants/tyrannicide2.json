@@ -4,7 +4,7 @@
     "scenario_title": "Tyrannicide",
     "deontology_level": "1",
     "utility_level": "3",
-    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who has had thousands of people killed because of their ethnicity or their political views. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kill the dictator in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to torture the dictator to make him end his regime. If I kill the dictator, the people in my country will have a chance for a new start. If I do not kill him, the regime will continue its killings.",
+    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who has had thousands of people killed because of their ethnicity or their political views. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kill the dictator in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to torture the dictator to make him end his regime. If I do this, the people in my country will stop being killed. If I do not do it, the regime will continue its killings.",
     "options": {
       "1": "torture the dictator",
       "2": ""
@@ -15,7 +15,7 @@
     "scenario_title": "Tyrannicide",
     "deontology_level": "2",
     "utility_level": "3",
-    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who has had thousands of people killed because of their ethnicity or their political views. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kidnap the dictator in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to kidnap the dictator to make him end his regime. If I kidnap the dictator, the people in my country will have a chance for a new start. If I do not kidnap him, the regime will continue its killings.",
+    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who has had thousands of people killed because of their ethnicity or their political views. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kidnap the dictator in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to kidnap the dictator to make him end his regime.If I do this, the people in my country will stop being killed. If I do not do it, the regime will continue its killings..",
     "options": {
       "1": "kidnap the dictator",
       "2": ""
@@ -26,7 +26,7 @@
     "scenario_title": "Tyrannicide",
     "deontology_level": "3",
     "utility_level": "3",
-    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who has had thousands of people killed because of their ethnicity or their political views. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to take the dictator into custody in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to take the dictator into custody to make him end his regime. If I do this, the people in my country will have a chance for a new start. If I do not take him into custody, the regime will continue its killings.",
+    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who has had thousands of people killed because of their ethnicity or their political views. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to take the dictator into custody in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to take the dictator into custody to make him end his regime. If I do this, the people in my country will stop being killed. If I do not do it, the regime will continue its killings.",
     "options": {
       "1": "take the dictator into custody",
       "2": ""
@@ -37,7 +37,7 @@
     "scenario_title": "Tyrannicide",
     "deontology_level": "1",
     "utility_level": "2",
-    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who enforces an oppressive regime but has no intention of killing dissenters. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kill the dictator in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to torture the dictator to make him end his regime. If I do this, the people in my country will have a chance for a new start. If I do not kill him, the regime will continue.",
+    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who enforces an oppressive regime but has no intention of killing dissenters. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kill the dictator in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to torture the dictator to make him end his regime. If I do this, the people in my country will have greater everyday freedom. If I do not do it, the oppresive regime will continue.",
     "options": {
       "1": "torture the dictator",
       "2": ""
@@ -48,7 +48,7 @@
     "scenario_title": "Tyrannicide",
     "deontology_level": "2",
     "utility_level": "2",
-    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who enforces an oppressive regime but has no intention of killing dissenters. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kidnap the dictator in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to kidnap the dictator to make him end his regime. If I do this, the people in my country will have a chance for a new start. If I do not kidnap him, the regime will continue.",
+    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who enforces an oppressive regime but has no intention of killing dissenters. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kidnap the dictator in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to kidnap the dictator to make him end his regime. If I do this, the people in my country will have greater everyday freedom. If I not do it, the oppresive regime will continue",
     "options": {
       "1": "kidnap the dictator",
       "2": ""
@@ -59,7 +59,7 @@
     "scenario_title": "Tyrannicide",
     "deontology_level": "3",
     "utility_level": "2",
-    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who enforces an oppressive regime but has no intention of killing dissenters. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to take the dictator into custody in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to take the dictator into custody to make him end his regime. If I do this, the people in my country will have a chance for a new start. If I do not take him into custody, the regime will continue.",
+    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who enforces an oppressive regime but has no intention of killing dissenters. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to take the dictator into custody in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to take the dictator into custody to make him end his regime. If I do this, the people in my country will have greater everyday freedom. not do it, the oppresive regime will continue.",
     "options": {
       "1": "take the dictator into custody",
       "2": ""
@@ -70,7 +70,7 @@
     "scenario_title": "Tyrannicide",
     "deontology_level": "1",
     "utility_level": "1",
-    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who enforces a controversial but nonlethal regime that has about half of the country's support. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kill the dictator in order to disempower him, his family, and his followers. FFor this, I and six co-conspirators are asked to torture the dictator to make him end his regime. If I do this, the people in my country will have a chance for a new start. If I do not kill him, the regime will continue.",
+    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who enforces a paternalistic regime that some people think limits the economy. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kill the dictator in order to disempower him, his family, and his followers. FFor this, I and six co-conspirators are asked to torture the dictator to make him end his regime. If I do this, the people in my country will have fewer economic limitations. If I do not do it, the regime will continue.",
     "options": {
       "1": "torture the dictator",
       "2": ""
@@ -81,7 +81,7 @@
     "scenario_title": "Tyrannicide",
     "deontology_level": "2",
     "utility_level": "1",
-    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who enforces a controversial but nonlethal regime that has about half of the country's support. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kidnap the dictator in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to kidnap the dictator to make him end his regime. If I do this, the people in my country will have a chance for a new start. If I do not kidnap him, the regime will continue.",
+    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who enforces a paternalistic regime that some people think limits the economy. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to kidnap the dictator in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to kidnap the dictator to make him end his regime. If I do this, the people in my country will have fewer economic limitations. If I do not do it, the regime will continue.",
     "options": {
       "1": "kidnap the dictator",
       "2": ""
@@ -92,7 +92,7 @@
     "scenario_title": "Tyrannicide",
     "deontology_level": "3",
     "utility_level": "1",
-    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who enforces a controversial but nonlethal regime that has about half of the country's support. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to take the dictator into custody in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to take the dictator into custody to make him end his regime. If I do this, the people in my country will have a chance for a new start. If I do not take him into custody, the regime will continue.",
+    "text": "I am an army officer in the Dominican Republic in 1961. For decades now, my country has been governed by a dictator who enforces a paternalistic regime that some people think limits the economy. I am a member of a group that wants a new start for my country without a civil war. To achieve this goal, I consider it unavoidable to take the dictator into custody in order to disempower him, his family, and his followers. For this, I and six co-conspirators are asked to take the dictator into custody to make him end his regime. If I do this, the people in my country will have fewer economic limitations. If I do not take him into custody, the regime will continue.",
     "options": {
       "1": "take the dictator into custody",
       "2": ""
