@@ -130,7 +130,7 @@ def process_outcomes(this_scenario, this_act):
 
 
 
-def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, events_I, beings_fixed_Ziv, g):
+def process_impacts(this_scenario_Ziv, this_act, events_Ziv, events_I, beings_fixed_Ziv, g):
 
 
   act_node = g.return_node(this_act)[0]   
@@ -153,14 +153,14 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
     impacts_Ziv = {}
     for being in beings_fixed_Ziv:      
 
-      #  this_score = prompts.get_impacts_Ziv_single(this_scenario_Ziv, this_act_Ziv, this_evt_Ziv, being)   
+      #  this_score = prompts.get_impacts_Ziv_single(this_scenario_Ziv, this_act this_evt_Ziv, being)   
 
        this_score = prompts.get_impacts_Ziv_single_noscene( this_evt_Ziv, being)   
        impacts_Ziv[being] = this_score['score']
     
     
     # beings_string = ', '.join(beings_fixed_Ziv)
-    # impacts_Ziv = prompts.get_impacts_Ziv_multi(this_scenario_Ziv, this_act_Ziv, this_evt_Ziv, beings_string) 
+    # impacts_Ziv = prompts.get_impacts_Ziv_multi(this_scenario_Ziv, this_act, this_evt_Ziv, beings_string) 
 
     print(impacts_Ziv)
 
