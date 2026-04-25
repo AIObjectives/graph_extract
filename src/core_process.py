@@ -76,7 +76,7 @@ def process_beings(this_scenario,this_act,g):
 
   beings = prompts.get_beings(this_scenario,this_act)
   beings_fixed = fix_I(fix_braces(beings['results']))        
-  beings_fixed_Ziv = [prompts.convert_I_Ziv_item(x) for x in beings_fixed]
+  beings_fixed_Ziv = [prompts.convert_I_Ziv(x) for x in beings_fixed]
 
   print("\nIdentified these entities: \n\n"+"\n".join(beings_fixed))
 
@@ -96,15 +96,11 @@ def process_beings(this_scenario,this_act,g):
 
   return [beings_fixed,beings_fixed_Ziv,beings_list,g]
 
+
 def process_values_simple(this_scenario, this_act_I, this_act, g):
    
-
-  # action_rating = prompts.score_action_deontology(this_act_I)
-  # this_score = action_rating['score']
-
   resp = moral_projection.main([this_act_I])
   this_score = round(resp['projection'].iloc[0]*1000, 0)
-  # action_rating['score'] = this_score
   
   # create node and add it to graph
   this_v_node = g.add_node(node.Node('value','value'))
@@ -116,6 +112,21 @@ def process_values_simple(this_scenario, this_act_I, this_act, g):
  
 
   return this_score, g
+
+
+
+def process_outcomes(this_scenario, this_act):   
+
+  #get all outcome events arising from the action
+  events = prompts.get_events(this_scenario, this_act)
+  events_Ziv= events['results']
+  # remove overly similar outcomes
+  events_Ziv=get_emb_distances.threshold_by_sim(events_Ziv,.06, CONFIG['OAI'])
+  
+  #replace Ziv with first person pronoun.        
+  events_I = [prompts.convert_Ziv_I(x) if x.find("Ziv")>-1 else x for x in events_Ziv]   
+
+  return(events_Ziv,events_I)
 
 
 
@@ -326,19 +337,6 @@ def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g
     return all_links
 
 
-
-def process_outcomes(this_scenario, this_act):   
-
-  #get all outcome events arising from the action
-  events = prompts.get_events(this_scenario, this_act)
-  events_Ziv= events['results']
-  # remove overly similar outcomes
-  events_Ziv=get_emb_distances.threshold_by_sim(events_Ziv,.06, CONFIG['OAI'])
-  
-  #replace Ziv with first person pronoun.        
-  events_I = [prompts.convert_Ziv_I(x) if x.find("Ziv")>-1 else x for x in events_Ziv]   
-
-  return(events_Ziv,events_I)
 
 
 
