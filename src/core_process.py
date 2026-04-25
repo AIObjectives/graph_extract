@@ -267,7 +267,7 @@ def process_impacts(this_scenario_Ziv, this_act, events_Ziv, events_I, beings_fi
 
   return(impacts_list,impacts_df, g)
 
-def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g):
+def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act,g):
    
     # dictionaries for translating into labels
     cause = {"No": 'C-', "Yes": 'C+',"no": 'C-', "yes": 'C+'}
@@ -292,16 +292,16 @@ def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g
         count = 0
         while(success==0):        
             links = {}
-            links_cause = prompts.get_being_links_Ziv_only_cause(this_scenario_Ziv, this_act_Ziv, this_evt, this_being)
+            links_cause = prompts.get_being_links_Ziv_only_cause(this_scenario_Ziv, this_act, this_evt, this_being)
             count = count+1
             links['cause'] = links_cause['results'][this_being]
 
 
-            links_intend = prompts.get_being_links_Ziv_only_intend(this_scenario_Ziv, this_act_Ziv, this_evt, this_being)
+            links_intend = prompts.get_being_links_Ziv_only_intend(this_scenario_Ziv, this_act, this_evt, this_being)
             links['intend'] = links_intend['results'][this_being]
 
 
-            links_know = prompts.get_being_links_Ziv_only_know(this_scenario_Ziv, this_act_Ziv, this_evt, this_being)
+            links_know = prompts.get_being_links_Ziv_only_know(this_scenario_Ziv, this_act, this_evt, this_being)
             links['know'] = links_know['results'][this_being]
 
             print(links)
