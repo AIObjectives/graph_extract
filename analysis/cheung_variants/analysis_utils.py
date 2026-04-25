@@ -36,6 +36,7 @@ def make_deont_util_plot(scenario_name, plot_df, results_path):
     axes[0].set_ylabel("Rating")
     axes[0].set_xticklabels(["Low", "Medium", "High"])
     axes[0].grid(axis="y", linestyle="--", alpha=0.3)
+    axes[0].set_ylim(-100, 100)
 
     # Remove legend here so we only show one
     if axes[0].get_legend() is not None:
@@ -60,7 +61,7 @@ def make_deont_util_plot(scenario_name, plot_df, results_path):
     axes[1].set_ylabel("")
 
     axes[1].set_xticklabels(["Low", "Medium", "High"])
-    axes[1].set_ylim(-100, 0)
+    axes[1].set_ylim(-100, 100)
 
     axes[1].grid(axis="y", linestyle="--", alpha=0.3)
 
