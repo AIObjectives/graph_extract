@@ -96,31 +96,6 @@ def promptGPT(prompt_message_list, gpt_temperature=0, debug=False):
 
 
 
-# # function to query GPT via openai API
-# def promptGPT(prompt_message_list, gpt_temperature=0, debug=False):
-#     gpt_url = "https://api.openai.com/v1/chat/completions"
-#     gpt_headers = {
-#         "Content-Type": "application/json",
-#         "Authorization": config['OPENAI_API_KEY']
-#     }
-#     gpt_data = {
-#             "model": "gpt-5.4", 
-#             "reasoning": { "effort": "high" },
-#             "text.format": "json_object",
-#             # "temperature": gpt_temperature,
-#             "messages": prompt_message_list,
-#     }
-
-#     response = requests.post(gpt_url, headers=gpt_headers, json=gpt_data)    
-#     if(debug==True):
-#         output = response.json()
-#         print(response)
-#     else:
-#         output = response.json()['choices'][0]['message']['content']
-
-#     return output
-
-
 def get_response_dict(system_prompt_content, user_prompt_content):
 
     system_prompt= {
@@ -139,7 +114,7 @@ def get_response_dict(system_prompt_content, user_prompt_content):
     except Exception as e:
         print(f"Error occurred: {e}")  
         response_dict = {}
-        
+
     return response_dict
 
 
