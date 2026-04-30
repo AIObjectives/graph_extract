@@ -1,0 +1,11 @@
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": ""}]}
+{"node": {"kind": "being", "label": "the dictator"}, "links": []}
+{"node": {"kind": "being", "label": "6 co-conspirators"}, "links": []}
+{"node": {"kind": "being", "label": "other anti-regime plotters who asked or support the assassination plan"}, "links": []}
+{"node": {"kind": "being", "label": "the dictator's family members"}, "links": []}
+{"node": {"kind": "being", "label": "the dictator's followers"}, "links": []}
+{"node": {"kind": "being", "label": "other people in the dominican republic who support the regime and are not already counted above"}, "links": []}
+{"node": {"kind": "being", "label": "other people in the dominican republic who do not support the regime and are not already counted above"}, "links": []}
+{"node": {"kind": "action_choice", "label": ""}, "links": [{"link": {"kind": "v-link", "value": "-7.0"}, "to_node": "value"}]}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"version": "6fb5583358d5de2ec98c2997165a8f02bebb18f4"}

@@ -9,7 +9,7 @@ import src.utils as utils
 
 CONFIG = utils.return_config()
 
-OPENAI_API_KEY = CONFIG['OPENAI_API_KEY']
+OPENAI_API_KEY = CONFIG['OAI']
 
 
 

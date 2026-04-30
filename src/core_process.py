@@ -76,7 +76,7 @@ def process_beings(this_scenario,this_act,g):
 
   beings = prompts.get_beings(this_scenario,this_act)
   beings_fixed = fix_I(fix_braces(beings['results']))        
-  beings_fixed_Ziv = [prompts.convert_I_Ziv_item(x) for x in beings_fixed]
+  beings_fixed_Ziv = [prompts.convert_I_Ziv(x) for x in beings_fixed]
 
   print("\nIdentified these entities: \n\n"+"\n".join(beings_fixed))
 
@@ -96,15 +96,11 @@ def process_beings(this_scenario,this_act,g):
 
   return [beings_fixed,beings_fixed_Ziv,beings_list,g]
 
-def process_values_simple(this_scenario, this_act_I, this_act, g):
+
+def process_values_simple(this_act, g):
    
-
-  # action_rating = prompts.score_action_deontology(this_act_I)
-  # this_score = action_rating['score']
-
-  resp = moral_projection.main([this_act_I])
+  resp = moral_projection.main([this_act])
   this_score = round(resp['projection'].iloc[0]*1000, 0)
-  # action_rating['score'] = this_score
   
   # create node and add it to graph
   this_v_node = g.add_node(node.Node('value','value'))
@@ -119,7 +115,22 @@ def process_values_simple(this_scenario, this_act_I, this_act, g):
 
 
 
-def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, events_I, beings_fixed_Ziv, g):
+def process_outcomes(this_scenario, this_act):   
+
+  #get all outcome events arising from the action
+  events = prompts.get_events(this_scenario, this_act)
+  events_Ziv= events['results']
+  # remove overly similar outcomes
+  events_Ziv=get_emb_distances.threshold_by_sim(events_Ziv,.06, CONFIG['OAI'])
+  
+  #replace Ziv with first person pronoun.        
+  events_I = [prompts.convert_Ziv_I(x) if x.find("Ziv")>-1 else x for x in events_Ziv]   
+
+  return(events_Ziv,events_I)
+
+
+
+def process_impacts(this_scenario_Ziv, this_act, events_Ziv, events_I, beings_fixed_Ziv, g):
 
 
   act_node = g.return_node(this_act)[0]   
@@ -142,14 +153,14 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
     impacts_Ziv = {}
     for being in beings_fixed_Ziv:      
 
-      #  this_score = prompts.get_impacts_Ziv_single(this_scenario_Ziv, this_act_Ziv, this_evt_Ziv, being)   
+      #  this_score = prompts.get_impacts_Ziv_single(this_scenario_Ziv, this_act this_evt_Ziv, being)   
 
        this_score = prompts.get_impacts_Ziv_single_noscene( this_evt_Ziv, being)   
        impacts_Ziv[being] = this_score['score']
     
     
     # beings_string = ', '.join(beings_fixed_Ziv)
-    # impacts_Ziv = prompts.get_impacts_Ziv_multi(this_scenario_Ziv, this_act_Ziv, this_evt_Ziv, beings_string) 
+    # impacts_Ziv = prompts.get_impacts_Ziv_multi(this_scenario_Ziv, this_act, this_evt_Ziv, beings_string) 
 
     print(impacts_Ziv)
 
@@ -226,8 +237,7 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
         for x in beings_found_list:
           if(x!='I'):
                 x=x.lower()                
-          beings_found_list_I.append(prompts.convert_Ziv_I_item(x))
-        # beings_found_list_I = [prompts.convert_Ziv_I_item(x) for x in beings_found_list]
+          beings_found_list_I.append(prompts.convert_Ziv_I(x))
     except:
        print('error with beings found list!')
        print(beings_found_list)
@@ -257,7 +267,7 @@ def process_impacts(this_scenario_Ziv, this_act, this_act_Ziv, events_Ziv, event
 
   return(impacts_list,impacts_df, g)
 
-def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g):
+def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act,g):
    
     # dictionaries for translating into labels
     cause = {"No": 'C-', "Yes": 'C+',"no": 'C-', "yes": 'C+'}
@@ -282,16 +292,16 @@ def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g
         count = 0
         while(success==0):        
             links = {}
-            links_cause = prompts.get_being_links_Ziv_only_cause(this_scenario_Ziv, this_act_Ziv, this_evt, this_being)
+            links_cause = prompts.get_being_links_Ziv_only_cause(this_scenario_Ziv, this_act, this_evt, this_being)
             count = count+1
             links['cause'] = links_cause['results'][this_being]
 
 
-            links_intend = prompts.get_being_links_Ziv_only_intend(this_scenario_Ziv, this_act_Ziv, this_evt, this_being)
+            links_intend = prompts.get_being_links_Ziv_only_intend(this_scenario_Ziv, this_act, this_evt, this_being)
             links['intend'] = links_intend['results'][this_being]
 
 
-            links_know = prompts.get_being_links_Ziv_only_know(this_scenario_Ziv, this_act_Ziv, this_evt, this_being)
+            links_know = prompts.get_being_links_Ziv_only_know(this_scenario_Ziv, this_act, this_evt, this_being)
             links['know'] = links_know['results'][this_being]
 
             print(links)
@@ -327,19 +337,6 @@ def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act_Ziv,g
     return all_links
 
 
-
-def process_outcomes(this_scenario, this_act):   
-
-  #get all outcome events arising from the action
-  events = prompts.get_events(this_scenario, this_act)
-  events_Ziv= events['results']
-  # remove overly similar outcomes
-  events_Ziv=get_emb_distances.threshold_by_sim(events_Ziv,.06, CONFIG['OPENAI_API_KEY'])
-  
-  #replace Ziv with first person pronoun.        
-  events_I = [prompts.convert_Ziv_I(x) if x.find("Ziv")>-1 else x for x in events_Ziv]   
-
-  return(events_Ziv,events_I)
 
 
 
