@@ -1,6 +1,6 @@
 {"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": ""}]}
 {"node": {"kind": "being", "label": "other occupants of lifeboat a"}, "links": []}
-{"node": {"kind": "being", "label": "10 adults in lifeboat b who might be made to leave the boat"}, "links": []}
+{"node": {"kind": "being", "label": "10 adults in lifeboat b who might be forced into the water"}, "links": []}
 {"node": {"kind": "being", "label": "51 remaining occupants of lifeboat b"}, "links": []}
 {"node": {"kind": "action_choice", "label": ""}, "links": [{"link": {"kind": "v-link", "value": "-7.0"}, "to_node": "value"}]}
 {"node": {"kind": "value", "label": "value"}, "links": []}

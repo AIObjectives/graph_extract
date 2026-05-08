@@ -3,8 +3,8 @@
 <script type='text/javascript'src='https://unpkg.com/vis-network/standalone/umd/vis-network.min.js'></script>    
 <style type='text/css'>      
  #mynetwork {        
-		width: 840px;         
-		height: 840px;         
+		width: 720px;         
+		height: 720px;         
 		border: 1px solid lightgray;       
 	 }   
 	 </style>
@@ -60,17 +60,16 @@ function launch_visualization() {
 }
 function return_vis_dataset() {
 	var nodes = new vis.DataSet([ 
-		{id: 1, label: "i, the captain in lifeboat\n a", color: {background: '#279aba'}},
-		{id: 2, label: "the other crew members and\n passengers in lifeboat a", color: {background: '#279aba'}},
-		{id: 3, label: "10 adults in lifeboat b\n who might be sent overboard\n into the freezing water", color: {background: '#279aba'}},
-		{id: 4, label: "the other 51 passengers and\n crew members in lifeboat b", color: {background: '#279aba'}},
-		{id: 5, label: "i", color: {background: '#279aba'}},
-		{id: 6, label: "", color: {background: '#ba2769'}},
-		{id: 7, label: "value", color: {background: '#8e7db5'}}
+		{id: 1, label: "i", color: {background: '#279aba'}},
+		{id: 2, label: "other occupants of lifeboat a", color: {background: '#279aba'}},
+		{id: 3, label: "10 adults in lifeboat b\n who might be sent overboard", color: {background: '#279aba'}},
+		{id: 4, label: "51 remaining occupants of lifeboat\n b", color: {background: '#279aba'}},
+		{id: 5, label: "", color: {background: '#ba2769'}},
+		{id: 6, label: "value", color: {background: '#8e7db5'}}
 		]);
 	var edges = new vis.DataSet([ 
-		{from: 5, to: 6, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
-		{from: 6, to: 7, label: "-7.0", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 5, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 5, to: 6, label: "-7.0", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		]);
 
 	return ([edges,nodes])

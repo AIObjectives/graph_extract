@@ -1,8 +1,7 @@
-{"node": {"kind": "being", "label": "i, the captain in lifeboat a"}, "links": []}
-{"node": {"kind": "being", "label": "the other crew members and passengers in lifeboat a"}, "links": []}
-{"node": {"kind": "being", "label": "10 adults in lifeboat b who might be sent overboard into the freezing water"}, "links": []}
-{"node": {"kind": "being", "label": "the other 51 passengers and crew members in lifeboat b"}, "links": []}
 {"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": ""}]}
+{"node": {"kind": "being", "label": "other occupants of lifeboat a"}, "links": []}
+{"node": {"kind": "being", "label": "10 adults in lifeboat b who might be sent overboard"}, "links": []}
+{"node": {"kind": "being", "label": "51 remaining occupants of lifeboat b"}, "links": []}
 {"node": {"kind": "action_choice", "label": ""}, "links": [{"link": {"kind": "v-link", "value": "-7.0"}, "to_node": "value"}]}
 {"node": {"kind": "value", "label": "value"}, "links": []}
 {"version": "6fb5583358d5de2ec98c2997165a8f02bebb18f4"}

@@ -3,8 +3,8 @@
 <script type='text/javascript'src='https://unpkg.com/vis-network/standalone/umd/vis-network.min.js'></script>    
 <style type='text/css'>      
  #mynetwork {        
-		width: 720px;         
-		height: 720px;         
+		width: 600px;         
+		height: 600px;         
 		border: 1px solid lightgray;       
 	 }   
 	 </style>
@@ -61,15 +61,14 @@ function launch_visualization() {
 function return_vis_dataset() {
 	var nodes = new vis.DataSet([ 
 		{id: 1, label: "i", color: {background: '#279aba'}},
-		{id: 2, label: "other crew members and passengers\n in lifeboat a", color: {background: '#279aba'}},
-		{id: 3, label: "10 adults in lifeboat b\n who might be instructed to\n leave the boat", color: {background: '#279aba'}},
-		{id: 4, label: "31 remaining passengers and crew\n members in lifeboat b", color: {background: '#279aba'}},
-		{id: 5, label: "", color: {background: '#ba2769'}},
-		{id: 6, label: "value", color: {background: '#8e7db5'}}
+		{id: 2, label: "the other occupants of lifeboat\n a", color: {background: '#279aba'}},
+		{id: 3, label: "the 61 occupants of lifeboat\n b", color: {background: '#279aba'}},
+		{id: 4, label: "", color: {background: '#ba2769'}},
+		{id: 5, label: "value", color: {background: '#8e7db5'}}
 		]);
 	var edges = new vis.DataSet([ 
-		{from: 1, to: 5, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
-		{from: 5, to: 6, label: "-7.0", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 4, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 4, to: 5, label: "-7.0", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		]);
 
 	return ([edges,nodes])
