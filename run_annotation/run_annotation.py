@@ -63,11 +63,11 @@ def main(config_file: str):
             output_filename = ROOT_DIR + OUTPUT_PATH + INPUT_FILE.split('.json')[0] + '_' + str(scenario_id)
 
             #run annotation
-            # for act_id in scenario_json['options'].keys():         
+            for act_id in scenario_json['options'].keys():         
                 # run the annotation process
-            act_id = '1'
-            json_filename = annotate_scenario.main(scenario_json,output_filename,act_id,COMMIT_HASH,WRITE_QUALTRICS)  
-            print(f'Annotation saved to {json_filename}\n\n')
+            # act_id = '2'
+                json_filename  = annotate_scenario.main(scenario_json,output_filename,act_id,COMMIT_HASH,WRITE_QUALTRICS)  
+                print(f'Annotation saved to {json_filename}\n\n')
 
                 # run the translation to vis process
             translate_to_vis.main(json_filename)
