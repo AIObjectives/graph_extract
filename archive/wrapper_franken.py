@@ -19,21 +19,21 @@ importlib.reload(translate_to_vis)
 
 
 CUR_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# SEVERITY = 'conditions_mild_harm_mild_good/'  # adjust as needed
-SEVERITY = 'conditions_severe_harm_very_good/'  # adjust as needed
+SEVERITY = 'conditions_mild_harm_mild_good/'  # adjust as needed
+# SEVERITY = 'conditions_severe_harm_very_good/'  # adjust as needed
 SCENARIO_DIR = CUR_DIR+'/scenarios_inputs/franken/'+SEVERITY
-OUTPUT_DIR = CUR_DIR+'/annotated_outputs/franken_05-14-2026/'+SEVERITY
+OUTPUT_DIR = CUR_DIR+'/annotated_outputs/franken_05-20-2026/'+SEVERITY
 
 def main():
 
     filenames = [
-        "cc_evitable_action_yes_stories.json",
+        # "cc_evitable_action_yes_stories.json",
         "cc_evitable_prevention_no_stories.json",
-        "cc_inevitable_action_yes_stories.json",
+        # "cc_inevitable_action_yes_stories.json",
         "cc_inevitable_prevention_no_stories.json",
-        "coc_evitable_action_yes_stories.json",
+        # "coc_evitable_action_yes_stories.json",
         "coc_evitable_prevention_no_stories.json",
-        "coc_inevitable_action_yes_stories.json",
+        # "coc_inevitable_action_yes_stories.json",
         "coc_inevitable_prevention_no_stories.json"
         ]
 
@@ -72,7 +72,8 @@ def main():
             choice = "1" if filename.endswith("action_yes_stories.json") else "2"  # determine choice based on filename      
             
             # run the annotation process
-            json_filename = annotate_scenario.main(scenario_json,output_filename,choice,"581b7f065762e9e17b0203edbc94d0b99ebe9528",False)  
+            # json_filename = annotate_scenario.main(scenario_json,output_filename,choice,"581b7f065762e9e17b0203edbc94d0b99ebe9528",False) 
+            json_filename = annotate_scenario.main(scenario_json,output_filename,choice,"b11a2c98ba552b6f7126152c8db734ca8b1c057a",False)  
             print(f'Annotation saved to {json_filename}\n\n')
 
             # run the translation to vis process

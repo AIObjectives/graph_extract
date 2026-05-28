@@ -1,0 +1,8 @@
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "not prevent my colleague from administering the experimental drug."}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "The patient gains a chance of survival"}, {"link": {"kind": "b_link", "value": "C-I-K+"}, "to_node": "The patient experiences severe health complications"}]}
+{"node": {"kind": "being", "label": "my colleague"}, "links": []}
+{"node": {"kind": "being", "label": "the critically ill patient"}, "links": []}
+{"node": {"kind": "action_choice", "label": "not prevent my colleague from administering the experimental drug."}, "links": [{"link": {"kind": "v-link", "value": "-36.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The patient gains a chance of survival"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The patient experiences severe health complications"}]}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"node": {"kind": "event", "label": "The patient gains a chance of survival"}, "links": [{"link": {"kind": "utility", "value": "0"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "35"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "85"}, "to_node": "the critically ill patient"}]}
+{"node": {"kind": "event", "label": "The patient experiences severe health complications"}, "links": [{"link": {"kind": "utility", "value": "-85"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-35"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-95"}, "to_node": "the critically ill patient"}]}
+{"version": "b11a2c98ba552b6f7126152c8db734ca8b1c057a"}

@@ -13,6 +13,7 @@ from pathlib import Path  # For Windows
 SCRIPT_DIR = Path(__file__).parent
 # SCRIPT_DIR = Path(__name__).parent #if running in terminal
 ROOT_DIR = SCRIPT_DIR.parent
+
 load_dotenv(ROOT_DIR / ".env")
 config = dotenv_values(ROOT_DIR / ".env")
 OPENAI_API_KEY= config['OPENAI_API_KEY']
@@ -20,6 +21,7 @@ OPENAI_API_KEY= config['OPENAI_API_KEY']
 def return_config():
     """Returns all environment variables from .env file."""
     return config
+    pass
 
 def open_scenario(SCENARIO_DIR, FILENAME, SCENARIO_ID, ACT_ID):
     """

@@ -2,6 +2,7 @@ analysis
 annotated_outputs
 archive
 human_data
+node_modules
 run_annotation
 scenarios_inputs
 src

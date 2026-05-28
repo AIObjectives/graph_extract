@@ -1,5 +1,6 @@
 pyproject.toml
 analysis/__init__.py
+analysis/cheung_variants/analysis_utils.py
 analysis/franken/blind_empirical_analysis/tally_table_script.py
 analysis/franken/blind_empirical_analysis/violin_t-test_script.py
 analysis/nie/nie_scenario_processing.py

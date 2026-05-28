@@ -4,12 +4,13 @@ import json
 import numpy as np
 import pandas as pd
 import requests
+from dotenv import load_dotenv
 
 import src.utils as utils
 
 CONFIG = utils.return_config()
 
-OPENAI_API_KEY = CONFIG['OAI']
+OPENAI_API_KEY = f"Bearer {CONFIG['OPENAI_API_KEY']}"
 
 
 

@@ -25,6 +25,9 @@ importlib.reload(prompts)
 importlib.reload(node)
 importlib.reload(utils)
 
+# load_dotenv(override=True)
+# OPENAI_API_KEY = os.getenv('API_KEY')
+
 CONFIG = utils.return_config()
 
 
@@ -121,7 +124,7 @@ def process_outcomes(this_scenario, this_act):
   events = prompts.get_events(this_scenario, this_act)
   events_Ziv= events['results']
   # remove overly similar outcomes
-  events_Ziv=get_emb_distances.threshold_by_sim(events_Ziv,.06, CONFIG['OAI'])
+  events_Ziv=get_emb_distances.threshold_by_sim(events_Ziv,.06, CONFIG['OPENAI_API_KEY'])
   
   #replace Ziv with first person pronoun.        
   events_I = [prompts.convert_Ziv_I(x) if x.find("Ziv")>-1 else x for x in events_Ziv]   
