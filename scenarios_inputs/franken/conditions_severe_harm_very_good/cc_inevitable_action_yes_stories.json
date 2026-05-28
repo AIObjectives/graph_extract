@@ -17,7 +17,7 @@
     },
     {
         "id": 2,
-        "text": "I, a Teacher, face a moral dilemma. I have the opportunity to introduce a new, rigorous curriculum in his class. As a means to achieve the significant improvement of the students' critical thinking skills and better preparation for higher education and future careers, introducing a new, rigorous curriculum requires students to undergo a period of intense stress and workload, which will affect their mental health. If I do not introduce the new curriculum, the intense stress and workload on students would still happen because a new state-wide education policy.",
+        "text": "I, a Teacher, face a moral dilemma. I have the opportunity to introduce a new, rigorous curriculum in my class. As a means to achieve the significant improvement of the students' critical thinking skills and better preparation for higher education and future careers, introducing a new, rigorous curriculum requires students to undergo a period of intense stress and workload, which will affect their mental health. If I do not introduce the new curriculum, the intense stress and workload on students would still happen because a new state-wide education policy.",
         "options": {
             "1": "introduce the new curriculum.",
             "2": "not introduce the new curriculum."
@@ -33,7 +33,7 @@
     },
     {
         "id": 4,
-        "text": "I, a Chef, face a moral dilemma. I have the opportunity to change the menu of her restaurant to entirely plant-based dishes. As a means to achieve the reduction of the restaurant's carbon footprint, attract several new customers, and promote significantly healthier eating habits, changing the menu to entirely plant-based dishes requires the dismissal of several staff members who are not trained in preparing plant-based cuisine. If I do not change the menu to entirely plant-based dishes, the dismissal of several staff members would still happen because a shortage in the supply of meat and dairy products is inevitable.",
+        "text": "I, a Chef, face a moral dilemma. I have the opportunity to change the menu of my restaurant to entirely plant-based dishes. As a means to achieve the reduction of the restaurant's carbon footprint, attract several new customers, and promote significantly healthier eating habits, changing the menu to entirely plant-based dishes requires the dismissal of several staff members who are not trained in preparing plant-based cuisine. If I do not change the menu to entirely plant-based dishes, the dismissal of several staff members would still happen because a shortage in the supply of meat and dairy products is inevitable.",
         "options": {
             "1": "change the menu to entirely plant-based dishes.",
             "2": "not change the menu to entirely plant-based dishes."
@@ -57,7 +57,7 @@
     },
     {
         "id": 7,
-        "text": "I, a Mechanic, face a moral dilemma. I have the opportunity to convert his traditional auto repair shop into an electric vehicle service center. As a means to achieve the highly profitable and more sustainable conversion to an electric vehicle service center, My conversion requires him to lay off his current employees who lack the skills and knowledge to service electric vehicles. If I do not convert his traditional auto repair shop into an electric vehicle service center, the layoff of his current employees would still happen because a new law mandating the phase-out of gasoline vehicles is coming into effect.",
+        "text": "I, a Mechanic, face a moral dilemma. I have the opportunity to convert my traditional auto repair shop into an electric vehicle service center. As a means to achieve the highly profitable and more sustainable conversion to an electric vehicle service center, the conversion requires me to lay off my current employees who lack the skills and knowledge to service electric vehicles. If I do not convert my traditional auto repair shop into an electric vehicle service center, the layoff of my current employees would still happen because a new law mandating the phase-out of gasoline vehicles is coming into effect.",
         "options": {
             "1": "convert my traditional auto repair shop into an electric vehicle service center.",
             "2": "not convert my traditional auto repair shop into an electric vehicle service center."
@@ -73,7 +73,7 @@
     },
     {
         "id": 9,
-        "text": "I, a Policeman, face a moral dilemma. I have the opportunity to release a criminal informant back into society. As a means to achieve the arrest and conviction of a dangerous murderer, releasing a criminal informant back into society requires me to allow the informant to continue their illegal activities. If I do not release the criminal informant back into society, the informant's continued illegal activities would still happen because My boss decides to release the informant.",
+        "text": "I, a Policeman, face a moral dilemma. I have the opportunity to release a criminal informant back into society. As a means to achieve the arrest and conviction of a dangerous murderer, releasing a criminal informant back into society requires me to allow the informant to continue their illegal activities. If I do not release the criminal informant back into society, the informant's continued illegal activities would still happen because my boss decides to release the informant.",
         "options": {
             "1": "release the criminal informant back into society.",
             "2": "not release the criminal informant back into society."

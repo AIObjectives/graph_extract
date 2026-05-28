@@ -57,7 +57,7 @@
     },
     {
         "id": 7,
-        "text": "I, a Mechanic, face a moral dilemma. My business partner has the opportunity to convert their traditional auto repair shop into an electric vehicle service center. As a means to achieve the highly profitable and more sustainable conversion to an electric vehicle service center, My conversion requires him to lay off his current employees who lack the skills and knowledge to service electric vehicles. If I prevent my business partner from converting their traditional auto repair shop into an electric vehicle service center, there would not be layoffs of his current employees.",
+        "text": "I, a Mechanic, face a moral dilemma. My business partner has the opportunity to convert their traditional auto repair shop into an electric vehicle service center. As a means to achieve the highly profitable and more sustainable conversion to an electric vehicle service center, the conversion requires him to lay off his current employees who lack the skills and knowledge to service electric vehicles. If I prevent my business partner from converting their traditional auto repair shop into an electric vehicle service center, there would not be layoffs of his current employees.",
         "options": {
             "1": "prevent my business partner from converting their traditional auto repair shop into an electric vehicle service center.",
             "2": "not prevent my business partner from converting their traditional auto repair shop into an electric vehicle service center."

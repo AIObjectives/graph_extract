@@ -89,7 +89,7 @@
     },
     {
         "id": 11,
-        "text": "I, a Carpenter, face a moral dilemma. My colleague has the opportunity to use a new type of treated wood in his carpentry projects. The new type of treated wood is more resistant to pests, increasing the lifespan of My projects. As a side effect of increasing the lifespan of My projects, the new treated wood slightly increases the overall cost of My projects. If I prevent my colleague from using the new type of treated wood, the slight increase in overall project cost would still happen because of a rise in the price of traditional wood.",
+        "text": "I, a Carpenter, face a moral dilemma. My colleague has the opportunity to use a new type of treated wood in his carpentry projects. The new type of treated wood is more resistant to pests, increasing the lifespan of his projects. As a side effect of increasing the lifespan of his projects, the new treated wood slightly increases the overall cost of his projects. If I prevent my colleague from using the new type of treated wood, the slight increase in overall project cost would still happen because of a rise in the price of traditional wood.",
         "options": {
             "1": "prevent my colleague from using the new type of treated wood.",
             "2": "not prevent my colleague from using the new type of treated wood."
@@ -137,7 +137,7 @@
     },
     {
         "id": 17,
-        "text": "I, an Actor, face a moral dilemma. My acting colleague has the opportunity to accept a role in the  controversial film. My performance in the film could raise awareness about a sensitive social issue. As a side effect of raising awareness about a sensitive social issue through his performance, My participation in the film alienates a portion of his fan base who disagree with the film's message. If I prevent my acting colleague from accepting the role in the controversial film, the alienation of a portion of his fan base would still happen because a change in societal attitudes will alienate the same portion of the fan base anyways.",
+        "text": "I, an Actor, face a moral dilemma. My acting colleague has the opportunity to accept a role in the  controversial film. His performance in the film could raise awareness about a sensitive social issue. As a side effect of raising awareness about a sensitive social issue through his performance, his participation in the film alienates a portion of his fan base who disagree with the film's message. If I prevent my acting colleague from accepting the role in the controversial film, the alienation of a portion of his fan base would still happen because a change in societal attitudes will alienate the same portion of the fan base anyways.",
         "options": {
             "1": "prevent my acting colleague from accepting the role in the controversial film.",
             "2": "not prevent my acting colleague from accepting the role in the controversial film."
@@ -161,7 +161,7 @@
     },
     {
         "id": 20,
-        "text": "I, a Librarian, face a moral dilemma. I's colleague have the opportunity to introduce a new self-checkout system in the library. The self-checkout system speeds up the borrowing process and reduces the queue at the counter. As a side effect of achieving the speedier borrowing process and reduced queue at the counter, the library experience becomes less personal for some patrons. If I prevents her colleague's introduction of the new self-checkout system, the library experience would still become less personal because a budget cut in the library's funding forces a reduction in staff, leading to less human interaction in the library.",
+        "text": "I, a Librarian, face a moral dilemma. My colleague has the opportunity to introduce a new self-checkout system in the library. The self-checkout system speeds up the borrowing process and reduces the queue at the counter. As a side effect of achieving the speedier borrowing process and reduced queue at the counter, the library experience becomes less personal for some patrons. If I prevent my colleague's introduction of the new self-checkout system, the library experience would still become less personal because a budget cut in the library's funding forces a reduction in staff, leading to less human interaction in the library.",
         "options": {
             "1": "prevent my colleague's introduction of the new self-checkout system.",
             "2": "not prevent my colleague's introduction of the new self-checkout system."
@@ -249,18 +249,18 @@
     },
     {
         "id": 31,
-        "text": "I, a Salesperson, face a moral dilemma. Amara's colleague have the opportunity to offer a discount on bulk purchases to her customers. The discount encourages customers to buy in larger quantities, increasing overall sales for I's company. As a side effect of achieving the increase in overall sales for I's company, the reduction in profit margin on each individual item sold occurs. If I prevent Amara's introduction of the discount on bulk purchases, the reduction in profit margin on each individual item sold would still happen because a competitor's sale of similar products will definitely occur, leading to the same reduced profit margin on each individual item sold.",
+        "text": "I, a Salesperson, face a moral dilemma. My colleague has the opportunity to offer a discount on bulk purchases to her customers. The discount encourages customers to buy in larger quantities, increasing overall sales for my company. As a side effect of achieving the increase in overall sales for my company, the reduction in profit margin on each individual item sold occurs. If I prevent my colleague's introduction of the discount on bulk purchases, the reduction in profit margin on each individual item sold would still happen because a competitor's sale of similar products will definitely occur, leading to the same reduced profit margin on each individual item sold.",
         "options": {
-            "1": "prevent Amara's introduction of the discount on bulk purchases.",
-            "2": "not prevent Amara's introduction of the discount on bulk purchases."
+            "1": "prevent my colleague's introduction of the discount on bulk purchases.",
+            "2": "not prevent my colleague's introduction of the discount on bulk purchases."
         }
     },
     {
         "id": 32,
         "text": "I, a Therapist, face a moral dilemma. My colleague has the opportunity to implement a new group therapy program for her clients. The group therapy program allows clients to share experiences and support each other, leading to therapeutic benefits for their mental health. As a side effect of achieving the therapeutic benefits for their mental health, some clients may feel uncomfortable or overwhelmed sharing personal experiences in a group setting, which could exacerbate their anxiety. If I prevent my colleague's implementation of the new group therapy program, the discomfort and overwhelming feeling for some clients sharing personal experiences in a group setting would still happen because a new mental health initiative encourages clients to speak up about their personal experiences, leading them to feel uncomfortable or overwhelmed when sharing anyways.",
         "options": {
-            "1": "prevent my colleague's implementation of the new group tmyapy program.",
-            "2": "not prevent my colleague's implementation of the new group tmyapy program."
+            "1": "prevent my colleague's implementation of the new group therapy program.",
+            "2": "not prevent my colleague's implementation of the new group therapy program."
         }
     },
     {
@@ -289,7 +289,7 @@
     },
     {
         "id": 36,
-        "text": "I, a Florist, face a moral dilemma. My colleague has the opportunity to switch to a cheaper flower supplier. The cheaper supplier allows I to lower her prices, making her flowers more affordable to customers. As a side effect of making her flowers more affordable to customers, My flowers don't last as long as the flowers from her previous supplier. If I prevent my colleague from switching to the cheaper flower supplier, the shortened shelf life of her flowers would still happen because of the sudden change in the market that forces her to switch to a different preservative spray.",
+        "text": "I, a Florist, face a moral dilemma. My colleague has the opportunity to switch to a cheaper flower supplier. The cheaper supplier allows I to lower her prices, making her flowers more affordable to customers. As a side effect of making her flowers more affordable to customers, her flowers don't last as long as the flowers from her previous supplier. If I prevent my colleague from switching to the cheaper flower supplier, the shortened shelf life of her flowers would still happen because of the sudden change in the market that forces her to switch to a different preservative spray.",
         "options": {
             "1": "prevent my colleague from switching to the cheaper flower supplier.",
             "2": "not prevent my colleague from switching to the cheaper flower supplier."
@@ -305,7 +305,7 @@
     },
     {
         "id": 38,
-        "text": "I, a Butcher, face a moral dilemma. My colleague has the opportunity to introduce a new line of premium, organic meats in his butcher shop. The premium, organic meats are supplied by a more sustainable manufacturer, contributing to environmental sustainability. As a side effect of contributing to environmental sustainability, the organic meats are more expensive, making I's products inaccessible to some of his regular customers. If I prevent my colleague's introduction of the new line of premium, organic meats, the inaccessibility of his products to some of his regular customers would still happen because of a spike in the prices of ingredients.",
+        "text": "I, a Butcher, face a moral dilemma. My colleague has the opportunity to introduce a new line of premium, organic meats in his butcher shop. The premium, organic meats are supplied by a more sustainable manufacturer, contributing to environmental sustainability. As a side effect of contributing to environmental sustainability, the organic meats are more expensive, making his products inaccessible to some of his regular customers. If I prevent my colleague's introduction of the new line of premium, organic meats, the inaccessibility of his products to some of his regular customers would still happen because of a spike in the prices of ingredients.",
         "options": {
             "1": "prevent my colleague's introduction of the new line of premium, organic meats.",
             "2": "not prevent my colleague's introduction of the new line of premium, organic meats."
@@ -313,7 +313,7 @@
     },
     {
         "id": 39,
-        "text": "I, a Baker, face a moral dilemma. My colleague has the opportunity to start using a new type of flour that is locally sourced and organic. The use of this new flour supports local farmers and promotes organic farming practices. As a side effect of supporting local farmers and promoting organic farming practices, the new flour changes the texture and taste of My baked goods, leading to some customers being dissatisfied. If I prevent my colleague's use of the new type of flour, the change in texture and taste of her baked goods would still happen because of a shortage in the supply of the regular flour.",
+        "text": "I, a Baker, face a moral dilemma. My colleague has the opportunity to start using a new type of flour that is locally sourced and organic. The use of this new flour supports local farmers and promotes organic farming practices. As a side effect of supporting local farmers and promoting organic farming practices, the new flour changes the texture and taste of my colleague's baked goods, leading to some customers being dissatisfied. If I prevent my colleague's use of the new type of flour, the change in texture and taste of my colleague's baked goods would still happen because of a shortage in the supply of the regular flour.",
         "options": {
             "1": "prevent my colleague's use of the new type of flour.",
             "2": "not prevent my colleague's use of the new type of flour."
@@ -321,7 +321,7 @@
     },
     {
         "id": 40,
-        "text": "I, a Driver, face a moral dilemma. My colleague has the opportunity to start using this new route for his daily deliveries. The new route is faster and allows I to complete his deliveries earlier, increasing customer satisfaction. As a side effect of completing his deliveries earlier and increasing customer satisfaction, My delivery truck disturbs the peace of the residents early in the morning. If I prevent my colleague's use of the new route, the noise disturbance in the residential area would still happen because of a new highway construction project.",
+        "text": "I, a Driver, face a moral dilemma. My colleague has the opportunity to start using this new route for his daily deliveries. The new route is faster and allows him to complete his deliveries earlier, increasing customer satisfaction. As a side effect of completing his deliveries earlier and increasing customer satisfaction, his delivery truck disturbs the peace of the residents early in the morning. If I prevent my colleague's use of the new route, the noise disturbance in the residential area would still happen because of a new highway construction project.",
         "options": {
             "1": "prevent my colleague's use of the new route.",
             "2": "not prevent my colleague's use of the new route."
@@ -353,7 +353,7 @@
     },
     {
         "id": 44,
-        "text": "I, a Welder, face a moral dilemma. My colleague has the opportunity to take on an extra project at work. By taking on the extra project, I could earn a significant bonus which would  support her family. As a side effect of earning a significant bonus to support her family, I would have to work overtime, leading to less quality time spent with her family. If I prevent my colleague's opportunity to take on an extra project, less quality time spent with her family would still happen because of a temporary business trip that I must go on.",
+        "text": "I, a Welder, face a moral dilemma. My colleague has the opportunity to take on an extra project at work. By taking on the extra project, he could earn a significant bonus which would  support his family. As a side effect of earning a significant bonus to support his family, he would have to work overtime, leading to less quality time spent with his family. If I prevent my colleague's opportunity to take on an extra project, less quality time spent with his family would still happen because of a temporary business trip that he must go on.",
         "options": {
             "1": "prevent my colleague's opportunity to take on an extra project.",
             "2": "not prevent my colleague's opportunity to take on an extra project."
@@ -377,7 +377,7 @@
     },
     {
         "id": 47,
-        "text": "I, a Miner, face a moral dilemma. My colleague has the opportunity to use a new, more efficient mining technique. The new technique could increase the amount of minerals extracted, leading to increased profits and job security for I and his colleagues. As a side effect of increasing the amount of minerals extracted, leading to increased profits and job security, the new technique could also lead to dust in the air, causing disturbance to I and his colleagues. If I prevent my colleague's use of the new, more efficient mining technique, the release of more dust in the air would still happen because of a contamination of the mine's air.",
+        "text": "I, a Miner, face a moral dilemma. My colleague has the opportunity to use a new, more efficient mining technique. The new technique could increase the amount of minerals extracted, leading to increased profits and job security for him and his colleagues. As a side effect of increasing the amount of minerals extracted, leading to increased profits and job security, the new technique could also lead to dust in the air, causing disturbance to him and his colleagues. If I prevent my colleague's use of the new, more efficient mining technique, the release of more dust in the air would still happen because of a contamination of the mine's air.",
         "options": {
             "1": "prevent my colleague's use of the new, more efficient mining technique.",
             "2": "not prevent my colleague's use of the new, more efficient mining technique."

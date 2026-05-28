@@ -22,21 +22,27 @@ CUR_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SEVERITY = 'conditions_mild_harm_mild_good/'  # adjust as needed
 SEVERITY = 'conditions_severe_harm_very_good/'  # adjust as needed
 SCENARIO_DIR = CUR_DIR+'/scenarios_inputs/franken/'+SEVERITY
-OUTPUT_DIR = CUR_DIR+'/annotated_outputs/franken_new/'+SEVERITY
+OUTPUT_DIR = CUR_DIR+'/annotated_outputs/franken_05-14-2026/'+SEVERITY
 
 def main():
 
-    filenames = os.listdir(SCENARIO_DIR)
-    filenames = [f for f in filenames if f.endswith('.json')]
-    # remove the first item from the filenames list
-    filenames = filenames[1:]
+    filenames = [
+        "cc_evitable_action_yes_stories.json",
+        "cc_evitable_prevention_no_stories.json",
+        "cc_inevitable_action_yes_stories.json",
+        "cc_inevitable_prevention_no_stories.json",
+        "coc_evitable_action_yes_stories.json",
+        "coc_evitable_prevention_no_stories.json",
+        "coc_inevitable_action_yes_stories.json",
+        "coc_inevitable_prevention_no_stories.json"
+        ]
 
     for filename in filenames:
 
         with open(SCENARIO_DIR+filename, 'r') as file:
             scenarios=json.load(file)
 
-        for scenario_id in range(10): # go from 0 to 29
+        for scenario_id in range(0,10): # go from 0 to 9
 
             # error handling for assumptions about json entries
             try:
@@ -61,10 +67,12 @@ def main():
                 os.makedirs(output_filepath)
             output_filename = output_filepath+str(scenario_id)
 
-            # for act_id in scenario_json['options'].keys():         
+            # for act_id in scenario_json['options'].keys():   
+
+            choice = "1" if filename.endswith("action_yes_stories.json") else "2"  # determine choice based on filename      
             
             # run the annotation process
-            json_filename = annotate_scenario.main(scenario_json,output_filename,"1","a5ead7e720f9efa062e4157ef6512e791d6f5692",False)  
+            json_filename = annotate_scenario.main(scenario_json,output_filename,choice,"581b7f065762e9e17b0203edbc94d0b99ebe9528",False)  
             print(f'Annotation saved to {json_filename}\n\n')
 
             # run the translation to vis process

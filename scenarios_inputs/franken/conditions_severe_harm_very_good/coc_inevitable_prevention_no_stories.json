@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "text": "I, an Architect, face a moral dilemma. I' colleague have the opportunity to implement a cutting-edge, energy-efficient lighting system throughout the city. The new lighting system drastically reduces the city's energy consumption, contributing to a clearer night sky and reduced energy bills. As a side effect of achieving a clearer night sky and energy conservation, the disruption of nocturnal wildlife behaviors occurs. If I prevent my colleague's lighting system implementation, the disruption to nocturnal wildlife would still happen because of a city's mandated security measures that include installing high-intensity lights in several parks.",
+        "text": "I, an Architect, face a moral dilemma. My colleague has the opportunity to implement a cutting-edge, energy-efficient lighting system throughout the city. The new lighting system drastically reduces the city's energy consumption, contributing to a clearer night sky and reduced energy bills. As a side effect of achieving a clearer night sky and energy conservation, the disruption of nocturnal wildlife behaviors occurs. If I prevent my colleague's lighting system implementation, the disruption to nocturnal wildlife would still happen because of a city's mandated security measures that include installing high-intensity lights in several parks.",
         "options": {
             "1": "prevent my colleague's lighting system implementation.",
             "2": "not prevent my colleague's lighting system implementation."
@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "text": "I, an Artist, face a moral dilemma. My colleague has the opportunity to create a controversial piece of art that criticizes a powerful corporation. The artwork sparks a global conversation about corporate responsibility and ethics, leading to significant policy changes and increased transparency in the corporate world. As a side effect of achieving the global conversation about corporate responsibility and ethics, the corporation retaliates by suing My employer for defamation, leading to a lengthy and costly legal battle that bankrupts his employer and causes several job losses. If I prevent my colleague from creating the controversial piece of art, a lengthy and costly legal battle that bankrupts his employer and causes several job losses would still happen because of the major news outlet's plan to publish an investigative report about My employer.",
+        "text": "I, an Artist, face a moral dilemma. My colleague has the opportunity to create a controversial piece of art that criticizes a powerful corporation. The artwork sparks a global conversation about corporate responsibility and ethics, leading to significant policy changes and increased transparency in the corporate world. As a side effect of achieving the global conversation about corporate responsibility and ethics, the corporation retaliates by suing his employer for defamation, leading to a lengthy and costly legal battle that bankrupts his employer and causes several job losses. If I prevent my colleague from creating the controversial piece of art, a lengthy and costly legal battle that bankrupts his employer and causes several job losses would still happen because of the major news outlet's plan to publish an investigative report about his employer.",
         "options": {
             "1": "prevent my colleague from creating the controversial piece of art.",
             "2": "not prevent my colleague from creating the controversial piece of art."
@@ -57,10 +57,10 @@
     },
     {
         "id": 7,
-        "text": "I, a Mechanic, face a moral dilemma. My colleague has the opportunity to convert his store into an electric vehicle shop. The conversion significantly reduces the cost of maintaining vehicles for his customers, as well as reduced taxes due to more environmentally friendly cars. As a side effect of achieving the significant reduction in the cost of maintaining vehicles and reduced taxes due to more environmentally friendly cars, toxic chemicals are released into a local water supply, drastically affecting the health of the local community. If I prevent my colleague from converting his store into an electric vehicle shop, the release of toxic chemicals into the local water supply would still happen because of the industrial accident in My town.",
+        "text": "I, a Mechanic, face a moral dilemma. My colleague has the opportunity to convert his store into an electric vehicle shop. The conversion significantly reduces the cost of maintaining vehicles for his customers, as well as reduced taxes due to more environmentally friendly cars. As a side effect of achieving the significant reduction in the cost of maintaining vehicles and reduced taxes due to more environmentally friendly cars, toxic chemicals are released into a local water supply, drastically affecting the health of the local community. If I prevent my colleague from converting his store into an electric vehicle shop, the release of toxic chemicals into the local water supply would still happen because of the industrial accident in his town.",
         "options": {
-            "1": "prevent my colleague from converting my store into an electric vehicle shop.",
-            "2": "not prevent my colleague from converting my store into an electric vehicle shop."
+            "1": "prevent my colleague from converting his store into an electric vehicle shop.",
+            "2": "not prevent my colleague from converting his store into an electric vehicle shop."
         }
     },
     {

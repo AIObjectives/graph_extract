@@ -17,7 +17,7 @@
     },
     {
         "id": 2,
-        "text": "I, a Teacher, face a moral dilemma. I have the opportunity to implement a new, rigorous curriculum in his classroom. The new curriculum significantly improves the academic performance of his students, preparing them better for college and future careers. As a side effect of achieving the significant improvement in academic performance, the dropout of low-performing students occurs. If I do not implement the new, rigorous curriculum, the dropout of low-performing students would not happen.",
+        "text": "I, a Teacher, face a moral dilemma. I have the opportunity to implement a new, rigorous curriculum in my classroom. The new curriculum significantly improves the academic performance of my students, preparing them better for college and future careers. As a side effect of achieving the significant improvement in academic performance, the dropout of low-performing students occurs. If I do not implement the new, rigorous curriculum, the dropout of low-performing students would not happen.",
         "options": {
             "1": "implement the new, rigorous curriculum.",
             "2": "not implement the new, rigorous curriculum."
@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "text": "I, an Artist, face a moral dilemma. I have the opportunity to create a controversial piece of art that criticizes a powerful corporation. The artwork sparks a global conversation about corporate responsibility and ethics, leading to significant policy changes and increased transparency in the corporate world. As a side effect of achieving the global conversation about corporate responsibility and ethics, the corporation retaliates by suing My employer for defamation, leading to a lengthy and costly legal battle that bankrupts his employer and causes several job losses. If I do not create the controversial piece of art, the lengthy and costly legal battle that bankrupts his employer and causes several job losses would not happen.",
+        "text": "I, an Artist, face a moral dilemma. I have the opportunity to create a controversial piece of art that criticizes a powerful corporation. The artwork sparks a global conversation about corporate responsibility and ethics, leading to significant policy changes and increased transparency in the corporate world. As a side effect of achieving the global conversation about corporate responsibility and ethics, the corporation retaliates by suing my employer for defamation, leading to a lengthy and costly legal battle that bankrupts my employer and causes several job losses. If I do not create the controversial piece of art, the lengthy and costly legal battle that bankrupts my employer and causes several job losses would not happen.",
         "options": {
             "1": "create the controversial piece of art.",
             "2": "not create the controversial piece of art."
@@ -57,7 +57,7 @@
     },
     {
         "id": 7,
-        "text": "I, a Mechanic, face a moral dilemma. I have the opportunity to convert his store into an electric vehicle shop. The conversion significantly reduces the cost of maintaining vehicles for his customers, as well as reduced taxes due to more environmentally friendly cars. As a side effect of achieving the significant reduction in the cost of maintaining vehicles and reduced taxes due to more environmentally friendly cars, toxic chemicals are released into a local water supply, drastically affecting the health of the local community. If I do not convert his store into an electric vehicle shop, the release of toxic chemicals into the local water supply would not happen.",
+        "text": "I, a Mechanic, face a moral dilemma. I have the opportunity to convert my store into an electric vehicle shop. The conversion significantly reduces the cost of maintaining vehicles for my customers, as well as reduced taxes due to more environmentally friendly cars. As a side effect of achieving the significant reduction in the cost of maintaining vehicles and reduced taxes due to more environmentally friendly cars, toxic chemicals are released into a local water supply, drastically affecting the health of the local community. If I do not convert my store into an electric vehicle shop, the release of toxic chemicals into the local water supply would not happen.",
         "options": {
             "1": "convert my store into an electric vehicle shop.",
             "2": "not convert my store into an electric vehicle shop."
@@ -73,7 +73,7 @@
     },
     {
         "id": 9,
-        "text": "I, a Policeman, face a moral dilemma. I have the opportunity to implement a new predictive policing software in his precinct. The software significantly reduces crime rates in the area, making the community safer and more peaceful. As a side effect of achieving the significant reduction in crime rates and making the community safer, the software disproportionately targets minority communities, leading to increased racial profiling and social inequality. If I do not implement the new predictive policing software, the increased racial profiling and social inequality would not happen.",
+        "text": "I, a Policeman, face a moral dilemma. I have the opportunity to implement a new predictive policing software in my precinct. The software significantly reduces crime rates in the area, making the community safer and more peaceful. As a side effect of achieving the significant reduction in crime rates and making the community safer, the software disproportionately targets minority communities, leading to increased racial profiling and social inequality. If I do not implement the new predictive policing software, the increased racial profiling and social inequality would not happen.",
         "options": {
             "1": "implement the new predictive policing software.",
             "2": "not implement the new predictive policing software."

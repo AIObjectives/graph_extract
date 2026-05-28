@@ -57,7 +57,7 @@
     },
     {
         "id": 7,
-        "text": "I, a Mechanic, face a moral dilemma. My business partner has the opportunity to convert their traditional auto repair shop into an electric vehicle service center. As a means to achieve the highly profitable and more sustainable conversion to an electric vehicle service center, My conversion requires him to lay off his current employees who lack the skills and knowledge to service electric vehicles. If I prevent my business partner from converting their traditional auto repair shop into an electric vehicle service center, the layoffs would still happen because of the new law mandating the phase-out of gasoline vehicles.",
+        "text": "I, a Mechanic, face a moral dilemma. My business partner has the opportunity to convert their traditional auto repair shop into an electric vehicle service center. As a means to achieve the highly profitable and more sustainable conversion to an electric vehicle service center, the conversion requires him to lay off his current employees who lack the skills and knowledge to service electric vehicles. If I prevent my business partner from converting their traditional auto repair shop into an electric vehicle service center, the layoffs would still happen because of the new law mandating the phase-out of gasoline vehicles.",
         "options": {
             "1": "prevent my business partner from converting their traditional auto repair shop into an electric vehicle service center.",
             "2": "not prevent my business partner from converting their traditional auto repair shop into an electric vehicle service center."
@@ -73,7 +73,7 @@
     },
     {
         "id": 9,
-        "text": "I, a Policeman, face a moral dilemma. My colleague has the opportunity to release a criminal informant back into society. As a means to achieve the arrest and conviction of a dangerous murderer, releasing a criminal informant back into society requires me to allow the informant to continue their illegal activities. If I prevent my colleague from releasing the criminal informant back into society, the informant's illegal activities would still happen because of My boss's decision to release the informant.",
+        "text": "I, a Policeman, face a moral dilemma. My colleague has the opportunity to release a criminal informant back into society. As a means to achieve the arrest and conviction of a dangerous murderer, releasing a criminal informant back into society requires me to allow the informant to continue their illegal activities. If I prevent my colleague from releasing the criminal informant back into society, the informant's illegal activities would still happen because of my boss's decision to release the informant.",
         "options": {
             "1": "prevent my colleague from releasing the criminal informant back into society.",
             "2": "not prevent my colleague from releasing the criminal informant back into society."
