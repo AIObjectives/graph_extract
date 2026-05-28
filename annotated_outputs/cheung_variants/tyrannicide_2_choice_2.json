@@ -1,0 +1,11 @@
+{"node": {"kind": "being", "label": "1 army officer narrator"}, "links": []}
+{"node": {"kind": "being", "label": "6 co-conspirators"}, "links": []}
+{"node": {"kind": "being", "label": "1 dictator"}, "links": []}
+{"node": {"kind": "being", "label": "unknown number of the dictator's family members, excluding the dictator"}, "links": []}
+{"node": {"kind": "being", "label": "unknown number of the dictator's non-family followers"}, "links": []}
+{"node": {"kind": "being", "label": "unknown number of other people in the dominican republic at risk of regime killings because of their ethnicity or political views, excluding the above"}, "links": []}
+{"node": {"kind": "being", "label": "unknown number of other people in the dominican republic not in the above groups"}, "links": []}
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": ""}]}
+{"node": {"kind": "action_choice", "label": ""}, "links": [{"link": {"kind": "v-link", "value": "-7.0"}, "to_node": "value"}]}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"version": "6fb5583358d5de2ec98c2997165a8f02bebb18f4"}
