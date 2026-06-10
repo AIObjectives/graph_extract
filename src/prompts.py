@@ -62,9 +62,9 @@ def get_impacts_Ziv_single(this_scenario, this_act, this_event, this_being):
 
 def get_impacts_Ziv_single_noscene(this_event, this_being):
 
-        system_prompt_content = f'You are an expert at understanding real-world situations. You will be given an event and be asked to evaluate how it will impact a specific character in terms of overall harm or benefit. Be careful to rate only the specific impact on that character and not others.  Rate the impact on using a scale from -100 to +100, where a rating of -100 indicates that the outcome will cause the character substantial harm (the worst thing that could happen to them), while a rating of +100 indicates that it will cause the character substantial benefit (the best thing that could happen to them). If the outcome is not likely to affect the character one way or the other, or if the harm and benefit are equal,return a rating of 0. Return a json object called "score" with your rating.'
+        system_prompt_content = f'You are an expert at understanding real-world situations. You will be given an event and be asked to evaluate how it will impact a specific character in terms of overall harm or benefit. Be careful to rate only the specific impact on that character and not others.  Rate the impact on using a scale from -100 to +100, where a rating of -100 indicates that the outcome will cause the character substantial harm (the worst thing that could happen to them), while a rating of +100 indicates that it will cause the character substantial benefit (the best thing that could happen to them). If the outcome is not likely to affect the character one way or the other, or if the harm and benefit are equal, return a rating of 0. Return a json object called "score" with your rating.'
 
-        user_prompt_content = f'Consider the event that {convert_lower(this_event)}. How does this event impact the character(s) {this_being}?'
+        user_prompt_content = f'Consider the event that {convert_lower(this_event)} How does this event impact the character(s) {this_being}?'
         print(user_prompt_content)
 
         # print(system_prompt_content, user_prompt_content)

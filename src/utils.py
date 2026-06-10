@@ -48,7 +48,7 @@ def open_scenario(SCENARIO_DIR, FILENAME, SCENARIO_ID, ACT_ID):
 
     # display the scnenario text read in 
     this_scenario_text = scenario_json["text"]    
-    print('Scenario Text: \n\n')
+    # print('Scenario Text: \n\n')
     print(textwrap.fill(this_scenario_text, width = 100), '\n\n')
 
 

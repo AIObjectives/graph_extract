@@ -1,5 +1,5 @@
 input_path: "scenarios_inputs/cheung_variants/"
-input_file: "bird.json"
+input_file: "tyrannicide.json"
 commit_hash: "6fb5583358d5de2ec98c2997165a8f02bebb18f4"
 output_path: "annotated_outputs/cheung_variants/"
 scenario_ids: [1,2,3,4,5,6,7,8,9]

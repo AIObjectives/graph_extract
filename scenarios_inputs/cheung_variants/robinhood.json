@@ -1,101 +1,110 @@
 [
   {
     "id": 1,
-    "scenario_title": "Robin Hood",
+    "scenario_title": "Robinhood",
     "deontology_level": "1",
     "utility_level": "3",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them are about fifteen customers who are in debt and do not fulfill the conditions for being granted a loan. Interviews with them are very stressful for me and for the customers. Currently, there is one very severe case where a customer and his family would be ruined without a loan. I see an undetectable way to temporarily redirect some deposits and investments from other customers to his bank account, which would improve his credit rating sufficiently. This way I could help him as well as the other fourteen customers in difficulties. At the same time, I would abuse the trust of the wealthy customers and of my superiors and commit fraud. If I falsify credit ratings for indebted customers, I will be able to help the fifteen indebted customers but abuse trust. If I follow the rules, my fifteen indebted customers and their families will go bankrupt.",
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to falsify the family's credit score, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from going bankrupt.",
     "options": {
-      "1": "falsify credit ratings for indebted customers",
-      "2": "do not falsify credit ratings for indebted customers"
+      "1": "falsify the family's credit score",
+      "2": "do nothing"
     }
   },
   {
     "id": 2,
-    "scenario_title": "Robin Hood",
+    "scenario_title": "Robinhood",
     "deontology_level": "2",
     "utility_level": "3",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them are about fifteen customers who are in debt and do not fulfill the conditions for being granted a loan. Interviews with them are very stressful for me and for the customers. Currently, there is one very severe case where a customer and his family would be ruined without a loan. I see an undetectable way to temporarily redirect some deposits and investments from other customers to his bank account, which would improve his credit rating sufficiently. This way I could help him as well as the other fourteen customers in difficulties. At the same time, I would abuse the trust of the wealthy customers and of my superiors and commit fraud. If I bypass the loan restrictions for indebted customers, I will be able to help the fifteen indebted customers but abuse trust. If I follow the rules, my fifteen indebted customers and their families will go bankrupt.",
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to delete a year of the family's account history, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from going bankrupt.",
     "options": {
-      "1": "bypass the loan restrictions for indebted customers",
-      "2": "do not bypass the loan restrictions for indebted customers"
+      "1": "delete a year of the family's account history",
+      "2": "do nothing",
     }
   },
   {
     "id": 3,
-    "scenario_title": "Robin Hood",
+    "scenario_title": "Robinhood",
     "deontology_level": "3",
     "utility_level": "3",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them are about fifteen customers who are in debt and do not fulfill the conditions for being granted a loan. Interviews with them are very stressful for me and for the customers. Currently, there is one very severe case where a customer and his family would be ruined without a loan. I see an undetectable way to temporarily redirect some deposits and investments from other customers to his bank account, which would improve his credit rating sufficiently. This way I could help him as well as the other fourteen customers in difficulties. At the same time, I would abuse the trust of the wealthy customers and of my superiors and commit fraud. If I temporarily redirect money from wealthy customers to indebted customers' bank accounts, I will be able to help the fifteen indebted customers but abuse trust. If I follow the rules, my fifteen indebted customers and their families will go bankrupt.",
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to temporarily redirect money from another account into the family's account, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from going bankrupt.",
     "options": {
-      "1": "temporarily redirect money from wealthy customers to indebted customers' bank accounts",
-      "2": "do not temporarily redirect money from wealthy customers to indebted customers' bank accounts"
+      "1": "temporarily redirect money from another account into the family's account",
+      "2": "do nothing",
     }
   },
+
   {
     "id": 4,
     "scenario_title": "Robin Hood",
     "deontology_level": "1",
     "utility_level": "2",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them are seven customers who are in debt and do not fulfill the conditions for being granted a loan. Interviews with them are very stressful for me and for the customers. Currently, there is one case where a customer and his family would struggle heavily without a loan. I see an undetectable way to temporarily redirect some deposits and investments from other customers to his bank account, which would improve his credit rating sufficiently. This way I could help him as well as the other six customers in difficulties. At the same time, I would abuse the trust of the wealthy customers and of my superiors and commit fraud. If I falsify credit ratings for indebted customers, I will be able to help the seven indebted customers but abuse trust. If I follow the rules, my seven indebted customers and their families will struggle heavily.",
-    "options": {
-      "1": "falsify credit ratings for indebted customers",
-      "2": "do not falsify credit ratings for indebted customers"
-    }
-  },
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to falsify the family's credit score, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from taking their eldest child out of college.",
+  "options": {
+    "1": "falsify the family's credit score",
+    "2": "do nothing"
+  }
+},
+
   {
     "id": 5,
     "scenario_title": "Robin Hood",
     "deontology_level": "2",
     "utility_level": "2",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them are seven customers who are in debt and do not fulfill the conditions for being granted a loan. Interviews with them are very stressful for me and for the customers. Currently, there is one case where a customer and his family would struggle heavily without a loan. I see an undetectable way to temporarily redirect some deposits and investments from other customers to his bank account, which would improve his credit rating sufficiently. This way I could help him as well as the other six customers in difficulties. At the same time, I would abuse the trust of the wealthy customers and of my superiors and commit fraud. If I bypass the loan restrictions for indebted customers, I will be able to help the seven indebted customers but abuse trust. If I follow the rules, my seven indebted customers and their families will struggle heavily.",
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to delete a year of the family's account history, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from taking their eldest child out of college.",
     "options": {
-      "1": "bypass the loan restrictions for indebted customers",
-      "2": "do not bypass the loan restrictions for indebted customers"
+      "1": "delete a year of the family's account history",
+      "2": "do nothing",
     }
   },
+
   {
     "id": 6,
     "scenario_title": "Robin Hood",
     "deontology_level": "3",
     "utility_level": "2",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them are seven customers who are in debt and do not fulfill the conditions for being granted a loan. Interviews with them are very stressful for me and for the customers. Currently, there is one case where a customer and his family would struggle heavily without a loan. I see an undetectable way to temporarily redirect some deposits and investments from other customers to his bank account, which would improve his credit rating sufficiently. This way I could help him as well as the other six customers in difficulties. At the same time, I would abuse the trust of the wealthy customers and of my superiors and commit fraud. If I temporarily redirect money from wealthy customers to indebted customers' bank accounts, I will be able to help the seven indebted customers but abuse trust. If I follow the rules, my seven indebted customers and their families will struggle heavily.",
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to temporarily redirect money from another account into the family's account, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from taking their eldest child out of college.",
     "options": {
-      "1": "temporarily redirect money from wealthy customers to indebted customers' bank accounts",
-      "2": "do not temporarily redirect money from wealthy customers to indebted customers' bank accounts"
+      "1": "temporarily redirect money from another account into the family's account",
+      "2": "do nothing",
     }
   },
+
+
   {
     "id": 7,
     "scenario_title": "Robin Hood",
     "deontology_level": "1",
     "utility_level": "1",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them are two customers who are in debt and do not fulfill the conditions for being granted a loan. Interviews with them are very stressful for me and for the customers. Currently, there is one case where a customer and his family would struggle heavily without a loan. I see an undetectable way to temporarily redirect some deposits and investments from other customers to his bank account, which would improve his credit rating sufficiently. This way I could help him as well as the other customer in difficulties. At the same time, I would abuse the trust of the wealthy customers and of my superiors and commit fraud. If I falsify credit ratings for indebted customers, I will be able to help the two indebted customers but abuse trust. If I follow the rules, my two indebted customers and their families will struggle heavily.",
-    "options": {
-      "1": "falsify credit ratings for indebted customers",
-      "2": "do not falsify credit ratings for indebted customers"
-    }
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to falsify the family's credit score, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from selling their second car.",
+  "options": {
+    "1": "falsify the family's credit score",
+    "2": "do nothing"
+   }
   },
+
+
   {
     "id": 8,
     "scenario_title": "Robin Hood",
     "deontology_level": "2",
     "utility_level": "1",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them are two customers who are in debt and do not fulfill the conditions for being granted a loan. Interviews with them are very stressful for me and for the customers. Currently, there is one case where a customer and his family would struggle heavily without a loan. I see an undetectable way to temporarily redirect some deposits and investments from other customers to his bank account, which would improve his credit rating sufficiently. This way I could help him as well as the other customer in difficulties. At the same time, I would abuse the trust of the wealthy customers and of my superiors and commit fraud. If I bypass the loan restrictions for indebted customers, I will be able to help the two indebted customers but abuse trust. If I follow the rules, my two indebted customers and their families will struggle heavily.",
-    "options": {
-      "1": "bypass the loan restrictions for indebted customers",
-      "2": "do not bypass the loan restrictions for indebted customers"
-    }
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to delete a year of the family's account history, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from selling their second car.",
+  "options": {
+    "1": "delete a year of the family's account history,",
+    "2": "do nothing"
+   }
   },
+
   {
     "id": 9,
     "scenario_title": "Robin Hood",
     "deontology_level": "3",
     "utility_level": "1",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them are two customers who are in debt and do not fulfill the conditions for being granted a loan. Interviews with them are very stressful for me and for the customers. Currently, there is one case where a customer and his family would struggle heavily without a loan. I see an undetectable way to temporarily redirect some deposits and investments from other customers to his bank account, which would improve his credit rating sufficiently. This way I could help him as well as the other customer in difficulties. At the same time, I would abuse the trust of the wealthy customers and of my superiors and commit fraud. If I temporarily redirect money from wealthy customers to indebted customers' bank accounts, I will be able to help the two indebted customers but abuse trust. If I follow the rules, my two indebted customers and their families will struggle heavily.",
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to temporarily redirect money from another account into the family's account, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from selling their second car.",
     "options": {
-      "1": "temporarily redirect money from wealthy customers to indebted customers' bank accounts",
-      "2": "do not temporarily redirect money from wealthy customers to indebted customers' bank accounts"
-    }
-  }
+      "1": "temporarily redirect money from another account into the family's account",
+      "2": "do nothing",
+   }
+ },
+
 ]
