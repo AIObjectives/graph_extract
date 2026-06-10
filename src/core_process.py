@@ -114,6 +114,14 @@ def process_values_simple(this_act, g):
   return this_score, g
 
 
+def process_values_minimal(this_act):
+   
+  resp = moral_projection.main([this_act])
+  this_score = round(resp['projection'].iloc[0]*1000, 0)
+ 
+  return this_score
+
+
 
 def process_outcomes(this_scenario, this_act):   
 
