@@ -17,7 +17,7 @@ print(ROOT_DIR)
 import src.annotate_scenario as annotate_scenario
 import src.translate_to_vis as translate_to_vis
 
-
+#example:  python run_annotation.py config_cheung_v1.yml
 def main(config_file: str):
 
 
