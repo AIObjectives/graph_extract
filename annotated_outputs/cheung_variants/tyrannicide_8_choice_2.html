@@ -3,8 +3,8 @@
 <script type='text/javascript'src='https://unpkg.com/vis-network/standalone/umd/vis-network.min.js'></script>    
 <style type='text/css'>      
  #mynetwork {        
-		width: 960px;         
-		height: 960px;         
+		width: 1200px;         
+		height: 1200px;         
 		border: 1px solid lightgray;       
 	 }   
 	 </style>
@@ -61,17 +61,44 @@ function launch_visualization() {
 function return_vis_dataset() {
 	var nodes = new vis.DataSet([ 
 		{id: 1, label: "i", color: {background: '#279aba'}},
-		{id: 2, label: "6 co-conspirators", color: {background: '#279aba'}},
-		{id: 3, label: "the dictator", color: {background: '#279aba'}},
-		{id: 4, label: "an unspecified number of the\n dictator's family members other than\n the dictator", color: {background: '#279aba'}},
-		{id: 5, label: "an unspecified number of the\n dictator's followers/supporters who are not\n his family and are not\n part of the kidnapping team", color: {background: '#279aba'}},
-		{id: 6, label: "an unspecified number of other\n people in the dominican republic\n who are neither the dictator's\n family nor his followers nor\n part of the kidnapping team", color: {background: '#279aba'}},
-		{id: 7, label: "", color: {background: '#ba2769'}},
-		{id: 8, label: "value", color: {background: '#8e7db5'}}
+		{id: 2, label: "the dictator", color: {background: '#279aba'}},
+		{id: 3, label: "my accomplices", color: {background: '#279aba'}},
+		{id: 4, label: "do nothing", color: {background: '#ba2769'}},
+		{id: 5, label: "value", color: {background: '#8e7db5'}},
+		{id: 6, label: "The dictator remains uncaptured.", color: {background: '#e6c440'}},
+		{id: 7, label: "The dictatorship stays in power.", color: {background: '#e6c440'}},
+		{id: 8, label: "A thousand people continue to\n be economically repressed this year.", color: {background: '#e6c440'}},
+		{id: 9, label: "People targeted for their ethnicity\n or political views remain in\n poverty under the regime.", color: {background: '#e6c440'}},
+		{id: 10, label: "My group's effort to end\n the regime without a civil\n war does not move forward.", color: {background: '#e6c440'}}
 		]);
 	var edges = new vis.DataSet([ 
-		{from: 1, to: 7, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
-		{from: 7, to: 8, label: "-7.0", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 4, label: "C+I+K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 6, label: "C+I-K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 7, label: "C+I-K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 8, label: "C+I-K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 9, label: "C+I-K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 1, to: 10, label: "C+I-K+", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 4, to: 5, label: "-61.0", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 4, to: 6, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 4, to: 7, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 4, to: 8, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 4, to: 9, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 4, to: 10, label: "", color: {color: '#b518a8', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 6, to: 1, label: "-70", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 6, to: 2, label: "85", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 6, to: 2, label: "70", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 7, to: 1, label: "-70", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 7, to: 2, label: "90", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 7, to: 2, label: "80", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 1, label: "0", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 2, label: "35", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 8, to: 2, label: "55", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 9, to: 1, label: "-75", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 9, to: 2, label: "45", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 9, to: 2, label: "35", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 10, to: 1, label: "-65", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 10, to: 2, label: "60", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
+		{from: 10, to: 2, label: "-60", color: {color: '#62a3a2', highlight: '#f540e6'}, font: { size: 18 }, arrows: { to: { enabled: true, type: 'arrow'}}},
 		]);
 
 	return ([edges,nodes])
