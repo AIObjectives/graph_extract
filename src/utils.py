@@ -2,7 +2,7 @@ import os
 from pyexpat import model
 import sys
 import json
-from openai import OpenAI
+from openai import OpenAI, APIStatusError
 import requests
 import textwrap
 from dotenv import dotenv_values
@@ -15,11 +15,48 @@ SCRIPT_DIR = Path(__file__).parent
 ROOT_DIR = SCRIPT_DIR.parent
 load_dotenv(ROOT_DIR / ".env")
 config = dotenv_values(ROOT_DIR / ".env")
-OPENAI_API_KEY= config['OPENAI_API_KEY']
+
+
+def _strip_optional_quotes(value):
+    value = value.strip()
+    if len(value) >= 2 and value[0] == value[-1] and value[0] in ["'", '"']:
+        return value[1:-1].strip()
+    return value
+
+
+def resolve_openai_api_key():
+    """Resolve API key from .env or process env, with basic normalization."""
+    raw_key = (
+        config.get("OPENAI_API_KEY")
+        or config.get("OAI")
+        or os.getenv("OPENAI_API_KEY")
+        or os.getenv("OAI")
+        or ""
+    )
+    key = _strip_optional_quotes(str(raw_key or ""))
+    # Support both "sk-..." and "Bearer sk-..." styles in existing local configs.
+    if key.lower().startswith("bearer "):
+        key = key[7:].strip()
+    return key
+
+
+OPENAI_API_KEY = resolve_openai_api_key()
 
 def return_config():
     """Returns all environment variables from .env file."""
     return config
+
+
+def get_bearer_auth_header():
+    key = resolve_openai_api_key()
+    if not key:
+        raise ValueError("Missing OpenAI API key. Set OPENAI_API_KEY (or OAI) in .env or environment.")
+    if len(key) > 400:
+        raise ValueError(
+            f"OpenAI API key looks too large ({len(key)} chars). This can trigger 431 header errors. "
+            "Check .env and shell env values for OPENAI_API_KEY/OAI."
+        )
+    return f"Bearer {key}"
 
 def open_scenario(SCENARIO_DIR, FILENAME, SCENARIO_ID, ACT_ID):
     """
@@ -69,18 +106,28 @@ def reformat_impacts(impacts_df, util_data):
 
 def promptGPT(prompt_message_list, gpt_temperature=0, debug=False):
 
+    api_key = resolve_openai_api_key()
+    if not api_key:
+        raise ValueError("Missing OpenAI API key. Set OPENAI_API_KEY (or OAI) in .env or environment.")
 
-    client = OpenAI()   
+    # Pass key explicitly so calls do not inherit unrelated process-level auth headers.
+    client = OpenAI(api_key=api_key)
 
-    response = client.responses.create(
-        model="gpt-5.4",
-        input=prompt_message_list,
-        reasoning={"effort": "medium"},
-        text = { "format": {
-            "type": "json_object" }
-          },
-        store= False,
-    )
+    try:
+        response = client.responses.create(
+            model="gpt-5.4",
+            input=prompt_message_list,
+            reasoning={"effort": "medium"},
+            text={"format": {"type": "json_object"}},
+            store=False,
+        )
+    except APIStatusError as e:
+        if e.status_code == 431:
+            print(
+                "OpenAI API 431 (headers too large). "
+                "Check OPENAI_API_KEY/OAI and OPENAI_ORG/OPENAI_PROJECT env vars for very large values."
+            )
+        raise
     
     llm_resp = response.output_text
 
