@@ -18,7 +18,7 @@
     "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to delete a year of the family's account history, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from going bankrupt.",
     "options": {
       "1": "delete a year of the family's account history",
-      "2": "do nothing",
+      "2": "do nothing"
     }
   },
   {
@@ -29,7 +29,7 @@
     "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to temporarily redirect money from another account into the family's account, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from going bankrupt.",
     "options": {
       "1": "temporarily redirect money from another account into the family's account",
-      "2": "do nothing",
+      "2": "do nothing"
     }
   },
 
@@ -53,7 +53,7 @@
     "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to delete a year of the family's account history, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from taking their eldest child out of college.",
     "options": {
       "1": "delete a year of the family's account history",
-      "2": "do nothing",
+      "2": "do nothing"
     }
   },
 
@@ -65,7 +65,7 @@
     "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to temporarily redirect money from another account into the family's account, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from taking their eldest child out of college.",
     "options": {
       "1": "temporarily redirect money from another account into the family's account",
-      "2": "do nothing",
+      "2": "do nothing"
     }
   },
 
@@ -103,8 +103,8 @@
     "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to temporarily redirect money from another account into the family's account, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from selling their second car.",
     "options": {
       "1": "temporarily redirect money from another account into the family's account",
-      "2": "do nothing",
+      "2": "do nothing"
    }
- },
+ }
 
 ]
