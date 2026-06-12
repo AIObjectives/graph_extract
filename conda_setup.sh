@@ -33,6 +33,7 @@ pip install \
   seaborn \
   matplotlib \
   scipy \
+  statsmodels \
   requests \
   python-dotenv \
   typer \
