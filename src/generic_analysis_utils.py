@@ -1,4 +1,7 @@
-    
+import pandas as pd
+import json    
+
+
 ## FUNCTIONS TO READ IN SCENARIO JSONS
 
 def parse_filename_cheung(filename):
