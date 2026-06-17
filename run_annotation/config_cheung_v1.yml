@@ -1,6 +1,6 @@
 input_path: "scenarios_inputs/cheung_variants/"
-input_file: "robinhood.json"
-commit_hash: "6fb5583358d5de2ec98c2997165a8f02bebb18f4"
+input_file: "lifeboat.json"
+commit_hash: "2fa8046ddac5f5cfeaefa48cb2c225e824c9caa2"
 output_path: "annotated_outputs/cheung_variants/"
-scenario_ids: [6,7,8,9]
+scenario_ids: [1,2,3,4,5,6,7,8,9]
 write_qualtrics: false
