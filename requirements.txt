@@ -1,12 +1,21 @@
 
 #nvm
-curl https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+#curl https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
 #node
-nvm install node
+#nvm install node
 
 #vis-network
-npm install vis-network
+#npm install vis-network
+
+##^^^ had to install vis-newtork directly from terminal - not working with pip
 
 #python modules
-os, sys, math, requests, json, jsonlines, pandas, numpy, re, textwrap, dotenv, typer, importlib, requests, re, numpy, pandas, openai
+requests
+jsonlines
+pandas
+numpy
+python-dotenv
+typer
+importlib
+openai
