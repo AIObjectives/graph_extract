@@ -33,12 +33,12 @@ pip install \
   seaborn \
   matplotlib \
   scipy \
-  statsmodels \
   requests \
   python-dotenv \
   typer \
   openai \
-  jsonlines
+  jsonlines \
+  statmodels
 
 # This calls pyproject.toml, which means the root-level directory is is "editable" mode, so folders become visible from everywhere (apparently)
 pip install -e .

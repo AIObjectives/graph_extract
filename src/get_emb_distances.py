@@ -10,6 +10,7 @@ import numpy as np
 from scipy.spatial.distance import cdist
 import random
 import typer
+import src.utils as utils
 
 
 # set current path
@@ -103,7 +104,12 @@ def threshold_by_sim(item_list,threshold,api_key):
 
 
     # create a new Embeddings object
-    E = Embedding(item_list,api_key)
+    if not api_key:
+        api_key = utils.get_bearer_auth_header()
+    elif not str(api_key).lower().startswith("bearer "):
+        api_key = f"Bearer {str(api_key).strip()}"
+
+    E = Embedding(item_list, api_key)
 
     # emb_list = [E.get_embedding(x)['data'] for x in item_list]
     try:

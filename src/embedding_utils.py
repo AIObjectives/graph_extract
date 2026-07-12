@@ -9,8 +9,7 @@ from dotenv import load_dotenv
 import src.utils as utils
 
 CONFIG = utils.return_config()
-
-OPENAI_API_KEY = f"Bearer {CONFIG['OPENAI_API_KEY']}"
+OPENAI_API_KEY = utils.resolve_openai_api_key()
 
 
 
@@ -22,7 +21,7 @@ class EmbeddingModel:
 
 class OpenAIEmbeddingModel(EmbeddingModel):
     def __init__(self, model_name: str = "text-embedding-3-large"):
-        self.api_key = OPENAI_API_KEY
+        self.api_key = utils.get_bearer_auth_header()
         self.url = "https://api.openai.com/v1/embeddings"
         self.model_name = model_name
 

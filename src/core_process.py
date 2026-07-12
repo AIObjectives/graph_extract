@@ -20,6 +20,7 @@ import src.prompts as prompts
 import src.node as node
 import src.utils as utils
 import src.moral_projection as moral_projection
+import src.util_projection as util_projection
 importlib.reload(get_emb_distances)
 importlib.reload(prompts)
 importlib.reload(node)
@@ -117,6 +118,19 @@ def process_values_simple(this_act, g):
   return this_score, g
 
 
+def process_values_minimal(this_act):
+   
+  resp = moral_projection.main([this_act])
+  this_score = round(resp['projection'].iloc[0]*1000, 0)
+ 
+  return this_score
+
+def process_util_minimal(this_outcome):
+   
+  resp = util_projection.main([this_outcome])
+  this_score = round(resp['projection'].iloc[0]*1000, 0)
+ 
+  return this_score
 
 def process_outcomes(this_scenario, this_act):   
 
@@ -124,7 +138,7 @@ def process_outcomes(this_scenario, this_act):
   events = prompts.get_events(this_scenario, this_act)
   events_Ziv= events['results']
   # remove overly similar outcomes
-  events_Ziv=get_emb_distances.threshold_by_sim(events_Ziv,.06, CONFIG['OPENAI_API_KEY'])
+  events_Ziv = get_emb_distances.threshold_by_sim(events_Ziv, .06, CONFIG.get('OAI', ''))
   
   #replace Ziv with first person pronoun.        
   events_I = [prompts.convert_Ziv_I(x) if x.find("Ziv")>-1 else x for x in events_Ziv]   
