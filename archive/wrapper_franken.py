@@ -37,7 +37,7 @@ def main():
         "coc_inevitable_prevention_no_stories.json"
         ]
 
-    for scenario_id in range(0,49):
+    for scenario_id in range(19,49):
         
         for filename in filenames:
 
