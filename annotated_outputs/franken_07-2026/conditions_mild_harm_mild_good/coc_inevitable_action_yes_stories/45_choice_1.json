@@ -1,0 +1,7 @@
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "introduce a new, more intense training regimen."}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "The team's performance improves"}, {"link": {"kind": "b_link", "value": "C-I-K+"}, "to_node": "The team members experience increased fatigue"}]}
+{"node": {"kind": "being", "label": "team members"}, "links": []}
+{"node": {"kind": "action_choice", "label": "introduce a new, more intense training regimen."}, "links": [{"link": {"kind": "v-link", "value": "-6.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The team's performance improves"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The team members experience increased fatigue"}]}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"node": {"kind": "event", "label": "The team's performance improves"}, "links": [{"link": {"kind": "utility", "value": "40"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "75"}, "to_node": "team members"}]}
+{"node": {"kind": "event", "label": "The team members experience increased fatigue"}, "links": [{"link": {"kind": "utility", "value": "-25"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-35"}, "to_node": "team members"}]}
+{"version": "78d61d323406ccb800aceadbb58b7f2ad6bd9303"}

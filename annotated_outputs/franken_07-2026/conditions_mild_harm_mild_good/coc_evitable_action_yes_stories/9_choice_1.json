@@ -1,0 +1,7 @@
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "implement the new digital reporting system."}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "Incident reporting becomes slightly easier"}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "Older officers have to adapt to new technology"}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "Older officers experience frustration"}]}
+{"node": {"kind": "action_choice", "label": "implement the new digital reporting system."}, "links": [{"link": {"kind": "v-link", "value": "24.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "Incident reporting becomes slightly easier"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "Older officers have to adapt to new technology"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "Older officers experience frustration"}]}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"node": {"kind": "event", "label": "Incident reporting becomes slightly easier"}, "links": [{"link": {"kind": "utility", "value": "8"}, "to_node": "i"}]}
+{"node": {"kind": "event", "label": "Older officers have to adapt to new technology"}, "links": [{"link": {"kind": "utility", "value": "-15"}, "to_node": "i"}]}
+{"node": {"kind": "event", "label": "Older officers experience frustration"}, "links": [{"link": {"kind": "utility", "value": "0"}, "to_node": "i"}]}
+{"version": "78d61d323406ccb800aceadbb58b7f2ad6bd9303"}

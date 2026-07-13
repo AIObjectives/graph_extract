@@ -1,0 +1,8 @@
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "take on the challenging role in the new film."}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "I train intensely for the role"}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "I spend time away from my family"}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "My family experiences discomfort"}]}
+{"node": {"kind": "being", "label": "my family members"}, "links": []}
+{"node": {"kind": "action_choice", "label": "take on the challenging role in the new film."}, "links": [{"link": {"kind": "v-link", "value": "40.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "I train intensely for the role"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "I spend time away from my family"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My family experiences discomfort"}]}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"node": {"kind": "event", "label": "I train intensely for the role"}, "links": [{"link": {"kind": "utility", "value": "38"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "10"}, "to_node": "my family members"}]}
+{"node": {"kind": "event", "label": "I spend time away from my family"}, "links": [{"link": {"kind": "utility", "value": "-15"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-20"}, "to_node": "my family members"}]}
+{"node": {"kind": "event", "label": "My family experiences discomfort"}, "links": [{"link": {"kind": "utility", "value": "-20"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-20"}, "to_node": "my family members"}]}
+{"version": "78d61d323406ccb800aceadbb58b7f2ad6bd9303"}

@@ -1,0 +1,6 @@
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "develop the new, more efficient fuel."}, {"link": {"kind": "b_link", "value": "C-I-K+"}, "to_node": "My lab uses a significant amount of energy"}, {"link": {"kind": "b_link", "value": "C-I-K+"}, "to_node": "My lab's carbon footprint increases mildly"}]}
+{"node": {"kind": "action_choice", "label": "develop the new, more efficient fuel."}, "links": [{"link": {"kind": "v-link", "value": "27.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My lab uses a significant amount of energy"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My lab's carbon footprint increases mildly"}]}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"node": {"kind": "event", "label": "My lab uses a significant amount of energy"}, "links": [{"link": {"kind": "utility", "value": "-15"}, "to_node": "i"}]}
+{"node": {"kind": "event", "label": "My lab's carbon footprint increases mildly"}, "links": [{"link": {"kind": "utility", "value": "-8"}, "to_node": "i"}]}
+{"version": "78d61d323406ccb800aceadbb58b7f2ad6bd9303"}

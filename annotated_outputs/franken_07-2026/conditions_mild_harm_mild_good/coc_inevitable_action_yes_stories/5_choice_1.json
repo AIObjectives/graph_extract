@@ -1,0 +1,7 @@
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "use the new eco-friendly paint."}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "My workspace smells less strongly of paint"}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "People near me are exposed to less paint odor"}, {"link": {"kind": "b_link", "value": "C-I-K+"}, "to_node": "My artworks take longer to dry"}]}
+{"node": {"kind": "action_choice", "label": "use the new eco-friendly paint."}, "links": [{"link": {"kind": "v-link", "value": "42.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My workspace smells less strongly of paint"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "People near me are exposed to less paint odor"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My artworks take longer to dry"}]}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"node": {"kind": "event", "label": "My workspace smells less strongly of paint"}, "links": [{"link": {"kind": "utility", "value": "8"}, "to_node": "i"}]}
+{"node": {"kind": "event", "label": "People near me are exposed to less paint odor"}, "links": [{"link": {"kind": "utility", "value": "5"}, "to_node": "i"}]}
+{"node": {"kind": "event", "label": "My artworks take longer to dry"}, "links": [{"link": {"kind": "utility", "value": "-15"}, "to_node": "i"}]}
+{"version": "78d61d323406ccb800aceadbb58b7f2ad6bd9303"}

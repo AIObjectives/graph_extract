@@ -1,0 +1,7 @@
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "implement the new teaching method."}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "A small number of students get better at solving math puzzles"}]}
+{"node": {"kind": "being", "label": "a small number of students in my classroom who would get better at solving math puzzles from the new teaching method"}, "links": []}
+{"node": {"kind": "being", "label": "the remaining students in my classroom who would not receive that specific math-puzzle improvement benefit from the new teaching method"}, "links": []}
+{"node": {"kind": "action_choice", "label": "implement the new teaching method."}, "links": [{"link": {"kind": "v-link", "value": "24.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "A small number of students get better at solving math puzzles"}]}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"node": {"kind": "event", "label": "A small number of students get better at solving math puzzles"}, "links": [{"link": {"kind": "utility", "value": "0"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "30"}, "to_node": "a small number of students in my classroom who would get better at solving math puzzles from the new teaching method"}, {"link": {"kind": "utility", "value": "-4"}, "to_node": "the remaining students in my classroom who would not receive that specific math-puzzle improvement benefit from the new teaching method"}]}
+{"version": "78d61d323406ccb800aceadbb58b7f2ad6bd9303"}
