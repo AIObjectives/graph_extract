@@ -31,7 +31,7 @@ class Embedding():
         url = 'https://api.openai.com/v1/embeddings'
         headers = {
         "Content-Type": "application/json",
-        "Authorization": f"Bearer {self.api_key}"
+        "Authorization": f"{self.api_key}"
         }
         data = { 
             "input": text,
