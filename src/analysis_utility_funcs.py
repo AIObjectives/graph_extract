@@ -41,6 +41,14 @@ def parse_events_with_labels(file_path):
     # Build results from event nodes outward
     results = {label: {} for label in being_labels}
 
+    # Find the v-link value (deontic rating), which lives on the action_choice node's links,
+    # not as its own top-level node -- there is always exactly one per file
+    for node in nodes:
+        for link in node.get('links', []):
+            if link.get('link', {}).get('kind') == 'v-link':
+                results['deontic'] = link.get('link', {}).get('value')
+                break
+
     for event_node in event_nodes:
         event_label = event_node['node']['label']
         for link in event_node.get('links', []):
@@ -93,6 +101,8 @@ def read_scenario_input_output(inputs_json, outputs_json):
         scenario_inputs = {k: v for k, v in scenario_data.items()}
 
     results = parse_events_with_labels(outputs_json)
+    # pull the deontic value out before iterating results as {being: {event: labels}} below
+    deontic_value = results.pop('deontic', None)
 
     scenario_df = []
 
@@ -122,7 +132,8 @@ def read_scenario_input_output(inputs_json, outputs_json):
                 "C": cik[1] if cik else None,
                 "I": cik[3] if cik else None,
                 "K": cik[5] if cik else None,
-                "utility": utility
+                "utility": utility,
+                "deontic": deontic_value
             }
         except Exception as e:
             print(f"Error processing event '{event}' in file {outputs_json}: {e}")
