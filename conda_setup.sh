@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e  # exit on error
 
-ENV_NAME="annotatorconda"
+ENV_NAME="graph_extract_conda"
 PYTHON_VERSION="3.12.12"
 
 # ── Conda env ────────────────────────────────────────────────────────────────
