@@ -27,15 +27,17 @@ importlib.reload(utils)
 importlib.reload(core_process)
 importlib.reload(analysis)
 
-CONFIG = utils.return_config()
 
+CONFIG = utils.return_config() #environment settings (API, etc)
 
 
 # scenario json must be a single line with scenario json with entries 'id', 'text', and 'options' {1:, 2: , etc}
-def main(scenario_json,output_filename,act_id,commit_hash,write_qualtrics=False):
+def main(scenario_json,output_filename,act_id,commit_hash,write_qualtrics=False,config=None):
    
    #SET-UP STEPS 
 
+
+    print(config.get("steps_to_keep"))
    # validate the scenario json
     assert isinstance(scenario_json['id'],int)
     assert scenario_json['text']
@@ -65,12 +67,14 @@ def main(scenario_json,output_filename,act_id,commit_hash,write_qualtrics=False)
     g.add_node(node.Node(this_act,'action_choice'))
 
     #READ IN EXISTING ANNOTATION FILE AS NEEDED 
-    if (steps_to_keep := CONFIG.get("steps_to_keep")) is not None:
+    if (steps_to_keep := config.get("steps_to_keep")) is not None:
        
       try:
           prior_nodes = analysis.read_annotation(this_output_filename)
+          steps_to_keep = config.get("steps_to_keep")
       except FileNotFoundError:
           prior_nodes = []
+          steps_to_keep = []
       
     #BEINGS
     # identify all beings
