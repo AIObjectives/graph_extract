@@ -68,7 +68,7 @@ def main(config_file: str):
             for act_id in scenario_json['options'].keys():         
                 # run the annotation process
             # act_id = '2'
-                json_filename  = annotate_scenario.main(scenario_json,output_filename,act_id,COMMIT_HASH,WRITE_QUALTRICS)  
+                json_filename  = annotate_scenario.main(scenario_json,output_filename,act_id,COMMIT_HASH,WRITE_QUALTRICS,config)  
                 print(f'Annotation saved to {json_filename}\n\n')
 
                 # run the translation to vis process
