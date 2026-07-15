@@ -1,6 +1,6 @@
 import pandas as pd
 import json    
-
+import prompts
 
 ## FUNCTIONS TO READ IN SCENARIO JSONS
 
@@ -58,6 +58,20 @@ def read_annotation(file_path):
 
     return nodes
 
+
+## FUNCTIONS TO PARSE READ IN ANNOTATION NODES
+
+def extract_beings(nodes):
+
+    try:
+        being_nodes = [n for n in nodes if n.get('node', {}).get('kind') == 'being']
+    except KeyError:
+        return {}
+
+    being_labels = {n['node']['label'] for n in being_nodes}
+
+    return being_labels
+
 def extract_action(nodes):
     
     value = None
@@ -72,6 +86,19 @@ def extract_action(nodes):
 
     return label
 
+def extract_outcomes(nodes):
+
+    event_nodes = [n for n in nodes if n.get('node', {}).get('kind') == 'event']
+
+    events_I = []
+    events_Ziv = []
+
+    for event_node in event_nodes:
+        event_label = event_node['node']['label']
+        events_I.append(event_label)
+        events_Ziv.append(prompts.convert_I_Ziv(event_label))
+
+    return events_Ziv, events_I
 
 def events_to_utility_df(nodes):
   
