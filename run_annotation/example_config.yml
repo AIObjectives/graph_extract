@@ -3,4 +3,5 @@ input_file: "scenarios.json"
 commit_hash: "d635bb0c0b087388183c792f22a64a0dce5d1fb3"
 output_path: "annotated_outputs/AITA/"
 scenario_ids: [1, 2, 3]
+steps_to_keep: ['beings','action_value','outcomes']
 write_qualtrics: false
