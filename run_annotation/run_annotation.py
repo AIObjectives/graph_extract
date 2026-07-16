@@ -8,6 +8,7 @@ import typer
 import textwrap 
 import importlib
 
+
 ROOT_DIR = os.getcwd() + '/../'
 sys.path.append(ROOT_DIR)
 
@@ -18,6 +19,7 @@ import src.annotate_scenario as annotate_scenario
 import src.translate_to_vis as translate_to_vis
 
 #example:  python run_annotation.py config_cheung_v1.yml
+# config_file =  'config_cheung_v1.yml'
 def main(config_file: str):
 
 
@@ -66,11 +68,11 @@ def main(config_file: str):
             for act_id in scenario_json['options'].keys():         
                 # run the annotation process
             # act_id = '2'
-                json_filename  = annotate_scenario.main(scenario_json,output_filename,act_id,COMMIT_HASH,WRITE_QUALTRICS)  
+                json_filename  = annotate_scenario.main(scenario_json,output_filename,act_id,COMMIT_HASH,WRITE_QUALTRICS,config)  
                 print(f'Annotation saved to {json_filename}\n\n')
 
                 # run the translation to vis process
-            translate_to_vis.main(json_filename)
+                translate_to_vis.main(json_filename)
 
         
     
