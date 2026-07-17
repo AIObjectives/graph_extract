@@ -1,0 +1,6 @@
+input_path: "scenarios_inputs/nie/"
+input_file: "nie_scenarios.json"
+commit_hash: "78d61d323406ccb800aceadbb58b7f2ad6bd9303"
+output_path: "annotated_outputs/nie/"
+scenario_ids: [0,1,2,3,4,5,6,7,8,9]
+write_qualtrics: false
