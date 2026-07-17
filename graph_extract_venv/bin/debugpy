@@ -1,6 +1,0 @@
-#!/Users/emstrictly/Library/CloudStorage/Dropbox/2025_moral_scenario_annotation/code/em/graph_extract/graph_extract_venv/bin/python3
-import sys
-from debugpy.server.cli import main
-if __name__ == '__main__':
-    sys.argv[0] = sys.argv[0].removesuffix('.exe')
-    sys.exit(main())
