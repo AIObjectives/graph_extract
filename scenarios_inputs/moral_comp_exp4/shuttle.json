@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "scenario_title": "Shuttle",
+    "deontology_level": 1,
+    "utility_level": 3,
+    "text": "I work as a technician for a university lab that runs autonomous shuttles around campus. During a late maintenance shift, I found a pattern of glitches in one shuttle’s obstacle‑avoidance system. When I tested the shuttle, the shuttle would fail to recognize obstacles in front of it and proceed to run into them at full speed. The shuttle is scheduled for a route where it is expected to stop at a street crossing for an elementary school. The crossing guard there only lets 5 elementary school students cross the street at a time. I know that 5 students will be in the middle of crossing the road at the same time the shuttle is meant to stop in front of them. If I damage the shuttle with a crowbar without permission, the shuttle will not be deployed on its scheduled route. If I do not do this, 5 elementary school students will be run over by the shuttle.",
+    "options": {
+      "1": "damage the shuttle with a crowbar without permission",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 2,
+    "scenario_title": "Shuttle",
+    "deontology_level": 2,
+    "utility_level": 3,
+    "text": "I work as a technician for a university lab that runs autonomous shuttles around campus. During a late maintenance shift, I found a pattern of glitches in one shuttle’s obstacle‑avoidance system. When I tested the shuttle, the shuttle would fail to recognize obstacles in front of it and proceed to run into them at full speed. The shuttle is scheduled for a route where it is expected to stop at a street crossing for an elementary school. The crossing guard there only lets 5 elementary school students cross the street at a time. I know that 5 students will be in the middle of crossing the road at the same time the shuttle is meant to stop in front of them. If I temporarily disable the shuttle without permission, the shuttle will not be deployed on its scheduled route. If I do not do this, 5 elementary school students will be run over by the shuttle.",
+    "options": {
+      "1": "temporarily disable the shuttle without permission",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 3,
+    "scenario_title": "Shuttle",
+    "deontology_level": 3,
+    "utility_level": 3,
+    "text": "I work as a technician for a university lab that runs autonomous shuttles around campus. During a late maintenance shift, I found a pattern of glitches in one shuttle’s obstacle‑avoidance system. When I tested the shuttle, the shuttle would fail to recognize obstacles in front of it and proceed to run into them at full speed. The shuttle is scheduled for a route where it is expected to stop at a street crossing for an elementary school. The crossing guard there only lets 5 elementary school students cross the street at a time. I know that 5 students will be in the middle of crossing the road at the same time the shuttle is meant to stop in front of them. If I lie and say the shuttle’s battery is broken, the shuttle will not be deployed on its scheduled route. If I do not do this, 5 elementary school students will be run over by the shuttle.",
+    "options": {
+      "1": "lie and say the shuttle’s battery is broken",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 4,
+    "scenario_title": "Shuttle",
+    "deontology_level": 1,
+    "utility_level": 2,
+    "text": "I work as a technician for a university lab that runs autonomous shuttles around campus. During a late maintenance shift, I found a pattern of glitches in one shuttle’s obstacle‑avoidance system. When I tested the shuttle, the shuttle would be too slow to recognize obstacles in front of it and barely manage to brake in front of them. The speed of the shuttle before it fully stopped was enough to pick up loose rocks from the road and eject them in front of the shuttle. The shuttle is scheduled for a route where it is expected to stop at a street crossing for an elementary school. The crossing guard there only lets 5 elementary school students cross the street at a time. I know that 5 students will be in the middle of crossing the road at the same time the shuttle is meant to stop in front of them. If I damage the shuttle with a crowbar without permission, the shuttle will not be deployed on its scheduled route. If I do not do this, 5 elementary school students will be hit by loose rocks ejected from the shuttle’s wheels.",
+    "options": {
+      "1": "damage the shuttle with a crowbar without permission",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 5,
+    "scenario_title": "Shuttle",
+    "deontology_level": 2,
+    "utility_level": 2,
+    "text": "I work as a technician for a university lab that runs autonomous shuttles around campus. During a late maintenance shift, I found a pattern of glitches in one shuttle’s obstacle‑avoidance system. When I tested the shuttle, the shuttle would be too slow to recognize obstacles in front of it and barely manage to brake in front of them. The speed of the shuttle before it fully stopped was enough to pick up loose rocks from the road and eject them in front of the shuttle. The shuttle is scheduled for a route where it is expected to stop at a street crossing for an elementary school. The crossing guard there only lets 5 elementary school students cross the street at a time. I know that 5 students will be in the middle of crossing the road at the same time the shuttle is meant to stop in front of them. If I temporarily disable the shuttle without permission, the shuttle will not be deployed on its scheduled route. If I do not do this, 5 elementary school students will be hit by loose rocks ejected from the shuttle’s wheels.",
+    "options": {
+      "1": "temporarily disable the shuttle without permission",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 6,
+    "scenario_title": "Shuttle",
+    "deontology_level": 3,
+    "utility_level": 2,
+    "text": "I work as a technician for a university lab that runs autonomous shuttles around campus. During a late maintenance shift, I found a pattern of glitches in one shuttle’s obstacle‑avoidance system. When I tested the shuttle, the shuttle would be too slow to recognize obstacles in front of it and barely manage to brake in front of them. The speed of the shuttle before it fully stopped was enough to pick up loose rocks from the road and eject them in front of the shuttle. The shuttle is scheduled for a route where it is expected to stop at a street crossing for an elementary school. The crossing guard there only lets 5 elementary school students cross the street at a time. I know that 5 students will be in the middle of crossing the road at the same time the shuttle is meant to stop in front of them. If I lie and say the shuttle’s battery is broken, the shuttle will not be deployed on its scheduled route. If I do not do this, 5 elementary school students will be hit by loose rocks ejected from the shuttle’s wheels.",
+    "options": {
+      "1": "lie and say the shuttle’s battery is broken",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 7,
+    "scenario_title": "Shuttle",
+    "deontology_level": 1,
+    "utility_level": 1,
+    "text": "I work as a technician for a university lab that runs autonomous shuttles around campus. During a late maintenance shift, I found a pattern of glitches in one shuttle’s obstacle‑avoidance system. When I tested the shuttle, the shuttle would successfully brake before obstacles but also let out a loud, startling honk. The shuttle is scheduled for a route where it is expected to stop at a street crossing for an elementary school. The crossing guard there only lets 5 elementary school students cross the street at a time. I know that 5 students will be in the middle of crossing the road at the same time the shuttle is meant to stop in front of them. If I damage the shuttle with a crowbar without permission, the shuttle will not be deployed on its scheduled route. If I do not do this, 5 elementary school students will be frightened by the shuttle honking loudly at them.",
+    "options": {
+      "1": "damage the shuttle with a crowbar without permission",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 8,
+    "scenario_title": "Shuttle",
+    "deontology_level": 2,
+    "utility_level": 1,
+    "text": "I work as a technician for a university lab that runs autonomous shuttles around campus. During a late maintenance shift, I found a pattern of glitches in one shuttle’s obstacle‑avoidance system. When I tested the shuttle, the shuttle would successfully brake before obstacles but also let out a loud, startling honk. The shuttle is scheduled for a route where it is expected to stop at a street crossing for an elementary school. The crossing guard there only lets 5 elementary school students cross the street at a time. I know that 5 students will be in the middle of crossing the road at the same time the shuttle is meant to stop in front of them. If I temporarily disable the shuttle without permission, the shuttle will not be deployed on its scheduled route. If I do not do this, 5 elementary school students will be frightened by the shuttle honking loudly at them.",
+    "options": {
+      "1": "temporarily disable the shuttle without permission",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 9,
+    "scenario_title": "Shuttle",
+    "deontology_level": 3,
+    "utility_level": 1,
+    "text": "I work as a technician for a university lab that runs autonomous shuttles around campus. During a late maintenance shift, I found a pattern of glitches in one shuttle’s obstacle‑avoidance system. When I tested the shuttle, the shuttle would successfully brake before obstacles but also let out a loud, startling honk. The shuttle is scheduled for a route where it is expected to stop at a street crossing for an elementary school. The crossing guard there only lets 5 elementary school students cross the street at a time. I know that 5 students will be in the middle of crossing the road at the same time the shuttle is meant to stop in front of them. If I lie and say the shuttle’s battery is broken, the shuttle will not be deployed on its scheduled route. If I do not do this, 5 elementary school students will be frightened by the shuttle honking loudly at them.",
+    "options": {
+      "1": "lie and say the shuttle’s battery is broken",
+      "2": "do nothing"
+    }
+  }
+]
