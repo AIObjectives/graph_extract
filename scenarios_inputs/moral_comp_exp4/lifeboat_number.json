@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "1",
+    "utility_level": "3",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 101 passengers and crew members. Their boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 adults left the boat. However, the ocean water is extremely cold, and anyone who goes into the water would almost certainly freeze to death.",
+    "options": {
+      "1": "physically throw 10 passengers from lifeboat B overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 2,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "2",
+    "utility_level": "3",
+    "text":  "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 101 passengers and crew members. Their boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 adults left the boat. A protective barrier on the boat is currently keeping 10 of the passengers from falling over. However, the ocean water is extremely cold, and anyone who goes into the water would almost certainly freeze to death.",
+    "options": {
+      "1": "remove the barrier protecting 10 passengers from falling overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 3,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "3",
+    "utility_level": "3",
+    "text":  "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 101 passengers and crew members. Their boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 adults left the boat. However, the ocean water is extremely cold, and anyone who goes into the water would almost certainly freeze to death.",
+    "options": {
+      "1": "ask for 10 passengers to volunteer to go overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 4,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "1",
+    "utility_level": "2",
+    "text":  "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 61 passengers and crew members. Their boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 adults left the boat. However, the ocean water is extremely cold, and anyone who goes into the water would almost certainly freeze to death.",
+    "options": {
+      "1": "physically throw 10 passengers from lifeboat B overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 5,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "2",
+    "utility_level": "2",
+    "text":  "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 61 passengers and crew members. Their boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 adults left the boat. A protective barrier on the boat is currently keeping 10 of the passengers from falling over. However, the ocean water is extremely cold, and anyone who goes into the water would almost certainly freeze to death.",
+    "options": {
+      "1":  "remove the barrier protecting 10 passengers from falling overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 6,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "3",
+    "utility_level": "2",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 61 passengers and crew members. Their boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 adults left the boat. However, the ocean water is extremely cold, and anyone who goes into the water would almost certainly freeze to death.",
+    "options": {
+      "1": "ask for 10 passengers to volunteer to go overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 7,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "1",
+    "utility_level": "1",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with a rocky bluff. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 21 passengers and crew members. Their boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 adults left the boat. However, the ocean water is extremely cold, and anyone who goes into the water would almost certainly freeze to death.",
+    "options": {
+      "1": "physically throw 10 passengers from lifeboat B overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 8,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "2",
+    "utility_level": "1",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with a rocky bluff. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 21 passengers and crew members. Their boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 adults left the boat. A protective barrier on the boat is currently keeping 10 of the passengers from falling over. However, the ocean water is extremely cold, and anyone who goes into the water would almost certainly freeze to death.",
+    "options": {
+      "1":  "remove the barrier protecting 10 passengers from falling overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 9,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "3",
+    "utility_level": "1",
+    "text":"It is 1841, and I am the captain of a ship that has just sunk after colliding with a rocky bluff. Survivors managed to escape in two lifeboats. My lifeboat (Lifeboat A) contains me and several other crew members and passengers. It is already at full capacity, and it cannot safely take on any additional people. The other lifeboat (Lifeboat B) contains 21 passengers and crew members. Their boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 adults left the boat. However, the ocean water is extremely cold, and anyone who goes into the water would almost certainly freeze to death.",
+    "options": {
+      "1": "ask for 10 passengers to volunteer to go overboard",
+      "2": "do nothing"
+    }
+  }
+]
