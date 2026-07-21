@@ -1,6 +1,7 @@
 import pandas as pd
 import json    
-import prompts
+import src.prompts
+from functools import reduce
 
 ## FUNCTIONS TO READ IN SCENARIO JSONS
 
@@ -177,27 +178,32 @@ def get_cik_links(nodes):
     (
         node for node in nodes
         if node.get("node", {}).get("kind") == "being"
-        and node.get("node", {}).get("label") == "i"
+        and node.get("node", {}).get("label") == "i" or node.get("node", {}).get("label") == "I"
     ),
     None
     )
 
-    #loop through each link from I to events, and get the CIK values, returning a df
-    for link in being_i_node.get("links", []):
-        sub_link = link.get("link", {})
-        if sub_link.get("kind") == "b_link": 
-            CIK =  sub_link.get("value")
-            cik_dict = parse_cik(CIK)
+    if not being_i_node:
+        raise ValueError("No being node with label 'i' or 'I' found in the nodes.")
+    
+    else:
+        #loop through each link from I to events, and get the CIK values, returning a df
+        for link in being_i_node.get("links", []):
+            sub_link = link.get("link", {})
+            if sub_link.get("kind") == "b_link": 
+                CIK =  sub_link.get("value")
+                cik_dict = parse_cik(CIK)
 
-            event = link.get("to_node")       
+                event = link.get("to_node")       
 
-            row = {
-                "event": event,
-                "C": cik_dict.get("C"),
-                "I": cik_dict.get("I"),
-                "K": cik_dict.get("K"),
-            }
-            cik_df = pd.concat([cik_df, pd.DataFrame([row])], ignore_index=True)
+                row = {
+                    "event": event,
+                    "C": cik_dict.get("C"),
+                    "I": cik_dict.get("I"),
+                    "K": cik_dict.get("K"),
+                }
+                cik_df = pd.concat([cik_df, pd.DataFrame([row])], ignore_index=True)
+
     return cik_df
 
 
