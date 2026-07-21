@@ -182,21 +182,51 @@ Severe wasting,is extremely skinny and has no energy.,0.128,desc
 Speech problems,"has difficulty speaking, and others find it difficult to understand.",0.051,desc
 Rectovaginal fistula,"has an abnormal opening between her vagina and rectum causing flatulence and feces to escape through the vagina. The person gets infections in her vagina, and has pain when urinating.",0.501,desc
 Vesicovaginal fistula,"has an abnormal opening between the bladder and the vagina, which makes her unable to control urinating. The woman is anxious and depressed.",0.342,desc
+Major depressive disorder: mild episode,"feels persistent sadness and has lost interest in usual activities. The person sometimes sleeps badly, feels tired, or has trouble concentrating but still manages to function in daily life with extra effort.",0.145,desc
+Intellectual disability: mild,"has low intelligence and is slow in learning at school. As an adult, the person can live independently, but often needs help to raise children and can only work at simple supervised jobs.",0.043,desc
+Intellectual disability: moderate,"has low intelligence, and is slow in learning to speak and to do even simple tasks. As an adult, the person requires a lot of support to live independently and raise children. The person can only work at the simplest supervised jobs.",0.1,desc
+Intellectual disability: severe,"has very low intelligence and cannot speak more than a few words, needs constant supervision and help with most daily activities, and can do only the simplest tasks.",0.16,desc
+Intellectual disability: profound,"has very low intelligence, has almost no language, and does not understand even the most basic requests or instructions. The person requires constant supervision and help for all activities.",0.2,desc
+Hearing loss: mild,has great difficulty hearing and understanding another person,0.01,inline
+Hearing loss: moderate,is unable to hear and understand another person talking in a,0.027,inline
+Hearing loss: severe,"is unable to hear and understand another person talking, even",0.158,inline
+Hearing loss: profound,"is unable to hear and understand another person talking, even",0.204,inline
+Hearing loss: complete,"cannot hear at all in any situation, including even the loudest",0.215,inline
+"Hearing loss: mild, with",has great difficulty hearing and understanding another person,0.021,inline
+"Hearing loss: moderate, with",is unable to hear and understand another person talking in a,0.074,inline
+"Hearing loss: severe, with","is unable to hear and understand another person talking, even",0.261,inline
+"Hearing loss: profound, with","is unable to hear and understand another person talking, even",0.277,inline
+"Hearing loss: complete, with","cannot hear at all in any situation, including even the loudest",0.316,inline
+"Amputation of finger(s), excluding thumb",has lost a finger of one hand. At times there is pain and tingling in the stump.,0.005,desc
+"Amputation of both arms: long term, with treatment","has lost part of both arms, leaving pain and tingling in the stumps. The person has two artificial arms that make it possible to do daily activities, with a great deal of extra effort.",0.123,desc
+"Amputation of both arms: long term, without treatment","has lost part of both arms, leaving pain and tingling in the stumps. The person needs a great deal of help from others to do even basic daily activities such as eating and using the toilet, and the person is very limited in other activities.",0.383,desc
+"Amputation of one leg: long term, with treatment","has lost part of one leg, leaving pain and tingling in the stump. The person has an artificial leg that helps in moving around.",0.039,desc
+"Amputation of both legs: long term, with treatment","has lost part of both legs, leaving pain and tingling in the stumps. The person has two artificial legs that make moving around possible, with extra effort.",0.088,desc
+"Amputation of both legs: long term, without treatment","has lost part of both legs, leaving pain, tingling, and frequent sores in the stumps. The person has great difficulty moving around, has episodes of depression and anxiety, and needs help from others to do many daily activities.",0.443,desc
+"Fracture of face bone: short or long term, with or without","has a broken cheek bone or a broken nose or chipped teeth, with swelling",0.067,desc
+Spinal cord lesion below neck: treated,"is paralyzed from the waist down, cannot feel or move the legs and has difficulties with urine and bowel control. The person uses a wheelchair to move around.",0.296,desc
+Spinal cord lesion below neck: untreated,"is paralyzed from the waist down, cannot feel or move the legs and has difficulties with urine and bowel control. Legs are in fixed, bent positions, and the person gets frequent infections and pressure sores.",0.623,desc
+Spinal cord lesion at neck: treated,"is paralyzed from the neck down, with no feeling or control over any part of the body below the neck, and no urine or bowel control.",0.589,desc
+Spinal cord lesion at neck: untreated,"is paralyzed from the neck down, with no feeling or control over any part of the body below the neck, and no urine or bowel control. Arms and legs are in fixed, bent positions, and the person gets frequent infections and pressure sores.",0.732,desc
+Generic uncomplicated,has a disease diagnosis that causes some worry but minimal,0.012,inline
+Motor plus cognitive impairments: mild,"has some difficulty in moving around but is able to walk without help. The person is slow in learning at school. As an adult, the person has some difficulty doing complex or unfamiliar tasks but otherwise functions independently.",0.031,desc
+Motor plus cognitive impairments: moderate,"has some difficulty in moving around, holding objects, dressing and sitting upright, but can walk without help. The person has low intelligence and is slow in learning to speak and to do simple tasks.",0.203,desc
+Motor plus cognitive impairments: severe,"cannot move around without help, and cannot lift or hold objects, get dressed or sit upright. The person also has very low intelligence, speaks few words, and needs constant supervision and help with all daily activities.",0.542,desc
 Stress incontinence,"loses small amounts of urine without meaning to when coughing, sneezing, laughing or during physical exercise.",0.02,desc
 Headache: medication overuse,"has daily headaches, felt as dull pain and often lasting all day, with poor sleep, nausea and fatigue. The person takes medicine for the headaches, which provides little relief but is needed to avoid having worse symptoms.",0.223,desc
-Epilepsy: severe (seizures ≥ once per,"has sudden seizures one or more times each month, with violent muscle",0.552,inline
+Epilepsy: severe (seizures ≥ once per month),"has sudden seizures one or more times each month, with violent muscle contractions and stiffness, loss of consciousness, and loss of urine or bowel control. Between seizures the person has memory loss and difficulty concentrating.",0.552,desc
 "Epilepsy: less severe (seizures < once per has sudden seizures two to five times a year, with violent muscle","Epilepsy: less severe (seizures < once per has sudden seizures two to five times a year, with violent muscle",0.263,name
 Alcohol use disorder: very mild,"drinks alcohol daily and has difficulty controlling the urge to drink. When sober, the person functions normally.",0.123,desc
 Cannabis dependence: mild,"uses marijuana at least once a week and has some difficulty controlling the habit. When not using, the person functions normally.",0.039,desc
 Amphetamine dependence: mild,"uses stimulants (drugs) at least once a week and has some difficulty controlling the habit. When not using, the person functions normally.",0.079,desc
 Cocaine dependence: mild,"uses cocaine at least once a week and has some difficulty controlling the habit. When not using, the person functions normally.",0.116,desc
-Heroin and other opioid dependence:,uses heroin (or methadone)¾daily and has difficulty controlling the habit.,0.335,inline
+Heroin and other opioid dependence: mild,"uses heroin (or methadone) daily and has difficulty controlling the habit. When not using, the person functions normally.",0.335,desc
 Borderline intellectual functioning,"is slow in learning at school. As an adult, the person has some difficulty doing complex or unfamiliar tasks but otherwise functions independently.",0.011,desc
 Distance vision: monocular impairment,is blind in one eye and has difficulty judging distances,0.017,desc
 Low back pain: mild,"has mild back pain, which causes some difficulty dressing, standing, and lifting things.",0.02,desc
 Low back pain: moderate,"has moderate back pain, which causes difficulty dressing, sitting, standing, walking, and lifting things.",0.054,desc
-"Amputation of one arm: long term, with","has lost one hand and part of the arm, leaving pain and tingling in the",0.039,inline
-"Amputation of one arm: long term,","has lost one hand and part of the arm, leaving pain and tingling in the",0.118,inline
+"Amputation of one arm: long term, with treatment","has lost one hand and part of the arm, leaving pain and tingling in the stump. The person has an artificial arm that makes it possible to lift objects and do daily activities such as cooking, with some extra effort.",0.039,desc
+"Amputation of one arm: long term, without treatment","has lost one hand and part of the arm, leaving pain and tingling in the stump. The person needs help from others to lift objects or do daily activities such as cooking.",0.118,desc
 Concussion,"has headaches, dizziness, nausea and difficulty concentrating.",0.11,desc
 Thrombocytopenic purpura,easily bruises and sometimes bleeds from the gums and nose; feels weak and has some difficulty with daily activities.,0.159,desc
 Hypothyroidism,has low energy and feels cold.,0.019,desc

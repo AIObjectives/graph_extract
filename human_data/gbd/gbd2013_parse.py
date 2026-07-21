@@ -15,7 +15,11 @@ with tempfile.TemporaryDirectory() as tmp:
     lines = TXT.read_text().split("\n")
 
 SPLIT = re.compile(r"\s{2,}")
-WEIGHT = re.compile(r"(\d\.\d{3})\s*\(")          # GBD2013 weight = first 'd.ddd ('
+# GBD2013 weight = the first 'd.ddd' on the row. Tables 2a/2b/4 render it as 'd.ddd (ci)',
+# but Table 3 is a 5-column comparison whose CI sits on the NEXT line, so we must not
+# require the '('. Taking the first match still picks GBD2013 over the GBD2010 column,
+# which always comes later on the line.
+WEIGHT = re.compile(r"\s{2,}(\d\.\d{3})")
 SKIP = re.compile(r"^\s*(Appendix Table|Health state|Lay description|Disability weight|"
                   r"estimate|uncertainty|interval|\d+\s*$|GBD 20|\(95)")
 def norm(s): return re.sub(r"\s+", " ", s).strip().lower().rstrip(".")
@@ -47,14 +51,21 @@ desc_n = {norm(k): re.sub(r"\s+"," ",v).strip() for k,v in desc.items()}
 
 # ---- Tables 2a/2b/3/4: name -> weight (first wins; dedup). Split inline desc (Table 4). ----
 rows = {}
-for l in lines[t1_end:]:
+tail = lines[t1_end:]
+for i, l in enumerate(tail):
     m = WEIGHT.search(l)
     if not m or SKIP.match(l):
         continue
-    field = l[:m.start()]
+    field = l[:m.start(1)]
     hs, inline = split2(field)         # Table 4 glues name + lay desc before weight
     if not hs or len(hs) < 3:
         continue
+    # Table 3 wraps long state names onto the following line ("Major depressive disorder:" /
+    # "mild episode"). If the name alone doesn't resolve, try it joined with that continuation.
+    if norm(hs) not in desc_n and i + 1 < len(tail):
+        cont = split2(tail[i + 1])[0]
+        if cont and not cont.startswith("(") and norm(f"{hs} {cont}") in desc_n:
+            hs = f"{hs} {cont}"
     n = norm(hs)
     if n in rows:
         continue
