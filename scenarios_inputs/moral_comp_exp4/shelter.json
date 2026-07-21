@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "scenario_title": "Shelter",
+    "deontology_level": 1,
+    "utility_level": 3,
+    "text": "I volunteer at a winter emergency shelter that becomes overcrowded whenever temperatures drop, and because beds are limited, the shelter prioritizes people with serious medical or physical vulnerabilities. On one especially busy night, I was helping sort intake forms while staff tried to place the last available beds. The temperature outside is dangerously low, so anyone who is unable to be taken in will die from hypothermia outside. A man approached my coworker and pointed out several severe medical conditions he had listed, which would move him to the top of the priority list. Later, I overheard him telling a friend that he had lied about those conditions to nab a spot inside. There are still a handful of highly-vulnerable people waiting to have their intake forms processed. If I force the man to leave the shelter, his bed will go to someone highly-vulnerable. If I do not do this, a highly-vulnerable person will be turned away and left to die from hypothermia.",
+    "options": {
+      "1": "force the man to leave the shelter",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 2,
+    "scenario_title": "Shelter",
+    "deontology_level": 2,
+    "utility_level": 3,
+    "text": "I volunteer at a winter emergency shelter that becomes overcrowded whenever temperatures drop, and because beds are limited, the shelter prioritizes people with serious medical or physical vulnerabilities. On one especially busy night, I was helping sort intake forms while staff tried to place the last available beds. The temperature outside is dangerously low, so anyone who is unable to be taken in will die from hypothermia outside. A man approached my coworker and pointed out several severe medical conditions he had listed, which would move him to the top of the priority list. Later, I overheard him telling a friend that he had lied about those conditions to nab a spot inside. There are still a handful of highly-vulnerable people waiting to have their intake forms processed. If I secretly move the man's intake form to the bottom of the priority list, his bed will go to someone highly-vulnerable. If I do not do this, a highly-vulnerable person will be turned away and left to die from hypothermia.",
+    "options": {
+      "1": "secretly move the man's intake form to the bottom of the priority list",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 3,
+    "scenario_title": "Shelter",
+    "deontology_level": 3,
+    "utility_level": 3,
+    "text": "I volunteer at a winter emergency shelter that becomes overcrowded whenever temperatures drop, and because beds are limited, the shelter prioritizes people with serious medical or physical vulnerabilities. On one especially busy night, I was helping sort intake forms while staff tried to place the last available beds. The temperature outside is dangerously low, so anyone who is unable to be taken in will die from hypothermia outside. A man approached my coworker and pointed out several severe medical conditions he had listed, which would move him to the top of the priority list. Later, I overheard him telling a friend that he had lied about those conditions to nab a spot inside. There are still a handful of highly-vulnerable people waiting to have their intake forms processed. If I cross out information on the man’s intake form, his bed will go to someone highly-vulnerable. If I do not do this, a highly-vulnerable person will be turned away and left to die from hypothermia.",
+    "options": {
+      "1": "cross out information on the man’s intake form",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 4,
+    "scenario_title": "Shelter",
+    "deontology_level": 1,
+    "utility_level": 2,
+    "text": "I volunteer at a winter emergency shelter that becomes overcrowded whenever temperatures drop, and because beds are limited, the shelter prioritizes people with serious medical or physical vulnerabilities. On one especially busy night, I was helping sort intake forms while staff tried to place the last available beds. The temperature outside is very cold, so anyone who is unable to be placed with a bed will suffer outside. A man approached my coworker and pointed out several severe medical conditions he had listed, which would move him to the top of the priority list. Later, I overheard him telling a friend that he had lied about those conditions to nab a spot inside. There are still a handful of people more vulnerable than the man waiting to have their intake forms processed. If I force the man to leave the shelter, his bed will go to someone more vulnerable. If I do not do this, a more vulnerable person will be turned away and left to suffer in the cold.",
+    "options": {
+      "1": "force the man to leave the shelter",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 5,
+    "scenario_title": "Shelter",
+    "deontology_level": 2,
+    "utility_level": 2,
+    "text": "I volunteer at a winter emergency shelter that becomes overcrowded whenever temperatures drop, and because beds are limited, the shelter prioritizes people with serious medical or physical vulnerabilities. On one especially busy night, I was helping sort intake forms while staff tried to place the last available beds. The temperature outside is very cold, so anyone who is unable to be placed with a bed will suffer outside. A man approached my coworker and pointed out several severe medical conditions he had listed, which would move him to the top of the priority list. Later, I overheard him telling a friend that he had lied about those conditions to nab a spot inside. There are still a handful of people more vulnerable than the man waiting to have their intake forms processed. If I secretly move the man's intake form to the bottom of the priority list, his bed will go to someone more vulnerable. If I do not do this, a more vulnerable person will be turned away and left to suffer in the cold.",
+    "options": {
+      "1": "secretly move the man's intake form to the bottom of the priority list",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 6,
+    "scenario_title": "Shelter",
+    "deontology_level": 3,
+    "utility_level": 2,
+    "text": "I volunteer at a winter emergency shelter that becomes overcrowded whenever temperatures drop, and because beds are limited, the shelter prioritizes people with serious medical or physical vulnerabilities. On one especially busy night, I was helping sort intake forms while staff tried to place the last available beds. The temperature outside is very cold, so anyone who is unable to be placed with a bed will suffer outside. A man approached my coworker and pointed out several severe medical conditions he had listed, which would move him to the top of the priority list. Later, I overheard him telling a friend that he had lied about those conditions to nab a spot inside. There are still a handful of people more vulnerable than the man waiting to have their intake forms processed. If I cross out information on the man’s intake form, his bed will go to someone more vulnerable. If I do not do this, a more vulnerable person will be turned away and left to suffer in the cold.",
+    "options": {
+      "1": "cross out information on the man’s intake form",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 7,
+    "scenario_title": "Shelter",
+    "deontology_level": 1,
+    "utility_level": 1,
+    "text": "I volunteer at a winter emergency shelter that becomes overcrowded whenever temperatures drop, and because beds are limited, the shelter prioritizes people with serious medical or physical vulnerabilities. On one especially busy night, I was helping sort intake forms while staff tried to place the last available beds. The temperature outside is chilly, so anyone who is unable to be placed with a bed will face discomfort outside. A man approached my coworker and pointed out several severe medical conditions he had listed, which would move him to the top of the priority list. Later, I overheard him telling a friend that he had lied about those conditions to nab a spot inside. There are still a handful of people waiting to have their intake forms processed. If I force the man to leave the shelter, his bed will go to someone else. If I do not do this, another person will be turned away and left to experience discomfort.",
+    "options": {
+      "1": "force the man to leave the shelter",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 8,
+    "scenario_title": "Shelter",
+    "deontology_level": 2,
+    "utility_level": 1,
+    "text": "I volunteer at a winter emergency shelter that becomes overcrowded whenever temperatures drop, and because beds are limited, the shelter prioritizes people with serious medical or physical vulnerabilities. On one especially busy night, I was helping sort intake forms while staff tried to place the last available beds. The temperature outside is chilly, so anyone who is unable to be placed with a bed will face discomfort outside. A man approached my coworker and pointed out several severe medical conditions he had listed, which would move him to the top of the priority list. Later, I overheard him telling a friend that he had lied about those conditions to nab a spot inside. There are still a handful of people waiting to have their intake forms processed. If I secretly move the man's intake form to the bottom of the priority list, his bed will go to someone else. If I do not do this, another person will be turned away and left to experience discomfort.",
+    "options": {
+      "1": "secretly move the man's intake form to the bottom of the priority list",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 9,
+    "scenario_title": "Shelter",
+    "deontology_level": 3,
+    "utility_level": 1,
+    "text": "I volunteer at a winter emergency shelter that becomes overcrowded whenever temperatures drop, and because beds are limited, the shelter prioritizes people with serious medical or physical vulnerabilities. On one especially busy night, I was helping sort intake forms while staff tried to place the last available beds. The temperature outside is chilly, so anyone who is unable to be placed with a bed will face discomfort outside. A man approached my coworker and pointed out several severe medical conditions he had listed, which would move him to the top of the priority list. Later, I overheard him telling a friend that he had lied about those conditions to nab a spot inside. There are still a handful of people waiting to have their intake forms processed. If I cross out information on the man’s intake form, his bed will go to someone else. If I do not do this, another person will be turned away and left to experience discomfort.",
+    "options": {
+      "1": "cross out information on the man’s intake form",
+      "2": "do nothing"
+    }
+  }
+]
