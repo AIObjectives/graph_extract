@@ -22,7 +22,9 @@ SPLIT = re.compile(r"\s{2,}")
 WEIGHT = re.compile(r"\s{2,}(\d\.\d{3})")
 SKIP = re.compile(r"^\s*(Appendix Table|Health state|Lay description|Disability weight|"
                   r"estimate|uncertainty|interval|\d+\s*$|GBD 20|\(95)")
-def norm(s): return re.sub(r"\s+", " ", s).strip().lower().rstrip(".")
+# Table 1 writes "Hearing loss, mild, with ringing" while Tables 2-4 write
+# "Hearing loss: mild, with ringing" - drop ':' and ',' so the two forms match.
+def norm(s): return re.sub(r"[\s:,]+", " ", s).strip().lower().rstrip(".")
 
 def split2(line):
     parts = SPLIT.split(line.strip(), maxsplit=1)
@@ -47,7 +49,8 @@ for l in lines[:t1_end]:
         cur = left; desc[cur] = right
     elif left and not right:          # section header -> reset
         cur = None
-desc_n = {norm(k): re.sub(r"\s+"," ",v).strip() for k,v in desc.items()}
+PAGE_ARTIFACT = re.compile(r"\s*\((?:Continues|continued) on next page\)\s*", re.I)
+desc_n = {norm(k): PAGE_ARTIFACT.sub(" ", re.sub(r"\s+"," ",v)).strip() for k,v in desc.items()}
 
 # ---- Tables 2a/2b/3/4: name -> weight (first wins; dedup). Split inline desc (Table 4). ----
 rows = {}
