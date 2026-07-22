@@ -1,7 +1,7 @@
 input_path: "scenarios_inputs/cheung_variants/"
 input_file: "lifeboat.json"
-commit_hash: "288377cd1641f802c09f954c6670dd35c76c556e"
+commit_hash: "eeb0ba904a07aa304ca487f6994c02852d87de53"
 output_path: "annotated_outputs/cheung_variants/"
-scenario_ids: [1,2]
-steps_to_keep: ['beings','outcomes']
-write_qualtrics: false
+scenario_ids: [1,2,3,4,5,6,7,8,9]
+steps_to_keep: []
+write_qualtrics: true
