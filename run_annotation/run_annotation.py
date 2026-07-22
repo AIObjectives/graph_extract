@@ -63,7 +63,8 @@ def main(config_file: str):
         if scenario_json:  
             # generate output file name based on input filename
             output_filename = ROOT_DIR + OUTPUT_PATH + INPUT_FILE.split('.json')[0] + '_' + str(scenario_id)
-
+            print(output_filename)
+            
             #run annotation
             for act_id in scenario_json['options'].keys():         
                 # run the annotation process
