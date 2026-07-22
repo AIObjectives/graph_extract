@@ -1,6 +1,9 @@
 import pandas as pd
 import json    
-
+import src.prompts
+from functools import reduce
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 ## FUNCTIONS TO READ IN SCENARIO JSONS
 
@@ -58,6 +61,20 @@ def read_annotation(file_path):
 
     return nodes
 
+
+## FUNCTIONS TO PARSE READ IN ANNOTATION NODES
+
+def extract_beings(nodes):
+
+    try:
+        being_nodes = [n for n in nodes if n.get('node', {}).get('kind') == 'being']
+    except KeyError:
+        return {}
+
+    being_labels = {n['node']['label'] for n in being_nodes}
+
+    return being_labels
+
 def extract_action(nodes):
     
     value = None
@@ -72,6 +89,19 @@ def extract_action(nodes):
 
     return label
 
+def extract_outcomes(nodes):
+
+    event_nodes = [n for n in nodes if n.get('node', {}).get('kind') == 'event']
+
+    events_I = []
+    events_Ziv = []
+
+    for event_node in event_nodes:
+        event_label = event_node['node']['label']
+        events_I.append(event_label)
+        events_Ziv.append(prompts.convert_I_Ziv(event_label))
+
+    return events_Ziv, events_I
 
 def events_to_utility_df(nodes):
   
@@ -150,30 +180,116 @@ def get_cik_links(nodes):
     (
         node for node in nodes
         if node.get("node", {}).get("kind") == "being"
-        and node.get("node", {}).get("label") == "i"
+        and node.get("node", {}).get("label") == "i" or node.get("node", {}).get("label") == "I"
     ),
     None
     )
 
-    #loop through each link from I to events, and get the CIK values, returning a df
-    for link in being_i_node.get("links", []):
-        sub_link = link.get("link", {})
-        if sub_link.get("kind") == "b_link": 
-            CIK =  sub_link.get("value")
-            cik_dict = parse_cik(CIK)
+    if not being_i_node:
+        raise ValueError("No being node with label 'i' or 'I' found in the nodes.")
+    
+    else:
+        #loop through each link from I to events, and get the CIK values, returning a df
+        for link in being_i_node.get("links", []):
+            sub_link = link.get("link", {})
+            if sub_link.get("kind") == "b_link": 
+                CIK =  sub_link.get("value")
+                cik_dict = parse_cik(CIK)
 
-            event = link.get("to_node")       
+                event = link.get("to_node")       
 
-            row = {
-                "event": event,
-                "C": cik_dict.get("C"),
-                "I": cik_dict.get("I"),
-                "K": cik_dict.get("K"),
-            }
-            cik_df = pd.concat([cik_df, pd.DataFrame([row])], ignore_index=True)
+                row = {
+                    "event": event,
+                    "C": cik_dict.get("C"),
+                    "I": cik_dict.get("I"),
+                    "K": cik_dict.get("K"),
+                }
+                cik_df = pd.concat([cik_df, pd.DataFrame([row])], ignore_index=True)
+
     return cik_df
 
+## PLOTTING
 
+def pretty_label(name: str) -> str:
+    return name.replace("_", " ").strip().title()
+
+
+def plot_bar_strip(
+    df,
+    x,
+    y,
+    hue=None,
+    title=None,
+    xlabel=None,
+    ylabel=None,
+):
+    # Basic validation
+    for col in [x, y] + ([hue] if hue is not None else []):
+        if col not in df.columns:
+            raise ValueError(f"Column '{col}' not found in dataframe.")
+
+    plot_df = df.copy()
+    plot_df[y] = pd.to_numeric(plot_df[y], errors="coerce")
+    plot_df = plot_df.dropna(subset=[x, y] + ([hue] if hue is not None else []))
+
+    palette=sns.color_palette("hls",2)
+
+    plt.figure(figsize=(10,6))
+    sns.set_context("notebook", font_scale=1.5, rc={"lines.linewidth": 2.2})
+
+    # Bar layer
+    sns.barplot(
+        data=plot_df,
+        x=x,
+        y=y,
+        hue=hue,
+        errorbar = 'se',
+        capsize=.2,
+        alpha=1,
+        width=.75,
+        edgecolor="black",
+        palette=palette
+    )
+
+    # Point layer
+    sns.stripplot(
+        data=plot_df,
+        x=x,
+        y=y,
+        hue=hue,
+        # dodge='auto',
+        jitter=True,
+        size=10,
+        edgecolor="black",
+        linewidth=1,
+        alpha=0.75,
+        palette=palette
+    )
+
+    # Labels
+    if title is None:
+        title = f"{pretty_label(y)} by {pretty_label(x)}"
+    if xlabel is None:
+        xlabel = pretty_label(x)
+    if ylabel is None:
+        ylabel = pretty_label(y)
+
+    plt.title(title)
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+
+    # Clean duplicate legend from overlaid plots
+    if hue is not None:
+        handles, labels = plt.gca().get_legend_handles_labels()
+        by_label = dict(zip(labels, handles))
+        plt.legend(by_label.values(), by_label.keys(), title=pretty_label(hue))
+    else:
+        leg = plt.gca().get_legend()
+        if leg is not None:
+            leg.remove()
+
+    plt.tight_layout()
+    plt.show()
 
 ## DEPRECATED ARCHIVE
 #below could be improved by having named fields for utility and C/I/K instead of relying on order in the list, but this is fine for now since we are consistent in how we generate the annotations

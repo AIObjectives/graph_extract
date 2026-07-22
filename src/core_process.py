@@ -78,11 +78,15 @@ def process_beings(this_scenario,this_act,g):
   beings = prompts.get_beings(this_scenario,this_act)
   beings_fixed = fix_I(fix_braces(beings['results']))        
   beings_fixed_Ziv = [prompts.convert_I_Ziv(x) for x in beings_fixed]
-
-  print("\nIdentified these entities: \n\n"+"\n".join(beings_fixed))
-
   beings_list = ",".join(beings_fixed)
 
+  g = add_beings_to_graph(beings_fixed,this_act,g)
+
+
+  return [beings_fixed,beings_fixed_Ziv,beings_list,g]
+
+def add_beings_to_graph(beings_fixed,this_act,g):
+   
   #add each being to the graph in all lowercase
   for b in beings_fixed:
       #create new node & add to graph               
@@ -90,19 +94,24 @@ def process_beings(this_scenario,this_act,g):
 
   #create link between being "I" and action choice
   this_being_node = g.return_node("i")[0]
-  act_node = g.add_node(node.Node(this_act,'action_choice'))
-  # Link(kind,value):
+  act_node =  g.return_node(this_act)[0]      
   this_link = g.add_link(node.Link('b-link','C+I+K+'))
   this_being_node.link_link(this_link,act_node)
 
-  return [beings_fixed,beings_fixed_Ziv,beings_list,g]
+  return g
 
 
 def process_values_simple(this_act, g):
    
   resp = moral_projection.main([this_act])
   this_score = round(resp['projection'].iloc[0]*1000, 0)
-  
+  g =  add_value_node(this_act, this_score, g)
+ 
+  return this_score, g
+
+
+def add_value_node(this_act, this_score, g):
+   
   # create node and add it to graph
   this_v_node = g.add_node(node.Node('value','value'))
   # create link with score
@@ -110,9 +119,8 @@ def process_values_simple(this_act, g):
   # connect it to the action node    
   act_node = g.return_node(this_act)[0]             
   act_node.link_link(this_link,this_v_node)
- 
 
-  return this_score, g
+  return g
 
 
 def process_values_minimal(this_act):

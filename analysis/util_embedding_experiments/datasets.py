@@ -45,6 +45,34 @@ def load_gbd() -> pd.DataFrame:
     return pd.read_csv(HD / "gbd" / "gbd2013_clean.csv")
 
 
+<<<<<<< HEAD
+=======
+def load_virtue_words() -> dict:
+    """{system: (good_df, bad_df)} good vs bad virtue-word lists (cols: word, definition).
+    Each virtue system contrasts a set of virtue words against its anti-value words
+    (for aristotle, the two vices - deficiency and excess - are pooled as 'bad')."""
+    VW = HD / "virtue_words"
+    read = lambda name: pd.read_csv(VW / f"{name}.csv", header=None, names=["word", "definition"])
+    return {
+        "aristotle": (read("aristotle_virtues"),
+                      pd.concat([read("aristotle_deficiency"), read("aristotle_excess")], ignore_index=True)),
+        "seligman_1": (read("seligman_values_1"), read("seligman_anti_values_1")),
+        "seligman_2": (read("seligman_values_2"), read("seligman_anti_values_2")),
+    }
+
+
+def load_dillion() -> pd.DataFrame:
+    """463 situations with a continuous human moral rating (Dillion 2023 compilation)."""
+    return pd.read_csv(HD / "dillion" / "dillion_2023.csv")
+
+
+def load_seong() -> pd.DataFrame:
+    """Moral-judgment sentences (Seong): item, morality_level (1=moral, 2=neutral, 3=immoral),
+    syntax_level (1=natural, 2-4=degraded grammar)."""
+    return pd.read_csv(HD / "seong" / "seong_68.csv")
+
+
+>>>>>>> v4
 def load_franken() -> tuple:
     """(exp1_df, exp2_df): harm-vs-good rating, permissibility/intention rating."""
     exp1 = pd.DataFrame(json.load(open(HD / "franken" / "exp1_harm-vs-good-rating" / "exp1_unique_stimuli.json")))

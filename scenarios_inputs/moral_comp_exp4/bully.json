@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "scenario_title": "Bully",
+    "deontology_level": 1,
+    "utility_level": 3,
+    "text": "I am a high school student. One day during lunch period, I was walking down the hallway and noticed one student bullying another. There was no one else around in the hallway. I didn’t recognize either of the students in front of me, but I could clearly see that the person doing the bullying was having fun while the victim looked badly bruised. It was obvious that this was not simple roughhousing between friends. The person is now holding the victim in a chokehold and demanding that they hand over their lunch money. If I stab the person in the back with a pair of scissors, they will stop harassing the victim. If I do not do this, the person will continue harassing the victim.",
+    "options": {
+      "1": "stab the person in the back with a pair of scissors",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 2,
+    "scenario_title": "Bully",
+    "deontology_level": 2,
+    "utility_level": 3,
+    "text": "I am a high school student. One day during lunch period, I was walking down the hallway and noticed one student bullying another. There was no one else around in the hallway. I didn’t recognize either of the students in front of me, but I could clearly see that the person doing the bullying was having fun while the victim looked badly bruised. It was obvious that this was not simple roughhousing between friends. The person is now holding the victim in a chokehold and demanding that they hand over their lunch money. If I shove the person, they will stop harassing the victim. If I do not do this, the person will continue harassing the victim.",
+    "options": {
+      "1": "shove the person",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 3,
+    "scenario_title": "Bully",
+    "deontology_level": 3,
+    "utility_level": 3,
+    "text": "I am a high school student. One day during lunch period, I was walking down the hallway and noticed one student bullying another. There was no one else around in the hallway. I didn’t recognize either of the students in front of me, but I could clearly see that the person doing the bullying was having fun while the victim looked badly bruised. It was obvious that this was not simple roughhousing between friends. The person is now holding the victim in a chokehold and demanding that they hand over their lunch money. If I shout loudly at the person, they will stop harassing the victim. If I do not do this, the person will continue harassing the victim.",
+    "options": {
+      "1": "shout loudly at the person",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 4,
+    "scenario_title": "Bully",
+    "deontology_level": 1,
+    "utility_level": 2,
+    "text": "I am a high school student. One day during lunch period, I was walking down the hallway and noticed one student bullying another. There was no one else around in the hallway. I didn’t recognize either of the students in front of me, but I could clearly see that the person doing the bullying was having fun while the victim looked very frightened. It was obvious that this was not simple roughhousing between friends. The person is now pulling at the victim’s hair and demanding that they hand over their lunch money. If I stab the person in the back with a pair of scissors, they will stop harassing the victim. If I do not do this, the person will continue harassing the victim.",
+    "options": {
+      "1": "stab the person in the back with a pair of scissors",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 5,
+    "scenario_title": "Bully",
+    "deontology_level": 2,
+    "utility_level": 2,
+    "text": "I am a high school student. One day during lunch period, I was walking down the hallway and noticed one student bullying another. There was no one else around in the hallway. I didn’t recognize either of the students in front of me, but I could clearly see that the person doing the bullying was having fun while the victim looked very frightened. It was obvious that this was not simple roughhousing between friends. The person is now pulling at the victim’s hair and demanding that they hand over their lunch money. If I shove the person, they will stop harassing the victim. If I do not do this, the person will continue harassing the victim.",
+    "options": {
+      "1": "shove the person",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 6,
+    "scenario_title": "Bully",
+    "deontology_level": 3,
+    "utility_level": 2,
+    "text": "I am a high school student. One day during lunch period, I was walking down the hallway and noticed one student bullying another. There was no one else around in the hallway. I didn’t recognize either of the students in front of me, but I could clearly see that the person doing the bullying was having fun while the victim looked very frightened. It was obvious that this was not simple roughhousing between friends. The person is now pulling at the victim’s hair and demanding that they hand over their lunch money. If I shout loudly at the person, they will stop harassing the victim. If I do not do this, the person will continue harassing the victim.",
+    "options": {
+      "1": "shout loudly at the person",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 7,
+    "scenario_title": "Bully",
+    "deontology_level": 1,
+    "utility_level": 1,
+    "text": "I am a high school student. One day during lunch period, I was walking down the hallway and noticed one student bullying another. There was no one else around in the hallway. I didn’t recognize either of the students in front of me, but I could clearly see that the person doing the bullying was having fun while the victim looked very unhappy. It was obvious that this was not simple roughhousing between friends. The person has now pushed the victim up against the lockers and is demanding that they hand over their lunch money. If I stab the person in the back with a pair of scissors, they will stop harassing the victim. If I do not do this, the person will continue harassing the victim.",
+    "options": {
+      "1": "stab the person in the back with a pair of scissors",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 8,
+    "scenario_title": "Bully",
+    "deontology_level": 2,
+    "utility_level": 1,
+    "text": "I am a high school student. One day during lunch period, I was walking down the hallway and noticed one student bullying another. There was no one else around in the hallway. I didn’t recognize either of the students in front of me, but I could clearly see that the person doing the bullying was having fun while the victim looked very unhappy. It was obvious that this was not simple roughhousing between friends. The person has now pushed the victim up against the lockers and is demanding that they hand over their lunch money. If I shove the person, they will stop harassing the victim. If I do not do this, the person will continue harassing the victim.",
+    "options": {
+      "1": "shove the person",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 9,
+    "scenario_title": "Bully",
+    "deontology_level": 3,
+    "utility_level": 1,
+    "text": "I am a high school student. One day during lunch period, I was walking down the hallway and noticed one student bullying another. There was no one else around in the hallway. I didn’t recognize either of the students in front of me, but I could clearly see that the person doing the bullying was having fun while the victim looked very unhappy. It was obvious that this was not simple roughhousing between friends. The person has now pushed the victim up against the lockers and is demanding that they hand over their lunch money. If I shout loudly at the person, they will stop harassing the victim. If I do not do this, the person will continue harassing the victim.",
+    "options": {
+      "1": "shout loudly at the person",
+      "2": "do nothing"
+    }
+  }
+]

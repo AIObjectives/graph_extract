@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e  # exit on error
 
-ENV_NAME="annotatorconda"
+ENV_NAME="graph_extract_conda"
 PYTHON_VERSION="3.12.12"
 
 # ── Conda env ────────────────────────────────────────────────────────────────
@@ -38,6 +38,7 @@ pip install \
   typer \
   openai \
   jsonlines \
+  yaml\
   statmodels
 
 # This calls pyproject.toml, which means the root-level directory is is "editable" mode, so folders become visible from everywhere (apparently)
