@@ -38,8 +38,8 @@ pip install \
   typer \
   openai \
   jsonlines \
-  yaml\
-  statmodels
+  PyYAML\
+  statsmodels
 
 # This calls pyproject.toml, which means the root-level directory is is "editable" mode, so folders become visible from everywhere (apparently)
 pip install -e .
