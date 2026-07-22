@@ -35,8 +35,7 @@ CONFIG = utils.return_config() #environment settings (API, etc)
 def main(scenario_json,output_filename,act_id,commit_hash,write_qualtrics=False,config=None):
    
    #SET-UP STEPS 
-
-
+   
     print(config.get("steps_to_keep"))
    # validate the scenario json
     assert isinstance(scenario_json['id'],int)
@@ -132,10 +131,15 @@ def main(scenario_json,output_filename,act_id,commit_hash,write_qualtrics=False,
     ##CAUSAL AND INTENTIONAL LINKS (no read-in option for now)
     core_process.process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act, g)    
 
+
     if(write_qualtrics):
       # #write scenario dict as json for qualtrics output
-      this_output_filename_qual = 'qualtrics_'+output_filename+'_choice_'+str(act_id)+'.json'
-      utils.write_json(this_output_filename_qual,[scenario_dict])     
+      # need to split strings in order to make the output filename nice
+      output_folder = output_filename.rsplit('/', 1)[0]
+      scenario_choice_name = output_filename.rsplit('/', 1)[1]
+      this_output_filename_qual = output_folder +'/'+ 'qualtrics_'+scenario_choice_name+'_choice_'+str(act_id)+'.json'
+      print(this_output_filename_qual)
+      utils.write_json(this_output_filename_qual,[scenario_dict])        
             
     
     # # write out json file with the full graph
