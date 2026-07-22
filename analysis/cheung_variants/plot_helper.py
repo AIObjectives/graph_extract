@@ -32,7 +32,7 @@ def make_deont_util_plot(scenario_name, plot_df, results_path):
     # Two blue shades for the two measures
     blue_palette = {
         "deontology_rating": "#9ecae1",  # lighter blue
-        "utility_rating": "#3182bd",     # darker blue
+        "utility_diff": "#3182bd",     # darker blue
     }
 
     sns.set_theme(style="whitegrid", font_scale=1.1)    
