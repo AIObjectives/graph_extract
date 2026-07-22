@@ -19,7 +19,11 @@ Stoma,has a pouch attached to an opening in the belly to collect and empty stool
 "Terminal phase: with medication (for cancers, end-stage kidney or liver disease)","Terminal phase: with medication (for cancers, end-stage kidney or liver disease)",0.54,name
 "Terminal phase: without medication (for cancers, end-stage kidney or liver disease)","Terminal phase: without medication (for cancers, end-stage kidney or liver disease)",0.569,name
 Acute myocardial infarction: days 3-28,"gets short of breath after heavy physical activity, and tires easily, but has no problems when at rest. The person has to take medication every day and has some anxiety.",0.074,desc
+<<<<<<< HEAD
+Angina pectoris: moderate,"has chest pain that occurs with moderate physical activity, such as walking uphill or more than half a kilometer (around a quarter-mile) on level ground. After a brief rest, the pain goes away. (Continues on next page)",0.08,desc
+=======
 Angina pectoris: moderate,"has chest pain that occurs with moderate physical activity, such as walking uphill or more than half a kilometer (around a quarter-mile) on level ground. After a brief rest, the pain goes away.",0.08,desc
+>>>>>>> v4
 Cardiac conduction disorders and cardiac dysrhythmias,has periods of rapid and irregular heartbeats and occasional fainting.,0.224,desc
 Heart failure: mild,"is short of breath and easily tires with moderate physical activity, such as walking uphill or more than a quarter-mile on level ground. The person feels comfortable at rest or during activities requiring less effort.",0.041,desc
 Heart failure: moderate,"is short of breath and easily tires with minimal physical activity, such as walking only a short distance. The person feels comfortable at rest but avoids moderate activity.",0.072,desc
@@ -34,7 +38,11 @@ Decompensated cirrhosis of the liver,"has a swollen belly and swollen legs. The 
 Crohn's disease or ulcerative colitis,"has cramping abdominal pain, has diarrhea several times a day, and feels very tired for two months every year. When the person does not have symptoms, there is anxiety about them returning.",0.231,desc
 Infertility: primary,"wants to have a child and has a fertile partner, but the couple cannot conceive.",0.008,desc
 Infertility: secondary,"has at least one child, and wants to have more children. The person has a fertile partner, but the couple cannot conceive.",0.005,desc
+<<<<<<< HEAD
+Asthma: controlled,"has wheezing and cough once a month, which does not cause difficulty with daily activities. (Continues on next page)",0.015,desc
+=======
 Asthma: controlled,"has wheezing and cough once a month, which does not cause difficulty with daily activities.",0.015,desc
+>>>>>>> v4
 Asthma: partially controlled,"has wheezing and cough once a week, which causes some difficulty with daily activities.",0.036,desc
 COPD and other chronic respiratory diseases: mild,"has cough and shortness of breath after heavy physical activity, but is able to walk long distances and climb stairs.",0.019,desc
 COPD and other chronic respiratory diseases: moderate,"has cough, wheezing and shortness of breath, even after light physical activity. The person feels tired and can walk only short distances or climb only a few stairs.",0.225,desc
@@ -48,7 +56,11 @@ Parkinson's disease: mild,"has mild tremors and moves a little slowly, but is ab
 Parkinson's disease: moderate,"has moderate tremors and moves slowly, which causes some difficulty in walking and daily activities. The person has some trouble swallowing, talking, sleeping, and remembering things.",0.267,desc
 Parkinson's disease: severe,"has severe tremors and moves very slowly, which causes great difficulty in walking and daily activities. The person falls easily and has a lot of difficulty talking, swallowing, sleeping, and remembering things.",0.575,desc
 Alcohol use disorder: mild,"drinks a lot of alcohol and sometimes has difficulty controlling the urge to drink. While intoxicated, the person has difficulty performing daily activities.",0.235,desc
+<<<<<<< HEAD
+Alcohol use disorder: moderate,"drinks a lot, gets drunk almost every week and has great difficulty controlling the urge to drink. Drinking and recovering cause great difficulty in daily activities, sleep loss, and fatigue. (Continues on next page)",0.373,desc
+=======
 Alcohol use disorder: moderate,"drinks a lot, gets drunk almost every week and has great difficulty controlling the urge to drink. Drinking and recovering cause great difficulty in daily activities, sleep loss, and fatigue.",0.373,desc
+>>>>>>> v4
 Alcohol use disorder: severe,"gets drunk almost every day and is unable to control the urge to drink. Drinking and recovering replace most daily activities. The person has difficulty thinking, remembering and communicating, and feels constant pain and fatigue.",0.57,desc
 Cannabis dependence: moderate to severe,"uses marijuana daily and has difficulty controlling the habit. The person sometimes has mood swings, anxiety and hallucinations, and has some difficulty in daily activities.",0.266,desc
 Amphetamine dependence: moderate to severe,"uses stimulants (drugs) and has difficulty controlling the habit. The person sometimes has depression, hallucinations and mood swings, and has difficulty in daily activities.",0.486,desc
@@ -74,7 +86,11 @@ Neck pain: severe,"has severe neck pain, and difficulty turning the head and lif
 Neck pain: most severe,"has constant neck pain and arm pain, and difficulty turning the head, holding arms up, and lifting things. The person gets headaches, sleeps poorly, and feels tired and worried.",0.304,desc
 "Musculoskeletal problems: legs, mild","has pain in the leg, which causes some difficulty running, walking long distances, and getting up and down.",0.023,desc
 "Musculoskeletal problems: legs, moderate","has moderate pain in the leg, which makes the person limp, and causes some difficulty walking, standing, lifting and carrying heavy things, getting up and down and sleeping.",0.079,desc
+<<<<<<< HEAD
+"Musculoskeletal problems: legs, severe","has severe pain in the leg, which makes the person limp and causes a lot of difficulty walking, standing, lifting and carrying heavy things, getting up and down, and sleeping. (Continues on next page)",0.165,desc
+=======
 "Musculoskeletal problems: legs, severe","has severe pain in the leg, which makes the person limp and causes a lot of difficulty walking, standing, lifting and carrying heavy things, getting up and down, and sleeping.",0.165,desc
+>>>>>>> v4
 "Musculoskeletal problems: arms, mild","has mild pain and stiffness in the arms and hands. The person has some difficulty lifting, carrying and holding things.",0.028,desc
 "Musculoskeletal problems: arms, moderate","has moderate pain and stiffness in the arms and hands, which causes difficulty lifting, carrying, and holding things, and trouble sleeping because of the pain.",0.117,desc
 "Musculoskeletal problems: generalised, moderate","has pain and deformity in most joints, causing difficulty moving around, getting up and down, and using the hands for lifting and carrying. The person often feels fatigue.",0.317,desc
@@ -111,7 +127,11 @@ Fracture of pelvis: long term,"had a broken pelvis in the past and now walks wit
 "Fracture of skull: short or long term, with or without treatment","has a broken skull, but does not have brain damage. The broken area is painful and swollen.",0.071,desc
 "Fracture of sternum or fracture of one or two ribs: short term, with or without treatment","Fracture of sternum or fracture of one or two ribs: short term, with or without treatment",0.103,name
 "Fracture of vertebral column: short or long term, with or without treatment","Fracture of vertebral column: short or long term, with or without treatment",0.111,name
+<<<<<<< HEAD
+"Fractures: treated, long term",has slight pain in a bone that was broken in the past. (Continues on next page),0.005,desc
+=======
 "Fractures: treated, long term",has slight pain in a bone that was broken in the past.,0.005,desc
+>>>>>>> v4
 Injured nerves: short term,"has a nerve injury, which causes difficulty moving and some loss of feeling in the affected area.",0.1,desc
 Injured nerves: long term,"had a nerve injury in the past, which continues to cause some difficulty moving. The person often injures the affected part because it is numb.",0.113,desc
 Injury to eyes: short term,"has an injury to one eye, which causes pain and difficulty seeing.",0.054,desc
@@ -158,7 +178,11 @@ Fetal alcohol syndrome: severe,"is very slow in developing physically and mental
 Bipolar disorder: manic episode,"is hyperactive, hears and believes things that are not real, and engages in impulsive and aggressive behavior that endanger the person and others.",0.492,desc
 Bipolar disorder: residual state,"has mild mood swings, irritability and some difficulty with daily activities.",0.032,desc
 Schizophrenia: acute state,"hears and sees things that are not real and is afraid, confused, and sometimes violent. The person has great difficulty with communication and daily activities, and sometimes wants to harm or kill himself (or herself).",0.778,desc
+<<<<<<< HEAD
+Schizophrenia: residual state,"hears and sees things that are not real and has trouble communicating. The person can be forgetful, has difficulty with daily activities, and thinks about hurting himself (or herself). (Continues on next page)",0.588,desc
+=======
 Schizophrenia: residual state,"hears and sees things that are not real and has trouble communicating. The person can be forgetful, has difficulty with daily activities, and thinks about hurting himself (or herself).",0.588,desc
+>>>>>>> v4
 Anorexia nervosa,"feels an overwhelming need to starve and exercises excessively to lose weight. The person is very thin, weak and anxious.",0.224,desc
 Bulimia nervosa,"has uncontrolled overeating followed by guilt, starving, and vomiting to lose weight.",0.223,desc
 Attention deficit hyperactivity disorder,"is hyperactive and has difficulty concentrating, remembering things, and completing tasks.",0.045,desc
@@ -171,7 +195,11 @@ Periodontitis,"has minor bleeding of the gums from time to time, with mild disco
 Dental caries: symptomatic,"has a toothache, which causes some difficulty in eating.",0.01,desc
 Severe tooth loss,"has lost more than 20 teeth including front and back, and has great difficulty in eating meat, fruits, and vegetables.",0.067,desc
 Disfigurement: level 1,"has a slight, visible physical deformity that others notice, which causes some worry and discomfort.",0.011,desc
+<<<<<<< HEAD
+Disfigurement: level 2,"has a visible physical deformity that causes others to stare and comment. As a result, the person is worried and has trouble sleeping and concentrating. (Continues on next page)",0.067,desc
+=======
 Disfigurement: level 2,"has a visible physical deformity that causes others to stare and comment. As a result, the person is worried and has trouble sleeping and concentrating.",0.067,desc
+>>>>>>> v4
 Disfigurement: level 3,"has an obvious physical deformity that makes others uncomfortable, which causes the person to avoid social contact, feel worried, sleep poorly, and think about suicide.",0.405,desc
 Disfigurement: level 1 with itch or pain,"has a slight, visible physical deformity that is sometimes sore or itchy. Others notice the deformity, which causes some worry and discomfort.",0.027,desc
 "Disfigurement: level 2, with itch or pain","has a visible physical deformity that is sore and itchy. Other people stare and comment, which causes the person to worry. The person has trouble sleeping and concentrating.",0.188,desc
@@ -182,6 +210,11 @@ Severe wasting,is extremely skinny and has no energy.,0.128,desc
 Speech problems,"has difficulty speaking, and others find it difficult to understand.",0.051,desc
 Rectovaginal fistula,"has an abnormal opening between her vagina and rectum causing flatulence and feces to escape through the vagina. The person gets infections in her vagina, and has pain when urinating.",0.501,desc
 Vesicovaginal fistula,"has an abnormal opening between the bladder and the vagina, which makes her unable to control urinating. The woman is anxious and depressed.",0.342,desc
+<<<<<<< HEAD
+Stress incontinence,"loses small amounts of urine without meaning to when coughing, sneezing, laughing or during physical exercise.",0.02,desc
+Headache: medication overuse,"has daily headaches, felt as dull pain and often lasting all day, with poor sleep, nausea and fatigue. The person takes medicine for the headaches, which provides little relief but is needed to avoid having worse symptoms.",0.223,desc
+Epilepsy: severe (seizures ≥ once per,"has sudden seizures one or more times each month, with violent muscle",0.552,inline
+=======
 Major depressive disorder: mild episode,"feels persistent sadness and has lost interest in usual activities. The person sometimes sleeps badly, feels tired, or has trouble concentrating but still manages to function in daily life with extra effort.",0.145,desc
 Intellectual disability: mild,"has low intelligence and is slow in learning at school. As an adult, the person can live independently, but often needs help to raise children and can only work at simple supervised jobs.",0.043,desc
 Intellectual disability: moderate,"has low intelligence, and is slow in learning to speak and to do even simple tasks. As an adult, the person requires a lot of support to live independently and raise children. The person can only work at the simplest supervised jobs.",0.1,desc
@@ -215,18 +248,28 @@ Motor plus cognitive impairments: severe,"cannot move around without help, and c
 Stress incontinence,"loses small amounts of urine without meaning to when coughing, sneezing, laughing or during physical exercise.",0.02,desc
 Headache: medication overuse,"has daily headaches, felt as dull pain and often lasting all day, with poor sleep, nausea and fatigue. The person takes medicine for the headaches, which provides little relief but is needed to avoid having worse symptoms.",0.223,desc
 Epilepsy: severe (seizures ≥ once per month),"has sudden seizures one or more times each month, with violent muscle contractions and stiffness, loss of consciousness, and loss of urine or bowel control. Between seizures the person has memory loss and difficulty concentrating.",0.552,desc
+>>>>>>> v4
 "Epilepsy: less severe (seizures < once per has sudden seizures two to five times a year, with violent muscle","Epilepsy: less severe (seizures < once per has sudden seizures two to five times a year, with violent muscle",0.263,name
 Alcohol use disorder: very mild,"drinks alcohol daily and has difficulty controlling the urge to drink. When sober, the person functions normally.",0.123,desc
 Cannabis dependence: mild,"uses marijuana at least once a week and has some difficulty controlling the habit. When not using, the person functions normally.",0.039,desc
 Amphetamine dependence: mild,"uses stimulants (drugs) at least once a week and has some difficulty controlling the habit. When not using, the person functions normally.",0.079,desc
 Cocaine dependence: mild,"uses cocaine at least once a week and has some difficulty controlling the habit. When not using, the person functions normally.",0.116,desc
+<<<<<<< HEAD
+Heroin and other opioid dependence:,uses heroin (or methadone)¾daily and has difficulty controlling the habit.,0.335,inline
+=======
 Heroin and other opioid dependence: mild,"uses heroin (or methadone) daily and has difficulty controlling the habit. When not using, the person functions normally.",0.335,desc
+>>>>>>> v4
 Borderline intellectual functioning,"is slow in learning at school. As an adult, the person has some difficulty doing complex or unfamiliar tasks but otherwise functions independently.",0.011,desc
 Distance vision: monocular impairment,is blind in one eye and has difficulty judging distances,0.017,desc
 Low back pain: mild,"has mild back pain, which causes some difficulty dressing, standing, and lifting things.",0.02,desc
 Low back pain: moderate,"has moderate back pain, which causes difficulty dressing, sitting, standing, walking, and lifting things.",0.054,desc
+<<<<<<< HEAD
+"Amputation of one arm: long term, with","has lost one hand and part of the arm, leaving pain and tingling in the",0.039,inline
+"Amputation of one arm: long term,","has lost one hand and part of the arm, leaving pain and tingling in the",0.118,inline
+=======
 "Amputation of one arm: long term, with treatment","has lost one hand and part of the arm, leaving pain and tingling in the stump. The person has an artificial arm that makes it possible to lift objects and do daily activities such as cooking, with some extra effort.",0.039,desc
 "Amputation of one arm: long term, without treatment","has lost one hand and part of the arm, leaving pain and tingling in the stump. The person needs help from others to lift objects or do daily activities such as cooking.",0.118,desc
+>>>>>>> v4
 Concussion,"has headaches, dizziness, nausea and difficulty concentrating.",0.11,desc
 Thrombocytopenic purpura,easily bruises and sometimes bleeds from the gums and nose; feels weak and has some difficulty with daily activities.,0.159,desc
 Hypothyroidism,has low energy and feels cold.,0.019,desc

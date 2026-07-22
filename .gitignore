@@ -7,6 +7,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+graph_extract_venv/
 
 __pycache__
 

@@ -15,6 +15,12 @@ with tempfile.TemporaryDirectory() as tmp:
     lines = TXT.read_text().split("\n")
 
 SPLIT = re.compile(r"\s{2,}")
+<<<<<<< HEAD
+WEIGHT = re.compile(r"(\d\.\d{3})\s*\(")          # GBD2013 weight = first 'd.ddd ('
+SKIP = re.compile(r"^\s*(Appendix Table|Health state|Lay description|Disability weight|"
+                  r"estimate|uncertainty|interval|\d+\s*$|GBD 20|\(95)")
+def norm(s): return re.sub(r"\s+", " ", s).strip().lower().rstrip(".")
+=======
 # GBD2013 weight = the first 'd.ddd' on the row. Tables 2a/2b/4 render it as 'd.ddd (ci)',
 # but Table 3 is a 5-column comparison whose CI sits on the NEXT line, so we must not
 # require the '('. Taking the first match still picks GBD2013 over the GBD2010 column,
@@ -25,6 +31,7 @@ SKIP = re.compile(r"^\s*(Appendix Table|Health state|Lay description|Disability 
 # Table 1 writes "Hearing loss, mild, with ringing" while Tables 2-4 write
 # "Hearing loss: mild, with ringing" - drop ':' and ',' so the two forms match.
 def norm(s): return re.sub(r"[\s:,]+", " ", s).strip().lower().rstrip(".")
+>>>>>>> v4
 
 def split2(line):
     parts = SPLIT.split(line.strip(), maxsplit=1)
@@ -49,6 +56,20 @@ for l in lines[:t1_end]:
         cur = left; desc[cur] = right
     elif left and not right:          # section header -> reset
         cur = None
+<<<<<<< HEAD
+desc_n = {norm(k): re.sub(r"\s+"," ",v).strip() for k,v in desc.items()}
+
+# ---- Tables 2a/2b/3/4: name -> weight (first wins; dedup). Split inline desc (Table 4). ----
+rows = {}
+for l in lines[t1_end:]:
+    m = WEIGHT.search(l)
+    if not m or SKIP.match(l):
+        continue
+    field = l[:m.start()]
+    hs, inline = split2(field)         # Table 4 glues name + lay desc before weight
+    if not hs or len(hs) < 3:
+        continue
+=======
 PAGE_ARTIFACT = re.compile(r"\s*\((?:Continues|continued) on next page\)\s*", re.I)
 desc_n = {norm(k): PAGE_ARTIFACT.sub(" ", re.sub(r"\s+"," ",v)).strip() for k,v in desc.items()}
 
@@ -69,6 +90,7 @@ for i, l in enumerate(tail):
         cont = split2(tail[i + 1])[0]
         if cont and not cont.startswith("(") and norm(f"{hs} {cont}") in desc_n:
             hs = f"{hs} {cont}"
+>>>>>>> v4
     n = norm(hs)
     if n in rows:
         continue
