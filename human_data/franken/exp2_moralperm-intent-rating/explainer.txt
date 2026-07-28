@@ -1,7 +1,7 @@
-Causal structure (0 for means, 1 for side effect)
+Causal structure (0 for side effect, 1 for means)
 
-Action (0 for commission, 1 for omission)
+Action (0 for omission, 1 for commission)
 
-Evitability (0 for evitable, 1 for inevitable)
+Evitability (0 for inevitable, 1 for evitable)
 
 ** only mild scenarios are used in this experiment **
