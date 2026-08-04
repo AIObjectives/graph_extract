@@ -83,7 +83,7 @@ def per_scenario_proportion(df, causal_condition, column):
     Returns a Series indexed by SID: proportion of '+' events for this causal_condition (one value per scenario).
     """
     sub = df[df["causal_condition"] == causal_condition]
-    return sub.groupby("SID")[column].apply(lambda s: (s == "+").mean())
+    return sub.groupby("SID")[column].apply(lambda s: (s == 1).mean())
 
 
 def paired_proportion_barplots(df, title_suffix, column, condition_pairs, pair_labels, colors, suptitle):
