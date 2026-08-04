@@ -1,7 +1,7 @@
 input_path: "scenarios_inputs/moral_comp_exp4/"
-input_file: "medication.json"
-commit_hash: "64b4a6cf6437da95ba3941b1abe09d14afca26a9"
+input_file: "ropeladder.json"
+commit_hash: "90d155baf85f37ea0b9f9e7b984573b9f19948f1"
 output_path: "annotated_outputs/moral_comp_exp4/"
-scenario_ids: [1]
+scenario_ids: [7,8,9]
 steps_to_keep: []
 write_qualtrics: true
