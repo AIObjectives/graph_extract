@@ -4,6 +4,9 @@ import src.prompts
 from functools import reduce
 import seaborn as sns
 import matplotlib.pyplot as plt
+from matplotlib import font_manager
+import matplotlib.text as mtext
+import matplotlib.backends.backend_agg as backend_agg
 
 ## FUNCTIONS TO READ IN SCENARIO JSONS
 
@@ -214,6 +217,29 @@ def pretty_label(name: str) -> str:
     return name.replace("_", " ").strip().title()
 
 
+def _ensure_matplotlib_fonts_available():
+    """Rebuild font cache if it was written with an empty TTF list."""
+    try:
+        module_manager = getattr(font_manager, "fontManager", None)
+        if module_manager is None or len(getattr(module_manager, "ttflist", [])) == 0:
+            fresh_manager = font_manager._load_fontmanager(try_read_cache=False)
+        else:
+            fresh_manager = module_manager
+
+        # Keep all matplotlib module references pointing to the same manager.
+        font_manager.fontManager = fresh_manager
+        font_manager.findfont = fresh_manager.findfont
+        if hasattr(fresh_manager, "get_font_names"):
+            font_manager.get_font_names = fresh_manager.get_font_names
+        if hasattr(mtext, "fontManager"):
+            mtext.fontManager = fresh_manager
+        if hasattr(backend_agg, "_fontManager"):
+            backend_agg._fontManager = fresh_manager
+    except Exception:
+        # If cache rebuild fails, keep plotting path unchanged and let matplotlib raise.
+        pass
+
+
 def plot_bar_strip(
     df,
     x,
@@ -223,6 +249,8 @@ def plot_bar_strip(
     xlabel=None,
     ylabel=None,
 ):
+    # _ensure_matplotlib_fonts_available()
+
     # Basic validation
     for col in [x, y] + ([hue] if hue is not None else []):
         if col not in df.columns:
@@ -230,66 +258,99 @@ def plot_bar_strip(
 
     plot_df = df.copy()
     plot_df[y] = pd.to_numeric(plot_df[y], errors="coerce")
+    plot_df[y] = plot_df[y].replace([float("inf"), float("-inf")], pd.NA)
     plot_df = plot_df.dropna(subset=[x, y] + ([hue] if hue is not None else []))
+    palette = sns.color_palette("hls", n_colors=plot_df[hue].nunique()) if hue else None
 
-    palette=sns.color_palette("hls",2)
+                        
 
-    plt.figure(figsize=(10,6))
+    fig, ax = plt.subplots(figsize=(10, 6))
     sns.set_context("notebook", font_scale=1.5, rc={"lines.linewidth": 2.2})
 
-    # Bar layer
-    sns.barplot(
-        data=plot_df,
-        x=x,
-        y=y,
-        hue=hue,
-        errorbar = 'se',
-        capsize=.2,
-        alpha=1,
-        width=.75,
-        edgecolor="black",
-        palette=palette
-    )
 
-    # Point layer
-    sns.stripplot(
-        data=plot_df,
-        x=x,
-        y=y,
-        hue=hue,
-        # dodge='auto',
-        jitter=True,
-        size=10,
-        edgecolor="black",
-        linewidth=1,
-        alpha=0.75,
-        palette=palette
-    )
+    bar_kws = dict(data=plot_df, x=x, y=y, errorbar="se", capsize=.2, alpha=1, width=.75, edgecolor="black", ax=ax)
+    strip_kws = dict(data=plot_df, x=x, y=y, jitter=True, size=10, edgecolor="black", linewidth=1, alpha=0.75, ax=ax)
 
-    # Labels
-    if title is None:
-        title = f"{pretty_label(y)} by {pretty_label(x)}"
-    if xlabel is None:
-        xlabel = pretty_label(x)
-    if ylabel is None:
-        ylabel = pretty_label(y)
-
-    plt.title(title)
-    plt.xlabel(xlabel)
-    plt.ylabel(ylabel)
-
-    # Clean duplicate legend from overlaid plots
     if hue is not None:
-        handles, labels = plt.gca().get_legend_handles_labels()
+        bar_kws.update(hue=hue, palette=palette)
+        strip_kws.update(hue=hue, palette=palette, dodge=True)
+
+    sns.barplot(**bar_kws)
+    sns.stripplot(**strip_kws)
+
+    ax.set_title(title or f"{pretty_label(y)} by {pretty_label(x)}")
+    ax.set_xlabel(xlabel or pretty_label(x))
+    ax.set_ylabel(ylabel or pretty_label(y))
+
+    if hue is not None:
+        handles, labels = ax.get_legend_handles_labels()
         by_label = dict(zip(labels, handles))
-        plt.legend(by_label.values(), by_label.keys(), title=pretty_label(hue))
+        ax.legend(by_label.values(), by_label.keys(), title=pretty_label(hue))
     else:
-        leg = plt.gca().get_legend()
-        if leg is not None:
+        leg = ax.get_legend()
+        if leg:
             leg.remove()
 
-    plt.tight_layout()
+    try:
+        fig.tight_layout()
+    except ValueError:
+        # If a backend/font issue still slips through, show the figure without layout adjustment.
+        pass
     plt.show()
+
+    # # Bar layer
+    # sns.barplot(
+    #     data=plot_df,
+    #     x=x,
+    #     y=y,
+    #     hue=hue,
+    #     errorbar = 'se',
+    #     capsize=.2,
+    #     alpha=1,
+    #     width=.75,
+    #     edgecolor="black",
+    #     palette=palette
+    # )
+
+    # # Point layer
+    # sns.stripplot(
+    #     data=plot_df,
+    #     x=x,
+    #     y=y,
+    #     hue=hue,
+    #     # dodge='auto',
+    #     jitter=True,
+    #     size=10,
+    #     edgecolor="black",
+    #     linewidth=1,
+    #     alpha=0.75,
+    #     palette=palette
+    # )
+
+    # # Labels
+    # if title is None:
+    #     title = f"{pretty_label(y)} by {pretty_label(x)}"
+    # if xlabel is None:
+    #     xlabel = pretty_label(x)
+    # if ylabel is None:
+    #     ylabel = pretty_label(y)
+
+    # plt.title(title)
+    # plt.xlabel(xlabel)
+    # plt.ylabel(ylabel)
+
+    # # Clean duplicate legend from overlaid plots
+    # if hue is not None:
+    #     handles, labels = plt.gca().get_legend_handles_labels()
+    #     by_label = dict(zip(labels, handles))
+    #     plt.legend(by_label.values(), by_label.keys(), title=pretty_label(hue))
+    # else:
+    #     leg = plt.gca().get_legend()
+    #     if leg is not None:
+    #         leg.remove()
+
+    # plt.tight_layout()
+    # plt.show()
 
 ## DEPRECATED ARCHIVE
 #below could be improved by having named fields for utility and C/I/K instead of relying on order in the list, but this is fine for now since we are consistent in how we generate the annotations
