@@ -1,7 +1,0 @@
-{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "prevent my colleague's graffiti removal project."}, {"link": {"kind": "b_link", "value": "C-I-K+"}, "to_node": "Street murals with artistic value are covered up"}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "Unpleasant graffiti is not removed by my colleague's project"}]}
-{"node": {"kind": "being", "label": "my colleague"}, "links": []}
-{"node": {"kind": "action_choice", "label": "prevent my colleague's graffiti removal project."}, "links": [{"link": {"kind": "v-link", "value": "-49.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "Street murals with artistic value are covered up"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "Unpleasant graffiti is not removed by my colleague's project"}]}
-{"node": {"kind": "value", "label": "value"}, "links": []}
-{"node": {"kind": "event", "label": "Street murals with artistic value are covered up"}, "links": [{"link": {"kind": "utility", "value": "0"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "0"}, "to_node": "my colleague"}]}
-{"node": {"kind": "event", "label": "Unpleasant graffiti is not removed by my colleague's project"}, "links": [{"link": {"kind": "utility", "value": "0"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-70"}, "to_node": "my colleague"}]}
-{"version": "bfc528f045905d4e77fdf00667f1be18ca0ca6d0"}
