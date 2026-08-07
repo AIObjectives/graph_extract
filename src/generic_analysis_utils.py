@@ -1,5 +1,5 @@
 import pandas as pd
-import json    
+import json
 import src.prompts
 from functools import reduce
 import seaborn as sns
@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 from matplotlib import font_manager
 import matplotlib.text as mtext
 import matplotlib.backends.backend_agg as backend_agg
+from scipy.stats import ttest_ind
 
 ## FUNCTIONS TO READ IN SCENARIO JSONS
 
@@ -217,6 +218,14 @@ def pretty_label(name: str) -> str:
     return name.replace("_", " ").strip().title()
 
 
+def _sig_stars(p):
+    """Turns a p-value into significance stars ("***" / "**" / "*" / "ns")."""
+    if p < 0.001: return "***"
+    if p < 0.01:  return "**"
+    if p < 0.05:  return "*"
+    return "ns"
+
+
 def _ensure_matplotlib_fonts_available():
     """Rebuild font cache if it was written with an empty TTF list."""
     try:
@@ -248,8 +257,21 @@ def plot_bar_strip(
     title=None,
     xlabel=None,
     ylabel=None,
+    annotate_pairwise_sig=False,
 ):
+    """
+    annotate_pairwise_sig: if True, draws a significance bracket (unpaired t-test, "***"/"**"/"*"/"ns").
+    With `hue` set (must have exactly 2 levels), draws one bracket per x-position, over that
+    x-group's two hue-bars. With `hue=None`, `x` itself must have exactly 2 levels, and one bracket
+    is drawn directly over the two x-bars.
+    """
     # _ensure_matplotlib_fonts_available()
+
+    if annotate_pairwise_sig:
+        if hue is not None and df[hue].nunique() != 2:
+            raise ValueError("annotate_pairwise_sig with `hue` set requires it to have exactly 2 levels.")
+        if hue is None and df[x].nunique() != 2:
+            raise ValueError("annotate_pairwise_sig without `hue` requires `x` to have exactly 2 levels.")
 
     # Basic validation
     for col in [x, y] + ([hue] if hue is not None else []):
@@ -285,11 +307,48 @@ def plot_bar_strip(
     if hue is not None:
         handles, labels = ax.get_legend_handles_labels()
         by_label = dict(zip(labels, handles))
-        ax.legend(by_label.values(), by_label.keys(), title=pretty_label(hue))
+        if annotate_pairwise_sig:
+            # placed outside the axes -- a bracket can land anywhere depending on the data, and
+            # matplotlib's legend(loc="best") doesn't avoid the Text labels we draw for it anyway
+            ax.legend(by_label.values(), by_label.keys(), title=pretty_label(hue), bbox_to_anchor=(1.02, 1), loc="upper left", borderaxespad=0)
+        else:
+            ax.legend(by_label.values(), by_label.keys(), title=pretty_label(hue))
     else:
         leg = ax.get_legend()
         if leg:
             leg.remove()
+
+    if annotate_pairwise_sig:
+        x_categories = [tick.get_text() for tick in ax.get_xticklabels()]
+        y0, y1 = ax.get_ylim()
+        pad = 0.06 * (y1 - y0)
+        bracket_tops = []
+
+        def _draw_bracket(x_a, x_b, x_text, group_a, group_b):
+            if len(group_a) < 2 or len(group_b) < 2:
+                return
+            _, p_val = ttest_ind(group_a, group_b)
+            y_top = max(group_a.max(), group_b.max()) + pad
+            ax.plot([x_a, x_a, x_b, x_b], [y_top, y_top + pad * 0.35, y_top + pad * 0.35, y_top], lw=1.2, c="black")
+            ax.text(x_text, y_top + pad * 0.45, _sig_stars(p_val), ha="center", va="bottom", fontsize=13)
+            bracket_tops.append(y_top + pad * 0.8)
+
+        if hue is not None:
+            # one bracket per x-position, comparing that x-group's two hue-bars
+            hue_a, hue_b = plot_df[hue].unique()
+            hue_offset = 0.75 / 2 / 2  # bar_kws width=.75, split across the 2 hue levels
+            for i, x_val in enumerate(x_categories):
+                sub = plot_df[plot_df[x].astype(str) == x_val]
+                _draw_bracket(i - hue_offset, i + hue_offset, i, sub[sub[hue] == hue_a][y], sub[sub[hue] == hue_b][y])
+        else:
+            # no hue -- a single bracket directly over the two x-bars
+            x_a_label, x_b_label = x_categories
+            group_a = plot_df[plot_df[x].astype(str) == x_a_label][y]
+            group_b = plot_df[plot_df[x].astype(str) == x_b_label][y]
+            _draw_bracket(0, 1, 0.5, group_a, group_b)
+
+        if bracket_tops and max(bracket_tops) > y1:
+            ax.set_ylim(y0, max(bracket_tops) + pad * 0.3)
 
     try:
         fig.tight_layout()
@@ -298,59 +357,6 @@ def plot_bar_strip(
         pass
     plt.show()
 
-    # # Bar layer
-    # sns.barplot(
-    #     data=plot_df,
-    #     x=x,
-    #     y=y,
-    #     hue=hue,
-    #     errorbar = 'se',
-    #     capsize=.2,
-    #     alpha=1,
-    #     width=.75,
-    #     edgecolor="black",
-    #     palette=palette
-    # )
-
-    # # Point layer
-    # sns.stripplot(
-    #     data=plot_df,
-    #     x=x,
-    #     y=y,
-    #     hue=hue,
-    #     # dodge='auto',
-    #     jitter=True,
-    #     size=10,
-    #     edgecolor="black",
-    #     linewidth=1,
-    #     alpha=0.75,
-    #     palette=palette
-    # )
-
-    # # Labels
-    # if title is None:
-    #     title = f"{pretty_label(y)} by {pretty_label(x)}"
-    # if xlabel is None:
-    #     xlabel = pretty_label(x)
-    # if ylabel is None:
-    #     ylabel = pretty_label(y)
-
-    # plt.title(title)
-    # plt.xlabel(xlabel)
-    # plt.ylabel(ylabel)
-
-    # # Clean duplicate legend from overlaid plots
-    # if hue is not None:
-    #     handles, labels = plt.gca().get_legend_handles_labels()
-    #     by_label = dict(zip(labels, handles))
-    #     plt.legend(by_label.values(), by_label.keys(), title=pretty_label(hue))
-    # else:
-    #     leg = plt.gca().get_legend()
-    #     if leg is not None:
-    #         leg.remove()
-
-    # plt.tight_layout()
-    # plt.show()
 
 ## DEPRECATED ARCHIVE
 #below could be improved by having named fields for utility and C/I/K instead of relying on order in the list, but this is fine for now since we are consistent in how we generate the annotations
