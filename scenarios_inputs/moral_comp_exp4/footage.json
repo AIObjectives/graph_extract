@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "scenario_title": "Footage",
+    "deontology_level": 1,
+    "utility_level": 3,
+    "text": "I work as a receptionist in a five-star hotel in Manhattan. My duties include checking in guests, answering calls, as well as monitoring the lobby and elevator security cameras. On a slow night, I was staring at the camera livestreams on the computer and saw a well-known celebrity couple enter. Everything seemed normal until the couple got in a heated argument, leading to a physical altercation, where one party was overpowered by the other. When they got to the ground floor, the victim walked out of the elevator with a broken arm and a black eye, and both parties immediately went their separate ways. Our hotel prides itself on privacy and security, which is why many renowned people stay here. The hotel recording policy strictly forbids employees from sharing any recordings for any reason. If I leak the footage online, the altercation will be reported and the perpetrator will be punished. If I do not do this, the altercation will go unreported and the perpetrator unpunished.",
+    "options": {
+      "1": "leak the footage online",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 2,
+    "scenario_title": "Footage",
+    "deontology_level": 2,
+    "utility_level": 3,
+    "text": "I work as a receptionist in a five-star hotel in Manhattan. My duties include checking in guests, answering calls, as well as monitoring the lobby and elevator security cameras. On a slow night, I was staring at the camera livestreams on the computer and saw a well-known celebrity couple enter. Everything seemed normal until the couple got in a heated argument, leading to a physical altercation, where one party was overpowered by the other. When they got to the ground floor, the victim walked out of the elevator with a broken arm and a black eye, and both parties immediately went their separate ways. Our hotel prides itself on privacy and security, which is why many renowned people stay here. The hotel recording policy strictly forbids employees from sharing any recordings for any reason. If I leak the footage to the police, the altercation will be reported and the perpetrator will be punished. If I do not do this, the altercation will go unreported and the perpetrator unpunished.",
+    "options": {
+      "1": "leak the footage to the police",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 3,
+    "scenario_title": "Footage",
+    "deontology_level": 3,
+    "utility_level": 3,
+    "text": "I work as a receptionist in a five-star hotel in Manhattan. My duties include checking in guests, answering calls, as well as monitoring the lobby and elevator security cameras. On a slow night, I was staring at the camera livestreams on the computer and saw a well-known celebrity couple enter. Everything seemed normal until the couple got in a heated argument, leading to a physical altercation, where one party was overpowered by the other. When they got to the ground floor, the victim walked out of the elevator with a broken arm and a black eye, and both parties immediately went their separate ways. Our hotel prides itself on privacy and security, which is why many renowned people stay here. The hotel recording policy strictly forbids employees from sharing any recordings for any reason. If I leak the footage to my supervisor, the altercation will be reported and the perpetrator will be punished. If I do not do this, the altercation will go unreported and the perpetrator unpunished.",
+    "options": {
+      "1": "leak the footage to my supervisor",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 4,
+    "scenario_title": "Footage",
+    "deontology_level": 1,
+    "utility_level": 2,
+    "text": "I work as a receptionist in a five-star hotel in Manhattan. My duties include checking in guests, answering calls, as well as monitoring the lobby and elevator security cameras. On a slow night, I was staring at the camera livestreams on the computer and saw a well-known celebrity couple enter. Everything seemed normal until the couple got in a heated argument, leading to a physical altercation, where one party was overpowered by the other. When they got to the ground floor, the victim walked out of the elevator with a bruise on their arm, and both parties immediately went their separate ways. Our hotel prides itself on privacy and security, which is why many renowned people stay here. The hotel recording policy strictly forbids employees from sharing any recordings for any reason. If I leak the footage online, the altercation will be reported and the perpetrator will be punished. If I do not do this, the altercation will go unreported and the perpetrator unpunished.",
+    "options": {
+      "1": "leak the footage online",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 5,
+    "scenario_title": "Footage",
+    "deontology_level": 2,
+    "utility_level": 2,
+    "text": "I work as a receptionist in a five-star hotel in Manhattan. My duties include checking in guests, answering calls, as well as monitoring the lobby and elevator security cameras. On a slow night, I was staring at the camera livestreams on the computer and saw a well-known celebrity couple enter. Everything seemed normal until the couple got in a heated argument, leading to a physical altercation, where one party was overpowered by the other. When they got to the ground floor, the victim walked out of the elevator with a bruise on their arm, and both parties immediately went their separate ways. Our hotel prides itself on privacy and security, which is why many renowned people stay here. The hotel recording policy strictly forbids employees from sharing any recordings for any reason. If I leak the footage to the police, the altercation will be reported and the perpetrator will be punished. If I do not do this, the altercation will go unreported and the perpetrator unpunished.",
+    "options": {
+      "1": "leak the footage to the police",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 6,
+    "scenario_title": "Footage",
+    "deontology_level": 3,
+    "utility_level": 2,
+    "text": "I work as a receptionist in a five-star hotel in Manhattan. My duties include checking in guests, answering calls, as well as monitoring the lobby and elevator security cameras. On a slow night, I was staring at the camera livestreams on the computer and saw a well-known celebrity couple enter. Everything seemed normal until the couple got in a heated argument, leading to a physical altercation, where one party was overpowered by the other. When they got to the ground floor, the victim walked out of the elevator with a bruise on their arm, and both parties immediately went their separate ways. Our hotel prides itself on privacy and security, which is why many renowned people stay here. The hotel recording policy strictly forbids employees from sharing any recordings for any reason. If I leak the footage to my supervisor, the altercation will be reported and the perpetrator will be punished. If I do not do this, the altercation will go unreported and the perpetrator unpunished.",
+    "options": {
+      "1": "leak the footage to my supervisor",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 7,
+    "scenario_title": "Footage",
+    "deontology_level": 1,
+    "utility_level": 1,
+    "text": "I work as a receptionist in a five-star hotel in Manhattan. My duties include checking in guests, answering calls, as well as monitoring the lobby and elevator security cameras. On a slow night, I was staring at the camera livestreams on the computer and saw a well-known celebrity couple enter. Everything seemed normal until the couple got in a heated argument, leading to a physical altercation, where one party was overpowered by the other. When they got to the ground floor, the victim walked out of the elevator looking shaken but unharmed, and both parties immediately went their separate ways. Our hotel prides itself on privacy and security, which is why many renowned people stay here. The hotel recording policy strictly forbids employees from sharing any recordings for any reason. If I leak the footage online, the altercation will be reported and the perpetrator will be punished. If I do not do this, the altercation will go unreported and the perpetrator unpunished.",
+    "options": {
+      "1": "leak the footage online",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 8,
+    "scenario_title": "Footage",
+    "deontology_level": 2,
+    "utility_level": 1,
+    "text": "I work as a receptionist in a five-star hotel in Manhattan. My duties include checking in guests, answering calls, as well as monitoring the lobby and elevator security cameras. On a slow night, I was staring at the camera livestreams on the computer and saw a well-known celebrity couple enter. Everything seemed normal until the couple got in a heated argument, leading to a physical altercation, where one party was overpowered by the other. When they got to the ground floor, the victim walked out of the elevator looking shaken but unharmed, and both parties immediately went their separate ways. Our hotel prides itself on privacy and security, which is why many renowned people stay here. The hotel recording policy strictly forbids employees from sharing any recordings for any reason. If I leak the footage to the police, the altercation will be reported and the perpetrator will be punished. If I do not do this, the altercation will go unreported and the perpetrator unpunished.",
+    "options": {
+      "1": "leak the footage to the police",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 9,
+    "scenario_title": "Footage",
+    "deontology_level": 3,
+    "utility_level": 1,
+    "text": "I work as a receptionist in a five-star hotel in Manhattan. My duties include checking in guests, answering calls, as well as monitoring the lobby and elevator security cameras. On a slow night, I was staring at the camera livestreams on the computer and saw a well-known celebrity couple enter. Everything seemed normal until the couple got in a heated argument, leading to a physical altercation, where one party was overpowered by the other. When they got to the ground floor, the victim walked out of the elevator looking shaken but unharmed, and both parties immediately went their separate ways. Our hotel prides itself on privacy and security, which is why many renowned people stay here. The hotel recording policy strictly forbids employees from sharing any recordings for any reason. If I leak the footage to my supervisor, the altercation will be reported and the perpetrator will be punished. If I do not do this, the altercation will go unreported and the perpetrator unpunished.",
+    "options": {
+      "1": "leak the footage to my supervisor",
+      "2": "do nothing"
+    }
+  }
+]
