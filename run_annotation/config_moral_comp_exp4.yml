@@ -1,7 +1,7 @@
 input_path: "scenarios_inputs/moral_comp_exp4/"
-input_file: "ropeladder.json"
+input_file: "servicedog.json"
 commit_hash: "90d155baf85f37ea0b9f9e7b984573b9f19948f1"
 output_path: "annotated_outputs/moral_comp_exp4/"
-scenario_ids: [7,8,9]
+scenario_ids: [1,2,3,4,5,6,7,8,9]
 steps_to_keep: []
 write_qualtrics: true
