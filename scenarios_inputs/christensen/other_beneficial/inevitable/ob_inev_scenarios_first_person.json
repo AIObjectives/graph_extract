@@ -1,0 +1,146 @@
+[
+  {
+    "id": 0,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am the leader of a small group of soldiers. I am on my way back from a mission in enemy territory when one of my men steps in a trap that catches his leg, injuring him badly. I cannot free him without killing him, but if I leave him behind, enemy troops will torture him until he reveals the position of an important allied base camp. After that the soldiers will attack this camp and kill the 10 soldiers of the platoon there. The soldier begs me not to leave him behind, but the enemy troops are approaching and it is dangerous for me and my men to stay because I don’t have any more ammunition. If I stab the soldier myself I will impede that he’ll be tortured and reveal the information which leads to the death of the allied platoon. This will kill him, but I will save the ten soldiers of the platoon.",
+    "options": {
+      "1": "impede that the trapped soldier will be tortured by stabbing him to death",
+      "2": null
+    }
+  },
+  {
+    "id": 1,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am the leader of a small group of soldiers. I am on my way back from a mission in enemy territory when one of my men steps in a trap that catches his leg, injuring him badly. I cannot free him without killing him, but if I leave him behind, enemy troops will torture him until he reveals the position of an important allied base camp. After that the soldiers will attack this camp and kill the 10 soldiers of the platoon there. The soldier begs me not to leave him behind, but the enemy troops are approaching and it is dangerous for me and my men to stay because I don’t have more ammunition. If I signalize the position of the trapped soldier with an illumination rocket, the region will be bombed. Thus, I will avoid that the soldier is tortured and reveals the information which will lead to the death of the allied troop. This will kill him, but I will save the ten soldiers of the allied platoon.",
+    "options": {
+      "1": "impede that the trapped soldier is tortured by ordering the bombing of that region",
+      "2": null
+    }
+  },
+  {
+    "id": 2,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am on the night watch in a hospital. A chemical product has been spilled in a room with six patients. This chemical is highly toxic because once exposed to oxygen it evaporates and transforms into a poisonous gas which will kill all the patients in the room. I cannot wipe it away with conventional towels or wiping clothes. However, human skin absorbs it swiftly. If I place one of the patients on the chemical I will prevent it from evaporating. This will kill this patient but I will save the other five patients in the room.",
+    "options": {
+      "1": "prevent the toxic evaporation placing one of the patients on the chemical",
+      "2": null
+    }
+  },
+  {
+    "id": 3,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "I am on the night watch in a hospital. A chemical product has been spilled in a room with five patients. This chemical is highly toxic because once exposed to oxygen it evaporates and transforms into a poisonous gas which will kill all the patients in the room. I cannot wipe it away with conventional towels or wiping clothes. If I activate the ventilation system the poisonous gas will be taken out of the room. However, it will be transferred into a room upstairs with one patient, whom I won’t be able to evacuate in time. This will kill this patient, but I will save the other five.",
+    "options": {
+      "1": "divert the gas out of the room by activating the ventilation system",
+      "2": null
+    }
+  },
+  {
+    "id": 4,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am on a rowboat with a tour guide on a lake in Alaska. Nearby, three children have fallen off their boat and are in danger of freezing to death. I rescue the children, but one of them is very heavy and I realize that if I keep him on board my boat will sink and all will die. Neither I nor the guide can leave the boat because I am rowing and the guide is giving CPR to one of the children. If I throw the heavy child off the boat I will be able to reach the shore. This will kill this child, but I will save the other two.",
+    "options": {
+      "1": "get rid of load by throwing that one child overboard",
+      "2": null
+    }
+  },
+  {
+    "id": 5,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "I am on a rowboat with a tour guide on a lake in Alaska. Nearby, three children have fallen off their boat and are in danger of freezing to death.  After I rescue two of the children, I realize that the weight of the third child would cause my boat to sink and all would die. Neither I nor the guide can leave the boat because I am rowing and the guide is giving CPR to one of the children. If I row to the shore leaving the third child behind in the water, I will prevent my boat from sinking. This will kill the child left behind, but I will save the other two.",
+    "options": {
+      "1": "prevent your boat from sinking by leaving the third child behind",
+      "2": null
+    }
+  },
+  {
+    "id": 6,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am a miner. The only way out of the mine is to ride up with a simple cable elevator with small cubicles. It is the end of my shift and everybody is riding up to the surface in the cubicles. While I am in the queue, I see that the cable supporting all the cubicles is about to snap. 10 miners are riding in the cubicles at this time. If I knock over the last cubicle, the miner inside will fall down. In this way, I will reduce the load enough for the cable to resist breaking, and bring the other 10 miners to the exit. This will kill the miner in the cubicle I knock over, but I will save the other 10.",
+    "options": {
+      "1": "reduce weight by knocking over the cubicle with only one miner",
+      "2": null
+    }
+  },
+  {
+    "id": 7,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am a miner. The only way out of the mine is to ride up with a simple cable elevator with small cubicles. It is the end of my turn and everybody is riding up to the surface in the cubicles. While I am in the queue, I see that the cable supporting all the cubicles is about to snap. 10 miners are riding the cubicles at this time. If I push an emergency switch the last cubicle will be detached from the cable.  This will reduce enough weight to maintain the cubicles of the other 10 miners. This will kill the miner in the detached cubicle, but it will save the other ten.",
+    "options": {
+      "1": "reduce weight by pushing the emergency switch which detaches the last cubicle",
+      "2": null
+    }
+  },
+  {
+    "id": 8,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "side_effect",
+    "text": "I am an electrician hired to fix an electrical problem in the home of a very wealthy tycoon who is terminally ill of cancer. Recently, it has been announced that upon his death, his enormous fortune will be donated to the local children’s hospital. I know that there are 109 children at this hospital who could be saved with this money, but who cannot wait much longer before they die. If I suffocate the tycoon while he is sleeping by covering his nose and mouth with my gloved hands, this essential donation for the children will arrive in time. This will kill the tycoon, but I will save the lives of 109 children.",
+    "options": {
+      "1": "speed the donation by suffocating this man",
+      "2": null
+    }
+  },
+  {
+    "id": 9,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am an electrician hired to fix an electrical problem in the home of a very wealthy tycoon who is terminally ill of cancer. Recently, it has been announced that upon his death, his enormous fortune will be donated to the local children’s hospital. I know that there are 112 children at this hospital who could be saved with this money, but who cannot wait much longer before they die. If I short-circuit the cables instead of fixing the problem, the tycoon’s life support equipment will fail and this essential donation for the children will arrive in time. This will kill the tycoon, but I will save the lives of 112 children.",
+    "options": {
+      "1": "anticipate the donation by causing the tycoon’s life support equipment to fail",
+      "2": null
+    }
+  },
+  {
+    "id": 10,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am a military officer during a war. My soldiers have found an important enemy spy trapped and injured in a collapsed building. Over the radio I have been informed that enemy soldiers are planning a surprise attack on a nearby town, but I don’t know which. They will kill thousands of civilians if I and my soldiers do not stop them. The spy knows which town will be attacked. I have questioned him but he doesn’t want to tell me. He won’t survive much longer due to his injuries. If I torture the spy, he will reveal the information about the town. The torture will kill him, but I will save thousands of civilians.",
+    "options": {
+      "1": "make the spy reveal the information by torturing him",
+      "2": null
+    }
+  },
+  {
+    "id": 11,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am a military officer during a war. My soldiers have found an important enemy spy trapped and injured in a collapsed building. Over the radio I have been informed that enemy soldiers are planning a surprise attack on a nearby town, but I don’t know which. They will kill thousands of civilians if I and my soldiers do not stop them. The spy knows which town will be attacked. I have questioned him but he doesn’t want to tell me. He won’t survive much longer due to his injuries. Rats have begun to chew his legs and he is suffering a lot. If I let the rats continue with this torture the spy will reveal the information about the town. The torture will kill him, but I will save thousands of civilians.",
+    "options": {
+      "1": "make the spy reveal the information by letting the rats continue to torture him",
+      "2": null
+    }
+  }
+]
