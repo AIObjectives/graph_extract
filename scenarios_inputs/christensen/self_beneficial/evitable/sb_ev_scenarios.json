@@ -1,0 +1,146 @@
+[
+  {
+    "id": 0,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "You and five other people are trapped in a burning building. There is only one emergency exit through which all of you could escape, but it is blocked by burning debris. Another injured person is about to crawl through a hole at the bottom of the exit door. You and the five people behind you do not have time to do the same. If you use the injured person to break down the debris you will be able to escape. Doing this will certainly kill him, but it will save you and the five people behind you.",
+    "options": {
+      "1": "break down the blockage by using the injured person",
+      "2": null
+    }
+  },
+  {
+    "id": 1,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "You and five other people are trapped in a burning building. There is only one emergency exit through which all of you could escape, but it is blocked by burning debris. Another injured person is about to crawl through a hole at the bottom of the exit door. You and the five people behind you do not have time to do the same. If you activate the emergency system it will eliminate oxygen from the hallway which will put out the fire. However, it will leave the injured person without air. This will kill him, but you and the five people behind you will be saved.",
+    "options": {
+      "1": "put out the fire by activating the emergency system",
+      "2": null
+    }
+  },
+  {
+    "id": 2,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "side_effect",
+    "text": "Enemy soldiers have taken over your village and will kill all civilians above the age of two. You and ten neighbors are hiding in two rooms of the cellar of a large house. You can hear the voices of soldiers who have come to search the house for valuables. Your baby begins to cry loudly. The crying will attract the attention of the soldiers, who will spare your baby’s life, but will kill you and the other refugees in both rooms. If you put your hand over its mouth the crying will be absorbed, but your baby will not be able to breathe. This will kill it, but it will save you and the other ten neighbors.",
+    "options": {
+      "1": "absorb the crying by putting your hand over your baby’s mouth",
+      "2": null
+    }
+  },
+  {
+    "id": 3,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "Enemy soldiers have taken over your village and will kill all civilians above the age of two. You and ten neighbors are hiding in two rooms of the cellar of a large house. You can hear the voices of soldiers who have come to search the house for valuables. Your baby begins to cry loudly. The crying will attract the attention of the soldiers, who will spare your baby’s life, but will kill you and the other refugees in both rooms. If you activate a noisy boiler it will cushion the crying, but it will become uncomfortably hot. The heat will be mortal for your baby, but it will save you and the ten neighbors.",
+    "options": {
+      "1": "cushion the crying by activating the noisy boiler which will asphyxiate the baby",
+      "2": null
+    }
+  },
+  {
+    "id": 4,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "side_effect",
+    "text": "You are a crewmember on a submarine traveling under a large iceberg. An explosion has damaged the ship, injured several crewmembers and collapsed the only access between the upper and lower decks of the ship. You and ten survivors are in the upper section, which does not have enough oxygen for all of you to survive until you reach the surface. One single crewmember is lying unconscious in the lower section, where there is enough oxygen. If you push the emergency access hatch between the upper and lower sections of the ship it will allow oxygen to flow into the upper section. However, the hatch will fall down on the crewmember in the lower section and kill him, but it will save you and the ten survivors.",
+    "options": {
+      "1": "let in the air by opening the hatch",
+      "2": null
+    }
+  },
+  {
+    "id": 5,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "You are a crewmember on a submarine traveling under a large iceberg. An explosion has damaged the ship, injured several crewmembers and collapsed the only access between the upper and lower parts of the ship. You and ten survivors are in the upper section, which does not have enough oxygen for all of you to survive until you reach the surface. One single crewmember is lying unconscious in the lower section, where there is enough oxygen. If you push an emergency button a hatch between the upper and lower sections of the ship will be released and will allow the oxygen to flow into the upper section. However, the hatch will fall on the crewmember in the lower section and kill him, but it will save you and the ten survivors.",
+    "options": {
+      "1": "push the button",
+      "2": null
+    }
+  },
+  {
+    "id": 6,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "You and ten divers are part of an U.N. team who is deactivating anti-ship mines from World War II. One team member has hurt himself and the blood in the water has attracted several sharks. You have an underwater rifle but only one harpoon and there are many sharks. The bleeding diver is swimming towards the last protective cage and will reach it before you and the others. The sharks, following the blood, are coming too close for you and the other divers to escape. If you shoot at the injured diver this will kill him and the sharks will stop to eat him, but you and the ten divers will be saved.",
+    "options": {
+      "1": "let the sharks eat the injured diver by shooting at him",
+      "2": null
+    }
+  },
+  {
+    "id": 7,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "You and ten divers are part of an U.N. team who is deactivating anti-ship mines from World War II. One team member has hurt himself and the blood in the water has attracted several sharks. You have an underwater rifle, but only one harpoon and there are many sharks. The bleeding diver is swimming towards the last protective cage and will reach it before you and the others. The sharks, following the blood, are coming too close for you and the other divers to escape. If you detonate one of the mines by mean of a remote control, it will kill the injured diver and the sharks will stop to eat him. Then, you and the ten divers will be saved.",
+    "options": {
+      "1": "let the sharks eat the injured diver by detonating the mine next to him with a remote control",
+      "2": null
+    }
+  },
+  {
+    "id": 8,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "You work in an orphanage in a war swept country that hosts ten orphans. Rebel soldiers have taken over the government and are now killing everyone who does not support their regime. Moreover, they are conducting an ‘ethnic cleansing’ genocide campaign to kill everyone of a particular ethnic group. You and the eleven children of the orphanage did not support the rebellion and you also have one child of this ethnic group in your orphanage. There is no way for you and the other children to escape and the soldiers will certainly kill you all. If you smother the child of the pursued ethnic group to death with a pillow while he is sleeping, the soldiers will believe that you support their regime. This will kill the child, but it will save you and the remaining ten children.",
+    "options": {
+      "1": "make the soldiers believe you are supporting their regime by smothering that one child",
+      "2": null
+    }
+  },
+  {
+    "id": 9,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "You work in an orphanage in a war swept country that hosts ten orphans. Rebel soldiers have taken over the government and are now killing everyone who does not support their regime. Moreover, they are conducting an ‘ethnic cleansing’ genocide campaign to kill everyone of a particular ethnic group. You and the eleven children of the orphanage did not support the rebellion and you also have one child of this ethnic group in your orphanage. There is no way for you and the other children to escape and the soldiers will certainly kill you all. If you order a nurse to give the child of the pursued ethnic group a lethal overdose of sleeping pills, the soldiers will believe that you support their regime. This will kill the child, but it will save you and the remaining ten children.",
+    "options": {
+      "1": "make the soldiers believe you are supporting their regime ordering the nurse to give that one child an overdose",
+      "2": null
+    }
+  },
+  {
+    "id": 10,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "You are a Peace Corps health-worker who is volunteering in a rural African village. A man from a nearby village has been infected with the Ebola virus that is extremely contagious, incurable, and almost always deadly. Unexpectedly, this man is still alive which means he must be immune to the virus’ deadly consequences. However, he wrongly believes that your health center can cure his disease completely. You see him approaching and you know that if he enters the village he will pass the virus to 119 innocent people who, unlike him, will die. If you shoot him with the gun of the health center you will prevent him from spreading the virus to you and the rest of the village. This will kill him, but it will save you and the 119 inhabitants of the village.",
+    "options": {
+      "1": "prevent the man from entering the village by shooting him",
+      "2": null
+    }
+  },
+  {
+    "id": 11,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "You are a Peace Corps health-worker who is volunteering in a rural African village. A man from a nearby village has been infected with the Ebola virus that is extremely contagious, incurable, and almost always deadly. Unexpectedly, this man is still alive, which means he must be immune to the virus’ deadly consequences. However, he wrongly believes that your health center can cure his disease completely. You see him approaching and you know that if he enters the village he will pass the virus to 119 innocent people who, unlike him, will die. If you warn the village council they will shoot him to prevent him from spreading the virus to you and the rest of the village. This will kill him, but it will save you and the 119 inhabitants of the village.",
+    "options": {
+      "1": "prevent the man from entering into the village by warning the village council so that they shoot him",
+      "2": null
+    }
+  }
+]
