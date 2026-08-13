@@ -2,6 +2,6 @@ input_path: "scenarios_inputs/nie/"
 input_file: "nie_scenarios.json"
 commit_hash: "90d155baf85f37ea0b9f9e7b984573b9f19948f1"
 output_path: "annotated_outputs/nie/"
-scenario_ids: [10,11,12,13,14,15,16,17,18,19]  # 62 total
+scenario_ids: [20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61]  # 62 total
 steps_to_keep: ['beings', 'action_value', 'outcomes']
 write_qualtrics: False
