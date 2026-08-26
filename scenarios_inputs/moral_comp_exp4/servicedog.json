@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "scenario_title": "Servicedog",
+    "deontology_level": 1,
+    "utility_level": 3,
+    "text": "I live in NYC and have a dog who has developed life-threatening cancer, and I must take him regularly to the hospital for treatment. The problem is I have no car, and the hospital is very far away. The trains that run there have no-dog policies or restrict the size of the dog significantly. My dog is an eighty-pound golden retriever mutt, so he is too big for the train's size policy. The thought occurred to me to steal another owner's service dog ID card to make my dog appear to be a service dog. And if anyone asks, I can say he is a seizure-response dog. That way, I can get on the train with him and have a reason for why he’s with me. My dog is well-behaved and has the look of a service dog, so I think I can get away with it. If I do this, then he can get life-saving treatment. If I don’t, there won’t be any other way for him to get treatment, and he will die.",
+    "options": {
+      "1": "steal another owner's service dog ID card to make my dog appear to be a service dog",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 2,
+    "scenario_title": "Servicedog",
+    "deontology_level": 2,
+    "utility_level": 3,
+    "text": "I live in NYC and have a dog who has developed life-threatening cancer, and I must take him regularly to the hospital for treatment. The problem is I have no car, and the hospital is very far away. The trains that run there have no-dog policies or restrict the size of the dog significantly. My dog is an eighty-pound golden retriever mutt, so he is too big for the train's size policy. The thought occurred to me to make a counterfeit service dog ID to pretend that my dog is a service dog. And if anyone asks, I can say he is a seizure-response dog. That way, I can get on the train with him and have a reason for why he’s with me. My dog is well-behaved and has the look of a service dog, so I think I can get away with it. If I do this, then he can get life-saving treatment. If I don’t, there won’t be any other way for him to get treatment, and he will die.",
+    "options": {
+      "1": "make a counterfeit service dog ID to pretend that my dog is a service dog",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 3,
+    "scenario_title": "Servicedog",
+    "deontology_level": 3,
+    "utility_level": 3,
+    "text": "I live in NYC and have a dog who has developed life-threatening cancer, and I must take him regularly to the hospital for treatment. The problem is I have no car, and the hospital is very far away. The trains that run there have no-dog policies or restrict the size of the dog significantly. My dog is an eighty-pound golden retriever mutt, so he is too big for the train's size policy. The thought occurred to me to put a service dog vest on my non-service dog to pretend that he is one. And if anyone asks, I can say he is a seizure-response dog. That way, I can get on the train with him and have a reason for why he’s with me. My dog is well-behaved and has the look of a service dog, so I think I can get away with it. If I do this, then he can get life-saving treatment. If I don’t, there won’t be any other way for him to get treatment, and he will die.",
+    "options": {
+      "1": "put a service dog vest on my non-service dog to pretend that he is one",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 4,
+    "scenario_title": "Servicedog",
+    "deontology_level": 1,
+    "utility_level": 2,
+    "text": "I live in NYC and have a dog who suffers from intense allergic reactions, and must take him regularly to the hospital for treatment. The problem is I have no car, and the hospital is very far away. The trains that run there have no-dog policies or restrict the size of the dog significantly. My dog is an eighty-pound golden retriever mutt, so he is too big for the train's size policy. The thought occurred to me to steal another owner's service dog ID card to make my dog appear to be a service dog. And if anyone asks, I can say he is a seizure-response dog. That way, I can get on the train with him and have a reason for why he’s with me. My dog is well-behaved and has the look of a service dog, so I think I can get away with it. If I do this, then he can get relief from his allergic reactions. If I don’t, there won’t be any other way for him to get regular treatment.",
+    "options": {
+      "1": "steal another owner's service dog ID card to make my dog appear to be a service dog",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 5,
+    "scenario_title": "Servicedog",
+    "deontology_level": 2,
+    "utility_level": 2,
+    "text": "I live in NYC and have a dog who suffers from intense allergic reactions, and must take him regularly to the hospital for treatment. The problem is I have no car, and the hospital is very far away. The trains that run there have no-dog policies or restrict the size of the dog significantly. My dog is an eighty-pound golden retriever mutt, so he is too big for the train's size policy. The thought occurred to me to make a counterfeit service dog ID to pretend that my dog is a service dog. And if anyone asks, I can say he is a seizure-response dog. That way, I can get on the train with him and have a reason for why he’s with me. My dog is well-behaved and has the look of a service dog, so I think I can get away with it. If I do this, then he can get relief from his allergic reactions. If I don’t, there won’t be any other way for him to get regular treatment.",
+    "options": {
+      "1": "make a counterfeit service dog ID to pretend that my dog is a service dog",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 6,
+    "scenario_title": "Servicedog",
+    "deontology_level": 3,
+    "utility_level": 2,
+    "text": "I live in NYC and have a dog who suffers from intense allergic reactions, and must take him regularly to the hospital for treatment. The problem is I have no car, and the hospital is very far away. The trains that run there have no-dog policies or restrict the size of the dog significantly. My dog is an eighty-pound golden retriever mutt, so he is too big for the train's size policy. The thought occurred to me to put a service dog vest on my non-service dog to pretend that he is one. And if anyone asks, I can say he is a seizure-response dog. That way, I can get on the train with him and have a reason for why he’s with me. My dog is well-behaved and has the look of a service dog, so I think I can get away with it. If I do this, then he can get relief from his allergic reactions. If I don’t, there won’t be any other way for him to get regular treatment.",
+    "options": {
+      "1": "put a service dog vest on my non-service dog to pretend that he is one",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 7,
+    "scenario_title": "Servicedog",
+    "deontology_level": 1,
+    "utility_level": 1,
+    "text": "I live in NYC and have been wanting to go out for hikes with my dog, who suffers a lot from being cooped up. The problem is I have no car, and there is nowhere to hike nearby. The trains that run from the city to places upstate, where I can hike, have no-dog policies or significantly restrict the size of the dog. My dog is an eighty-pound golden retriever mutt, so he is too big for the train's size policy. The thought occurred to me to steal another owner's service dog ID card to make my dog appear to be a service dog. And if anyone asks, I can say he is a seizure-response dog. That way, I can get on the train with him and have a reason for why he’s with me. My dog is well-behaved and has the look of a service dog, so I think I can get away with it. If I do this, then he can get time outdoors. If I don’t, there won’t be any other way for me to take him hiking.",
+    "options": {
+      "1": "steal another owner's service dog ID card to make my dog appear to be a service dog",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 8,
+    "scenario_title": "Servicedog",
+    "deontology_level": 2,
+    "utility_level": 1,
+    "text": "I live in NYC and have been wanting to go out for hikes with my dog, who suffers a lot from being cooped up. The problem is I have no car, and there is nowhere to hike nearby. The trains that run from the city to places upstate, where I can hike, have no-dog policies or significantly restrict the size of the dog. My dog is an eighty-pound golden retriever mutt, so he is too big for the train's size policy. The thought occurred to me to make a counterfeit service dog ID to pretend that my dog is a service dog. And if anyone asks, I can say he is a seizure-response dog. That way, I can get on the train with him and have a reason for why he’s with me. My dog is well-behaved and has the look of a service dog, so I think I can get away with it. If I do this, then he can get time outdoors. If I don’t, there won’t be any other way for me to take him hiking.",
+    "options": {
+      "1": "make a counterfeit service dog ID to pretend that my dog is a service dog",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 9,
+    "scenario_title": "Servicedog",
+    "deontology_level": 3,
+    "utility_level": 1,
+    "text": "I live in NYC and have been wanting to go out for hikes with my dog, who suffers a lot from being cooped up. The problem is I have no car, and there is nowhere to hike nearby. The trains that run from the city to places upstate, where I can hike, have no-dog policies or significantly restrict the size of the dog. My dog is an eighty-pound golden retriever mutt, so he is too big for the train's size policy. The thought occurred to me to put a service dog vest on my non-service dog to pretend that he is one. And if anyone asks, I can say he is a seizure-response dog. That way, I can get on the train with him and have a reason for why he’s with me. My dog is well-behaved and has the look of a service dog, so I think I can get away with it. If I do this, then he can get time outdoors. If I don’t, there won’t be any other way for me to take him hiking.",
+    "options": {
+      "1": "put a service dog vest on my non-service dog to pretend that he is one",
+      "2": "do nothing"
+    }
+  }
+]
