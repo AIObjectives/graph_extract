@@ -1,0 +1,8 @@
+input_path: "scenarios_inputs/christensen/"
+input_file: "christensen_first_person_all_titled.json"
+# commit_hash: "d635bb0c0b087388183c792f22a64a0dce5d1fb3"
+commit_hash: "4056f86575282fc299b62e7ad09ddb971a61b837"
+output_path: "annotated_outputs/christensen/"
+scenario_ids: [0, 1, 2, 3, 4]
+steps_to_keep: []
+write_qualtrics: true
