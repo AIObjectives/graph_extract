@@ -1,0 +1,146 @@
+[
+  {
+    "id": 0,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am a doctor alone in a rescue helicopter during a devastating flood. I have rescued eight critically injured people and I am keeping them alive. Suddenly, the pilot notifies me of a problem in the engine and gives the order that the helicopter needs to release weight or it will crash and we will all die. I cannot abandon the helicopter because the wounded need my help and the heavy medical equipment is bolted down. If I throw off one of the injured people, I will release enough weight to keep the helicopter in the air. This will kill him, but it will save me and the eight people on board.",
+    "options": {
+      "1": "release weight by throwing one of the injured people off the helicopter",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 1,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am a doctor alone in a rescue helicopter during a devastating flood. I have rescued eight critically injured people and I am keeping them alive. Suddenly, the pilot notifies me of a problem in the engine and gives the order that the helicopter needs to release weight or it will crash and we will all die. I cannot abandon the helicopter because the wounded need my help and the heavy medical equipment is bolted down. If I cut the cable by which the last rescued person is ascending, I will release enough weight to keep the helicopter in the air. This will kill him, but it will save me and the eight people on board.",
+    "options": {
+      "1": "release weight by cutting the cable by which the last person is ascending",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 2,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "side_effect",
+    "text": "I am an engineer on the international space station ISS. Suddenly, a fire breaks out in the cargo bay. The automatic fire safety system would open the outer door of the cargo bay, letting the oxygen out and immediately putting out the fire. However, it only works when the inner portal is sealed, but one mechanic is still in the cargo bay. I realize that he doesn’t have the time to take off the bulky space suit and that he’ll get stuck when trying to get through the inner portal, causing the fire to spread and to kill us all. If I push the mechanic back into the cargo bay, the portal will close activating the emergency system which will put out the fire. This will suck the mechanic into space and kill him, but it will save me and the other ten astronauts.",
+    "options": {
+      "1": "put out the fire by manually sealing the inner portal",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 3,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "I am an engineer on the international space station ISS. Suddenly, a fire breaks out in the cargo bay. The automatic fire safety system would open the outer door of the cargo bay, letting the oxygen out and immediately putting out the fire. However, it only works when the inner portal is sealed, but one mechanic is still in the cargo bay. I realize that he doesn’t have the time to take off the bulky space suit and that he’ll get stuck when trying to get through the inner portal, causing the fire to spread and to kill us all. If I push a button before the mechanic reaches the inner portal, the portal will close activating the emergency system which will put out the fire. This will suck the mechanic into space and kill him, but it will save me and the remaining ten astronauts.",
+    "options": {
+      "1": "put out the fire pushing the button which seals the inner portal",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 4,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am an inspector of a nuclear power plant. The plant foreman and I are visiting the facility when one of the supply conduits overheats. The emergency coolant system fails to activate, and a chain reaction which will result in a nuclear meltdown is about to start. This will release lethal radiation into the nearby town, killing thousands of people. If I push the foreman onto the conduits it will release enough heat to prevent the nuclear chain reaction. This will kill him, but it will save me and the thousands of town inhabitants.",
+    "options": {
+      "1": "cool down the conduits by pushing the foreman down on them",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 5,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "I am an inspector of a nuclear power plant. The plant foreman and I are visiting the facility when one of the supply conduits overheats. The emergency coolant system fails to activate, and a chain reaction which will result in a nuclear meltdown is about to start. This will release lethal radiation into the nearby town, killing thousands of people. If I insert liquid nitrogen manually into the supply chamber it will release enough heat to prevent the nuclear chain reaction. This will kill one employee, who is trapped in the supply chamber, but it will save me and the thousands of town inhabitants.",
+    "options": {
+      "1": "release the heat inserting liquid nitrogen into the supply chamber where the employee is trapped",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 6,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am the explosives expert of a company that has been hired to demolish a skyscraper. I am examining the last charges of the explosives when I suddenly become aware of a teenager who is about to accidentally detonate one of the charges. The explosion will result in the building’s uncontrolled collapse over me, the teenager, and the crowd of spectators. The teenager stands several floors below me and cannot hear me. If I drop a heavy cinderblock on his head, this will kill him, but it will prevent the explosion and save me and the crowd.",
+    "options": {
+      "1": "stop the teenager by dropping the cinderblock on his head",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 7,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am the explosives expert of a company that has been hired to demolish a skyscraper. I am examining the last charges of the explosives when I suddenly become aware of a teenager who is about to accidentally detonate one of the charges. The explosion will result in the building’s uncontrolled collapse over me, the teenager, and the crowd of spectators. The teenager stands several floors below me and cannot hear me. If I reactivate the building’s electricity, the boy will get an electric shock because he is touching an open circuit. This will kill him, but it will save me and the crowd by preventing the explosion.",
+    "options": {
+      "1": "stop the teenager by reactivating the building’s electricity",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 8,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am a construction worker. I and my crew are standing on some scaffolding, working on a skyscraper. Suddenly, the scaffolding collapses partially. I and several others are hanging on to a dangling crossbar, but it cannot hold the weight of all of me. A worker next to me slips off the crossbar and grabs my one free arm. However, I realize that the entire structure is about to give way. If I repeatedly kick my coworker in the stomach and chest until he lets go of my hand and falls, I will remove just enough weight so the rest of us can make it to safety before the scaffolding collapses entirely. This will kill my colleague but it will save me and the others.",
+    "options": {
+      "1": "remove weight by hitting this colleague until he lets go of your arm and falls",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 9,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am a construction worker. I and my crew are standing on some scaffolding, working on a skyscraper. Suddenly, the scaffolding collapses partially. I and several others are hanging on to a dangling crossbar, but it cannot hold the weight of all of me. The worker next to me slips off the crossbar and catches himself on another portion of the scaffolding. The entire structure is about to give way. If I pull out a latch that will detach the section of scaffolding with my co-worker on it, this will remove just enough weight that the rest of us can make it to safety before the scaffolding collapses entirely. This will kill him but save me and the other five coworkers.",
+    "options": {
+      "1": "remove weight by pulling out the latch so your co-worker falls off the crossbar",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 10,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "side_effect",
+    "text": "I am the bus driver of a kindergarten trip to the zoo. On the way, faulty tires cause the bus to plunge off a bridge and into a roaring river. I and three of the children are still in the sinking bus. The rest have already been swept away by the river. I grab the two children next to me and begin to swim towards the exit. The third child latches onto my leg. I feel that I am not strong enough to fight against the current and swim with all three children. If I shake off the third child I will be able to fight against the current, but the child dropped behind will drown. This will kill him, but it will save me and the other two children.",
+    "options": {
+      "1": "fight against the current shaking off the child",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 11,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "I am the bus driver of a kindergarten trip to the zoo. On the way, faulty tires cause the bus to plunge off a bridge and into a roaring river. I and three of the children are still in the sinking bus. The rest have already been swept away by the river. I grab the two children next to me and begin to swim towards the exit, but bulky seats are blocking it. If I pull the seats away I will free the exit, but I will block the corridor and the third child will be trapped, causing him to drown. This will kill him, but it will save me and the other two children.",
+    "options": {
+      "1": "free the exit putting the seats in the corridor",
+      "2": "do nothing"
+    }
+  }
+]

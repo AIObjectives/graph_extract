@@ -1,0 +1,578 @@
+[
+  {
+    "id": 0,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I and five other people are trapped in a burning building. There is only one emergency exit through which all of us could escape, but it is blocked by burning debris. Another injured person is about to crawl through a hole at the bottom of the exit door. I and the five people behind me do not have time to do the same. If I use the injured person to break down the debris I will be able to escape. Doing this will certainly kill him, but it will save me and the five people behind me.",
+    "options": {
+      "1": "break down the blockage by using the injured person",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 1,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "I and five other people are trapped in a burning building. There is only one emergency exit through which all of us could escape, but it is blocked by burning debris. Another injured person is about to crawl through a hole at the bottom of the exit door. I and the five people behind me do not have time to do the same. If I activate the emergency system it will eliminate oxygen from the hallway which will put out the fire. However, it will leave the injured person without air. This will kill him, but I and the five people behind me will be saved.",
+    "options": {
+      "1": "put out the fire by activating the emergency system",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 2,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "side_effect",
+    "text": "Enemy soldiers have taken over my village and will kill all civilians above the age of two. I and ten neighbors are hiding in two rooms of the cellar of a large house. I can hear the voices of soldiers who have come to search the house for valuables. My baby begins to cry loudly. The crying will attract the attention of the soldiers, who will spare my baby’s life, but will kill me and the other refugees in both rooms. If I put my hand over its mouth the crying will be absorbed, but my baby will not be able to breathe. This will kill it, but it will save me and the other ten neighbors.",
+    "options": {
+      "1": "absorb the crying by putting your hand over your baby’s mouth",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 3,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "Enemy soldiers have taken over my village and will kill all civilians above the age of two. I and ten neighbors are hiding in two rooms of the cellar of a large house. I can hear the voices of soldiers who have come to search the house for valuables. My baby begins to cry loudly. The crying will attract the attention of the soldiers, who will spare my baby’s life, but will kill me and the other refugees in both rooms. If I activate a noisy boiler it will cushion the crying, but it will become uncomfortably hot. The heat will be mortal for my baby, but it will save me and the ten neighbors.",
+    "options": {
+      "1": "cushion the crying by activating the noisy boiler which will asphyxiate the baby",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 4,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "side_effect",
+    "text": "I am a crewmember on a submarine traveling under a large iceberg. An explosion has damaged the ship, injured several crewmembers and collapsed the only access between the upper and lower decks of the ship. I and ten survivors are in the upper section, which does not have enough oxygen for all of me to survive until I reach the surface. One single crewmember is lying unconscious in the lower section, where there is enough oxygen. If I push the emergency access hatch between the upper and lower sections of the ship it will allow oxygen to flow into the upper section. However, the hatch will fall down on the crewmember in the lower section and kill him, but it will save me and the ten survivors.",
+    "options": {
+      "1": "let in the air by opening the hatch",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 5,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "I am a crewmember on a submarine traveling under a large iceberg. An explosion has damaged the ship, injured several crewmembers and collapsed the only access between the upper and lower parts of the ship. I and ten survivors are in the upper section, which does not have enough oxygen for all of me to survive until I reach the surface. One single crewmember is lying unconscious in the lower section, where there is enough oxygen. If I push an emergency button a hatch between the upper and lower sections of the ship will be released and will allow the oxygen to flow into the upper section. However, the hatch will fall on the crewmember in the lower section and kill him, but it will save me and the ten survivors.",
+    "options": {
+      "1": "push the button",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 6,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I and ten divers are part of an U.N. team who is deactivating anti-ship mines from World War II. One team member has hurt himself and the blood in the water has attracted several sharks. I have an underwater rifle but only one harpoon and there are many sharks. The bleeding diver is swimming towards the last protective cage and will reach it before me and the others. The sharks, following the blood, are coming too close for me and the other divers to escape. If I shoot at the injured diver this will kill him and the sharks will stop to eat him, but I and the ten divers will be saved.",
+    "options": {
+      "1": "let the sharks eat the injured diver by shooting at him",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 7,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I and ten divers are part of an U.N. team who is deactivating anti-ship mines from World War II. One team member has hurt himself and the blood in the water has attracted several sharks. I have an underwater rifle, but only one harpoon and there are many sharks. The bleeding diver is swimming towards the last protective cage and will reach it before me and the others. The sharks, following the blood, are coming too close for me and the other divers to escape. If I detonate one of the mines by mean of a remote control, it will kill the injured diver and the sharks will stop to eat him. Then, I and the ten divers will be saved.",
+    "options": {
+      "1": "let the sharks eat the injured diver by detonating the mine next to him with a remote control",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 8,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I work in an orphanage in a war swept country that hosts ten orphans. Rebel soldiers have taken over the government and are now killing everyone who does not support their regime. Moreover, they are conducting an ‘ethnic cleansing’ genocide campaign to kill everyone of a particular ethnic group. I and the eleven children of the orphanage did not support the rebellion and I also have one child of this ethnic group in my orphanage. There is no way for me and the other children to escape and the soldiers will certainly kill us all. If I smother the child of the pursued ethnic group to death with a pillow while he is sleeping, the soldiers will believe that I support their regime. This will kill the child, but it will save me and the remaining ten children.",
+    "options": {
+      "1": "make the soldiers believe you are supporting their regime by smothering that one child",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 9,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I work in an orphanage in a war swept country that hosts ten orphans. Rebel soldiers have taken over the government and are now killing everyone who does not support their regime. Moreover, they are conducting an ‘ethnic cleansing’ genocide campaign to kill everyone of a particular ethnic group. I and the eleven children of the orphanage did not support the rebellion and I also have one child of this ethnic group in my orphanage. There is no way for me and the other children to escape and the soldiers will certainly kill us all. If I order a nurse to give the child of the pursued ethnic group a lethal overdose of sleeping pills, the soldiers will believe that I support their regime. This will kill the child, but it will save me and the remaining ten children.",
+    "options": {
+      "1": "make the soldiers believe you are supporting their regime ordering the nurse to give that one child an overdose",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 10,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am a Peace Corps health-worker who is volunteering in a rural African village. A man from a nearby village has been infected with the Ebola virus that is extremely contagious, incurable, and almost always deadly. Unexpectedly, this man is still alive which means he must be immune to the virus’ deadly consequences. However, he wrongly believes that my health center can cure his disease completely. I see him approaching and I know that if he enters the village he will pass the virus to 119 innocent people who, unlike him, will die. If I shoot him with the gun of the health center I will prevent him from spreading the virus to me and the rest of the village. This will kill him, but it will save me and the 119 inhabitants of the village.",
+    "options": {
+      "1": "prevent the man from entering the village by shooting him",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 11,
+    "beneficial_to": "self",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am a Peace Corps health-worker who is volunteering in a rural African village. A man from a nearby village has been infected with the Ebola virus that is extremely contagious, incurable, and almost always deadly. Unexpectedly, this man is still alive, which means he must be immune to the virus’ deadly consequences. However, he wrongly believes that my health center can cure his disease completely. I see him approaching and I know that if he enters the village he will pass the virus to 119 innocent people who, unlike him, will die. If I warn the village council they will shoot him to prevent him from spreading the virus to me and the rest of the village. This will kill him, but it will save me and the 119 inhabitants of the village.",
+    "options": {
+      "1": "prevent the man from entering into the village by warning the village council so that they shoot him",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 12,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am a doctor alone in a rescue helicopter during a devastating flood. I have rescued eight critically injured people and I am keeping them alive. Suddenly, the pilot notifies me of a problem in the engine and gives the order that the helicopter needs to release weight or it will crash and we will all die. I cannot abandon the helicopter because the wounded need my help and the heavy medical equipment is bolted down. If I throw off one of the injured people, I will release enough weight to keep the helicopter in the air. This will kill him, but it will save me and the eight people on board.",
+    "options": {
+      "1": "release weight by throwing one of the injured people off the helicopter",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 13,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am a doctor alone in a rescue helicopter during a devastating flood. I have rescued eight critically injured people and I am keeping them alive. Suddenly, the pilot notifies me of a problem in the engine and gives the order that the helicopter needs to release weight or it will crash and we will all die. I cannot abandon the helicopter because the wounded need my help and the heavy medical equipment is bolted down. If I cut the cable by which the last rescued person is ascending, I will release enough weight to keep the helicopter in the air. This will kill him, but it will save me and the eight people on board.",
+    "options": {
+      "1": "release weight by cutting the cable by which the last person is ascending",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 14,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "side_effect",
+    "text": "I am an engineer on the international space station ISS. Suddenly, a fire breaks out in the cargo bay. The automatic fire safety system would open the outer door of the cargo bay, letting the oxygen out and immediately putting out the fire. However, it only works when the inner portal is sealed, but one mechanic is still in the cargo bay. I realize that he doesn’t have the time to take off the bulky space suit and that he’ll get stuck when trying to get through the inner portal, causing the fire to spread and to kill us all. If I push the mechanic back into the cargo bay, the portal will close activating the emergency system which will put out the fire. This will suck the mechanic into space and kill him, but it will save me and the other ten astronauts.",
+    "options": {
+      "1": "put out the fire by manually sealing the inner portal",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 15,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "I am an engineer on the international space station ISS. Suddenly, a fire breaks out in the cargo bay. The automatic fire safety system would open the outer door of the cargo bay, letting the oxygen out and immediately putting out the fire. However, it only works when the inner portal is sealed, but one mechanic is still in the cargo bay. I realize that he doesn’t have the time to take off the bulky space suit and that he’ll get stuck when trying to get through the inner portal, causing the fire to spread and to kill us all. If I push a button before the mechanic reaches the inner portal, the portal will close activating the emergency system which will put out the fire. This will suck the mechanic into space and kill him, but it will save me and the remaining ten astronauts.",
+    "options": {
+      "1": "put out the fire pushing the button which seals the inner portal",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 16,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am an inspector of a nuclear power plant. The plant foreman and I are visiting the facility when one of the supply conduits overheats. The emergency coolant system fails to activate, and a chain reaction which will result in a nuclear meltdown is about to start. This will release lethal radiation into the nearby town, killing thousands of people. If I push the foreman onto the conduits it will release enough heat to prevent the nuclear chain reaction. This will kill him, but it will save me and the thousands of town inhabitants.",
+    "options": {
+      "1": "cool down the conduits by pushing the foreman down on them",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 17,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "I am an inspector of a nuclear power plant. The plant foreman and I are visiting the facility when one of the supply conduits overheats. The emergency coolant system fails to activate, and a chain reaction which will result in a nuclear meltdown is about to start. This will release lethal radiation into the nearby town, killing thousands of people. If I insert liquid nitrogen manually into the supply chamber it will release enough heat to prevent the nuclear chain reaction. This will kill one employee, who is trapped in the supply chamber, but it will save me and the thousands of town inhabitants.",
+    "options": {
+      "1": "release the heat inserting liquid nitrogen into the supply chamber where the employee is trapped",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 18,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am the explosives expert of a company that has been hired to demolish a skyscraper. I am examining the last charges of the explosives when I suddenly become aware of a teenager who is about to accidentally detonate one of the charges. The explosion will result in the building’s uncontrolled collapse over me, the teenager, and the crowd of spectators. The teenager stands several floors below me and cannot hear me. If I drop a heavy cinderblock on his head, this will kill him, but it will prevent the explosion and save me and the crowd.",
+    "options": {
+      "1": "stop the teenager by dropping the cinderblock on his head",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 19,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am the explosives expert of a company that has been hired to demolish a skyscraper. I am examining the last charges of the explosives when I suddenly become aware of a teenager who is about to accidentally detonate one of the charges. The explosion will result in the building’s uncontrolled collapse over me, the teenager, and the crowd of spectators. The teenager stands several floors below me and cannot hear me. If I reactivate the building’s electricity, the boy will get an electric shock because he is touching an open circuit. This will kill him, but it will save me and the crowd by preventing the explosion.",
+    "options": {
+      "1": "stop the teenager by reactivating the building’s electricity",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 20,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am a construction worker. I and my crew are standing on some scaffolding, working on a skyscraper. Suddenly, the scaffolding collapses partially. I and several others are hanging on to a dangling crossbar, but it cannot hold the weight of all of us. A worker next to me slips off the crossbar and grabs my one free arm. However, I realize that the entire structure is about to give way. If I repeatedly kick my coworker in the stomach and chest until he lets go of my hand and falls, I will remove just enough weight so the rest of me can make it to safety before the scaffolding collapses entirely. This will kill my colleague but it will save me and the others.",
+    "options": {
+      "1": "remove weight by hitting this colleague until he lets go of your arm and falls",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 21,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am a construction worker. I and my crew are standing on some scaffolding, working on a skyscraper. Suddenly, the scaffolding collapses partially. I and several others are hanging on to a dangling crossbar, but it cannot hold the weight of all of me. The worker next to me slips off the crossbar and catches himself on another portion of the scaffolding. The entire structure is about to give way. If I pull out a latch that will detach the section of scaffolding with my co-worker on it, this will remove just enough weight that the rest of us can make it to safety before the scaffolding collapses entirely. This will kill him but save me and the other five coworkers.",
+    "options": {
+      "1": "remove weight by pulling out the latch so your co-worker falls off the crossbar",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 22,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "side_effect",
+    "text": "I am the bus driver of a kindergarten trip to the zoo. On the way, faulty tires cause the bus to plunge off a bridge and into a roaring river. I and three of the children are still in the sinking bus. The rest have already been swept away by the river. I grab the two children next to me and begin to swim towards the exit. The third child latches onto my leg. I feel that I am not strong enough to fight against the current and swim with all three children. If I shake off the third child I will be able to fight against the current, but the child dropped behind will drown. This will kill him, but it will save me and the other two children.",
+    "options": {
+      "1": "fight against the current shaking off the child",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 23,
+    "beneficial_to": "self",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "I am the bus driver of a kindergarten trip to the zoo. On the way, faulty tires cause the bus to plunge off a bridge and into a roaring river. I and three of the children are still in the sinking bus. The rest have already been swept away by the river. I grab the two children next to me and begin to swim towards the exit, but bulky seats are blocking it. If I pull the seats away I will free the exit, but I will block the corridor and the third child will be trapped, causing him to drown. This will kill him, but it will save me and the other two children.",
+    "options": {
+      "1": "free the exit putting the seats in the corridor",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 24,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am a doctor. I have five patients who will all die if they don’t get an immediate organ transplant. Another patient is just being rushed to the hospital after a serious car accident. This person is critically injured, but I can probably save him by means of a long and complicated operation. If I secretly cut his carotid artery during surgery it will cause his death and I will have the organs for the other five patients. This will kill him, but save the other five patients.",
+    "options": {
+      "1": "obtain the organs cutting the carotid artery of the accident victim",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 25,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am a doctor. I have five patients who will all die if they don’t get an immediate organ transplant. Another patient is just being rushed to the hospital after a serious car accident. This person is critically injured. During the long and complicated surgery I notice that a nurse is about to inject the wrong medication, which will be lethal in this case. If I let the nurse inject the wrong medication the accident victim will die and I will have the organs for the other five patients. This will kill this patient, but will save the other five patients.",
+    "options": {
+      "1": "obtain the organs letting the nurse inject the wrong medication",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 26,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "side_effect",
+    "text": "I am part of a shipyard dock team that attaches crane cables to containers to unload the cargo ships. I and the others have just attached cables to a container and are now climbing on top of it to make sure it is unloaded properly. Suddenly the red warning light flashes indicating that the crane cable is about to fail. I see that the reason for this is a fight between two crewmembers. The container is swinging dangerously over five other crewmembers on the deck. If I push the two fighting crewmembers to separate them, I will avoid having the container fall down. However, one of the crewmembers is not wearing his safety harness and will fall off the container. This will kill him, but it will save the five crewmembers on the deck.",
+    "options": {
+      "1": "stop the swinging of the container by pushing your colleagues",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 27,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "I am part of a shipyard dock team that attaches crane cables to containers to unload the cargo ships. I and the others have just attached cables to a container and are now climbing on top of it to make sure it is unloaded properly. Suddenly the red warning light flashes indicating that a cable is about to fail. If it fails over the deck the container will collapse onto five crewmembers. If I push the emergency release button the container will be dropped back into the cargo bay. I and the others will be held suspended in mid air by my safety harnesses, but one crewmember is still working in the cargo bay. Dropping the container back there will kill him, but it will save the five crewmembers on the deck.",
+    "options": {
+      "1": "drop the container pushing the emergency button",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 28,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "side_effect",
+    "text": "A viral epidemic has spread across the globe killing thousands of people. I am a medical researcher and have developed two substances in my laboratory. Due to a mistake both are labeled as vaccine. One of them is indeed the vaccine, which could save thousands of lives. The other one is lethal. If I inject the substances to my two lab assistants without knowing which substance is which, I will be able to identify the vaccine. One of the assistants will die, but I will be able to save thousands of lives with my vaccine.",
+    "options": {
+      "1": "identify the vaccine injecting these two substances into your two lab assistants which will poison one of them",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 29,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "A viral epidemic has spread across the globe killing thousands of people. I am a medical researcher and have developed two substances in my laboratory. Due to a mistake both are labeled as vaccine. One of them is indeed the vaccine, which could save thousands of lives. The other one is lethal. If I allow a nurse to inject the two substances to two patients, I will be able to identify the vaccine. One of the patients will die, but I will be able to save thousands of lives with the vaccine.",
+    "options": {
+      "1": "identify the vaccine allowing the nurse to inject the two substances to two patients which will poison one of them",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 30,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "A runaway trolley is speeding down the tracks towards five workmen who will be killed if the trolley continues on its present course. I am standing next to the tracks, but I am too far away to warn them. Next to me there is a very large stranger. If I push the large stranger onto the tracks, the trolley will slide off the tracks and won’t continue its course towards the workmen. This will kill the stranger, but I will save the five workmen.",
+    "options": {
+      "1": "cause the trolley to derail pushing the stranger onto the tracks",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 31,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "A runaway trolley is speeding down the tracks towards five workmen who will be killed if the trolley continues on its present course. I am standing next to the tracks, but I am too far away to warn them. Next to me there is a control switch that can redirect the trolley onto a different track, where only one workman is working. If I flip the control switch it will divert the trolley onto the track with one workman and will not continue its course towards the five workmen. This will kill this workman, but it will save the other five.",
+    "options": {
+      "1": "divert the trolley by flipping the control switch",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 32,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I and a fellow researcher have discovered a powerful new energy source that is cheap, safe, and clean. It has the potential to put an end to pollution and poverty in the world. However, my colleague wants to sell the discovery and I know that he is planning to contact the potential buyers today. I also know for sure that the latter will use the invention as a deadly weapon, but my colleague doesn’t believe me. If I poison my colleague with a common poison available in my lab, I will avoid having the discovery fall into the wrong hands. The poison will kill my colleague, but I will save thousands of people.",
+    "options": {
+      "1": "prevent the sale of the discovery by poisoning your colleague",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 33,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I and a fellow researcher have discovered a powerful new energy source that is cheap, safe, and clean. It has the potential to put an end to pollution and poverty in the world. However, my colleague wants to sell the discovery and I know that he is planning to contact the potential buyers by email today. I also know for sure that the latter will use the invention as a deadly weapon, but my colleague doesn’t believe me. If I release a flammable gas in the lab, it will cause an explosion when my colleague turns on his computer. This will kill him, but I will save thousands of people.",
+    "options": {
+      "1": "cause the computer of your colleague to explode releasing the flammable gas",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 34,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am an expert motorcyclist participating in a Bike Week. As I am driving down the road in front of a large group of ten bikers, I suddenly notice that a biker up front is losing control over his machine. As I speed up to pull alongside him, I realize that he is going to crash any moment. This would result in a large pile-up and the group of ten bikers behind me will die. If I force this biker off the road he will crash into the trees, but I will prevent the pile-up. At my current speed this will kill him, but I will save the group of ten riders.",
+    "options": {
+      "1": "prevent the large pile-up by forcing this biker off the road",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 35,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am an expert motorcyclist participating in a Bike Week. As I am driving down the road in front of a large group of ten bikers, I suddenly notice that a biker up front is losing control over his machine and is falling. I can easily evade him myself but the bikers behind me will crash into each other and die in the resulting pile-up. If I let my bike run into the falling biker while jumping into the roadside ditch myself, I will warn the others in time. This will kill this biker, but I will save the other ten.",
+    "options": {
+      "1": "alert the others about the imminent accident by running your bike into the falling bikers’ machine",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 36,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am the leader of a small group of soldiers. I am on my way back from a mission in enemy territory when one of my men steps in a trap that catches his leg, injuring him badly. I cannot free him without killing him, but if I leave him behind, enemy troops will torture him until he reveals the position of an important allied base camp. After that the soldiers will attack this camp and kill the 10 soldiers of the platoon there. The soldier begs me not to leave him behind, but the enemy troops are approaching and it is dangerous for me and my men to stay because I don’t have any more ammunition. If I stab the soldier myself I will impede that he’ll be tortured and reveal the information which leads to the death of the allied platoon. This will kill him, but I will save the ten soldiers of the platoon.",
+    "options": {
+      "1": "impede that the trapped soldier will be tortured by stabbing him to death",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 37,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am the leader of a small group of soldiers. I am on my way back from a mission in enemy territory when one of my men steps in a trap that catches his leg, injuring him badly. I cannot free him without killing him, but if I leave him behind, enemy troops will torture him until he reveals the position of an important allied base camp. After that the soldiers will attack this camp and kill the 10 soldiers of the platoon there. The soldier begs me not to leave him behind, but the enemy troops are approaching and it is dangerous for me and my men to stay because I don’t have more ammunition. If I signalize the position of the trapped soldier with an illumination rocket, the region will be bombed. Thus, I will avoid that the soldier is tortured and reveals the information which will lead to the death of the allied troop. This will kill him, but I will save the ten soldiers of the allied platoon.",
+    "options": {
+      "1": "impede that the trapped soldier is tortured by ordering the bombing of that region",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 38,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am on the night watch in a hospital. A chemical product has been spilled in a room with six patients. This chemical is highly toxic because once exposed to oxygen it evaporates and transforms into a poisonous gas which will kill all the patients in the room. I cannot wipe it away with conventional towels or wiping clothes. However, human skin absorbs it swiftly. If I place one of the patients on the chemical I will prevent it from evaporating. This will kill this patient but I will save the other five patients in the room.",
+    "options": {
+      "1": "prevent the toxic evaporation placing one of the patients on the chemical",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 39,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "I am on the night watch in a hospital. A chemical product has been spilled in a room with five patients. This chemical is highly toxic because once exposed to oxygen it evaporates and transforms into a poisonous gas which will kill all the patients in the room. I cannot wipe it away with conventional towels or wiping clothes. If I activate the ventilation system the poisonous gas will be taken out of the room. However, it will be transferred into a room upstairs with one patient, whom I won’t be able to evacuate in time. This will kill this patient, but I will save the other five.",
+    "options": {
+      "1": "divert the gas out of the room by activating the ventilation system",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 40,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am on a rowboat with a tour guide on a lake in Alaska. Nearby, three children have fallen off their boat and are in danger of freezing to death. I rescue the children, but one of them is very heavy and I realize that if I keep him on board my boat will sink and all will die. Neither I nor the guide can leave the boat because I am rowing and the guide is giving CPR to one of the children. If I throw the heavy child off the boat I will be able to reach the shore. This will kill this child, but I will save the other two.",
+    "options": {
+      "1": "get rid of load by throwing that one child overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 41,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "I am on a rowboat with a tour guide on a lake in Alaska. Nearby, three children have fallen off their boat and are in danger of freezing to death.  After I rescue two of the children, I realize that the weight of the third child would cause my boat to sink and all would die. Neither I nor the guide can leave the boat because I am rowing and the guide is giving CPR to one of the children. If I row to the shore leaving the third child behind in the water, I will prevent my boat from sinking. This will kill the child left behind, but I will save the other two.",
+    "options": {
+      "1": "prevent your boat from sinking by leaving the third child behind",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 42,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am a miner. The only way out of the mine is to ride up with a simple cable elevator with small cubicles. It is the end of my shift and everybody is riding up to the surface in the cubicles. While I am in the queue, I see that the cable supporting all the cubicles is about to snap. 10 miners are riding in the cubicles at this time. If I knock over the last cubicle, the miner inside will fall down. In this way, I will reduce the load enough for the cable to resist breaking, and bring the other 10 miners to the exit. This will kill the miner in the cubicle I knock over, but I will save the other 10.",
+    "options": {
+      "1": "reduce weight by knocking over the cubicle with only one miner",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 43,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am a miner. The only way out of the mine is to ride up with a simple cable elevator with small cubicles. It is the end of my turn and everybody is riding up to the surface in the cubicles. While I am in the queue, I see that the cable supporting all the cubicles is about to snap. 10 miners are riding the cubicles at this time. If I push an emergency switch the last cubicle will be detached from the cable.  This will reduce enough weight to maintain the cubicles of the other 10 miners. This will kill the miner in the detached cubicle, but it will save the other ten.",
+    "options": {
+      "1": "reduce weight by pushing the emergency switch which detaches the last cubicle",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 44,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "side_effect",
+    "text": "I am an electrician hired to fix an electrical problem in the home of a very wealthy tycoon who is terminally ill of cancer. Recently, it has been announced that upon his death, his enormous fortune will be donated to the local children’s hospital. I know that there are 100 children at this hospital who could be saved with this money, but who cannot wait much longer before they die. If I suffocate the tycoon while he is sleeping by covering his nose and mouth with my gloved hands, this essential donation for the children will arrive in time. This will kill the tycoon, but I will save the lives of 100 children.",
+    "options": {
+      "1": "speed the donation by suffocating this man",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 45,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am an electrician hired to fix an electrical problem in the home of a very wealthy tycoon who is terminally ill of cancer. Recently, it has been announced that upon his death, his enormous fortune will be donated to the local children’s hospital. I know that there are 100 children at this hospital who could be saved with this money, but who cannot wait much longer before they die. If I short-circuit the cables instead of fixing the problem, the tycoon’s life support equipment will fail and this essential donation for the children will arrive in time. This will kill the tycoon, but I will save the lives of 100 children.",
+    "options": {
+      "1": "anticipate the donation by causing the tycoon’s life support equipment to fail",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 46,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "I am a military officer during a war. My soldiers have found an important enemy spy trapped and injured in a collapsed building. Over the radio I have been informed that enemy soldiers are planning a surprise attack on a nearby town, but I don’t know which. They will kill thousands of civilians if I and my soldiers do not stop them. The spy knows which town will be attacked. I have questioned him but he doesn’t want to tell me. He won’t survive much longer due to his injuries. If I torture the spy, he will reveal the information about the town. The torture will kill him, but I will save thousands of civilians.",
+    "options": {
+      "1": "make the spy reveal the information by torturing him",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 47,
+    "beneficial_to": "other",
+    "evitability": "inevitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "I am a military officer during a war. My soldiers have found an important enemy spy trapped and injured in a collapsed building. Over the radio I have been informed that enemy soldiers are planning a surprise attack on a nearby town, but I don’t know which. They will kill thousands of civilians if I and my soldiers do not stop them. The spy knows which town will be attacked. I have questioned him but he doesn’t want to tell me. He won’t survive much longer due to his injuries. Rats have begun to chew his legs and he is suffering a lot. If I let the rats continue with this torture the spy will reveal the information about the town. The torture will kill him, but I will save thousands of civilians.",
+    "options": {
+      "1": "make the spy reveal the information by letting the rats continue to torture him",
+      "2": "do nothing"
+    }
+  }
+]

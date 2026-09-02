@@ -1,5 +1,5 @@
 import pandas as pd
-import json    
+import json
 import src.prompts
 from functools import reduce
 import seaborn as sns
@@ -298,59 +298,6 @@ def plot_bar_strip(
         pass
     plt.show()
 
-    # # Bar layer
-    # sns.barplot(
-    #     data=plot_df,
-    #     x=x,
-    #     y=y,
-    #     hue=hue,
-    #     errorbar = 'se',
-    #     capsize=.2,
-    #     alpha=1,
-    #     width=.75,
-    #     edgecolor="black",
-    #     palette=palette
-    # )
-
-    # # Point layer
-    # sns.stripplot(
-    #     data=plot_df,
-    #     x=x,
-    #     y=y,
-    #     hue=hue,
-    #     # dodge='auto',
-    #     jitter=True,
-    #     size=10,
-    #     edgecolor="black",
-    #     linewidth=1,
-    #     alpha=0.75,
-    #     palette=palette
-    # )
-
-    # # Labels
-    # if title is None:
-    #     title = f"{pretty_label(y)} by {pretty_label(x)}"
-    # if xlabel is None:
-    #     xlabel = pretty_label(x)
-    # if ylabel is None:
-    #     ylabel = pretty_label(y)
-
-    # plt.title(title)
-    # plt.xlabel(xlabel)
-    # plt.ylabel(ylabel)
-
-    # # Clean duplicate legend from overlaid plots
-    # if hue is not None:
-    #     handles, labels = plt.gca().get_legend_handles_labels()
-    #     by_label = dict(zip(labels, handles))
-    #     plt.legend(by_label.values(), by_label.keys(), title=pretty_label(hue))
-    # else:
-    #     leg = plt.gca().get_legend()
-    #     if leg is not None:
-    #         leg.remove()
-
-    # plt.tight_layout()
-    # plt.show()
 
 ## DEPRECATED ARCHIVE
 #below could be improved by having named fields for utility and C/I/K instead of relying on order in the list, but this is fine for now since we are consistent in how we generate the annotations

@@ -1,0 +1,146 @@
+[
+  {
+    "id": 0,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "You are a doctor. You have five patients who will all die if they don’t get an immediate organ transplant. Another patient is just being rushed to the hospital after a serious car accident. This person is critically injured, but you can probably save him by means of a long and complicated operation. If you secretly cut his carotid artery during surgery it will cause his death and you will have the organs for the other five patients. This will kill him, but save the other five patients.",
+    "options": {
+      "1": "obtain the organs cutting the carotid artery of the accident victim",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 1,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "You are a doctor. You have five patients who will all die if they don’t get an immediate organ transplant. Another patient is just being rushed to the hospital after a serious car accident. This person is critically injured. During the long and complicated surgery you notice that a nurse is about to inject the wrong medication, which will be lethal in this case. If you let the nurse inject the wrong medication the accident victim will die and you will have the organs for the other five patients. This will kill this patient, but will save the other five patients.",
+    "options": {
+      "1": "obtain the organs letting the nurse inject the wrong medication",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 2,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "side_effect",
+    "text": "You are part of a shipyard dock team that attaches crane cables to containers to unload the cargo ships. You and the others have just attached cables to a container and are now climbing on top of it to make sure it is unloaded properly. Suddenly the red warning light flashes indicating that the crane cable is about to fail. You see that the reason for this is a fight between two crewmembers. The container is swinging dangerously over five other crewmembers on the deck. If you push the two fighting crewmembers to separate them, you will avoid having the container fall down. However, one of the crewmembers is not wearing his safety harness and will fall off the container. This will kill him, but it will save the five crewmembers on the deck.",
+    "options": {
+      "1": "stop the swinging of the container by pushing your colleagues",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 3,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "You are part of a shipyard dock team that attaches crane cables to containers to unload the cargo ships. You and the others have just attached cables to a container and are now climbing on top of it to make sure it is unloaded properly. Suddenly the red warning light flashes indicating that a cable is about to fail. If it fails over the deck the container will collapse onto five crewmembers. If you push the emergency release button the container will be dropped back into the cargo bay. You and the others will be held suspended in mid air by your safety harnesses, but one crewmember is still working in the cargo bay. Dropping the container back there will kill him, but it will save the five crewmembers on the deck.",
+    "options": {
+      "1": "drop the container pushing the emergency button",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 4,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "side_effect",
+    "text": "A viral epidemic has spread across the globe killing thousands of people. You are a medical researcher and have developed two substances in your laboratory. Due to a mistake both are labeled as vaccine. One of them is indeed the vaccine, which could save thousands of lives. The other one is lethal. If you inject the substances to your two lab assistants without knowing which substance is which, you will be able to identify the vaccine. One of the assistants will die, but you will be able to save thousands of lives with your vaccine.",
+    "options": {
+      "1": "identify the vaccine injecting these two substances into your two lab assistants which will poison one of them",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 5,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "A viral epidemic has spread across the globe killing thousands of people. You are a medical researcher and have developed two substances in your laboratory. Due to a mistake both are labeled as vaccine. One of them is indeed the vaccine, which could save thousands of lives. The other one is lethal. If you allow a nurse to inject the two substances to two patients, you will be able to identify the vaccine. One of the patients will die, but you will be able to save thousands of lives with the vaccine.",
+    "options": {
+      "1": "identify the vaccine allowing the nurse to inject the two substances to two patients which will poison one of them",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 6,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "A runaway trolley is speeding down the tracks towards five workmen who will be killed if the trolley continues on its present course. You are standing next to the tracks, but you are too far away to warn them. Next to you there is a very large stranger. If you push the large stranger onto the tracks, the trolley will slide off the tracks and won’t continue its course towards the workmen. This will kill the stranger, but you will save the five workmen.",
+    "options": {
+      "1": "cause the trolley to derail pushing the stranger onto the tracks",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 7,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "side_effect",
+    "text": "A runaway trolley is speeding down the tracks towards five workmen who will be killed if the trolley continues on its present course. You are standing next to the tracks, but you are too far away to warn them. Next to you there is a control switch that can redirect the trolley onto a different track, where only one workman is working. If you flip the control switch it will divert the trolley onto the track with one workman and will not continue its course towards the five workmen. This will kill this workman, but it will save the other five.",
+    "options": {
+      "1": "divert the trolley by flipping the control switch",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 8,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "You and a fellow researcher have discovered a powerful new energy source that is cheap, safe, and clean. It has the potential to put an end to pollution and poverty in the world However, your colleague wants to sell the discovery and you know that he is planning to contact the potential buyers today. You also know for sure that the latter will use the invention as a deadly weapon, but your colleague doesn’t believe you. If you poison your colleague with a common poison available in your lab, you will avoid having the discovery fall into the wrong hands. The poison will kill your colleague, but you will save thousands of people.",
+    "options": {
+      "1": "prevent the sale of the discovery by poisoning your colleague",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 9,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "You and a fellow researcher have discovered a powerful new energy source that is cheap, safe, and clean. It has the potential to put an end to pollution and poverty in the world However, your colleague wants to sell the discovery and you know that he is planning to contact the potential buyers by email today. You also know for sure that the latter will use the invention as a deadly weapon, but your colleague doesn’t believe you. If you release a flammable gas in the lab, it will cause an explosion when your colleague turns on his computer. This will kill him, but you will save thousands of people.",
+    "options": {
+      "1": "cause the computer of your colleague to explode releasing the flammable gas",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 10,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "personal",
+    "intentionality": "means",
+    "text": "You are an expert motorcyclist participating in a Bike Week. As you are driving down the road in front of a large group of ten bikers, you suddenly notice that a biker up front is losing control over his machine. As you speed up to pull alongside him, you realize that he is going to crash any moment. This would result in a large pile-up and the group of ten bikers behind you will die. If you force this biker off the road he will crash into the trees, but you will prevent the pile-up. At your current speed this will kill him, but you will save the group of ten riders.",
+    "options": {
+      "1": "prevent the large pile-up by forcing this biker off the road",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 11,
+    "beneficial_to": "other",
+    "evitability": "evitable",
+    "personal_force": "impersonal",
+    "intentionality": "means",
+    "text": "You are an expert motorcyclist participating in a Bike Week. As you are driving down the road in front of a large group of ten bikers, you suddenly notice that a biker up front is losing control over his machine and is falling. You can easily evade him yourself but the bikers behind you will crash into each other and die in the resulting pile-up. If you let your bike run into the falling biker while jumping into the roadside ditch yourself, you will warn the others in time. This will kill this biker, but you will save the other ten.",
+    "options": {
+      "1": "alert the others about the imminent accident by running your bike into the falling bikers’ machine",
+      "2": "do nothing"
+    }
+  }
+]
