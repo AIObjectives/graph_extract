@@ -1,0 +1,436 @@
+[
+    {
+        "id": 0,
+        "options": {
+            "1": "redirect the train to the side track",
+            "2": "keep the train on the same track"
+        }
+    },
+    {
+        "id": 1,
+        "options": {
+            "1": "push the cars",
+            "2": "not push the cars"
+        }
+    },
+    {
+        "id": 2,
+        "options": {
+            "1": "throw the bomb to the patio",
+            "2": "not throw the bomb to the patio"
+        }
+    },
+    {
+        "id": 3,
+        "options": {
+            "1": "throw one guest onto the bomb",
+            "2": "not throw one guest onto the bomb"
+        }
+    },
+    {
+        "id": 4,
+        "options": {
+            "1": "redirect the virus into the room with 1 patient",
+            "2": "not redirect the virus into the room with 1 patient"
+        }
+    },
+    {
+        "id": 5,
+        "options": {
+            "1": "have the patient undergo the required procedure",
+            "2": "not have the patient undergo the required procedure"
+        }
+    },
+    {
+        "id": 6,
+        "options": {
+            "1": "destroy the torpedo by remote control",
+            "2": "not destroy the torpedo by remote control"
+        }
+    },
+    {
+        "id": 7,
+        "options": {
+            "1": "order the three soldiers to move their boat",
+            "2": "not order the three soldiers to move their boat"
+        }
+    },
+    {
+        "id": 8,
+        "options": {
+            "1": "redirect the train to the side track",
+            "2": "not redirect the train to the side track"
+        }
+    },
+    {
+        "id": 9,
+        "options": {
+            "1": "redirect the train to the side track",
+            "2": "not redirect the train to the side track"
+        }
+    },
+    {
+        "id": 10,
+        "options": {
+            "1": "push the worker from the bridge",
+            "2": "not push the worker from the bridge"
+        }
+    },
+    {
+        "id": 11,
+        "options": {
+            "1": "push the button",
+            "2": "not push the button"
+        }
+    },
+    {
+        "id": 12,
+        "options": {
+            "1": "throw the switch",
+            "2": "not throw the switch"
+        }
+    },
+    {
+        "id": 13,
+        "options": {
+            "1": "throw the switch",
+            "2": "not throw the switch"
+        }
+    },
+    {
+        "id": 14,
+        "options": {
+            "1": "throw the switch",
+            "2": "not throw the switch"
+        }
+    },
+    {
+        "id": 15,
+        "options": {
+            "1": "throw the switch",
+            "2": "not throw the switch"
+        }
+    },
+    {
+        "id": 16,
+        "options": {
+            "1": "use the injured person to break down the blockage",
+            "2": "not use the injured person to break down the blockage"
+        }
+    },
+    {
+        "id": 17,
+        "options": {
+            "1": "activate the emergency system to put out the fire and leave the injured without air --> activate the emergency system",
+            "2": "not activate the emergency system"
+        }
+    },
+    {
+        "id": 18,
+        "options": {
+            "1": "put a hand over the baby's mouth to absorb the crying and leave the baby without air --> put a hand over the baby's mouth",
+            "2": "let the baby cry"
+        }
+    },
+    {
+        "id": 19,
+        "options": {
+            "1": "activate the noisy boiler to cushion the crying and asphyxiate the baby --> activate the noisy boiler",
+            "2": "let the baby cry"
+        }
+    },
+    {
+        "id": 20,
+        "options": {
+            "1": "open the hatch that will fall on the crewmember below to get enough oxygen --> open the hatch",
+            "2": "not open the hatch"
+        }
+    },
+    {
+        "id": 21,
+        "options": {
+            "1": "push the button to open the hatch that will fall on the crewmember below to get enough oxygen --> push the button to open the hatch",
+            "2": "not push the button to open the hatch that will fall on the crewmember below --> not push the button to open the hatch"
+        }
+    },
+    {
+        "id": 22,
+        "options": {
+            "1": "shoot at the injured diver",
+            "2": "not shoot at the injured diver"
+        }
+    },
+    {
+        "id": 23,
+        "options": {
+            "1": "detonate the mine next to the injured diver with a remote control --> detonate the mine",
+            "2": "not detonate the mine next to the injured diver --> not detonate the mine"
+        }
+    },
+    {
+        "id": 24,
+        "options": {
+            "1": "smother the child of the ethnic group",
+            "2": "refuse to support the regime and keep the child of the ethnic group alive --> keep the child of the ethnic group alive"
+        }
+    },
+    {
+        "id": 25,
+        "options": {
+            "1": "order the nurse to give the child of the ethnic group an overdose",
+            "2": "refuse to support the regime and keep the child of the ethnic group alive --> keep the child of the ethnic group alive"
+        }
+    },
+    {
+        "id": 26,
+        "options": {
+            "1": "shoot the man before he can enter the village",
+            "2": "let the man enter the village"
+        }
+    },
+    {
+        "id": 27,
+        "options": {
+            "1": "warn the village council so they shoot the man before he can enter the village",
+            "2": "let the man enter the village"
+        }
+    },
+    {
+        "id": 28,
+        "options": {
+            "1": "throw one of the injured people off the helicopter to release weight --> throw one of the injured people off the helicopter",
+            "2": "keep all people on board"
+        }
+    },
+    {
+        "id": 29,
+        "options": {
+            "1": "cut the cable by which the last injured person is ascending",
+            "2": "let the last injured person come on board"
+        }
+    },
+    {
+        "id": 30,
+        "options": {
+            "1": "manually seal the inner portal that will suck the mechanic into space --> manually seal the inner portal",
+            "2": "let the mechanic try to get through the inner portal"
+        }
+    },
+    {
+        "id": 31,
+        "options": {
+            "1": "push a button to extinguish the fire by sealing the inner portal that will suck the mechanic into space --> push a button to extinguish the fire by sealing the inner portal",
+            "2": "let the mechanic try to get through the inner portal"
+        }
+    },
+    {
+        "id": 32,
+        "options": {
+            "1": "cool the conduits by pushing the foreman down on them to stop the nuclear chain reaction --> cool the conduits by pushing the foreman down on them",
+            "2": "not push the foreman down on the conduits"
+        }
+    },
+    {
+        "id": 33,
+        "options": {
+            "1": "release heat inserting liquid nitrogen into the supply chamber where the employee is trapped",
+            "2": "not release heat inserting liquid nitrogen into the supply chamber where the employee is trapped"
+        }
+    },
+    {
+        "id": 34,
+        "options": {
+            "1": "drop the cinderblock on the teenager's head to stop him --> drop the cinderblock on the teenager's head",
+            "2": "not drop the cinderblock on the teenager's head"
+        }
+    },
+    {
+        "id": 35,
+        "options": {
+            "1": "reactivate the building's electricity to stop the teenager --> reactivate the building's electricity",
+            "2": "not reactivate the building's electricity"
+        }
+    },
+    {
+        "id": 36,
+        "options": {
+            "1": "shake off the child who will then drown",
+            "2": "swim against the current with all three children"
+        }
+    },
+    {
+        "id": 37,
+        "options": {
+            "1": "put the seats in the corridor that will trap the third child but free the exit --> put the seats in the corridor",
+            "2": "not put the seats in the corridor that would trap the third child but free the exit --> not put the seats in the corridor"
+        }
+    },
+    {
+        "id": 38,
+        "options": {
+            "1": "cut the accident victim's carotid artery to obtain his organs for the transplantations --> cut the accident victim's carotid artery",
+            "2": "not cut the accident victim's carotid artery"
+        }
+    },
+    {
+        "id": 39,
+        "options": {
+            "1": "let the nurse inject the wrong medication to obtain the organs for the transplantations --> let the nurse inject the wrong medication",
+            "2": "stop the nurse from injecting the wrong medication"
+        }
+    },
+    {
+        "id": 40,
+        "options": {
+            "1": "push team members including one without a safety harness that will fall down to stop the swinging of the container --> push team members including one without a safety harness",
+            "2": "not push team members which leaves the container swinging dangerously --> not push team members"
+        }
+    },
+    {
+        "id": 41,
+        "options": {
+            "1": "push the emergency button that will move the container back to drop on a crewmember in the cargo bay --> push the emergency button",
+            "2": "not push the emergency button that would move the container back to drop on a crewmember in the cargo bay --> not push the emergency button"
+        }
+    },
+    {
+        "id": 42,
+        "options": {
+            "1": "inject these two substances into two lab assistants to identify the vaccine --> inject these two substances into two lab assistants",
+            "2": "not inject the two substances into two lab assistants"
+        }
+    },
+    {
+        "id": 43,
+        "options": {
+            "1": "allow the nurse to inject the two substances into two lab assistants to identify the vaccine --> allow the nurse to inject the two substances into two lab assistants",
+            "2": "not allow the nurse to inject the two substances into two lab assistants"
+        }
+    },
+    {
+        "id": 44,
+        "options": {
+            "1": "push the stranger onto the tracks to derail the trolley --> push the stranger onto the tracks",
+            "2": "not push the stranger onto the tracks"
+        }
+    },
+    {
+        "id": 45,
+        "options": {
+            "1": "flip the control switch to divert the trolley onto the track with only one workman --> flip the control switch",
+            "2": "not flip the control switch"
+        }
+    },
+    {
+        "id": 46,
+        "options": {
+            "1": "poison the fellow researcher to prevent the sale --> poison the fellow researcher",
+            "2": "let the sale happen"
+        }
+    },
+    {
+        "id": 47,
+        "options": {
+            "1": "release flammable gas to cause the fellow researcher's computer to explode --> release flammable gas",
+            "2": "not release flammable gas that would have caused the fellow researcher's computer to explode --> not release flammable gas"
+        }
+    },
+    {
+        "id": 48,
+        "options": {
+            "1": "force the biker up front off the road to prevent the large pile-up --> force the biker up front off the road",
+            "2": "leave the biker up front alone"
+        }
+    },
+    {
+        "id": 49,
+        "options": {
+            "1": "drive into the falling biker's machine to alert the others about the imminent accident --> drive into the falling biker's machine",
+            "2": "leave the falling biker alone"
+        }
+    },
+    {
+        "id": 50,
+        "options": {
+            "1": "stab the trapped soldier to death",
+            "2": "let the trapped soldier live"
+        }
+    },
+    {
+        "id": 51,
+        "options": {
+            "1": "order that region to be bombed to prevent the soldier from revealing the allied base camp's location --> order that region to be bombed",
+            "2": "not order that region to be bombed which would have prevented the soldier from revealing the allied base camp's location --> not order that region to be bombed"
+        }
+    },
+    {
+        "id": 52,
+        "options": {
+            "1": "place one of the patients on the chemical to prevent the toxic evaporation --> place one of the patients on the chemical",
+            "2": "not place one of the patients on the chemical"
+        }
+    },
+    {
+        "id": 53,
+        "options": {
+            "1": "activate the ventilation system to divert the gas to a room with one patient --> activate the ventilation system",
+            "2": "not activate the ventilation system that would have diverted the gas to a room with one patient --> not activate the ventilation system"
+        }
+    },
+    {
+        "id": 54,
+        "options": {
+            "1": "throw the heavy child overboard",
+            "2": "keep the heavy child on board"
+        }
+    },
+    {
+        "id": 55,
+        "options": {
+            "1": "leave the heavy child behind",
+            "2": "bring the heavy child on board"
+        }
+    },
+    {
+        "id": 56,
+        "options": {
+            "1": "knock over the cubicle with only one miner to reduce weight --> knock over the cubicle with only one miner",
+            "2": "not knock over the cubicle with only one miner that would have reduced weight --> not knock over the cubicle with only one miner"
+        }
+    },
+    {
+        "id": 57,
+        "options": {
+            "1": "push the emergency switch that detaches the last cubicle to reduce weight --> push the emergency switch that detaches the last cubicle",
+            "2": "not push the emergency switch that would have detached the last cubicle to reduce weight --> not push the emergency switch that detaches the last cubicle"
+        }
+    },
+    {
+        "id": 58,
+        "options": {
+            "1": "suffocate the wealthy tycoon to speed up the donation --> suffocate the wealthy tycoon",
+            "2": "wait for the wealthy tycoon to pass from his illness --> wait for the wealthy tycoon to die naturally"
+        }
+    },
+    {
+        "id": 59,
+        "options": {
+            "1": "cause the wealthy tycoon's life support equipment to fail to anticipate the donation --> cause the wealthy tycoon's life support equipment to fail",
+            "2": "wait for the wealthy tycoon to pass from his illness --> wait for the wealthy tycoon to die naturally"
+        }
+    },
+    {
+        "id": 60,
+        "options": {
+            "1": "torture the spy for him to reveal the information --> torture the spy",
+            "2": "not torture the spy for information --> not torture the spy"
+        }
+    },
+    {
+        "id": 61,
+        "options": {
+            "1": "let the rats continue to torture the spy for him to reveal the information --> let the rats continue to torture the spy",
+            "2": "stop the rats from continuing to torture the spy --> stop the rats from torturing the spy"
+        }
+    }
+]

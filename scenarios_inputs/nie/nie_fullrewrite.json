@@ -1,0 +1,1006 @@
+[
+    {
+        "id": 0,
+        "text": " A high-speed train is about to hit a bus with 10 passengers. I, an employee of the train company, could redirect the train to a side track where a bus with 2 passengers is sitting.",
+        "options": {
+            "1": "Redirecting a high-speed train onto a side track, where it will hit a bus with 2 passengers, so that it does not hit a bus with 10 passengers on the main track.",
+            "2": "Keeping a high-speed train on its track, where it will hit a bus with 10 passengers, rather than redirecting it onto a side track, where it would hit a bus with 2 passengers."
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Agent of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 1,
+        "text": " A high-speed train is about to hit a bus with 10 passengers. I, an employee of the train company, am sitting in a truck near the intersection. I could push several cars in front of me, which would in turn push a bus with 2 passengers onto the track, thus replacing the other bus.",
+        "options": {
+            "1": "Pushing several cars with my truck so that they shove a bus with 2 passengers into the path of a high-speed train, so that the train hits it instead of a bus with 10 passengers.",
+            "2": "Not pushing several cars with my truck to shove a bus with 2 passengers into the path of a high-speed train, even though this means the train will hit a bus with 10 passengers."
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Patient of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 2,
+        "text": " In a restaurant, a bomb threatens to kill 9 guests. The bomb could be thrown onto the patio, where 1 guest would be killed.",
+        "options": {
+            "1": "Throwing a bomb in a restaurant onto the patio, where it will kill 1 guest, so that it does not kill 9 guests inside.",
+            "2": "Not throwing a bomb in a restaurant onto the patio, where it would kill 1 guest, even though this means it will kill 9 guests inside."
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Agent of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 3,
+        "text": " In a restaurant, a bomb threatens to kill 9 guests. One guest could be thrown on the bomb, which would kill this 1 guest.",
+        "options": {
+            "1": "Throwing a restaurant guest onto a bomb, killing them, so that the bomb does not kill 9 other guests.",
+            "2": "Not throwing a restaurant guest onto a bomb, which would kill them, even though this means the bomb will kill 9 other guests."
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Patient of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 4,
+        "text": " A virus causing paraplegia threatens 4 patients. Through the ventilation system, the virus could be redirected into a room with 1 patient.",
+        "options": {
+            "1": "Redirecting a virus that causes paraplegia through a ventilation system into a room with 1 patient, so that it paralyzes that patient instead of 4 others.",
+            "2": "Not redirecting a virus that causes paraplegia through a ventilation system into a room with 1 patient, even though this means it will paralyze 4 other patients."
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Agent of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 5,
+        "text": " A virus causing paraplegia threatens 4 patients. The bone marrow of 1 patient could save them. However, the required procedure would lead to paraplegia in this patient.",
+        "options": {
+            "1": "Having a patient undergo a bone marrow procedure that will leave them paraplegic, so that their bone marrow can save 4 other patients from a virus that causes paraplegia.",
+            "2": "Not having a patient undergo a bone marrow procedure that would leave them paraplegic, even though this means 4 other patients will be paralyzed by a virus that causes paraplegia."
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Patient of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 6,
+        "text": " A torpedo threatens a boat with 6 soldiers. Destroying the torpedo by remote control would sink a nearby submarine with 3 soldiers.",
+        "options": {
+            "1": "Destroying a torpedo by remote control, which will sink a nearby submarine with 3 soldiers, so that the torpedo does not hit a boat with 6 soldiers.",
+            "2": "Not destroying a torpedo by remote control, which would sink a nearby submarine with 3 soldiers, even though this means the torpedo will hit a boat with 6 soldiers."
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Agent of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 7,
+        "text": " A torpedo threatens a boat with 6 soldiers. Three soldiers could be ordered to move their boat in a way that would divert the torpedo from the original target to their boat.",
+        "options": {
+            "1": "Ordering 3 soldiers to move their boat so that a torpedo heading for a boat with 6 soldiers is diverted onto their own boat instead.",
+            "2": "Not ordering 3 soldiers to move their boat to divert a torpedo onto their own boat, even though this means the torpedo will hit a boat with 6 soldiers."
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Patient of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 8,
+        "text": " A high-speed train is about to hit a bus with 10 passengers. An employee of the train company could redirect the train to a parallel side track where a bus with 2 passengers is sitting. The affected passengers would be seriously harmed.",
+        "options": {
+            "1": "Redirecting a high-speed train onto a parallel side track, where it will hit a bus and seriously harm its 2 passengers, so that it does not hit a bus and seriously harm 10 passengers on the main track.",
+            "2": "Not redirecting a high-speed train onto a parallel side track, where it would hit a bus and seriously harm its 2 passengers, even though this means it will hit a bus and seriously harm 10 passengers on the main track."
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Agent of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 9,
+        "text": " A high-speed train is about to hit a bus with 10 passengers. An employee of the train company could redirect the train to a side track where a bus with 2 passengers is sitting. The side track loops back to the main track. The redirected train would reach and harm the 10 passengers on the main track if the bus on the side track were not there. The affected passengers would be seriously harmed.",
+        "options": {
+            "1": "Redirecting a high-speed train onto a side track that loops back to the main track, where hitting a bus will seriously harm its 2 passengers but stop the train before it loops back and seriously harms 10 passengers in a bus on the main track.",
+            "2": "Not redirecting a high-speed train onto a side track that loops back to the main track, where hitting a bus would seriously harm its 2 passengers but stop the train, even though this means the train will seriously harm 10 passengers in a bus on the main track."
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Agent of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 10,
+        "text": " On the test ground of a modern railroad property an unmanned speed-train that normally can be remote-controlled got out of control due to a technical defect. This speed-train is heading towards three railroad workers that are maintaining the tracks. Since these workers are wearing a novel hearing protection, they would not notice the speed-train on time and hence would be run over by it. I, an employee of the rail track control center, recognize the upcoming accident. However, it is not possible to stop the train on time anymore. There is only one possibility to avoid the death of the three workers: I could run to a nearby bridge on which a heavy worker is standing and push this worker from the bridge. Thereby this worker would fall on the tracks and collide with the speed-train. Due to the collision with the heavy worker (I would not be heavy enough to stop the train) the speed-train would stop before it reaches the three workers. The heavy worker would lose his life due to the collision.",
+        "options": {
+            "1": "Pushing a heavy worker off a bridge into the path of a runaway train, killing him, so that the collision stops the train before it runs over and kills three railroad workers on the track.",
+            "2": "Not pushing a heavy worker off a bridge into the path of a runaway train, which would kill him, even though this means the train will run over and kill three railroad workers on the track."
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Means",
+                "Beneficiary": "Other-beneficial",
+                "Evitability": "Avoidable",
+                "Personal Force": "Personal"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 11,
+        "text": " On the test ground of a modern railroad property an unmanned speed-train that normally can be remote-controlled got out of control due to a technical defect. This speed-train is heading towards three railroad workers that are maintaining the tracks. Since these workers are wearing a novel hearing protection, they would not notice the speed-train on time and hence would be run over by it. I, an employee of the rail track control center, recognize the upcoming accident. However, it is not possible to stop the train on time anymore. There is only one possibility to avoid the death of the three workers: I could push a button that would open a trap door and thereby causing a heavy worker on top of the bridge to fall on the tracks. The speed-train would collide with the heavy worker and be stopped before it reaches the three workers. The heavy worker would lose his life due to the collision.",
+        "options": {
+            "1": "Pushing a button that opens a trap door on a bridge, dropping a heavy worker into the path of a runaway train and killing him, so that the collision stops the train before it runs over and kills three railroad workers on the track.",
+            "2": "Not pushing a button that would open a trap door on a bridge and drop a heavy worker into the path of a runaway train, killing him, even though this means the train will run over and kill three railroad workers on the track."
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Means",
+                "Beneficiary": "Other-beneficial",
+                "Evitability": "Avoidable",
+                "Personal Force": "Impersonal"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 12,
+        "text": " A runaway trolley is about to run over and kill two people, but I can throw a switch that will turn the trolley onto a side track, where it will kill only one person.",
+        "options": {
+            "1": "Throwing a switch to turn a runaway trolley onto a side track, where it will kill one person, so that it does not kill two people on the main track.",
+            "2": "Not throwing a switch to turn a runaway trolley onto a side track, where it would kill one person, even though this means it will kill two people on the main track."
+        },
+        "factors": {
+            "1": {},
+            "2": {}
+        }
+    },
+    {
+        "id": 13,
+        "text": " A runaway trolley is about to run over and kill one person, but I can throw a switch that will turn the trolley onto a side track, where it will kill only my brother.",
+        "options": {
+            "1": "Throwing a switch to turn a runaway trolley onto a side track, where it will kill my brother, so that it does not kill one person on the main track.",
+            "2": "Not throwing a switch to turn a runaway trolley onto a side track, where it would kill my brother, even though this means it will kill one person on the main track."
+        },
+        "factors": {
+            "1": {},
+            "2": {}
+        }
+    },
+    {
+        "id": 14,
+        "text": " A runaway trolley is about to run over and kill two people, but I can throw a switch that will turn the trolley onto a side track, where it will kill only my brother.",
+        "options": {
+            "1": "Throwing a switch to turn a runaway trolley onto a side track, where it will kill my brother, so that it does not kill two people on the main track.",
+            "2": "Not throwing a switch to turn a runaway trolley onto a side track, where it would kill my brother, even though this means it will kill two people on the main track."
+        },
+        "factors": {
+            "1": {},
+            "2": {}
+        }
+    },
+    {
+        "id": 15,
+        "text": " A runaway trolley is about to run over and kill my brother, but I can throw a switch that will turn the trolley onto a side track, where it will kill two people.",
+        "options": {
+            "1": "Throwing a switch to turn a runaway trolley onto a side track, where it will kill two people, so that it does not kill my brother on the main track.",
+            "2": "Not throwing a switch to turn a runaway trolley onto a side track, where it would kill two people, even though this means it will kill my brother on the main track."
+        },
+        "factors": {
+            "1": {},
+            "2": {}
+        }
+    },
+    {
+        "id": 16,
+        "text": " I and five other people are trapped in a burning building. There is only one emergency exit through which all of us could escape, but it is blocked by burning debris. Another injured person is about to crawl through a hole at the bottom of the exit door. I and the five people behind me do not have time to do the same.",
+        "options": {
+            "1": "Using the body of an injured person, who is crawling out through a small hole in the door, to break through burning debris blocking the only exit of a burning building, killing them, so that five other trapped people and I can escape.",
+            "2": "Not using the body of an injured person, who is crawling out through a small hole in the door, to break through burning debris blocking the only exit of a burning building, which would kill them, even though this means five other trapped people and I will not escape in time."
+        },
+        "factors": {
+            "1": {
+                "Beneficiary": "Self-beneficial",
+                "Evitability": "Avoidable",
+                "Personal Force": "Personal",
+                "Causal Role": "Means"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 17,
+        "text": " I and five other people are trapped in a burning building. There is only one emergency exit through which all of us could escape, but it is blocked by burning debris. Another injured person is about to crawl through a hole at the bottom of the exit door. I and the five people behind me do not have time to do the same.",
+        "options": {
+            "1": "Activating an emergency system that puts out a fire blocking the only exit of a burning building, but cuts off the air to an injured person crawling through a hole in the exit door and kills them, so that five other trapped people and I can escape.",
+            "2": "Not activating an emergency system that would put out a fire blocking the only exit of a burning building, but cut off the air to an injured person crawling through a hole in the exit door and kill them, even though this means five other trapped people and I will not escape in time."
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Impersonal",
+                "Causal Role": "Side Effect",
+                "Beneficiary": "Self-beneficial",
+                "Evitability": "Avoidable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 18,
+        "text": " Enemy soldiers have taken over my village and will kill all civilians above the age of two. I and ten neighbors are hiding in two rooms of the cellar of a large house. I can hear the voices of soldiers who have come to search the house for valuables. My baby begins to cry loudly. The crying will attract the attention of the soldiers, who will spare my baby's life, but will kill me and the other refugees in both rooms.",
+        "options": {
+            "1": "Putting my hand over my crying baby's mouth to muffle the noise, smothering the baby, whom enemy soldiers would otherwise spare, so that the soldiers searching the house do not find and kill my ten neighbors and me hiding in the cellar.",
+            "2": "Letting my baby cry, even though this means enemy soldiers searching the house will find and kill my ten neighbors and me hiding in the cellar, sparing only my baby."
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Personal",
+                "Causal Role": "Side Effect",
+                "Beneficiary": "Self-beneficial",
+                "Evitability": "Avoidable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 19,
+        "text": " Enemy soldiers have taken over my village and will kill all civilians above the age of two. I and ten neighbors are hiding in two rooms of the cellar of a large house. I can hear the voices of soldiers who have come to search the house for valuables. My baby begins to cry loudly. The crying will attract the attention of the soldiers, who will spare my baby's life, but will kill me and the other refugees in both rooms.",
+        "options": {
+            "1": "Turning on a noisy boiler to drown out my crying baby, which will asphyxiate the baby, whom enemy soldiers would otherwise spare, so that the soldiers searching the house do not find and kill my ten neighbors and me hiding in the cellar.",
+            "2": "Letting my baby cry, even though this means enemy soldiers searching the house will find and kill my ten neighbors and me hiding in the cellar, sparing only my baby."
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Side Effect",
+                "Beneficiary": "Self-beneficial",
+                "Evitability": "Avoidable",
+                "Personal Force": "Impersonal"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 20,
+        "text": " I am a crewmember on a submarine traveling under a large iceberg. An explosion has damaged the ship, injured several crewmembers and collapsed the only access between the upper and lower decks of the ship. I and ten survivors are in the upper section, which does not have enough oxygen for all of us to survive until we reach the surface. One single crewmember is lying unconscious in the lower section, where there is enough oxygen.",
+        "options": {
+            "1": "Opening a hatch on a damaged submarine, knowing it will fall on and kill an unconscious crewmember below, so that ten survivors and I can reach enough oxygen to survive.",
+            "2": "Not opening a hatch on a damaged submarine that would fall on and kill an unconscious crewmember below, even though this means there will not be enough oxygen for ten survivors and me."
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Side Effect",
+                "Beneficiary": "Self-beneficial",
+                "Personal Force": "Personal",
+                "Evitability": "Avoidable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 21,
+        "text": "I am a crewmember on a submarine traveling under a large iceberg. An explosion has damaged the ship, injured several crewmembers, and collapsed the only access between the upper and lower parts of the ship. I and ten other survivors are in the upper section, which does not have enough oxygen for all of us to survive until we reach the surface. One single crewmember is lying unconscious in the lower section, where there is enough oxygen.",
+        "options": {
+            "1": "Pushing a button to open a hatch on a damaged submarine, knowing it will fall on and kill an unconscious crewmember below, so that ten other survivors and I can reach enough oxygen to survive.",
+            "2": "Not pushing a button to open a hatch on a damaged submarine that would fall on and kill an unconscious crewmember below, even though this means there will not be enough oxygen for ten other survivors and me."
+        },
+        "factors": {
+            "1": {
+                "Beneficiary": "Self-beneficial",
+                "Personal Force": "Impersonal",
+                "Causal Role": "Side Effect",
+                "Evitability": "Avoidable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 22,
+        "text": " I and ten divers are part of an U.N. team who is deactivating anti-ship mines from World War II. One team member has hurt himself and the blood in the water has attracted several sharks. I have an underwater rifle but only one harpoon and there are many sharks. The bleeding diver is swimming towards the last protective cage and will reach it before me and the others. The sharks, following the blood, are coming too close for me and the other divers to escape.",
+        "options": {
+            "1": "Shooting a bleeding diver with a harpoon, killing him, so that the sharks drawn by his blood stay with him while ten other divers and I escape to the last protective cage.",
+            "2": "Not shooting a bleeding diver with a harpoon, which would kill him, even though this means the sharks following his blood will reach ten other divers and me before we can escape."
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Means",
+                "Personal Force": "Personal",
+                "Beneficiary": "Self-beneficial",
+                "Evitability": "Avoidable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 23,
+        "text": " I and ten divers are part of an U.N. team who is deactivating anti-ship mines from World War II. One team member has hurt himself and the blood in the water has attracted several sharks. I have an underwater rifle, but only one harpoon and there are many sharks. The bleeding diver is swimming towards the last protective cage and will reach it before me and the others. The sharks, following the blood, are coming too close for me and the other divers to escape.",
+        "options": {
+            "1": "Detonating an underwater mine next to a bleeding diver by remote control, killing him, so that the sharks drawn by his blood stay with him while ten other divers and I escape to the last protective cage.",
+            "2": "Not detonating an underwater mine next to a bleeding diver by remote control, which would kill him, even though this means the sharks following his blood will reach ten other divers and me before we can escape."
+        },
+        "factors": {
+            "1": {
+                "Beneficiary": "Self-beneficial",
+                "Causal Role": "Means",
+                "Personal Force": "Impersonal",
+                "Evitability": "Avoidable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 24,
+        "text": "I work in an orphanage in a war-swept country that hosts ten orphans. Rebel soldiers have taken over the government and are now killing everyone who does not support their regime. Moreover, they are conducting an 'ethnic cleansing' genocide campaign to kill everyone of a particular ethnic group. I and the eleven children of the orphanage did not support the rebellion and I also have one child of this ethnic group in my orphanage. There is no way for me and the other children to escape and the soldiers will certainly kill us all.",
+        "options": {
+            "1": "Smothering a child in my orphanage who belongs to an ethnic group targeted for genocide by rebel soldiers, and who will be killed by them anyway, to show support for their regime so that they spare the other children and me.",
+            "2": "Refusing to support a rebel regime and keeping alive a child in my orphanage who belongs to an ethnic group it has targeted for genocide, even though this means the soldiers will kill the child, the other children, and me."
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Means",
+                "Evitability": "Inevitable",
+                "Personal Force": "Personal",
+                "Beneficiary": "Self-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 25,
+        "text": "I work in an orphanage in a war-swept country that hosts ten orphans. Rebel soldiers have taken over the government and are now killing everyone who does not support their regime. Moreover, they are conducting an 'ethnic cleansing' genocide campaign to kill everyone of a particular ethnic group. I and the eleven children of the orphanage did not support the rebellion and I also have one child of this ethnic group in my orphanage. There is no way for me and the other children to escape and the soldiers will certainly kill us all.",
+        "options": {
+            "1": "Ordering a nurse to give a fatal overdose to a child in my orphanage who belongs to an ethnic group targeted for genocide by rebel soldiers, and who will be killed by them anyway, to show support for their regime so that they spare the other children and me.",
+            "2": "Refusing to support a rebel regime and keeping alive a child in my orphanage who belongs to an ethnic group it has targeted for genocide, even though this means the soldiers will kill the child, the other children, and me."
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Inevitable",
+                "Causal Role": "Means",
+                "Personal Force": "Impersonal",
+                "Beneficiary": "Self-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 26,
+        "text": "I am a Peace Corps health-worker volunteering in a rural African village. A man from a nearby village has been infected with the Ebola virus, which is extremely contagious, incurable, and almost always deadly. Unexpectedly, this man is still alive, which means he must be immune to the virus' deadly consequences. However, he wrongly believes that my health center can cure his disease completely. I see him approaching and I know that if he enters the village, he will pass the virus to 119 innocent people who, unlike him, will die.",
+        "options": {
+            "1": "Shooting a man who carries the Ebola virus but is immune to it, killing him before he can enter a village, so that he does not infect 119 innocent people there who would die from it.",
+            "2": "Letting a man who carries the Ebola virus but is immune to it enter a village, even though this means he will infect 119 innocent people there who will die from it."
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Avoidable",
+                "Causal Role": "Means",
+                "Personal Force": "Personal",
+                "Beneficiary": "Self-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 27,
+        "text": "I am a Peace Corps health-worker volunteering in a rural African village. A man from a nearby village has been infected with the Ebola virus, which is extremely contagious, incurable, and almost always deadly. Unexpectedly, this man is still alive, which means he must be immune to the virus' deadly consequences. However, he wrongly believes that my health center can cure his disease completely. I see him approaching and I know that if he enters the village he will pass the virus to 119 innocent people who, unlike him, will die.",
+        "options": {
+            "1": "Warning a village council so that they shoot a man who carries the Ebola virus but is immune to it, killing him before he can enter the village, so that he does not infect 119 innocent people there who would die from it.",
+            "2": "Letting a man who carries the Ebola virus but is immune to it enter a village, even though this means he will infect 119 innocent people there who will die from it."
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Means",
+                "Personal Force": "Impersonal",
+                "Evitability": "Avoidable",
+                "Beneficiary": "Self-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 28,
+        "text": "I am a doctor alone in a rescue helicopter during a devastating flood. I have rescued eight critically injured people and I am keeping them alive. Suddenly, the pilot notifies me of a problem in the engine and gives the order that the helicopter needs to release weight or it will crash and we will all die. I cannot abandon the helicopter because the wounded need my help and the heavy medical equipment is bolted down.",
+        "options": {
+            "1": "Throwing one of eight critically injured people out of a failing rescue helicopter during a flood, killing them, so that the helicopter is light enough not to crash and kill the pilot, the seven other injured people, and me.",
+            "2": "Keeping all eight critically injured people on board a failing rescue helicopter during a flood, even though this means the helicopter will be too heavy and will crash, killing the pilot, all eight injured people, and me."
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Personal",
+                "Beneficiary": "Self-beneficial",
+                "Causal Role": "Means",
+                "Evitability": "Inevitable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 29,
+        "text": "I am a doctor alone in a rescue helicopter during a devastating flood. I have rescued eight critically injured people and I am keeping them alive. Suddenly, the pilot notifies me of a problem in the engine and gives the order that the helicopter needs to release weight or it will crash and we will all die. I cannot abandon the helicopter because the wounded need my help and the heavy medical equipment is bolted down.",
+        "options": {
+            "1": "Cutting a helicopter's rescue cable during a flood, causing an injured person being lifted on it to fall to their death, so that the overloaded helicopter does not crash and kill the pilot, eight critically injured passengers, and me.",
+            "2": "Letting an injured person being lifted on a helicopter's rescue cable during a flood come on board, even though the extra weight will cause the helicopter to crash and kill the pilot, eight critically injured passengers, the person being lifted, and me."
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Impersonal",
+                "Beneficiary": "Self-beneficial",
+                "Causal Role": "Means",
+                "Evitability": "Inevitable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 30,
+        "text": "I am an engineer on the International Space Station (ISS). Suddenly, a fire breaks out in the cargo bay. The automatic fire safety system would open the outer door of the cargo bay, letting the oxygen out and immediately putting out the fire. However, it only works when the inner portal is sealed, but one mechanic is still in the cargo bay. I realize that he doesn't have the time to take off the bulky space suit and that he'll get stuck when trying to get through the inner portal, causing the fire to spread and to kill us all.",
+        "options": {
+            "1": "Manually sealing the inner door of a burning cargo bay on a space station, causing a mechanic still inside to be sucked out into space to his death when the bay is vented, so that the fire is put out before it spreads and kills everyone on board, including me.",
+            "2": "Letting a mechanic try to escape a burning cargo bay on a space station, even though his bulky space suit will get him stuck in the doorway, allowing the fire to spread and kill everyone on board, including him and me."
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Side Effect",
+                "Beneficiary": "Self-beneficial",
+                "Evitability": "Inevitable",
+                "Personal Force": "Personal"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 31,
+        "text": "I am an engineer on the International Space Station (ISS). Suddenly, a fire breaks out in the cargo bay. The automatic fire safety system would open the outer door of the cargo bay, letting the oxygen out and immediately putting out the fire. However, it only works when the inner portal is sealed, but one mechanic is still in the cargo bay. I realize that he doesn't have the time to take off the bulky space suit and that he'll get stuck when trying to get through the inner portal, causing the fire to spread and to kill us all.",
+        "options": {
+            "1": "Pushing a button to put out a fire in a space station's cargo bay by sealing the bay's inner door, causing a mechanic still inside to be sucked out into space to his death when the bay is vented, so that the fire does not spread and kill everyone on board, including me.",
+            "2": "Letting a mechanic try to escape a burning cargo bay on a space station, even though his bulky space suit will get him stuck in the doorway, allowing the fire to spread and kill everyone on board, including him and me."
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Impersonal",
+                "Evitability": "Inevitable",
+                "Causal Role": "Side Effect",
+                "Beneficiary": "Self-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 32,
+        "text": "I am an inspector of a nuclear power plant. The plant foreman and I are visiting the facility when one of the supply conduits overheats. The emergency coolant system fails to activate, and a chain reaction which will result in a nuclear meltdown is about to start. This will release lethal radiation into the nearby town, killing thousands of people.",
+        "options": {
+            "1": "Pushing a plant foreman down onto overheating supply conduits at a nuclear power plant, killing him, so that his body cools them and stops a chain reaction that would cause a meltdown and kill thousands of people in a nearby town.",
+            "2": "Not pushing a plant foreman down onto overheating supply conduits at a nuclear power plant, which would kill him but cool them, even though this means a chain reaction will cause a meltdown and kill thousands of people in a nearby town."
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Personal",
+                "Causal Role": "Means",
+                "Evitability": "Inevitable",
+                "Beneficiary": "Self-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 33,
+        "text": "I am an inspector of a nuclear power plant. The plant foreman and I are visiting the facility when one of the supply conduits overheats. The emergency coolant system fails to activate, and a chain reaction which will result in a nuclear meltdown is about to start. This will release lethal radiation into the nearby town, killing thousands of people.",
+        "options": {
+            "1": "Flooding a supply chamber at a nuclear power plant with liquid nitrogen to cool overheating conduits, killing an employee trapped inside, so that a chain reaction does not cause a meltdown that would kill thousands of people in a nearby town.",
+            "2": "Not flooding a supply chamber at a nuclear power plant with liquid nitrogen to cool overheating conduits, which would kill an employee trapped inside, even though this means a chain reaction will cause a meltdown and kill thousands of people in a nearby town."
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Inevitable",
+                "Causal Role": "Side Effect",
+                "Personal Force": "Impersonal",
+                "Beneficiary": "Self-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 34,
+        "text": "I am the explosives expert of a company that has been hired to demolish a skyscraper. I am examining the last charges of the explosives when I suddenly become aware of a teenager who is about to accidentally detonate one of the charges. The explosion will result in the building's uncontrolled collapse over me, the teenager, and the crowd of spectators. The teenager stands several floors below me and cannot hear me. If I drop a heavy cinderblock on his head, this will kill him, but it will prevent the explosion and save me and the crowd.",
+        "options": {
+            "1": "Dropping a heavy cinderblock on the head of a teenager who is about to accidentally set off an explosive charge in a skyscraper being demolished, killing him, so that the building does not collapse on him, a crowd of spectators, and me.",
+            "2": "Not dropping a heavy cinderblock on the head of a teenager who is about to accidentally set off an explosive charge in a skyscraper being demolished, which would kill him, even though this means the building will collapse on him, a crowd of spectators, and me."
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Means",
+                "Beneficiary": "Self-beneficial",
+                "Evitability": "Inevitable",
+                "Personal Force": "Personal"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 35,
+        "text": "I am the explosives expert of a company that has been hired to demolish a skyscraper. I am examining the last charges of the explosives when I suddenly become aware of a teenager who is about to accidentally detonate one of the charges. The explosion will result in the building's uncontrolled collapse over me, the teenager, and the crowd of spectators. The teenager stands several floors below me and cannot hear me. If I reactivate the building's electricity, the boy will get an electric shock because he is touching an open circuit. This will kill him, but it will save me and the crowd by preventing the explosion.",
+        "options": {
+            "1": "Turning a skyscraper's electricity back on so that a teenager touching an open circuit is electrocuted and killed before he can accidentally set off an explosive charge in the building, so that it does not collapse on him, a crowd of spectators, and me.",
+            "2": "Not turning a skyscraper's electricity back on, which would electrocute and kill a teenager touching an open circuit, even though this means he will accidentally set off an explosive charge and the building will collapse on him, a crowd of spectators, and me."
+        },
+        "factors": {
+            "1": {
+                "Beneficiary": "Self-beneficial",
+                "Personal Force": "Impersonal",
+                "Causal Role": "Means",
+                "Evitability": "Inevitable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 36,
+        "text": "I am the bus driver of a kindergarten trip to the zoo. On the way, faulty tires cause the bus to plunge off a bridge and into a roaring river. I and three of the children are still in the sinking bus. The rest have already been swept away by the river. I grab the two children next to me and begin to swim towards the exit. The third child latches onto my leg. I feel that I am not strong enough to fight against the current and swim with all three children.",
+        "options": {
+            "1": "Shaking off a kindergarten child clinging to my leg as I swim out of a sinking bus in a river, leaving the child to drown, so that I can make it against the current with the two other children I am holding.",
+            "2": "Swimming out of a sinking bus in a river while holding two kindergarten children, with a third child clinging to my leg, even though I am not strong enough to make it against the current with all three."
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Side Effect",
+                "Personal Force": "Personal",
+                "Beneficiary": "Self-beneficial",
+                "Evitability": "Inevitable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 37,
+        "text": "I am the bus driver of a kindergarten trip to the zoo. On the way, faulty tires cause the bus to plunge off a bridge and into a roaring river. I and three of the children are still in the sinking bus. The rest have already been swept away by the river. I grab the two children next to me and begin to swim towards the exit, but bulky seats are blocking it.",
+        "options": {
+            "1": "Moving bulky seats that block the exit of a sinking bus into the corridor, trapping a kindergarten child who will drown, so that two other children and I can escape.",
+            "2": "Not moving bulky seats that block the exit of a sinking bus into the corridor, which would trap a kindergarten child who would drown, even though this means two other children, the third child, and I cannot escape."
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Inevitable",
+                "Causal Role": "Side Effect",
+                "Personal Force": "Impersonal",
+                "Beneficiary": "Self-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 38,
+        "text": "I am a doctor. I have five patients who will all die if they don't get an immediate organ transplant. Another patient is just being rushed to the hospital after a serious car accident. This person is critically injured, but I can probably save him by means of a long and complicated operation.",
+        "options": {
+            "1": "Cutting the carotid artery of a critically injured accident victim, whom I could probably save with surgery, killing him so that I can use his organs for transplants to save five of my patients who will otherwise die.",
+            "2": "Not cutting the carotid artery of a critically injured accident victim, whom I could probably save with surgery, to use his organs for transplants, even though this means five of my patients who need them will die."
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Avoidable",
+                "Causal Role": "Means",
+                "Personal Force": "Personal",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 39,
+        "text": "I am a doctor. I have five patients who will all die if they don't get an immediate organ transplant. Another patient is just being rushed to the hospital after a serious car accident. This person is critically injured. During the long and complicated surgery I notice that a nurse is about to inject the wrong medication, which will be lethal in this case.",
+        "options": {
+            "1": "Letting a nurse inject a critically injured accident victim with the wrong medication during surgery, which will kill him, so that I can use his organs for transplants to save five of my patients who will otherwise die.",
+            "2": "Stopping a nurse from injecting a critically injured accident victim with the wrong medication during surgery, which would kill him, even though this means five of my patients who need his organs for transplants will die."
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Means",
+                "Personal Force": "Impersonal",
+                "Beneficiary": "Other-beneficial",
+                "Evitability": "Avoidable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 40,
+        "text": "I am part of a shipyard dock team that attaches crane cables to containers to unload the cargo ships. My team and I have just attached cables to a container and are now climbing on top of it to make sure it is unloaded properly. Suddenly the red warning light flashes, indicating that the crane cable is about to fail. I see that the reason for this is a fight between two crewmembers. The container is swinging dangerously over five other crewmembers on the deck.",
+        "options": {
+            "1": "Pushing members of my team standing on top of a swinging crane container, causing one without a safety harness to fall to their death, so that the container, whose cable is about to fail, stops swinging dangerously over five crewmembers on the deck below.",
+            "2": "Not pushing members of my team standing on top of a swinging crane container, which would cause one without a safety harness to fall to their death, even though this means the container, whose cable is about to fail, keeps swinging dangerously over five crewmembers on the deck below."
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Side Effect",
+                "Personal Force": "Personal",
+                "Evitability": "Avoidable",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 41,
+        "text": "I am part of a shipyard dock team that attaches crane cables to containers to unload the cargo ships. My team and I have just attached cables to a container and are now climbing on top of it to make sure it is unloaded properly. Suddenly the red warning light flashes, indicating that a cable is about to fail. If it fails over the deck, the container will collapse onto five crewmembers.",
+        "options": {
+            "1": "Pushing an emergency button that moves a crane's failing container away from five crewmembers on a ship's deck, so that it falls into the cargo bay and kills one crewmember there instead.",
+            "2": "Not pushing an emergency button that would move a crane's failing container into a ship's cargo bay, where it would kill one crewmember, even though this means it will fall onto the deck and kill five crewmembers there."
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Impersonal",
+                "Causal Role": "Side Effect",
+                "Evitability": "Avoidable",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 42,
+        "text": "A viral epidemic has spread across the globe killing thousands of people. I am a medical researcher and have developed two substances in my laboratory. Due to a mistake both are labeled as vaccine. One of them is indeed the vaccine, which could save thousands of lives. The other one is lethal.",
+        "options": {
+            "1": "Injecting two lab assistants with two mislabeled substances, one a vaccine and the other lethal, knowing that one assistant will die, so that I can identify the vaccine that could save thousands of lives in a deadly global epidemic.",
+            "2": "Not injecting two lab assistants with two mislabeled substances, one a vaccine and the other lethal, which would kill one of them, even though this means I cannot identify the vaccine that could save thousands of lives in a deadly global epidemic."
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Avoidable",
+                "Beneficiary": "Other-beneficial",
+                "Causal Role": "Side Effect",
+                "Personal Force": "Personal"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 43,
+        "text": "A viral epidemic has spread across the globe, killing thousands of people. I am a medical researcher and have developed two substances in my laboratory. Due to a mistake, both are labeled as vaccine. One of them is indeed the vaccine, which could save thousands of lives. The other one is lethal.",
+        "options": {
+            "1": "Allowing a nurse to inject two lab assistants with two mislabeled substances, one a vaccine and the other lethal, knowing that one assistant will die, so that I can identify the vaccine that could save thousands of lives in a deadly global epidemic.",
+            "2": "Not allowing a nurse to inject two lab assistants with two mislabeled substances, one a vaccine and the other lethal, which would kill one of them, even though this means I cannot identify the vaccine that could save thousands of lives in a deadly global epidemic."
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Avoidable",
+                "Causal Role": "Side Effect",
+                "Beneficiary": "Other-beneficial",
+                "Personal Force": "Impersonal"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 44,
+        "text": "A runaway trolley is speeding down the tracks towards five workmen who will be killed if the trolley continues on its present course. I am standing next to the tracks, but I am too far away to warn them. Next to me is a very large stranger. If I push the large stranger onto the tracks, the trolley will slide off the tracks and won\u2019t continue its course towards the workmen. This will kill the stranger, but I will save the five workmen.",
+        "options": {
+            "1": "Pushing a very large stranger onto the tracks in front of a runaway trolley, killing him, so that the trolley derails and does not kill five workmen further down the track.",
+            "2": "Not pushing a very large stranger onto the tracks in front of a runaway trolley, which would kill him but derail the trolley, even though this means it will kill five workmen further down the track."
+        },
+        "factors": {
+            "1": {
+                "Beneficiary": "Other-beneficial",
+                "Personal Force": "Personal",
+                "Causal Role": "Means",
+                "Evitability": "Avoidable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 45,
+        "text": "A runaway trolley is speeding down the tracks towards five workmen who will be killed if the trolley continues on its present course. I am standing next to the tracks, but I am too far away to warn them. Next to me is a control switch that can redirect the trolley onto a different track, where only one workman is working. If I flip the control switch, it will divert the trolley onto the track with one workman and will not continue its course towards the five workmen. This will kill this workman, but it will save the other five.",
+        "options": {
+            "1": "Flipping a switch to divert a runaway trolley onto a track where it will kill one workman, so that it does not kill five workmen on its current track.",
+            "2": "Not flipping a switch to divert a runaway trolley onto a track where it would kill one workman, even though this means it will kill five workmen on its current track."
+        },
+        "factors": {
+            "1": {
+                "Beneficiary": "Other-beneficial",
+                "Causal Role": "Side Effect",
+                "Personal Force": "Impersonal",
+                "Evitability": "Avoidable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 46,
+        "text": "A fellow researcher and I have discovered a powerful new energy source that is cheap, safe, and clean. It has the potential to put an end to pollution and poverty in the world. However, my colleague wants to sell the discovery, and I know that he is planning to contact the potential buyers today. I also know for sure that the latter will use the invention as a deadly weapon, but my colleague doesn't believe me.",
+        "options": {
+            "1": "Poisoning a colleague, killing him, to stop him from selling our powerful new energy discovery to buyers who will use it as a deadly weapon.",
+            "2": "Letting a colleague sell our powerful new energy discovery to buyers who will use it as a deadly weapon, rather than poisoning him to stop the sale, which would kill him."
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Avoidable",
+                "Beneficiary": "Other-beneficial",
+                "Causal Role": "Means",
+                "Personal Force": "Personal"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 47,
+        "text": "A fellow researcher and I have discovered a powerful new energy source that is cheap, safe, and clean. It has the potential to put an end to pollution and poverty in the world. However, my colleague wants to sell the discovery, and I know that he is planning to contact the potential buyers by email today. I also know for sure that the latter will use the invention as a deadly weapon, but my colleague doesn't believe me.",
+        "options": {
+            "1": "Releasing flammable gas to make a colleague's computer explode, killing him, to stop him from selling our powerful new energy discovery to buyers who will use it as a deadly weapon.",
+            "2": "Not releasing flammable gas to make a colleague's computer explode, which would kill him, even though this means he will sell our powerful new energy discovery to buyers who will use it as a deadly weapon."
+        },
+        "factors": {
+            "1": {
+                "Beneficiary": "Other-beneficial",
+                "Personal Force": "Impersonal",
+                "Evitability": "Avoidable",
+                "Causal Role": "Means"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 48,
+        "text": "I am an expert motorcyclist participating in a Bike Week. As I am driving down the road in front of a large group of ten bikers, I suddenly notice that a biker up front is losing control over his machine. As I speed up to pull alongside him, I realize that he is going to crash any moment. This would result in a large pile-up and the group of ten bikers behind me will die.",
+        "options": {
+            "1": "Forcing a motorcyclist who is losing control of his bike off the road, killing him, so that his crash does not cause a pile-up that would kill ten bikers riding behind me.",
+            "2": "Leaving alone a motorcyclist who is losing control of his bike and about to crash, even though this means his crash will cause a pile-up that kills ten bikers riding behind me."
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Inevitable",
+                "Personal Force": "Personal",
+                "Causal Role": "Means",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 49,
+        "text": "I am an expert motorcyclist participating in a Bike Week. As I am driving down the road in front of a large group of ten bikers, I suddenly notice that a biker up front is losing control over his machine and is falling. I can easily evade him myself but the bikers behind me will crash into each other and die in the resulting pile-up.",
+        "options": {
+            "1": "Driving my motorcycle into the bike of a falling motorcyclist, killing him, so that the collision alerts ten bikers riding behind me to the accident and they avoid a deadly pile-up.",
+            "2": "Leaving a falling motorcyclist alone and swerving around him myself, even though this means ten bikers riding behind me will crash into each other and die in the resulting pile-up."
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Means",
+                "Personal Force": "Impersonal",
+                "Evitability": "Inevitable",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 50,
+        "text": "I am the leader of a small group of soldiers. I am on my way back from a mission in enemy territory when one of my men steps in a trap that catches his leg, injuring him badly. I cannot free him without killing him, but if I leave him behind, enemy troops will torture him until he reveals the position of an important allied base camp. After that the soldiers will attack this camp and kill the 10 soldiers of the platoon there. The soldier begs me not to leave him behind, but the enemy troops are approaching and it is dangerous for me and my men to stay because we don't have any more ammunition.",
+        "options": {
+            "1": "Stabbing to death one of my soldiers who is caught in a trap in enemy territory, so that enemy troops cannot torture him into revealing the location of an allied base camp, where they would kill 10 soldiers.",
+            "2": "Letting one of my soldiers who is caught in a trap in enemy territory live and leaving him behind, even though this means enemy troops will torture him into revealing the location of an allied base camp, where they will kill 10 soldiers."
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Inevitable",
+                "Beneficiary": "Other-beneficial",
+                "Personal Force": "Personal",
+                "Causal Role": "Means"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 51,
+        "text": "I am the leader of a small group of soldiers. I am on my way back from a mission in enemy territory when one of my men steps in a trap that catches his leg, injuring him badly. I cannot free him without killing him, but if I leave him behind, enemy troops will torture him until he reveals the position of an important allied base camp. After that, the soldiers will attack this camp and kill the 10 soldiers of the platoon there. The soldier begs me not to leave him behind, but the enemy troops are approaching and it is dangerous for me and my men to stay because we don't have more ammunition.",
+        "options": {
+            "1": "Ordering a bombing of the area where one of my soldiers is caught in a trap in enemy territory, killing him, so that enemy troops cannot torture him into revealing the location of an allied base camp, where they would kill 10 soldiers.",
+            "2": "Not ordering a bombing of the area where one of my soldiers is caught in a trap in enemy territory, which would kill him, even though this means enemy troops will torture him into revealing the location of an allied base camp, where they will kill 10 soldiers."
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Means",
+                "Evitability": "Inevitable",
+                "Personal Force": "Impersonal",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 52,
+        "text": "I am on the night watch in a hospital. A chemical product has been spilled in a room with six patients. This chemical is highly toxic because once exposed to oxygen it evaporates and transforms into a poisonous gas which will kill all the patients in the room. I cannot wipe it away with conventional towels or wiping clothes. However, my skin absorbs it swiftly.",
+        "options": {
+            "1": "Placing a hospital patient on a spilled toxic chemical so that their skin absorbs it, killing them, to stop it from turning into a poisonous gas that would kill all six patients in the room.",
+            "2": "Not placing a hospital patient on a spilled toxic chemical so that their skin absorbs it, which would kill them, even though this means it will turn into a poisonous gas and kill all six patients in the room, including them."
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Personal",
+                "Causal Role": "Means",
+                "Evitability": "Inevitable",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 53,
+        "text": "I am on the night watch in a hospital. A chemical product has been spilled in a room with five patients. This chemical is highly toxic because once exposed to oxygen it evaporates and transforms into a poisonous gas which will kill all the patients in the room. I cannot wipe it away with conventional towels or wiping clothes.",
+        "options": {
+            "1": "Activating a hospital ventilation system to divert poisonous gas from a spilled chemical into a room with one patient, killing them, so that it does not kill five patients in the room where the chemical was spilled.",
+            "2": "Not activating a hospital ventilation system that would divert poisonous gas from a spilled chemical into a room with one patient, killing them, even though this means the gas will kill five patients in the room where the chemical was spilled."
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Inevitable",
+                "Personal Force": "Impersonal",
+                "Causal Role": "Side Effect",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 54,
+        "text": "I am on a rowboat with a tour guide on a lake in Alaska. Nearby, three children have fallen off their boat and are in danger of freezing to death. I rescue the children, but one of them is very heavy and I realize that if I keep him on board my boat will sink and all will die. Neither I nor the guide can leave the boat because I am rowing and the guide is giving CPR to one of the children.",
+        "options": {
+            "1": "Throwing a heavy child I rescued from an icy lake overboard from my rowboat, leaving him to freeze to death, so that the boat does not sink and kill the two other rescued children, a tour guide, and me.",
+            "2": "Keeping a heavy child I rescued from an icy lake on board my rowboat, even though this means the boat will sink and he, the two other rescued children, a tour guide, and I will all die."
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Personal",
+                "Causal Role": "Means",
+                "Beneficiary": "Other-beneficial",
+                "Evitability": "Inevitable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 55,
+        "text": "I am on a rowboat with a tour guide on a lake in Alaska. Nearby, three children have fallen off their boat and are in danger of freezing to death. After I rescue two of the children, I realize that the weight of the third child would cause my boat to sink and all would die. Neither I nor the guide can leave the boat because I am rowing and the guide is giving CPR to one of the children.",
+        "options": {
+            "1": "Leaving a heavy child in an icy lake instead of pulling them onto my rowboat, where they will freeze to death, so that the boat does not sink and kill two children I already rescued, a tour guide, and me.",
+            "2": "Pulling a heavy child out of an icy lake onto my rowboat, even though this means the boat will sink and the child, two children I already rescued, a tour guide, and I will all die."
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Impersonal",
+                "Beneficiary": "Other-beneficial",
+                "Evitability": "Inevitable",
+                "Causal Role": "Side Effect"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 56,
+        "text": "I am a miner. The only way out of the mine is to ride up with a simple cable elevator with small cubicles. It is the end of my shift and everybody is riding up to the surface in the cubicles. While I am in the queue, I see that the cable supporting all the cubicles is about to snap. 10 miners are riding in the cubicles at this time.",
+        "options": {
+            "1": "Knocking a mine elevator cubicle carrying one miner off its cable, sending the miner falling to their death, to reduce the weight so that the elevator's failing cable does not snap and kill all 10 miners riding it.",
+            "2": "Not knocking a mine elevator cubicle carrying one miner off its cable, which would send the miner falling to their death, even though this means the elevator's failing cable will snap and kill all 10 miners riding it."
+        },
+        "factors": {
+            "1": {
+                "Causal Role": "Means",
+                "Personal Force": "Personal",
+                "Evitability": "Inevitable",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 57,
+        "text": "I am a miner. The only way out of the mine is to ride up with a simple cable elevator with small cubicles. It is the end of my turn and everybody is riding up to the surface in the cubicles. While I am in the queue, I see that the cable supporting all the cubicles is about to snap. 10 miners are riding the cubicles at this time.",
+        "options": {
+            "1": "Pushing an emergency switch that detaches the last cubicle of a mine elevator, sending the miner inside it falling to their death, to reduce the weight so that the elevator's failing cable does not snap and kill all 10 miners riding it.",
+            "2": "Not pushing an emergency switch that would detach the last cubicle of a mine elevator, sending the miner inside it falling to their death, even though this means the elevator's failing cable will snap and kill all 10 miners riding it."
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Inevitable",
+                "Beneficiary": "Other-beneficial",
+                "Causal Role": "Means",
+                "Personal Force": "Impersonal"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 58,
+        "text": "I am an electrician hired to fix an electrical problem in the home of a very wealthy tycoon who is terminally ill with cancer. Recently, it has been announced that upon his death, his enormous fortune will be donated to the local children's hospital. I know that there are 109 children at this hospital who could be saved with this money, but who cannot wait much longer before they die.",
+        "options": {
+            "1": "Suffocating a terminally ill tycoon whose fortune will go to a children's hospital when he dies, so that the money arrives in time to save 109 children there who cannot wait much longer before they die.",
+            "2": "Waiting for a terminally ill tycoon whose fortune will go to a children's hospital to die of his illness, even though the money may then come too late to save 109 children there who cannot wait much longer before they die."
+        },
+        "factors": {
+            "1": {
+                "Beneficiary": "Other-beneficial",
+                "Evitability": "Inevitable",
+                "Causal Role": "Means",
+                "Personal Force": "Personal"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 59,
+        "text": "I am an electrician hired to fix an electrical problem in the home of a very wealthy tycoon who is terminally ill with cancer. Recently, it has been announced that upon his death, his enormous fortune will be donated to the local children's hospital. I know that there are 112 children at this hospital who could be saved with this money, but who cannot wait much longer before they die.",
+        "options": {
+            "1": "Causing the life support equipment of a terminally ill tycoon to fail, killing him, so that his fortune, which will go to a children's hospital when he dies, arrives in time to save 112 children there who cannot wait much longer before they die.",
+            "2": "Waiting for a terminally ill tycoon whose fortune will go to a children's hospital to die of his illness, even though the money may then come too late to save 112 children there who cannot wait much longer before they die."
+        },
+        "factors": {
+            "1": {
+                "Evitability": "Inevitable",
+                "Personal Force": "Impersonal",
+                "Causal Role": "Means",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 60,
+        "text": "I am a military officer during a war. My soldiers have found an important enemy spy trapped and injured in a collapsed building. Over the radio I have been informed that enemy soldiers are planning a surprise attack on a nearby town, but I don't know which. They will kill thousands of civilians if my soldiers and I do not stop them. The spy knows which town will be attacked. I have questioned him but he doesn't want to tell me. He won't survive much longer due to his injuries.",
+        "options": {
+            "1": "Torturing a dying enemy spy trapped in a collapsed building to make him reveal which town his forces will attack, so that my soldiers can stop an attack that will kill thousands of civilians.",
+            "2": "Not torturing a dying enemy spy trapped in a collapsed building to make him reveal which town his forces will attack, even though this means my soldiers cannot stop an attack that will kill thousands of civilians."
+        },
+        "factors": {
+            "1": {
+                "Beneficiary": "Other-beneficial",
+                "Evitability": "Inevitable",
+                "Personal Force": "Personal",
+                "Causal Role": "Means"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 61,
+        "text": "I am a military officer during a war. My soldiers have found an important enemy spy trapped and injured in a collapsed building. Over the radio I have been informed that enemy soldiers are planning a surprise attack on a nearby town, but I don't know which. They will kill thousands of civilians if my soldiers and I do not stop them. The spy knows which town will be attacked. I have questioned him but he doesn't want to tell me. He won't survive much longer due to his injuries. Rats have begun to chew his legs and he is suffering a lot.",
+        "options": {
+            "1": "Letting rats keep chewing on the legs of a dying enemy spy trapped in a collapsed building, so that the pain makes him reveal which town his forces will attack and my soldiers can stop an attack that will kill thousands of civilians.",
+            "2": "Stopping rats from chewing on the legs of a dying enemy spy trapped in a collapsed building, even though this means the pain will not make him reveal which town his forces will attack, and my soldiers cannot stop an attack that will kill thousands of civilians."
+        },
+        "factors": {
+            "1": {
+                "Beneficiary": "Other-beneficial",
+                "Personal Force": "Impersonal",
+                "Causal Role": "Means",
+                "Evitability": "Inevitable"
+            },
+            "2": {}
+        }
+    }
+]

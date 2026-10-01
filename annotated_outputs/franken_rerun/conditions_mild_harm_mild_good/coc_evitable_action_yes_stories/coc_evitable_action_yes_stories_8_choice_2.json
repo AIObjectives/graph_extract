@@ -1,0 +1,6 @@
+{"node": {"kind": "action_choice", "label": "not participate in the advanced VR combat training."}, "links": [{"link": {"kind": "v-link", "value": "-66.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My team misses the somewhat more interesting training experience"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My soldiers do not experience short dizziness from extended VR sessions"}]}
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "not participate in the advanced VR combat training."}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "My team misses the somewhat more interesting training experience"}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "My soldiers do not experience short dizziness from extended VR sessions"}]}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"node": {"kind": "event", "label": "My team misses the somewhat more interesting training experience"}, "links": [{"link": {"kind": "utility", "value": "-10"}, "to_node": "i"}]}
+{"node": {"kind": "event", "label": "My soldiers do not experience short dizziness from extended VR sessions"}, "links": [{"link": {"kind": "utility", "value": "24"}, "to_node": "i"}]}
+{"version": "b9ed8a4482dae6b49c9ae093e540885cabfb3dee"}

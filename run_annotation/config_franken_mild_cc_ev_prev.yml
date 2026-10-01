@@ -1,0 +1,8 @@
+input_path: "scenarios_inputs/franken/"
+input_file: "conditions_mild_harm_mild_good/cc_evitable_prevention_no_stories.json"
+# commit_hash: "d635bb0c0b087388183c792f22a64a0dce5d1fb3"
+commit_hash: "b9ed8a4482dae6b49c9ae093e540885cabfb3dee"
+output_path: "annotated_outputs/franken_rerun/"
+scenario_ids: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+steps_to_keep: ["beings", "outcomes"]
+write_qualtrics: false

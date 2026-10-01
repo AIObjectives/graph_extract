@@ -1,0 +1,7 @@
+{"node": {"kind": "action_choice", "label": "not use the new eco-friendly paint."}, "links": [{"link": {"kind": "v-link", "value": "-88.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "My artworks take longer to dry"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "I am exposed to a stronger paint smell"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "More environmentally harmful paint is used"}]}
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "not use the new eco-friendly paint."}, {"link": {"kind": "b_link", "value": "C-I-K+"}, "to_node": "My artworks take longer to dry"}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "I am exposed to a stronger paint smell"}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "More environmentally harmful paint is used"}]}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"node": {"kind": "event", "label": "My artworks take longer to dry"}, "links": [{"link": {"kind": "utility", "value": "-12"}, "to_node": "i"}]}
+{"node": {"kind": "event", "label": "I am exposed to a stronger paint smell"}, "links": [{"link": {"kind": "utility", "value": "-15"}, "to_node": "i"}]}
+{"node": {"kind": "event", "label": "More environmentally harmful paint is used"}, "links": [{"link": {"kind": "utility", "value": "0"}, "to_node": "i"}]}
+{"version": "b9ed8a4482dae6b49c9ae093e540885cabfb3dee"}

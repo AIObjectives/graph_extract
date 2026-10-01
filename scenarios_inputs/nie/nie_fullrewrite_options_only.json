@@ -1,0 +1,394 @@
+[
+    {
+        "id": 0,
+        "options": {
+            "1": "Redirecting a high-speed train onto a side track, where it will hit a bus with 2 passengers, so that it does not hit a bus with 10 passengers on the main track.",
+            "2": "Keeping a high-speed train on its track, where it will hit a bus with 10 passengers, rather than redirecting it onto a side track, where it would hit a bus with 2 passengers."
+        }
+    },
+    {
+        "id": 1,
+        "options": {
+            "1": "Pushing several cars with my truck so that they shove a bus with 2 passengers into the path of a high-speed train, so that the train hits it instead of a bus with 10 passengers.",
+            "2": "Not pushing several cars with my truck to shove a bus with 2 passengers into the path of a high-speed train, even though this means the train will hit a bus with 10 passengers."
+        }
+    },
+    {
+        "id": 2,
+        "options": {
+            "1": "Throwing a bomb in a restaurant onto the patio, where it will kill 1 guest, so that it does not kill 9 guests inside.",
+            "2": "Not throwing a bomb in a restaurant onto the patio, where it would kill 1 guest, even though this means it will kill 9 guests inside."
+        }
+    },
+    {
+        "id": 3,
+        "options": {
+            "1": "Throwing a restaurant guest onto a bomb, killing them, so that the bomb does not kill 9 other guests.",
+            "2": "Not throwing a restaurant guest onto a bomb, which would kill them, even though this means the bomb will kill 9 other guests."
+        }
+    },
+    {
+        "id": 4,
+        "options": {
+            "1": "Redirecting a virus that causes paraplegia through a ventilation system into a room with 1 patient, so that it paralyzes that patient instead of 4 others.",
+            "2": "Not redirecting a virus that causes paraplegia through a ventilation system into a room with 1 patient, even though this means it will paralyze 4 other patients."
+        }
+    },
+    {
+        "id": 5,
+        "options": {
+            "1": "Having a patient undergo a bone marrow procedure that will leave them paraplegic, so that their bone marrow can save 4 other patients from a virus that causes paraplegia.",
+            "2": "Not having a patient undergo a bone marrow procedure that would leave them paraplegic, even though this means 4 other patients will be paralyzed by a virus that causes paraplegia."
+        }
+    },
+    {
+        "id": 6,
+        "options": {
+            "1": "Destroying a torpedo by remote control, which will sink a nearby submarine with 3 soldiers, so that the torpedo does not hit a boat with 6 soldiers.",
+            "2": "Not destroying a torpedo by remote control, which would sink a nearby submarine with 3 soldiers, even though this means the torpedo will hit a boat with 6 soldiers."
+        }
+    },
+    {
+        "id": 7,
+        "options": {
+            "1": "Ordering 3 soldiers to move their boat so that a torpedo heading for a boat with 6 soldiers is diverted onto their own boat instead.",
+            "2": "Not ordering 3 soldiers to move their boat to divert a torpedo onto their own boat, even though this means the torpedo will hit a boat with 6 soldiers."
+        }
+    },
+    {
+        "id": 8,
+        "options": {
+            "1": "Redirecting a high-speed train onto a parallel side track, where it will hit a bus and seriously harm its 2 passengers, so that it does not hit a bus and seriously harm 10 passengers on the main track.",
+            "2": "Not redirecting a high-speed train onto a parallel side track, where it would hit a bus and seriously harm its 2 passengers, even though this means it will hit a bus and seriously harm 10 passengers on the main track."
+        }
+    },
+    {
+        "id": 9,
+        "options": {
+            "1": "Redirecting a high-speed train onto a side track that loops back to the main track, where hitting a bus will seriously harm its 2 passengers but stop the train before it loops back and seriously harms 10 passengers in a bus on the main track.",
+            "2": "Not redirecting a high-speed train onto a side track that loops back to the main track, where hitting a bus would seriously harm its 2 passengers but stop the train, even though this means the train will seriously harm 10 passengers in a bus on the main track."
+        }
+    },
+    {
+        "id": 10,
+        "options": {
+            "1": "Pushing a heavy worker off a bridge into the path of a runaway train, killing him, so that the collision stops the train before it runs over and kills three railroad workers on the track.",
+            "2": "Not pushing a heavy worker off a bridge into the path of a runaway train, which would kill him, even though this means the train will run over and kill three railroad workers on the track."
+        }
+    },
+    {
+        "id": 11,
+        "options": {
+            "1": "Pushing a button that opens a trap door on a bridge, dropping a heavy worker into the path of a runaway train and killing him, so that the collision stops the train before it runs over and kills three railroad workers on the track.",
+            "2": "Not pushing a button that would open a trap door on a bridge and drop a heavy worker into the path of a runaway train, killing him, even though this means the train will run over and kill three railroad workers on the track."
+        }
+    },
+    {
+        "id": 12,
+        "options": {
+            "1": "Throwing a switch to turn a runaway trolley onto a side track, where it will kill one person, so that it does not kill two people on the main track.",
+            "2": "Not throwing a switch to turn a runaway trolley onto a side track, where it would kill one person, even though this means it will kill two people on the main track."
+        }
+    },
+    {
+        "id": 13,
+        "options": {
+            "1": "Throwing a switch to turn a runaway trolley onto a side track, where it will kill my brother, so that it does not kill one person on the main track.",
+            "2": "Not throwing a switch to turn a runaway trolley onto a side track, where it would kill my brother, even though this means it will kill one person on the main track."
+        }
+    },
+    {
+        "id": 14,
+        "options": {
+            "1": "Throwing a switch to turn a runaway trolley onto a side track, where it will kill my brother, so that it does not kill two people on the main track.",
+            "2": "Not throwing a switch to turn a runaway trolley onto a side track, where it would kill my brother, even though this means it will kill two people on the main track."
+        }
+    },
+    {
+        "id": 15,
+        "options": {
+            "1": "Throwing a switch to turn a runaway trolley onto a side track, where it will kill two people, so that it does not kill my brother on the main track.",
+            "2": "Not throwing a switch to turn a runaway trolley onto a side track, where it would kill two people, even though this means it will kill my brother on the main track."
+        }
+    },
+    {
+        "id": 18,
+        "options": {
+            "1": "Putting my hand over my crying baby's mouth to muffle the noise, smothering the baby, whom enemy soldiers would otherwise spare, so that the soldiers searching the house do not find and kill my ten neighbors and me hiding in the cellar.",
+            "2": "Letting my baby cry, even though this means enemy soldiers searching the house will find and kill my ten neighbors and me hiding in the cellar, sparing only my baby."
+        }
+    },
+    {
+        "id": 19,
+        "options": {
+            "1": "Turning on a noisy boiler to drown out my crying baby, which will asphyxiate the baby, whom enemy soldiers would otherwise spare, so that the soldiers searching the house do not find and kill my ten neighbors and me hiding in the cellar.",
+            "2": "Letting my baby cry, even though this means enemy soldiers searching the house will find and kill my ten neighbors and me hiding in the cellar, sparing only my baby."
+        }
+    },
+    {
+        "id": 20,
+        "options": {
+            "1": "Opening a hatch on a damaged submarine, knowing it will fall on and kill an unconscious crewmember below, so that ten survivors and I can reach enough oxygen to survive.",
+            "2": "Not opening a hatch on a damaged submarine that would fall on and kill an unconscious crewmember below, even though this means there will not be enough oxygen for ten survivors and me."
+        }
+    },
+    {
+        "id": 21,
+        "options": {
+            "1": "Pushing a button to open a hatch on a damaged submarine, knowing it will fall on and kill an unconscious crewmember below, so that ten other survivors and I can reach enough oxygen to survive.",
+            "2": "Not pushing a button to open a hatch on a damaged submarine that would fall on and kill an unconscious crewmember below, even though this means there will not be enough oxygen for ten other survivors and me."
+        }
+    },
+    {
+        "id": 22,
+        "options": {
+            "1": "Shooting a bleeding diver with a harpoon, killing him, so that the sharks drawn by his blood stay with him while ten other divers and I escape to the last protective cage.",
+            "2": "Not shooting a bleeding diver with a harpoon, which would kill him, even though this means the sharks following his blood will reach ten other divers and me before we can escape."
+        }
+    },
+    {
+        "id": 23,
+        "options": {
+            "1": "Detonating an underwater mine next to a bleeding diver by remote control, killing him, so that the sharks drawn by his blood stay with him while ten other divers and I escape to the last protective cage.",
+            "2": "Not detonating an underwater mine next to a bleeding diver by remote control, which would kill him, even though this means the sharks following his blood will reach ten other divers and me before we can escape."
+        }
+    },
+    {
+        "id": 24,
+        "options": {
+            "1": "Smothering a child in my orphanage who belongs to an ethnic group targeted for genocide by rebel soldiers, and who will be killed by them anyway, to show support for their regime so that they spare the other children and me.",
+            "2": "Refusing to support a rebel regime and keeping alive a child in my orphanage who belongs to an ethnic group it has targeted for genocide, even though this means the soldiers will kill the child, the other children, and me."
+        }
+    },
+    {
+        "id": 25,
+        "options": {
+            "1": "Ordering a nurse to give a fatal overdose to a child in my orphanage who belongs to an ethnic group targeted for genocide by rebel soldiers, and who will be killed by them anyway, to show support for their regime so that they spare the other children and me.",
+            "2": "Refusing to support a rebel regime and keeping alive a child in my orphanage who belongs to an ethnic group it has targeted for genocide, even though this means the soldiers will kill the child, the other children, and me."
+        }
+    },
+    {
+        "id": 26,
+        "options": {
+            "1": "Shooting a man who carries the Ebola virus but is immune to it, killing him before he can enter a village, so that he does not infect 119 innocent people there who would die from it.",
+            "2": "Letting a man who carries the Ebola virus but is immune to it enter a village, even though this means he will infect 119 innocent people there who will die from it."
+        }
+    },
+    {
+        "id": 27,
+        "options": {
+            "1": "Warning a village council so that they shoot a man who carries the Ebola virus but is immune to it, killing him before he can enter the village, so that he does not infect 119 innocent people there who would die from it.",
+            "2": "Letting a man who carries the Ebola virus but is immune to it enter a village, even though this means he will infect 119 innocent people there who will die from it."
+        }
+    },
+    {
+        "id": 28,
+        "options": {
+            "1": "Throwing one of eight critically injured people out of a failing rescue helicopter during a flood, killing them, so that the helicopter is light enough not to crash and kill the pilot, the seven other injured people, and me.",
+            "2": "Keeping all eight critically injured people on board a failing rescue helicopter during a flood, even though this means the helicopter will be too heavy and will crash, killing the pilot, all eight injured people, and me."
+        }
+    },
+    {
+        "id": 29,
+        "options": {
+            "1": "Cutting a helicopter's rescue cable during a flood, causing an injured person being lifted on it to fall to their death, so that the overloaded helicopter does not crash and kill the pilot, eight critically injured passengers, and me.",
+            "2": "Letting an injured person being lifted on a helicopter's rescue cable during a flood come on board, even though the extra weight will cause the helicopter to crash and kill the pilot, eight critically injured passengers, the person being lifted, and me."
+        }
+    },
+    {
+        "id": 30,
+        "options": {
+            "1": "Manually sealing the inner door of a burning cargo bay on a space station, causing a mechanic still inside to be sucked out into space to his death when the bay is vented, so that the fire is put out before it spreads and kills everyone on board, including me.",
+            "2": "Letting a mechanic try to escape a burning cargo bay on a space station, even though his bulky space suit will get him stuck in the doorway, allowing the fire to spread and kill everyone on board, including him and me."
+        }
+    },
+    {
+        "id": 31,
+        "options": {
+            "1": "Pushing a button to put out a fire in a space station's cargo bay by sealing the bay's inner door, causing a mechanic still inside to be sucked out into space to his death when the bay is vented, so that the fire does not spread and kill everyone on board, including me.",
+            "2": "Letting a mechanic try to escape a burning cargo bay on a space station, even though his bulky space suit will get him stuck in the doorway, allowing the fire to spread and kill everyone on board, including him and me."
+        }
+    },
+    {
+        "id": 34,
+        "options": {
+            "1": "Dropping a heavy cinderblock on the head of a teenager who is about to accidentally set off an explosive charge in a skyscraper being demolished, killing him, so that the building does not collapse on him, a crowd of spectators, and me.",
+            "2": "Not dropping a heavy cinderblock on the head of a teenager who is about to accidentally set off an explosive charge in a skyscraper being demolished, which would kill him, even though this means the building will collapse on him, a crowd of spectators, and me."
+        }
+    },
+    {
+        "id": 35,
+        "options": {
+            "1": "Turning a skyscraper's electricity back on so that a teenager touching an open circuit is electrocuted and killed before he can accidentally set off an explosive charge in the building, so that it does not collapse on him, a crowd of spectators, and me.",
+            "2": "Not turning a skyscraper's electricity back on, which would electrocute and kill a teenager touching an open circuit, even though this means he will accidentally set off an explosive charge and the building will collapse on him, a crowd of spectators, and me."
+        }
+    },
+    {
+        "id": 36,
+        "options": {
+            "1": "Shaking off a kindergarten child clinging to my leg as I swim out of a sinking bus in a river, leaving the child to drown, so that I can make it against the current with the two other children I am holding.",
+            "2": "Swimming out of a sinking bus in a river while holding two kindergarten children, with a third child clinging to my leg, even though I am not strong enough to make it against the current with all three."
+        }
+    },
+    {
+        "id": 37,
+        "options": {
+            "1": "Moving bulky seats that block the exit of a sinking bus into the corridor, trapping a kindergarten child, so that two other children and I can escape.",
+            "2": "Not moving bulky seats that block the exit of a sinking bus into the corridor, which would trap a kindergarten child, even though this means two other children and I cannot escape."
+        }
+    },
+    {
+        "id": 38,
+        "options": {
+            "1": "Cutting the carotid artery of a critically injured accident victim, whom I could probably save with surgery, killing him so that I can use his organs for transplants to save five of my patients who will otherwise die.",
+            "2": "Not cutting the carotid artery of a critically injured accident victim, whom I could probably save with surgery, to use his organs for transplants, even though this means five of my patients who need them will die."
+        }
+    },
+    {
+        "id": 39,
+        "options": {
+            "1": "Letting a nurse inject a critically injured accident victim with the wrong medication during surgery, which will kill him, so that I can use his organs for transplants to save five of my patients who will otherwise die.",
+            "2": "Stopping a nurse from injecting a critically injured accident victim with the wrong medication during surgery, which would kill him, even though this means five of my patients who need his organs for transplants will die."
+        }
+    },
+    {
+        "id": 41,
+        "options": {
+            "1": "Pushing an emergency button that moves a crane's failing container away from five crewmembers on a ship's deck, so that it falls into the cargo bay and kills one crewmember there instead.",
+            "2": "Not pushing an emergency button that would move a crane's failing container into a ship's cargo bay, where it would kill one crewmember, even though this means it will fall onto the deck and kill five crewmembers there."
+        }
+    },
+    {
+        "id": 42,
+        "options": {
+            "1": "Injecting two lab assistants with two mislabeled substances, one a vaccine and the other lethal, knowing that one assistant will die, so that I can identify the vaccine that could save thousands of lives in a deadly global epidemic.",
+            "2": "Not injecting two lab assistants with two mislabeled substances, one a vaccine and the other lethal, which would kill one of them, even though this means I cannot identify the vaccine that could save thousands of lives in a deadly global epidemic."
+        }
+    },
+    {
+        "id": 43,
+        "options": {
+            "1": "Allowing a nurse to inject two lab assistants with two mislabeled substances, one a vaccine and the other lethal, knowing that one assistant will die, so that I can identify the vaccine that could save thousands of lives in a deadly global epidemic.",
+            "2": "Not allowing a nurse to inject two lab assistants with two mislabeled substances, one a vaccine and the other lethal, which would kill one of them, even though this means I cannot identify the vaccine that could save thousands of lives in a deadly global epidemic."
+        }
+    },
+    {
+        "id": 44,
+        "options": {
+            "1": "Pushing a very large stranger onto the tracks in front of a runaway trolley, killing him, so that the trolley derails and does not kill five workmen further down the track.",
+            "2": "Not pushing a very large stranger onto the tracks in front of a runaway trolley, which would kill him but derail the trolley, even though this means it will kill five workmen further down the track."
+        }
+    },
+    {
+        "id": 45,
+        "options": {
+            "1": "Flipping a switch to divert a runaway trolley onto a track where it will kill one workman, so that it does not kill five workmen on its current track.",
+            "2": "Not flipping a switch to divert a runaway trolley onto a track where it would kill one workman, even though this means it will kill five workmen on its current track."
+        }
+    },
+    {
+        "id": 46,
+        "options": {
+            "1": "Poisoning a colleague, killing him, to stop him from selling our powerful new energy discovery to buyers who will use it as a deadly weapon.",
+            "2": "Letting a colleague sell our powerful new energy discovery to buyers who will use it as a deadly weapon, rather than poisoning him to stop the sale, which would kill him."
+        }
+    },
+    {
+        "id": 47,
+        "options": {
+            "1": "Releasing flammable gas to make a colleague's computer explode, killing him, to stop him from selling our powerful new energy discovery to buyers who will use it as a deadly weapon.",
+            "2": "Not releasing flammable gas to make a colleague's computer explode, which would kill him, even though this means he will sell our powerful new energy discovery to buyers who will use it as a deadly weapon."
+        }
+    },
+    {
+        "id": 48,
+        "options": {
+            "1": "Forcing a motorcyclist who is losing control of his bike off the road, killing him, so that his crash does not cause a pile-up that would kill ten bikers riding behind me.",
+            "2": "Leaving alone a motorcyclist who is losing control of his bike and about to crash, even though this means his crash will cause a pile-up that kills ten bikers riding behind me."
+        }
+    },
+    {
+        "id": 50,
+        "options": {
+            "1": "Stabbing to death one of my soldiers who is caught in a trap in enemy territory, so that enemy troops cannot torture him into revealing the location of an allied base camp, where they would kill 10 soldiers.",
+            "2": "Letting one of my soldiers who is caught in a trap in enemy territory live and leaving him behind, even though this means enemy troops will torture him into revealing the location of an allied base camp, where they will kill 10 soldiers."
+        }
+    },
+    {
+        "id": 51,
+        "options": {
+            "1": "Ordering a bombing of the area where one of my soldiers is caught in a trap in enemy territory, killing him, so that enemy troops cannot torture him into revealing the location of an allied base camp, where they would kill 10 soldiers.",
+            "2": "Not ordering a bombing of the area where one of my soldiers is caught in a trap in enemy territory, which would kill him, even though this means enemy troops will torture him into revealing the location of an allied base camp, where they will kill 10 soldiers."
+        }
+    },
+    {
+        "id": 52,
+        "options": {
+            "1": "Placing a hospital patient on a spilled toxic chemical so that their skin absorbs it, killing them, to stop it from turning into a poisonous gas that would kill all six patients in the room.",
+            "2": "Not placing a hospital patient on a spilled toxic chemical so that their skin absorbs it, which would kill them, even though this means it will turn into a poisonous gas and kill all six patients in the room, including them."
+        }
+    },
+    {
+        "id": 53,
+        "options": {
+            "1": "Activating a hospital ventilation system to divert poisonous gas from a spilled chemical into a room with one patient, killing them, so that it does not kill five patients in the room where the chemical was spilled.",
+            "2": "Not activating a hospital ventilation system that would divert poisonous gas from a spilled chemical into a room with one patient, killing them, even though this means the gas will kill five patients in the room where the chemical was spilled."
+        }
+    },
+    {
+        "id": 54,
+        "options": {
+            "1": "Throwing a heavy child I rescued from an icy lake overboard from my rowboat, leaving him to freeze to death, so that the boat does not sink and kill the two other rescued children, a tour guide, and me.",
+            "2": "Keeping a heavy child I rescued from an icy lake on board my rowboat, even though this means the boat will sink and he, the two other rescued children, a tour guide, and I will all die."
+        }
+    },
+    {
+        "id": 55,
+        "options": {
+            "1": "Leaving a heavy child in an icy lake instead of pulling them onto my rowboat, where they will freeze to death, so that the boat does not sink and kill two children I already rescued, a tour guide, and me.",
+            "2": "Pulling a heavy child out of an icy lake onto my rowboat, even though this means the boat will sink and the child, two children I already rescued, a tour guide, and I will all die."
+        }
+    },
+    {
+        "id": 56,
+        "options": {
+            "1": "Knocking a mine elevator cubicle carrying one miner off its cable, sending the miner falling to their death, to reduce the weight so that the elevator's failing cable does not snap and kill all 10 miners riding it.",
+            "2": "Not knocking a mine elevator cubicle carrying one miner off its cable, which would send the miner falling to their death, even though this means the elevator's failing cable will snap and kill all 10 miners riding it."
+        }
+    },
+    {
+        "id": 57,
+        "options": {
+            "1": "Pushing an emergency switch that detaches the last cubicle of a mine elevator, sending the miner inside it falling to their death, to reduce the weight so that the elevator's failing cable does not snap and kill all 10 miners riding it.",
+            "2": "Not pushing an emergency switch that would detach the last cubicle of a mine elevator, sending the miner inside it falling to their death, even though this means the elevator's failing cable will snap and kill all 10 miners riding it."
+        }
+    },
+    {
+        "id": 58,
+        "options": {
+            "1": "Suffocating a terminally ill tycoon whose fortune will go to a children's hospital when he dies, so that the money arrives in time to save 109 children there who cannot wait much longer before they die.",
+            "2": "Waiting for a terminally ill tycoon whose fortune will go to a children's hospital to die of his illness, even though the money may then come too late to save 109 children there who cannot wait much longer before they die."
+        }
+    },
+    {
+        "id": 59,
+        "options": {
+            "1": "Causing the life support equipment of a terminally ill tycoon to fail, killing him, so that his fortune, which will go to a children's hospital when he dies, arrives in time to save 112 children there who cannot wait much longer before they die.",
+            "2": "Waiting for a terminally ill tycoon whose fortune will go to a children's hospital to die of his illness, even though the money may then come too late to save 112 children there who cannot wait much longer before they die."
+        }
+    },
+    {
+        "id": 60,
+        "options": {
+            "1": "Torturing a dying enemy spy trapped in a collapsed building to make him reveal which town his forces will attack, so that my soldiers can stop an attack that will kill thousands of civilians.",
+            "2": "Not torturing a dying enemy spy trapped in a collapsed building to make him reveal which town his forces will attack, even though this means my soldiers cannot stop an attack that will kill thousands of civilians."
+        }
+    },
+    {
+        "id": 61,
+        "options": {
+            "1": "Letting rats keep chewing on the legs of a dying enemy spy trapped in a collapsed building, so that the pain makes him reveal which town his forces will attack and my soldiers can stop an attack that will kill thousands of civilians.",
+            "2": "Stopping rats from chewing on the legs of a dying enemy spy trapped in a collapsed building, even though this means the pain will not make him reveal which town his forces will attack, and my soldiers cannot stop an attack that will kill thousands of civilians."
+        }
+    }
+]

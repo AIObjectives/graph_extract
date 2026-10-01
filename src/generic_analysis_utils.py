@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 from matplotlib import font_manager
 import matplotlib.text as mtext
 import matplotlib.backends.backend_agg as backend_agg
+from scipy.stats import pearsonr
 
 ## FUNCTIONS TO READ IN SCENARIO JSONS
 
@@ -248,6 +249,7 @@ def plot_bar_strip(
     title=None,
     xlabel=None,
     ylabel=None,
+    ax=None,
 ):
     # _ensure_matplotlib_fonts_available()
 
@@ -262,9 +264,11 @@ def plot_bar_strip(
     plot_df = plot_df.dropna(subset=[x, y] + ([hue] if hue is not None else []))
     palette = sns.color_palette("hls", n_colors=plot_df[hue].nunique()) if hue else None
 
-                        
-
-    fig, ax = plt.subplots(figsize=(10, 6))
+    # ax=None (the default) preserves the original standalone-figure behavior; pass an existing
+    # ax to compose this plot into a larger figure (e.g. side-by-side panels).
+    own_fig = ax is None
+    if own_fig:
+        fig, ax = plt.subplots(figsize=(10, 6))
     sns.set_context("notebook", font_scale=1.5, rc={"lines.linewidth": 2.2})
 
 
@@ -291,12 +295,65 @@ def plot_bar_strip(
         if leg:
             leg.remove()
 
-    try:
-        fig.tight_layout()
-    except ValueError:
-        # If a backend/font issue still slips through, show the figure without layout adjustment.
-        pass
-    plt.show()
+    if own_fig:
+        try:
+            fig.tight_layout()
+        except ValueError:
+            # If a backend/font issue still slips through, show the figure without layout adjustment.
+            pass
+        plt.show()
+
+
+def plot_scatter_reg(
+    df,
+    x,
+    y,
+    hue=None,
+    title=None,
+    xlabel=None,
+    ylabel=None,
+    ax=None,
+):
+    """Scatter plot of two continuous variables with a linear regression line, annotated with the
+    Pearson r/p (computed on the pooled data, ignoring hue groups). Returns (r, p).
+
+    ax=None (the default) creates and shows a standalone figure; pass an existing ax to compose
+    this into a larger figure (e.g. side-by-side panels), in which case the caller is responsible
+    for calling plt.show().
+    """
+    for col in [x, y] + ([hue] if hue is not None else []):
+        if col not in df.columns:
+            raise ValueError(f"Column '{col}' not found in dataframe.")
+
+    plot_df = df.copy()
+    plot_df[x] = pd.to_numeric(plot_df[x], errors="coerce")
+    plot_df[y] = pd.to_numeric(plot_df[y], errors="coerce")
+    plot_df = plot_df.dropna(subset=[x, y] + ([hue] if hue is not None else []))
+
+    own_fig = ax is None
+    if own_fig:
+        fig, ax = plt.subplots(figsize=(8, 6))
+    sns.set_context("notebook", font_scale=1.3)
+
+    palette = sns.color_palette("hls", n_colors=plot_df[hue].nunique()) if hue else None
+    sns.regplot(data=plot_df, x=x, y=y, scatter=False, ax=ax, color="black", line_kws=dict(alpha=0.7))
+    sns.scatterplot(data=plot_df, x=x, y=y, hue=hue, palette=palette, s=80, edgecolor="black", linewidth=0.8, ax=ax)
+
+    r, p = pearsonr(plot_df[x], plot_df[y])
+    ax.set_title(title or f"{pretty_label(y)} vs {pretty_label(x)} (r={r:.2f}, p={p:.3f})")
+    ax.set_xlabel(xlabel or pretty_label(x))
+    ax.set_ylabel(ylabel or pretty_label(y))
+    if hue is not None:
+        ax.legend(title=pretty_label(hue))
+
+    if own_fig:
+        try:
+            fig.tight_layout()
+        except ValueError:
+            pass
+        plt.show()
+
+    return r, p
 
 
 ## DEPRECATED ARCHIVE

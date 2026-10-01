@@ -28,6 +28,118 @@
         }
     },
     {
+        "id": 2,
+        "text": " In a restaurant, a bomb threatens to kill 9 guests. The bomb could be thrown onto the patio, where 1 guest would be killed.",
+        "options": {
+            "1": "throw the bomb to the patio",
+            "2": "not throw the bomb to the patio"
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Agent of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 3,
+        "text": " In a restaurant, a bomb threatens to kill 9 guests. One guest could be thrown on the bomb, which would kill this 1 guest.",
+        "options": {
+            "1": "throw one guest onto the bomb",
+            "2": "not throw one guest onto the bomb"
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Patient of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 4,
+        "text": " A virus causing paraplegia threatens 4 patients. Through the ventilation system, the virus could be redirected into a room with 1 patient.",
+        "options": {
+            "1": "redirect the virus into the room with 1 patient",
+            "2": "not redirect the virus into the room with 1 patient"
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Agent of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 5,
+        "text": " A virus causing paraplegia threatens 4 patients. The bone marrow of 1 patient could save them. However, the required procedure would lead to paraplegia in this patient.",
+        "options": {
+            "1": "have the patient undergo the required procedure",
+            "2": "not have the patient undergo the required procedure"
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Patient of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 6,
+        "text": " A torpedo threatens a boat with 6 soldiers. Destroying the torpedo by remote control would sink a nearby submarine with 3 soldiers.",
+        "options": {
+            "1": "destroy the torpedo by remote control",
+            "2": "not destroy the torpedo by remote control"
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Agent of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 7,
+        "text": " A torpedo threatens a boat with 6 soldiers. Three soldiers could be ordered to move their boat in a way that would divert the torpedo from the original target to their boat.",
+        "options": {
+            "1": "order the three soldiers to move their boat",
+            "2": "not order the three soldiers to move their boat"
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Patient of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 8,
+        "text": " A high-speed train is about to hit a bus with 10 passengers. An employee of the train company could redirect the train to a parallel side track where a bus with 2 passengers is sitting. The affected passengers would be seriously harmed.",
+        "options": {
+            "1": "redirect the train to the side track",
+            "2": "not redirect the train to the side track"
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Agent of harm"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 9,
+        "text": " A high-speed train is about to hit a bus with 10 passengers. An employee of the train company could redirect the train to a side track where a bus with 2 passengers is sitting. The side track loops back to the main track. The redirected train would reach and harm the 10 passengers on the main track if the bus on the side track were not there. The affected passengers would be seriously harmed.",
+        "options": {
+            "1": "redirect the train to the side track",
+            "2": "not redirect the train to the side track"
+        },
+        "factors": {
+            "1": {
+                "Locus Of Intervention": "Agent of harm"
+            },
+            "2": {}
+        }
+    },
+    {
         "id": 10,
         "text": " On the test ground of a modern railroad property an unmanned speed-train that normally can be remote-controlled got out of control due to a technical defect. This speed-train is heading towards three railroad workers that are maintaining the tracks. Since these workers are wearing a novel hearing protection, they would not notice the speed-train on time and hence would be run over by it. I, an employee of the rail track control center, recognize the upcoming accident. However, it is not possible to stop the train on time anymore. There is only one possibility to avoid the death of the three workers: I could run to a nearby bridge on which a heavy worker is standing and push this worker from the bridge. Thereby this worker would fall on the tracks and collide with the speed-train. Due to the collision with the heavy worker (I would not be heavy enough to stop the train) the speed-train would stop before it reaches the three workers. The heavy worker would lose his life due to the collision.",
         "options": {
@@ -178,20 +290,6 @@
         }
     },
     {
-        "id": 2,
-        "text": " In a restaurant, a bomb threatens to kill 9 guests. The bomb could be thrown onto the patio, where 1 guest would be killed.",
-        "options": {
-            "1": "throw the bomb to the patio",
-            "2": "not throw the bomb to the patio"
-        },
-        "factors": {
-            "1": {
-                "Locus Of Intervention": "Agent of harm"
-            },
-            "2": {}
-        }
-    },
-    {
         "id": 20,
         "text": " I am a crewmember on a submarine traveling under a large iceberg. An explosion has damaged the ship, injured several crewmembers and collapsed the only access between the upper and lower decks of the ship. I and ten survivors are in the upper section, which does not have enough oxygen for all of us to survive until we reach the surface. One single crewmember is lying unconscious in the lower section, where there is enough oxygen.",
         "options": {
@@ -203,6 +301,23 @@
                 "Causal Role": "Side Effect",
                 "Beneficiary": "Self-beneficial",
                 "Personal Force": "Personal",
+                "Evitability": "Avoidable"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 21,
+        "text": "I am a crewmember on a submarine traveling under a large iceberg. An explosion has damaged the ship, injured several crewmembers, and collapsed the only access between the upper and lower parts of the ship. I and ten other survivors are in the upper section, which does not have enough oxygen for all of us to survive until we reach the surface. One single crewmember is lying unconscious in the lower section, where there is enough oxygen.",
+        "options": {
+            "1": "push the button to open the hatch that will fall on the crewmember below to get enough oxygen",
+            "2": "not push the button to open the hatch that will fall on the crewmember below"
+        },
+        "factors": {
+            "1": {
+                "Beneficiary": "Self-beneficial",
+                "Personal Force": "Impersonal",
+                "Causal Role": "Side Effect",
                 "Evitability": "Avoidable"
             },
             "2": {}
@@ -340,20 +455,6 @@
                 "Beneficiary": "Self-beneficial",
                 "Causal Role": "Means",
                 "Evitability": "Inevitable"
-            },
-            "2": {}
-        }
-    },
-    {
-        "id": 3,
-        "text": " In a restaurant, a bomb threatens to kill 9 guests. One guest could be thrown on the bomb, which would kill this 1 guest.",
-        "options": {
-            "1": "throw one guest onto the bomb",
-            "2": "not throw one guest onto the bomb"
-        },
-        "factors": {
-            "1": {
-                "Locus Of Intervention": "Patient of harm"
             },
             "2": {}
         }
@@ -529,15 +630,35 @@
         }
     },
     {
-        "id": 4,
-        "text": " A virus causing paraplegia threatens 4 patients. Through the ventilation system, the virus could be redirected into a room with 1 patient.",
+        "id": 40,
+        "text": "I am part of a shipyard dock team that attaches crane cables to containers to unload the cargo ships. My team and I have just attached cables to a container and are now climbing on top of it to make sure it is unloaded properly. Suddenly the red warning light flashes, indicating that the crane cable is about to fail. I see that the reason for this is a fight between two crewmembers. The container is swinging dangerously over five other crewmembers on the deck.",
         "options": {
-            "1": "redirect the virus into the room with 1 patient",
-            "2": "not redirect the virus into the room with 1 patient"
+            "1": "push team members including one without a safety harness that will fall down to stop the swinging of the container",
+            "2": "not push team members which leaves the container swinging dangerously"
         },
         "factors": {
             "1": {
-                "Locus Of Intervention": "Agent of harm"
+                "Causal Role": "Side Effect",
+                "Personal Force": "Personal",
+                "Evitability": "Avoidable",
+                "Beneficiary": "Other-beneficial"
+            },
+            "2": {}
+        }
+    },
+    {
+        "id": 41,
+        "text": "I am part of a shipyard dock team that attaches crane cables to containers to unload the cargo ships. My team and I have just attached cables to a container and are now climbing on top of it to make sure it is unloaded properly. Suddenly the red warning light flashes, indicating that a cable is about to fail. If it fails over the deck, the container will collapse onto five crewmembers.",
+        "options": {
+            "1": "push the emergency button that will move the container back to drop on a crewmember in the cargo bay",
+            "2": "not push the emergency button that would move the container back to drop on a crewmember in the cargo bay"
+        },
+        "factors": {
+            "1": {
+                "Personal Force": "Impersonal",
+                "Causal Role": "Side Effect",
+                "Evitability": "Avoidable",
+                "Beneficiary": "Other-beneficial"
             },
             "2": {}
         }
@@ -572,57 +693,6 @@
                 "Causal Role": "Side Effect",
                 "Beneficiary": "Other-beneficial",
                 "Personal Force": "Impersonal"
-            },
-            "2": {}
-        }
-    },
-    {
-        "id": 21,
-        "text": "I am a crewmember on a submarine traveling under a large iceberg. An explosion has damaged the ship, injured several crewmembers, and collapsed the only access between the upper and lower parts of the ship. I and ten other survivors are in the upper section, which does not have enough oxygen for all of us to survive until we reach the surface. One single crewmember is lying unconscious in the lower section, where there is enough oxygen.",
-        "options": {
-            "1": "push the button to open the hatch that will fall on the crewmember below to get enough oxygen",
-            "2": "not push the button to open the hatch that will fall on the crewmember below"
-        },
-        "factors": {
-            "1": {
-                "Beneficiary": "Self-beneficial",
-                "Personal Force": "Impersonal",
-                "Causal Role": "Side Effect",
-                "Evitability": "Avoidable"
-            },
-            "2": {}
-        }
-    },
-    {
-        "id": 40,
-        "text": "I am part of a shipyard dock team that attaches crane cables to containers to unload the cargo ships. My team and I have just attached cables to a container and are now climbing on top of it to make sure it is unloaded properly. Suddenly the red warning light flashes, indicating that the crane cable is about to fail. I see that the reason for this is a fight between two crewmembers. The container is swinging dangerously over five other crewmembers on the deck.",
-        "options": {
-            "1": "push team members including one without a safety harness that will fall down to stop the swinging of the container",
-            "2": "not push team members which leaves the container swinging dangerously"
-        },
-        "factors": {
-            "1": {
-                "Causal Role": "Side Effect",
-                "Personal Force": "Personal",
-                "Evitability": "Avoidable",
-                "Beneficiary": "Other-beneficial"
-            },
-            "2": {}
-        }
-    },
-    {
-        "id": 41,
-        "text": "I am part of a shipyard dock team that attaches crane cables to containers to unload the cargo ships. My team and I have just attached cables to a container and are now climbing on top of it to make sure it is unloaded properly. Suddenly the red warning light flashes, indicating that a cable is about to fail. If it fails over the deck, the container will collapse onto five crewmembers.",
-        "options": {
-            "1": "push the emergency button that will move the container back to drop on a crewmember in the cargo bay",
-            "2": "not push the emergency button that would move the container back to drop on a crewmember in the cargo bay"
-        },
-        "factors": {
-            "1": {
-                "Personal Force": "Impersonal",
-                "Causal Role": "Side Effect",
-                "Evitability": "Avoidable",
-                "Beneficiary": "Other-beneficial"
             },
             "2": {}
         }
@@ -725,20 +795,6 @@
                 "Personal Force": "Impersonal",
                 "Evitability": "Inevitable",
                 "Beneficiary": "Other-beneficial"
-            },
-            "2": {}
-        }
-    },
-    {
-        "id": 5,
-        "text": " A virus causing paraplegia threatens 4 patients. The bone marrow of 1 patient could save them. However, the required procedure would lead to paraplegia in this patient.",
-        "options": {
-            "1": "have the patient undergo the required procedure",
-            "2": "not have the patient undergo the required procedure"
-        },
-        "factors": {
-            "1": {
-                "Locus Of Intervention": "Patient of harm"
             },
             "2": {}
         }
@@ -914,20 +970,6 @@
         }
     },
     {
-        "id": 6,
-        "text": " A torpedo threatens a boat with 6 soldiers. Destroying the torpedo by remote control would sink a nearby submarine with 3 soldiers.",
-        "options": {
-            "1": "destroy the torpedo by remote control",
-            "2": "not destroy the torpedo by remote control"
-        },
-        "factors": {
-            "1": {
-                "Locus Of Intervention": "Agent of harm"
-            },
-            "2": {}
-        }
-    },
-    {
         "id": 60,
         "text": "I am a military officer during a war. My soldiers have found an important enemy spy trapped and injured in a collapsed building. Over the radio I have been informed that enemy soldiers are planning a surprise attack on a nearby town, but I don't know which. They will kill thousands of civilians if my soldiers and I do not stop them. The spy knows which town will be attacked. I have questioned him but he doesn't want to tell me. He won't survive much longer due to his injuries.",
         "options": {
@@ -957,48 +999,6 @@
                 "Personal Force": "Impersonal",
                 "Causal Role": "Means",
                 "Evitability": "Inevitable"
-            },
-            "2": {}
-        }
-    },
-    {
-        "id": 7,
-        "text": " A torpedo threatens a boat with 6 soldiers. Three soldiers could be ordered to move their boat in a way that would divert the torpedo from the original target to their boat.",
-        "options": {
-            "1": "order the three soldiers to move their boat",
-            "2": "not order the three soldiers to move their boat"
-        },
-        "factors": {
-            "1": {
-                "Locus Of Intervention": "Patient of harm"
-            },
-            "2": {}
-        }
-    },
-    {
-        "id": 8,
-        "text": " A high-speed train is about to hit a bus with 10 passengers. An employee of the train company could redirect the train to a parallel side track where a bus with 2 passengers is sitting. The affected passengers would be seriously harmed.",
-        "options": {
-            "1": "redirect the train to the side track",
-            "2": "not redirect the train to the side track"
-        },
-        "factors": {
-            "1": {
-                "Locus Of Intervention": "Agent of harm"
-            },
-            "2": {}
-        }
-    },
-    {
-        "id": 9,
-        "text": " A high-speed train is about to hit a bus with 10 passengers. An employee of the train company could redirect the train to a side track where a bus with 2 passengers is sitting. The side track loops back to the main track. The redirected train would reach and harm the 10 passengers on the main track if the bus on the side track were not there. The affected passengers would be seriously harmed.",
-        "options": {
-            "1": "redirect the train to the side track",
-            "2": "not redirect the train to the side track"
-        },
-        "factors": {
-            "1": {
-                "Locus Of Intervention": "Agent of harm"
             },
             "2": {}
         }

@@ -1,0 +1,6 @@
+{"node": {"kind": "action_choice", "label": "do nothing"}, "links": [{"link": {"kind": "v-link", "value": "-61.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "I remain alive."}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The ten bikers behind me die in the pile-up."}]}
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "do nothing"}, {"link": {"kind": "b_link", "value": "C-I-K+"}, "to_node": "I remain alive."}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "The ten bikers behind me die in the pile-up."}]}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"node": {"kind": "event", "label": "I remain alive."}, "links": [{"link": {"kind": "utility", "value": "90"}, "to_node": "i"}]}
+{"node": {"kind": "event", "label": "The ten bikers behind me die in the pile-up."}, "links": [{"link": {"kind": "utility", "value": "-40"}, "to_node": "i"}]}
+{"version": "b9ed8a4482dae6b49c9ae093e540885cabfb3dee"}

@@ -10,6 +10,7 @@ import importlib
 
 
 ROOT_DIR = os.getcwd() + '/../'
+# ROOT_DIR = os.getcwd() + "/"
 sys.path.append(ROOT_DIR)
 
 sys.path.append(ROOT_DIR+'src/')
@@ -24,6 +25,7 @@ def main(config_file: str):
 
 
     config_path = Path(ROOT_DIR+"/run_annotation/"+config_file)
+    # config_path = Path(ROOT_DIR + config_file)
 
 
     with config_path.open("r", encoding="utf-8") as f:

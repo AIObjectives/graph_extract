@@ -1,0 +1,7 @@
+{"node": {"kind": "action_choice", "label": "do nothing"}, "links": [{"link": {"kind": "v-link", "value": "-61.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The out-of-control biker crashes."}, {"link": {"kind": "e_link", "value": ""}, "to_node": "A large pile-up occurs."}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The ten bikers behind me die."}]}
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "do nothing"}, {"link": {"kind": "b_link", "value": "C-I-K+"}, "to_node": "The out-of-control biker crashes."}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "A large pile-up occurs."}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "The ten bikers behind me die."}]}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"node": {"kind": "event", "label": "The out-of-control biker crashes."}, "links": [{"link": {"kind": "utility", "value": "0"}, "to_node": "i"}]}
+{"node": {"kind": "event", "label": "A large pile-up occurs."}, "links": [{"link": {"kind": "utility", "value": "0"}, "to_node": "i"}]}
+{"node": {"kind": "event", "label": "The ten bikers behind me die."}, "links": [{"link": {"kind": "utility", "value": "-70"}, "to_node": "i"}]}
+{"version": "b9ed8a4482dae6b49c9ae093e540885cabfb3dee"}
