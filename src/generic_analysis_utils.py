@@ -1,6 +1,6 @@
 import pandas as pd
-import json
-import src.prompts
+import json    
+import src.prompts as prompts
 from functools import reduce
 import seaborn as sns
 import matplotlib.pyplot as plt
