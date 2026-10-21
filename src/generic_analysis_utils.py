@@ -260,7 +260,7 @@ def plot_bar_strip(
     plot_df[y] = pd.to_numeric(plot_df[y], errors="coerce")
     plot_df[y] = plot_df[y].replace([float("inf"), float("-inf")], pd.NA)
     plot_df = plot_df.dropna(subset=[x, y] + ([hue] if hue is not None else []))
-    palette = sns.color_palette("hls", n_colors=plot_df[hue].nunique()) if hue else None
+    palette = sns.color_palette("hls", n_colors=plot_df[x].nunique()) if hue else sns.color_palette("hls")
 
                         
 
@@ -268,12 +268,12 @@ def plot_bar_strip(
     sns.set_context("notebook", font_scale=1.5, rc={"lines.linewidth": 2.2})
 
 
-    bar_kws = dict(data=plot_df, x=x, y=y, errorbar="se", capsize=.2, alpha=1, width=.75, edgecolor="black", ax=ax)
-    strip_kws = dict(data=plot_df, x=x, y=y, jitter=True, size=10, edgecolor="black", linewidth=1, alpha=0.75, ax=ax)
+    bar_kws = dict(data=plot_df, x=x, y=y, errorbar="se", capsize=.2, alpha=1, width=.75, edgecolor="black", saturation=1, ax=ax)
+    strip_kws = dict(data=plot_df, x=x, y=y, jitter=True, size=10, edgecolor="black", linewidth=1, alpha=1, ax=ax)
 
     if hue is not None:
         bar_kws.update(hue=hue, palette=palette)
-        strip_kws.update(hue=hue, palette=palette, dodge=True)
+        strip_kws.update(hue=hue, palette=palette) # dodge=True)
 
     sns.barplot(**bar_kws)
     sns.stripplot(**strip_kws)
