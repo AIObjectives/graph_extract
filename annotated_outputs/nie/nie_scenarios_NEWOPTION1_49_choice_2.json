@@ -1,0 +1,7 @@
+{"node": {"kind": "action_choice", "label": "not drive into a falling biker's machine"}, "links": [{"link": {"kind": "v-link", "value": "-47.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "I remain unharmed"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The bikers behind me die in the pile-up"}]}
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "not drive into a falling biker's machine"}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "I remain unharmed"}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "The bikers behind me die in the pile-up"}]}
+{"node": {"kind": "being", "label": "1 falling biker ahead"}, "links": []}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"node": {"kind": "event", "label": "I remain unharmed"}, "links": [{"link": {"kind": "utility", "value": "50"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "0"}, "to_node": "1 falling biker ahead"}]}
+{"node": {"kind": "event", "label": "The bikers behind me die in the pile-up"}, "links": [{"link": {"kind": "utility", "value": "-40"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "0"}, "to_node": "1 falling biker ahead"}]}
+{"version": "2f8c392731231005741421c2665421144e415436"}

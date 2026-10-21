@@ -1,0 +1,8 @@
+{"node": {"kind": "action_choice", "label": "not force a biker up front off a road"}, "links": [{"link": {"kind": "v-link", "value": "-7.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The biker up front crashes"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "A large pile-up occurs"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "Ten bikers behind me die"}]}
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "not force a biker up front off a road"}, {"link": {"kind": "b_link", "value": "C-I-K+"}, "to_node": "The biker up front crashes"}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "A large pile-up occurs"}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "Ten bikers behind me die"}]}
+{"node": {"kind": "being", "label": "the biker up front losing control"}, "links": []}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"node": {"kind": "event", "label": "The biker up front crashes"}, "links": [{"link": {"kind": "utility", "value": "-40"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-75"}, "to_node": "the biker up front losing control"}]}
+{"node": {"kind": "event", "label": "A large pile-up occurs"}, "links": [{"link": {"kind": "utility", "value": "0"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-90"}, "to_node": "the biker up front losing control"}]}
+{"node": {"kind": "event", "label": "Ten bikers behind me die"}, "links": [{"link": {"kind": "utility", "value": "-40"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-70"}, "to_node": "the biker up front losing control"}]}
+{"version": "2f8c392731231005741421c2665421144e415436"}

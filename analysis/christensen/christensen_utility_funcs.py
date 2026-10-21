@@ -92,6 +92,35 @@ def per_scenario_utility_score(event_df, agg_func=min, strategy="i_only"):
     return event_df.groupby("SID")["utility"].agg(reduce_group)
 
 
+def primary_harm_event_cik(event_df, primary_harm_picks_df):
+    """For each scenario, picks the C/I/K rating of its hand-picked primary harm event.
+
+    primary_harm_picks_df: columns SID, primary_harm_idx -- idx is the 0-indexed position among
+    that scenario's rows in event_df, in event_df's existing row order (i.e. idx=0 is the first
+    row for that SID). This lets a single hand-picked event stand in for "the" C/I rating of the
+    whole scenario, instead of averaging over every event.
+
+    Returns a DataFrame with columns SID, event (the picked event's label), C_primary, I_primary,
+    K_primary (that event's C/I/K rating).
+    """
+    rows = []
+    for _, pick in primary_harm_picks_df.iterrows():
+        sid = pick["SID"]
+        idx = int(pick["primary_harm_idx"])
+        scenario_events = event_df.loc[event_df["SID"] == sid].reset_index(drop=True)
+        if idx >= len(scenario_events):
+            raise ValueError(f"primary_harm_idx {idx} out of range for SID {sid} ({len(scenario_events)} events)")
+        picked = scenario_events.iloc[idx]
+        rows.append({
+            "SID": sid,
+            "event": picked["event"],
+            "C_primary": picked["C"],
+            "I_primary": picked["I"],
+            "K_primary": picked["K"],
+        })
+    return pd.DataFrame(rows)
+
+
 def is_patient_harm_event(utility_dict):
     """True if this event is negative-utility for at least one non-'i' (patient/bystander) being."""
     non_i_vals = [float(v) for k, v in utility_dict.items() if k != "i"]
