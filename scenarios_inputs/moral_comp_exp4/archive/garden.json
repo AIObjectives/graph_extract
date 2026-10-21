@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "scenario_title": "Garden",
+    "deontology_level": 1,
+    "utility_level": 3,
+    "text": "My neighborhood has a community garden where residents can harvest their own produce on allotted plots of land. There are currently 20 plots being used. Each resident's plot gets a small weekly water allotment due to strict drought rules, and most have gotten used to gardening with these rules in mind. One morning, while grabbing a wheelbarrow from the shed, I noticed a narrow length of tubing running from the main water source to the back of one gardener's plot, clearly siphoning extra water in secret. It was tucked behind a row of tall tomato cages, easy to miss unless I was standing right there. Her plants looked great, and seeing the setup suddenly made all of that make sense. It was allowing her to use way more water than what was allotted to her by bypassing the water meter. This meant there was far less water available for the other gardeners' plants, not nearly enough to keep them all alive. If I sabotage the gardener's setup, her excess water usage will stop and the other gardeners' plants will continue to survive. If I do not do this, the plants of 19 other gardeners' plots will die from lack of water.",
+    "options": {
+      "1": "sabotage the gardener's setup",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 2,
+    "scenario_title": "Garden",
+    "deontology_level": 2,
+    "utility_level": 3,
+    "text": "My neighborhood has a community garden where residents can harvest their own produce on allotted plots of land. There are currently 20 plots being used. Each resident's plot gets a small weekly water allotment due to strict drought rules, and most have gotten used to gardening with these rules in mind. One morning, while grabbing a wheelbarrow from the shed, I noticed a narrow length of tubing running from the main water source to the back of one gardener's plot, clearly siphoning extra water in secret. It was tucked behind a row of tall tomato cages, easy to miss unless I was standing right there. Her plants looked great, and seeing the setup suddenly made all of that make sense. It was allowing her to use way more water than what was allotted to her by bypassing the water meter. This meant there was far less water available for the other gardeners' plants, not nearly enough to keep them all alive. If I spread rumors about the gardener to the other residents, her excess water usage will stop and the other gardeners' plants will continue to survive. If I do not do this, the plants of 19 other gardeners' plots will die from lack of water.",
+    "options": {
+      "1": "spread rumors about the gardener to the other residents",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 3,
+    "scenario_title": "Garden",
+    "deontology_level": 3,
+    "utility_level": 3,
+    "text": "My neighborhood has a community garden where residents can harvest their own produce on allotted plots of land. There are currently 20 plots being used. Each resident's plot gets a small weekly water allotment due to strict drought rules, and most have gotten used to gardening with these rules in mind. One morning, while grabbing a wheelbarrow from the shed, I noticed a narrow length of tubing running from the main water source to the back of one gardener's plot, clearly siphoning extra water in secret. It was tucked behind a row of tall tomato cages, easy to miss unless I was standing right there. Her plants looked great, and seeing the setup suddenly made all of that make sense. It was allowing her to use way more water than what was allotted to her by bypassing the water meter. This meant there was far less water available for the other gardeners' plants, not nearly enough to keep them all alive. If I publicly confront the gardener at the next community meeting, her excess water usage will stop and the other gardeners' plants will continue to survive. If I do not do this, the plants of 19 other gardeners' plots will die from lack of water.",
+    "options": {
+      "1": "publicly confront the gardener at the next community meeting",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 4,
+    "scenario_title": "Garden",
+    "deontology_level": 1,
+    "utility_level": 2,
+    "text": "My neighborhood has a community garden where residents can harvest their own produce on allotted plots of land. There are currently 20 plots being used. Each resident's plot gets a small weekly water allotment due to strict drought rules, and most have gotten used to gardening with these rules in mind. One morning, while grabbing a wheelbarrow from the shed, I noticed a narrow length of tubing running from the main water source to the back of one gardener's plot, clearly siphoning extra water in secret. It was tucked behind a row of tall tomato cages, easy to miss unless I was standing right there. Her plants looked great, and seeing the setup suddenly made all of that make sense. It was allowing her to use way more water than what was allotted to her by bypassing the water meter. This meant there was far less water available for the other gardeners' plants, not nearly enough to keep them all alive. If I sabotage the gardener's setup, her excess water usage will stop and the other gardeners' plants will continue to survive. If I do not do this, the plants of 9 other gardeners' plots will die from lack of water.",
+    "options": {
+      "1": "sabotage the gardener's setup",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 5,
+    "scenario_title": "Garden",
+    "deontology_level": 2,
+    "utility_level": 2,
+    "text": "My neighborhood has a community garden where residents can harvest their own produce on allotted plots of land. There are currently 20 plots being used. Each resident's plot gets a small weekly water allotment due to strict drought rules, and most have gotten used to gardening with these rules in mind. One morning, while grabbing a wheelbarrow from the shed, I noticed a narrow length of tubing running from the main water source to the back of one gardener's plot, clearly siphoning extra water in secret. It was tucked behind a row of tall tomato cages, easy to miss unless I was standing right there. Her plants looked great, and seeing the setup suddenly made all of that make sense. It was allowing her to use way more water than what was allotted to her by bypassing the water meter. This meant there was far less water available for the other gardeners' plants, not nearly enough to keep them all alive. If I spread rumors about the gardener to the other residents, her excess water usage will stop and the other gardeners' plants will continue to survive. If I do not do this, the plants of 9 other gardeners' plots will die from lack of water.",
+    "options": {
+      "1": "spread rumors about the gardener to the other residents",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 6,
+    "scenario_title": "Garden",
+    "deontology_level": 3,
+    "utility_level": 2,
+    "text": "My neighborhood has a community garden where residents can harvest their own produce on allotted plots of land. There are currently 20 plots being used. Each resident's plot gets a small weekly water allotment due to strict drought rules, and most have gotten used to gardening with these rules in mind. One morning, while grabbing a wheelbarrow from the shed, I noticed a narrow length of tubing running from the main water source to the back of one gardener's plot, clearly siphoning extra water in secret. It was tucked behind a row of tall tomato cages, easy to miss unless I was standing right there. Her plants looked great, and seeing the setup suddenly made all of that make sense. It was allowing her to use way more water than what was allotted to her by bypassing the water meter. This meant there was far less water available for the other gardeners' plants, not nearly enough to keep them all alive. If I publicly confront the gardener at the next community meeting, her excess water usage will stop and the other gardeners' plants will continue to survive. If I do not do this, the plants of 9 other gardeners' plots will die from lack of water.",
+    "options": {
+      "1": "publicly confront the gardener at the next community meeting",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 7,
+    "scenario_title": "Garden",
+    "deontology_level": 1,
+    "utility_level": 1,
+    "text": "My neighborhood has a community garden where residents can harvest their own produce on allotted plots of land. There are currently 20 plots being used. Each resident's plot gets a small weekly water allotment due to strict drought rules, and most have gotten used to gardening with these rules in mind. One morning, while grabbing a wheelbarrow from the shed, I noticed a narrow length of tubing running from the main water source to the back of one gardener's plot, clearly siphoning extra water in secret. It was tucked behind a row of tall tomato cages, easy to miss unless I was standing right there. Her plants looked great, and seeing the setup suddenly made all of that make sense. It was allowing her to use way more water than what was allotted to her by bypassing the water meter. This meant there was far less water available for the other gardeners' plants, not nearly enough to keep them all alive. If I sabotage the gardener's setup, her excess water usage will stop and the other gardeners' plants will continue to survive. If I do not do this, the plants of 1 other gardener's plot will die from lack of water.",
+    "options": {
+      "1": "sabotage the gardener's setup",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 8,
+    "scenario_title": "Garden",
+    "deontology_level": 2,
+    "utility_level": 1,
+    "text": "My neighborhood has a community garden where residents can harvest their own produce on allotted plots of land. There are currently 20 plots being used. Each resident's plot gets a small weekly water allotment due to strict drought rules, and most have gotten used to gardening with these rules in mind. One morning, while grabbing a wheelbarrow from the shed, I noticed a narrow length of tubing running from the main water source to the back of one gardener's plot, clearly siphoning extra water in secret. It was tucked behind a row of tall tomato cages, easy to miss unless I was standing right there. Her plants looked great, and seeing the setup suddenly made all of that make sense. It was allowing her to use way more water than what was allotted to her by bypassing the water meter. This meant there was far less water available for the other gardeners' plants, not nearly enough to keep them all alive. If I spread rumors about the gardener to the other residents, her excess water usage will stop and the other gardeners' plants will continue to survive. If I do not do this, the plants of 1 other gardener's plot will die from lack of water.",
+    "options": {
+      "1": "spread rumors about the gardener to the other residents",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 9,
+    "scenario_title": "Garden",
+    "deontology_level": 3,
+    "utility_level": 1,
+    "text": "My neighborhood has a community garden where residents can harvest their own produce on allotted plots of land. There are currently 20 plots being used. Each resident's plot gets a small weekly water allotment due to strict drought rules, and most have gotten used to gardening with these rules in mind. One morning, while grabbing a wheelbarrow from the shed, I noticed a narrow length of tubing running from the main water source to the back of one gardener's plot, clearly siphoning extra water in secret. It was tucked behind a row of tall tomato cages, easy to miss unless I was standing right there. Her plants looked great, and seeing the setup suddenly made all of that make sense. It was allowing her to use way more water than what was allotted to her by bypassing the water meter. This meant there was far less water available for the other gardeners' plants, not nearly enough to keep them all alive. If I publicly confront the gardener at the next community meeting, her excess water usage will stop and the other gardeners' plants will continue to survive. If I do not do this, the plants of 1 other gardener's plot will die from lack of water.",
+    "options": {
+      "1": "publicly confront the gardener at the next community meeting",
+      "2": "do nothing"
+    }
+  }
+]
