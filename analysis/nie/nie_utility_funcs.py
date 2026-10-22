@@ -3,9 +3,9 @@
 Like christensen, nie has a single flat input scenarios file and a single flat annotated outputs
 folder (no per-condition nesting). Unlike christensen, nie's input scenarios carry no consistent
 metadata (no evitability/personal_force/intentionality/beneficial_to -- those are christensen-only
-fields), so the only scenario-level input column carried over here is the raw scenario "text". We
-always use choice_1 (the harmful/instrumental action) per scenario; choice_2 outputs exist too but
-are intentionally not used in this analysis.
+fields), so the scenario-level input columns carried over here are just the raw scenario "text"
+and "option_1_text" (the harmful/instrumental action's own short description). By default every
+annotated choice (1 and 2) is read; pass choice="1" (or ["1"]) to read only the harmful action.
 
 All plotting lives in src/generic_analysis_utils.py -- this module only builds dataframes.
 """
@@ -16,46 +16,51 @@ import numpy as np
 
 import src.generic_analysis_utils as generic_analysis_utils
 
-STATIC_SCENARIO_COLUMNS = ["text"]
+STATIC_SCENARIO_COLUMNS = ["text", "option_1_text"]
 
 
-def read_all_nie_scenarios(inputs_json, outputs_dir, choice="1"):
+def read_all_nie_scenarios(inputs_json, outputs_dir, choice=["1", "2"]):
     """Reads every choice_<choice> annotated nie scenario into one event-level dataframe.
 
     Args:
-    inputs_json: path to nie_scenarios_NEWOPTION1.json
+    inputs_json: path to nie_scenarios.json
     outputs_dir: path to the flat annotated_outputs/nie/ folder
-    choice: which option's annotated output to read ("1" or "2"); defaults to "1"
+    choice: which option(s)' annotated output to read -- "1", "2", or a list of either/both;
+    defaults to ["1", "2"] (every annotated choice)
     Returns:
-    pd.DataFrame with one row per (SID, event): columns SID, option, event, C, I, K, utility (dict
-    of being -> numeric utility for that event), deontic, plus the STATIC_SCENARIO_COLUMNS.
+    pd.DataFrame with one row per (SID, option, event): columns SID, option, event, C, I, K,
+    utility (dict of being -> numeric utility for that event), deontic, plus the
+    STATIC_SCENARIO_COLUMNS.
     """
+    choices = [choice] if isinstance(choice, str) else choice
+
     rows = []
-    for output_file in sorted(Path(outputs_dir).glob(f"*_choice_{choice}.json")):
-        sid = generic_analysis_utils.parse_filename_nie(str(output_file))
-        scenario_inputs = generic_analysis_utils.read_input_scenario(inputs_json, sid)
-        nodes = generic_analysis_utils.read_annotation(output_file)
+    for c in choices:
+        for output_file in sorted(Path(outputs_dir).glob(f"*_choice_{c}.json")):
+            sid = generic_analysis_utils.parse_filename_nie(str(output_file))
+            scenario_inputs = generic_analysis_utils.read_input_scenario(inputs_json, sid)
+            nodes = generic_analysis_utils.read_annotation(output_file)
 
-        cik_df = generic_analysis_utils.get_cik_links(nodes)
-        util_df = generic_analysis_utils.events_to_utility_df(nodes)
-        deontic = generic_analysis_utils.extract_deontology(nodes)
+            cik_df = generic_analysis_utils.get_cik_links(nodes)
+            util_df = generic_analysis_utils.events_to_utility_df(nodes)
+            deontic = generic_analysis_utils.extract_deontology(nodes)
 
-        for _, cik_row in cik_df.iterrows():
-            event = cik_row["event"]
-            utility = util_df.loc[event].to_dict() if event in util_df.index else {}
-            row = {
-                "SID": sid,
-                "option": choice,
-                "event": event,
-                "C": cik_row["C"],
-                "I": cik_row["I"],
-                "K": cik_row["K"],
-                "utility": utility,
-                "deontic": deontic,
-            }
-            for col in STATIC_SCENARIO_COLUMNS:
-                row[col] = scenario_inputs.get(col)
-            rows.append(row)
+            for _, cik_row in cik_df.iterrows():
+                event = cik_row["event"]
+                utility = util_df.loc[event].to_dict() if event in util_df.index else {}
+                row = {
+                    "SID": sid,
+                    "option": c,
+                    "event": event,
+                    "C": cik_row["C"],
+                    "I": cik_row["I"],
+                    "K": cik_row["K"],
+                    "utility": utility,
+                    "deontic": deontic,
+                    "text": scenario_inputs.get("text"),
+                    "option_1_text": scenario_inputs.get("options", {}).get("1"),
+                }
+                rows.append(row)
 
     return pd.DataFrame(rows)
 
@@ -125,9 +130,9 @@ DEFAULT_UTILITY_VARIANTS = {
 }
 
 
-def build_scenario_level_df(event_df, human_ratings_df=None, utility_variants=None):
+def build_scenario_level_df(event_df, human_ratings_df=None, utility_variants=None, options=["1", "2"]):
     """Collapses the event-level dataframe down to one row per scenario (SID), with:
-    - the static scenario columns (text)
+    - the static scenario columns (text, option_1_text)
     - deontic (constant per scenario)
     - one utility_score_<name> column per entry in `utility_variants` (defaults to
       DEFAULT_UTILITY_VARIANTS), each computed by per_scenario_utility_score(event_df, agg_func, strategy)
@@ -135,10 +140,19 @@ def build_scenario_level_df(event_df, human_ratings_df=None, utility_variants=No
     - pct_C_plus, pct_I_plus: pct_plus_per_scenario for the full scenario
     - pct_I_plus_harm_only: pct_plus_per_scenario for "I", restricted to patient-harm events
 
+    options: which value(s) of event_df["option"] to pool over when computing every stat above --
+    defaults to ["1", "2"] (every option present). Pass "1" (just the harmful/instrumental action)
+    or a custom list to restrict which options' events are pooled, or None to use every row in
+    event_df regardless of option.
+
     If human_ratings_df is given (columns must include "id" plus rating columns, e.g.
     MWrong_mean/std), it is left-merged in on SID == id.
     """
     utility_variants = utility_variants if utility_variants is not None else DEFAULT_UTILITY_VARIANTS
+
+    if options is not None:
+        options = [options] if isinstance(options, str) else options
+        event_df = event_df[event_df["option"].astype(str).isin([str(o) for o in options])]
 
     static_df = event_df.groupby("SID")[STATIC_SCENARIO_COLUMNS + ["deontic"]].first()
 

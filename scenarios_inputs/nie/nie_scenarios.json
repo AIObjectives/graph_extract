@@ -225,8 +225,8 @@
     "id": 16,
     "text": " I and five other people are trapped in a burning building. There is only one emergency exit through which all of us could escape, but it is blocked by burning debris. Another injured person is about to crawl through a hole at the bottom of the exit door. I and the five people behind me do not have time to do the same.",
     "options": {
-      "1": "push an injusred person into a fire",
-      "2": "not push an injusred person into a fire"
+      "1": "push an injured person into a fire",
+      "2": "not push an injured person into a fire"
     },
     "factors": {
       "1": {
