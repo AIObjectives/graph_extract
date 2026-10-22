@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "1",
+    "utility_level": "3",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in a lifeboat. The lifeboat contains me and 101 other passengers. The boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 passengers left the boat. However, the ocean water is extremely cold, and anyone who goes into the water would certainly freeze to death. If I physically force 10 lifeboat passengers overboard, the lifeboat will remain afloat and those remaining aboard will survive. If I do not do this, the lifeboat will sink and all of its passengers will freeze to death in the water.",
+    "options": {
+      "1": "physically force 10 lifeboat passengers overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 2,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "2",
+    "utility_level": "3",
+    "text":  "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in a lifeboat. The lifeboat contains me and 101 other passengers. The boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 passengers left the boat. However, the ocean water is extremely cold, and anyone who goes into the water would certainly freeze to death. A protective barrier on the boat is currently keeping 10 of the passengers from falling over. If I remove the barrier that is protecting 10 lifeboat passengers from falling overboard, the lifeboat will remain afloat and those remaining aboard will survive. If I do not do this, the lifeboat will sink and all of its passengers will freeze to death in the water.",
+    "options": {
+      "1": "remove the barrier that is protecting 10 lifeboat passengers from falling overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 3,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "3",
+    "utility_level": "3",
+    "text":  "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in a lifeboat. The lifeboat contains me and 101 other passengers. The boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 passengers left the boat. However, the ocean water is extremely cold, and anyone who goes into the water would certainly freeze to death. If I ask for 10 lifeboat passengers to volunteer to go overboard, the lifeboat will remain afloat and those remaining aboard will survive. If I do not do this, the lifeboat will sink and all of its passengers will freeze to death in the water.",
+    "options": {
+      "1": "ask for 10 lifeboat passengers to volunteer to go overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 4,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "1",
+    "utility_level": "2",
+    "text":  "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in a lifeboat. The lifeboat contains me and 39 other passengers. The boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 passengers left the boat. However, the ocean water is extremely cold, and anyone who goes into the water would certainly freeze to death. If I physically force 10 lifeboat passengers overboard, the lifeboat will remain afloat and those remaining aboard will survive. If I do not do this, the lifeboat will sink and all of its passengers will freeze to death in the water.",
+    "options": {
+      "1": "physically force 10 lifeboat passengers overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 5,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "2",
+    "utility_level": "2",
+    "text":  "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in a lifeboat. The lifeboat contains me and 39 other passengers. The boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 passengers left the boat. However, the ocean water is extremely cold, and anyone who goes into the water would certainly freeze to death. A protective barrier on the boat is currently keeping 10 of the passengers from falling over. If I remove the barrier that is protecting 10 lifeboat passengers from falling overboard, the lifeboat will remain afloat and those remaining aboard will survive. If I do not do this, the lifeboat will sink and all of its passengers will freeze to death in the water.",
+    "options": {
+      "1":  "remove the barrier that is protecting 10 lifeboat passengers from falling overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 6,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "3",
+    "utility_level": "2",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in a lifeboat. The lifeboat contains me and 39 other passengers. The boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 passengers left the boat. However, the ocean water is extremely cold, and anyone who goes into the water would certainly freeze to death. If I ask for 10 lifeboat passengers to volunteer to go overboard, the lifeboat will remain afloat and those remaining aboard will survive. If I do not do this, the lifeboat will sink and all of its passengers will freeze to death in the water.",
+    "options": {
+      "1": "ask for 10 lifeboat passengers to volunteer to go overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 7,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "1",
+    "utility_level": "1",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in a lifeboat. The lifeboat contains me and 18 other passengers. The boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 passengers left the boat. However, the ocean water is extremely cold, and anyone who goes into the water would certainly freeze to death. If I physically force 10 lifeboat passengers overboard, the lifeboat will remain afloat and those remaining aboard will survive. If I do not do this, the lifeboat will sink and all of its passengers will freeze to death in the water.",
+    "options": {
+      "1": "physically force 10 lifeboat passengers overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 8,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "2",
+    "utility_level": "1",
+    "text": "It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in a lifeboat. The lifeboat contains me and 18 other passengers. The boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 passengers left the boat. However, the ocean water is extremely cold, and anyone who goes into the water would certainly freeze to death. A protective barrier on the boat is currently keeping 10 of the passengers from falling over. If I remove the barrier that is protecting 10 lifeboat passengers from falling overboard, the lifeboat will remain afloat and those remaining aboard will survive. If I do not do this, the lifeboat will sink and all of its passengers will freeze to death in the water.",
+    "options": {
+      "1":  "remove the barrier that is protecting 10 lifeboat passengers from falling overboard",
+      "2": "do nothing"
+    }
+  },
+  {
+    "id": 9,
+    "scenario_title": "Lifeboat",
+    "deontology_level": "3",
+    "utility_level": "1",
+    "text":"It is 1841, and I am the captain of a ship that has just sunk after colliding with an iceberg. Survivors managed to escape in a lifeboat. The lifeboat contains me and 18 other passengers. The boat is dangerously overcrowded, and if it continues with this many people, it will certainly sink. After assessing the situation, I conclude that the overcrowded lifeboat would become stable if 10 passengers left the boat. However, the ocean water is extremely cold, and anyone who goes into the water would certainly freeze to death. If I ask for 10 lifeboat passengers to volunteer to go overboard, the lifeboat will remain afloat and those remaining aboard will survive. If I do not do this, the lifeboat will sink and all of its passengers will freeze to death in the water.",
+    "options": {
+      "1": "ask for 10 lifeboat passengers to volunteer to go overboard",
+      "2": "do nothing"
+    }
+  }
+]
