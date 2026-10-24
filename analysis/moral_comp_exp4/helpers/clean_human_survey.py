@@ -194,6 +194,7 @@ def build_rename_map(structure: dict) -> Dict[str, str]:
         rename_map[prob] = f"outcome_prob_{o}"
         for k, qid in enumerate(causal, start=1):
             rename_map[qid] = f"causal_{k}_outcome_{o}"
+    rename_map["duration"] = "response_time_sec"
     for a, qid in enumerate(structure["attention"], start=1):
         rename_map[qid] = f"attention_{a}"
     return rename_map
