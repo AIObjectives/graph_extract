@@ -1,0 +1,61 @@
+Action,MWrong_mean,MWrong_std,MWrong_n,Scenario,DeontLevel,Score
+accept a donation that requires a foundation to be named after a jaywalker,10.523809523809524,48.87803090102858,21,Endowment,3.0,-27.4
+accept a donation that requires a foundation to be named after a murderer,-74.0952380952381,30.935262665613102,21,Endowment,1.0,-75.9
+accept a donation that requires a foundation to be named after a thief,-52.38095238095238,36.7565996665581,21,Endowment,2.0,-67.8
+adjust the volume on a speaker,19.28205128205128,35.39844534048942,39,,,-6.8
+ask for 10 lifeboat passengers to volunteer to go overboard,-42.38095238095238,43.55166608808002,21,Lifeboat,3.0,-21.6
+ask your colleagues to give you some of their money,-24.324324324324323,32.21546734623504,37,Giftcard,3.0,-36.8
+attend a party,30.0,42.483330064077286,25,,,-12.2
+choke your aunt unconscious,-94.52380952380952,10.171622523565487,21,Medication,1.0,-85.9
+cut off a person's ears,-93.52380952380952,13.310218058390506,21,Tyrannicide,2.0,-69.7
+cut off a person's hands,-87.38095238095238,16.387422587082423,21,Tyrannicide,2.0,-71.2
+delete a year of a family's account history,-42.7,32.43945049963005,40,Robinhood,2.0,-33.3
+drive to the countryside,28.125,41.400599215284494,40,,,1.3
+expose your brother’s entire chat history to your parents against his wishes,-49.7,34.78151586911999,40,Brother,1.0,-83.0
+falsify a family's credit score,-60.1025641025641,34.614261490251664,39,Robinhood,1.0,-85.8
+force your brother to show his chat history to your parents,-29.625,34.10743771807416,40,Brother,2.0,-50.1
+have a picnic outside,27.853658536585368,42.24308285128451,41,,,-3.2
+hint to your parents about your brother's chat history,-14.146341463414634,32.689112083084915,41,Brother,3.0,-21.5
+hit a man in the face,-55.42424242424242,34.991990425515866,33,Ropeladder,2.0,-51.6
+imprison a person,-4.861111111111111,36.22560481820068,36,Tyrannicide,3.0,-41.6
+kill a hospital patient with your bare hands,-98.50746268656717,7.542552285509674,67,,,-78.1
+leak video footage despite your supervisor ordering you not to,-56.142857142857146,32.871394424766514,21,Footage,1.0,-91.3
+leak video footage with your supervisor’s permission,-0.8571428571428571,48.98804518888839,21,Footage,3.0,-31.6
+leak video footage without your supervisor knowing,-51.476190476190474,36.98732086488429,21,Footage,2.0,-80.8
+lie about a shuttle's battery needing to be replaced,-49.84848484848485,33.250113920971394,33,Shuttle,3.0,-31.4
+lift a dumbbell,46.0,47.7362545661052,9,,,2.7
+login to your computer,29.24324324324324,43.22255417243628,37,,,10.6
+make a counterfeit service dog ID card,-53.73170731707317,32.605999747166095,41,Servicedog,2.0,-48.9
+move a heavy book from a box to a shelf,18.594594594594593,36.2724715478859,37,,,22.7
+murder a person,-93.44444444444444,13.276067499601236,36,Tyrannicide,1.0,-90.7
+physically force 10 lifeboat passengers overboard,-80.47619047619048,28.41059493854194,21,Lifeboat,1.0,-66.1
+publicly confront a gardener at the next community meeting,-12.595238095238097,31.308114372342587,42,Garden,3.0,-11.7
+push a man off a ladder,-80.1842105263158,26.47472559453322,38,Ropeladder,1.0,-95.9
+put a service dog vest on your non-service dog,-38.175,35.075659980632196,40,Servicedog,3.0,-27.0
+put on rubber gloves,29.325,42.24312263855988,40,,,30.1
+read your grandmother's cookbook,31.11111111111111,40.069780403532306,36,,,27.4
+release your grip on a man,21.94736842105263,38.47283869448612,38,Ropeladder,3.0,-34.2
+remove a barrier that is protecting 10 lifeboat passengers from falling overboard,-70.33333333333333,48.19059382631981,21,Lifeboat,2.0,-44.6
+rescue a stranger from drowning,94.44776119402984,15.596506584459142,67,,,-4.8
+restrain your aunt with duct tape,-80.19047619047619,23.722603245889875,21,Medication,2.0,-55.4
+send an email,21.842105263157897,38.2943975267214,38,,,-18.4
+shout loudly at a person,-25.666666666666668,34.00420142108493,36,Bully,3.0,-37.2
+shove a person,-44.95121951219512,32.48303497174501,41,Bully,2.0,-61.3
+shove prescribed medication down your aunt's throat,-57.19047619047619,44.65603995835171,21,Medication,2.0,-38.1
+sit in a chair,32.575,47.33182780198673,40,,,22.7
+smash a shuttle's safety mirrors with a sledgehammer,-74.57142857142857,27.825476507279134,21,Shuttle,1.0,-79.8
+spray-paint graffiti onto a shuttle's windshield,-51.303030303030305,31.176398172821425,33,Shuttle,2.0,-65.1
+spread rumors about a gardener to the other residents,-45.76315789473684,32.90562607816507,38,Garden,2.0,-66.6
+stab a person in the back with a pair of scissors,-84.07894736842105,35.578904757269925,38,Bully,1.0,-78.3
+steal a gift card from a store's supply,-61.666666666666664,33.85231405187343,33,Giftcard,2.0,-72.7
+steal all the money from your colleague's wallet,-82.475,23.97967889693271,40,Giftcard,1.0,-82.1
+steal another owner’s service dog ID card,-65.94594594594595,29.234631238715217,37,Servicedog,1.0,-79.5
+stomp on a gardener's plants with your feet,-59.833333333333336,36.373066958946424,36,Garden,1.0,-88.8
+stretch your legs out,33.6,42.603599221974974,40,,,-6.1
+strum a guitar,26.253731343283583,41.31598241035533,67,,,-0.8
+take the day off from work,17.236842105263158,39.824231527867624,38,,,-5.9
+temporarily redirect money from another account into a family's account,-36.73684210526316,39.3169272468813,38,Robinhood,3.0,-19.2
+thoroughly shuffle a deck of cards,28.75609756097561,41.86512897854543,41,,,-7.7
+travel to a different country,24.076923076923077,38.50521811212538,39,,,-23.8
+visit a new restaurant chain,26.833333333333332,43.13049776432419,42,,,-10.7
+yell at your aunt to take her prescribed medication,-9.333333333333334,40.89060609316847,33,Medication,3.0,-13.1

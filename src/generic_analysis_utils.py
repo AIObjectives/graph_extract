@@ -1,5 +1,5 @@
 import pandas as pd
-import json    
+import json
 import src.prompts as prompts
 from functools import reduce
 import seaborn as sns

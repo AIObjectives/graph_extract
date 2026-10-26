@@ -1,4 +1,4 @@
-SID,option_1_text,deontic,MWrong_mean
+SID,Action,Score,MWrong_mean
 0,redirect a train to a side track,-33.0,0.47619047619047616
 1,push cars,-29.0,10.318181818181818
 2,throw a bomb to a patio,-80.0,-82.4090909090909
