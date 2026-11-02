@@ -1,23 +1,126 @@
-"""
-Descriptive statistics and utility aggregations for cleaned utility-validation surveys
-(the `clean` dataframe produced by clean_utility_survey.clean_survey).
 
-Works for any number of characters and outcomes: both are read from the column names
-(char_{c}_utility, char_{c}_outcome_{o}, outcome_prob_{o}, causal_{k}_outcome_{o}).
-"""
-
-import re
 import textwrap
-from typing import Dict, List, Optional
+from typing import List, Optional
 
-import matplotlib.pyplot as plt
-from matplotlib.patches import Patch
-from matplotlib.ticker import MaxNLocator
 import numpy as np
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from matplotlib import axes
+from matplotlib.patches import Patch
+from matplotlib.ticker import MaxNLocator
 
-# causal_1 = narrator knew, causal_2 = narrator intended, causal_3 = narrator caused
-CIK_COLUMNS = {"Cause": 3, "Intend": 2, "Know": 1}
+from survey_schema import CIK_COLUMNS, survey_dims, char_names, cik_ratings
+
+
+def make_deont_util_plot(scenario_name, plot_df, results_path):
+
+    plot_df = plot_df.copy()
+
+    # Normalize labels so Seaborn order always matches regardless of input dtype
+    for col in ["deontology_label", "utility_label"]:
+        plot_df[col] = plot_df[col].astype(str).str.strip()
+
+    plot_df["value"] = plot_df["value"].astype(float)
+
+    deontology_order = [
+        x for x in ["1", "2", "3"]
+        if x in plot_df["deontology_label"].dropna().unique().tolist()
+    ]
+    utility_order = [
+        x for x in ["1", "2", "3"]
+        if x in plot_df["utility_label"].dropna().unique().tolist()
+    ]
+
+    if not deontology_order:
+        deontology_order = sorted(plot_df["deontology_label"].dropna().unique().tolist())
+    if not utility_order:
+        utility_order = sorted(plot_df["utility_label"].dropna().unique().tolist())
+
+
+    # Two blue shades for the two measures
+    blue_palette = {
+        "deontology_rating": "#9ecae1",  # lighter blue
+        "utility_diff": "#3182bd",     # darker blue
+    }
+
+    sns.set_theme(style="whitegrid", font_scale=1.1)    
+
+    fig, axes = plt.subplots(1, 2, figsize=(13, 4.5), sharey=True)
+
+    # Deontology plot
+    sns.barplot(
+        data=plot_df,
+        x="deontology_label",
+        y="value",
+        hue="measure",
+        estimator="mean",
+        errorbar="se",
+        capsize=0.12,
+        palette=blue_palette,
+        order=deontology_order,
+        ax=axes[0],
+    )
+
+    axes[0].set_title(f"Mean Ratings ± SE by Deontology Label ({scenario_name})", pad=12)
+    axes[0].set_xlabel("Deontology Category")
+    axes[0].set_ylabel("Rating")
+    label_map = {"1": "Low", "2": "Medium", "3": "High"}
+    axes[0].set_xticklabels([label_map.get(x, x) for x in deontology_order])
+    axes[0].grid(axis="y", linestyle="--", alpha=0.3)
+    axes[0].set_ylim(-100, 100)
+
+    # Remove legend here so we only show one
+    if axes[0].get_legend() is not None:
+        axes[0].get_legend().remove()
+
+    # Utility plot
+    sns.barplot(
+        data=plot_df,
+        x="utility_label",
+        y="value",
+        hue="measure",
+        estimator="mean",
+        errorbar="se",
+        capsize=0.12,
+        palette=blue_palette,
+        order=utility_order,
+        ax=axes[1],
+    )
+
+    axes[1].set_title(f"Mean Ratings ± SE by Utility Label ({scenario_name})", pad=12)
+    axes[1].set_xlabel("Utility Category")
+    axes[1].set_ylabel("")
+
+    axes[1].set_xticklabels([label_map.get(x, x) for x in utility_order])
+    axes[1].set_ylim(-100, 100)
+
+    axes[1].grid(axis="y", linestyle="--", alpha=0.3)
+
+# Remove legend from axes[1] as well — we'll build a figure-level one
+    handles, labels = axes[1].get_legend_handles_labels()
+    if axes[1].get_legend() is not None:
+        axes[1].get_legend().remove()
+
+    # Unified legend, placed fully outside/above the plot area, upper right
+    fig.legend(
+        handles, labels,
+        title="Measure",
+        loc="upper left",
+        bbox_to_anchor=(1.0, 1.0),   # anchored to the figure's top-right corner, legend grows leftward from there
+        bbox_transform=fig.transFigure,
+        frameon=True,
+        framealpha=0.9,
+    )
+
+    sns.despine()
+    plt.tight_layout(rect=[0, 0, 0.975, 1])  # reserve right-hand margin for the legend
+    plt.savefig(results_path / f"{scenario_name}_deont_util_comparison.png", dpi=300, bbox_inches="tight")
+    plt.show()
+
+
+# ---- Utility survey plots (data helpers live in survey_schema) ----
+
 CIK_STATEMENTS = {"Cause": "narrator caused the outcome",
                   "Intend": "narrator intended the outcome",
                   "Know": "narrator knew it would happen"}
@@ -33,20 +136,6 @@ LIKERT_COLORS = {1: "#b3302f", 2: "#e34948", 3: "#f2a9a8", 4: "#d9d8d2",
                  5: "#9ec5f4", 6: "#3987e5", 7: "#184f95"}
 LIKERT_TEXT = {1: "#ffffff", 2: "#ffffff", 3: INK, 4: INK, 5: INK, 6: "#ffffff", 7: "#ffffff"}
 LIKERT_LEGEND = {1: "1 (lowest)", 7: "7 (highest)"}
-
-
-def survey_dims(clean: pd.DataFrame) -> Dict[str, int]:
-    """Number of characters and outcomes, read from the column names."""
-    def count(pattern):
-        return sum(bool(re.fullmatch(pattern, col)) for col in clean.columns)
-    return {"n_chars": count(r"char_\d+_utility"), "n_outcomes": count(r"outcome_prob_\d+")}
-
-
-def char_names(clean: pd.DataFrame, char_labels: Optional[List[Optional[str]]] = None) -> List[str]:
-    """Display name per character; falls back to 'char_c' where no label is given."""
-    n_chars = survey_dims(clean)["n_chars"]
-    char_labels = list(char_labels or []) + [None] * n_chars
-    return [char_labels[c] or f"char_{c+1}" for c in range(n_chars)]
 
 
 def _hist(ax, values, bins, title, xlabel, bold_title=False):
@@ -66,13 +155,6 @@ def _hist(ax, values, bins, title, xlabel, bold_title=False):
     ax.set_xlabel(xlabel)
     ax.set_ylabel("Participants")
     ax.yaxis.set_major_locator(MaxNLocator(integer=True))   # whole numbers of participants
-
-
-# ---- Descriptive statistics ----
-
-def _cik_ratings(clean: pd.DataFrame, label: str, o: int) -> pd.Series:
-    """One rating type's 1-7 agreement ratings for outcome o."""
-    return pd.to_numeric(clean[f"causal_{CIK_COLUMNS[label]}_outcome_{o}"], errors="coerce").dropna()
 
 
 def _grid_panel(ax, values, bins) -> None:
@@ -158,7 +240,7 @@ def plot_cik(clean: pd.DataFrame, outcome_labels: Optional[List[Optional[str]]] 
     for o in range(1, n_outcomes + 1):
         for j, label in enumerate(CIK_COLUMNS):
             ax = axes[o - 1, j]
-            _grid_panel(ax, _cik_ratings(clean, label, o), LIKERT_BINS)
+            _grid_panel(ax, cik_ratings(clean, label, o), LIKERT_BINS)
             ax.set_xticks(range(1, 8))
 
             # Axis labels once: under the bottom row and left of the first column
@@ -187,7 +269,7 @@ def plot_cik_summary(clean: pd.DataFrame,
     n = len(clean)
 
     # Count ratings per (rating type, outcome); the midpoint rating (4) straddles zero
-    counts_by = {(label, o): _cik_ratings(clean, label, o).round().astype(int)
+    counts_by = {(label, o): cik_ratings(clean, label, o).round().astype(int)
                                  .value_counts().reindex(ratings, fill_value=0)
                  for label in CIK_COLUMNS for o in range(1, n_outcomes + 1)}
     disagree_max = max(c[1] + c[2] + c[3] + c[4] / 2 for c in counts_by.values())
@@ -199,7 +281,7 @@ def plot_cik_summary(clean: pd.DataFrame,
     for j, label in enumerate(CIK_COLUMNS):
         ax = axes[0, j]
         for o in range(1, n_outcomes + 1):
-            values = _cik_ratings(clean, label, o)
+            values = cik_ratings(clean, label, o)
             counts = counts_by[(label, o)]
             left = -(counts[1] + counts[2] + counts[3] + counts[4] / 2)
             for rating in ratings:
@@ -296,64 +378,6 @@ def plot_outcome_char_utilities(clean: pd.DataFrame, char_labels=None,
     return fig
 
 
-# ---- Utility aggregations ----
-
-def utility_aggregations(clean: pd.DataFrame) -> pd.DataFrame:
-    """
-    Per-participant sums used to compare utility levels:
-        char_{c}_utility       rated utility of the action for character c
-        char_{c}_outcome_sum   sum over outcomes of character c's per-outcome utility
-        outcome_utility_sum    sum of char_{c}_outcome_sum over all characters
-        char_utility_sum       sum of char_{c}_utility over all characters
-        overall_utility        rated overall utility of the action
-    """
-    dims = survey_dims(clean)
-    chars = range(1, dims["n_chars"] + 1)
-    outcomes = range(1, dims["n_outcomes"] + 1)
-
-    agg = clean[["Subject", "overall_utility"]].copy()
-    for c in chars:
-        agg[f"char_{c}_utility"] = clean[f"char_{c}_utility"]
-        agg[f"char_{c}_outcome_sum"] = clean[[f"char_{c}_outcome_{o}" for o in outcomes]].sum(axis=1)
-    agg["outcome_utility_sum"] = agg[[f"char_{c}_outcome_sum" for c in chars]].sum(axis=1)
-    agg["char_utility_sum"] = agg[[f"char_{c}_utility" for c in chars]].sum(axis=1)
-    return agg
-
-
-def comparison_pairs(clean: pd.DataFrame, char_labels=None) -> List[dict]:
-    """The (rated, summed) column pairs to compare, with a readable description."""
-    names = char_names(clean, char_labels)
-    pairs = [{"comparison": f"(a) {name}: sum over outcomes vs. rated character utility",
-              "title": f"(a) {name}",
-              "rated": f"char_{c}_utility", "summed": f"char_{c}_outcome_sum"}
-             for c, name in enumerate(names, start=1)]
-    pairs.append({"comparison": "(b) sum over outcomes and characters vs. overall utility",
-                  "title": "(b) all outcomes x characters",
-                  "rated": "overall_utility", "summed": "outcome_utility_sum"})
-    pairs.append({"comparison": "(c) sum of character utilities vs. overall utility",
-                  "title": "(c) all characters",
-                  "rated": "overall_utility", "summed": "char_utility_sum"})
-    return pairs
-
-
-def aggregation_summary(agg: pd.DataFrame, pairs: List[dict]) -> pd.DataFrame:
-    """How well each summed utility recovers the rated one, across participants."""
-    rows = []
-    for pair in pairs:
-        rated, summed = agg[pair["rated"]], agg[pair["summed"]]
-        diff = summed - rated
-        rows.append({
-            "comparison": pair["comparison"],
-            "rated_mean": rated.mean(),
-            "summed_mean": summed.mean(),
-            "mean_diff (summed - rated)": diff.mean(),
-            "mean_abs_diff": diff.abs().mean(),
-            "pearson_r": rated.corr(summed),
-            "same_sign_%": 100 * (np.sign(rated) == np.sign(summed)).mean(),
-        })
-    return pd.DataFrame(rows).round(2)
-
-
 def plot_aggregations(agg: pd.DataFrame, pairs: List[dict]) -> plt.Figure:
     """Scatter of summed vs. rated utility per participant; dashed line = perfect recovery."""
     n_cols = 3
@@ -369,6 +393,9 @@ def plot_aggregations(agg: pd.DataFrame, pairs: List[dict]) -> plt.Figure:
         ax.set_xlabel(f"Rated: {pair['rated']}")
         ax.set_ylabel(f"Summed: {pair['summed']}")
         ax.set_title(pair["title"], fontsize=11)
+        # Pearson correlation between rated and summed, in the top-right corner
+        ax.text(0.97, 0.96, f"r = {x.corr(y):.2f}", transform=ax.transAxes, ha="right", va="top",
+                fontsize=11, bbox=dict(facecolor="white", edgecolor="lightgray", boxstyle="round,pad=0.3"))
     for ax in list(axes.flat)[len(pairs):]:
         ax.axis("off")
     fig.tight_layout()
