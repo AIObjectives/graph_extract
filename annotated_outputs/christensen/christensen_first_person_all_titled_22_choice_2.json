@@ -1,0 +1,8 @@
+{"node": {"kind": "action_choice", "label": "do nothing"}, "links": [{"link": {"kind": "v-link", "value": "-61.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "I drown"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The child clinging to my leg drowns"}]}
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "do nothing"}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "I drown"}, {"link": {"kind": "b_link", "value": "C-I-K-"}, "to_node": "The child clinging to my leg drowns"}]}
+{"node": {"kind": "being", "label": "1 child latched onto my leg in the sinking bus"}, "links": []}
+{"node": {"kind": "being", "label": "the remaining kindergarten children already swept away by the river"}, "links": []}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"node": {"kind": "event", "label": "I drown"}, "links": [{"link": {"kind": "utility", "value": "-100"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-90"}, "to_node": "1 child latched onto my leg in the sinking bus"}, {"link": {"kind": "utility", "value": "-40"}, "to_node": "the remaining kindergarten children already swept away by the river"}]}
+{"node": {"kind": "event", "label": "The child clinging to my leg drowns"}, "links": [{"link": {"kind": "utility", "value": "-85"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-100"}, "to_node": "1 child latched onto my leg in the sinking bus"}, {"link": {"kind": "utility", "value": "15"}, "to_node": "the remaining kindergarten children already swept away by the river"}]}
+{"version": "b9ed8a4482dae6b49c9ae093e540885cabfb3dee"}

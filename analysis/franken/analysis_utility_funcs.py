@@ -147,18 +147,20 @@ def read_scenario_input_output(inputs_json, outputs_json):
     return pd.DataFrame(scenario_df)
 
 
-def read_all_scenarios(inputs_json, outputs_dir):
+def read_all_scenarios(inputs_json, outputs_dir, choice_glob="*.json"):
     """
     Reads all scenarios from a given dataset and returns a df with the events and their labels for both choices.
     Args:
     inputs_json: The path to the scenario input json file
     outputs_dir: The directory where the scenario output json files are located
+    choice_glob: Glob pattern (relative to outputs_dir) selecting which output files to include, e.g.
+        "*choice_1.json" to restrict to choice 1 only. Defaults to "*.json" (all choices).
     Returns:
     pd.DataFrame: A DataFrame with columns "SID", "option", "event", "C", "I", "K", "utility", and a column for all other keys in the json
     """
     all_scenarios_df = pd.DataFrame()
     json_filename_stem = inputs_json.split("/")[-1].split(".")[0]
-    for output_file in Path(outputs_dir).glob("*.json"):
+    for output_file in Path(outputs_dir).glob(choice_glob):
         # print(f"Processing output file: {output_file}")
         if json_filename_stem in str(output_file).split("/") or json_filename_stem in str(output_file).split("/")[-1]:
             scenario_df = read_scenario_input_output(inputs_json, str(output_file))
