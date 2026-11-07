@@ -1,7 +1,7 @@
 """
 Survey schema primitives: the shape of the cleaned utility-validation survey
 DataFrame and which columns hold which ratings. Shared by aggregation_analysis
-and plot_helper so neither module has to depend on the other.
+and human_plots so neither module has to depend on the other.
 
 Everything here is read from the column names (char_{c}_utility,
 char_{c}_outcome_{o}, outcome_prob_{o}, causal_{k}_outcome_{o}), so it works for
