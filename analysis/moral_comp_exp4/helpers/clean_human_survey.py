@@ -68,27 +68,6 @@ def _single_qid(codebook: pd.DataFrame, name: str) -> str:
     return matches[0]
 
 
-def _char_label(text: str) -> Union[str, None]:
-    """
-    Extract the character name from a utility grid column's text, if present.
-    Qualtrics ends every grid column's text with " - <character>": the first column
-    carries the full question text before it, the others just "utility_q".
-    """
-    text = str(text).strip()
-    return text.rsplit(" - ", 1)[1].strip() if " - " in text else None
-
-
-def _outcome_label(text: str) -> Union[str, None]:
-    """
-    Extract the outcome description from the first utility column of an outcome block,
-    whose text ends with the line "Outcome: <description> - <character>".
-    """
-    lines = str(text).strip().splitlines()
-    if not lines or not lines[-1].strip().startswith("Outcome:"):
-        return None
-    return lines[-1].strip()[len("Outcome:"):].rsplit(" - ", 1)[0].strip()
-
-
 def detect_structure(codebook: pd.DataFrame) -> dict:
     """
     Walk the survey columns in order and group the ImportIds by role.
@@ -99,8 +78,6 @@ def detect_structure(codebook: pd.DataFrame) -> dict:
         outcome_prob       [outcome_1, ..., outcome_m]
         outcome_causal     [[causal_1, ..., causal_k] per outcome]
         attention          [ImportIds of every attention check, in survey order]
-        char_labels        [character name per char, None if not in the header]
-        outcome_labels     [outcome description per outcome, None if not in the header]
     """
     structure = {
         "sentience": _single_qid(codebook, "Sentience"),
@@ -150,24 +127,16 @@ def detect_structure(codebook: pd.DataFrame) -> dict:
     structure["outcome_utility"] = [block["utility"] for block in outcomes]
     structure["attention"] = attention
 
-    text_by_qid = dict(zip(codebook["qid"], codebook["text"]))
-    structure["char_labels"] = [_char_label(text_by_qid[qid]) for qid in structure["char_utility"]]
-    structure["outcome_labels"] = [_outcome_label(text_by_qid[block[0]])
-                                   for block in structure["outcome_utility"]]
-
     return structure
 
 
 def describe_structure(structure: dict, codebook: pd.DataFrame) -> None:
-    """Print the detected layout, to check it before cleaning a new scenario."""
+    """Print the detected layout to check it before cleaning. Entity/outcome names
+    come from scenario_labels (sl.resolve_labels(...).table()), not from here."""
     text_by_qid = dict(zip(codebook["qid"], codebook["text"].astype(str)))
 
     print(f"Characters: {len(structure['char_utility'])}")
-    for c, label in enumerate(structure["char_labels"], start=1):
-        print(f"  char_{c}: {label or '(name not in header; check Qualtrics)'}")
     print(f"Outcomes: {len(structure['outcome_prob'])}")
-    for o, label in enumerate(structure["outcome_labels"], start=1):
-        print(f"  outcome_{o}: {label or '(description not in header; check Qualtrics)'}")
     print(f"Causal questions per outcome: {len(structure['outcome_causal'][0])}")
     print(f"Attention checks: {len(structure['attention'])}")
     for a, qid in enumerate(structure["attention"], start=1):
