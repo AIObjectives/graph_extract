@@ -81,6 +81,7 @@ def detect_structure(codebook: pd.DataFrame) -> dict:
     """
     structure = {
         "sentience": _single_qid(codebook, "Sentience"),
+        "sentience_2": _single_qid(codebook, "sentience"),
         "entity": _single_qid(codebook, "entity_q"),
         "other_entities": _single_qid(codebook, "other_entities"),
     }
@@ -149,6 +150,7 @@ def build_rename_map(structure: dict) -> Dict[str, str]:
     """Map ImportIds to clean column names; the dict order is the output column order."""
     rename_map = {
         structure["sentience"]: "Sentience",
+        structure["sentience_2"]: "sentience",
         structure["entity"]: "entity",
         structure["other_entities"]: "other_entities",
         structure["overall_utility"]: "overall_utility",
@@ -243,3 +245,21 @@ def clean_survey(csv_path: Union[str, Path], attention_answers: Dict[str, Answer
                        exclusions=pd.DataFrame(exclusions, columns=["response_id", "reason"]),
                        structure=structure,
                        attention_checks=checks)
+
+
+UTIL_PATTERN = r"overall_utility|char_\d+_utility|char_\d+_outcome_\d+"
+CIK_PATTERN = r"causal_\d+_outcome_\d+|outcome_prob_\d+"
+
+def split_outputs(clean: pd.DataFrame) -> tuple:
+    """
+    Return (util_deon_df, cik_df).
+    util_deon_df: every column except the C/I/K block (causal ratings + outcome probabilities).
+    cik_df:       every column except the utility ratings.
+    All other columns (Subject, screening, attention, etc.) appear in both.
+    """
+    is_util = clean.columns.str.fullmatch(UTIL_PATTERN)
+    is_cik = clean.columns.str.fullmatch(CIK_PATTERN)
+    if not is_util.any() or not is_cik.any():
+        raise ValueError(f"Expected both utility and C/I/K columns; found "
+                         f"{is_util.sum()} utility and {is_cik.sum()} C/I/K")
+    return clean.loc[:, ~is_cik].copy(), clean.loc[:, ~is_util].copy()

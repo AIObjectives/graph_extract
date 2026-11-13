@@ -1,0 +1,8 @@
+kind,number,label
+character,1,I
+character,2,my younger brother
+character,3,my parents
+character,4,my younger brother's online chat contacts
+outcome,1,My brother's private chat history is disclosed to my parents.
+outcome,2,My brother's privacy is violated.
+outcome,3,Trust between me and my brother is damaged.
