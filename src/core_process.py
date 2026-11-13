@@ -157,10 +157,11 @@ def process_impacts(this_scenario_Ziv, this_act, events_Ziv, events_I, beings_fi
 
   act_node = g.return_node(this_act)[0]   
 
-  #create list of impacts on each being
+  #create list of impacts on each being from each event
   impacts_list = []
   impacts_df = []
 
+  #for each event
   for this_evt_Ziv, this_evt_I in zip(events_Ziv,events_I):
 
     print('\nProcessing impacts of event: '+this_evt_Ziv)
@@ -175,80 +176,17 @@ def process_impacts(this_scenario_Ziv, this_act, events_Ziv, events_I, beings_fi
     impacts_Ziv = {}
     for being in beings_fixed_Ziv:      
 
-      #  this_score = prompts.get_impacts_Ziv_single(this_scenario_Ziv, this_act this_evt_Ziv, being)   
-
        this_score = prompts.get_impacts_Ziv_single_noscene( this_evt_Ziv, being)   
        impacts_Ziv[being] = this_score['score']
     
-    
-    # beings_string = ', '.join(beings_fixed_Ziv)
-    # impacts_Ziv = prompts.get_impacts_Ziv_multi(this_scenario_Ziv, this_act, this_evt_Ziv, beings_string) 
-
     print(impacts_Ziv)
 
-
+    #for these scores, create a numeric list the length of beings list
     try:
        scored_values = list(impacts_Ziv.values())
     except:
        #list of NAs equal to length of beings
        scored_values = [None] * len(beings_fixed_Ziv)
-
-    # # # try to align the returned beings list with the known beings list
-    # # # create Ziv version of beings
-    # # # convert both into sets
-    # beings_known_set = set(beings_fixed_Ziv)
-    # beings_found_list = list(impacts_Ziv.keys())
-
-
-    # beings_not_found = []
-    # for this_b in beings_found_list:
-    #   if(this_b in beings_known_set):
-    #     beings_known_set.discard(this_b)
-    #   else:
-    #     beings_not_found.append(this_b)
-     
-
-    # #handle any remaining beings in being_set were not identified
-    # #some known beings were not found
-    # # beings_known are any known beings not found in returned list
-    # # beings_not_found are any in the returned list not found in known set
-    # if(beings_known_set and beings_not_found):                        
-    #       #if there is one known unfound and one returned unfound, assume they match and replace with each other
-
-    #       if(len(beings_known_set)==len(beings_not_found)==1):
-    #           print('\nReplacing '+beings_not_found[0]+' with: ')
-    #           print(beings_known_set)
-    #           beings_found_list.remove(beings_not_found[0]) 
-    #           beings_found_list.append(beings_known_set.pop())
-              
-    #       else:
-    #       #the main errors arise if there is a returned being not in the known_beings list
-    #       #for each one of those, see if you can find its corresponding item by semantic sim. 
-    #         for item in beings_not_found:
-
-    #           matches = prompts.find_semantic_match(item,beings_fixed_Ziv)
-    #           # print(scored_values)
-    #           # print(beings_found_list)
-    #           #find the index of this item in the beings_found_list
-    #           index = beings_found_list.index(item)
-
-
-    #           try:
-    #             rep_item = matches[item]
-    #             beings_found_list[index] = rep_item
-    #           except:
-    #             scored_values.pop(index)
-    #             beings_found_list.pop(index)
-
-             
-
-
-    # print("Scored impacts for these beings:")
-    # print(beings_found_list)
-    # print("Scored values:")
-    # print(scored_values)
-
-    #add node links, converting Ziv to I again
 
     beings_found_list = beings_fixed_Ziv
 
@@ -261,14 +199,10 @@ def process_impacts(this_scenario_Ziv, this_act, events_Ziv, events_I, beings_fi
                 x=x.lower()                
           beings_found_list_I.append(prompts.convert_Ziv_I(x))
     except:
-       print('error with beings found list!')
+       print('ERROR with beings found list in process_impacts!')
        print(beings_found_list)
        beings_found_list_I=beings_found_list
     
-    # print(beings_found_list_I)
-    # g.print_graph()
-    
-
     for being,score in zip(beings_found_list_I,scored_values):
         this_link = g.add_link(node.Link('utility',str(score)))
         # this_b_node = g.return_node(being.lstrip())[0]
@@ -276,8 +210,10 @@ def process_impacts(this_scenario_Ziv, this_act, events_Ziv, events_I, beings_fi
         if g.return_node(being.lower()):
             this_b_node = g.return_node(being.lower())[0]
         else:
-           print('not working')
+           print('ERROR: unable to locate node for being: '+being)
+           print(g.print_graph())
             # this_b_node = g.return_node(being.lstrip()[0].upper() + being.lstrip()[1:])[0]
+        #add the scores to the graph    
         this_event_node = g.return_node(this_evt_I)[0]
         this_event_node.link_link(this_link,this_b_node)
         items_to_write = ",".join([this_evt_I,being,str(score)])
@@ -361,6 +297,63 @@ def process_causal_links(this_scenario_Ziv, events_Ziv, events_I, this_act,g):
 
 
 
+
+    # # # try to align the returned beings list with the known beings list
+    # # # create Ziv version of beings
+    # # # convert both into sets
+    # beings_known_set = set(beings_fixed_Ziv)
+    # beings_found_list = list(impacts_Ziv.keys())
+
+
+    # beings_not_found = []
+    # for this_b in beings_found_list:
+    #   if(this_b in beings_known_set):
+    #     beings_known_set.discard(this_b)
+    #   else:
+    #     beings_not_found.append(this_b)
+     
+
+    # #handle any remaining beings in being_set were not identified
+    # #some known beings were not found
+    # # beings_known are any known beings not found in returned list
+    # # beings_not_found are any in the returned list not found in known set
+    # if(beings_known_set and beings_not_found):                        
+    #       #if there is one known unfound and one returned unfound, assume they match and replace with each other
+
+    #       if(len(beings_known_set)==len(beings_not_found)==1):
+    #           print('\nReplacing '+beings_not_found[0]+' with: ')
+    #           print(beings_known_set)
+    #           beings_found_list.remove(beings_not_found[0]) 
+    #           beings_found_list.append(beings_known_set.pop())
+              
+    #       else:
+    #       #the main errors arise if there is a returned being not in the known_beings list
+    #       #for each one of those, see if you can find its corresponding item by semantic sim. 
+    #         for item in beings_not_found:
+
+    #           matches = prompts.find_semantic_match(item,beings_fixed_Ziv)
+    #           # print(scored_values)
+    #           # print(beings_found_list)
+    #           #find the index of this item in the beings_found_list
+    #           index = beings_found_list.index(item)
+
+
+    #           try:
+    #             rep_item = matches[item]
+    #             beings_found_list[index] = rep_item
+    #           except:
+    #             scored_values.pop(index)
+    #             beings_found_list.pop(index)
+
+             
+
+
+    # print("Scored impacts for these beings:")
+    # print(beings_found_list)
+    # print("Scored values:")
+    # print(scored_values)
+
+    #add node links, converting Ziv to I again
 
 # def process_values(this_scenario, this_act_I, this_act, g):
    
