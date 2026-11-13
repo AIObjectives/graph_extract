@@ -211,7 +211,7 @@ def process_impacts(this_scenario_Ziv, this_act, events_Ziv, events_I, beings_fi
             this_b_node = g.return_node(being.lower())[0]
         else:
            print('ERROR: unable to locate node for being: '+being)
-           g.print_graph()
+           print(g.print_graph())
             # this_b_node = g.return_node(being.lstrip()[0].upper() + being.lstrip()[1:])[0]
         #add the scores to the graph    
         this_event_node = g.return_node(this_evt_I)[0]
