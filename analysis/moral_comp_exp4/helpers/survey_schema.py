@@ -21,7 +21,7 @@ def survey_dims(clean: pd.DataFrame) -> Dict[str, int]:
     """Number of characters and outcomes, read from the column names."""
     def count(pattern):
         return sum(bool(re.fullmatch(pattern, col)) for col in clean.columns)
-    return {"n_chars": count(r"char_\d+_utility"), "n_outcomes": count(r"outcome_prob_\d+")}
+    return {"n_chars": count(r"char_\d+_utility"), "n_outcomes": count(r"char_1_outcome_\d+") or count(r"outcome_prob_\d+")}
 
 
 def char_names(clean: pd.DataFrame, char_labels: Optional[List[Optional[str]]] = None) -> List[str]:

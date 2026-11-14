@@ -22,7 +22,7 @@ def utility_aggregations(clean: pd.DataFrame) -> pd.DataFrame:
     Per-participant sums used to compare utility levels:
         char_{c}_utility       rated utility of the action for character c
         char_{c}_outcome_sum   sum over outcomes of character c's per-outcome utility
-        sum_outcome_utility    sum of char_{c}_outcome_sum over all characters
+        sum_char_outcome_utility    sum of char_{c}_outcome_sum over all characters
         sum_char_utility       sum of char_{c}_utility over all characters
         overall_utility        rated overall utility of the action
     """
@@ -34,7 +34,7 @@ def utility_aggregations(clean: pd.DataFrame) -> pd.DataFrame:
     for c in chars:
         agg[f"char_{c}_utility"] = clean[f"char_{c}_utility"]
         agg[f"char_{c}_outcome_sum"] = clean[[f"char_{c}_outcome_{o}" for o in outcomes]].sum(axis=1)
-    agg["sum_outcome_utility"] = agg[[f"char_{c}_outcome_sum" for c in chars]].sum(axis=1)
+    agg["sum_char_outcome_utility"] = agg[[f"char_{c}_outcome_sum" for c in chars]].sum(axis=1)
     agg["sum_char_utility"] = agg[[f"char_{c}_utility" for c in chars]].sum(axis=1)
     return agg
 
@@ -48,7 +48,7 @@ def comparison_pairs(clean: pd.DataFrame, char_labels=None) -> List[dict]:
              for c, name in enumerate(names, start=1)]
     pairs.append({"comparison": "(b) sum over outcomes and characters vs. overall utility",
                   "title": "(b) all outcomes x characters",
-                  "rated": "overall_utility", "summed": "sum_outcome_utility"})
+                  "rated": "overall_utility", "summed": "sum_char_outcome_utility"})
     pairs.append({"comparison": "(c) sum of character utilities vs. overall utility",
                   "title": "(c) all characters",
                   "rated": "overall_utility", "summed": "sum_char_utility"})
@@ -64,7 +64,9 @@ def aggregation_summary(agg: pd.DataFrame, pairs: List[dict]) -> pd.DataFrame:
         rows.append({
             "comparison": pair["comparison"],
             "rated_mean": rated.mean(),
+            "rated_mean_std": rated.std(),
             "summed_mean": summed.mean(),
+            "summed_mean_std": summed.std(),
             "mean_diff (summed - rated)": diff.mean(),
             "pearson_r": rated.corr(summed),
         })

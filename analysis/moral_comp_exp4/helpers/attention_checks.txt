@@ -1,0 +1,5459 @@
+Bully - 1, choice_1
+Outcome 1 — the bully suffers a stab wound
+
+* (a) The bully suffers a stab wound. ✓
+* (b) The bully walks away completely unharmed.
+* (c) The victim suffers a stab wound instead.
+
+Outcome 2 — the bully feels intense pain and bleeds
+
+* (a) The bully experiences intense pain and bleeding. ✓
+* (b) The bully feels no pain and stays calm.
+* (c) The victim experiences intense pain and bleeding.
+
+Outcome 3 — the victim is freed from the chokehold
+
+* (a) The victim is freed from the chokehold. ✓
+* (b) The victim remains trapped in the chokehold.
+* (c) The bully tightens the chokehold further.
+
+Outcome 4 — bullying and lunch-money demand stop immediately
+
+* (a) The bullying and demand for lunch money stop immediately. ✓
+* (b) The bullying and lunch-money demand escalate sharply.
+* (c) The victim hands over the lunch money at once.
+
+Bully - 1, choice_2
+Outcome 1 — the bully continues assaulting the victim
+
+* (a) The bully continues assaulting the victim. ✓
+* (b) The bully stops assaulting the victim entirely.
+* (c) The bully turns and flees down the hallway.
+
+Outcome 2 — the victim remains in the chokehold
+
+* (a) The victim remains in the chokehold. ✓
+* (b) The victim breaks free of the chokehold.
+* (c) The victim is helped up by a teacher.
+
+Outcome 3 — the bully keeps demanding lunch money
+
+* (a) The bully continues demanding the victim's lunch money. ✓
+* (b) The bully abandons the demand for lunch money.
+* (c) The bully returns the lunch money to the victim.
+
+Outcome 4 — the victim continues in pain and fear
+
+* (a) The victim continues experiencing pain and fear. ✓
+* (b) The victim feels calm and reassured.
+* (c) The bully begins to feel pain and fear.
+
+Outcome 5 — I remain physically unharmed
+
+* (a) I remain physically unharmed. ✓
+* (b) I am injured during the struggle.
+* (c) The bully turns and attacks me.
+
+Bully - 2, choice_1
+Outcome 1 — the bully stops harassing the victim
+
+* (a) The bully stops harassing the victim ✓
+* (b) The bully intensifies the harassment.
+* (c) The bully recruits others to join in.
+
+Outcome 2 — the victim is released from the chokehold
+
+* (a) The victim is released from the chokehold ✓
+* (b) The victim stays locked in the chokehold.
+* (c) The bully drags the victim to the ground.
+
+Outcome 3 — the victim does not hand over lunch money
+
+* (a) The victim does not hand over lunch money ✓
+* (b) The victim hands over the lunch money.
+* (c) The victim loses the lunch money in the scuffle.
+
+Outcome 4 — the victim gets immediate relief from danger
+
+* (a) The victim gets immediate relief from physical danger ✓
+* (b) The victim faces even greater immediate danger.
+* (c) The victim collapses from the ongoing assault.
+
+Outcome 5 — the bully is physically jolted
+
+* (a) The bully is physically jolted ✓
+* (b) The bully is entirely unmoved by the shove.
+* (c) The victim is physically jolted backward.
+
+Outcome 6 — the bully's attention shifts to me
+
+* (a) The bully's attention shifts to me ✓
+* (b) The bully ignores me completely.
+* (c) The bully's attention stays fixed on the victim.
+
+Bully - 2, choice_2
+Outcome 1 — the bully continues harassing the victim
+
+* (a) The bully continues harassing the victim ✓
+* (b) The bully ceases harassing the victim.
+* (c) The bully apologizes to the victim.
+
+Outcome 2 — the victim continues being harmed in chokehold
+
+* (a) The victim continues being physically harmed in the chokehold ✓
+* (b) The victim escapes the chokehold unharmed.
+* (c) The bully releases the victim gently.
+
+Outcome 3 — the victim continues feeling fear and distress
+
+* (a) The victim continues feeling fear and distress ✓
+* (b) The victim feels safe and relieved.
+* (c) The bully begins feeling fear and distress.
+
+Outcome 4 — the bully keeps trying to take lunch money
+
+* (a) The bully continues trying to take the victim's lunch money ✓
+* (b) The bully gives up on the lunch money.
+* (c) The bully hands cash to the victim instead.
+
+Outcome 5 — I feel distress from witnessing the bullying
+
+* (a) I experience distress from witnessing the bullying ✓
+* (b) I feel indifferent while watching the bullying.
+* (c) I feel proud of intervening successfully.
+
+Bully - 3, choice_1
+Outcome 1 — the bully stops harassing the victim
+
+* (a) The bully stops harassing the victim ✓
+* (b) The bully intensifies the harassment.
+* (c) The bully recruits others to join in.
+
+Outcome 2 — the victim is released from the chokehold
+
+* (a) The victim is released from the chokehold ✓
+* (b) The victim stays locked in the chokehold.
+* (c) The bully drags the victim to the ground.
+
+Outcome 3 — the victim avoids further immediate harm
+
+* (a) The victim avoids further immediate harm ✓
+* (b) The victim suffers further immediate harm.
+* (c) The victim is knocked unconscious in the hallway.
+
+Outcome 4 — the bully's enjoyment of bullying is interrupted
+
+* (a) The bully's enjoyment of the bullying is interrupted ✓
+* (b) The bully continues enjoying the bullying uninterrupted.
+* (c) The bully grows more pleased with the situation.
+
+Bully - 3, choice_2
+Outcome 1 — the bully continues harassing the victim
+
+* (a) The bully continues harassing the victim. ✓
+* (b) The bully stops harassing the victim.
+* (c) The bully leaves the hallway entirely.
+
+Outcome 2 — the victim remains in the chokehold
+
+* (a) The victim remains in the chokehold. ✓
+* (b) The victim breaks free of the chokehold.
+* (c) The victim is helped up by a teacher.
+
+Outcome 3 — the victim continues suffering physical harm
+
+* (a) The victim continues suffering physical harm. ✓
+* (b) The victim is freed from all physical harm.
+* (c) The bully begins suffering physical harm.
+
+Outcome 4 — the victim continues in fear and distress
+
+* (a) The victim continues experiencing fear and distress. ✓
+* (b) The victim becomes calm and unafraid.
+* (c) The bully experiences fear and distress.
+
+Outcome 5 — the bully keeps threatening for lunch money
+
+* (a) The bully continues threatening the victim for lunch money. ✓
+* (b) The bully drops the threat for lunch money.
+* (c) The bully offers to buy the victim lunch.
+
+Bully - 4, choice_1
+Outcome 1 — the bully suffers a stab wound
+
+* (a) The bully suffers a stab wound ✓
+* (b) The bully escapes without any injury.
+* (c) The scissors miss the bully entirely.
+
+Outcome 2 — the bully feels intense pain
+
+* (a) The bully feels intense pain ✓
+* (b) The bully feels nothing at all.
+* (c) The victim feels intense pain.
+
+Outcome 3 — the bully begins bleeding
+
+* (a) The bully begins bleeding ✓
+* (b) The bully shows no sign of injury.
+* (c) The victim begins bleeding.
+
+Outcome 4 — the bully stops harassing the victim
+
+* (a) The bully stops harassing the victim ✓
+* (b) The bully intensifies the harassment.
+* (c) The bully recruits others to join in.
+
+Outcome 5 — victim no longer hair-pulled or threatened
+
+* (a) The victim is no longer being hair-pulled and threatened for lunch money ✓
+* (b) The victim continues being hair-pulled and threatened.
+* (c) The bully pulls the victim's hair harder.
+
+Outcome 6 — the victim witnesses violence and feels frightened
+
+* (a) The victim witnesses severe violence and feels frightened ✓
+* (b) The victim feels reassured by the intervention.
+* (c) The victim laughs off the whole incident.
+
+Outcome 7 — I feel acute stress from the violent act
+
+* (a) I experience acute stress from the violent act ✓
+* (b) I feel completely calm about the violent act.
+* (c) I feel satisfied and unbothered afterward.
+
+Outcome 8 — a medical emergency is created in the hallway
+
+* (a) A medical emergency is created in the hallway ✓
+* (b) The hallway remains calm with no emergency.
+* (c) A teacher quietly resolves the situation.
+
+Bully - 4, choice_2
+Outcome 1 — the bully continues harassing the victim
+
+* (a) The bully continues harassing the victim ✓
+* (b) The bully ceases harassing the victim.
+* (c) The bully apologizes to the victim.
+
+Outcome 2 — the victim continues feeling frightened
+
+* (a) The victim continues feeling frightened ✓
+* (b) The victim feels completely at ease.
+* (c) The bully continues feeling frightened.
+
+Outcome 3 — the victim keeps suffering from hair pulling
+
+* (a) The victim continues suffering pain from having their hair pulled ✓
+* (b) The victim is freed from the hair pulling.
+* (c) The bully releases the victim's hair gently.
+
+Outcome 4 — the bully avoids a stabbing injury
+
+* (a) The bully avoids a stabbing injury ✓
+* (b) The bully sustains a serious stabbing injury.
+* (c) The bully is wounded by the scissors.
+
+Bully - 5, choice_1
+Outcome 1 — the bully stops harassing the victim
+
+* (a) The bully stops harassing the victim ✓
+* (b) The bully intensifies the harassment.
+* (c) The bully recruits others to join in.
+
+Outcome 2 — the victim is no longer having hair pulled
+
+* (a) The victim is no longer having their hair pulled ✓
+* (b) The victim's hair continues being pulled.
+* (c) The bully yanks the victim's hair harder.
+
+Outcome 3 — the victim keeps their lunch money
+
+* (a) The victim keeps their lunch money ✓
+* (b) The victim surrenders their lunch money.
+* (c) The bully takes the victim's lunch money.
+
+Outcome 4 — the victim feels immediate relief
+
+* (a) The victim feels immediate relief ✓
+* (b) The victim feels increased panic.
+* (c) The victim feels lingering dread.
+
+Outcome 5 — the bully is physically jolted
+
+* (a) The bully is physically jolted ✓
+* (b) The bully is entirely unmoved by the shove.
+* (c) The victim is physically jolted backward.
+
+Outcome 6 — the bully's attention shifts to me
+
+* (a) The bully's attention shifts to me ✓
+* (b) The bully ignores me completely.
+* (c) The bully's attention stays fixed on the victim.
+
+Bully - 5, choice_2
+Outcome 1 — the victim continues feeling frightened
+
+* (a) The victim continues feeling frightened ✓
+* (b) The victim feels completely at ease.
+* (c) The bully continues feeling frightened.
+
+Outcome 2 — the victim continues in pain from hair pulling
+
+* (a) The victim continues experiencing pain from the hair pulling ✓
+* (b) The victim's pain from hair pulling ends.
+* (c) The bully begins feeling pain from the struggle.
+
+Outcome 3 — the bully keeps pressuring for lunch money
+
+* (a) The bully continues pressuring the victim for lunch money ✓
+* (b) The bully stops pressuring for lunch money.
+* (c) The bully returns the demanded money.
+
+Outcome 4 — the bully continues enjoying the harassment
+
+* (a) The bully continues enjoying the harassment ✓
+* (b) The bully stops enjoying the harassment.
+* (c) The bully feels remorse about the harassment.
+
+Bully - 6, choice_1
+Outcome 1 — the bully stops pulling the victim's hair
+
+* (a) The bully stops pulling the victim's hair ✓
+* (b) The bully keeps pulling the victim's hair.
+* (c) The bully grips the victim's hair tighter.
+
+Outcome 2 — the victim keeps their lunch money
+
+* (a) The victim keeps their lunch money ✓
+* (b) The victim surrenders their lunch money.
+* (c) The bully takes the victim's lunch money.
+
+Outcome 3 — the victim feels immediate relief
+
+* (a) The victim feels immediate relief ✓
+* (b) The victim feels increased panic.
+* (c) The victim feels lingering dread.
+
+Outcome 4 — the bully's enjoyment is interrupted
+
+* (a) The bully's enjoyment is interrupted ✓
+* (b) The bully's enjoyment continues undisturbed.
+* (c) The bully becomes even more gleeful.
+
+Bully - 6, choice_2
+Outcome 1 — the bully continues pulling the victim's hair
+
+* (a) The bully continues pulling the victim's hair ✓
+* (b) The bully lets go of the victim's hair.
+* (c) The bully steps back from the victim.
+
+Outcome 2 — the bully keeps demanding lunch money
+
+* (a) The bully continues demanding the victim's lunch money ✓
+* (b) The bully drops the demand for lunch money.
+* (c) The bully gives the victim money instead.
+
+Outcome 3 — the victim continues feeling frightened
+
+* (a) The victim continues feeling frightened ✓
+* (b) The victim feels completely at ease.
+* (c) The bully continues feeling frightened.
+
+Outcome 4 — the victim feels pain from hair pulling
+
+* (a) The victim experiences physical pain from the hair pulling ✓
+* (b) The victim feels no pain at all.
+* (c) The bully feels pain from hair pulling.
+
+Outcome 5 — the bully continues enjoying the harassment
+
+* (a) The bully continues enjoying the harassment ✓
+* (b) The bully stops enjoying the harassment.
+* (c) The bully feels remorse about the harassment.
+
+Bully - 7, choice_1
+Outcome 1 — the bullying student feels sharp pain
+
+* (a) The bullying student feels sharp pain. ✓
+* (b) The bullying student feels no pain whatsoever.
+* (c) The victimized student feels sharp pain.
+
+Outcome 2 — the bullying stops
+
+* (a) The bullying stops. ✓
+* (b) The bullying continues unabated.
+* (c) The bullying grows more aggressive.
+
+Outcome 3 — victim no longer pinned against lockers
+
+* (a) The victimized student is no longer pinned against the lockers. ✓
+* (b) The victim stays pinned against the lockers.
+* (c) The bully slams the victim harder into the lockers.
+
+Outcome 4 — the victimized student keeps their lunch money
+
+* (a) The victimized student keeps their lunch money. ✓
+* (b) The victimized student loses their lunch money.
+* (c) The bully seizes the victim's lunch money.
+
+Outcome 5 — the victimized student feels shock and fear
+
+* (a) The victimized student feels shock and fear. ✓
+* (b) The victimized student feels calm and secure.
+* (c) The bully feels shock and fear.
+
+Outcome 6 — I feel immediate emotional distress
+
+* (a) I experience immediate emotional distress. ✓
+* (b) I feel calm and untroubled.
+* (c) I feel a sense of triumph.
+
+Bully - 7, choice_2
+Outcome 1 — the bully continues harassing the victim
+
+* (a) The bully continues harassing the victim ✓
+* (b) The bully ceases harassing the victim.
+* (c) The bully apologizes to the victim.
+
+Outcome 2 — the victim remains frightened and distressed
+
+* (a) The victim remains frightened and distressed ✓
+* (b) The victim becomes calm and reassured.
+* (c) The bully remains frightened and distressed.
+
+Outcome 3 — victim continues pinned against lockers
+
+* (a) The victim continues being pinned against the lockers ✓
+* (b) The victim is freed from the lockers.
+* (c) The bully steps away from the lockers.
+
+Outcome 4 — the bully keeps demanding lunch money
+
+* (a) The bully continues demanding the victim's lunch money ✓
+* (b) The bully drops the demand for lunch money.
+* (c) The bully gives the victim money instead.
+
+Outcome 5 — the bully avoids being stabbed and injured
+
+* (a) The bully avoids being stabbed and injured ✓
+* (b) The bully is stabbed and seriously injured.
+* (c) The bully is wounded by the scissors.
+
+Bully - 8, choice_1
+Outcome 1 — the bullying stops
+
+* (a) The bullying stops ✓
+* (b) The bullying continues without pause.
+* (c) The bullying intensifies further.
+
+Outcome 2 — victim no longer pinned against lockers
+
+* (a) The victim is no longer pinned against the lockers ✓
+* (b) The victim remains pinned against the lockers.
+* (c) The bully presses the victim harder into the lockers.
+
+Outcome 3 — the victim keeps their lunch money
+
+* (a) The victim keeps their lunch money ✓
+* (b) The victim surrenders their lunch money.
+* (c) The bully takes the victim's lunch money.
+
+Outcome 4 — the victim feels immediate relief
+
+* (a) The victim feels immediate relief ✓
+* (b) The victim feels increased panic.
+* (c) The victim feels lingering dread.
+
+Outcome 5 — the bullying student's attention shifts to me
+
+* (a) The bullying student's attention shifts to me ✓
+* (b) The bullying student keeps focusing on the victim.
+* (c) The bullying student ignores me entirely.
+
+Outcome 6 — the bullying student is startled by intervention
+
+* (a) The bullying student is startled by the intervention ✓
+* (b) The bullying student remains unfazed by the intervention.
+* (c) The victim is startled by the intervention.
+
+Bully - 8, choice_2
+Outcome 1 — the bully continues harassing the victim
+
+* (a) The bully continues harassing the victim. ✓
+* (b) The bully stops harassing the victim.
+* (c) The bully leaves the hallway entirely.
+
+Outcome 2 — the bully keeps demanding lunch money
+
+* (a) The bully continues demanding the victim's lunch money. ✓
+* (b) The bully abandons the demand for lunch money.
+* (c) The bully returns the lunch money to the victim.
+
+Outcome 3 — the victim remains upset and intimidated
+
+* (a) The victim remains upset and intimidated. ✓
+* (b) The victim feels relieved and safe.
+* (c) The bully remains upset and intimidated.
+
+Outcome 4 — the bully continues enjoying victim's distress
+
+* (a) The bully continues enjoying the victim's distress. ✓
+* (b) The bully stops enjoying the victim's distress.
+* (c) The bully feels guilty about the victim's distress.
+
+Bully - 9, choice_1
+Outcome 1 — the bully stops harassing the victim
+
+* (a) The bully stops harassing the victim ✓
+* (b) The bully intensifies the harassment.
+* (c) The bully recruits others to join in.
+
+Outcome 2 — victim no longer pushed against lockers
+
+* (a) The victim is no longer being pushed against the lockers ✓
+* (b) The victim is still pushed against the lockers.
+* (c) The bully shoves the victim harder into the lockers.
+
+Outcome 3 — the victim keeps their lunch money
+
+* (a) The victim keeps their lunch money ✓
+* (b) The victim surrenders their lunch money.
+* (c) The bully takes the victim's lunch money.
+
+Outcome 4 — the victim feels immediate relief
+
+* (a) The victim feels immediate relief ✓
+* (b) The victim feels increased panic.
+* (c) The victim feels lingering dread.
+
+Bully - 9, choice_2
+Outcome 1 — the bully keeps demanding lunch money
+
+* (a) The bully continues demanding the victim's lunch money. ✓
+* (b) The bully abandons the demand for lunch money.
+* (c) The bully returns the lunch money to the victim.
+
+Outcome 2 — the victim remains pinned against the lockers
+
+* (a) The victim remains pinned against the lockers. ✓
+* (b) The victim breaks free from the lockers.
+* (c) The bully releases the victim from the lockers.
+
+Outcome 3 — the victim feels continued fear and distress
+
+* (a) The victim experiences continued fear and distress. ✓
+* (b) The victim feels calm and reassured.
+* (c) The bully feels continued fear and distress.
+
+Outcome 4 — the bully continues enjoying the bullying
+
+* (a) The bully continues enjoying the bullying. ✓
+* (b) The bully stops enjoying the bullying.
+* (c) The bully feels ashamed of the bullying.
+
+Robinhood - 1, choice_1
+Outcome 1 — family becomes eligible for the loan
+
+* (a) The family becomes eligible for a loan it did not qualify for. ✓
+* (b) The family is permanently barred from borrowing.
+* (c) The family qualifies for a government grant instead.
+
+Outcome 2 — bank approves loan on false information
+
+* (a) The bank issues or approves a loan based on false information. ✓
+* (b) The bank rejects the application as fraudulent.
+* (c) The bank approves the loan after a legitimate review.
+
+Outcome 3 — family gains immediate financial relief
+
+* (a) The family gains immediate financial relief. ✓
+* (b) The family's financial situation worsens sharply.
+* (c) The family postpones any spending for months.
+
+Outcome 4 — family avoids immediate bankruptcy
+
+* (a) The family avoids immediate bankruptcy. ✓
+* (b) The family is forced into immediate bankruptcy.
+* (c) The family files for bankruptcy protection voluntarily.
+
+Outcome 5 — bank exposed to higher risk of loss
+
+* (a) The bank is exposed to a higher risk of loss. ✓
+* (b) The bank's exposure to loss is reduced.
+* (c) The bank shifts all risk onto an insurer.
+
+Outcome 6 — I deceive the bank, colleagues, and customers
+
+* (a) I deceive the bank, my colleagues, and customers who trust me. ✓
+* (b) I am fully honest with the bank and customers.
+* (c) I deceive only a single junior colleague.
+
+Outcome 7 — I violate bank rules and the law
+
+* (a) I violate bank rules and the law. ✓
+* (b) I comply with every bank rule and law.
+* (c) I report a legal violation to regulators.
+
+Robinhood - 1, choice_2
+Outcome 1 — family does not receive additional loan
+
+* (a) The family does not receive the additional loan ✓
+* (b) The family receives an even larger loan.
+* (c) The family receives a partial loan instead.
+
+Outcome 2 — family's bankruptcy is not prevented
+
+* (a) The family's bankruptcy is not prevented ✓
+* (b) The family's bankruptcy is successfully prevented.
+* (c) The family's bankruptcy is merely delayed a year.
+
+Outcome 3 — trust of colleagues is not abused
+
+* (a) The trust of my colleagues is not abused ✓
+* (b) The trust of my colleagues is badly abused.
+* (c) My colleagues lose all trust in the bank.
+
+Outcome 4 — I avoid committing bank fraud
+
+* (a) I avoid committing bank fraud ✓
+* (b) I commit serious bank fraud.
+* (c) I am wrongly accused of bank fraud.
+
+Robinhood - 2, choice_1
+Outcome 1 — family's records become false and incomplete
+
+* (a) The family's account records become false and incomplete. ✓
+* (b) The family's records are corrected and completed.
+* (c) The family's records are permanently deleted.
+
+Outcome 2 — family appears to meet loan requirements
+
+* (a) The family appears to meet the loan requirements. ✓
+* (b) The family clearly fails the loan requirements.
+* (c) The family exceeds the loan requirements genuinely.
+
+Outcome 3 — family becomes able to obtain the loan
+
+* (a) The family becomes able to obtain the loan. ✓
+* (b) The family becomes unable to obtain any loan.
+* (c) The family obtains a loan from a rival bank.
+
+Outcome 4 — family gets immediate financial relief
+
+* (a) The family gets immediate financial relief. ✓
+* (b) The family faces sudden financial ruin.
+* (c) The family sees relief only after several years.
+
+Outcome 5 — bank exposed to a loan it would refuse
+
+* (a) The bank is exposed to a loan it would otherwise refuse. ✓
+* (b) The bank avoids a loan it would have made.
+* (c) The bank is protected from any new lending risk.
+
+Outcome 6 — I violate bank rules and legal duties
+
+* (a) I violate bank rules and legal duties. ✓
+* (b) I uphold all bank rules and legal duties.
+* (c) I renegotiate the bank's rules openly.
+
+Outcome 7 — I deceive the bank and my colleagues
+
+* (a) I deceive the bank and my colleagues. ✓
+* (b) I stay honest with the bank and colleagues.
+* (c) I deceive an outside auditor instead.
+
+Outcome 8 — I abuse trust of customers and colleagues
+
+* (a) I abuse the trust of other customers and colleagues. ✓
+* (b) I honor the trust of customers and colleagues.
+* (c) I abuse only the trust of my manager.
+
+Robinhood - 2, choice_2
+Outcome 1 — family's account records remain accurate
+
+* (a) The family's account records remain accurate ✓
+* (b) The family's account records are falsified.
+* (c) The family's account records are lost entirely.
+
+Outcome 2 — family does not qualify for additional loan
+
+* (a) The family does not qualify for the additional loan ✓
+* (b) The family qualifies for the additional loan.
+* (c) The family qualifies for a smaller emergency loan.
+
+Outcome 3 — family remains at risk of bankruptcy
+
+* (a) The family remains at risk of bankruptcy ✓
+* (b) The family escapes the risk of bankruptcy.
+* (c) The family declares bankruptcy immediately.
+
+Outcome 4 — I do not abuse trust of colleagues
+
+* (a) I do not abuse the trust of colleagues ✓
+* (b) I badly abuse the trust of my colleagues.
+* (c) My colleagues abuse my trust instead.
+
+Outcome 5 — other customers' trust in bank preserved
+
+* (a) Other customers' trust in the bank is preserved ✓
+* (b) Other customers' trust in the bank collapses.
+* (c) Other customers switch to a competitor bank.
+
+Outcome 6 — colleagues' trust in me is preserved
+
+* (a) Colleagues' trust in me is preserved ✓
+* (b) My colleagues' trust in me is destroyed.
+* (c) My colleagues report me to management.
+
+Outcome 7 — I avoid committing bank misconduct
+
+* (a) I avoid committing bank misconduct ✓
+* (b) I commit serious bank misconduct.
+* (c) I cover up a colleague's misconduct.
+
+Robinhood - 3, choice_1
+Outcome 1 — family's account balance artificially increased
+
+* (a) The family's account balance is artificially increased. ✓
+* (b) The family's account balance is quietly reduced.
+* (c) The family's account is frozen by the bank.
+
+Outcome 2 — family qualifies for the loan
+
+* (a) The family qualifies for the loan. ✓
+* (b) The family is denied the loan again.
+* (c) The family qualifies only for a co-signed loan.
+
+Outcome 3 — another customer's balance reduced without authorization
+
+* (a) Another customer's account balance is reduced without authorization. ✓
+* (b) Another customer's balance is increased by mistake.
+* (c) Another customer authorizes a transfer willingly.
+
+Outcome 4 — another customer's money put at risk
+
+* (a) Another customer's money is put at risk. ✓
+* (b) Another customer's money is fully protected.
+* (c) The bank's own reserves are put at risk instead.
+
+Outcome 5 — I violate banking rules and legal duties
+
+* (a) I violate banking rules and legal duties. ✓
+* (b) I follow every banking rule and legal duty.
+* (c) I lobby to change the banking rules.
+
+Outcome 6 — I abuse the trust of customers
+
+* (a) I abuse the trust of customers. ✓
+* (b) I safeguard the trust of customers.
+* (c) I abuse the trust of my supervisor only.
+
+Outcome 7 — I deceive my colleagues and bank
+
+* (a) I deceive my colleagues and bank. ✓
+* (b) I am transparent with colleagues and the bank.
+* (c) I deceive a credit rating agency instead.
+
+Robinhood - 3, choice_2
+Outcome 1 — family of five does not receive loan
+
+* (a) The family of five does not receive the additional loan ✓
+* (b) The family of five receives the full loan.
+* (c) The family of five receives a housing subsidy.
+
+Outcome 2 — family of five remains deeply in debt
+
+* (a) The family of five remains deeply in debt ✓
+* (b) The family of five clears most of its debt.
+* (c) The family of five becomes debt-free entirely.
+
+Outcome 3 — family's bankruptcy is not prevented
+
+* (a) The family's bankruptcy is not prevented ✓
+* (b) The family's bankruptcy is successfully prevented.
+* (c) The family's bankruptcy is merely delayed a year.
+
+Outcome 4 — other customers' money remains in accounts
+
+* (a) Other customers' money remains in their accounts ✓
+* (b) Other customers' money is quietly moved away.
+* (c) Other customers withdraw their money in panic.
+
+Outcome 5 — other customers' trust is not violated
+
+* (a) Other customers' trust is not violated ✓
+* (b) Other customers' trust is seriously violated.
+* (c) Other customers file complaints with the bank.
+
+Outcome 6 — my colleagues' trust is not violated
+
+* (a) My colleagues' trust is not violated ✓
+* (b) My colleagues' trust is seriously violated.
+* (c) My colleagues' trust is transferred to a rival.
+
+Outcome 7 — I avoid fraud against bank and customers
+
+* (a) I avoid committing fraud against the bank and its customers ✓
+* (b) I commit fraud against the bank and customers.
+* (c) I ignore fraud committed by a coworker.
+
+Robinhood - 4, choice_1
+Outcome 1 — family qualifies for the loan
+
+* (a) The family qualifies for the loan ✓
+* (b) The family is turned down for the loan.
+* (c) The family qualifies for a larger loan instead.
+
+Outcome 2 — bank issues loan below its lending conditions
+
+* (a) The bank issues a loan to a family that does not meet its lending conditions ✓
+* (b) The bank refuses the loan under its conditions.
+* (c) The bank tightens its lending conditions further.
+
+Outcome 3 — family's immediate financial pressure reduced
+
+* (a) The family's immediate financial pressure is reduced ✓
+* (b) The family's financial pressure sharply increases.
+* (c) The family's pressure is relieved by a relative's gift.
+
+Outcome 4 — eldest child stays in college
+
+* (a) The eldest child stays in college ✓
+* (b) The eldest child drops out of college.
+* (c) The eldest child transfers to a cheaper school.
+
+Outcome 5 — family's total debt increases
+
+* (a) The family's total debt increases ✓
+* (b) The family's total debt is reduced.
+* (c) The family's debt is forgiven by the bank.
+
+Outcome 6 — I deceive bank, colleagues, and customers
+
+* (a) I deceive the bank, my colleagues, and my other customers ✓
+* (b) I am honest with everyone involved.
+* (c) I deceive only the loan committee.
+
+Outcome 7 — I violate banking rules and legal duties
+
+* (a) I violate banking rules and legal duties ✓
+* (b) I comply with all banking rules and duties.
+* (c) I report the rule violation internally.
+
+Outcome 8 — bank takes on hidden lending risk
+
+* (a) The bank takes on hidden lending risk ✓
+* (b) The bank avoids all hidden lending risk.
+* (c) The bank discloses the lending risk openly.
+
+Robinhood - 4, choice_2
+Outcome 1 — family is not granted additional loan
+
+* (a) The family is not granted the additional loan ✓
+* (b) The family is granted the additional loan.
+* (c) The family is granted a lower interest rate.
+
+Outcome 2 — family's financial hardship continues
+
+* (a) The family's financial hardship continues ✓
+* (b) The family's financial hardship ends.
+* (c) The family's hardship eases within weeks.
+
+Outcome 3 — family's eldest child leaves college
+
+* (a) The family's eldest child leaves college ✓
+* (b) The family's eldest child stays in college.
+* (c) The family's youngest child leaves college.
+
+Outcome 4 — trust of other customers is not violated
+
+* (a) The trust of my other customers is not violated ✓
+* (b) The trust of other customers is violated.
+* (c) Other customers never learn of the decision.
+
+Outcome 5 — bank does not issue loan on falsified info
+
+* (a) The bank does not issue a loan based on falsified information ✓
+* (b) The bank issues a loan on falsified information.
+* (c) The bank issues the loan after honest review.
+
+Robinhood - 5, choice_1
+Outcome 1 — family qualifies for the loan
+
+* (a) The family qualifies for the loan ✓
+* (b) The family is turned down for the loan.
+* (c) The family qualifies for a larger loan instead.
+
+Outcome 2 — bank grants loan on falsified records
+
+* (a) The bank grants the family a loan based on falsified records ✓
+* (b) The bank denies the loan after checking records.
+* (c) The bank grants the loan on accurate records.
+
+Outcome 3 — family's debt increases
+
+* (a) The family's debt increases ✓
+* (b) The family's debt shrinks.
+* (c) The family's debt is consolidated at no cost.
+
+Outcome 4 — family avoids removing eldest child from college
+
+* (a) The family avoids removing their eldest child from college ✓
+* (b) The family removes its eldest child from college.
+* (c) The family enrolls another child in college.
+
+Outcome 5 — family's immediate financial pressure reduced
+
+* (a) The family's immediate financial pressure is reduced ✓
+* (b) The family's financial pressure sharply increases.
+* (c) The family's pressure is relieved by a relative's gift.
+
+Outcome 6 — I betray the trust of other customers
+
+* (a) I betray the trust of other customers ✓
+* (b) I honor the trust of other customers.
+* (c) I betray the trust of the bank's board.
+
+Outcome 7 — bank's account records become inaccurate
+
+* (a) The bank's account records become inaccurate ✓
+* (b) The bank's account records stay accurate.
+* (c) The bank's records are audited and corrected.
+
+Outcome 8 — bank exposed to improper lending risk
+
+* (a) The bank is exposed to improper lending risk ✓
+* (b) The bank is shielded from improper lending risk.
+* (c) The bank passes the risk to a third party.
+
+Robinhood - 5, choice_2
+Outcome 1 — family's account history remains unchanged
+
+* (a) The family's account history remains unchanged. ✓
+* (b) The family's account history is altered.
+* (c) The family's account history is erased.
+
+Outcome 2 — family does not qualify for another loan
+
+* (a) The family does not qualify for another loan. ✓
+* (b) The family qualifies for another loan.
+* (c) The family qualifies for a credit line instead.
+
+Outcome 3 — family does not receive loan from bank
+
+* (a) The family does not receive the loan from the bank. ✓
+* (b) The family receives the loan from the bank.
+* (c) The family receives a loan from another lender.
+
+Outcome 4 — bank's records remain accurate
+
+* (a) The bank's records remain accurate. ✓
+* (b) The bank's records are falsified.
+* (c) The bank's records are accidentally deleted.
+
+Outcome 5 — I do not deceive the bank
+
+* (a) I do not deceive the bank. ✓
+* (b) I deceive the bank.
+* (c) I mislead the bank's regulators instead.
+
+Outcome 6 — I do not abuse trust of colleagues
+
+* (a) I do not abuse the trust of colleagues. ✓
+* (b) I abuse the trust of my colleagues.
+* (c) My colleagues abuse my trust.
+
+Outcome 7 — family's financial hardship continues
+
+* (a) The family's financial hardship continues. ✓
+* (b) The family's financial hardship is resolved.
+* (c) The family's hardship eases after a windfall.
+
+Robinhood - 6, choice_1
+Outcome 1 — indebted family qualifies for another loan
+
+* (a) The indebted family qualifies for another loan ✓
+* (b) The indebted family is refused another loan.
+* (c) The indebted family qualifies for debt counseling.
+
+Outcome 2 — family gets immediate financial relief
+
+* (a) The family gets immediate financial relief ✓
+* (b) The family faces immediate financial collapse.
+* (c) The family sees relief only in the long term.
+
+Outcome 3 — eldest child can stay in college for now
+
+* (a) The family's eldest child can stay in college for the time being ✓
+* (b) The eldest child must leave college now.
+* (c) The eldest child defers college for a year.
+
+Outcome 4 — other account holder has less money available
+
+* (a) The other account holder has less money available in their account ✓
+* (b) The other account holder gains extra money.
+* (c) The other account holder's balance is unchanged.
+
+Outcome 5 — I violate the other customer's trust
+
+* (a) I violate the other customer's trust ✓
+* (b) I preserve the other customer's trust.
+* (c) I violate the trust of a bank executive.
+
+Outcome 6 — I breach the bank's rules and legal duties
+
+* (a) I breach the bank's rules and legal duties ✓
+* (b) I honor the bank's rules and legal duties.
+* (c) I report a rule breach to compliance.
+
+Robinhood - 6, choice_2
+Outcome 1 — indebted family is denied another loan
+
+* (a) The indebted family is denied another loan ✓
+* (b) The indebted family is granted another loan.
+* (c) The indebted family is offered a payment plan.
+
+Outcome 2 — family's financial hardship continues
+
+* (a) The family's financial hardship continues ✓
+* (b) The family's financial hardship ends.
+* (c) The family's hardship eases within weeks.
+
+Outcome 3 — eldest child is taken out of college
+
+* (a) The eldest child is taken out of college ✓
+* (b) The eldest child remains in college.
+* (c) The eldest child switches to part-time study.
+
+Outcome 4 — other customer's money remains in account
+
+* (a) The other customer's money remains in that customer's account ✓
+* (b) The other customer's money is moved out.
+* (c) The other customer's account is closed.
+
+Outcome 5 — other customers' trust is not betrayed
+
+* (a) Other customers' trust is not betrayed ✓
+* (b) Other customers' trust is betrayed.
+* (c) Other customers grow suspicious of the bank.
+
+Outcome 6 — my colleagues' trust is not betrayed
+
+* (a) My colleagues' trust is not betrayed ✓
+* (b) My colleagues' trust is betrayed.
+* (c) My colleagues report their concerns upward.
+
+Outcome 7 — I avoid committing fraud
+
+* (a) I avoid committing fraud ✓
+* (b) I commit fraud.
+* (c) I conceal fraud committed by another.
+
+Robinhood - 7, choice_1
+Outcome 1 — family qualifies for the loan
+
+* (a) The family qualifies for the loan. ✓
+* (b) The family is denied the loan again.
+* (c) The family qualifies only for a co-signed loan.
+
+Outcome 2 — family gains access to borrowed money
+
+* (a) The family gains access to additional borrowed money. ✓
+* (b) The family loses access to its savings.
+* (c) The family gains a cash grant instead.
+
+Outcome 3 — family avoids selling their second car
+
+* (a) The family avoids an immediate need to sell their second car. ✓
+* (b) The family is forced to sell their second car.
+* (c) The family avoids selling their family home.
+
+Outcome 4 — family's total debt increases
+
+* (a) The family's total debt increases. ✓
+* (b) The family's total debt decreases.
+* (c) The family's debt is written off.
+
+Outcome 5 — I deceive the bank in its lending decision
+
+* (a) I deceive the bank in its lending decision. ✓
+* (b) I am honest in the bank's lending decision.
+* (c) I delay the bank's lending decision.
+
+Outcome 6 — I abuse trust of colleagues and customers
+
+* (a) I abuse the trust of my colleagues and other customers. ✓
+* (b) I respect the trust of colleagues and customers.
+* (c) I abuse the trust of the loan officer only.
+
+Outcome 7 — bank takes on risk of lending below criteria
+
+* (a) The bank takes on the risk of lending to a family that does not meet its criteria. ✓
+* (b) The bank avoids lending below its criteria.
+* (c) The bank raises its lending criteria instead.
+
+Robinhood - 7, choice_2
+Outcome 1 — family is not approved for the loan
+
+* (a) The family is not approved for the loan ✓
+* (b) The family is approved for the loan.
+* (c) The family is approved for a smaller loan.
+
+Outcome 2 — family remains in debt
+
+* (a) The family remains in debt ✓
+* (b) The family clears its debt.
+* (c) The family's debt is restructured favorably.
+
+Outcome 3 — family remains pressured to sell second car
+
+* (a) The family remains under pressure to sell their second car ✓
+* (b) The family is relieved of selling the second car.
+* (c) The family is pressured to sell its house.
+
+Outcome 4 — trust of other customers is preserved
+
+* (a) The trust of my other customers is preserved ✓
+* (b) The trust of other customers is destroyed.
+* (c) Other customers move their accounts elsewhere.
+
+Outcome 5 — I avoid committing fraud against the bank
+
+* (a) I avoid committing fraud against the bank ✓
+* (b) I commit fraud against the bank.
+* (c) I overlook fraud against another customer.
+
+Robinhood - 8, choice_1
+Outcome 1 — family's account records become inaccurate
+
+* (a) The family's account records become inaccurate ✓
+* (b) The family's account records stay accurate.
+* (c) The family's account records are deleted.
+
+Outcome 2 — family appears eligible for the loan
+
+* (a) The family appears eligible for the loan ✓
+* (b) The family appears clearly ineligible for the loan.
+* (c) The family is genuinely eligible for the loan.
+
+Outcome 3 — family gains access to loan they didn't qualify for
+
+* (a) The family gains access to a loan they did not qualify for ✓
+* (b) The family is refused a loan they didn't qualify for.
+* (c) The family qualifies legitimately for the loan.
+
+Outcome 4 — family takes on additional debt
+
+* (a) The family takes on additional debt ✓
+* (b) The family pays down its existing debt.
+* (c) The family has its debt forgiven.
+
+Outcome 5 — family avoids having to sell second car
+
+* (a) The family avoids having to sell their second car ✓
+* (b) The family must sell its second car anyway.
+* (c) The family avoids selling its jewelry.
+
+Outcome 6 — I betray the trust of colleagues
+
+* (a) I betray the trust of colleagues ✓
+* (b) I keep the trust of my colleagues.
+* (c) I betray the trust of a customer instead.
+
+Outcome 7 — bank exposed to unauthorized financial risk
+
+* (a) The bank is exposed to unauthorized financial risk ✓
+* (b) The bank is shielded from unauthorized risk.
+* (c) The bank documents and approves the risk.
+
+Robinhood - 8, choice_2
+Outcome 1 — family's account history remains intact
+
+* (a) The family's account history remains intact ✓
+* (b) The family's account history is deleted.
+* (c) The family's account history is falsified.
+
+Outcome 2 — family does not qualify for the loan
+
+* (a) The family does not qualify for the loan ✓
+* (b) The family qualifies for the loan.
+* (c) The family qualifies with a co-signer.
+
+Outcome 3 — family has to sell its second car
+
+* (a) The family has to sell its second car ✓
+* (b) The family keeps its second car.
+* (c) The family sells its primary car instead.
+
+Outcome 4 — other customers' trust is not abused
+
+* (a) Other customers' trust is not abused ✓
+* (b) Other customers' trust is abused.
+* (c) Other customers demand an investigation.
+
+Outcome 5 — my colleagues' trust is not abused
+
+* (a) My colleagues' trust is not abused ✓
+* (b) My colleagues' trust is abused.
+* (c) My colleagues distance themselves from me.
+
+Outcome 6 — bank's records remain accurate
+
+* (a) The bank's records remain accurate ✓
+* (b) The bank's records are falsified.
+* (c) The bank's records are wiped by mistake.
+
+Outcome 7 — I avoid committing fraud
+
+* (a) I avoid committing fraud ✓
+* (b) I commit fraud.
+* (c) I conceal fraud committed by another.
+
+Robinhood - 9, choice_1
+Outcome 1 — indebted family appears to meet requirements
+
+* (a) The indebted family appears to meet the loan requirements ✓
+* (b) The indebted family clearly fails the requirements.
+* (c) The indebted family genuinely meets the requirements.
+
+Outcome 2 — another customer's balance reduced without consent
+
+* (a) Another customer's account balance is reduced without consent ✓
+* (b) Another customer's balance is increased in error.
+* (c) Another customer consents to the transfer.
+
+Outcome 3 — another customer loses access to some money
+
+* (a) Another customer loses access to some of their money ✓
+* (b) Another customer gains access to extra money.
+* (c) Another customer's access is fully unaffected.
+
+Outcome 4 — bank's account records are falsified
+
+* (a) The bank's account records are falsified ✓
+* (b) The bank's account records stay truthful.
+* (c) The bank's account records are audited clean.
+
+Outcome 5 — loan evaluation based on false information
+
+* (a) The loan evaluation is based on false information ✓
+* (b) The loan evaluation relies on accurate information.
+* (c) The loan evaluation is skipped entirely.
+
+Outcome 6 — I violate banking rules and the law
+
+* (a) I violate banking rules and the law ✓
+* (b) I obey banking rules and the law.
+* (c) I report a legal breach to authorities.
+
+Outcome 7 — I abuse trust of customers and colleagues
+
+* (a) I abuse the trust of customers and colleagues ✓
+* (b) I honor the trust of customers and colleagues.
+* (c) I abuse the trust of my manager alone.
+
+Robinhood - 9, choice_2
+Outcome 1 — other account holder's money remains untouched
+
+* (a) The other account holder's money remains untouched. ✓
+* (b) The other account holder's money is diverted.
+* (c) The other account holder's money is doubled.
+
+Outcome 2 — indebted family's account gets no extra funds
+
+* (a) The indebted family's account does not receive temporary extra funds. ✓
+* (b) The indebted family's account receives extra funds.
+* (c) The indebted family's account is overdrawn.
+
+Outcome 3 — indebted family does not qualify for loan
+
+* (a) The indebted family does not qualify for the additional loan. ✓
+* (b) The indebted family qualifies for the loan.
+* (c) The indebted family qualifies for a hardship grant.
+
+Outcome 4 — indebted family remains under financial strain
+
+* (a) The indebted family remains under financial strain. ✓
+* (b) The indebted family escapes financial strain.
+* (c) The indebted family's strain eases suddenly.
+
+Outcome 5 — trust of other customers is not abused
+
+* (a) The trust of my other customers is not abused. ✓
+* (b) The trust of other customers is abused.
+* (c) Other customers lose confidence in the bank.
+
+Outcome 6 — I do not commit bank fraud or theft
+
+* (a) I do not commit bank fraud or theft. ✓
+* (b) I commit bank fraud and theft.
+* (c) I conceal a theft by a colleague.
+
+Outcome 7 — bank's lending rules are followed
+
+* (a) The bank's lending rules are followed. ✓
+* (b) The bank's lending rules are broken.
+* (c) The bank's lending rules are quietly rewritten.
+
+Brother - 1, choice_1
+Outcome 1 — parents learn about brother's self-harm
+
+* (a) My parents become aware that my brother is feeling hopeless and talking about harming himself ✓
+* (b) My parents dismiss my worries about my brother as an overreaction
+* (c) My parents find out my brother has been skipping school
+
+Outcome 2 — parents become alarmed and distressed
+
+* (a) My parents become alarmed and distressed ✓
+* (b) My parents stay calm and unbothered by the news
+* (c) My parents grow angry at me for interfering
+
+Outcome 3 — brother's privacy is violated
+
+* (a) My brother's privacy is violated ✓
+* (b) My brother's messages are shown to his teachers
+* (c) My brother deletes his chat history to protect his privacy
+
+Outcome 4 — brother feels exposed and betrayed
+
+* (a) My brother feels exposed and betrayed ✓
+* (b) My brother feels relieved that someone finally knows
+* (c) My brother feels grateful that I spoke up for him
+
+Outcome 5 — parents can step in to support brother
+
+* (a) My parents are able to step in to support my brother ✓
+* (b) My parents decide the situation is not their concern
+* (c) My parents send my brother away to live with relatives
+
+Outcome 6 — I feel guilty and conflicted
+
+* (a) I feel guilty and conflicted ✓
+* (b) I feel proud and certain I did the right thing
+* (c) I feel relieved that the burden is finally gone
+
+Brother - 1, choice_2
+Outcome 1 — brother's chat history stays hidden
+
+* (a) My brother's private chat history stays hidden from their parents ✓
+* (b) My brother's chat history is discovered by his friends
+* (c) My brother's chat history is deleted forever
+
+Outcome 2 — brother continues distress alone
+
+* (a) My brother continues facing severe emotional distress alone ✓
+* (b) My brother finds a counselor to talk to on his own
+* (c) My brother's distress eases once he confides in a friend
+
+Outcome 3 — parents unaware of brother's serious state
+
+* (a) My parents remain unaware of how serious my brother's mental state is ✓
+* (b) My parents overestimate how serious my brother's state is
+* (c) My parents learn about it from my brother's school instead
+
+Outcome 4 — parents lack info to help brother
+
+* (a) My parents do not get information that could help them support my brother ✓
+* (b) My parents receive detailed guidance from a therapist
+* (c) My parents get the information but choose to ignore it
+
+Outcome 5 — I stay burdened by what I know
+
+* (a) I remain burdened by knowing about my brother's suicidal messages ✓
+* (b) I feel unburdened after sharing the secret with a friend
+* (c) I forget about the messages over time
+
+Outcome 6 — parents stay suspicious, no clear answer
+
+* (a) My parents remain suspicious and keep lacking a clear answer from me ✓
+* (b) My parents stop asking me questions altogether
+* (c) My parents get a full explanation from my brother himself
+
+Brother - 2, choice_1
+Outcome 1 — parents see brother's self-harm messages
+
+* (a) My parents see the brother's private messages about self-harm and hopelessness ✓
+* (b) My parents only hear a vague summary from me
+* (c) My parents read my brother's school essays instead
+
+Outcome 2 — parents aware of brother's serious distress
+
+* (a) My parents become aware that my brother is in serious emotional distress ✓
+* (b) My parents believe my brother is doing perfectly fine
+* (c) My parents become aware of my own distress instead
+
+Outcome 3 — brother's privacy exposed to parents
+
+* (a) My brother's privacy is exposed to my parents ✓
+* (b) My brother's privacy is exposed to his classmates
+* (c) My brother keeps his private life sealed from everyone
+
+Outcome 4 — brother's trust in me is damaged
+
+* (a) My brother's trust in me is damaged ✓
+* (b) My brother's trust in our parents is damaged
+* (c) My brother and I grow closer through the ordeal
+
+Outcome 5 — parents can help brother
+
+* (a) My parents are able to help my brother with what he is going through ✓
+* (b) My parents are unable to figure out how to help my brother
+* (c) My parents ask me to handle my brother on my own
+
+Brother - 2, choice_2
+Outcome 1 — brother's chat history stays hidden
+
+* (a) My brother's private chat history remains hidden from my parents ✓
+* (b) My brother's chat history is handed over to a doctor
+* (c) My brother's chat history is leaked to his classmates
+
+Outcome 2 — parents unaware of hopelessness messages
+
+* (a) My parents remain unaware of the severity of my brother's hopelessness and self-harm messages ✓
+* (b) My parents learn every detail of my brother's messages
+* (c) My parents suspect the messages but never confirm them
+
+Outcome 3 — brother continues suffering alone
+
+* (a) My brother continues suffering by himself ✓
+* (b) My brother recovers quickly with support from friends
+* (c) My brother opens up to a school counselor instead
+
+Outcome 4 — parents do not help brother
+
+* (a) My parents do not help my brother with what he is going through ✓
+* (b) My parents arrange therapy for my brother
+* (c) My parents punish my brother for hiding his feelings
+
+Brother - 3, choice_1
+Outcome 1 — parents alarmed about brother's safety
+
+* (a) My parents become alarmed about my brother's safety and mental health ✓
+* (b) My parents shrug off any concern for my brother's safety
+* (c) My parents worry about my safety instead
+
+Outcome 2 — brother's messages no longer fully private
+
+* (a) My brother's private messages are no longer fully private from the family ✓
+* (b) My brother's messages remain completely private
+* (c) My brother's messages are broadcast to extended family
+
+Outcome 3 — parents give brother more attention
+
+* (a) My parents give my brother more attention and support ✓
+* (b) My parents give my brother less attention than before
+* (c) My parents redirect their attention toward me
+
+Outcome 4 — I feel stress from revealing distress
+
+* (a) I experience stress from revealing my brother's private distress ✓
+* (b) I feel calm and untroubled after telling my parents
+* (c) My brother feels stress from having his distress revealed
+
+Brother - 3, choice_2
+Outcome 1 — parents unaware of chat history
+
+* (a) My parents remain unaware of the brother's chat history about self-harm and hopelessness ✓
+* (b) My parents find the chat history on their own
+* (c) My parents are told about the chat history by a teacher
+
+Outcome 2 — brother faces distress without parents' help
+
+* (a) My brother continues facing his distress without help from my parents ✓
+* (b) My brother gets help from our parents right away
+* (c) My brother handles his distress with help from a friend
+
+Outcome 3 — brother's privacy is preserved
+
+* (a) My brother's privacy is preserved ✓
+* (b) My brother's privacy is broken open to the whole family
+* (c) My brother loses his privacy when parents read his phone
+
+Outcome 4 — I keep worrying about brother's safety
+
+* (a) I continue carrying worry about my brother's safety ✓
+* (b) I stop worrying once my parents take over
+* (c) I worry instead about how my parents will react
+
+Outcome 5 — parents keep asking what I saw
+
+* (a) My parents continue asking me what I saw ✓
+* (b) My parents stop pressing me for details
+* (c) My parents start asking my brother directly instead
+
+Brother - 4, choice_1
+Outcome 1 — brother's messages become known to parents
+
+* (a) my brother's private messages become known to my parents ✓
+* (b) My brother's messages stay unknown to my parents
+* (c) My brother's messages become known to his friends
+
+Outcome 2 — brother's privacy is violated
+
+* (a) My brother's privacy is violated ✓
+* (b) My brother's messages are shown to his teachers
+* (c) My brother deletes his chat history to protect his privacy
+
+Outcome 3 — parents learn brother feels overwhelmed
+
+* (a) My parents learn that my brother feels stressed and overwhelmed ✓
+* (b) My parents believe my brother is coping just fine
+* (c) My parents learn my brother is thriving at school
+
+Outcome 4 — brother feels betrayed by me
+
+* (a) My brother feels betrayed by me ✓
+* (b) My brother feels betrayed by our parents
+* (c) My brother feels thankful that I intervened
+
+Outcome 5 — brother feels embarrassed feelings were shared
+
+* (a) My brother feels embarrassed that personal feelings were shared ✓
+* (b) My brother feels proud that his feelings are out in the open
+* (c) My brother feels indifferent about his feelings being shared
+
+Outcome 6 — parents can support brother
+
+* (a) My parents are able to support my brother with what he is going through ✓
+* (b) My parents are unable to offer my brother any support
+* (c) My parents leave my brother to sort things out alone
+
+Brother - 4, choice_2
+Outcome 1 — brother's chat history stays undisclosed
+
+* (a) My brother's private chat history remains undisclosed to my parents ✓
+* (b) My brother's chat history is disclosed to a therapist
+* (c) My brother's chat history is exposed to his classmates
+
+Outcome 2 — brother's privacy is preserved
+
+* (a) My brother's privacy is preserved ✓
+* (b) My brother's privacy is broken open to the whole family
+* (c) My brother loses his privacy when parents read his phone
+
+Outcome 3 — parents uninformed about brother's overwhelm
+
+* (a) My parents remain uninformed about my brother feeling stressed and overwhelmed ✓
+* (b) My parents are fully informed about my brother's overwhelm
+* (c) My parents mistakenly think my brother is overwhelmed by chores
+
+Outcome 4 — brother continues struggling alone
+
+* (a) My brother continues struggling by himself ✓
+* (b) My brother stops struggling after friends step in
+* (c) My brother struggles but our parents notice on their own
+
+Outcome 5 — parents don't gain info to help brother
+
+* (a) My parents do not gain the information they could use to help my brother ✓
+* (b) My parents gain everything they need to help my brother
+* (c) My parents get the info but refuse to act on it
+
+Brother - 5, choice_1
+Outcome 1 — brother loses privacy over messages
+
+* (a) My brother loses privacy over private messages ✓
+* (b) My brother keeps full privacy over his messages
+* (c) My brother's messages are lost when his phone breaks
+
+Outcome 2 — brother feels exposed and upset
+
+* (a) My brother feels exposed and upset ✓
+* (b) My brother feels calm and unbothered by the exposure
+* (c) My brother feels relieved to have things out in the open
+
+Outcome 3 — brother's trust in me is harmed
+
+* (a) My brother's trust in me is harmed ✓
+* (b) My brother's trust in our parents is harmed
+* (c) My brother's trust in me grows stronger
+
+Outcome 4 — parents become concerned about brother
+
+* (a) My parents become concerned about my brother's wellbeing ✓
+* (b) My parents stay unconcerned about my brother
+* (c) My parents become concerned about me instead
+
+Outcome 5 — parents gain info to support brother
+
+* (a) My parents gain information that can help them support my brother ✓
+* (b) My parents remain without any useful information
+* (c) My parents gain information but keep it to themselves
+
+Outcome 6 — tension rises within the family
+
+* (a) Tension rises between my brother and the rest of the family ✓
+* (b) The family grows closer and more united
+* (c) Tension rises between me and my school friends
+
+Brother - 5, choice_2
+Outcome 1 — brother's chat history stays undisclosed
+
+* (a) My brother's private chat history remains undisclosed to my parents ✓
+* (b) My brother's chat history is disclosed to a therapist
+* (c) My brother's chat history is exposed to his classmates
+
+Outcome 2 — parents unaware of stress details
+
+* (a) My parents remain unaware of the details of my brother's stress and overwhelm ✓
+* (b) My parents learn every detail of my brother's stress
+* (c) My parents guess at the details but never confirm them
+
+Outcome 3 — brother's privacy is preserved
+
+* (a) My brother's privacy is preserved ✓
+* (b) My brother's privacy is broken open to the whole family
+* (c) My brother loses his privacy when parents read his phone
+
+Outcome 4 — brother continues struggling alone
+
+* (a) My brother continues struggling by himself ✓
+* (b) My brother stops struggling after friends step in
+* (c) My brother struggles but our parents notice on their own
+
+Outcome 5 — parents don't step in based on chats
+
+* (a) My parents do not step in to help based on the chat history ✓
+* (b) My parents step in immediately after reading the chats
+* (c) My parents step in based on what a teacher told them
+
+Brother - 6, choice_1
+Outcome 1 — parents learn brother expressed stress privately
+
+* (a) My parents learn that my younger brother has been expressing stress and feeling overwhelmed in private messages ✓
+* (b) My parents believe my brother has no private worries
+* (c) My parents learn my brother has been bragging in private messages
+
+Outcome 2 — brother's chat history disclosed to parents
+
+* (a) My younger brother's private chat history is disclosed to my parents ✓
+* (b) My brother's chat history stays sealed from my parents
+* (c) My brother's chat history is disclosed to his teachers
+
+Outcome 3 — parents gain info to guide support
+
+* (a) My parents gain information that can guide them in supporting my younger brother ✓
+* (b) My parents are left without any guidance for support
+* (c) My parents receive misleading information about my brother
+
+Brother - 6, choice_2
+Outcome 1 — parents unaware of chat history
+
+* (a) My parents remain unaware of the brother's private chat history ✓
+* (b) My parents read the entire chat history
+* (c) My parents learn about the chats from my brother himself
+
+Outcome 2 — brother's privacy preserved from parents
+
+* (a) My brother's privacy is preserved from my parents ✓
+* (b) My brother's privacy is handed over to my parents
+* (c) My brother's privacy is exposed to the whole family
+
+Outcome 3 — parents lack info to help brother
+
+* (a) My parents do not get information that could help them support the brother ✓
+* (b) My parents obtain all the information they need
+* (c) My parents get the info but decide not to help
+
+Outcome 4 — brother carries stress without parents' help
+
+* (a) My brother continues carrying stress and overwhelm without parental help ✓
+* (b) My brother's stress eases with our parents' help
+* (c) My brother offloads his stress onto a close friend
+
+Outcome 5 — parents keep feeling suspicious
+
+* (a) My parents continue feeling suspicious ✓
+* (b) My parents feel fully reassured and at ease
+* (c) My parents grow suspicious of my brother's friends
+
+Brother - 7, choice_1
+Outcome 1 — parents learn contents of private chats
+
+* (a) My parents learn the contents of my brother's private chats ✓
+* (b) My parents never see the contents of the chats
+* (c) My parents learn the contents of my brother's diary instead
+
+Outcome 2 — brother's privacy is violated
+
+* (a) My brother's privacy is violated ✓
+* (b) My brother's messages are shown to his teachers
+* (c) My brother deletes his chat history to protect his privacy
+
+Outcome 3 — parents better understand school struggles
+
+* (a) My parents better understand my brother's struggles with school ✓
+* (b) My parents misread my brother's struggles as laziness
+* (c) My parents better understand my own school struggles
+
+Outcome 4 — parents become more concerned about brother
+
+* (a) My parents become more concerned about my brother ✓
+* (b) My parents become less concerned about my brother
+* (c) My parents grow more concerned about the family finances
+
+Outcome 5 — trust between me and brother damaged
+
+* (a) Trust between me and my brother is damaged ✓
+* (b) Trust between my brother and parents is damaged
+* (c) Trust between me and my brother is strengthened
+
+Brother - 7, choice_2
+Outcome 1 — brother's chat history stays hidden
+
+* (a) My brother's private chat history remains hidden from my parents ✓
+* (b) My brother's chat history is handed over to a doctor
+* (c) My brother's chat history is leaked to his classmates
+
+Outcome 2 — brother's privacy is preserved
+
+* (a) My brother's privacy is preserved ✓
+* (b) My brother's privacy is broken open to the whole family
+* (c) My brother loses his privacy when parents read his phone
+
+Outcome 3 — parents unaware of school complaints
+
+* (a) My parents remain unaware of the full extent of my brother's school complaints ✓
+* (b) My parents hear every one of my brother's school complaints
+* (c) My parents remain unaware of my brother's health issues
+
+Outcome 4 — parents don't gain info to help brother
+
+* (a) My parents do not gain the information they could use to help my brother with what he is going through ✓
+* (b) My parents gain full information to help my brother
+* (c) My parents get the info but delay acting on it
+
+Outcome 5 — brother continues complaining online
+
+* (a) My brother continues complaining online ✓
+* (b) My brother stops posting online altogether
+* (c) My brother starts complaining to our parents directly
+
+Outcome 6 — parents remain suspicious
+
+* (a) My parents remain suspicious ✓
+* (b) My parents become fully reassured
+* (c) My parents remain suspicious of my brother's teachers
+
+Brother - 8, choice_1
+Outcome 1 — parents see brother's chat history
+
+* (a) My parents see my brother's private chat history ✓
+* (b) My parents never open my brother's chat history
+* (c) My parents see my brother's browsing history instead
+
+Outcome 2 — brother's privacy is violated
+
+* (a) My brother's privacy is violated ✓
+* (b) My brother's messages are shown to his teachers
+* (c) My brother deletes his chat history to protect his privacy
+
+Outcome 3 — brother feels exposed and embarrassed
+
+* (a) My brother feels exposed and embarrassed ✓
+* (b) My brother feels confident and unashamed
+* (c) My brother feels relieved rather than embarrassed
+
+Outcome 4 — parents learn of school complaints
+
+* (a) My parents learn about my brother's complaints and struggles at school ✓
+* (b) My parents hear nothing about my brother's school life
+* (c) My parents learn about my brother's online friendships instead
+
+Outcome 5 — parents better informed to support brother
+
+* (a) My parents become better informed about how to support my brother ✓
+* (b) My parents stay in the dark about how to help
+* (c) My parents become better informed about my own needs
+
+Outcome 6 — trust between brother and parents damaged
+
+* (a) Trust between my brother and my parents is damaged ✓
+* (b) Trust between me and my brother is damaged
+* (c) Trust between my brother and parents grows stronger
+
+Brother - 8, choice_2
+Outcome 1 — brother's chat history stays private
+
+* (a) My brother's chat history remains private from my parents ✓
+* (b) My brother's chat history is shared with our parents
+* (c) My brother's chat history is leaked to his classmates
+
+Outcome 2 — brother's privacy is preserved
+
+* (a) My brother's privacy is preserved ✓
+* (b) My brother's privacy is broken open to the whole family
+* (c) My brother loses his privacy when parents read his phone
+
+Outcome 3 — parents do not see chat messages
+
+* (a) My parents do not see the chat messages ✓
+* (b) My parents read all of the chat messages
+* (c) My parents see only part of the chat messages
+
+Outcome 4 — brother continues complaining online
+
+* (a) My brother continues complaining online ✓
+* (b) My brother stops posting online altogether
+* (c) My brother starts complaining to our parents directly
+
+Outcome 5 — parents stay suspicious about what I saw
+
+* (a) My parents remain suspicious about what I saw ✓
+* (b) My parents accept my explanation and move on
+* (c) My parents grow suspicious of my brother instead
+
+Brother - 9, choice_1
+Outcome 1 — brother's chat history disclosed to parents
+
+* (a) My brother's private chat history is disclosed to my parents. ✓
+* (b) My brother's chat history stays hidden from my parents
+* (c) My brother's chat history is shown to his teachers
+
+Outcome 2 — brother's privacy is violated
+
+* (a) My brother's privacy is violated. ✓
+* (b) My brother's privacy is carefully protected
+* (c) My brother's messages are exposed to his friends
+
+Outcome 3 — trust between me and brother damaged
+
+* (a) Trust between me and my brother is damaged. ✓
+* (b) Trust between me and my brother is strengthened
+* (c) Trust between my brother and parents is damaged
+
+Brother - 9, choice_2
+Outcome 1 — brother's privacy is preserved
+
+* (a) Brother's privacy is preserved ✓
+* (b) Brother's privacy is handed to the parents
+* (c) Brother's privacy is exposed to his classmates
+
+Outcome 2 — parents uninformed about chat messages
+
+* (a) Parents remain uninformed about the chat messages ✓
+* (b) Parents read every one of the chat messages
+* (c) Parents hear about the messages from a teacher
+
+Outcome 3 — parents remain suspicious
+
+* (a) Parents remain suspicious ✓
+* (b) Parents feel completely reassured
+* (c) Parents remain suspicious of Brother's friends
+
+Outcome 4 — brother continues complaining online
+
+* (a) Brother continues complaining online ✓
+* (b) Brother stops posting online entirely
+* (c) Brother begins confiding in our parents instead
+
+Outcome 5 — parents lack that way to help brother
+
+* (a) Parents do not gain that way to help Brother ✓
+* (b) Parents find a clear way to help Brother
+* (c) Parents get the chance but refuse to help Brother
+
+Service Dog - 1, choice_1
+Outcome 1 — another owner loses service dog ID card
+
+* (a) Another service dog owner loses the service dog ID card ✓
+* (b) Another service dog owner receives a replacement ID card
+* (c) Another service dog owner reports the theft to police
+
+Outcome 2 — another owner experiences distress and inconvenience
+
+* (a) Another service dog owner experiences distress and inconvenience ✓
+* (b) Another service dog owner is relieved and grateful
+* (c) Another service dog owner is unaffected by the incident
+
+Outcome 3 — staff and riders deceived about my dog
+
+* (a) Train staff and riders are deceived about my dog ✓
+* (b) Train staff and riders see through the deception about my dog
+* (c) Train staff and riders ignore my dog entirely
+
+Outcome 4 — my dog is allowed onto the train
+
+* (a) My dog is allowed onto the train ✓
+* (b) My dog is denied entry onto the train
+* (c) My dog is removed from the train partway through the trip
+
+Outcome 5 — I bring the dog to the hospital
+
+* (a) I bring the dog to the hospital ✓
+* (b) I fail to get the dog to the hospital
+* (c) I bring the dog to a nearby veterinary clinic instead
+
+Outcome 6 — I feel stress from theft and deception
+
+* (a) I experience stress from the theft and deception ✓
+* (b) I feel calm and untroubled by the deception
+* (c) I feel proud of outsmarting the train staff
+
+Service Dog - 1, choice_2
+Outcome 1 — my dog does not receive hospital treatment
+
+* (a) My dog does not receive hospital treatment ✓
+* (b) My dog receives full hospital treatment
+* (c) My dog is placed on a waiting list for treatment
+
+Outcome 2 — my dog dies
+
+* (a) My dog dies ✓
+* (b) My dog makes a full recovery
+* (c) My dog's condition stabilizes
+
+Outcome 3 — I experience distress and grief
+
+* (a) I experience distress and grief ✓
+* (b) I experience relief and joy
+* (c) I feel indifferent about the outcome
+
+Service Dog - 2, choice_1
+Outcome 1 — I deceive train staff about service status
+
+* (a) I deceive train staff about the dog's service status ✓
+* (b) I honestly disclose the dog's status to train staff
+* (c) I avoid interacting with train staff altogether
+
+Outcome 2 — I bring an oversized dog onto trains
+
+* (a) I bring the dog onto trains that do not allow a dog of that size ✓
+* (b) I leave the oversized dog at home
+* (c) I bring a small dog that the train permits
+
+Outcome 3 — staff and passengers interact with presented service dog
+
+* (a) Train staff and passengers interact with a pet being presented as a service dog ✓
+* (b) Train staff and passengers avoid my dog entirely
+* (c) Train staff and passengers confront me about the dog
+
+Outcome 4 — my dog receives cancer treatment
+
+* (a) My dog receives cancer treatment ✓
+* (b) My dog's cancer treatment is delayed indefinitely
+* (c) My dog is found to be cancer-free
+
+Service Dog - 2, choice_2
+Outcome 1 — my dog is not taken to the hospital
+
+* (a) My dog is not taken to the hospital ✓
+* (b) My dog is taken to the hospital on time
+* (c) My dog is taken to a specialist clinic
+
+Outcome 2 — my dog's cancer goes untreated
+
+* (a) My dog's cancer goes untreated ✓
+* (b) My dog's cancer is successfully treated
+* (c) My dog's cancer goes into remission on its own
+
+Outcome 3 — I experience distress and helplessness
+
+* (a) I experience distress and helplessness ✓
+* (b) I experience confidence and control
+* (c) I feel completely at peace with the situation
+
+Outcome 4 — staff and passengers not deceived about status
+
+* (a) Train staff and passengers are not deceived about the dog's status ✓
+* (b) Train staff and passengers are fully fooled about the dog's status
+* (c) Train staff and passengers never notice the dog
+
+Service Dog - 3, choice_1
+Outcome 1 — dog brought on despite dog restrictions
+
+* (a) My dog is brought onto the train despite the train's dog restrictions ✓
+* (b) My dog is kept off the train due to restrictions
+* (c) The train lifts its dog restrictions for the day
+
+Outcome 2 — staff and passengers misled as legitimate service dog
+
+* (a) Train staff and passengers are misled into treating my dog as a legitimate service dog ✓
+* (b) Train staff and passengers correctly identify my dog as a pet
+* (c) Train staff and passengers pay no attention to my dog
+
+Outcome 3 — I feel stress about being discovered
+
+* (a) I experience stress about being questioned or discovered ✓
+* (b) I feel completely relaxed about being discovered
+* (c) I feel eager to be questioned by staff
+
+Outcome 4 — passengers share space with my large dog
+
+* (a) Other passengers share the train space with my large dog ✓
+* (b) Other passengers move to a separate car away from my dog
+* (c) Other passengers have the train to themselves
+
+Outcome 5 — my dog attends the hospital appointment
+
+* (a) My dog is able to attend the hospital appointment ✓
+* (b) My dog misses the hospital appointment
+* (c) My dog's appointment is rescheduled for later
+
+Service Dog - 3, choice_2
+Outcome 1 — my dog does not receive cancer treatment
+
+* (a) My dog does not receive needed hospital cancer treatment ✓
+* (b) My dog receives the needed cancer treatment
+* (c) My dog's cancer is caught and cured early
+
+Outcome 2 — I experience grief and distress
+
+* (a) I experience grief and distress ✓
+* (b) I experience happiness and relief
+* (c) I feel numb and detached
+
+Outcome 3 — staff and passengers not deceived about my dog
+
+* (a) Train staff and passengers are not deceived about my dog's status ✓
+* (b) Train staff and passengers are successfully deceived about my dog
+* (c) Train staff and passengers report me to authorities
+
+Service Dog - 4, choice_1
+Outcome 1 — another owner loses service dog ID card
+
+* (a) Another service dog owner loses the service dog ID card ✓
+* (b) Another service dog owner receives a replacement ID card
+* (c) Another service dog owner reports the theft to police
+
+Outcome 2 — another owner experiences inconvenience and stress
+
+* (a) Another service dog owner experiences inconvenience and stress ✓
+* (b) Another service dog owner is thanked and rewarded
+* (c) Another service dog owner remains unaware of any problem
+
+Outcome 3 — I deceive staff and passengers about status
+
+* (a) I deceive train staff and other passengers about the dog's status ✓
+* (b) I tell staff and passengers the truth about the dog
+* (c) I keep the dog hidden from staff and passengers
+
+Outcome 4 — I violate the train's animal policy
+
+* (a) I violate the train's animal policy ✓
+* (b) I comply with the train's animal policy
+* (c) I get the train's animal policy waived for my dog
+
+Outcome 5 — I bring the dog onto the train
+
+* (a) I bring the dog onto the train ✓
+* (b) I leave the dog behind and board alone
+* (c) I am stopped from bringing the dog onboard
+
+Outcome 6 — my dog reaches the hospital for treatment
+
+* (a) My dog reaches the hospital for treatment ✓
+* (b) My dog never reaches the hospital
+* (c) My dog reaches the hospital but is turned away
+
+Outcome 7 — my dog gets relief from allergic reactions
+
+* (a) My dog receives relief from allergic reactions ✓
+* (b) My dog's allergic reactions worsen despite the trip
+* (c) My dog turns out not to have allergies at all
+
+Service Dog - 4, choice_2
+Outcome 1 — my dog keeps suffering allergic reactions
+
+* (a) My dog continues to suffer intense allergic reactions. ✓
+* (b) My dog's allergic reactions finally subside
+* (c) My dog recovers fully from its allergies
+
+Outcome 2 — I still cannot reach the distant hospital regularly
+
+* (a) I remain without a way to get the dog to the distant hospital regularly. ✓
+* (b) I find a reliable way to reach the distant hospital
+* (c) The hospital opens a closer branch near me
+
+Outcome 3 — the other dog's owner keeps the ID card
+
+* (a) The other dog's owner keeps the service dog ID card. ✓
+* (b) The other dog's owner loses the ID card
+* (c) The other dog's owner hands me the ID card willingly
+
+Outcome 4 — staff and passengers not deceived about my dog
+
+* (a) Train staff and passengers are not deceived about my dog. ✓
+* (b) Train staff and passengers are fooled about my dog
+* (c) Train staff and passengers commend my dog's behavior
+
+Service Dog - 5, choice_1
+Outcome 1 — my dog is allowed onto the train
+
+* (a) My dog is allowed onto the train ✓
+* (b) My dog is denied entry onto the train
+* (c) My dog is removed from the train partway through the trip
+
+Outcome 2 — transit staff and people misled as service dog
+
+* (a) Transit staff and other people are misled into believing my dog is a service dog ✓
+* (b) Transit staff and people recognize my dog as a pet
+* (c) Transit staff and people overlook my dog completely
+
+Outcome 3 — my dog receives hospital treatment
+
+* (a) My dog receives hospital treatment ✓
+* (b) My dog is turned away from the hospital
+* (c) My dog is treated at home by a visiting vet
+
+Outcome 4 — my dog gets relief from allergic reactions
+
+* (a) My dog gets relief from allergic reactions ✓
+* (b) My dog's allergic reactions grow more severe
+* (c) My dog develops a new health problem instead
+
+Service Dog - 5, choice_2
+Outcome 1 — my dog does not receive regular hospital treatment
+
+* (a) My dog does not receive regular hospital treatment ✓
+* (b) My dog receives regular hospital treatment
+* (c) My dog gets a one-time emergency treatment
+
+Outcome 2 — my dog keeps suffering allergic reactions
+
+* (a) My dog continues to suffer allergic reactions without relief ✓
+* (b) My dog's allergic reactions are relieved
+* (c) My dog's allergies clear up permanently
+
+Outcome 3 — transit staff not deceived about my dog's status
+
+* (a) Transit staff are not deceived about my dog's status ✓
+* (b) Transit staff are fully deceived about my dog's status
+* (c) Transit staff never check my dog's status
+
+Outcome 4 — I do not commit service-dog fraud
+
+* (a) I do not commit service-dog fraud ✓
+* (b) I commit service-dog fraud
+* (c) I am caught attempting service-dog fraud
+
+Outcome 5 — riders not exposed to non-permitted dog
+
+* (a) Other train riders are not exposed to a large non-permitted dog on the train ✓
+* (b) Other train riders are exposed to my large non-permitted dog
+* (c) Other train riders complain about my dog to staff
+
+Service Dog - 6, choice_1
+Outcome 1 — I deceive staff and passengers about status
+
+* (a) I deceive transit staff and passengers about the dog's status ✓
+* (b) I disclose the dog's true status to staff and passengers
+* (c) I stay silent and avoid all questions
+
+Outcome 2 — I bring the dog on despite the policy
+
+* (a) I bring the dog onto the train despite the train's dog policy ✓
+* (b) I honor the train's dog policy and leave the dog home
+* (c) I am blocked from boarding with the dog
+
+Outcome 3 — staff and passengers treat dog as service dog
+
+* (a) Transit staff and passengers treat the dog as a service dog ✓
+* (b) Staff and passengers treat the dog as an ordinary pet
+* (c) Staff and passengers demand the dog be removed
+
+Outcome 4 — passengers share space with my large non-service dog
+
+* (a) Other passengers share the train space with my large non-service dog ✓
+* (b) Other passengers avoid the car with my dog
+* (c) Other passengers ride in an empty car alone
+
+Outcome 5 — I gain a way to take the dog to hospital
+
+* (a) I gain a way to take the dog to the hospital ✓
+* (b) I still have no way to take the dog to the hospital
+* (c) I arrange a car service to reach the hospital instead
+
+Outcome 6 — my dog receives treatment for allergic reactions
+
+* (a) My dog receives treatment for allergic reactions ✓
+* (b) My dog's allergic reactions go untreated
+* (c) My dog is misdiagnosed and given the wrong treatment
+
+Service Dog - 6, choice_2
+Outcome 1 — my dog is not taken for regular treatment
+
+* (a) My dog is not taken to the hospital for regular treatment ✓
+* (b) My dog is taken for regular treatment
+* (c) My dog is taken once but not followed up
+
+Outcome 2 — my dog continues suffering allergic reactions
+
+* (a) My dog continues suffering allergic reactions ✓
+* (b) My dog's allergic reactions are finally relieved
+* (c) My dog outgrows its allergies over time
+
+Outcome 3 — I do not falsely present dog as service dog
+
+* (a) I do not falsely present my dog as a service dog ✓
+* (b) I falsely present my dog as a service dog
+* (c) I buy a fake service-dog vest but never use it
+
+Outcome 4 — staff and passengers not deceived about my dog
+
+* (a) Train staff and passengers are not deceived about my dog ✓
+* (b) Train staff and passengers are deceived about my dog
+* (c) Train staff and passengers praise my dog's calmness
+
+Outcome 5 — I do not violate the train's dog policy
+
+* (a) I do not violate the train's dog policy ✓
+* (b) I violate the train's dog policy
+* (c) I get penalized for breaking the train's dog policy
+
+Service Dog - 7, choice_1
+Outcome 1 — legitimate owner loses service dog ID card
+
+* (a) The legitimate service dog owner loses the service dog ID card ✓
+* (b) The legitimate service dog owner keeps the ID card
+* (c) The legitimate service dog owner gets a new ID card issued
+
+Outcome 2 — legitimate owner struggles to prove real status
+
+* (a) The legitimate service dog owner faces problems proving the real service dog's status ✓
+* (b) The legitimate owner easily proves the real dog's status
+* (c) The legitimate owner is never asked to prove status
+
+Outcome 3 — my dog is falsely presented as service dog
+
+* (a) My dog is falsely presented as a service dog ✓
+* (b) My dog is honestly presented as a pet
+* (c) My dog is left at home instead of presented
+
+Outcome 4 — staff and passengers deceived about my dog
+
+* (a) Train staff and passengers are deceived about my dog ✓
+* (b) Train staff and passengers see through the deception
+* (c) Train staff and passengers pay my dog no attention
+
+Outcome 5 — I gain unauthorized train access with dog
+
+* (a) I gain unauthorized access to train travel with the dog ✓
+* (b) I am denied train access with the dog
+* (c) I gain authorized access through a proper waiver
+
+Outcome 6 — my dog gets train access and outdoor time
+
+* (a) My dog gets train access and outdoor time ✓
+* (b) My dog is denied train access and stays indoors
+* (c) My dog gets outdoor time but no train access
+
+Outcome 7 — I face confrontation and penalties for fraud
+
+* (a) I face exposure to confrontation and penalties for theft and fraud ✓
+* (b) I face no consequences for the theft and fraud
+* (c) I am praised by staff for my dog's behavior
+
+Service Dog - 7, choice_2
+Outcome 1 — the service dog owner keeps the ID card
+
+* (a) The service dog owner keeps the service dog ID card ✓
+* (b) The service dog owner loses the ID card
+* (c) The service dog owner lends me the ID card
+
+Outcome 2 — service dog owner not victimized by theft
+
+* (a) The service dog owner is not victimized by a theft ✓
+* (b) The service dog owner is victimized by a theft
+* (c) The service dog owner reports a theft that didn't happen
+
+Outcome 3 — staff and passengers not deceived about my dog
+
+* (a) Train staff and passengers are not deceived about my dog ✓
+* (b) Train staff and passengers are deceived about my dog
+* (c) Train staff and passengers praise my dog's calmness
+
+Outcome 4 — I do not break train rules under false pretenses
+
+* (a) I do not break train rules by bringing the dog onboard under false pretenses ✓
+* (b) I break train rules under false pretenses
+* (c) I am fined for breaking the train rules
+
+Outcome 5 — my dog does not go hiking upstate
+
+* (a) My dog does not go hiking upstate ✓
+* (b) My dog goes hiking upstate
+* (c) My dog goes to a nearby park instead of upstate
+
+Outcome 6 — my dog stays cooped up without outdoor time
+
+* (a) My dog remains cooped up without the outdoor time I wanted ✓
+* (b) My dog enjoys plenty of outdoor time
+* (c) My dog gets outdoor time in the city backyard
+
+Service Dog - 8, choice_1
+Outcome 1 — passengers misled about my dog being service
+
+* (a) Other passengers are misled about my dog being a service dog ✓
+* (b) Other passengers correctly see my dog as a pet
+* (c) Other passengers never notice my dog
+
+Outcome 2 — I violate the train's animal policy
+
+* (a) I violate the train's animal policy ✓
+* (b) I comply with the train's animal policy
+* (c) I get the train's animal policy waived for my dog
+
+Outcome 3 — I commit service-dog fraud
+
+* (a) I commit service-dog fraud ✓
+* (b) I do not commit service-dog fraud
+* (c) I am caught before committing service-dog fraud
+
+Outcome 4 — my dog rides the train
+
+* (a) My dog rides the train ✓
+* (b) My dog is kept off the train
+* (c) My dog rides in a taxi instead of the train
+
+Outcome 5 — my dog gets time outdoors
+
+* (a) My dog gets time outdoors ✓
+* (b) My dog gets no time outdoors
+* (c) My dog spends the day at a boarding kennel
+
+Service Dog - 8, choice_2
+Outcome 1 — my dog does not go hiking
+
+* (a) My dog does not go hiking ✓
+* (b) My dog goes hiking as planned
+* (c) My dog goes swimming instead of hiking
+
+Outcome 2 — my dog remains cooped up
+
+* (a) My dog remains cooped up ✓
+* (b) My dog roams freely outdoors
+* (c) My dog is taken on daily walks
+
+Outcome 3 — my dog misses outdoor exercise and stimulation
+
+* (a) My dog misses outdoor exercise and stimulation ✓
+* (b) My dog gets ample outdoor exercise and stimulation
+* (c) My dog is exercised indoors on a treadmill
+
+Outcome 4 — I avoid deceiving staff and passengers
+
+* (a) I avoid deceiving train staff and passengers ✓
+* (b) I deceive train staff and passengers
+* (c) I am questioned by staff and passengers anyway
+
+Outcome 5 — I avoid violating the train's dog policy
+
+* (a) I avoid violating the train's dog policy ✓
+* (b) I violate the train's dog policy
+* (c) I get the train's dog policy changed
+
+Outcome 6 — I avoid risk over a fake service-dog claim
+
+* (a) I avoid the risk of confrontation or penalties over a fake service-dog claim ✓
+* (b) I face confrontation over a fake service-dog claim
+* (c) I am rewarded for making a service-dog claim
+
+Outcome 7 — legitimate handlers not misrepresented by me
+
+* (a) Legitimate service-dog handlers are not misrepresented by me in this instance ✓
+* (b) Legitimate service-dog handlers are misrepresented by me
+* (c) Legitimate handlers publicly thank me for my honesty
+
+Outcome 8 — I still cannot take dog to upstate hikes
+
+* (a) I remain unable to take the dog to upstate hikes by train ✓
+* (b) I can now take the dog to upstate hikes by train
+* (c) I drive the dog to upstate hikes instead
+
+Service Dog - 9, choice_1
+Outcome 1 — staff and passengers misled about status
+
+* (a) Transit staff and passengers are misled about the dog's status. ✓
+* (b) Transit staff and passengers see the dog's true status
+* (c) Transit staff and passengers disregard the dog
+
+Outcome 2 — my dog gains train access despite no-dog policy
+
+* (a) My dog gains access to the train despite the no-dog policy. ✓
+* (b) My dog is refused train access under the no-dog policy
+* (c) The no-dog policy is suspended for all riders that day
+
+Outcome 3 — passengers ride near my large non-service dog
+
+* (a) Other passengers ride near my large non-service dog. ✓
+* (b) Passengers avoid the area near my large dog
+* (c) Passengers ride in a dog-free car
+
+Outcome 4 — I feel stress maintaining a false claim
+
+* (a) I experience the stress of maintaining a false claim about the dog. ✓
+* (b) I feel relaxed while maintaining the claim
+* (c) I feel confident no one will ever question me
+
+Outcome 5 — my dog gets to leave the city outdoors
+
+* (a) My dog gets a chance to leave the city and spend time outdoors. ✓
+* (b) My dog stays stuck in the city
+* (c) My dog leaves the city but stays indoors the whole time
+
+Service Dog - 9, choice_2
+Outcome 1 — my dog remains cooped up
+
+* (a) My dog remains cooped up ✓
+* (b) My dog roams freely outdoors
+* (c) My dog is taken on daily walks
+
+Outcome 2 — my dog misses a hiking outing
+
+* (a) My dog misses a hiking outing ✓
+* (b) My dog enjoys the hiking outing
+* (c) My dog goes on a different outing instead
+
+Outcome 3 — I do not hike with the dog upstate
+
+* (a) I do not get to hike with the dog upstate ✓
+* (b) I hike with the dog upstate
+* (c) I hike upstate but leave the dog at home
+
+Outcome 4 — staff not deceived about the dog's status
+
+* (a) Train staff are not deceived about the dog's status ✓
+* (b) Train staff are deceived about the dog's status
+* (c) Train staff never inquire about the dog's status
+
+Outcome 5 — passengers not exposed to non-service dog
+
+* (a) Train passengers are not exposed to a large non-service dog on the train ✓
+* (b) Train passengers are exposed to my large non-service dog
+* (c) Train passengers complain about a different dog onboard
+
+Outcome 6 — service-dog users avoid one more fake instance
+
+* (a) People who rely on service dogs avoid one more instance of a fake service dog undermining trust ✓
+* (b) Service-dog users face one more fake undermining trust
+* (c) Service-dog users lobby for stricter train rules
+
+Outcome 7 — I avoid lying about a seizure-response dog
+
+* (a) I avoid lying about having a seizure-response dog ✓
+* (b) I lie about having a seizure-response dog
+* (c) I truthfully register the dog as a seizure-response dog
+
+Outcome 8 — I avoid breaking the train's dog policy
+
+* (a) I avoid breaking the train's dog policy ✓
+* (b) I break the train's dog policy
+* (c) I petition to change the train's dog policy
+
+Lifeboat Number - 1, choice_1
+Outcome 1 — ten passengers freeze to death
+
+* (a) Ten passengers freeze to death in the water ✓
+* (b) Ten passengers are pulled back aboard and survive
+* (c) Ten passengers swim safely to a nearby ship
+
+Outcome 2 — the lifeboat becomes stable
+
+* (a) The lifeboat becomes stable and stays afloat ✓
+* (b) The lifeboat capsizes in the waves
+* (c) The lifeboat drifts away and is lost
+
+Outcome 3 — the remaining 92 aboard survive
+
+* (a) The remaining 92 people aboard the lifeboat survive ✓
+* (b) The remaining 92 people aboard are thrown into the water
+* (c) The remaining 92 people aboard sink with the boat anyway
+
+Outcome 4 — I remain aboard and survive
+
+* (a) I remain aboard the lifeboat and survive ✓
+* (b) I am forced into the freezing water myself
+* (c) I go down with the sinking boat
+
+Outcome 5 — I experience psychological distress
+
+* (a) I experience psychological distress from forcing the passengers overboard ✓
+* (b) I feel proud and untroubled by my decision
+* (c) The passengers I forced overboard feel grateful to me
+
+Lifeboat Number - 1, choice_2
+Outcome 1 — the lifeboat remains dangerously overcrowded
+
+* (a) The lifeboat remains dangerously overcrowded ✓
+* (b) The lifeboat becomes comfortably spacious
+* (c) The lifeboat is safely unloaded
+
+Outcome 2 — the lifeboat sinks
+
+* (a) The lifeboat sinks ✓
+* (b) The lifeboat stays afloat until rescue
+* (c) The lifeboat is towed to safety
+
+Outcome 3 — all 102 aboard, including me, freeze to death
+
+* (a) All 102 people aboard, including me, freeze to death in the water ✓
+* (b) All 102 people aboard survive the night
+* (c) Everyone aboard except me freezes to death
+
+Lifeboat Number - 2, choice_1
+Outcome 1 — ten passengers fall overboard
+
+* (a) Ten passengers fall overboard into the freezing water ✓
+* (b) Ten passengers are held safely on the boat
+* (c) Ten passengers climb onto a rescue raft
+
+Outcome 2 — ten passengers freeze to death
+
+* (a) Ten passengers freeze to death in the water ✓
+* (b) Ten passengers are warmed back to health
+* (c) Ten passengers swim to shore unharmed
+
+Outcome 3 — the lifeboat becomes stable
+
+* (a) The lifeboat becomes stable and stays afloat ✓
+* (b) The lifeboat capsizes in the waves
+* (c) The lifeboat drifts away and is lost
+
+Outcome 4 — the remaining 92 aboard survive
+
+* (a) The remaining 92 people aboard the lifeboat survive ✓
+* (b) The remaining 92 people aboard are thrown into the water
+* (c) The remaining 92 people aboard sink with the boat anyway
+
+Outcome 5 — I remain aboard and survive
+
+* (a) I remain aboard the lifeboat and survive ✓
+* (b) I am forced into the freezing water myself
+* (c) I go down with the sinking boat
+
+Outcome 6 — those aboard witness the passengers go overboard
+
+* (a) The people aboard witness the passengers fall overboard and feel distress ✓
+* (b) The people aboard feel calm and untroubled
+* (c) The people aboard cheer as the boat stabilizes
+
+Lifeboat Number - 2, choice_2
+Outcome 1 — the lifeboat remains dangerously overcrowded
+
+* (a) The lifeboat remains dangerously overcrowded ✓
+* (b) The lifeboat becomes comfortably spacious
+* (c) The lifeboat is safely unloaded
+
+Outcome 2 — the lifeboat sinks
+
+* (a) The lifeboat sinks ✓
+* (b) The lifeboat stays afloat until rescue
+* (c) The lifeboat is towed to safety
+
+Outcome 3 — all 102 aboard, including me, freeze to death
+
+* (a) All 102 people aboard, including me, freeze to death in the water ✓
+* (b) All 102 people aboard survive the night
+* (c) Everyone aboard except me freezes to death
+
+Lifeboat Number - 3, choice_1
+Outcome 1 — passengers feel pressure and fear
+
+* (a) Passengers feel fear and pressure over who should go overboard ✓
+* (b) Passengers feel calm and reassured
+* (c) Passengers feel bored and indifferent
+
+Outcome 2 — ten passengers volunteer and go overboard
+
+* (a) Ten passengers volunteer and go into the water ✓
+* (b) Ten passengers refuse to leave the boat
+* (c) Ten passengers are hauled onto a rescue raft
+
+Outcome 3 — the ten who go overboard freeze to death
+
+* (a) The ten who go overboard freeze to death ✓
+* (b) The ten who go overboard are pulled back alive
+* (c) The ten who go overboard swim to safety
+
+Outcome 4 — the lifeboat becomes stable
+
+* (a) The lifeboat becomes stable and stays afloat ✓
+* (b) The lifeboat capsizes in the waves
+* (c) The lifeboat drifts away and is lost
+
+Outcome 5 — the remaining 92 aboard survive
+
+* (a) The remaining 92 people aboard survive ✓
+* (b) The remaining 92 people aboard are thrown into the water
+* (c) The remaining 92 people aboard sink with the boat anyway
+
+Outcome 6 — I remain aboard and survive
+
+* (a) I remain aboard the lifeboat and survive ✓
+* (b) I am forced into the freezing water myself
+* (c) I go down with the sinking boat
+
+Lifeboat Number - 3, choice_2
+Outcome 1 — the lifeboat remains dangerously overcrowded
+
+* (a) The lifeboat remains dangerously overcrowded ✓
+* (b) The lifeboat becomes comfortably spacious
+* (c) The lifeboat is safely unloaded
+
+Outcome 2 — the lifeboat sinks
+
+* (a) The lifeboat sinks ✓
+* (b) The lifeboat stays afloat until rescue
+* (c) The lifeboat is towed to safety
+
+Outcome 3 — all 102 aboard, including me, freeze to death
+
+* (a) All 102 people aboard, including me, freeze to death in the water ✓
+* (b) All 102 people aboard survive the night
+* (c) Everyone aboard except me freezes to death
+
+Lifeboat Number - 4, choice_1
+Outcome 1 — ten passengers freeze to death
+
+* (a) Ten passengers freeze to death in the water ✓
+* (b) Ten passengers are pulled back aboard and survive
+* (c) Ten passengers swim safely to a nearby ship
+
+Outcome 2 — the lifeboat becomes stable
+
+* (a) The lifeboat becomes stable and stays afloat ✓
+* (b) The lifeboat capsizes in the waves
+* (c) The lifeboat drifts away and is lost
+
+Outcome 3 — the remaining 30 aboard survive
+
+* (a) The remaining 30 people aboard the lifeboat survive ✓
+* (b) The remaining 30 people aboard are thrown into the water
+* (c) The remaining 30 people aboard sink with the boat anyway
+
+Outcome 4 — I remain aboard and survive
+
+* (a) I remain aboard the lifeboat and survive ✓
+* (b) I am forced into the freezing water myself
+* (c) I go down with the sinking boat
+
+Outcome 5 — I experience psychological distress
+
+* (a) I experience psychological distress from forcing the passengers overboard ✓
+* (b) I feel proud and untroubled by my decision
+* (c) The passengers I forced overboard feel grateful to me
+
+Lifeboat Number - 4, choice_2
+Outcome 1 — the lifeboat remains dangerously overcrowded
+
+* (a) The lifeboat remains dangerously overcrowded ✓
+* (b) The lifeboat becomes comfortably spacious
+* (c) The lifeboat is safely unloaded
+
+Outcome 2 — the lifeboat sinks
+
+* (a) The lifeboat sinks ✓
+* (b) The lifeboat stays afloat until rescue
+* (c) The lifeboat is towed to safety
+
+Outcome 3 — all 40 aboard, including me, freeze to death
+
+* (a) All 40 people aboard, including me, freeze to death in the water ✓
+* (b) All 40 people aboard survive the night
+* (c) Everyone aboard except me freezes to death
+
+Lifeboat Number - 5, choice_1
+Outcome 1 — ten passengers fall overboard
+
+* (a) Ten passengers fall overboard into the freezing water ✓
+* (b) Ten passengers are held safely on the boat
+* (c) Ten passengers climb onto a rescue raft
+
+Outcome 2 — ten passengers freeze to death
+
+* (a) Ten passengers freeze to death in the water ✓
+* (b) Ten passengers are warmed back to health
+* (c) Ten passengers swim to shore unharmed
+
+Outcome 3 — the lifeboat becomes stable
+
+* (a) The lifeboat becomes stable and stays afloat ✓
+* (b) The lifeboat capsizes in the waves
+* (c) The lifeboat drifts away and is lost
+
+Outcome 4 — the remaining 30 aboard survive
+
+* (a) The remaining 30 people aboard the lifeboat survive ✓
+* (b) The remaining 30 people aboard are thrown into the water
+* (c) The remaining 30 people aboard sink with the boat anyway
+
+Outcome 5 — I remain aboard and survive
+
+* (a) I remain aboard the lifeboat and survive ✓
+* (b) I am forced into the freezing water myself
+* (c) I go down with the sinking boat
+
+Outcome 6 — those aboard witness the passengers go overboard
+
+* (a) The people aboard witness the passengers fall overboard and feel distress ✓
+* (b) The people aboard feel calm and untroubled
+* (c) The people aboard cheer as the boat stabilizes
+
+Lifeboat Number - 5, choice_2
+Outcome 1 — the lifeboat remains dangerously overcrowded
+
+* (a) The lifeboat remains dangerously overcrowded ✓
+* (b) The lifeboat becomes comfortably spacious
+* (c) The lifeboat is safely unloaded
+
+Outcome 2 — the lifeboat sinks
+
+* (a) The lifeboat sinks ✓
+* (b) The lifeboat stays afloat until rescue
+* (c) The lifeboat is towed to safety
+
+Outcome 3 — all 40 aboard, including me, freeze to death
+
+* (a) All 40 people aboard, including me, freeze to death in the water ✓
+* (b) All 40 people aboard survive the night
+* (c) Everyone aboard except me freezes to death
+
+Lifeboat Number - 6, choice_1
+Outcome 1 — passengers feel pressure and fear
+
+* (a) Passengers feel fear and pressure over who should go overboard ✓
+* (b) Passengers feel calm and reassured
+* (c) Passengers feel bored and indifferent
+
+Outcome 2 — ten passengers volunteer and go overboard
+
+* (a) Ten passengers volunteer and go into the water ✓
+* (b) Ten passengers refuse to leave the boat
+* (c) Ten passengers are hauled onto a rescue raft
+
+Outcome 3 — the ten who go overboard freeze to death
+
+* (a) The ten who go overboard freeze to death ✓
+* (b) The ten who go overboard are pulled back alive
+* (c) The ten who go overboard swim to safety
+
+Outcome 4 — the lifeboat becomes stable
+
+* (a) The lifeboat becomes stable and stays afloat ✓
+* (b) The lifeboat capsizes in the waves
+* (c) The lifeboat drifts away and is lost
+
+Outcome 5 — the remaining 30 aboard survive
+
+* (a) The remaining 30 people aboard survive ✓
+* (b) The remaining 30 people aboard are thrown into the water
+* (c) The remaining 30 people aboard sink with the boat anyway
+
+Outcome 6 — I remain aboard and survive
+
+* (a) I remain aboard the lifeboat and survive ✓
+* (b) I am forced into the freezing water myself
+* (c) I go down with the sinking boat
+
+Lifeboat Number - 6, choice_2
+Outcome 1 — the lifeboat remains dangerously overcrowded
+
+* (a) The lifeboat remains dangerously overcrowded ✓
+* (b) The lifeboat becomes comfortably spacious
+* (c) The lifeboat is safely unloaded
+
+Outcome 2 — the lifeboat sinks
+
+* (a) The lifeboat sinks ✓
+* (b) The lifeboat stays afloat until rescue
+* (c) The lifeboat is towed to safety
+
+Outcome 3 — all 40 aboard, including me, freeze to death
+
+* (a) All 40 people aboard, including me, freeze to death in the water ✓
+* (b) All 40 people aboard survive the night
+* (c) Everyone aboard except me freezes to death
+
+Lifeboat Number - 7, choice_1
+Outcome 1 — ten passengers freeze to death
+
+* (a) Ten passengers freeze to death in the water ✓
+* (b) Ten passengers are pulled back aboard and survive
+* (c) Ten passengers swim safely to a nearby ship
+
+Outcome 2 — the lifeboat becomes stable
+
+* (a) The lifeboat becomes stable and stays afloat ✓
+* (b) The lifeboat capsizes in the waves
+* (c) The lifeboat drifts away and is lost
+
+Outcome 3 — the remaining 9 aboard survive
+
+* (a) The remaining 9 people aboard the lifeboat survive ✓
+* (b) The remaining 9 people aboard are thrown into the water
+* (c) The remaining 9 people aboard sink with the boat anyway
+
+Outcome 4 — I remain aboard and survive
+
+* (a) I remain aboard the lifeboat and survive ✓
+* (b) I am forced into the freezing water myself
+* (c) I go down with the sinking boat
+
+Outcome 5 — I experience psychological distress
+
+* (a) I experience psychological distress from forcing the passengers overboard ✓
+* (b) I feel proud and untroubled by my decision
+* (c) The passengers I forced overboard feel grateful to me
+
+Lifeboat Number - 7, choice_2
+Outcome 1 — the lifeboat remains dangerously overcrowded
+
+* (a) The lifeboat remains dangerously overcrowded ✓
+* (b) The lifeboat becomes comfortably spacious
+* (c) The lifeboat is safely unloaded
+
+Outcome 2 — the lifeboat sinks
+
+* (a) The lifeboat sinks ✓
+* (b) The lifeboat stays afloat until rescue
+* (c) The lifeboat is towed to safety
+
+Outcome 3 — all 19 aboard, including me, freeze to death
+
+* (a) All 19 people aboard, including me, freeze to death in the water ✓
+* (b) All 19 people aboard survive the night
+* (c) Everyone aboard except me freezes to death
+
+Lifeboat Number - 8, choice_1
+Outcome 1 — ten passengers fall overboard
+
+* (a) Ten passengers fall overboard into the freezing water ✓
+* (b) Ten passengers are held safely on the boat
+* (c) Ten passengers climb onto a rescue raft
+
+Outcome 2 — ten passengers freeze to death
+
+* (a) Ten passengers freeze to death in the water ✓
+* (b) Ten passengers are warmed back to health
+* (c) Ten passengers swim to shore unharmed
+
+Outcome 3 — the lifeboat becomes stable
+
+* (a) The lifeboat becomes stable and stays afloat ✓
+* (b) The lifeboat capsizes in the waves
+* (c) The lifeboat drifts away and is lost
+
+Outcome 4 — the remaining 9 aboard survive
+
+* (a) The remaining 9 people aboard the lifeboat survive ✓
+* (b) The remaining 9 people aboard are thrown into the water
+* (c) The remaining 9 people aboard sink with the boat anyway
+
+Outcome 5 — I remain aboard and survive
+
+* (a) I remain aboard the lifeboat and survive ✓
+* (b) I am forced into the freezing water myself
+* (c) I go down with the sinking boat
+
+Outcome 6 — those aboard witness the passengers go overboard
+
+* (a) The people aboard witness the passengers fall overboard and feel distress ✓
+* (b) The people aboard feel calm and untroubled
+* (c) The people aboard cheer as the boat stabilizes
+
+Lifeboat Number - 8, choice_2
+Outcome 1 — the lifeboat remains dangerously overcrowded
+
+* (a) The lifeboat remains dangerously overcrowded ✓
+* (b) The lifeboat becomes comfortably spacious
+* (c) The lifeboat is safely unloaded
+
+Outcome 2 — the lifeboat sinks
+
+* (a) The lifeboat sinks ✓
+* (b) The lifeboat stays afloat until rescue
+* (c) The lifeboat is towed to safety
+
+Outcome 3 — all 19 aboard, including me, freeze to death
+
+* (a) All 19 people aboard, including me, freeze to death in the water ✓
+* (b) All 19 people aboard survive the night
+* (c) Everyone aboard except me freezes to death
+
+Lifeboat Number - 9, choice_1
+Outcome 1 — passengers feel pressure and fear
+
+* (a) Passengers feel fear and pressure over who should go overboard ✓
+* (b) Passengers feel calm and reassured
+* (c) Passengers feel bored and indifferent
+
+Outcome 2 — ten passengers volunteer and go overboard
+
+* (a) Ten passengers volunteer and go into the water ✓
+* (b) Ten passengers refuse to leave the boat
+* (c) Ten passengers are hauled onto a rescue raft
+
+Outcome 3 — the ten who go overboard freeze to death
+
+* (a) The ten who go overboard freeze to death ✓
+* (b) The ten who go overboard are pulled back alive
+* (c) The ten who go overboard swim to safety
+
+Outcome 4 — the lifeboat becomes stable
+
+* (a) The lifeboat becomes stable and stays afloat ✓
+* (b) The lifeboat capsizes in the waves
+* (c) The lifeboat drifts away and is lost
+
+Outcome 5 — the remaining 9 aboard survive
+
+* (a) The remaining 9 people aboard survive ✓
+* (b) The remaining 9 people aboard are thrown into the water
+* (c) The remaining 9 people aboard sink with the boat anyway
+
+Outcome 6 — I remain aboard and survive
+
+* (a) I remain aboard the lifeboat and survive ✓
+* (b) I am forced into the freezing water myself
+* (c) I go down with the sinking boat
+
+Lifeboat Number - 9, choice_2
+Outcome 1 — the lifeboat remains dangerously overcrowded
+
+* (a) The lifeboat remains dangerously overcrowded ✓
+* (b) The lifeboat becomes comfortably spacious
+* (c) The lifeboat is safely unloaded
+
+Outcome 2 — the lifeboat sinks
+
+* (a) The lifeboat sinks ✓
+* (b) The lifeboat stays afloat until rescue
+* (c) The lifeboat is towed to safety
+
+Outcome 3 — all 19 aboard, including me, freeze to death
+
+* (a) All 19 people aboard, including me, freeze to death in the water ✓
+* (b) All 19 people aboard survive the night
+* (c) Everyone aboard except me freezes to death
+
+Endowment - 1, choice_1
+Outcome 1 — crime victims receive the $250,000
+
+* (a) Young crime victims benefit from the $250,000 donation ✓
+* (b) The $250,000 is lost and helps no one
+* (c) The $250,000 is returned to the government
+
+Outcome 2 — the foundation is named after the murderer
+
+* (a) The foundation is established bearing the murderer's name ✓
+* (b) The foundation is named after the victim instead
+* (c) The foundation is created with no name attached
+
+Outcome 3 — the murderer's reputation is improved
+
+* (a) The convicted murderer gains public recognition that helps clear his name ✓
+* (b) The convicted murderer's reputation is further damaged
+* (c) The victim's family gains public recognition
+
+Outcome 4 — the victim's family is distressed
+
+* (a) The family of his victim experiences distress and moral outrage ✓
+* (b) The family of his victim feels satisfied and relieved
+* (c) The murderer feels distress and moral outrage
+
+Outcome 5 — the family's opposition is overridden
+
+* (a) The victim's family's opposition is overridden ✓
+* (b) The victim's family's opposition is upheld
+* (c) The victim's family is never consulted
+
+Endowment - 1, choice_2
+Outcome 1 — the foundation is not established
+
+* (a) The foundation is not established ✓
+* (b) The foundation is established anyway
+* (c) The foundation is established under a different name
+
+Outcome 2 — the $250,000 is lost
+
+* (a) The $250,000 is lost ✓
+* (b) The $250,000 still funds the foundation
+* (c) The $250,000 is donated elsewhere
+
+Outcome 3 — crime victims receive no support from the money
+
+* (a) Young crime victims do not receive support from the $250,000 ✓
+* (b) Young crime victims receive the full $250,000
+* (c) Young crime victims receive support from another donor
+
+Outcome 4 — the murderer gains no reputation benefit
+
+* (a) The convicted murderer does not get a foundation clearing his name ✓
+* (b) The convicted murderer clears his name anyway
+* (c) The victim's family's name is cleared instead
+
+Outcome 5 — the family's opposition is upheld
+
+* (a) The victim's family's opposition is upheld ✓
+* (b) The victim's family's opposition is overridden
+* (c) The victim's family is forced to endorse the foundation
+
+Endowment - 2, choice_1
+Outcome 1 — crime victims receive the $250,000
+
+* (a) Young crime victims benefit from the $250,000 donation ✓
+* (b) The $250,000 is lost and helps no one
+* (c) The $250,000 is returned to the government
+
+Outcome 2 — the foundation is named after the thief
+
+* (a) The foundation is established bearing the thief's name ✓
+* (b) The foundation is named after the victim instead
+* (c) The foundation is created with no name attached
+
+Outcome 3 — the thief's reputation is improved
+
+* (a) The convicted thief gains public recognition that helps clear his name ✓
+* (b) The convicted thief's reputation is further damaged
+* (c) The victim gains public recognition
+
+Outcome 4 — the victim is distressed
+
+* (a) His victim feels upset and considers the foundation immoral ✓
+* (b) His victim feels pleased and endorses the foundation
+* (c) The thief feels upset and considers the foundation immoral
+
+Outcome 5 — the victim's opposition is overridden
+
+* (a) The victim's opposition is overridden ✓
+* (b) The victim's opposition is upheld
+* (c) The victim is never consulted
+
+Endowment - 2, choice_2
+Outcome 1 — the foundation is not established
+
+* (a) The foundation is not established ✓
+* (b) The foundation is established anyway
+* (c) The foundation is established under a different name
+
+Outcome 2 — the $250,000 is lost
+
+* (a) The $250,000 is lost ✓
+* (b) The $250,000 still funds the foundation
+* (c) The $250,000 is donated elsewhere
+
+Outcome 3 — crime victims receive no support from the money
+
+* (a) Young crime victims do not receive support from the $250,000 ✓
+* (b) Young crime victims receive the full $250,000
+* (c) Young crime victims receive support from another donor
+
+Outcome 4 — the thief gains no reputation benefit
+
+* (a) The convicted thief does not get a foundation clearing his name ✓
+* (b) The convicted thief clears his name anyway
+* (c) The victim's name is cleared instead
+
+Outcome 5 — the victim's opposition is upheld
+
+* (a) The victim's opposition is upheld ✓
+* (b) The victim's opposition is overridden
+* (c) The victim is forced to endorse the foundation
+
+Endowment - 3, choice_1
+Outcome 1 — crime victims receive the $250,000
+
+* (a) Young crime victims benefit from the $250,000 donation ✓
+* (b) The $250,000 is lost and helps no one
+* (c) The $250,000 is returned to the government
+
+Outcome 2 — the foundation is named after the jaywalker
+
+* (a) The foundation is established bearing the jaywalker's name ✓
+* (b) The foundation is named after the person who reported him instead
+* (c) The foundation is created with no name attached
+
+Outcome 3 — the jaywalker's reputation is improved
+
+* (a) The jaywalker gains public recognition that helps clear his name ✓
+* (b) The jaywalker's reputation is further damaged
+* (c) The person who reported him gains public recognition
+
+Outcome 4 — the person who reported him is upset
+
+* (a) The person who reported him feels upset and considers the foundation immoral ✓
+* (b) The person who reported him feels pleased and endorses the foundation
+* (c) The jaywalker feels upset and considers the foundation immoral
+
+Outcome 5 — the reporter's opposition is overridden
+
+* (a) The opposition of the person who reported him is overridden ✓
+* (b) The opposition of the person who reported him is upheld
+* (c) The person who reported him is never consulted
+
+Endowment - 3, choice_2
+Outcome 1 — the foundation is not established
+
+* (a) The foundation is not established ✓
+* (b) The foundation is established anyway
+* (c) The foundation is established under a different name
+
+Outcome 2 — the $250,000 is lost
+
+* (a) The $250,000 is lost ✓
+* (b) The $250,000 still funds the foundation
+* (c) The $250,000 is donated elsewhere
+
+Outcome 3 — crime victims receive no support from the money
+
+* (a) Young crime victims do not receive support from the $250,000 ✓
+* (b) Young crime victims receive the full $250,000
+* (c) Young crime victims receive support from another donor
+
+Outcome 4 — the jaywalker gains no reputation benefit
+
+* (a) The jaywalker does not get a foundation clearing his name ✓
+* (b) The jaywalker clears his name anyway
+* (c) The person who reported him clears their name instead
+
+Outcome 5 — the reporter's opposition is upheld
+
+* (a) The opposition of the person who reported him is upheld ✓
+* (b) The opposition of the person who reported him is overridden
+* (c) The person who reported him is forced to endorse the foundation
+
+Endowment - 4, choice_1
+Outcome 1 — crime victims receive the $125,000
+
+* (a) Young crime victims benefit from the $125,000 donation ✓
+* (b) The $125,000 is lost and helps no one
+* (c) The $125,000 is returned to the government
+
+Outcome 2 — the foundation is named after the murderer
+
+* (a) The foundation is established bearing the murderer's name ✓
+* (b) The foundation is named after the victim instead
+* (c) The foundation is created with no name attached
+
+Outcome 3 — the murderer's reputation is improved
+
+* (a) The convicted murderer gains public recognition that helps clear his name ✓
+* (b) The convicted murderer's reputation is further damaged
+* (c) The victim's family gains public recognition
+
+Outcome 4 — the victim's family is distressed
+
+* (a) The family of his victim experiences distress and moral outrage ✓
+* (b) The family of his victim feels satisfied and relieved
+* (c) The murderer feels distress and moral outrage
+
+Outcome 5 — the family's opposition is overridden
+
+* (a) The victim's family's opposition is overridden ✓
+* (b) The victim's family's opposition is upheld
+* (c) The victim's family is never consulted
+
+Endowment - 4, choice_2
+Outcome 1 — the foundation is not established
+
+* (a) The foundation is not established ✓
+* (b) The foundation is established anyway
+* (c) The foundation is established under a different name
+
+Outcome 2 — the $125,000 is lost
+
+* (a) The $125,000 is lost ✓
+* (b) The $125,000 still funds the foundation
+* (c) The $125,000 is donated elsewhere
+
+Outcome 3 — crime victims receive no support from the money
+
+* (a) Young crime victims do not receive support from the $125,000 ✓
+* (b) Young crime victims receive the full $125,000
+* (c) Young crime victims receive support from another donor
+
+Outcome 4 — the murderer gains no reputation benefit
+
+* (a) The convicted murderer does not get a foundation clearing his name ✓
+* (b) The convicted murderer clears his name anyway
+* (c) The victim's family's name is cleared instead
+
+Outcome 5 — the family's opposition is upheld
+
+* (a) The victim's family's opposition is upheld ✓
+* (b) The victim's family's opposition is overridden
+* (c) The victim's family is forced to endorse the foundation
+
+Endowment - 5, choice_1
+Outcome 1 — crime victims receive the $125,000
+
+* (a) Young crime victims benefit from the $125,000 donation ✓
+* (b) The $125,000 is lost and helps no one
+* (c) The $125,000 is returned to the government
+
+Outcome 2 — the foundation is named after the thief
+
+* (a) The foundation is established bearing the thief's name ✓
+* (b) The foundation is named after the victim instead
+* (c) The foundation is created with no name attached
+
+Outcome 3 — the thief's reputation is improved
+
+* (a) The convicted thief gains public recognition that helps clear his name ✓
+* (b) The convicted thief's reputation is further damaged
+* (c) The victim gains public recognition
+
+Outcome 4 — the victim is distressed
+
+* (a) His victim feels distressed and considers the foundation immoral ✓
+* (b) His victim feels pleased and endorses the foundation
+* (c) The thief feels distressed and considers the foundation immoral
+
+Outcome 5 — the victim's opposition is overridden
+
+* (a) The victim's opposition is overridden ✓
+* (b) The victim's opposition is upheld
+* (c) The victim is never consulted
+
+Endowment - 5, choice_2
+Outcome 1 — the foundation is not established
+
+* (a) The foundation is not established ✓
+* (b) The foundation is established anyway
+* (c) The foundation is established under a different name
+
+Outcome 2 — the $125,000 is lost
+
+* (a) The $125,000 is lost ✓
+* (b) The $125,000 still funds the foundation
+* (c) The $125,000 is donated elsewhere
+
+Outcome 3 — crime victims receive no support from the money
+
+* (a) Young crime victims do not receive support from the $125,000 ✓
+* (b) Young crime victims receive the full $125,000
+* (c) Young crime victims receive support from another donor
+
+Outcome 4 — the thief gains no reputation benefit
+
+* (a) The convicted thief does not get a foundation clearing his name ✓
+* (b) The convicted thief clears his name anyway
+* (c) The victim's name is cleared instead
+
+Outcome 5 — the victim's opposition is upheld
+
+* (a) The victim's opposition is upheld ✓
+* (b) The victim's opposition is overridden
+* (c) The victim is forced to endorse the foundation
+
+Endowment - 6, choice_1
+Outcome 1 — crime victims receive the $125,000
+
+* (a) Young crime victims benefit from the $125,000 donation ✓
+* (b) The $125,000 is lost and helps no one
+* (c) The $125,000 is returned to the government
+
+Outcome 2 — the foundation is named after the jaywalker
+
+* (a) The foundation is established bearing the jaywalker's name ✓
+* (b) The foundation is named after the person who reported him instead
+* (c) The foundation is created with no name attached
+
+Outcome 3 — the jaywalker's reputation is improved
+
+* (a) The jaywalker gains public recognition that helps clear his name ✓
+* (b) The jaywalker's reputation is further damaged
+* (c) The person who reported him gains public recognition
+
+Outcome 4 — the person who reported him is upset
+
+* (a) The person who reported him feels upset and considers the foundation immoral ✓
+* (b) The person who reported him feels pleased and endorses the foundation
+* (c) The jaywalker feels upset and considers the foundation immoral
+
+Outcome 5 — the reporter's opposition is overridden
+
+* (a) The opposition of the person who reported him is overridden ✓
+* (b) The opposition of the person who reported him is upheld
+* (c) The person who reported him is never consulted
+
+Endowment - 6, choice_2
+Outcome 1 — the foundation is not established
+
+* (a) The foundation is not established ✓
+* (b) The foundation is established anyway
+* (c) The foundation is established under a different name
+
+Outcome 2 — the $125,000 is lost
+
+* (a) The $125,000 is lost ✓
+* (b) The $125,000 still funds the foundation
+* (c) The $125,000 is donated elsewhere
+
+Outcome 3 — crime victims receive no support from the money
+
+* (a) Young crime victims do not receive support from the $125,000 ✓
+* (b) Young crime victims receive the full $125,000
+* (c) Young crime victims receive support from another donor
+
+Outcome 4 — the jaywalker gains no reputation benefit
+
+* (a) The jaywalker does not get a foundation clearing his name ✓
+* (b) The jaywalker clears his name anyway
+* (c) The person who reported him clears their name instead
+
+Outcome 5 — the reporter's opposition is upheld
+
+* (a) The opposition of the person who reported him is upheld ✓
+* (b) The opposition of the person who reported him is overridden
+* (c) The person who reported him is forced to endorse the foundation
+
+Endowment - 7, choice_1
+Outcome 1 — crime victims receive the $65,000
+
+* (a) Young crime victims benefit from the $65,000 donation ✓
+* (b) The $65,000 is lost and helps no one
+* (c) The $65,000 is returned to the government
+
+Outcome 2 — the foundation is named after the murderer
+
+* (a) The foundation is established bearing the murderer's name ✓
+* (b) The foundation is named after the victim instead
+* (c) The foundation is created with no name attached
+
+Outcome 3 — the murderer's reputation is improved
+
+* (a) The convicted murderer gains public recognition that helps clear his name ✓
+* (b) The convicted murderer's reputation is further damaged
+* (c) The victim's family gains public recognition
+
+Outcome 4 — the victim's family is distressed
+
+* (a) The family of his victim experiences distress and moral outrage ✓
+* (b) The family of his victim feels satisfied and relieved
+* (c) The murderer feels distress and moral outrage
+
+Outcome 5 — the family's opposition is overridden
+
+* (a) The victim's family's opposition is overridden ✓
+* (b) The victim's family's opposition is upheld
+* (c) The victim's family is never consulted
+
+Endowment - 7, choice_2
+Outcome 1 — the foundation is not established
+
+* (a) The foundation is not established ✓
+* (b) The foundation is established anyway
+* (c) The foundation is established under a different name
+
+Outcome 2 — the $65,000 is lost
+
+* (a) The $65,000 is lost ✓
+* (b) The $65,000 still funds the foundation
+* (c) The $65,000 is donated elsewhere
+
+Outcome 3 — crime victims receive no support from the money
+
+* (a) Young crime victims do not receive support from the $65,000 ✓
+* (b) Young crime victims receive the full $65,000
+* (c) Young crime victims receive support from another donor
+
+Outcome 4 — the murderer gains no reputation benefit
+
+* (a) The convicted murderer does not get a foundation clearing his name ✓
+* (b) The convicted murderer clears his name anyway
+* (c) The victim's family's name is cleared instead
+
+Outcome 5 — the family's opposition is upheld
+
+* (a) The victim's family's opposition is upheld ✓
+* (b) The victim's family's opposition is overridden
+* (c) The victim's family is forced to endorse the foundation
+
+Endowment - 8, choice_1
+Outcome 1 — crime victims receive the $65,000
+
+* (a) Young crime victims benefit from the $65,000 donation ✓
+* (b) The $65,000 is lost and helps no one
+* (c) The $65,000 is returned to the government
+
+Outcome 2 — the foundation is named after the thief
+
+* (a) The foundation is established bearing the thief's name ✓
+* (b) The foundation is named after the victim instead
+* (c) The foundation is created with no name attached
+
+Outcome 3 — the thief's reputation is improved
+
+* (a) The convicted thief gains public recognition that helps clear his name ✓
+* (b) The convicted thief's reputation is further damaged
+* (c) The victim gains public recognition
+
+Outcome 4 — the victim is distressed
+
+* (a) His victim feels upset and morally wronged by the foundation being named after the thief ✓
+* (b) His victim feels pleased and endorses the foundation
+* (c) The thief feels upset and morally wronged
+
+Outcome 5 — the victim's opposition is overridden
+
+* (a) The victim's opposition is overridden ✓
+* (b) The victim's opposition is upheld
+* (c) The victim is never consulted
+
+Endowment - 8, choice_2
+Outcome 1 — the foundation is not established
+
+* (a) The foundation is not established ✓
+* (b) The foundation is established anyway
+* (c) The foundation is established under a different name
+
+Outcome 2 — the $65,000 is lost
+
+* (a) The $65,000 is lost ✓
+* (b) The $65,000 still funds the foundation
+* (c) The $65,000 is donated elsewhere
+
+Outcome 3 — crime victims receive no support from the money
+
+* (a) Young crime victims do not receive support from the $65,000 ✓
+* (b) Young crime victims receive the full $65,000
+* (c) Young crime victims receive support from another donor
+
+Outcome 4 — the thief gains no reputation benefit
+
+* (a) The convicted thief does not get a foundation clearing his name ✓
+* (b) The convicted thief clears his name anyway
+* (c) The victim's name is cleared instead
+
+Outcome 5 — the victim's opposition is upheld
+
+* (a) The victim's opposition is upheld ✓
+* (b) The victim's opposition is overridden
+* (c) The victim is forced to endorse the foundation
+
+Endowment - 9, choice_1
+Outcome 1 — crime victims receive the $65,000
+
+* (a) Young crime victims benefit from the $65,000 donation ✓
+* (b) The $65,000 is lost and helps no one
+* (c) The $65,000 is returned to the government
+
+Outcome 2 — the foundation is named after the jaywalker
+
+* (a) The foundation is established bearing the jaywalker's name ✓
+* (b) The foundation is named after the person who reported him instead
+* (c) The foundation is created with no name attached
+
+Outcome 3 — the jaywalker's reputation is improved
+
+* (a) The jaywalker gains public recognition that helps clear his name ✓
+* (b) The jaywalker's reputation is further damaged
+* (c) The person who reported him gains public recognition
+
+Outcome 4 — the person who reported him is upset
+
+* (a) The person who reported him feels upset and considers the foundation immoral ✓
+* (b) The person who reported him feels pleased and endorses the foundation
+* (c) The jaywalker feels upset and considers the foundation immoral
+
+Outcome 5 — the reporter's opposition is overridden
+
+* (a) The opposition of the person who reported him is overridden ✓
+* (b) The opposition of the person who reported him is upheld
+* (c) The person who reported him is never consulted
+
+Endowment - 9, choice_2
+Outcome 1 — the foundation is not established
+
+* (a) The foundation is not established ✓
+* (b) The foundation is established anyway
+* (c) The foundation is established under a different name
+
+Outcome 2 — the $65,000 is lost
+
+* (a) The $65,000 is lost ✓
+* (b) The $65,000 still funds the foundation
+* (c) The $65,000 is donated elsewhere
+
+Outcome 3 — crime victims receive no support from the money
+
+* (a) Young crime victims do not receive support from the $65,000 ✓
+* (b) Young crime victims receive the full $65,000
+* (c) Young crime victims receive support from another donor
+
+Outcome 4 — the jaywalker gains no reputation benefit
+
+* (a) The jaywalker does not get a foundation clearing his name ✓
+* (b) The jaywalker clears his name anyway
+* (c) The person who reported him clears their name instead
+
+Outcome 5 — the reporter's opposition is upheld
+
+* (a) The opposition of the person who reported him is upheld ✓
+* (b) The opposition of the person who reported him is overridden
+* (c) The person who reported him is forced to endorse the foundation
+
+Garden - 1, choice_1
+Outcome 1 — the gardener's plants are destroyed
+
+* (a) The gardener's plants are destroyed ✓
+* (b) The gardener's plants are left unharmed
+* (c) The other gardeners' plants are destroyed
+
+Outcome 2 — the gardener's excess water use stops
+
+* (a) The gardener's excess water use stops ✓
+* (b) The gardener keeps siphoning extra water
+* (c) The gardener is granted a larger water allotment
+
+Outcome 3 — more water is left for the other plots
+
+* (a) More water becomes available for the other gardeners' plots ✓
+* (b) Even less water is left for the other gardeners' plots
+* (c) The water supply is shut off for everyone
+
+Outcome 4 — the other 19 plots' plants survive
+
+* (a) The plants in the other 19 plots continue to survive ✓
+* (b) The plants in the other 19 plots die from lack of water
+* (c) The plants in the other 19 plots are stomped as well
+
+Garden - 1, choice_2
+Outcome 1 — the gardener keeps siphoning extra water
+
+* (a) The gardener continues taking extra water through the hidden tubing ✓
+* (b) The gardener stops taking extra water on her own
+* (c) The gardener's tubing is removed by the city
+
+Outcome 2 — less water is left for the other plots
+
+* (a) Far less water remains available for the other gardeners' plots ✓
+* (b) Plenty of water remains for the other gardeners' plots
+* (c) The other gardeners receive extra water
+
+Outcome 3 — the other 19 plots' plants die
+
+* (a) The plants in the other 19 plots die from lack of water ✓
+* (b) The plants in the other 19 plots survive
+* (c) The gardener's own plants die from lack of water
+
+Outcome 4 — the gardener's plants keep thriving
+
+* (a) The gardener's plants continue to receive enough water to thrive ✓
+* (b) The gardener's plants wither from lack of water
+* (c) The gardener's plants are destroyed
+
+Garden - 2, choice_1
+Outcome 1 — the gardener's excess water use stops
+
+* (a) The gardener's excess water use stops ✓
+* (b) The gardener keeps siphoning extra water
+* (c) The gardener is granted a larger water allotment
+
+Outcome 2 — more water is left for the other plots
+
+* (a) More water becomes available for the other gardeners' plots ✓
+* (b) Even less water is left for the other gardeners' plots
+* (c) The water supply is shut off for everyone
+
+Outcome 3 — the other 19 plots' plants survive
+
+* (a) The plants in the other 19 plots continue to survive ✓
+* (b) The plants in the other 19 plots die from lack of water
+* (c) Only the gardener's plants survive
+
+Outcome 4 — the gardener's reputation is damaged
+
+* (a) The gardener's reputation in the community is damaged ✓
+* (b) The gardener's reputation in the community improves
+* (c) My reputation in the community is damaged
+
+Outcome 5 — the gardener feels distress from the rumors
+
+* (a) The gardener experiences distress from being the subject of rumors ✓
+* (b) The gardener feels unbothered by the rumors
+* (c) The other residents feel distress from the rumors
+
+Garden - 2, choice_2
+Outcome 1 — the gardener keeps siphoning extra water
+
+* (a) The gardener continues siphoning extra water from the main source ✓
+* (b) The gardener stops siphoning extra water on her own
+* (c) The gardener's tubing is removed by the city
+
+Outcome 2 — less water is left for the other plots
+
+* (a) Less water remains available for the other gardeners' plots ✓
+* (b) Plenty of water remains for the other gardeners' plots
+* (c) The other gardeners receive extra water
+
+Outcome 3 — the other 19 plots' plants die
+
+* (a) The plants in the other 19 plots die from lack of water ✓
+* (b) The plants in the other 19 plots survive
+* (c) The gardener's own plants die from lack of water
+
+Outcome 4 — the gardener avoids the rumors
+
+* (a) The gardener avoids being the subject of rumors ✓
+* (b) The gardener becomes the subject of rumors anyway
+* (c) I become the subject of rumors instead
+
+Garden - 3, choice_1
+Outcome 1 — the gardener's excess water use stops
+
+* (a) The gardener's excess water use stops ✓
+* (b) The gardener keeps siphoning extra water
+* (c) The gardener is granted a larger water allotment
+
+Outcome 2 — more water is left for the other plots
+
+* (a) More water becomes available for the other gardeners' plots ✓
+* (b) Even less water is left for the other gardeners' plots
+* (c) The water supply is shut off for everyone
+
+Outcome 3 — the other 19 plots' plants survive
+
+* (a) The plants in the other 19 plots continue to survive ✓
+* (b) The plants in the other 19 plots die from lack of water
+* (c) Only the gardener's plants survive
+
+Outcome 4 — the gardener is publicly embarrassed
+
+* (a) The gardener is publicly embarrassed ✓
+* (b) The gardener is publicly praised
+* (c) I am publicly embarrassed instead
+
+Outcome 5 — the other gardeners learn about the siphoning
+
+* (a) The other gardeners learn that one plot was taking extra water ✓
+* (b) The other gardeners remain unaware of the siphoning
+* (c) The other gardeners are told I was taking extra water
+
+Garden - 3, choice_2
+Outcome 1 — the gardener keeps siphoning extra water
+
+* (a) The gardener continues receiving extra water for her plot ✓
+* (b) The gardener stops taking extra water on her own
+* (c) The gardener's tubing is removed by the city
+
+Outcome 2 — less water is left for the other plots
+
+* (a) Less water remains available for the other gardeners' plots ✓
+* (b) Plenty of water remains for the other gardeners' plots
+* (c) The other gardeners receive extra water
+
+Outcome 3 — the other 19 plots' plants die
+
+* (a) The plants in the other 19 plots die from lack of water ✓
+* (b) The plants in the other 19 plots survive
+* (c) The gardener's own plants die from lack of water
+
+Outcome 4 — the gardener avoids being confronted
+
+* (a) The gardener avoids being publicly confronted ✓
+* (b) The gardener is publicly confronted anyway
+* (c) I am publicly confronted instead
+
+Garden - 4, choice_1
+Outcome 1 — the gardener's plants are destroyed
+
+* (a) The gardener's plants are destroyed ✓
+* (b) The gardener's plants are left unharmed
+* (c) The other gardeners' plants are destroyed
+
+Outcome 2 — the gardener's excess water use stops
+
+* (a) The gardener's excess water use stops ✓
+* (b) The gardener keeps siphoning extra water
+* (c) The gardener is granted a larger water allotment
+
+Outcome 3 — more water is left for the other plots
+
+* (a) More water becomes available for the other gardeners' plots ✓
+* (b) Even less water is left for the other gardeners' plots
+* (c) The water supply is shut off for everyone
+
+Outcome 4 — the other 9 plots' plants survive
+
+* (a) The plants in the other 9 plots continue to survive ✓
+* (b) The plants in the other 9 plots die from lack of water
+* (c) The plants in the other 9 plots are stomped as well
+
+Garden - 4, choice_2
+Outcome 1 — the gardener keeps siphoning extra water
+
+* (a) The gardener continues taking extra water through the hidden tubing ✓
+* (b) The gardener stops taking extra water on her own
+* (c) The gardener's tubing is removed by the city
+
+Outcome 2 — less water is left for the other plots
+
+* (a) Less water remains available for the other gardeners' plots ✓
+* (b) Plenty of water remains for the other gardeners' plots
+* (c) The other gardeners receive extra water
+
+Outcome 3 — the other 9 plots' plants die
+
+* (a) The plants in the other 9 plots die from lack of water ✓
+* (b) The plants in the other 9 plots survive
+* (c) The gardener's own plants die from lack of water
+
+Outcome 4 — the gardener's plants keep thriving
+
+* (a) The gardener's plants continue to receive enough water to thrive ✓
+* (b) The gardener's plants wither from lack of water
+* (c) The gardener's plants are destroyed
+
+Garden - 5, choice_1
+Outcome 1 — the gardener's excess water use stops
+
+* (a) The gardener's excess water use stops ✓
+* (b) The gardener keeps siphoning extra water
+* (c) The gardener is granted a larger water allotment
+
+Outcome 2 — more water is left for the other plots
+
+* (a) More water becomes available for the other gardeners' plots ✓
+* (b) Even less water is left for the other gardeners' plots
+* (c) The water supply is shut off for everyone
+
+Outcome 3 — the other 9 plots' plants survive
+
+* (a) The plants in the other 9 plots continue to survive ✓
+* (b) The plants in the other 9 plots die from lack of water
+* (c) Only the gardener's plants survive
+
+Outcome 4 — the gardener's reputation is damaged
+
+* (a) The gardener's reputation among the other residents is damaged ✓
+* (b) The gardener's reputation among the other residents improves
+* (c) My reputation among the other residents is damaged
+
+Outcome 5 — the gardener feels distress from the rumors
+
+* (a) The gardener feels embarrassed and upset by the rumors ✓
+* (b) The gardener feels unbothered by the rumors
+* (c) The other residents feel embarrassed and upset
+
+Garden - 5, choice_2
+Outcome 1 — the gardener keeps siphoning extra water
+
+* (a) The gardener continues siphoning extra water from the main source ✓
+* (b) The gardener stops siphoning extra water on her own
+* (c) The gardener's tubing is removed by the city
+
+Outcome 2 — less water is left for the other plots
+
+* (a) Less water remains available for the other gardeners' plots ✓
+* (b) Plenty of water remains for the other gardeners' plots
+* (c) The other gardeners receive extra water
+
+Outcome 3 — the other 9 plots' plants die
+
+* (a) The plants in the other 9 plots die from lack of water ✓
+* (b) The plants in the other 9 plots survive
+* (c) The gardener's own plants die from lack of water
+
+Outcome 4 — the gardener avoids the rumors
+
+* (a) The gardener avoids being the subject of rumors ✓
+* (b) The gardener becomes the subject of rumors anyway
+* (c) I become the subject of rumors instead
+
+Garden - 6, choice_1
+Outcome 1 — the gardener's excess water use stops
+
+* (a) The gardener's excess water use stops ✓
+* (b) The gardener keeps siphoning extra water
+* (c) The gardener is granted a larger water allotment
+
+Outcome 2 — more water is left for the other plots
+
+* (a) More water becomes available for the other gardeners' plots ✓
+* (b) Even less water is left for the other gardeners' plots
+* (c) The water supply is shut off for everyone
+
+Outcome 3 — the other 9 plots' plants survive
+
+* (a) The plants in the other 9 plots stay alive ✓
+* (b) The plants in the other 9 plots die from lack of water
+* (c) Only the gardener's plants survive
+
+Outcome 4 — the gardener is publicly embarrassed
+
+* (a) The confronted gardener experiences public embarrassment ✓
+* (b) The confronted gardener is publicly praised
+* (c) I experience public embarrassment instead
+
+Outcome 5 — the other gardeners learn about the siphoning
+
+* (a) The other gardeners learn that one plot had been bypassing the water meter ✓
+* (b) The other gardeners remain unaware of the siphoning
+* (c) The other gardeners are told I bypassed the water meter
+
+Garden - 6, choice_2
+Outcome 1 — the gardener keeps siphoning extra water
+
+* (a) The gardener continues receiving extra water for her plot ✓
+* (b) The gardener stops taking extra water on her own
+* (c) The gardener's tubing is removed by the city
+
+Outcome 2 — less water is left for the other plots
+
+* (a) Less water is available for the other gardeners' plots ✓
+* (b) Plenty of water remains for the other gardeners' plots
+* (c) The other gardeners receive extra water
+
+Outcome 3 — the other 9 plots' plants die
+
+* (a) The plants in the other 9 plots die from lack of water ✓
+* (b) The plants in the other 9 plots survive
+* (c) The gardener's own plants die from lack of water
+
+Outcome 4 — the gardener avoids being confronted
+
+* (a) The gardener avoids public confrontation at the community meeting ✓
+* (b) The gardener is publicly confronted anyway
+* (c) I am publicly confronted instead
+
+Garden - 7, choice_1
+Outcome 1 — the gardener's plants are destroyed
+
+* (a) The gardener's plants are destroyed ✓
+* (b) The gardener's plants are left unharmed
+* (c) The other gardener's plants are destroyed
+
+Outcome 2 — the gardener's excess water use stops
+
+* (a) The gardener's excess water use stops ✓
+* (b) The gardener keeps siphoning extra water
+* (c) The gardener is granted a larger water allotment
+
+Outcome 3 — more water is left for the other plot
+
+* (a) More water becomes available for the other gardener's plot ✓
+* (b) Even less water is left for the other gardener's plot
+* (c) The water supply is shut off for everyone
+
+Outcome 4 — the other gardener's plants survive
+
+* (a) The plants in the other gardener's plot continue to survive ✓
+* (b) The plants in the other gardener's plot die from lack of water
+* (c) The plants in the other gardener's plot are stomped as well
+
+Garden - 7, choice_2
+Outcome 1 — the gardener keeps siphoning extra water
+
+* (a) The gardener continues receiving extra water for her plot ✓
+* (b) The gardener stops taking extra water on her own
+* (c) The gardener's tubing is removed by the city
+
+Outcome 2 — less water is left for the other plot
+
+* (a) Less water remains available for the other gardener's plot ✓
+* (b) Plenty of water remains for the other gardener's plot
+* (c) The other gardener receives extra water
+
+Outcome 3 — the other plot's plants die
+
+* (a) The plants in one other gardener's plot die from lack of water ✓
+* (b) The plants in the other gardener's plot survive
+* (c) The gardener's own plants die from lack of water
+
+Outcome 4 — the gardener's plants keep thriving
+
+* (a) The gardener's plants continue to receive enough water to thrive ✓
+* (b) The gardener's plants wither from lack of water
+* (c) The gardener's plants are destroyed
+
+Garden - 8, choice_1
+Outcome 1 — the gardener's excess water use stops
+
+* (a) The gardener's excess water use stops ✓
+* (b) The gardener keeps siphoning extra water
+* (c) The gardener is granted a larger water allotment
+
+Outcome 2 — more water is left for the other plot
+
+* (a) More water becomes available for the other gardener's plot ✓
+* (b) Even less water is left for the other gardener's plot
+* (c) The water supply is shut off for everyone
+
+Outcome 3 — the other gardener's plants survive
+
+* (a) The plants in the other gardener's plot continue to survive ✓
+* (b) The plants in the other gardener's plot die from lack of water
+* (c) Only the gardener's plants survive
+
+Outcome 4 — the gardener's reputation is damaged
+
+* (a) The gardener's reputation with other residents is damaged ✓
+* (b) The gardener's reputation with other residents improves
+* (c) My reputation with other residents is damaged
+
+Outcome 5 — the gardener feels distress from the rumors
+
+* (a) The gardener experiences distress from being the subject of rumors ✓
+* (b) The gardener feels unbothered by the rumors
+* (c) The other residents feel distress from the rumors
+
+Garden - 8, choice_2
+Outcome 1 — the gardener keeps siphoning extra water
+
+* (a) The gardener continues taking extra water ✓
+* (b) The gardener stops taking extra water on her own
+* (c) The gardener's tubing is removed by the city
+
+Outcome 2 — less water is left for the other plot
+
+* (a) Less water remains available for the other gardener's plot ✓
+* (b) Plenty of water remains for the other gardener's plot
+* (c) The other gardener receives extra water
+
+Outcome 3 — the other plot's plants die
+
+* (a) The plants in one other gardener's plot die from lack of water ✓
+* (b) The plants in the other gardener's plot survive
+* (c) The gardener's own plants die from lack of water
+
+Outcome 4 — the gardener avoids the rumors
+
+* (a) The gardener avoids being the subject of rumors ✓
+* (b) The gardener becomes the subject of rumors anyway
+* (c) I become the subject of rumors instead
+
+Garden - 9, choice_1
+Outcome 1 — the gardener's excess water use stops
+
+* (a) The gardener's excess water use stops ✓
+* (b) The gardener keeps siphoning extra water
+* (c) The gardener is granted a larger water allotment
+
+Outcome 2 — more water is left for the other plot
+
+* (a) More water becomes available for the other gardener's plot ✓
+* (b) Even less water is left for the other gardener's plot
+* (c) The water supply is shut off for everyone
+
+Outcome 3 — the other gardener's plants survive
+
+* (a) The plants in the other gardener's plot continue to survive ✓
+* (b) The plants in the other gardener's plot die from lack of water
+* (c) Only the gardener's plants survive
+
+Outcome 4 — the gardener is publicly embarrassed
+
+* (a) The gardener is publicly embarrassed ✓
+* (b) The gardener is publicly praised
+* (c) I am publicly embarrassed instead
+
+Outcome 5 — the other gardeners learn about the siphoning
+
+* (a) The other gardeners learn that the gardener was bypassing the water meter ✓
+* (b) The other gardeners remain unaware of the siphoning
+* (c) The other gardeners are told I was bypassing the water meter
+
+Garden - 9, choice_2
+Outcome 1 — the gardener keeps siphoning extra water
+
+* (a) The gardener continues taking extra water ✓
+* (b) The gardener stops taking extra water on her own
+* (c) The gardener's tubing is removed by the city
+
+Outcome 2 — less water is left for the other plot
+
+* (a) Less water remains available for the other gardener's plot ✓
+* (b) Plenty of water remains for the other gardener's plot
+* (c) The other gardener receives extra water
+
+Outcome 3 — the other plot's plants die
+
+* (a) The plants in one other gardener's plot die from lack of water ✓
+* (b) The plants in the other gardener's plot survive
+* (c) The gardener's own plants die from lack of water
+
+Outcome 4 — the gardener avoids being confronted
+
+* (a) The gardener avoids public embarrassment at the community meeting ✓
+* (b) The gardener is publicly confronted anyway
+* (c) I am publicly confronted instead
+
+Giftcard - 1, choice_1
+Outcome 1 — the woman receives money
+
+* (a) The woman receives the money she needs ✓
+* (b) The woman receives no money
+* (c) My colleague receives the money
+
+Outcome 2 — the woman can pay her child's hospital bill
+
+* (a) The woman can pay her child's hospital bill ✓
+* (b) The woman still cannot pay her child's hospital bill
+* (c) The woman pays off an unrelated debt
+
+Outcome 3 — the woman feels relieved
+
+* (a) The woman feels relieved ✓
+* (b) The woman remains distressed
+* (c) My colleague feels relieved
+
+Outcome 4 — my colleague loses all the money in their wallet
+
+* (a) My colleague loses all the money in their wallet ✓
+* (b) My colleague keeps all the money in their wallet
+* (c) The store loses money from the register
+
+Outcome 5 — I steal and feel stress about it
+
+* (a) I steal from my colleague and feel stress about it ✓
+* (b) I feel calm and untroubled about taking the money
+* (c) My colleague feels stress about stealing
+
+Giftcard - 1, choice_2
+Outcome 1 — the woman receives no money from me
+
+* (a) The woman does not receive money from me ✓
+* (b) The woman receives money from me
+* (c) My colleague receives money from me
+
+Outcome 2 — the hospital bill stays unpaid
+
+* (a) The child's hospital bill remains unpaid today ✓
+* (b) The child's hospital bill is paid today
+* (c) An unrelated bill is paid today
+
+Outcome 3 — the woman stays distressed
+
+* (a) The woman remains distressed ✓
+* (b) The woman feels relieved
+* (c) My colleague remains distressed
+
+Outcome 4 — the child keeps suffering
+
+* (a) The child continues to suffer from a severe illness ✓
+* (b) The child recovers from the illness
+* (c) The woman continues to suffer from a severe illness
+
+Outcome 5 — my colleague keeps their money
+
+* (a) My colleague keeps all the money in their wallet ✓
+* (b) My colleague loses the money in their wallet
+* (c) The store keeps its gift card supply
+
+Giftcard - 2, choice_1
+Outcome 1 — the woman receives money
+
+* (a) The woman receives the money she needs ✓
+* (b) The woman receives no money
+* (c) The manager receives the money
+
+Outcome 2 — the woman can pay her child's hospital bill
+
+* (a) The woman can pay her child's hospital bill ✓
+* (b) The woman still cannot pay her child's hospital bill
+* (c) The woman pays off an unrelated debt
+
+Outcome 3 — the woman feels relieved
+
+* (a) The woman feels relieved ✓
+* (b) The woman remains distressed
+* (c) The manager feels relieved
+
+Outcome 4 — the store loses a gift card from its supply
+
+* (a) The store loses a gift card from its supply ✓
+* (b) The store's gift card supply is unaffected
+* (c) My colleague loses money from their wallet
+
+Outcome 5 — I steal and feel stress about it
+
+* (a) I steal from the store and feel stress about it ✓
+* (b) I feel calm and untroubled about taking the gift card
+* (c) The manager feels stress about stealing
+
+Giftcard - 2, choice_2
+Outcome 1 — the woman receives no money from me
+
+* (a) The woman does not receive money from me ✓
+* (b) The woman receives money from me
+* (c) The manager receives money from me
+
+Outcome 2 — the hospital bill stays unpaid
+
+* (a) The child's hospital bill remains unpaid today ✓
+* (b) The child's hospital bill is paid today
+* (c) An unrelated bill is paid today
+
+Outcome 3 — the woman stays distressed
+
+* (a) The woman remains distressed ✓
+* (b) The woman feels relieved
+* (c) The manager remains distressed
+
+Outcome 4 — the child keeps suffering
+
+* (a) The child continues to suffer from a severe illness ✓
+* (b) The child recovers from the illness
+* (c) The woman continues to suffer from a severe illness
+
+Outcome 5 — the store keeps its gift card supply
+
+* (a) The store's gift card supply remains intact ✓
+* (b) The store loses a gift card from its supply
+* (c) My colleague loses money from their wallet
+
+Giftcard - 3, choice_1
+Outcome 1 — my colleagues give money
+
+* (a) My colleagues give some of their money ✓
+* (b) My colleagues refuse to give any money
+* (c) The store gives money from the register
+
+Outcome 2 — the woman can pay her child's hospital bill
+
+* (a) The woman can pay her child's hospital bill ✓
+* (b) The woman still cannot pay her child's hospital bill
+* (c) The woman pays off an unrelated debt
+
+Outcome 3 — the woman feels relieved
+
+* (a) The woman feels relieved ✓
+* (b) The woman remains distressed
+* (c) My colleagues feel relieved
+
+Outcome 4 — the child avoids continued suffering
+
+* (a) The child avoids continued suffering from the severe illness ✓
+* (b) The child continues to suffer from the severe illness
+* (c) The woman avoids continued suffering from a severe illness
+
+Outcome 5 — my colleagues have less money
+
+* (a) My colleagues have less money after giving ✓
+* (b) My colleagues keep all of their money
+* (c) The store has less money after giving
+
+Giftcard - 3, choice_2
+Outcome 1 — the woman receives no money from my colleagues
+
+* (a) The woman does not receive money from my colleagues ✓
+* (b) The woman receives money from my colleagues
+* (c) The woman receives money from the store
+
+Outcome 2 — the hospital bill stays unpaid
+
+* (a) The child's hospital bill remains unpaid today ✓
+* (b) The child's hospital bill is paid today
+* (c) An unrelated bill is paid today
+
+Outcome 3 — the woman stays distressed
+
+* (a) The woman remains distressed and desperate ✓
+* (b) The woman feels relieved
+* (c) My colleagues remain distressed and desperate
+
+Outcome 4 — the child keeps suffering
+
+* (a) The child continues to suffer from a severe illness ✓
+* (b) The child recovers from the illness
+* (c) The woman continues to suffer from a severe illness
+
+Outcome 5 — my colleagues keep their money
+
+* (a) My colleagues keep all of their money ✓
+* (b) My colleagues give away some of their money
+* (c) The store keeps its gift card supply
+
+Giftcard - 4, choice_1
+Outcome 1 — the woman receives money
+
+* (a) The woman receives the money she needs ✓
+* (b) The woman receives no money
+* (c) My colleague receives the money
+
+Outcome 2 — the woman can pay her electricity bill
+
+* (a) The woman can pay her electricity bill ✓
+* (b) The woman still cannot pay her electricity bill
+* (c) The woman pays off an unrelated debt
+
+Outcome 3 — the woman feels relieved
+
+* (a) The woman feels relieved about her overdue payment ✓
+* (b) The woman remains distressed
+* (c) My colleague feels relieved
+
+Outcome 4 — my colleague loses all the money in their wallet
+
+* (a) My colleague loses all the money in their wallet ✓
+* (b) My colleague keeps all the money in their wallet
+* (c) The store loses money from the register
+
+Outcome 5 — I steal and betray my colleague's trust
+
+* (a) I steal from my colleague and betray their trust ✓
+* (b) I keep my colleague's trust and take nothing
+* (c) My colleague betrays my trust
+
+Giftcard - 4, choice_2
+Outcome 1 — the woman receives no money from me
+
+* (a) The woman does not receive money from me ✓
+* (b) The woman receives money from me
+* (c) My colleague receives money from me
+
+Outcome 2 — the electricity bill stays unpaid
+
+* (a) The woman remains unable to pay her electricity bill today ✓
+* (b) The woman pays her electricity bill today
+* (c) An unrelated bill is paid today
+
+Outcome 3 — the woman goes without electricity
+
+* (a) The woman goes without electricity for the month ✓
+* (b) The woman keeps her electricity on
+* (c) My colleague goes without electricity for the month
+
+Outcome 4 — the woman stays distressed
+
+* (a) The woman remains distressed ✓
+* (b) The woman feels relieved
+* (c) My colleague remains distressed
+
+Outcome 5 — my colleague keeps their money
+
+* (a) My colleague keeps all the money in their wallet ✓
+* (b) My colleague loses the money in their wallet
+* (c) The store keeps its gift card supply
+
+Giftcard - 5, choice_1
+Outcome 1 — the woman receives money
+
+* (a) The woman receives the money she needs ✓
+* (b) The woman receives no money
+* (c) The manager receives the money
+
+Outcome 2 — the woman can pay her electricity bill
+
+* (a) The woman can pay her electricity bill ✓
+* (b) The woman still cannot pay her electricity bill
+* (c) The woman pays off an unrelated debt
+
+Outcome 3 — the woman feels relieved
+
+* (a) The woman feels relieved and her panic decreases ✓
+* (b) The woman remains distressed and panicked
+* (c) The manager feels relieved
+
+Outcome 4 — the store loses a gift card from its supply
+
+* (a) The store loses a gift card from its supply ✓
+* (b) The store's gift card supply is unaffected
+* (c) My colleague loses money from their wallet
+
+Outcome 5 — I steal and feel stress about it
+
+* (a) I steal from the store and feel stress about it ✓
+* (b) I feel calm and untroubled about taking the gift card
+* (c) The manager feels stress about stealing
+
+Giftcard - 5, choice_2
+Outcome 1 — the woman receives no money from me
+
+* (a) The woman does not receive money from me ✓
+* (b) The woman receives money from me
+* (c) The manager receives money from me
+
+Outcome 2 — the electricity bill stays unpaid
+
+* (a) The woman remains unable to pay her electricity bill ✓
+* (b) The woman pays her electricity bill today
+* (c) An unrelated bill is paid today
+
+Outcome 3 — the woman goes without electricity
+
+* (a) The woman goes without electricity for the month ✓
+* (b) The woman keeps her electricity on
+* (c) The manager goes without electricity for the month
+
+Outcome 4 — the woman stays distressed
+
+* (a) The woman remains distressed and frustrated ✓
+* (b) The woman feels relieved
+* (c) The manager remains distressed and frustrated
+
+Outcome 5 — the store keeps its gift card supply
+
+* (a) The store's gift card supply remains intact ✓
+* (b) The store loses a gift card from its supply
+* (c) My colleague loses money from their wallet
+
+Giftcard - 6, choice_1
+Outcome 1 — my colleagues give money
+
+* (a) My colleagues give some of their money ✓
+* (b) My colleagues refuse to give any money
+* (c) The store gives money from the register
+
+Outcome 2 — the woman can pay her electricity bill
+
+* (a) The woman can pay her electricity bill ✓
+* (b) The woman still cannot pay her electricity bill
+* (c) The woman pays off an unrelated debt
+
+Outcome 3 — the woman avoids losing electricity
+
+* (a) The woman avoids losing electricity for the month ✓
+* (b) The woman loses electricity for the month
+* (c) My colleagues lose electricity for the month
+
+Outcome 4 — the woman feels relieved
+
+* (a) The woman feels relieved ✓
+* (b) The woman remains distressed
+* (c) My colleagues feel relieved
+
+Outcome 5 — my colleagues have less money
+
+* (a) My colleagues have less money after giving ✓
+* (b) My colleagues keep all of their money
+* (c) The store has less money after giving
+
+Giftcard - 6, choice_2
+Outcome 1 — the woman receives no money from my colleagues
+
+* (a) The woman does not receive money from my colleagues ✓
+* (b) The woman receives money from my colleagues
+* (c) The woman receives money from the store
+
+Outcome 2 — the electricity bill stays unpaid
+
+* (a) The woman remains unable to pay her electricity bill ✓
+* (b) The woman pays her electricity bill today
+* (c) An unrelated bill is paid today
+
+Outcome 3 — the woman goes without electricity
+
+* (a) The woman goes without electricity for the month ✓
+* (b) The woman keeps her electricity on
+* (c) My colleagues go without electricity for the month
+
+Outcome 4 — the woman stays distressed
+
+* (a) The woman remains distressed ✓
+* (b) The woman feels relieved
+* (c) My colleagues remain distressed
+
+Outcome 5 — my colleagues keep their money
+
+* (a) My colleagues keep all of their money ✓
+* (b) My colleagues give away some of their money
+* (c) The store keeps its gift card supply
+
+Giftcard - 7, choice_1
+Outcome 1 — the woman receives money
+
+* (a) The woman receives the money she needs ✓
+* (b) The woman receives no money
+* (c) My colleague receives the money
+
+Outcome 2 — the woman can afford the wedding gift
+
+* (a) The woman can afford the wedding gift ✓
+* (b) The woman still cannot afford the wedding gift
+* (c) The woman pays off an unrelated debt
+
+Outcome 3 — the woman feels relieved
+
+* (a) The woman feels relieved ✓
+* (b) The woman remains distressed
+* (c) My colleague feels relieved
+
+Outcome 4 — my colleague loses all the money in their wallet
+
+* (a) My colleague loses all the money in their wallet ✓
+* (b) My colleague keeps all the money in their wallet
+* (c) The store loses money from the register
+
+Outcome 5 — I steal and feel stress about it
+
+* (a) I steal from my colleague and feel stress about it ✓
+* (b) I feel calm and untroubled about taking the money
+* (c) My colleague feels stress about stealing
+
+Giftcard - 7, choice_2
+Outcome 1 — the woman receives no money from me
+
+* (a) The woman does not receive money from me ✓
+* (b) The woman receives money from me
+* (c) My colleague receives money from me
+
+Outcome 2 — the woman cannot buy the wedding gift
+
+* (a) The woman remains unable to buy the wedding gift ✓
+* (b) The woman is able to buy the wedding gift
+* (c) The woman buys an unrelated item
+
+Outcome 3 — the woman goes to the wedding empty-handed
+
+* (a) The woman goes to the wedding empty-handed ✓
+* (b) The woman arrives at the wedding with a gift
+* (c) My colleague goes to the wedding empty-handed
+
+Outcome 4 — the woman stays distressed
+
+* (a) The woman remains distressed and frustrated ✓
+* (b) The woman feels relieved
+* (c) My colleague remains distressed and frustrated
+
+Outcome 5 — my colleague keeps their money
+
+* (a) My colleague keeps all the money in their wallet ✓
+* (b) My colleague loses the money in their wallet
+* (c) The store keeps its gift card supply
+
+Giftcard - 8, choice_1
+Outcome 1 — the woman receives money
+
+* (a) The woman receives the money she needs ✓
+* (b) The woman receives no money
+* (c) The manager receives the money
+
+Outcome 2 — the woman can afford the wedding gift
+
+* (a) The woman can afford the wedding gift instead of going empty-handed ✓
+* (b) The woman still cannot afford the wedding gift
+* (c) The woman pays off an unrelated debt
+
+Outcome 3 — the woman feels relieved
+
+* (a) The woman feels relieved and calms down ✓
+* (b) The woman remains distressed
+* (c) The manager feels relieved
+
+Outcome 4 — the store loses a gift card from its supply
+
+* (a) The store loses a gift card from its supply ✓
+* (b) The store's gift card supply is unaffected
+* (c) My colleague loses money from their wallet
+
+Outcome 5 — I steal and feel stress about it
+
+* (a) I steal from the store and feel stress about it ✓
+* (b) I feel calm and untroubled about taking the gift card
+* (c) The manager feels stress about stealing
+
+Giftcard - 8, choice_2
+Outcome 1 — the woman receives no money from me
+
+* (a) The woman does not receive money from me ✓
+* (b) The woman receives money from me
+* (c) The manager receives money from me
+
+Outcome 2 — the woman cannot buy the wedding gift
+
+* (a) The woman remains unable to buy the wedding gift ✓
+* (b) The woman is able to buy the wedding gift
+* (c) The woman buys an unrelated item
+
+Outcome 3 — the woman goes to the wedding empty-handed
+
+* (a) The woman goes to the wedding empty-handed ✓
+* (b) The woman arrives at the wedding with a gift
+* (c) The manager goes to the wedding empty-handed
+
+Outcome 4 — the woman stays distressed
+
+* (a) The woman remains distressed ✓
+* (b) The woman feels relieved
+* (c) The manager remains distressed
+
+Outcome 5 — the store keeps its gift card supply
+
+* (a) The store's gift card supply remains intact ✓
+* (b) The store loses a gift card from its supply
+* (c) My colleague loses money from their wallet
+
+Giftcard - 9, choice_1
+Outcome 1 — my colleagues give money
+
+* (a) My colleagues give some of their money ✓
+* (b) My colleagues refuse to give any money
+* (c) The store gives money from the register
+
+Outcome 2 — the woman can afford the wedding gift
+
+* (a) The woman can afford the wedding gift ✓
+* (b) The woman still cannot afford the wedding gift
+* (c) The woman pays off an unrelated debt
+
+Outcome 3 — the woman feels relieved
+
+* (a) The woman feels relieved and becomes calmer ✓
+* (b) The woman remains distressed
+* (c) My colleagues feel relieved
+
+Outcome 4 — my colleagues have less money
+
+* (a) My colleagues have less money after giving ✓
+* (b) My colleagues keep all of their money
+* (c) The store has less money after giving
+
+Giftcard - 9, choice_2
+Outcome 1 — the woman receives no money from my colleagues
+
+* (a) The woman does not receive money from my colleagues ✓
+* (b) The woman receives money from my colleagues
+* (c) The woman receives money from the store
+
+Outcome 2 — the woman cannot afford the wedding gift
+
+* (a) The woman remains unable to afford the wedding gift ✓
+* (b) The woman is able to afford the wedding gift
+* (c) The woman buys an unrelated item
+
+Outcome 3 — the woman goes to the wedding empty-handed
+
+* (a) The woman goes to the wedding empty-handed ✓
+* (b) The woman arrives at the wedding with a gift
+* (c) My colleagues go to the wedding empty-handed
+
+Outcome 4 — the woman stays distressed
+
+* (a) The woman remains distressed ✓
+* (b) The woman feels relieved
+* (c) My colleagues remain distressed
+
+Outcome 5 — my colleagues keep their money
+
+* (a) My colleagues keep all of their money ✓
+* (b) My colleagues give away some of their money
+* (c) The store keeps its gift card supply
+
+Medication - 1, choice_1
+Outcome 1 — my aunt is choked unconscious
+
+* (a) My aunt is choked into unconsciousness ✓
+* (b) My aunt remains fully conscious and unharmed
+* (c) I am choked into unconsciousness
+
+Outcome 2 — my aunt takes the medication
+
+* (a) My aunt ends up taking her medication ✓
+* (b) My aunt still does not take her medication
+* (c) My aunt takes a different medication
+
+Outcome 3 — my aunt stays alive
+
+* (a) My aunt stays alive ✓
+* (b) My aunt dies anyway
+* (c) My aunt makes a full recovery with no intervention
+
+Outcome 4 — my aunt's refusal is overridden
+
+* (a) My aunt's refusal to take the medication is overridden ✓
+* (b) My aunt's refusal is respected
+* (c) My refusal is overridden
+
+Outcome 5 — I feel distress from choking my aunt
+
+* (a) I experience distress from choking my aunt ✓
+* (b) I feel calm and untroubled
+* (c) My aunt feels distress from choking me
+
+Medication - 1, choice_2
+Outcome 1 — my aunt does not take the medication
+
+* (a) My aunt does not take her medication ✓
+* (b) My aunt takes her medication
+* (c) My aunt takes a different medication
+
+Outcome 2 — my aunt's refusal is respected
+
+* (a) My aunt's refusal is respected and she is not forced ✓
+* (b) My aunt is forced to take the medication
+* (c) My refusal is respected
+
+Outcome 3 — my aunt dies
+
+* (a) My aunt experiences a fatal seizure and dies ✓
+* (b) My aunt survives without the medication
+* (c) I experience a fatal seizure and die
+
+Medication - 2, choice_1
+Outcome 1 — the medication is forced down my aunt's throat
+
+* (a) The medication is forced down my aunt's throat ✓
+* (b) My aunt swallows the medication willingly
+* (c) The medication is forced down my throat
+
+Outcome 2 — my aunt takes the medication
+
+* (a) My aunt ends up taking her medication ✓
+* (b) My aunt still does not take her medication
+* (c) My aunt takes a different medication
+
+Outcome 3 — my aunt stays alive
+
+* (a) My aunt stays alive ✓
+* (b) My aunt dies anyway
+* (c) My aunt makes a full recovery with no intervention
+
+Outcome 4 — my aunt's refusal is overridden
+
+* (a) My aunt's refusal to take the medication is overridden ✓
+* (b) My aunt's refusal is respected
+* (c) My refusal is overridden
+
+Outcome 5 — I feel distress from forcing the pills on my aunt
+
+* (a) I experience distress from forcing the medication on my aunt ✓
+* (b) I feel calm and untroubled
+* (c) My aunt feels distress from forcing pills on me
+
+Medication - 2, choice_2
+Outcome 1 — my aunt does not take the medication
+
+* (a) My aunt does not take her medication ✓
+* (b) My aunt takes her medication
+* (c) My aunt takes a different medication
+
+Outcome 2 — my aunt's refusal is respected
+
+* (a) My aunt's refusal is respected and she is not forced ✓
+* (b) My aunt is forced to take the medication
+* (c) My refusal is respected
+
+Outcome 3 — my aunt dies
+
+* (a) My aunt experiences a fatal seizure and dies ✓
+* (b) My aunt survives without the medication
+* (c) I experience a fatal seizure and die
+
+Medication - 3, choice_1
+Outcome 1 — my aunt is yelled at
+
+* (a) My aunt is yelled at until she takes the medication ✓
+* (b) My aunt is spoken to calmly
+* (c) I am yelled at by my aunt
+
+Outcome 2 — my aunt takes the medication
+
+* (a) My aunt ends up taking her medication ✓
+* (b) My aunt still does not take her medication
+* (c) My aunt takes a different medication
+
+Outcome 3 — my aunt stays alive
+
+* (a) My aunt stays alive and avoids a fatal seizure ✓
+* (b) My aunt dies anyway
+* (c) My aunt makes a full recovery with no intervention
+
+Outcome 4 — I feel distress from yelling at my aunt
+
+* (a) I feel distressed from yelling at my aunt ✓
+* (b) I feel calm and untroubled
+* (c) My aunt feels distressed from yelling at me
+
+Medication - 3, choice_2
+Outcome 1 — my aunt does not take the medication
+
+* (a) My aunt does not take her medication ✓
+* (b) My aunt takes her medication
+* (c) My aunt takes a different medication
+
+Outcome 2 — my aunt's refusal is respected
+
+* (a) My aunt's refusal is respected and she is not yelled at ✓
+* (b) My aunt is yelled at into taking the medication
+* (c) My refusal is respected
+
+Outcome 3 — my aunt dies
+
+* (a) My aunt experiences a fatal seizure and dies ✓
+* (b) My aunt survives without the medication
+* (c) I experience a fatal seizure and die
+
+Medication - 4, choice_1
+Outcome 1 — my aunt is choked unconscious
+
+* (a) My aunt is choked into unconsciousness ✓
+* (b) My aunt remains fully conscious and unharmed
+* (c) I am choked into unconsciousness
+
+Outcome 2 — my aunt takes the medication
+
+* (a) My aunt ends up taking her medication ✓
+* (b) My aunt still does not take her medication
+* (c) My aunt takes a different medication
+
+Outcome 3 — my aunt avoids brain damage
+
+* (a) My aunt avoids the brain damage that would have followed her next seizure ✓
+* (b) My aunt suffers brain damage anyway
+* (c) I avoid brain damage
+
+Outcome 4 — my aunt's refusal is overridden
+
+* (a) My aunt's refusal to take the medication is overridden ✓
+* (b) My aunt's refusal is respected
+* (c) My refusal is overridden
+
+Outcome 5 — I feel distress from choking my aunt
+
+* (a) I experience distress from choking my aunt ✓
+* (b) I feel calm and untroubled
+* (c) My aunt feels distress from choking me
+
+Medication - 4, choice_2
+Outcome 1 — my aunt does not take the medication
+
+* (a) My aunt does not take her medication ✓
+* (b) My aunt takes her medication
+* (c) My aunt takes a different medication
+
+Outcome 2 — my aunt's refusal is respected
+
+* (a) My aunt's refusal is respected and she is not forced ✓
+* (b) My aunt is forced to take the medication
+* (c) My refusal is respected
+
+Outcome 3 — my aunt suffers brain damage
+
+* (a) My aunt experiences lasting brain damage ✓
+* (b) My aunt suffers no lasting harm
+* (c) I experience lasting brain damage
+
+Medication - 5, choice_1
+Outcome 1 — the medication is forced down my aunt's throat
+
+* (a) The medication is forced down my aunt's throat ✓
+* (b) My aunt swallows the medication willingly
+* (c) The medication is forced down my throat
+
+Outcome 2 — my aunt takes the medication
+
+* (a) My aunt ends up taking her medication ✓
+* (b) My aunt still does not take her medication
+* (c) My aunt takes a different medication
+
+Outcome 3 — my aunt avoids brain damage
+
+* (a) My aunt avoids the brain damage that would have followed her next seizure ✓
+* (b) My aunt suffers brain damage anyway
+* (c) I avoid brain damage
+
+Outcome 4 — my aunt's refusal is overridden
+
+* (a) My aunt's refusal to take the medication is overridden ✓
+* (b) My aunt's refusal is respected
+* (c) My refusal is overridden
+
+Outcome 5 — I feel distress from forcing the pills on my aunt
+
+* (a) I experience distress from forcing the medication on my aunt ✓
+* (b) I feel calm and untroubled
+* (c) My aunt feels distress from forcing pills on me
+
+Medication - 5, choice_2
+Outcome 1 — my aunt does not take the medication
+
+* (a) My aunt does not take her medication ✓
+* (b) My aunt takes her medication
+* (c) My aunt takes a different medication
+
+Outcome 2 — my aunt's refusal is respected
+
+* (a) My aunt's refusal is respected and she is not forced ✓
+* (b) My aunt is forced to take the medication
+* (c) My refusal is respected
+
+Outcome 3 — my aunt suffers brain damage
+
+* (a) My aunt experiences lasting brain damage ✓
+* (b) My aunt suffers no lasting harm
+* (c) I experience lasting brain damage
+
+Medication - 6, choice_1
+Outcome 1 — my aunt is yelled at
+
+* (a) My aunt is yelled at until she takes the medication ✓
+* (b) My aunt is spoken to calmly
+* (c) I am yelled at by my aunt
+
+Outcome 2 — my aunt takes the medication
+
+* (a) My aunt ends up taking her medication ✓
+* (b) My aunt still does not take her medication
+* (c) My aunt takes a different medication
+
+Outcome 3 — my aunt avoids brain damage
+
+* (a) My aunt avoids the brain damage that would have followed her next seizure ✓
+* (b) My aunt suffers brain damage anyway
+* (c) I avoid brain damage
+
+Outcome 4 — I feel distress from yelling at my aunt
+
+* (a) I feel distressed from yelling at my aunt ✓
+* (b) I feel calm and untroubled
+* (c) My aunt feels distressed from yelling at me
+
+Medication - 6, choice_2
+Outcome 1 — my aunt does not take the medication
+
+* (a) My aunt does not take her medication ✓
+* (b) My aunt takes her medication
+* (c) My aunt takes a different medication
+
+Outcome 2 — my aunt's refusal is respected
+
+* (a) My aunt's refusal is respected and she is not yelled at ✓
+* (b) My aunt is yelled at into taking the medication
+* (c) My refusal is respected
+
+Outcome 3 — my aunt suffers brain damage
+
+* (a) My aunt experiences lasting brain damage ✓
+* (b) My aunt suffers no lasting harm
+* (c) I experience lasting brain damage
+
+Medication - 7, choice_1
+Outcome 1 — my aunt is choked unconscious
+
+* (a) My aunt is choked into unconsciousness ✓
+* (b) My aunt remains fully conscious and unharmed
+* (c) I am choked into unconsciousness
+
+Outcome 2 — my aunt takes the medication
+
+* (a) My aunt ends up taking her medication ✓
+* (b) My aunt still does not take her medication
+* (c) My aunt takes a different medication
+
+Outcome 3 — my aunt avoids the severe headache
+
+* (a) My aunt avoids the severe headache ✓
+* (b) My aunt suffers the severe headache anyway
+* (c) I avoid the severe headache
+
+Outcome 4 — my aunt's refusal is overridden
+
+* (a) My aunt's refusal to take the medication is overridden ✓
+* (b) My aunt's refusal is respected
+* (c) My refusal is overridden
+
+Outcome 5 — I feel distress from choking my aunt
+
+* (a) I experience distress from choking my aunt ✓
+* (b) I feel calm and untroubled
+* (c) My aunt feels distress from choking me
+
+Medication - 7, choice_2
+Outcome 1 — my aunt does not take the medication
+
+* (a) My aunt does not take her medication ✓
+* (b) My aunt takes her medication
+* (c) My aunt takes a different medication
+
+Outcome 2 — my aunt's refusal is respected
+
+* (a) My aunt's refusal is respected and she is not forced ✓
+* (b) My aunt is forced to take the medication
+* (c) My refusal is respected
+
+Outcome 3 — my aunt suffers a severe headache
+
+* (a) My aunt experiences a severe headache ✓
+* (b) My aunt suffers no headache at all
+* (c) I experience a severe headache
+
+Medication - 8, choice_1
+Outcome 1 — the medication is forced down my aunt's throat
+
+* (a) The medication is forced down my aunt's throat ✓
+* (b) My aunt swallows the medication willingly
+* (c) The medication is forced down my throat
+
+Outcome 2 — my aunt takes the medication
+
+* (a) My aunt ends up taking her medication ✓
+* (b) My aunt still does not take her medication
+* (c) My aunt takes a different medication
+
+Outcome 3 — my aunt avoids the severe headache
+
+* (a) My aunt avoids the severe headache ✓
+* (b) My aunt suffers the severe headache anyway
+* (c) I avoid the severe headache
+
+Outcome 4 — my aunt's refusal is overridden
+
+* (a) My aunt's refusal to take the medication is overridden ✓
+* (b) My aunt's refusal is respected
+* (c) My refusal is overridden
+
+Outcome 5 — I feel distress from forcing the pills on my aunt
+
+* (a) I experience distress from forcing the medication on my aunt ✓
+* (b) I feel calm and untroubled
+* (c) My aunt feels distress from forcing pills on me
+
+Medication - 8, choice_2
+Outcome 1 — my aunt does not take the medication
+
+* (a) My aunt does not take her medication ✓
+* (b) My aunt takes her medication
+* (c) My aunt takes a different medication
+
+Outcome 2 — my aunt's refusal is respected
+
+* (a) My aunt's refusal is respected and she is not forced ✓
+* (b) My aunt is forced to take the medication
+* (c) My refusal is respected
+
+Outcome 3 — my aunt suffers a severe headache
+
+* (a) My aunt experiences a severe headache ✓
+* (b) My aunt suffers no headache at all
+* (c) I experience a severe headache
+
+Medication - 9, choice_1
+Outcome 1 — my aunt is yelled at
+
+* (a) My aunt is yelled at until she takes the medication ✓
+* (b) My aunt is spoken to calmly
+* (c) I am yelled at by my aunt
+
+Outcome 2 — my aunt takes the medication
+
+* (a) My aunt ends up taking her medication ✓
+* (b) My aunt still does not take her medication
+* (c) My aunt takes a different medication
+
+Outcome 3 — my aunt avoids the severe headache
+
+* (a) My aunt avoids the severe headache ✓
+* (b) My aunt suffers the severe headache anyway
+* (c) I avoid the severe headache
+
+Outcome 4 — I feel distress from yelling at my aunt
+
+* (a) I feel distressed from yelling at my aunt ✓
+* (b) I feel calm and untroubled
+* (c) My aunt feels distressed from yelling at me
+
+Medication - 9, choice_2
+Outcome 1 — my aunt does not take the medication
+
+* (a) My aunt does not take her medication ✓
+* (b) My aunt takes her medication
+* (c) My aunt takes a different medication
+
+Outcome 2 — my aunt's refusal is respected
+
+* (a) My aunt's refusal is respected and she is not yelled at ✓
+* (b) My aunt is yelled at into taking the medication
+* (c) My refusal is respected
+
+Outcome 3 — my aunt suffers a severe headache
+
+* (a) My aunt experiences a severe headache ✓
+* (b) My aunt suffers no headache at all
+* (c) I experience a severe headache
+
+Ropeladder - 1, choice_1
+Outcome 1 — the man falls from the ladder
+
+* (a) The man falls from the ladder ✓
+* (b) The man stays on the ladder
+* (c) I fall from the ladder
+
+Outcome 2 — the man dies from the fall
+
+* (a) The man dies from the fall ✓
+* (b) The man survives the fall unharmed
+* (c) One of the other passengers dies from the fall
+
+Outcome 3 — the ladder is no longer blocked
+
+* (a) The ladder is no longer blocked ✓
+* (b) The ladder remains blocked
+* (c) A second ladder becomes blocked
+
+Outcome 4 — the 20 other passengers reach the deck
+
+* (a) The 20 other passengers are able to climb onto the deck ✓
+* (b) The 20 other passengers remain trapped below
+* (c) The 20 other passengers climb back down into the water
+
+Outcome 5 — I feel distress from causing the man's fall
+
+* (a) I experience distress from causing the man's fall ✓
+* (b) I feel calm and untroubled
+* (c) The man feels distress from causing my fall
+
+Ropeladder - 1, choice_2
+Outcome 1 — the man keeps blocking the ladder
+
+* (a) The man continues blocking the ladder ✓
+* (b) The man clears the ladder on his own
+* (c) The man climbs onto the deck
+
+Outcome 2 — the 20 passengers cannot reach the deck
+
+* (a) The 20 passengers behind the man cannot climb onto the deck ✓
+* (b) The 20 passengers behind the man reach the deck anyway
+* (c) The 20 passengers behind the man are rescued by another boat
+
+Outcome 3 — the man drowns
+
+* (a) The man on the ladder drowns ✓
+* (b) The man on the ladder survives
+* (c) I drown
+
+Outcome 4 — the 20 passengers drown
+
+* (a) The 20 passengers behind the man drown ✓
+* (b) The 20 passengers behind the man survive
+* (c) The 20 passengers behind the man reach safety
+
+Ropeladder - 2, choice_1
+Outcome 1 — the man falls from the ladder
+
+* (a) The man falls from the ladder ✓
+* (b) The man stays on the ladder
+* (c) I fall from the ladder
+
+Outcome 2 — the man dies from the fall
+
+* (a) The man dies from the fall ✓
+* (b) The man survives the fall unharmed
+* (c) One of the other passengers dies from the fall
+
+Outcome 3 — the ladder is no longer blocked
+
+* (a) The ladder is no longer blocked ✓
+* (b) The ladder remains blocked
+* (c) A second ladder becomes blocked
+
+Outcome 4 — the 20 other passengers reach the deck
+
+* (a) The 20 other passengers are able to climb onto the deck ✓
+* (b) The 20 other passengers remain trapped below
+* (c) The 20 other passengers climb back down into the water
+
+Outcome 5 — I feel distress from causing the man's fall
+
+* (a) I experience distress from causing the man's fall ✓
+* (b) I feel calm and untroubled
+* (c) The man feels distress from causing my fall
+
+Ropeladder - 2, choice_2
+Outcome 1 — the man keeps blocking the ladder
+
+* (a) The man continues blocking the ladder ✓
+* (b) The man clears the ladder on his own
+* (c) The man climbs onto the deck
+
+Outcome 2 — the 20 passengers cannot reach the deck
+
+* (a) The 20 passengers behind the man cannot climb onto the deck ✓
+* (b) The 20 passengers behind the man reach the deck anyway
+* (c) The 20 passengers behind the man are rescued by another boat
+
+Outcome 3 — the man drowns
+
+* (a) The man on the ladder drowns ✓
+* (b) The man on the ladder survives
+* (c) I drown
+
+Outcome 4 — the 20 passengers drown
+
+* (a) The 20 passengers behind the man drown ✓
+* (b) The 20 passengers behind the man survive
+* (c) The 20 passengers behind the man reach safety
+
+Ropeladder - 3, choice_1
+Outcome 1 — the man slips from the ladder
+
+* (a) The man slips from the ladder ✓
+* (b) The man stays securely on the ladder
+* (c) I slip from the ladder
+
+Outcome 2 — the man dies from the fall
+
+* (a) The man dies from the fall ✓
+* (b) The man survives the fall unharmed
+* (c) One of the other passengers dies from the fall
+
+Outcome 3 — the ladder is no longer blocked
+
+* (a) The ladder is no longer blocked ✓
+* (b) The ladder remains blocked
+* (c) A second ladder becomes blocked
+
+Outcome 4 — the 20 other passengers reach the deck
+
+* (a) The 20 other passengers are able to climb onto the deck ✓
+* (b) The 20 other passengers remain trapped below
+* (c) The 20 other passengers climb back down into the water
+
+Outcome 5 — I feel distress from letting the man fall
+
+* (a) I experience distress from letting the man fall ✓
+* (b) I feel calm and untroubled
+* (c) The man feels distress from letting me fall
+
+Ropeladder - 3, choice_2
+Outcome 1 — the man keeps blocking the ladder
+
+* (a) The man continues blocking the ladder ✓
+* (b) The man clears the ladder on his own
+* (c) The man climbs onto the deck
+
+Outcome 2 — the 20 passengers cannot reach the deck
+
+* (a) The 20 passengers behind the man cannot climb onto the deck ✓
+* (b) The 20 passengers behind the man reach the deck anyway
+* (c) The 20 passengers behind the man are rescued by another boat
+
+Outcome 3 — the man drowns
+
+* (a) The man on the ladder drowns ✓
+* (b) The man on the ladder survives
+* (c) I drown
+
+Outcome 4 — the 20 passengers drown
+
+* (a) The 20 passengers behind the man drown ✓
+* (b) The 20 passengers behind the man survive
+* (c) The 20 passengers behind the man reach safety
+
+Ropeladder - 4, choice_1
+Outcome 1 — the man falls from the ladder
+
+* (a) The man falls from the ladder ✓
+* (b) The man stays on the ladder
+* (c) I fall from the ladder
+
+Outcome 2 — the man dies from the fall
+
+* (a) The man dies from the fall ✓
+* (b) The man survives the fall unharmed
+* (c) One of the other passengers dies from the fall
+
+Outcome 3 — the ladder is no longer blocked
+
+* (a) The ladder is no longer blocked ✓
+* (b) The ladder remains blocked
+* (c) A second ladder becomes blocked
+
+Outcome 4 — the 10 other passengers reach the deck
+
+* (a) The 10 other passengers are able to climb onto the deck ✓
+* (b) The 10 other passengers remain trapped below
+* (c) The 10 other passengers climb back down into the water
+
+Outcome 5 — I feel distress from causing the man's fall
+
+* (a) I experience distress from causing the man's fall ✓
+* (b) I feel calm and untroubled
+* (c) The man feels distress from causing my fall
+
+Ropeladder - 4, choice_2
+Outcome 1 — the man keeps blocking the ladder
+
+* (a) The man continues blocking the ladder ✓
+* (b) The man clears the ladder on his own
+* (c) The man climbs onto the deck
+
+Outcome 2 — the 10 passengers cannot reach the deck
+
+* (a) The 10 passengers behind the man cannot climb onto the deck ✓
+* (b) The 10 passengers behind the man reach the deck anyway
+* (c) The 10 passengers behind the man are rescued by another boat
+
+Outcome 3 — the man drowns
+
+* (a) The man on the ladder drowns ✓
+* (b) The man on the ladder survives
+* (c) I drown
+
+Outcome 4 — the 10 passengers drown
+
+* (a) The 10 passengers behind the man drown ✓
+* (b) The 10 passengers behind the man survive
+* (c) The 10 passengers behind the man reach safety
+
+Ropeladder - 5, choice_1
+Outcome 1 — the man falls from the ladder
+
+* (a) The man falls from the ladder ✓
+* (b) The man stays on the ladder
+* (c) I fall from the ladder
+
+Outcome 2 — the man dies from the fall
+
+* (a) The man dies from the fall ✓
+* (b) The man survives the fall unharmed
+* (c) One of the other passengers dies from the fall
+
+Outcome 3 — the ladder is no longer blocked
+
+* (a) The ladder is no longer blocked ✓
+* (b) The ladder remains blocked
+* (c) A second ladder becomes blocked
+
+Outcome 4 — the 10 other passengers reach the deck
+
+* (a) The 10 other passengers are able to climb toward the deck ✓
+* (b) The 10 other passengers remain trapped below
+* (c) The 10 other passengers climb back down into the water
+
+Outcome 5 — I feel distress from causing the man's fall
+
+* (a) I experience shock and distress from causing the man's fall ✓
+* (b) I feel calm and untroubled
+* (c) The man feels distress from causing my fall
+
+Ropeladder - 5, choice_2
+Outcome 1 — the man keeps blocking the ladder
+
+* (a) The man continues blocking the ladder ✓
+* (b) The man clears the ladder on his own
+* (c) The man climbs onto the deck
+
+Outcome 2 — the 10 passengers cannot reach the deck
+
+* (a) The 10 passengers behind the man cannot reach the deck ✓
+* (b) The 10 passengers behind the man reach the deck anyway
+* (c) The 10 passengers behind the man are rescued by another boat
+
+Outcome 3 — the man drowns
+
+* (a) The man on the ladder drowns ✓
+* (b) The man on the ladder survives
+* (c) I drown
+
+Outcome 4 — the 10 passengers drown
+
+* (a) The 10 passengers behind the man drown ✓
+* (b) The 10 passengers behind the man survive
+* (c) The 10 passengers behind the man reach safety
+
+Ropeladder - 6, choice_1
+Outcome 1 — the man slips from the ladder
+
+* (a) The man slips from the ladder ✓
+* (b) The man stays securely on the ladder
+* (c) I slip from the ladder
+
+Outcome 2 — the man dies from the fall
+
+* (a) The man dies from the fall ✓
+* (b) The man survives the fall unharmed
+* (c) One of the other passengers dies from the fall
+
+Outcome 3 — the ladder is no longer blocked
+
+* (a) The ladder is no longer blocked ✓
+* (b) The ladder remains blocked
+* (c) A second ladder becomes blocked
+
+Outcome 4 — the 10 other passengers reach the deck
+
+* (a) The 10 other passengers continue climbing to the deck ✓
+* (b) The 10 other passengers remain trapped below
+* (c) The 10 other passengers climb back down into the water
+
+Outcome 5 — I feel distress from letting the man fall
+
+* (a) I experience distress from letting the man fall ✓
+* (b) I feel calm and untroubled
+* (c) The man feels distress from letting me fall
+
+Ropeladder - 6, choice_2
+Outcome 1 — the man keeps blocking the ladder
+
+* (a) The man continues blocking the way ✓
+* (b) The man clears the ladder on his own
+* (c) The man climbs onto the deck
+
+Outcome 2 — the 10 passengers cannot reach the deck
+
+* (a) The 10 passengers behind him are unable to reach the deck ✓
+* (b) The 10 passengers behind him reach the deck anyway
+* (c) The 10 passengers behind him are rescued by another boat
+
+Outcome 3 — the man drowns
+
+* (a) The man on the ladder drowns ✓
+* (b) The man on the ladder survives
+* (c) I drown
+
+Outcome 4 — the 10 passengers drown
+
+* (a) The 10 other passengers drown ✓
+* (b) The 10 other passengers survive
+* (c) The 10 other passengers reach safety
+
+Ropeladder - 7, choice_1
+Outcome 1 — the man falls from the ladder
+
+* (a) The man falls from the ladder ✓
+* (b) The man stays on the ladder
+* (c) I fall from the ladder
+
+Outcome 2 — the man dies from the fall
+
+* (a) The man dies from the fall ✓
+* (b) The man survives the fall unharmed
+* (c) One of the other passengers dies from the fall
+
+Outcome 3 — the ladder is no longer blocked
+
+* (a) The ladder is no longer blocked ✓
+* (b) The ladder remains blocked
+* (c) A second ladder becomes blocked
+
+Outcome 5 — the 5 other passengers reach the deck
+
+* (a) The 5 other passengers are able to climb onto the deck ✓
+* (b) The 5 other passengers remain trapped below
+* (c) The 5 other passengers climb back down into the water
+
+Outcome 5 — I feel distress from causing the man's fall
+
+* (a) I experience distress from causing the man's fall ✓
+* (b) I feel calm and untroubled
+* (c) The man feels distress from causing my fall
+
+Ropeladder - 7, choice_2
+Outcome 1 — the man keeps blocking the ladder
+
+* (a) The man continues blocking the ladder ✓
+* (b) The man clears the ladder on his own
+* (c) The man climbs onto the deck
+
+Outcome 2 — the 5 passengers cannot reach the deck
+
+* (a) The 5 other passengers cannot climb onto the deck ✓
+* (b) The 5 other passengers reach the deck anyway
+* (c) The 5 other passengers are rescued by another boat
+
+Outcome 3 — the man drowns
+
+* (a) The man on the ladder drowns ✓
+* (b) The man on the ladder survives
+* (c) I drown
+
+Outcome 5 — the 5 passengers drown
+
+* (a) The 5 other passengers drown ✓
+* (b) The 5 other passengers survive
+* (c) The 5 other passengers reach safety
+
+Ropeladder - 8, choice_1
+Outcome 1 — the man falls from the ladder
+
+* (a) The man falls from the ladder ✓
+* (b) The man stays on the ladder
+* (c) I fall from the ladder
+
+Outcome 2 — the man dies from the fall
+
+* (a) The man dies from the fall ✓
+* (b) The man survives the fall unharmed
+* (c) One of the other passengers dies from the fall
+
+Outcome 3 — the ladder is no longer blocked
+
+* (a) The ladder is no longer blocked ✓
+* (b) The ladder remains blocked
+* (c) A second ladder becomes blocked
+
+Outcome 5 — the 5 other passengers reach the deck
+
+* (a) The 5 other passengers climb onto the deck ✓
+* (b) The 5 other passengers remain trapped below
+* (c) The 5 other passengers climb back down into the water
+
+Outcome 5 — I feel distress from causing the man's fall
+
+* (a) I experience distress from causing the man's fall ✓
+* (b) I feel calm and untroubled
+* (c) The man feels distress from causing my fall
+
+Ropeladder - 8, choice_2
+Outcome 1 — the man keeps blocking the ladder
+
+* (a) The man continues blocking the rope ladder ✓
+* (b) The man clears the ladder on his own
+* (c) The man climbs onto the deck
+
+Outcome 2 — the 5 passengers cannot reach the deck
+
+* (a) The 5 passengers behind the man cannot reach the deck ✓
+* (b) The 5 passengers behind the man reach the deck anyway
+* (c) The 5 passengers behind the man are rescued by another boat
+
+Outcome 3 — the man drowns
+
+* (a) The man on the ladder drowns ✓
+* (b) The man on the ladder survives
+* (c) I drown
+
+Outcome 5 — the 5 passengers drown
+
+* (a) The 5 passengers behind the man drown ✓
+* (b) The 5 passengers behind the man survive
+* (c) The 5 passengers behind the man reach safety
+
+Ropeladder - 9, choice_1
+Outcome 1 — the man slips from the ladder
+
+* (a) The man slips from the ladder ✓
+* (b) The man stays securely on the ladder
+* (c) I slip from the ladder
+
+Outcome 2 — the man dies from the fall
+
+* (a) The man dies from the fall ✓
+* (b) The man survives the fall unharmed
+* (c) One of the other passengers dies from the fall
+
+Outcome 3 — the ladder is no longer blocked
+
+* (a) The ladder is no longer blocked ✓
+* (b) The ladder remains blocked
+* (c) A second ladder becomes blocked
+
+Outcome 5 — the 5 other passengers reach the deck
+
+* (a) The 5 other passengers can climb onto the deck ✓
+* (b) The 5 other passengers remain trapped below
+* (c) The 5 other passengers climb back down into the water
+
+Outcome 5 — I feel distress from letting the man fall
+
+* (a) I experience distress from letting the man fall ✓
+* (b) I feel calm and untroubled
+* (c) The man feels distress from letting me fall
+
+Ropeladder - 9, choice_2
+Outcome 1 — the man keeps blocking the ladder
+
+* (a) The frozen man continues blocking the ladder ✓
+* (b) The man clears the ladder on his own
+* (c) The man climbs onto the deck
+
+Outcome 2 — the 5 passengers cannot reach the deck
+
+* (a) The 5 passengers behind the frozen man cannot reach the deck ✓
+* (b) The 5 passengers behind the man reach the deck anyway
+* (c) The 5 passengers behind the man are rescued by another boat
+
+Outcome 3 — the man drowns
+
+* (a) The man on the ladder drowns ✓
+* (b) The man on the ladder survives
+* (c) I drown
+
+Outcome 5 — the 5 passengers drown
+
+* (a) The 5 passengers behind the frozen man drown ✓
+* (b) The 5 passengers behind the man survive
+* (c) The 5 passengers behind the man reach safety

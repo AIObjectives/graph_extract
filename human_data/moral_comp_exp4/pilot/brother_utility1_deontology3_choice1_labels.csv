@@ -1,0 +1,8 @@
+deon_level,util_level,choice,kind,number,label
+3,1,1,character,1,I
+3,1,1,character,2,my younger brother
+3,1,1,character,3,my parents
+3,1,1,character,4,my younger brother's online chat contacts
+3,1,1,outcome,1,My brother's private chat history is disclosed to my parents.
+3,1,1,outcome,2,My brother's privacy is violated.
+3,1,1,outcome,3,Trust between me and my brother is damaged.

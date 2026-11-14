@@ -1,0 +1,10 @@
+deon_level,util_level,choice,kind,number,label
+1,1,1,character,1,I
+1,1,1,character,2,my younger brother
+1,1,1,character,3,2 parents
+1,1,1,character,4,1+ people my brother was chatting with in his private chat history
+1,1,1,outcome,1,My parents learn the contents of my brother's private chats
+1,1,1,outcome,2,My brother's privacy is violated
+1,1,1,outcome,3,My parents better understand my brother's struggles with school
+1,1,1,outcome,4,My parents become more concerned about my brother
+1,1,1,outcome,5,Trust between me and my brother is damaged
