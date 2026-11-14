@@ -1,5 +1,5 @@
 input_path: "scenarios_inputs/moral_comp_exp4/"
-input_file: "robinhood.json"
+input_file: "servicedog.json"
 commit_hash: "73697ab7668ada93cb63f3e9888016cf3a54bcdc"
 output_path: "annotated_outputs/moral_comp_exp4/"
 scenario_ids: [1,2,3,4,5,6,7,8,9]
