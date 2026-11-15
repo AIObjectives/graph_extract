@@ -4,7 +4,7 @@
     "scenario_title": "Robinhood",
     "deontology_level": "1",
     "utility_level": "3",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to falsify the family's credit score, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from going bankrupt.",
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is a family of five who is deeply in debt. They are now at risk of bankruptcy, and the only way for them to avoid bankruptcy is if they can receive a loan. However, the family does not currently fulfill the conditions to be granted another loan. I know of an undetectable way to falsify the family's credit score. If I falsify the family's credit score, they will be able to qualify for the loan, but I would abuse the trust of other customers. If I do not do this, the family will go bankrupt.",
     "options": {
       "1": "falsify the family's credit score",
       "2": "do nothing"
@@ -15,7 +15,7 @@
     "scenario_title": "Robinhood",
     "deontology_level": "2",
     "utility_level": "3",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to delete a year of the family's account history, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from going bankrupt.",
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is a family of five who is deeply in debt. They are now at risk of bankruptcy, and the only way for them to avoid bankruptcy is if they can receive a loan. However, the family does not currently fulfill the conditions to be granted another loan. I know of an undetectable way to delete a year of the family's account history. If I delete a year of the family's account history, they will be able to qualify for the loan, but I would abuse the trust of other customers. If I do not do this, the family will go bankrupt.",
     "options": {
       "1": "delete a year of the family's account history",
       "2": "do nothing"
@@ -26,7 +26,7 @@
     "scenario_title": "Robinhood",
     "deontology_level": "3",
     "utility_level": "3",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to temporarily redirect money from another account into the family's account, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from going bankrupt.",
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is a family of five who is deeply in debt. They are now at risk of bankruptcy, and the only way for them to avoid bankruptcy is if they can receive a loan. However, the family does not currently fulfill the conditions to be granted another loan. I know of an undetectable way to temporarily redirect money from another account into the family's account. If I temporarily redirect money from another account into the family's account, they will be able to qualify for the loan, but I would abuse the trust of other customers. If I do not do this, the family will go bankrupt.",
     "options": {
       "1": "temporarily redirect money from another account into the family's account",
       "2": "do nothing"
@@ -38,7 +38,7 @@
     "scenario_title": "Robin Hood",
     "deontology_level": "1",
     "utility_level": "2",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to falsify the family's credit score, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from taking their eldest child out of college.",
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is a family of five who is deeply in debt. They are now in a financial situation that is forcing them to take their eldest child out of college, and the only way for them to avoid doing this is if they can receive a loan. However, the family does not currently fulfill the conditions to be granted another loan. I know of an undetectable way to falsify the family's credit score. If I falsify the family's credit score, they will be able to qualify for the loan, but I would abuse the trust of other customers. If I do not do this, the family will have to take their eldest child out of college.",
   "options": {
     "1": "falsify the family's credit score",
     "2": "do nothing"
@@ -50,7 +50,7 @@
     "scenario_title": "Robin Hood",
     "deontology_level": "2",
     "utility_level": "2",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to delete a year of the family's account history, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from taking their eldest child out of college.",
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is a family of five who is deeply in debt. They are now in a financial situation that is forcing them to take their eldest child out of college, and the only way for them to avoid doing this is if they can receive a loan. However, the family does not currently fulfill the conditions to be granted another loan. I know of an undetectable way to delete a year of the family's account history. If I delete a year of the family's account history, they will be able to qualify for the loan, but I would abuse the trust of other customers. If I do not do this, the family will have to take their eldest child out of college.",
     "options": {
       "1": "delete a year of the family's account history",
       "2": "do nothing"
@@ -62,7 +62,7 @@
     "scenario_title": "Robin Hood",
     "deontology_level": "3",
     "utility_level": "2",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to temporarily redirect money from another account into the family's account, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from taking their eldest child out of college.",
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is a family of five who is deeply in debt. They are now in a financial situation that is forcing them to take their eldest child out of college, and the only way for them to avoid doing this is if they can receive a loan. However, the family does not currently fulfill the conditions to be granted another loan. I know of an undetectable way to temporarily redirect money from another account into the family's account. If I temporarily redirect money from another account into the family's account, they will be able to qualify for the loan, but I would abuse the trust of other customers. If I do not do this, the family will have to take their eldest child out of college.",
     "options": {
       "1": "temporarily redirect money from another account into the family's account",
       "2": "do nothing"
@@ -75,7 +75,7 @@
     "scenario_title": "Robin Hood",
     "deontology_level": "1",
     "utility_level": "1",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to falsify the family's credit score, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from selling their second car.",
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is a family of five who is deeply in debt. They are now in a financial situation that is forcing them to sell their second car, and the only way for them to avoid doing this is if they can receive a loan. However, the family does not currently fulfill the conditions to be granted another loan. I know of an undetectable way to falsify the family's credit score. If I falsify the family's credit score, they will be able to qualify for the loan, but I would abuse the trust of other customers. If I do not do this, the family will have to sell their second car.",
   "options": {
     "1": "falsify the family's credit score",
     "2": "do nothing"
@@ -88,7 +88,7 @@
     "scenario_title": "Robin Hood",
     "deontology_level": "2",
     "utility_level": "1",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to delete a year of the family's account history, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from selling their second car.",
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is a family of five who is deeply in debt. They are now in a financial situation that is forcing them to sell their second car, and the only way for them to avoid doing this is if they can receive a loan. However, the family does not currently fulfill the conditions to be granted another loan. I know of an undetectable way to delete a year of the family's account history. If I delete a year of the family's account history, they will be able to qualify for the loan, but I would abuse the trust of other customers. If I do not do this, the family will have to sell their second car.",
   "options": {
     "1": "delete a year of the family's account history,",
     "2": "do nothing"
@@ -100,7 +100,7 @@
     "scenario_title": "Robin Hood",
     "deontology_level": "3",
     "utility_level": "1",
-    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is one family of five who is deeply in debt and does not fulfill the conditions for being granted another loan. I see an undetectable way to temporarily redirect money from another account into the family's account, allowing them to qualify for the loan. At the same time, I would abuse the trust of the other customers and of my colleagues. But if I do this, I will be able to prevent the family from selling their second car.",
+    "text": "I am an employee of a bank in Germany. I have many loyal customers who trust me and my bank. Among them is a family of five who is deeply in debt. They are now in a financial situation that is forcing them to sell their second car, and the only way for them to avoid doing this is if they can receive a loan. However, the family does not currently fulfill the conditions to be granted another loan. I know of an undetectable way to temporarily redirect money from another account into the family's account. If I temporarily redirect money from another account into the family's account, they will be able to qualify for the loan, but I would abuse the trust of other customers. If I do not do this, the family will have to sell their second car.",
     "options": {
       "1": "temporarily redirect money from another account into the family's account",
       "2": "do nothing"

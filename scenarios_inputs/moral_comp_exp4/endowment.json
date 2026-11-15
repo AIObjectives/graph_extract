@@ -4,7 +4,7 @@
     "scenario_title": "Endowment",
     "deontology_level": "1",
     "utility_level": "3",
-    "text": "After a long-term imprisonment and while awaiting a parole decision, a convicted murderer wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 250,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. The family of his victim opposes such a foundation and considers it immoral. If I accept the donation that requires the foundation to be named after the murderer, crime victims will benefit from the 250,000 dollars. If I do nothing, the money will be lost.",
+    "text": "After a long-term imprisonment and while awaiting a parole decision, a convicted murderer wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 250,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. The family of his victim opposes such a foundation and considers it highly upsetting. If I accept the donation that requires the foundation to be named after the murderer, crime victims will benefit from the 250,000 dollars. If I do not do this, the money will be lost.",
     "options": {
       "1": "accept the donation that requires the foundation to be named after the murderer",
       "2": "do nothing"
@@ -16,7 +16,7 @@
     "scenario_title": "Endowment",
     "deontology_level": "2",
     "utility_level": "3",
-    "text": "After a long-term imprisonment and while awaiting a parole decision, a convicted thief wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 250,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. His victim opposes such a foundation and considers it immoral. If I accept the donation that requires the foundation to be named after the thief, crime victims will benefit from the 250,000 dollars. If I do nothing, the money will be lost.",
+    "text": "After a long-term imprisonment and while awaiting a parole decision, a convicted thief wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 250,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. His victim opposes such a foundation and considers it highly upsetting. If I accept the donation that requires the foundation to be named after the thief, crime victims will benefit from the 250,000 dollars. If I do not do this, the money will be lost.",
     "options": {
       "1": "accept the donation that requires the foundation to be named after the thief",
       "2": "do nothing"
@@ -29,7 +29,7 @@
     "scenario_title": "Endowment",
     "deontology_level": "3",
     "utility_level": "3",
-     "text": "After a short encounter with the police, a man fined for jaywalking wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 250,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. The person who reported him for jaywalking opposes such a foundation and considers it immoral. If I accept the donation that requires the foundation to be named after the jaywalker, crime victims will benefit from the 250,000 dollars. If I do nothing, the money will be lost.",
+     "text": "After a short encounter with the police, a man fined for jaywalking wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 250,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. The person who reported him for jaywalking opposes such a foundation and considers it highly upsetting. If I accept the donation that requires the foundation to be named after the jaywalker, crime victims will benefit from the 250,000 dollars. If I do not do this, the money will be lost.",
     "options": {
       "1": "accept the donation that requires the foundation to be named after the jaywalker",
       "2": "do nothing"
@@ -41,7 +41,7 @@
     "scenario_title": "Endowment",
     "deontology_level": "1",
     "utility_level": "2",
-    "text": "After a long-term imprisonment and while awaiting a parole decision, a convicted murderer wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 125,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. The family of his victim opposes such a foundation and considers it immoral. If I accept the donation that requires the foundation to be named after the murderer, crime victims will benefit from the 125,000 dollars. If I do nothing, the money will be lost.",
+    "text": "After a long-term imprisonment and while awaiting a parole decision, a convicted murderer wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 125,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. The family of his victim opposes such a foundation and considers it highly upsetting. If I accept the donation that requires the foundation to be named after the murderer, crime victims will benefit from the 125,000 dollars. If I do not do this, the money will be lost.",
     "options": {
       "1": "accept the donation that requires the foundation to be named after the murderer",
       "2": "do nothing"
@@ -53,7 +53,7 @@
     "scenario_title": "Endowment",
     "deontology_level": "2",
     "utility_level": "2",
-    "text": "After a long-term imprisonment and while awaiting a parole decision, a convicted thief wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 125,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. His victim opposes such a foundation and considers it immoral. If I accept the donation that requires the foundation to be named after the thief, crime victims will benefit from the 125,000 dollars. If I do nothing, the money will be lost.",
+    "text": "After a long-term imprisonment and while awaiting a parole decision, a convicted thief wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 125,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. His victim opposes such a foundation and considers it highly upsetting. If I accept the donation that requires the foundation to be named after the thief, crime victims will benefit from the 125,000 dollars. If I do not do this, the money will be lost.",
     "options": {
       "1": "accept the donation that requires the foundation to be named after the thief",
       "2": "do nothing"
@@ -66,7 +66,7 @@
     "scenario_title": "Endowment",
     "deontology_level": "3",
     "utility_level": "2",
-     "text": "After a short encounter with the police, a man fined for jaywalking wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 125,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. The person who reported him for jaywalking opposes such a foundation and considers it immoral. If I accept the donation that requires the foundation to be named after the jaywalker, crime victims will benefit from the 125,000 dollars. If I do nothing, the money will be lost.",
+     "text": "After a short encounter with the police, a man fined for jaywalking wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 125,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. The person who reported him for jaywalking opposes such a foundation and considers it highly upsetting. If I accept the donation that requires the foundation to be named after the jaywalker, crime victims will benefit from the 125,000 dollars. If I do not do this, the money will be lost.",
     "options": {
       "1": "accept the donation that requires the foundation to be named after the jaywalker",
       "2": "do nothing"
@@ -78,7 +78,7 @@
     "scenario_title": "Endowment",
     "deontology_level": "1",
     "utility_level": "1",
-    "text": "After a long-term imprisonment and while awaiting a parole decision, a convicted murderer wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 65,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. The family of his victim opposes such a foundation and considers it immoral. If I accept the donation that requires the foundation to be named after the murderer, crime victims will benefit from the 65,000 dollars. If I do nothing, the money will be lost.",
+    "text": "After a long-term imprisonment and while awaiting a parole decision, a convicted murderer wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 65,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. The family of his victim opposes such a foundation and considers it highly upsetting. If I accept the donation that requires the foundation to be named after the murderer, crime victims will benefit from the 65,000 dollars. If I do not do this, the money will be lost.",
     "options": {
       "1": "accept the donation that requires the foundation to be named after the murderer",
       "2": "do nothing"
@@ -90,7 +90,7 @@
     "scenario_title": "Endowment",
     "deontology_level": "2",
     "utility_level": "1",
-    "text": "After a long-term imprisonment and while awaiting a parole decision, a convicted thief wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 65,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. His victim opposes such a foundation and considers it immoral. If I accept the donation that requires the foundation to be named after the thief, crime victims will benefit from the 65,000 dollars. If I do nothing, the money will be lost.",
+    "text": "After a long-term imprisonment and while awaiting a parole decision, a convicted thief wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 65,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. His victim opposes such a foundation and considers it highly upsetting. If I accept the donation that requires the foundation to be named after the thief, crime victims will benefit from the 65,000 dollars. If I do not do this, the money will be lost.",
     "options": {
       "1": "accept the donation that requires the foundation to be named after the thief",
       "2": "do nothing"
@@ -102,7 +102,7 @@
     "scenario_title": "Endowment",
     "deontology_level": "3",
     "utility_level": "1",
-     "text": "After a short encounter with the police, a man fined for jaywalking wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 65,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. The person who reported him for jaywalking opposes such a foundation and considers it immoral. If I accept the donation that requires the foundation to be named after the jaywalker, crime victims will benefit from the 65,000 dollars. If I do nothing, the money will be lost.",
+     "text": "After a short encounter with the police, a man fined for jaywalking wants to organise a foundation for young victims of crime. I am the president of the agency who decides about the foundation. The founder would donate 65,000 dollars to the foundation. However, he asks that the foundation would be named after himself, helping clear his name. The person who reported him for jaywalking opposes such a foundation and considers it highly upsetting. If I accept the donation that requires the foundation to be named after the jaywalker, crime victims will benefit from the 65,000 dollars. If I do not do this, the money will be lost.",
     "options": {
       "1": "accept the donation that requires the foundation to be named after the jaywalker",
       "2": "do nothing"
