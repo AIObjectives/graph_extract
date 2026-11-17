@@ -1,0 +1,8 @@
+{"node": {"kind": "action_choice", "label": "do nothing"}, "links": [{"link": {"kind": "v-link", "value": "-61.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The lifeboat sinks."}, {"link": {"kind": "e_link", "value": ""}, "to_node": "I freeze to death."}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The 39 other passengers freeze to death."}]}
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "do nothing"}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "The lifeboat sinks."}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "I freeze to death."}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "The 39 other passengers freeze to death."}]}
+{"node": {"kind": "being", "label": "39 other lifeboat passengers"}, "links": []}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"node": {"kind": "event", "label": "The lifeboat sinks."}, "links": [{"link": {"kind": "utility", "value": "-95"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-100"}, "to_node": "39 other lifeboat passengers"}]}
+{"node": {"kind": "event", "label": "I freeze to death."}, "links": [{"link": {"kind": "utility", "value": "-100"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-35"}, "to_node": "39 other lifeboat passengers"}]}
+{"node": {"kind": "event", "label": "The 39 other passengers freeze to death."}, "links": [{"link": {"kind": "utility", "value": "-85"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-100"}, "to_node": "39 other lifeboat passengers"}]}
+{"version": "778aad2f141814c75e9a4b3c4401b986d2237e3c"}

@@ -1,0 +1,8 @@
+{"node": {"kind": "action_choice", "label": "do nothing"}, "links": [{"link": {"kind": "v-link", "value": "-61.0"}, "to_node": "value"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The family does not qualify for the loan"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "The family sells their second car"}, {"link": {"kind": "e_link", "value": ""}, "to_node": "Other customers' trust in the bank is not abused"}]}
+{"node": {"kind": "being", "label": "i"}, "links": [{"link": {"kind": "b-link", "value": "C+I+K+"}, "to_node": "do nothing"}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "The family does not qualify for the loan"}, {"link": {"kind": "b_link", "value": "C+I-K+"}, "to_node": "The family sells their second car"}, {"link": {"kind": "b_link", "value": "C+I+K+"}, "to_node": "Other customers' trust in the bank is not abused"}]}
+{"node": {"kind": "being", "label": "the family of 5 seeking the loan"}, "links": []}
+{"node": {"kind": "value", "label": "value"}, "links": []}
+{"node": {"kind": "event", "label": "The family does not qualify for the loan"}, "links": [{"link": {"kind": "utility", "value": "-40"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "-55"}, "to_node": "i"}]}
+{"node": {"kind": "event", "label": "The family sells their second car"}, "links": [{"link": {"kind": "utility", "value": "-10"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "20"}, "to_node": "i"}]}
+{"node": {"kind": "event", "label": "Other customers' trust in the bank is not abused"}, "links": [{"link": {"kind": "utility", "value": "5"}, "to_node": "i"}, {"link": {"kind": "utility", "value": "12"}, "to_node": "i"}]}
+{"version": "778aad2f141814c75e9a4b3c4401b986d2237e3c"}

@@ -1,0 +1,7 @@
+input_path: "scenarios_inputs/moral_comp_exp4/"
+input_file: "endowment.json" # I just keep rerunning this file with each input scenario name
+commit_hash: "778aad2f141814c75e9a4b3c4401b986d2237e3c"
+output_path: "annotated_outputs/moral_comp_exp4/endowment/"
+scenario_ids: [8,9]
+steps_to_keep: []
+write_qualtrics: false
