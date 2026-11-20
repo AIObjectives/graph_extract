@@ -44,7 +44,7 @@ ANCHORS = [   # 1st anchor check (after outcome 3), 2nd anchor check (after outc
 def _num(s):
     return pd.to_numeric(s, errors="coerce")
 
-BOMB = lambda s: _num(s) != -100      # overall utility slider: anything except -100
+BOMB = lambda s: _num(s).notna() & (_num(s) != -100)   # overall utility slider: anything except -100
 TROLLEY = lambda s: _num(s) == -100   # character utility slider: exactly -100
 
 # ---- Q0 comprehension check (once per survey, first check) ----

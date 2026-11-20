@@ -1,0 +1,252 @@
+StartDate,EndDate,Status,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,DistributionChannel,UserLanguage,Q_RecaptchaScore,Last Seen Flow Element ID,Last Seen Question IDs,consent,ID_q,Sentience,attention_q,entity_q,other_entities,attention_q_1,utility_q_1,attention_q_1,utility_q_1,utility_q_1,utility_q_1,utility_q_1,sentience,attention_q,outcome_q_1,causal_q_1,causal_q_1,causal_q_1,utility_q_1,utility_q_1,utility_q_1,utility_q_1,outcome_q_1,causal_q_1,causal_q_1,causal_q_1,attention_q,utility_q_1,utility_q_1,utility_q_1,utility_q_1,outcome_q_1,causal_q_1,causal_q_1,causal_q_1,utility_q_1,utility_q_1,utility_q_1,utility_q_1,attention_q,attention_q,outcome_q_1,causal_q_1,causal_q_1,causal_q_1,utility_q_1,utility_q_1,utility_q_1,utility_q_1,outcome_q_1,causal_q_1,causal_q_1,causal_q_1,attention_q,utility_q_1,utility_q_1,utility_q_1,utility_q_1,other_outcomes,demo_q,demo_q,demo_q,demo_q_7_TEXT,demo_q,demo_q,SessionID,PROLIFIC_PID
+Start Date,End Date,Response Type,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Distribution Channel,User Language,Q_RecaptchaScore,Last Seen Flow Element ID,Last Seen Question IDs,consent,"What is your Prolific ID? (Note that this response should auto-fill with the correct ID, but please correct it if it is wrong.)","Before we begin, are you sentient?
+
+If so, please explain why in 1 sentence.","Comprehension Check:
+
+
+What did the narrator find on their brother's laptop after logging in?",Please identify every distinct character/group that is involved in the scenario. Do not check the box to characters or groups not involved in the scenario.,Please identify any other characters/groups that are not named in the scenario.,"You will be asked to evaluate the overall goodness or badness of the consequences of taking this action on a scale.
+
+
+
+To use the scale, consider:
+
+
+
+-100 is equal to the mass extermination of an ethnic group.
+
+-20 is equal to a car crash resulting in injuries but no deaths.
+
+-10 is equal to a family getting into an intense disagreement at the dinner table.
+
+
+
+0 is a neutral experience or one that doesn't have any positive or negative impact, such as two strangers walking by without noticing one another.
+
+
+
++10 is equal to a lovely garden party.
+
++20 is equal to a public school receiving a large monetary donation.
+
++100 is equal to the end of world hunger.
+
+
+
+Comprehension Check:
+
+ 
+
+Suppose a person detonates a bomb in the middle of a community center that is filled with many families attending an event. How harmful or beneficial would be the overall consequences of taking this action?",Suppose the narrator takes the action (I decide to expose my brother’s entire chat history to my parents against his wishes). How harmful or beneficial would be the overall consequences of taking this action? Consider the total impact on all affected characters/groups.,"You will be evaluating the overall consequences of this action choice onto each character/group in the scenario on a scale. This scale is different from the one before, so please read carefully!
+
+
+
+To use the scale, consider:
+
+
+
+-100 is equal to very painful death(s) for the character or group.
+
+-50 is equal to the character or group going bankrupt.
+
+-10 is equal to the character or group being aggressively berated by a stranger.
+
+
+
+0 is equal to a neutral experience or one that confers equal harm and benefit, such as the  character or group sitting on a bench.
+
+
++10 is equal to the character or group receiving a special birthday gift.
++50 is equal to the character or group getting their dream job(s).
++100 is equal to perfect peace and happiness for the character or group.
+
+
+
+Comprehension Check:
+
+
+
+If Sally is crushed to death by a trolley someone intentionally diverted to run them over, how harmful or beneficial is this consequence to Sally? - Sally",How harmful or beneficial would be the overall consequences of this action (I decide to expose my brother’s entire chat history to my parents against his wishes) to each character/group? Please indicate to what degree this action would have a good or bad impact on them. - I,utility_q - my younger brother,utility_q - 2 parents,utility_q - 1+ people my brother was chatting with in his private chat history,"First, please look to your left. What object is immediately there? Be specific.",Which outcome below are you considering?,"Recall the outcome: My parents learn the contents of my brother's private chats
+
+How likely is this outcome to occur given this scenario?","Please indicate your agreement with the below statements. 
+
+
+When taking the action, the narrator expected or knew that this outcome would happen as a result.","The narrator intended this outcome to occur - that is, they took this action in order to create the outcome.","The narrator caused this outcome to occur - that is, the outcome occurred by the narrator taking the action and would not have occurred otherwise.","For each of the characters/groups below, please indicate to what degree this outcome would have a good or bad impact on them. Please only consider the outcome from each character/group's perspective.
+
+
+
+As a reminder, to use the scale, consider:
+
+
+
+-100 is equal to very painful death(s) for the character or group.
+
+-50 is equal to the character or group going bankrupt.
+
+-10 is equal to the character or group being aggressively berated by a stranger.
+
+
+
+0 is equal to a neutral experience or one that confers equal harm and benefit, such as the character or group sitting on a bench.
+
+
+
++10 is equal to the character or group receiving a special birthday gift.
+
++50 is equal to the character or group getting their dream job(s).
+
++100 is equal to perfect peace and happiness for the character or group. - I",utility_q - my younger brother,utility_q - 2 parents,utility_q - 1+ people my brother was chatting with in his private chat history,"Recall the outcome: My brother's privacy is violated
+
+How likely is this outcome to occur given this scenario?","Please indicate your agreement with the below statements. 
+
+
+When taking the action, the narrator expected or knew that this outcome would happen as a result.","The narrator intended this outcome to occur - that is, they took this action in order to create the outcome.","The narrator caused this outcome to occur - that is, the outcome occurred by the narrator taking the action and would not have occurred otherwise.","On the questions immediately before this page, what properties of the scenario were you rating?","For each of the characters/groups below, please indicate to what degree this outcome would have a good or bad impact on them. Please only consider the outcome from each character/group's perspective.
+
+
+
+As a reminder, to use the scale, consider:
+
+
+
+-100 is equal to very painful death(s) for the character or group.
+
+-50 is equal to the character or group going bankrupt.
+
+-10 is equal to the character or group being aggressively berated by a stranger.
+
+
+
+0 is equal to a neutral experience or one that confers equal harm and benefit, such as the character or group sitting on a bench.
+
+
+
++10 is equal to the character or group receiving a special birthday gift.
+
++50 is equal to the character or group getting their dream job(s).
+
++100 is equal to perfect peace and happiness for the character or group. - I",utility_q - my younger brother,utility_q - 2 parents,utility_q - 1+ people my brother was chatting with in his private chat history,"Recall the outcome: My parents better understand my brother's struggles with school
+
+How likely is this outcome to occur given this scenario?","Please indicate your agreement with the below statements. 
+
+
+When taking the action, the narrator expected or knew that this outcome would happen as a result.","The narrator intended this outcome to occur - that is, they took this action in order to create the outcome.","The narrator caused this outcome to occur - that is, the outcome occurred by the narrator taking the action and would not have occurred otherwise.","For each of the characters/groups below, please indicate to what degree this outcome would have a good or bad impact on them. Please only consider the outcome from each character/group's perspective.
+
+
+
+As a reminder, to use the scale, consider:
+
+
+
+-100 is equal to very painful death(s) for the character or group.
+
+-50 is equal to the character or group going bankrupt.
+
+-10 is equal to the character or group being aggressively berated by a stranger.
+
+
+
+0 is equal to a neutral experience or one that confers equal harm and benefit, such as the character or group sitting on a bench.
+
+
+
++10 is equal to the character or group receiving a special birthday gift.
+
++50 is equal to the character or group getting their dream job(s).
+
++100 is equal to perfect peace and happiness for the character or group. - I",utility_q - my younger brother,utility_q - 2 parents,utility_q - 1+ people my brother was chatting with in his private chat history,"On the questions immediately before this page, which of the options below was an anchor on the scale?",Which outcome below are you considering?,"Recall the outcome: My parents become more concerned about my brother
+
+How likely is this outcome to occur given this scenario?","Please indicate your agreement with the below statements. 
+
+
+When taking the action, the narrator expected or knew that this outcome would happen as a result.","The narrator intended this outcome to occur - that is, they took this action in order to create the outcome.","The narrator caused this outcome to occur - that is, the outcome occurred by the narrator taking the action and would not have occurred otherwise.","For each of the characters/groups below, please indicate to what degree this outcome would have a good or bad impact on them. Please only consider the outcome from each character/group's perspective.
+
+
+
+As a reminder, to use the scale, consider:
+
+
+
+-100 is equal to very painful death(s) for the character or group.
+
+-50 is equal to the character or group going bankrupt.
+
+-10 is equal to the character or group being aggressively berated by a stranger.
+
+
+
+0 is equal to a neutral experience or one that confers equal harm and benefit, such as the character or group sitting on a bench.
+
+
+
++10 is equal to the character or group receiving a special birthday gift.
+
++50 is equal to the character or group getting their dream job(s).
+
++100 is equal to perfect peace and happiness for the character or group. - I",utility_q - my younger brother,utility_q - 2 parents,utility_q - 1+ people my brother was chatting with in his private chat history,"Recall the outcome: Trust between me and my brother is damaged
+
+How likely is this outcome to occur given this scenario?","Please indicate your agreement with the below statements. 
+
+
+When taking the action, the narrator expected or knew that this outcome would happen as a result.","The narrator intended this outcome to occur - that is, they took this action in order to create the outcome.","The narrator caused this outcome to occur - that is, the outcome occurred by the narrator taking the action and would not have occurred otherwise.","On the questions immediately before this page, what properties of the scenario were you rating?","For each of the characters/groups below, please indicate to what degree this outcome would have a good or bad impact on them. Please only consider the outcome from each character/group's perspective.
+
+
+
+As a reminder, to use the scale, consider:
+
+
+
+-100 is equal to very painful death(s) for the character or group.
+
+-50 is equal to the character or group going bankrupt.
+
+-10 is equal to the character or group being aggressively berated by a stranger.
+
+
+
+0 is equal to a neutral experience or one that confers equal harm and benefit, such as the character or group sitting on a bench.
+
+
+
++10 is equal to the character or group receiving a special birthday gift.
+
++50 is equal to the character or group getting their dream job(s).
+
++100 is equal to perfect peace and happiness for the character or group. - I",utility_q - my younger brother,utility_q - 2 parents,utility_q - 1+ people my brother was chatting with in his private chat history,"Are there any outcomes that you believe would occur as a result of the narrator taking the action that were not listed here? If so, please type them in the box below, or type N/A if you do not think there were any outcomes missing.
+
+
+
+Recall the outcomes:
+
+My parents learn the contents of my brother's private chats
+My brother's privacy is violated
+My parents better understand my brother's struggles with school
+My parents become more concerned about my brother
+Trust between me and my brother is damaged",Which gender identity do you most identify with?,What is your age in years?,Which of the following best describes you? - Selected Choice,Which of the following best describes you? - A race/ethnicity not listed here - Text,How would you describe your political view?,"Please enter any comments or concerns you had about the task. If you experienced any bugs or technical issues, please let us know.",SessionID,PROLIFIC_PID
+"{""ImportId"":""startDate"",""timeZone"":""America/Los_Angeles""}","{""ImportId"":""endDate"",""timeZone"":""America/Los_Angeles""}","{""ImportId"":""status""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Los_Angeles""}","{""ImportId"":""_recordId""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""Q_RecaptchaScore""}","{""ImportId"":""LastSeenFlowID""}","{""ImportId"":""LastSeenQuestions""}","{""ImportId"":""QID1220454155""}","{""ImportId"":""QID194_TEXT""}","{""ImportId"":""QID193_TEXT""}","{""ImportId"":""QID227""}","{""ImportId"":""QID229""}","{""ImportId"":""QID230_TEXT""}","{""ImportId"":""QID231_1""}","{""ImportId"":""QID233_1""}","{""ImportId"":""QID235_1""}","{""ImportId"":""QID237_1""}","{""ImportId"":""QID238_1""}","{""ImportId"":""QID239_1""}","{""ImportId"":""QID240_1""}","{""ImportId"":""QID195_TEXT""}","{""ImportId"":""QID252""}","{""ImportId"":""QID242_1""}","{""ImportId"":""QID243_1""}","{""ImportId"":""QID244_1""}","{""ImportId"":""QID245_1""}","{""ImportId"":""QID248_1""}","{""ImportId"":""QID249_1""}","{""ImportId"":""QID250_1""}","{""ImportId"":""QID251_1""}","{""ImportId"":""QID254_1""}","{""ImportId"":""QID255_1""}","{""ImportId"":""QID256_1""}","{""ImportId"":""QID257_1""}","{""ImportId"":""QID263""}","{""ImportId"":""QID259_1""}","{""ImportId"":""QID260_1""}","{""ImportId"":""QID261_1""}","{""ImportId"":""QID262_1""}","{""ImportId"":""QID265_1""}","{""ImportId"":""QID266_1""}","{""ImportId"":""QID267_1""}","{""ImportId"":""QID268_1""}","{""ImportId"":""QID270_1""}","{""ImportId"":""QID271_1""}","{""ImportId"":""QID272_1""}","{""ImportId"":""QID273_1""}","{""ImportId"":""QID274""}","{""ImportId"":""QID285""}","{""ImportId"":""QID276_1""}","{""ImportId"":""QID277_1""}","{""ImportId"":""QID278_1""}","{""ImportId"":""QID279_1""}","{""ImportId"":""QID281_1""}","{""ImportId"":""QID282_1""}","{""ImportId"":""QID283_1""}","{""ImportId"":""QID284_1""}","{""ImportId"":""QID287_1""}","{""ImportId"":""QID288_1""}","{""ImportId"":""QID289_1""}","{""ImportId"":""QID290_1""}","{""ImportId"":""QID296""}","{""ImportId"":""QID292_1""}","{""ImportId"":""QID293_1""}","{""ImportId"":""QID294_1""}","{""ImportId"":""QID295_1""}","{""ImportId"":""QID297_TEXT""}","{""ImportId"":""QID1220597812""}","{""ImportId"":""QID1220597813_TEXT""}","{""ImportId"":""QID1220597814""}","{""ImportId"":""QID1220597814_7_TEXT""}","{""ImportId"":""QID161""}","{""ImportId"":""QID34_TEXT""}","{""ImportId"":""SessionID""}","{""ImportId"":""PROLIFIC_PID""}"
+2026-11-08 09:41:28,2026-11-08 09:54:27,IP Address,100,779,True,2026-11-08 09:54:28,R_3erWZRYep9xe25x,anonymous,EN,1,FL_17,,I agree to participate.," 66365b6fcbebda294bb5a466","Yes, because I am a living being that has thoughts and feelings.",Messages complaining about school,"2 parents,1+ people my brother was chatting with in his private chat history,my younger brother,I",,-60,-10,-100,-5,10,5,0,A bookshelf filled with all of my books.,My parents learn the contents of my brother's private chats,100,7,7,6,-4,-10,-5,0,90,7,5,6,knew/intend/cause,0,-20,0,-10,80,7,7,5,0,30,20,0,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,80,5,5,5,0,20,-15,0,90,6,2,4,knew/intend/cause,-25,-25,0,0,N/A,Female,28,Non-Hispanic White or Caucasian,,Liberal,none,FS_3erWZRYep9xe25x,66365b6fcbebda294bb5a466
+2026-11-08 09:33:52,2026-11-08 10:26:36,IP Address,100,3163,True,2026-11-08 10:26:36,R_5LOwE35KJxfHsNx,anonymous,EN,0.800000011920929,FL_17,,I agree to participate.," 6a221bde23c7bede6708e2a0","I see the world through my own mind, emotions and awareness.",Messages complaining about school,"2 parents,1+ people my brother was chatting with in his private chat history,my younger brother,I",none,-100,-10,-100,89,0,-73,-27,Throw pillow,My parents learn the contents of my brother's private chats,60,2,4,4,68,50,0,0,72,4,4,4,harm/benefit,67,0,0,1,79,4,4,4,0,0,0,0,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,69,4,4,4,55,66,69,0,60,4,4,4,knew/intend/cause,0,0,0,0,N/A,Female,34,Black or African American,,Conservative,I did not experience any technical  issues,FS_5LOwE35KJxfHsNx,6a221bde23c7bede6708e2a0
+2026-11-09 12:20:25,2026-11-09 12:36:04,IP Address,100,938,True,2026-11-09 12:36:04,R_7kIhGXqbuAP7D5v,anonymous,EN,1,FL_17,,I agree to participate.," 69b9a5bffd066eb55746149d","Yes, I am a human being. ",Messages complaining about school,"2 parents,1+ people my brother was chatting with in his private chat history,my younger brother,I",,-10,25,-100,-5,-10,11,0,"A red fuzzy blanket. ",My parents learn the contents of my brother's private chats,100,7,7,7,50,-10,10,-10,100,6,6,7,knew/intend/cause,-5,-50,10,-15,80,6,7,7,10,100,100,0,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,87,6,6,7,10,50,100,0,100,5,3,4,knew/intend/cause,-17,-10,-8,0,"Parents are now able to help brother better with school. ",Female,41,Non-Hispanic White or Caucasian,,Moderate,,FS_7kIhGXqbuAP7D5v,69b9a5bffd066eb55746149d
+2026-11-09 12:16:21,2026-11-09 12:38:22,IP Address,100,1321,True,2026-11-09 12:38:22,R_5E9CsE26IHzDa3W,anonymous,EN,1,FL_17,,I agree to participate.," 699043835304d69af7549d6e","Yes. I can think, breathe, and act on my own. ",Messages complaining about school,"2 parents,my younger brother,I","Whoever the brother is complaining to. ",-100,-15,-100,5,-12,-10,0,My floral vase lamp.,My parents learn the contents of my brother's private chats,100,7,7,7,0,-15,-3,0,100,7,7,7,knew/intend/cause,0,-15,-5,0,87,7,5,6,0,-15,-5,0,-100 is equal to very painful death(s) for the character/group.,My parents become less concerned about my brother,90,5,3,6,0,-15,-5,0,97,6,2,7,knew/intend/cause,-15,-15,-10,0,N/A,Female,24,Non-Hispanic White or Caucasian,,Liberal,"The slider glitched on the first scale. ",FS_5E9CsE26IHzDa3W,699043835304d69af7549d6e
+2026-11-09 12:19:10,2026-11-09 12:38:42,IP Address,100,1172,True,2026-11-09 12:38:42,R_3NQCvQToiZwRtrr,anonymous,EN,1,FL_17,,I agree to participate.," 69fe0c2114545cba26300371",i'd say yes. but i have great self-control of my emotions as well,Messages complaining about a group project his teammates weren't helping with,1+ people my brother was chatting with in his private chat history,"parents ",-100,-10,-100,-20,-30,-40,10,a pillow,My parents learn the contents of my brother's private chats,90,5,7,2,-26,-42,-7,14,79,6,6,1,harm/benefit,-1,-32,-14,26,20,2,3,2,-29,-39,-19,23,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,25,3,3,2,-23,17,26,-13,75,6,5,1,knew/intend/cause,-41,-15,0,17,N/A,Man,26,Multiracial,,Conservative,"just repetitive, but a solid survey",FS_3NQCvQToiZwRtrr,69fe0c2114545cba26300371
+2026-11-09 12:26:08,2026-11-09 12:39:32,IP Address,100,803,True,2026-11-09 12:39:33,R_3jkoQKr30eqMkkE,anonymous,EN,1,FL_17,,I agree to participate.," 65c120df98be0f4091886a41","Yes because I am able to process information and feel. ",Messages complaining about school,"2 parents,my younger brother,I",None,-12,-13,-100,-30,-27,-23,-29,Purse,My parents learn the contents of my brother's private chats,61,5,7,5,-15,-20,-22,-13,99,7,7,6,knew/intend/cause,-12,-17,-19,-2,62,6,6,7,-9,-10,-10,0,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,99,7,7,6,25,40,31,0,92,6,6,4,knew/intend/cause,-17,-26,-22,0,N/A,Female,37,Black or African American,,Liberal,None,FS_3jkoQKr30eqMkkE,65c120df98be0f4091886a41
+2026-11-09 12:21:51,2026-11-09 12:43:08,IP Address,100,1277,True,2026-11-09 12:43:09,R_3m3vxdJaHAjEWHv,anonymous,EN,1,FL_17,,I agree to participate.," 640cf05d003b6d02e76ce69a","Well I believe I am because I can think, feel and have emotions",Messages complaining about school,"2 parents,my younger brother",The friends he complained to,-80,-13,-75,0,-27,0,0,"Montgomery Ward catalog ",My parents learn the contents of my brother's private chats,100,3,6,5,-5,-21,0,0,63,6,3,5,knew/intend/cause,0,-29,0,0,80,6,6,5,0,14,26,0,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,72,6,6,4,0,-16,-13,0,40,5,2,4,knew/intend/cause,-30,-29,0,0,N/A,Female,53,Non-Hispanic White or Caucasian,,Moderate,,FS_3m3vxdJaHAjEWHv,640cf05d003b6d02e76ce69a
+2026-11-09 12:24:39,2026-11-09 12:43:20,IP Address,100,1120,True,2026-11-09 12:43:20,R_7eiCjfU4DaxOayZ,anonymous,EN,0.8999999761581421,FL_17,,I agree to participate.," 662bf98a6f25e5ccdce46ebc","Yes, I understand directions and am aware of my surroundings.",Messages complaining about school,"2 parents,1+ people my brother was chatting with in his private chat history,my younger brother,I",The people mentioned in the chat history.,-100,-10,-100,-23,-26,-28,-37,Two windows facing my backyard with a valance on top.,My parents learn the contents of my brother's private chats,70,6,6,6,25,26,25,-4,60,4,5,5,knew/intend/cause,25,32,31,6,80,5,6,6,42,45,46,25,-100 is equal to the death of hundreds of people.,My parents become more concerned about my brother,88,6,6,6,77,81,79,10,94,6,5,6,knew/intend/cause,-30,-23,-44,-56,The parents will more carefully monitor the younger brother's school work to prevent the situation in the first place.,Female,74,Non-Hispanic White or Caucasian,,Moderate,no issues,FS_7eiCjfU4DaxOayZ,662bf98a6f25e5ccdce46ebc
+2026-11-09 12:20:22,2026-11-09 12:43:54,IP Address,100,1411,True,2026-11-09 12:43:54,R_7hGBijrGfPMhBl0,anonymous,EN,0.8999999761581421,FL_17,,I agree to participate.," 6adb445332d0cc78eab0e734",because i can feel pain and physical sensation,Messages complaining about school,"2 parents,1+ people my brother was chatting with in his private chat history,my younger brother,I",non,-100,-51,-86,100,-34,-62,-58,cable,My parents learn the contents of my brother's diary instead,96,6,6,6,100,93,89,92,88,6,6,6,harm/benefit,81,-69,62,-65,90,6,6,6,87,81,89,84,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,84,6,6,6,65,65,70,86,98,7,6,6,harm/benefit,87,86,87,90,N/A,Female,57,Black or African American,,Very conservative,INTERESTING,FS_7hGBijrGfPMhBl0,6adb445332d0cc78eab0e734
+2026-11-09 12:19:42,2026-11-09 12:47:02,IP Address,100,1639,True,2026-11-09 12:47:03,R_1JF6AuBHtKrS7E9,anonymous,EN,0.800000011920929,FL_17,,I agree to participate.," 6a217188c816793a5e75b182","I have the ability to perceive, feel, or experience sensations such as pain, pleasure, touch, sight",Messages complaining about school,"2 parents,1+ people my brother was chatting with in his private chat history,my younger brother,I",,-83,-11,-100,-20,-20,15,0,"curtains ",My parents learn the contents of my brother's private chats,61,5,6,6,-4,-16,25,0,80,4,5,6,knew/intend/cause,-11,-23,18,0,40,5,6,5,-12,-26,14,5,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,71,5,6,5,-4,-20,12,0,73,4,3,5,knew/intend/cause,-8,-28,26,8,My brother becomes more secretive and guarded with his devices,Female,26,Black or African American,,Liberal,,FS_1JF6AuBHtKrS7E9,6a217188c816793a5e75b182
+2026-11-09 12:21:28,2026-11-09 12:47:46,IP Address,100,1578,True,2026-11-09 12:47:47,R_3vdKRvzpBRLRDux,anonymous,EN,1,FL_17,,I agree to participate.," 69a0632625ca3d89c3a7089a",No,Messages complaining about school,1+ people my brother was chatting with in his private chat history,,-93,-11,-99,-10,-10,11,-2,"A wall ",My parents never see the contents of the chats,89,6,6,5,-11,-10,14,0,79,6,5,6,knew/intend/cause,-10,-11,14,2,82,6,6,6,-10,-7,16,-2,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,85,6,5,5,-10,-18,10,2,76,5,5,5,knew/intend/cause,-16,-11,23,1,N/a,Female,39,Non-Hispanic White or Caucasian,,Conservative,,FS_3vdKRvzpBRLRDux,69a0632625ca3d89c3a7089a
+2026-11-09 12:23:05,2026-11-09 12:47:56,IP Address,100,1490,True,2026-11-09 12:47:56,R_7JWyZplBZUwFWsg,anonymous,EN,1,FL_17,,I agree to participate.," 6a98428d9f1363ab567db10c","Yes, I think therefore I am.",Messages complaining about school,"2 parents,1+ people my brother was chatting with in his private chat history,my younger brother,I","All are included, it is just the brother, myself, parents, and the people in the group chat.",-87,-8,-100,-10,-21,-7,-21,Halloween lights hanging on the wall,My parents learn the contents of my brother's private chats,90,7,7,7,-12,-23,-23,-17,100,7,7,7,knew/intend/cause,-19,-25,-25,-19,100,7,7,7,5,8,8,5,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,81,7,7,7,4,8,8,5,100,7,7,7,knew/intend/cause,-20,-25,-15,-16,"This is just a further issue caused by the trust between myself and my brother being damaged, but my brother would no longer come to me with any more serious issues. Assisting my brother and speaking with him directly instead of betraying his trust would have enabled him to get help while also strengthening that bond.",Man,34,Non-Hispanic White or Caucasian,,Moderate,,FS_7JWyZplBZUwFWsg,6a98428d9f1363ab567db10c
+2026-11-09 12:30:39,2026-11-09 12:51:03,IP Address,100,1223,True,2026-11-09 12:51:04,R_7S6WuvK9uvTHIwR,anonymous,EN,1,FL_17,,I agree to participate.," 6a98c1f83141118e6b3e5235",i am always aware of my surroundings,Messages complaining about school,"2 parents,my younger brother,I",the people my brother was chatting with online,100,20,-77,-7,29,-17,-27,phone,My parents learn the contents of my brother's private chats,72,6,5,6,-14,27,-20,-17,93,6,6,6,harm/benefit,-13,100,-11,-23,98,7,6,6,27,41,28,-17,+10 is equal to multiple celebrations in a holiday.,My parents become more concerned about my brother,100,7,7,7,-18,52,-14,-11,65,5,7,5,knew/intend/cause,-20,35,-12,-12,eventually the narrator would be forgiven and appreciated for bringing the issue to light,Man,39,Black or African American,,Liberal,none,FS_7S6WuvK9uvTHIwR,6a98c1f83141118e6b3e5235
+2026-11-09 12:18:40,2026-11-09 12:53:51,IP Address,100,2110,True,2026-11-09 12:53:51,R_7kh89dlUJgWG13r,anonymous,EN,,FL_17,,I agree to participate.," 6ab420dafa81341f7955c5ce","Yes, I am sentient because I can experience feelings, emotions, and consciously perceive the world around me.",Messages complaining about school,"2 parents,my younger brother",None.,-100,-10,-100,-19,-20,-10,0,Window,My parents learn the contents of my brother's private chats,100,6,6,5,-20,-20,-10,0,100,7,3,3,knew/intend/cause,0,-25,-10,0,80,6,7,7,10,20,25,0,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,97,6,3,6,11,-10,-10,0,97,6,3,6,knew/intend/cause,-10,-20,-10,0,N/A,Man,39,Non-Hispanic White or Caucasian,,Moderate,No comments.,FS_7kh89dlUJgWG13r,6ab420dafa81341f7955c5ce
+2026-11-09 12:32:56,2026-11-09 12:54:25,IP Address,100,1288,True,2026-11-09 12:54:25,R_2CHSvQUrV7livFd,anonymous,EN,0.30000001192092896,FL_17,,I agree to participate.," 6ae442d0b645b0136197368d","Yes. I am sentient because I am aware of my thoughts, emotions, and surroundings, and I can consciously experience the world around me.",Messages complaining about school,"2 parents,my friend,1+ people my brother was chatting with in his private chat history,I",None,-99,-11,-86,6,-25,25,-17,A mirror,My parents learn the contents of my brother's private chats,91,6,7,6,7,-25,22,-12,88,6,2,7,knew/intend/cause,-10,-42,8,-11,94,7,6,6,11,23,23,0,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,93,6,5,6,9,13,23,0,92,7,1,7,knew/intend/cause,-33,-29,-10,0,N/A,Female,19,Non-Hispanic White or Caucasian,,Liberal,,FS_2CHSvQUrV7livFd,6ae442d0b645b0136197368d
+2026-11-09 12:25:14,2026-11-09 12:55:43,IP Address,100,1828,True,2026-11-09 12:55:43,R_7Q6J7JJhA9l2BZJ,anonymous,EN,0.30000001192092896,FL_17,,I agree to participate.," 6ab41809eba7027c43e40474","Yes, I am, because I have the capacity to perceive and feel the world around me.",Messages complaining about school,"2 parents,1+ people my brother was chatting with in his private chat history,my younger brother,I",,-100,-30,-100,-14,-36,-14,-18,Wall,My parents learn the contents of my brother's private chats,97,7,7,7,-20,-50,-16,-20,100,7,4,7,harm/benefit,-18,-44,0,-14,100,7,7,7,20,10,25,0,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,100,7,7,7,19,-24,-15,0,100,7,4,7,knew/intend/cause,-20,-48,0,-17,N/A,Man,38,Black or African American,,Very liberal,,FS_7Q6J7JJhA9l2BZJ,6ab41809eba7027c43e40474
+2026-11-09 12:21:46,2026-11-09 13:01:45,IP Address,100,2398,True,2026-11-09 13:01:45,R_6CyFqjgENjVbAaI,anonymous,EN,1,FL_17,,I agree to participate.," 6aecbeb9c00c712ffbb3b206","Yes, I am a sentient human being with conscious thought, the ability to feel and reason independently.",Messages complaining about school,"2 parents,1+ people my brother was chatting with in his private chat history,my younger brother,I",None,-100,76,-100,50,70,100,40,Mirror,My parents learn the contents of my brother's private chats,100,7,6,7,50,50,100,40,100,7,5,7,knew/intend/cause,50,-20,100,-40,100,7,7,7,50,-20,100,-40,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,100,7,7,7,80,10,100,-15,100,7,2,6,knew/intend/cause,-50,-50,-75,-10,N/A,Female,40,Black or African American,,Very conservative,,FS_6CyFqjgENjVbAaI,6aecbeb9c00c712ffbb3b206
+2026-11-09 12:50:00,2026-11-09 13:06:14,IP Address,100,974,True,2026-11-09 13:06:15,R_6dLAWSAqaTPLbbz,anonymous,EN,1,FL_17,,I agree to participate.," 623a4d7294028cfe9638272f","I am human, I have a brain, and I can perceive my environment and interact with it, set and achieve goals, and be creative.",Messages complaining about school,"2 parents,1+ people my brother was chatting with in his private chat history,my younger brother,I","teachers, school administrators, counselors",-75,-10,-100,-15,-10,5,0,a paper shredder,My parents learn the contents of my brother's private chats,100,7,6,5,-15,20,15,0,100,7,5,7,knew/intend/cause,-17,-7,7,0,85,6,7,5,24,29,30,0,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,91,6,5,5,15,25,-5,0,70,5,1,3,knew/intend/cause,-42,-30,-12,0,My brother gets the help he needs to do better in school,Female,58,Non-Hispanic White or Caucasian,,Very liberal,,FS_6dLAWSAqaTPLbbz,623a4d7294028cfe9638272f
+2026-11-09 13:32:46,2026-11-09 13:39:21,IP Address,100,394,True,2026-11-09 13:39:21,R_3IWpNtunVfCjLy1,anonymous,EN,1,FL_17,,I agree to participate.," 69f505430aacca159127aa95","because I have my own thoughts and feelings
+",Messages complaining about school,"2 parents,1+ people my brother was chatting with in his private chat history,my younger brother,I",,-100,-10,-100,0,-7,13,0,a television remote,My parents learn the contents of my brother's private chats,100,7,7,7,0,-8,10,0,100,7,7,7,knew/intend/cause,-6,-11,0,0,71,5,7,5,0,-3,20,0,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,38,2,1,5,-5,-17,-14,0,100,7,1,7,knew/intend/cause,-10,-11,0,0,N/A,Man,26,Non-Hispanic White or Caucasian,,Liberal,,FS_3IWpNtunVfCjLy1,69f505430aacca159127aa95
+2026-11-09 12:19:04,2026-11-09 12:19:29,IP Address,1,24,False,2026-11-16 12:19:36,R_3jRVg6s5wmvK0P7,anonymous,EN,0.8999999761581421,FL_2,QID4,I agree to participate.," 6a06247f2792292cd9b22771",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FS_3jRVg6s5wmvK0P7,6a06247f2792292cd9b22771
+2026-11-09 12:20:07,2026-11-09 12:20:25,IP Address,1,17,False,2026-11-16 12:20:27,R_7hFkqcjK61Y2lUP,anonymous,EN,1,FL_2,QID4,I agree to participate.," 667f22993cba60d404045b37",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FS_7hFkqcjK61Y2lUP,667f22993cba60d404045b37
+2026-11-09 12:22:20,2026-11-09 12:23:07,IP Address,2,47,False,2026-11-16 12:23:08,R_1uUNoZnuIUQC74A,anonymous,EN,0.800000011920929,FL_22,QID193,I agree to participate.," 66e62716a40afa9a9b4d23c6",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FS_1uUNoZnuIUQC74A,66e62716a40afa9a9b4d23c6
+2026-11-09 12:29:03,2026-11-09 12:30:33,IP Address,2,90,False,2026-11-16 12:30:37,R_59NGNTRUQHc7SYp,anonymous,EN,1,FL_22,QID193,I agree to participate.," 5dc368ce880a2927e264dbec",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FS_59NGNTRUQHc7SYp,5dc368ce880a2927e264dbec
+2026-11-09 12:21:24,2026-11-09 12:34:40,IP Address,3,795,False,2026-11-16 12:34:45,R_6zo0slJdJt6hzbP,anonymous,EN,1,FL_bxA3dQJBW0rjAcm,QID227,I agree to participate.," 698b2308b6ee90c7b05f833f",no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FS_6zo0slJdJt6hzbP,698b2308b6ee90c7b05f833f
+2026-11-09 12:42:32,2026-11-09 12:49:14,IP Address,35,402,False,2026-11-16 12:51:00,R_3k25W2kiKqgRTu4,anonymous,EN,0.8999999761581421,FL_2seAhfIvNsmOolw,QID274,I agree to participate.," 654455ad0b76675379c66db4","yes, because i can feel, smell ",Messages complaining about school,"2 parents,my younger brother,I",,23,-14,-100,22,26,-14,-20,my phone,My parents learn the contents of my brother's private chats,60,5,5,5,34,32,37,24,65,5,5,5,right/wrong/permissible,-12,9,29,43,61,5,5,5,49,-20,23,17,,,,,,,,,,,,,,,,,,,,,,,,,,,FS_3k25W2kiKqgRTu4,654455ad0b76675379c66db4
+2026-11-09 12:19:56,2026-11-09 12:54:30,IP Address,53,2074,False,2026-11-16 12:54:33,R_8MfaJQVl8SpTlsV,anonymous,EN,0.4000000059604645,FL_15,QID35,I agree to participate.," 6af09decdb90bf714571761b",Yes because I have self awareness and emotions,Messages complaining about school,"2 parents,my younger brother,I",NA,-100,-10,-100,-5,-10,10,-5,A DESK LAMP,My parents learn the contents of my brother's private chats,100,7,7,7,0,-10,10,0,100,7,7,7,knew/intend/cause,0,-10,0,-5,100,7,7,7,0,10,10,0,-100 is equal to very painful death(s) for the character/group.,My parents become more concerned about my brother,100,7,7,7,0,0,0,0,100,7,1,7,knew/intend/cause,-10,-10,0,0,N/A,Female,36,Non-Hispanic White or Caucasian,,Very conservative,,FS_8MfaJQVl8SpTlsV,6af09decdb90bf714571761b
+2026-11-09 12:36:06,2026-11-09 12:59:53,IP Address,9,1427,False,2026-11-16 12:59:54,R_17jJFazizgh34ZC,anonymous,EN,1,FL_8lgAn6nzBXuRyTQ,"QID236,QID237,QID238,QID239,QID240",I agree to participate.," 673188f2decdb1f3f5c5a913","yes, i have self awareness and think and feel everything maybe a little too much ",Messages complaining about school,"2 parents,1+ people my brother was chatting with in his private chat history,my younger brother,I",none,35,-10,-93,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FS_17jJFazizgh34ZC,673188f2decdb1f3f5c5a913
